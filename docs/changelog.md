@@ -2,6 +2,13 @@
 
 ### What's New:
 
+!!! tip "April 30th, 2023"
+
+	- Revive the project
+	
+	- Updated the contact and about section
+
+&nbsp;
 !!! tip "April 8th, 2021"
 
 	- Added Hello Pop'n Music Guide

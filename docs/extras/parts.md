@@ -160,7 +160,6 @@
 !!! tip "ZhouSensor"
 	- Where to buy:
 		- [ZhouSensor Taobao Store(CN)](https://item.taobao.com/item.htm?id=44786039741)
-		- [YubiParts (US-based, ships internationally)](https://www.yubiparts.com/)
 
 &nbsp;
 ## Microswitches

@@ -2,11 +2,11 @@
 description: A compendium of information and guides written to ease headaches.
 ---
 
-# bemani.guide
+# Bemani Guide
 
 A compendium of information and guides written to ease headaches.
 
-Last Updated: [April 8th, 2021.](changelog.md)
+Last Updated: [August 30th, 2023.](changelog.md)
 
 Contact: [here](/about#contact)
 &nbsp;

@@ -237,7 +237,7 @@
 
 	Dao's jubeat board is also laughably bad and skilled players notice difficulties with timing and accuracy issues compared to a cab, many FB9 owners actually swap out the board for [a P4IO alternative](https://zhousensor.world.taobao.com/) that matches arcade play far better for a more accurate and enjoyable experience. The biggest difference is in [how multiple buttons are pressed](https://www.youtube.com/watch?v=Q2ptgzlEmWE) so the issue is less prominent and earlier stages in the game.
 
-	The rubbers for the buttons are also less than desirable, with a gummy and dissatisfying feeling that's prompted many to switch. [Zhousensor](https://zhousensor.world.taobao.com/) provides better replacements ([resold by YubiParts for US and international buyers](https://www.yubiparts.com/)) and official ones can be bought on sites like [Yahoo Auctions Japan](https://auctions.yahoo.co.jp/) for a reasonable price.
+	The rubbers for the buttons are also less than desirable, with a gummy and dissatisfying feeling that's prompted many to switch. [Zhousensor](https://zhousensor.world.taobao.com/) provides better replacements and official ones can be bought on sites like [Yahoo Auctions Japan](https://auctions.yahoo.co.jp/) for a reasonable price.
 
 	The controller can also slide around a bit on some less than desirable surfaces and with inexperienced play, creating a need to readjust it fairly often after songs. 
 
