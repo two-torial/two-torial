@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block site_meta %}
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex,noarchive,nofollow" />
+{% endblock %}
+
+{% set title = page.title | striptags %}
+{% if not page.is_homepage %}
+  {% if page and page.parent and page.parent.title %}
+    {% set title = page.parent.title | striptags ~ " - " ~ title %}
+  {% endif %}
+{% endif %}
+
+{% if page.meta.description %}
+  {% set desc = page.meta.description | striptags %}
+{% endif %}
+
+{% set icon = config.site_url ~ "img/icon.png" %}
+
+{% block extrahead %}
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="{{ config.site_name }}" />
+  <meta property="og:title" content="{{ title }}" />
+  <meta property="og:description" content="{{ desc }}" />
+  <meta property="og:url" content="{{ page.canonical_url }}" />
+  <meta property="og:image" content="{{ icon }}" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="64" />
+  <meta property="og:image:height" content="64" />
+{% endblock %}

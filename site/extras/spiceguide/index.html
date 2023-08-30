@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex,noarchive,nofollow" />
+
+        <title>SpiceTools Usage, Parameters, and Functionality - bemani.guide</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/darcula.min.css">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="bemani.guide" />
+  <meta property="og:title" content="Extras - SpiceTools Usage, Parameters, and Functionality" />
+  <meta property="og:description" content="" />
+  <meta property="og:url" content="None" />
+  <meta property="og:image" content="img/icon.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="64" />
+  <meta property="og:image:height" content="64" />
+
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">bemani.guide</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Games <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">IIDX</a>
+    <ul class="dropdown-menu">
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">IIDX 25</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../games/iidx25/setup/" class="dropdown-item">First Time Setup</a>
+</li>
+            
+<li>
+    <a href="../../games/iidx25/problems/" class="dropdown-item">Common Problems/Tips</a>
+</li>
+            
+<li>
+    <a href="../../games/iidx25/hexedits/" class="dropdown-item">Hex Edits</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">IIDX 26</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../games/iidx26/setup/" class="dropdown-item">First Time Setup</a>
+</li>
+            
+<li>
+    <a href="../../games/iidx26/problems/" class="dropdown-item">Common Problems/Tips</a>
+</li>
+            
+<li>
+    <a href="../../games/iidx26/hexedits/" class="dropdown-item">Hex Edits</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">IIDX 27</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../games/iidx27/setup/" class="dropdown-item">First Time Setup</a>
+</li>
+            
+<li>
+    <a href="../../games/iidx27/problems/" class="dropdown-item">Common Problems/Tips</a>
+</li>
+            
+<li>
+    <a href="../../games/iidx27/lightning/" class="dropdown-item">Lightning Mode Specifics</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">SDVX</a>
+    <ul class="dropdown-menu">
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">SDVX IV</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../games/sdvx4/setup/" class="dropdown-item">First Time Setup</a>
+</li>
+            
+<li>
+    <a href="../../games/sdvx4/problems/" class="dropdown-item">Common Problems/Tips</a>
+</li>
+            
+<li>
+    <a href="../../games/sdvx4/hexedits/" class="dropdown-item">Hex Edits</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">SDVX V</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../games/sdvx5/setup/" class="dropdown-item">First Time Setup</a>
+</li>
+            
+<li>
+    <a href="../../games/sdvx5/problems/" class="dropdown-item">Common Problems/Tips</a>
+</li>
+            
+<li>
+    <a href="../../games/sdvx5/hexedits/" class="dropdown-item">Hex Edits</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Pop&apos;n</a>
+    <ul class="dropdown-menu">
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Pop&apos;n Usaneko</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../games/popnusaneko/setup/" class="dropdown-item">First Time Setup</a>
+</li>
+            
+<li>
+    <a href="../../games/popnusaneko/problems/" class="dropdown-item">Common Problems/Tips</a>
+</li>
+            
+<li>
+    <a href="../../games/popnusaneko/hexedits/" class="dropdown-item">Hex Edits</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Pop&apos;n Peace</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../games/popnpeace/setup/" class="dropdown-item">First Time Setup</a>
+</li>
+            
+<li>
+    <a href="../../games/popnpeace/problems/" class="dropdown-item">Common Problems/Tips</a>
+</li>
+            
+<li>
+    <a href="../../games/popnpeace/hexedits/" class="dropdown-item">Hex Edits</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">HELLO Pop&apos;n</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../games/hellopopn/setup/" class="dropdown-item">First Time Setup</a>
+</li>
+            
+<li>
+    <a href="../../games/hellopopn/problems/" class="dropdown-item">Common Problems/Tips</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">DDR</a>
+    <ul class="dropdown-menu">
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">DDR Ace</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../games/ddrace/setup/" class="dropdown-item">First Time Setup</a>
+</li>
+            
+<li>
+    <a href="../../games/ddrace/problems/" class="dropdown-item">Common Problems/Tips</a>
+</li>
+            
+<li>
+    <a href="../../games/ddrace/hexedits/" class="dropdown-item">Hex Edits</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Jubeat</a>
+    <ul class="dropdown-menu">
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Jubeat Clan</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../games/jubeatclan/setup/" class="dropdown-item">First Time Setup</a>
+</li>
+            
+<li>
+    <a href="../../games/jubeatclan/problems/" class="dropdown-item">Common Problems/Tips</a>
+</li>
+            
+<li>
+    <a href="../../games/jubeatclan/hexedits/" class="dropdown-item">Hex Edits</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">GITADORA</a>
+    <ul class="dropdown-menu">
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">GITADORA Matixx</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../games/gitamatixx/setup/" class="dropdown-item">First Time Setup</a>
+</li>
+            
+<li>
+    <a href="../../games/gitamatixx/problems/" class="dropdown-item">Common Problems/Tips</a>
+</li>
+            
+<li>
+    <a href="../../games/gitamatixx/hexedits/" class="dropdown-item">Hex Edits</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">GITADORA EXCHAIN</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../games/exchain/setup/" class="dropdown-item">First Time Setup</a>
+</li>
+            
+<li>
+    <a href="../../games/exchain/problems/" class="dropdown-item">Common Problems/Tips</a>
+</li>
+            
+<li>
+    <a href="../../games/exchain/hexedits/" class="dropdown-item">Hex Edits</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Reflec Beat</a>
+    <ul class="dropdown-menu">
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Reflec Beat: Reflesia</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../games/reflesia/setup/" class="dropdown-item">First Time Setup</a>
+</li>
+            
+<li>
+    <a href="../../games/reflesia/problems/" class="dropdown-item">Common Problems/Tips</a>
+</li>
+            
+<li>
+    <a href="../../games/reflesia/hexedits/" class="dropdown-item">Hex Edits</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">NOSTALGIA</a>
+    <ul class="dropdown-menu">
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Nostalgia FORTE</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../games/nostforte/setup/" class="dropdown-item">First Time Setup</a>
+</li>
+            
+<li>
+    <a href="../../games/nostforte/problems/" class="dropdown-item">Common Problems/Tips</a>
+</li>
+            
+<li>
+    <a href="../../games/nostforte/hexedits/" class="dropdown-item">Hex Edits</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Nostalgia Op.2</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../games/nostop2/setup/" class="dropdown-item">First Time Setup</a>
+</li>
+            
+<li>
+    <a href="../../games/nostop2/problems/" class="dropdown-item">Common Problems/Tips</a>
+</li>
+            
+<li>
+    <a href="../../games/nostop2/hexedits/" class="dropdown-item">Hex Edits</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">BeatStream アニムトライヴ</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../games/beatstreamfinal/setup/" class="dropdown-item">First Time Setup</a>
+</li>
+            
+<li>
+    <a href="../../games/beatstreamfinal/problems/" class="dropdown-item">Common Problems/Tips</a>
+</li>
+            
+<li>
+    <a href="../../games/beatstreamfinal/hexedits/" class="dropdown-item">Hex Edits</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">MÚSECA 1+1/2</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../games/musecafinal/setup/" class="dropdown-item">First Time Setup</a>
+</li>
+            
+<li>
+    <a href="../../games/musecafinal/problems/" class="dropdown-item">Common Problems/Tips</a>
+</li>
+            
+<li>
+    <a href="../../games/musecafinal/hexedits/" class="dropdown-item">Hex Edits</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../errorcodes/" class="nav-link">Error Codes</a>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Extras <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../hexguide/" class="dropdown-item">Beginner Guide to Hex Editing</a>
+</li>
+                                    
+<li>
+    <a href="../ascs/" class="dropdown-item">Notes on the Most Common ASCs and Vendors</a>
+</li>
+                                    
+<li>
+    <a href="../parts/" class="dropdown-item">Arcade Parts List and Documentation</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active">SpiceTools Usage, Parameters, and Functionality</a>
+</li>
+                                    
+<li>
+    <a href="../spiceerrors/" class="dropdown-item">SpiceTools Error Messages</a>
+</li>
+                                    
+<li>
+    <a href="../pollingrates/" class="dropdown-item">List of Touchscreen Monitors and their Polling Rates</a>
+</li>
+                                    
+<li>
+    <a href="../streamaudio/" class="dropdown-item">Exclusive Audio Workarounds</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../externalresources/" class="nav-link">External Resources</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../about/" class="nav-link">About</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a rel="prev" href="../parts/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../spiceerrors/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#spicetools-usage-parameters-and-functionality" class="nav-link">SpiceTools Usage, Parameters, and Functionality</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#what-is-spicetools" class="nav-link">What is SpiceTools?</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#why-spicetools" class="nav-link">Why SpiceTools</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#spiceoverlay" class="nav-link">SpiceOverlay</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#spiceoptions" class="nav-link">SpiceOptions</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#spicecompanion" class="nav-link">SpiceCompanion</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#supported-games" class="nav-link">Supported Games</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#coins" class="nav-link">Coins</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#readers" class="nav-link">Readers</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#spicetools-api" class="nav-link">SpiceTools API</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#bemanitools-5-api-compatibility" class="nav-link">Bemanitools 5 API Compatibility</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#keybindingsanalogs" class="nav-link">Keybindings/Analogs</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#usage" class="nav-link">Usage</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#parameters" class="nav-link">Parameters</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#notes-on-functionality-for-several-games" class="nav-link">Notes on Functionality for Several Games</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="3"><a href="#beatmania-iidx" class="nav-link">beatmania IIDX</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#sound-voltex" class="nav-link">Sound Voltex</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#jubeat" class="nav-link">jubeat</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#gitadora" class="nav-link">GITADORA</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#reflec-beat" class="nav-link">Reflec Beat</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="3"><a href="#nostalgia" class="nav-link">NOSTALGIA</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="spicetools-usage-parameters-and-functionality">SpiceTools Usage, Parameters, and Functionality</h1>
+<ul>
+<li>
+<p><strong>Last Update: March 14th, 2020.</strong></p>
+</li>
+<li>
+<p><strong>Version Covered: March 3rd, 2020.</strong></p>
+</li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Before reading:</p>
+<p>This section contains a myriad of information regarding SpiceTools including the games supported, various parameters, and its functionality. Feel free to consult this section anytime you are confused or simply want to learn more. However, SpiceTools is consistently updated and updates to this section may fall behind, to combat this, the above information in bold will cover the latest revision of SpiceTools this guide covers and along the latest update to this section.</p>
+</div>
+<h3 id="what-is-spicetools">What is SpiceTools?</h3>
+<div class="admonition tip">
+<p>SpiceTools is a toolkit allowing users to play several Konami games on their PC, typically of the arcade variety with the focus being on BEMANI games. The idea behind SpiceTools is to provide a simple to use toolkit that consists of just the executable and its configuration, allowing users to have minimal interaction with game files and thus minimizing user error.</p>
+</div>
+<h3 id="why-spicetools">Why SpiceTools</h3>
+<div class="admonition tip">
+<p>The reason this guide utilizes SpiceTools exclusively is because it's capable of running games without the user ever touching a single file, minimizes any potential user error. On top of this, SpiceTools has a few exclusive features that benefit new and experienced players alike. The combination of simplicity and advanced features makes it an ideal choice.</p>
+</div>
+<h3 id="spiceoverlay">SpiceOverlay</h3>
+<div class="admonition tip">
+<p>One of the newest features SpiceTools has is an included overlay called SpiceOverlay, it contains a number of useful options such as a patch manager to enable/disable hex edits on the fly, and virtual keypads, its keybinds are as follows below:</p>
+<p><code>F5 - Keypad P1</code>
+<code>F6 - Keypad P2</code>
+<code>F7 - Card Manager</code>
+<code>F8 - Log</code>
+<code>F9 - Control</code>
+<code>F10 - Patch Manager</code>
+<code>F12 - Overlay/FPS toggle</code></p>
+</div>
+<h3 id="spiceoptions">SpiceOptions</h3>
+<div class="admonition tip">
+<p>SpiceTools now features an options tab that allows you to set parameters inside the game with the ability to restart the game after you make your desired changes.</p>
+<p><img src="/img/spice/options.png"></p>
+<p>Note that the purple highlighted options are tied to the specific game you are running, you do not need to check them in most cases as oftentimes they are loaded automatically for most setups.</p>
+</div>
+<h3 id="spicecompanion">SpiceCompanion</h3>
+<div class="admonition tip">
+<p>SpiceTools also has a companion app on android called <a href="https://play.google.com/store/apps/details?id=spicedev.spicecompanion">SpiceCompanion</a> this guide won't go over all of its features and functionalities, perhaps a separate page would be more appropriate. Just note it shares many similarities with SpiceOverlay and is yet another powerful tool to aid in playing these arcade games. One fan favorite feature is the ability to utilize your phone as a card reader, allowing friends to easily card-in and play alongside you.</p>
+</div>
+<h3 id="supported-games">Supported Games</h3>
+<div class="admonition tip">
+<p>SpiceTools at the time of writing supports the following games, if no specific denotation is listed, assume all recent versions of said game):</p>
+<ul>
+<li>beatmania IIDX (Tricoro and newer)</li>
+<li>Sound Voltex </li>
+<li>jubeat (knit and newer)</li>
+<li>Reflec Beat</li>
+<li>Dance Evolution Arcade</li>
+<li>DanceDanceRevolution</li>
+<li>Beatstream</li>
+<li>Road Fighters 3D</li>
+<li>Pop'n Music</li>
+<li>MÚSECA</li>
+<li>Metal Gear Arcade</li>
+<li>GITADORA (XG3 and newer)</li>
+<li>NOSTALGIA</li>
+<li>BISHI BASHI CHANNEL</li>
+<li>QUIZ MAGIC ACADEMY</li>
+<li>MAHJONG FIGHT CLUB</li>
+<li>FutureTomTom</li>
+<li>SCOTTO</li>
+<li>HELLO! Pop'n Music</li>
+<li>LovePlus</li>
+<li>DANCERUSH STARDOM</li>
+<li>Steel Chronicle</li>
+<li>Tenkaichi Shogikai</li>
+<li>Otoca D'or</li>
+<li>Winning Eleven 2012</li>
+</ul>
+</div>
+<h3 id="coins">Coins</h3>
+<div class="admonition tip">
+<p>There's a coin emulation working for most games, simply press F1 to insert a single coin.</p>
+<p>Some games have an additional/different coin key.</p>
+</div>
+<h3 id="readers">Readers</h3>
+<div class="admonition tip">
+<p>If you have an original Wavepass reader and have it connected to a COM port on your computer, SpiceTools should be able to use it. It was being created and tested with the newer readers also used in the newer Pop'n Music games.
+Example for one reader on COM3: -reader COM3
+Example for two readers for P1/2 on COM3 and COM4: -reader COM3 -reader COM4
+Example for one reader with P1/2 toggle on NumLock: -togglereader COM3</p>
+</div>
+<h3 id="spicetools-api">SpiceTools API</h3>
+<div class="admonition tip">
+<p>SpiceTools has its own API with a custom protocol. The main goals were simplicity, portability and extensibility, so TCP/JSON was chosen, allowing fast access over network.</p>
+<p>It optionally supports passwords/encryption and its response time on LAN was tested to be below 1ms (as long as extended API logging isn't enabled manually).</p>
+<p>For details and how to use it, check out README.md in the included source. Additionally, python and dart libraries are provided for easy communication.</p>
+<p>Key features are card/coin insertions, read/write access for keypads/analogs/buttons/lights, status information and memory read/write via raw addresses and signatures.</p>
+</div>
+<h3 id="bemanitools-5-api-compatibility">Bemanitools 5 API Compatibility</h3>
+<div class="admonition tip">
+<p>There is basic BT5 API integration as of 03/13/2018.</p>
+<p>This feature can be enabled with <code>-bt5api</code> and currently makes use of eamio.dll only.
+Currently, this can be used for applications such as the popular NFCeamuse app which can be found elsewhere.</p>
+</div>
+<h3 id="keybindingsanalogs">Keybindings/Analogs</h3>
+<div class="admonition tip">
+<p>As of beta, buttons can be bound via either RawInput (the default) or "Naive" (GetAsyncKeyState).</p>
+<p>RawInput supports all kinds of HID controllers (your FP7 is one, your XBOX360 Controller as well), however it's bound to a device.</p>
+<p>If you plug your controller into another USB slot, SpiceTools does not have a way to detect it and will report the device as "missing", until you plug it back into where you originally configured it.</p>
+<p>Using the "naive" approach, only keyboard buttons can be detected, however this will then work with any keyboard attached, it's not bound to a device.</p>
+<p>Since May 2018 you can also bind MIDI devices for "one-shot" types like drums and hold types like piano keys and launchpads.</p>
+</div>
+<h3 id="usage">Usage</h3>
+<div class="admonition tip">
+<p>Utilizing SpiceTools is very straightforward, it typically involves simply dropping SpiceTools 32-bit or 64-bit (depending on game requirements) into your chosen game's content folder, creating a <code>.bat</code> file that initializes SpiceTools and desired parameters. For the grand majority of user installations, I've documented how to best utilize SpiceTools in the first time setup section of your respective game, so please read over it. One of the easiest and classic examples of a <code>.bat</code> file's contents would be along the lines of <code>spice64.exe -ea -w</code> which would boot SpiceTools with the <code>-ea</code> and <code>-w</code> parameters, more on parameters below.</p>
+</div>
+<h3 id="parameters">Parameters</h3>
+<div class="admonition tip">
+<p>SpiceTools consists of several dozen parameters for users to utilize to fill their needs. Ideally, these parameters are initialized using a user created <code>.bat</code> file as described above. If you open up <code>spicecfg.exe</code> and head on over to the options tab, you can hover over the far left <code>?</code> with your mouse to get an idea as to what a parameter does!</p>
+<p>The grand majority of parameters are for advanced users, but don't be scared if you don't understand what most do.</p>
+</div>
+<p>&nbsp;</p>
+<h2 id="notes-on-functionality-for-several-games">Notes on Functionality for Several Games</h2>
+<h3 id="beatmania-iidx">beatmania IIDX</h3>
+<div class="admonition tip">
+<p>For using your own cameras in IIDX 25 or newer, just plug them in (and hopefully your camera isn't incompatible with the game) and they shall work.</p>
+<p>It's also possible to use one camera only instead of the two the game wants, just dismiss the camera error on game boot as you would with no cameras connected, and your camera should be registered in-game as CAMERA A. If you're not happy with the order of the automatic camera detection, just use -iidxflipcams and CAMERA B will be CAMERA A, etc.</p>
+<p>You can bind the effectors as analog inputs if you want, this is especially interesting for IIDX 25 and newer, where the effects are software based and not tied to specific sound cards anymore. When not bound, they will stay on the maximum value.</p>
+</div>
+<h3 id="sound-voltex">Sound Voltex</h3>
+<div class="admonition tip">
+<p>Printer fully supported as of 03/13/2018, can save prints in PNG/BMP/TGA to a customizable output path.</p>
+<p>Optionally able to clean up saved images on game boot time.</p>
+<p>Keyboard play should be perfectly working. If you don't want to use the mouse for the knobs, you can make use of native knob emulation, which works just as it works in Keyshoot-Mania.</p>
+</div>
+<h3 id="jubeat">jubeat</h3>
+<div class="admonition tip">
+<p>This makes use of the SpiceTools touch module, which makes you able to play any version of the game just fine with both mouse and HID compliant touch devices on Windows 7 or newer.</p>
+<p>The Dell ST2240T touch screen seems to work well, especially the new 2017 revision.</p>
+<p>Card insert button available and enabled by default.</p>
+<p>Touch the area to insert a card in attract mode.</p>
+</div>
+<h3 id="gitadora">GITADORA</h3>
+<div class="admonition tip">
+<p>To switch between Guitar/Drum you need to specify the specific eamuse config to load. By default, SpiceTools first tries to load ea3-config.xml, then eamuse-config.xml.</p>
+<p>Since the latter one is the default for the drums, for the guitar you have to override the path setting like so: <code>spice64.exe -e prop\eamuse-config2.xml</code></p>
+<p>Additionally, since GitaDora uses 4 channels by default, you can specify -2ch to run it with 2 channel audio instead. If you don't and have a normal 2 channel setup, the game will refuse to play sound/tracks.</p>
+</div>
+<h3 id="reflec-beat">Reflec Beat</h3>
+<div class="admonition tip">
+<p>Including emulation of the real IR touch screen device so the game should just act like the real one.</p>
+<p>This makes use of the SpiceTools Touch module, which makes you able to play any version of the game just fine with both mouse and HID compliant touch devices.</p>
+<p>Card insert button available and enabled by default.</p>
+<p>For this game it's not visible in fullscreen but still works just as fine.</p>
+<p>Touch the area to insert a card in attract mode.</p>
+</div>
+<h3 id="nostalgia">NOSTALGIA</h3>
+<div class="admonition tip">
+<p>Spicetools will auto-detect whether or not a compatible touch device is present. If a touch device is detected, the mouse cursor will disappear. If no touch device is detected, the mouse cursor will be visible in-game. During boot-up process, do not click or else the game may pre-maturely crash. You may safely click after the monitor check is completed. It's been found that Virtual HID Touch devices commonly found with remote access software may cause detection issues, take note of that.</p>
+<p>Some people have had issues with crashing on startup while having multiple monitors while using windowed mode, consider disabling the other monitors to see if this alleviates the issue.</p>
+</div></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+                <p>Made by a IIDX player.</p>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+
+        <div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
