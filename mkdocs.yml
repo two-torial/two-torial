@@ -2,8 +2,6 @@ site_name: bemani guide
 copyright: fumo.photos Team
 site_description: Bemani Troubleshooting Guide
 site_author: IIDX Player
-repo_url: https://github.com/Vodes/bemani-guide
-repo_name: GitHub
 
 nav:
     - Home: index.md
