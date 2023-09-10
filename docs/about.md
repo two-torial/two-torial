@@ -35,10 +35,8 @@ The original author and creator has given me full permission to use his previous
 !!! tip ""
 	**Please do not contact me to troubleshoot your problems, I will not respond.**
 
-    In the time thinking about this site I have wondered how best to open contact for the betterment of the site and overall community. I wish to remain largely private because I do not want credit for this work, but if you wish to contact me regarding wanting to contribute, or even site inaccuracies, improvements, and solutions that worked for you but aren't listed... 
+    In the time thinking about this site I have wondered how best to open contact for the betterment of the site and overall community. If you wish to contact me regarding wanting to contribute, or even site inaccuracies, improvements, and solutions that worked for you but aren't listed... 
 
-    Feel free to email me at: <bemaniguide@fumo.photos>
-
-    I now run a private discord to accept user contributions from, feel free to email to gain access if you are looking to contribute to the site (also include what you'd like to contribute in the email, of course)
+    Feel free to email me at: <bemaniguide@fumo.photos> or open an issue on GitHub.
 
     I can't promise I'll respond, but if you see some changes relating to what you emailed, I certainly read what you sent.
