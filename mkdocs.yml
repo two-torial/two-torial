@@ -96,9 +96,12 @@ nav:
     - About: about.md
 
 theme:
-    name: cyborg
+    name: material
     navigation_depth: 3
-    custom_dir: theme/
+    custom_dir: overrides
+    palette:
+        primary: deep purple
+        scheme: slate
 
 markdown_extensions:
     - admonition

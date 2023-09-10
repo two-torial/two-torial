@@ -6,7 +6,7 @@ description: A compendium of information and guides written to ease headaches.
 
 A compendium of information and guides written to ease headaches.
 
-Last Updated: [August 30th, 2023.](changelog.md)
+Last Updated: [September 10th, 2023.](changelog.md)
 
 Contact: [here](/about#contact)
 &nbsp;

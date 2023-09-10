@@ -2,6 +2,12 @@
 
 ### What's New:
 
+!!! tip "September 10th, 2023"
+
+	- Changed the theme
+	
+	- Made the project open source
+
 !!! tip "April 30th, 2023"
 
 	- Revive the project
