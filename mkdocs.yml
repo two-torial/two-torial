@@ -98,7 +98,6 @@ nav:
 theme:
     name: material
     navigation_depth: 3
-    custom_dir: overrides
     palette:
         primary: deep purple
         scheme: slate
