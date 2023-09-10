@@ -39,4 +39,4 @@ The original author and creator has given me full permission to use his previous
 
     Feel free to email me at: <bemaniguide@fumo.photos> or open an issue on GitHub.
 
-    I can't promise I'll respond, but if you see some changes relating to what you emailed, I certainly read what you sent.
+    I can't promise I'll respond to the emails, but if you see some changes relating to what you emailed, I certainly read what you sent.
