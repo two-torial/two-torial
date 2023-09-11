@@ -9,6 +9,10 @@ nav:
     - Home: index.md
     - Games:
         - 'IIDX':
+            - 'IIDX 24':
+                - 'First Time Setup': 'games/iidx24/setup.md'
+                - 'Common Problems/Tips': 'games/iidx24/problems.md'
+                - 'Hex Edits': 'games/iidx24/hexedits.md'
             - 'IIDX 25':
                 - 'First Time Setup': 'games/iidx25/setup.md'
                 - 'Common Problems/Tips': 'games/iidx25/problems.md'
@@ -97,6 +101,8 @@ nav:
 
 theme:
     name: material
+    logo: img/bemani.png
+    favicon: img/favicon.ico
     navigation_depth: 3
     palette:
         primary: deep purple
@@ -104,5 +110,6 @@ theme:
 
 markdown_extensions:
     - admonition
+    - pymdownx.details
 
 plugins: []

@@ -2,6 +2,14 @@
 
 ### What's New:
 
+!!! tip "September 11th, 2023"
+
+	- Add IIDX 24: SINOBUZ setup/faq/hex edits
+	
+	- Updated the hex edits pages of all games
+	
+	- Add logo and favicon
+
 !!! tip "September 10th, 2023"
 
 	- Changed the theme
