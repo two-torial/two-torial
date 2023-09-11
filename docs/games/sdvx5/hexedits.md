@@ -1,5 +1,7 @@
 # Sound Voltex V: Vivid Wave
 
+<img src="/img/sdvxv/vw.png">
+
 ??? info "Want a quick drag and drop solution?"
 	Use _mon's [BemaniPatcher](https://mon.im/bemanipatcher)._ Simply select the game you'd like to edit and drop the corresponding game `.dll` into it and select what changes you'd like!
 

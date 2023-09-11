@@ -1,5 +1,7 @@
 # IIDX 26 Common Problems/Tips
 
+<img src="/img/iidx26/rootage.png">
+
 ### Hardware Specs
 
 !!! tip ""

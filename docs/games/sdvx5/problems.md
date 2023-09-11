@@ -1,5 +1,7 @@
 # SDVX V Common Problems/Tips
 
+<img src="/img/sdvxv/vw.png">
+
 ### Hardware Specs
 
 !!! tip ""

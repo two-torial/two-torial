@@ -1,5 +1,7 @@
 # IIDX 27 Common Problems/Tips
 
+<img src="/img/iidx27/hv.png">
+
 !!! note "Author Note:"
 	For lightning specific issues, see [lightning cab notes](lightning.md#lightning-specific-troubleshooting)
 

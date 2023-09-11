@@ -1,5 +1,7 @@
 # IIDX 25 Common Problems/Tips
 
+<img src="/img/iidx25/cb.png">
+
 ### Hardware Specs
 
 !!! tip ""

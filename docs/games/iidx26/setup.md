@@ -1,5 +1,7 @@
 # beatmania IIDX 26 Rootage
 
+<img src="/img/iidx26/rootage.png">
+
 !!! danger "Warning:"
 	Please make sure your data is from an appropriate source and unmodified before proceeding, this guide is unable to troubleshoot any problems related to bad or poorly managed data.
 

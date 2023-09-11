@@ -9,6 +9,8 @@
 	- Updated the hex edits pages of all games
 	
 	- Add logo and favicon
+	
+	- Add logo for every IIDX and SDVX game for each of their respective pages
 
 !!! tip "September 10th, 2023"
 

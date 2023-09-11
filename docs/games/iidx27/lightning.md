@@ -1,4 +1,6 @@
 # beatmania IIDX 27 Lighting Mode Information
+
+<img src="/img/iidx27/hv.png">
 	
 ### Notes
 

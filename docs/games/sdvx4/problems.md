@@ -1,5 +1,7 @@
 # SDVX IV Common Problems/Tips
 
+<img src="/img/sdvxiv/hh.png">
+
 ### Hardware Specs
 
 !!! tip ""

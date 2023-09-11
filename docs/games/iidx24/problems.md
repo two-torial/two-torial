@@ -1,5 +1,7 @@
 # IIDX 24 Common Problems/Tips
 
+<img src="/img/iidx24/sinobuz.png">
+
 ### Hardware Specs
 
 !!! danger "Warning:"

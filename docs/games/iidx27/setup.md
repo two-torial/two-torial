@@ -1,5 +1,7 @@
 # beatmania IIDX 27 Heroic Verse
 
+<img src="/img/iidx27/hv.png">
+
 !!! note "Author Note:"
 
 	For hex edits: Use the Patches tab in SpiceTools or SpiceCompanion.
