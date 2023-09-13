@@ -51,9 +51,4 @@
 !!! tip ""
 	If you're getting too many fasts, increase your offset (+). If you're getting too many slows, decrease your offset (-).
 
-### I'm Not Getting Any Audio/My Audio Is Completely Wrecked and I'm Using an External Dac!
-
-!!! tip ""
-	Several external DACs have issues with [WASAPI exclusive mode](https://docs.microsoft.com/en-us/windows/win32/coreaudio/exclusive-mode-streams) and are unable to be used entirely, it's likely you'll be forced to use your motherboard's sound chip, or find a compatible DAC.
-
 

@@ -19,7 +19,7 @@ Contact: [here](/about#contact)
 ### What do I need to know before starting?
 
 !!! tip ""
-    Before beginning with any of the guides on this site, please make sure your game files are from a clean and trusted source, also make sure you are using the latest version of whichever tools you have chosen, the guides on this website at the time of writing are using [SpiceTools.](/extras/spiceguide/)
+    Before beginning with any of the guides on this site, please make sure your game files are from a clean and trusted source, also make sure you are using the latest version of whichever tools you have chosen, the guides on this website at the time of writing are using [SpiceTools](/extras/spiceguide/) ***with the exception of IIDX from 9th style up to Lincle which use Bemanitools.*** This will be stated on each individual game itself aswell.
 
 ### First time working with data?
 
