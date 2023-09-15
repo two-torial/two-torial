@@ -2,6 +2,18 @@
 
 ### What's New:
 
+!!! tip "September 15th, 2023"
+	
+	- Add IIDX 9 setup & faq
+	
+	- Clean up IIDX 24: SINOBUZ setup & faq
+	
+	- Removed contact section from the about page
+	
+	- Add Discord to Home page
+	
+	- Adjust Home page text to also include Bemanitools
+
 !!! tip "September 11th, 2023"
 
 	- Add IIDX 24: SINOBUZ setup/faq/hex edits

@@ -8,7 +8,7 @@ A compendium of information and guides written to ease headaches.
 
 Last Updated: [September 11th, 2023.](changelog.md)
 
-Contact: [here](/about#contact)
+We now have a [Discord server!](https://discord.gg/cZRUmEPK78)
 &nbsp;
 
 !!! danger "Important"

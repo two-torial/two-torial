@@ -2,9 +2,7 @@
 
 # About this site
 
-Notes from the original author
-
-!!! tip ""
+!!! quote "Notes from the original author"
 
 	This site was written by a IIDX player with the help of a few prominent friends. One day I hope to match their intellect, wish me luck.
 
@@ -14,29 +12,16 @@ Notes from the original author
 
 	Still, as long as this website helps even 1 user enjoy these games, then its goal has been met. Whether it be within the first hour of its posting, or years later, I will be satisfied if I meet that goal.
 	
-My philosophy stays the same as from the original author. I've seen how much effort and care has gotten into it and in my opinion, it would be a shame to let it all go to waste. That's why I've decided to pick it up from the dead, host it and hopefully maintain it.
+!!! tip "" 
+	
+	My philosophy stays the same as from the original author. I've seen how much effort and care has gotten into it and in my opinion, it would be a shame to let it all go to waste. That's why I've decided to pick it up from the dead, host it and hopefully maintain it.
 
-The original author and creator has given me full permission to use his previous work and edit it as I please. I do intend to try to keep it as authentic as possible to the already existing guides.
-
-&nbsp;
+	The original author and creator has given me full permission to use his previous work and edit it as I please.
 
 ### Credits
 
 !!! tip ""
 
-    - Friends that wished to remain anonymous: motivation, technical assistance, inspiration.
-
     - Passionate rhythm game players worldwide that allow these games to exist, thank you for making it a lot of fun to be involved in the scene and around you all.
 
     - Contributors for taking the time to add improvements to the site.
-
-### Contact
-
-!!! tip ""
-	**Please do not contact me to troubleshoot your problems, I will not respond.**
-
-    In the time thinking about this site I have wondered how best to open contact for the betterment of the site and overall community. If you wish to contact me regarding wanting to contribute, or even site inaccuracies, improvements, and solutions that worked for you but aren't listed... 
-
-    Feel free to email me at: <bemaniguide@fumo.photos> or open an issue on GitHub.
-
-    I can't promise I'll respond to the emails, but if you see some changes relating to what you emailed, I certainly read what you sent.
