@@ -4,6 +4,8 @@
 
 !!! tip "September 17th, 2023"
 
+	- Add IIDX 10 setup & faq
+	
 	- Clean up IIDX 9 setup & faq (mainly the codec installation)
 
 	- Removed [Btools] notice on the navigation bar
