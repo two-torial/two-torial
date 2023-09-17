@@ -38,7 +38,7 @@
 	
 	- Made the project open source
 
-!!! tip "April 30th, 2023"
+!!! tip "August 30th, 2023"
 
 	- Revive the project
 	
