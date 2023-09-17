@@ -9,7 +9,7 @@ nav:
     - Home: index.md
     - Games:
         - 'IIDX':
-            - 'IIDX 9 [Btools]':
+            - 'IIDX 9':
                 - 'First Time Setup': 'games/iidx9/setup.md'
                 - 'Common Problems/Tips': 'games/iidx9/problems.md'
             - 'IIDX 24':

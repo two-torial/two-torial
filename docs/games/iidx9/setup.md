@@ -29,7 +29,7 @@
 
 !!! tip ""
 
-	Next up, open the `bemanitools-supplement-v1.6.zip` or any version higher than that and navigate inside the `misc.zip`. Now navigate into `misc\d3d8to9` and extract `d3d8.dll` into the same folder as we previously have done. It should look like this:
+	Next up, open the `bemanitools-supplement-v1.6.zip` or any version higher than that and navigate inside the `misc.zip`. Now navigate into `misc\d3d8to9` and extract `d3d8.dll` into the same folder as we previously have done. This enables us to use the graphic options inside `iidxhook-09.conf` which we will take advantage of. It should look like this:
 
 <img src="/img/iidx9/btsup1.png">
 
