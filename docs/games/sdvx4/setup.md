@@ -1,4 +1,4 @@
-# SOUND VOLTEX IV: HEAVENLY HAVEN
+# SOUND VOLTEX IV HEAVENLY HAVEN
 
 <img src="/img/sdvxiv/hh.png">
 

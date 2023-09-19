@@ -1,4 +1,4 @@
-# Sound Voltex V: Vivid Wave
+# Sound Voltex VIVID WAVE
 
 <img src="/img/sdvxv/vw.png">
 

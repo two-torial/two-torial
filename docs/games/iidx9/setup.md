@@ -92,7 +92,7 @@
 	
 	Replace `eamuse.pcbid=XXXXXXXXXXXXXXXXXXXX` **and** `eamuse.eamid=XXXXXXXXXXXXXXXXXXXX` with your PCBID of your network of choice.
 
-### Final Steps and Setting up the Game
+### Setting up the games resolution
 
 !!! tip ""
 	Next up, we'll setup borderless window and configure the proper resolution. We're using a `1920x1080` monitor so we will use that.
@@ -139,12 +139,16 @@
 	
 <img src="/img/iidx9/9.png">
 	
+### Locking the games FPS
+
 !!! tip ""
-	Before we can start the game, we need to lock the FPS of the game to `59.95`, otherwise the game will either run crazy fast or will desync. We will be using [RivaTuner Statistics Server](https://www.guru3d.com/files-get/rtss-rivatuner-statistics-server-download,17.html). Simply install it and run it.
+	Before we can start the game, we need to lock the FPS of the game to `59.95`, otherwise the game will either run crazy fast or will desync. We will be using [RivaTuner Statistics Server](https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download). Simply install it and run it.
 	
 	Now press `Add` and locate your `bm2dx.exe`. You can copy these settings listed below (click on the Framerate limit to enter the value manually):
 	
 <img src="/img/iidx9/10.png">
+
+### Final Steps and Setting up the Game
 
 !!! tip ""
 	We can now focus on starting the game and getting it running. Open `gamestart.bat` (if you kept the name as is)

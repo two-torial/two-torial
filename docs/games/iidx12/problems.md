@@ -1,11 +1,11 @@
-# IIDX 9 Common Problems/Tips
+# IIDX 12 Common Problems/Tips
 
-<img src="/img/iidx9/9_logo.png">
+<img src="/img/iidx12/happysky_logo.png">
 
 ### My Game Is Running Crazy Fast!
 
 !!! tip ""
-	The most common reason for this is the game is running over its required 59.95hz, the game is hardcoded to run at 59.95hz and this cannot be changed. To solve this, check [this section](/games/iidx9/setup/#locking-the-games-fps) of the guide again.
+	The most common reason for this is the game is running over its required 59.95hz, the game is hardcoded to run at 59.95hz and this cannot be changed. To solve this, check [this section](/games/iidx12/setup/#locking-the-games-fps) of the guide again.
 
 ### I'm getting "NETWORK WARNING" instead of "NETWORK OK"
 
@@ -38,7 +38,7 @@
 
 ### My game crashes immediately!
 
-!!! warning "This can have multiple reasons. These fixes shouldn't be needed for 9th style since we're addressing them in the guide. We'll add them anyway just in case."
+!!! warning "This can have multiple reasons. These fixes shouldn't be needed for HAPPY SKY since we're addressing them in the guide. We'll add them anyway just in case."
 
 #### Fix #1 (Wrong data structure)
 
@@ -54,4 +54,4 @@
 #### Fix #2 (RtEffects.dll didn't get replaced)
 
 !!! tip ""
-	Refer to [Getting Started](/games/iidx11/setup/#getting-started) again and check if you have followed all the instructions explained in it.
+	Refer to [Getting Started](/games/iidx12/setup/#getting-started) again and check if you have followed all the instructions explained in it.

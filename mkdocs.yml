@@ -9,34 +9,40 @@ nav:
     - Home: index.md
     - Games:
         - 'IIDX':
-            - 'IIDX 9':
+            - 'IIDX 9th style':
                 - 'First Time Setup': 'games/iidx9/setup.md'
                 - 'Common Problems/Tips': 'games/iidx9/problems.md'
-            - 'IIDX 10':
+            - 'IIDX 10th style':
                 - 'First Time Setup': 'games/iidx10/setup.md'
                 - 'Common Problems/Tips': 'games/iidx10/problems.md'
-            - 'IIDX 24':
+            - 'IIDX 11 IIDX RED':
+                - 'First Time Setup': 'games/iidx11/setup.md'
+                - 'Common Problems/Tips': 'games/iidx11/problems.md'
+            - 'IIDX 12 HAPPY SKY':
+                - 'First Time Setup': 'games/iidx12/setup.md'
+                - 'Common Problems/Tips': 'games/iidx12/problems.md'
+            - 'IIDX 24 SINOBUZ':
                 - 'First Time Setup': 'games/iidx24/setup.md'
                 - 'Common Problems/Tips': 'games/iidx24/problems.md'
                 - 'Hex Edits': 'games/iidx24/hexedits.md'
-            - 'IIDX 25':
+            - 'IIDX 25 CANNON BALLERS':
                 - 'First Time Setup': 'games/iidx25/setup.md'
                 - 'Common Problems/Tips': 'games/iidx25/problems.md'
                 - 'Hex Edits': 'games/iidx25/hexedits.md'
-            - 'IIDX 26':
+            - 'IIDX 26 Rootage':
                 - 'First Time Setup': 'games/iidx26/setup.md'
                 - 'Common Problems/Tips': 'games/iidx26/problems.md'
                 - 'Hex Edits': 'games/iidx26/hexedits.md'
-            - 'IIDX 27':
+            - 'IIDX 27 HEROIC VERSE':
                 - 'First Time Setup': 'games/iidx27/setup.md'
                 - 'Common Problems/Tips': 'games/iidx27/problems.md'
                 - 'Lightning Mode Specifics': 'games/iidx27/lightning.md'
         - 'SDVX':
-            - 'SDVX IV':
+            - 'SDVX IV HEAVENLY HAVEN':
                 - 'First Time Setup': 'games/sdvx4/setup.md'
                 - 'Common Problems/Tips': 'games/sdvx4/problems.md'
                 - 'Hex Edits': 'games/sdvx4/hexedits.md'
-            - 'SDVX V':
+            - 'SDVX VIVID WAVE':
                 - 'First Time Setup': 'games/sdvx5/setup.md'
                 - 'Common Problems/Tips': 'games/sdvx5/problems.md'
                 - 'Hex Edits': 'games/sdvx5/hexedits.md'

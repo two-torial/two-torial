@@ -2,6 +2,18 @@
 
 ### What's New:
 
+!!! tip "September 19th, 2023"
+
+	- Add IIDX 11 setup & faq
+
+	- Add IIDX 12 setup & faq
+
+	- More clean ups of IIDX 9 & IIDX 10
+
+	- Adjust navigation bar text for IIDX and SDVX
+
+	- Adjust SDVX game names on their pages
+
 !!! tip "September 17th, 2023"
 
 	- Add IIDX 10 setup & faq

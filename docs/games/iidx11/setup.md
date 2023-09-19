@@ -1,6 +1,6 @@
-# beatmania IIDX 10th style
+# beatmania IIDX 11 IIDX RED
 
-<img src="/img/iidx10/10_logo.png">
+<img src="/img/iidx11/RED_logo.png">
 
 !!! tip "This guide wouldn't exist without the help of sync (Discord: `sync_plus`)."
 
@@ -19,21 +19,21 @@
 
 !!! tip ""
 	
-	After downloading your data, the first thing to do is make sure your files aren't set to READ ONLY, make sure to uncheck it from the main folder in the Windows Properties tab if so. Then, locate `iidx-09-to-12.zip` inside the `bemanitools-5.44.zip`. Extract it inside the folder that contains the `bm2dx.exe` which should be located in `\D01\JAE`. Pictured below is what your folder should look like, we've removed any files not necessary for **10th style**. Feel free to name your `gamestart.bat` file whatever you desire, for the sake of convenience we've kept it as it.
+	After downloading your data, the first thing to do is make sure your files aren't set to READ ONLY, make sure to uncheck it from the main folder in the Windows Properties tab if so. Then, locate `iidx-09-to-12.zip` inside the `bemanitools-5.44.zip`. Extract it inside the folder that contains the `bm2dx.exe` which should be located in `\E11\JAA`. Pictured below is what your folder should look like, we've removed any files not necessary for **IIDX RED**. Feel free to name your `gamestart.bat` file whatever you desire, for the sake of convenience we've kept it as it.
 
 <img src="/img/iidx10/bt1.png">
 
 <img src="/img/iidx10/bt2.png">
 
-<img src="/img/iidx10/1.png">
+<img src="/img/iidx11/1.png">
 
 !!! tip ""
 
-	Next up, open the `bemanitools-supplement-v1.6.zip` or any version higher than that and navigate inside the `misc.zip`. Now navigate into `misc\d3d8to9` and extract `d3d8.dll` into the same folder as we previously have done. This enables us to use the graphic options inside `iidxhook-10.conf` which we will take advantage of. It should look like this:
+	Next up, open the `bemanitools-supplement-v1.6.zip` or any version higher than that and navigate inside the `misc.zip`. Now navigate into `misc\d3d8to9` and extract `d3d8.dll` into the same folder as we previously have done. This enables us to use the graphic options inside `iidxhook-11.conf` which we will take advantage of. It should look like this:
 
 <img src="/img/iidx10/btsup1.png">
 
-<img src="/img/iidx10/2.png">
+<img src="/img/iidx11/2.png">
 
 !!! tip ""
 
@@ -43,17 +43,9 @@
 
 <img src="/img/iidx10/btsup2.png">
 
-<img src="/img/iidx10/3.png">
+<img src="/img/iidx11/3.png">
 
-<img src="/img/iidx10/4.png">
-
-!!! tip ""
-
-	Lastly, check if your data has a folder called `util`. If it does, grab the `bm2dx_D01_JAE_no_checksum.exe` from it and place it into the `/JAE` folder (where we placed all the previous files into aswell).
-
-	Delete the original `bm2dx.exe` that is inside the folder and rename `bm2dx_D01_JAE_no_checksum.exe` to `bm2dx.exe`.
-
-	If you don't do this, you will end up getting a `HDD DATA ERROR (PROG CHKSUM)` which will result in the game not being able to run.
+<img src="/img/iidx11/4.png">
 
 ### Configuring Your Tools
 
@@ -95,7 +87,7 @@
 ### Configuring the game for an Online Network
 
 !!!tip ""
-	Locate your `iidxhook-10.conf` and edit it in your desired text editor (we're using [Notepad++](https://notepad-plus-plus.org/)). It may seem overwhelming at first but it's actually fairly simple. All we really care about are these lines:
+	Locate your `iidxhook-11.conf` and edit it in your desired text editor (we're using [Notepad++](https://notepad-plus-plus.org/)). It may seem overwhelming at first but it's actually fairly simple. All we really care about are these lines:
 	
 	```
 	# URL (e.g. http://my.eamuse.server:80/whatever) or IPV4 (e.g. 127.0.0.1:80) of the target eamuse server. The port is optional but defaults to 80.
@@ -117,7 +109,7 @@
 !!! tip ""
 	Next up, we'll setup borderless window and configure the proper resolution. We're using a `1920x1080` monitor so we will use that.
 	
-	Repeat the previous step and open your `iidxhook-10.conf`. We want to find these lines:
+	Repeat the previous step and open your `iidxhook-11.conf`. We want to find these lines:
 	
 	```
 	# Run the game windowed
@@ -158,6 +150,16 @@
 	When you're done, it should look like this:
 	
 <img src="/img/iidx10/11.png">
+
+### Fix stretched Background videos
+
+!!! tip ""
+	Inside `iidxhook-11.conf`, we want to look for `gfx.bgvideo_uv_fix=false` which is located right below the PCBID and EAMID prompts.
+
+<img src="/img/iidx11/5.png">
+
+!!! tip ""
+	Change that to `gfx.bgvideo_uv_fix=true`, this will ensure that the background videos won't appear stretched and zoomed in while playing.
 	
 ### Locking the games FPS
 
@@ -175,7 +177,7 @@
 	
 	You will be greeted by the initialization screen and shortly after this screen:
 
-<img src="/img/iidx10/13.png">
+<img src="/img/iidx11/6.png">
 
 <img src="/img/iidx10/14.png">
 
@@ -187,9 +189,9 @@
 !!! tip ""
 	Hit your `Start` button again to confirm. This will bring you into the games settings menu. From there, navigate to `CLOCK SETUP`. You can leave the date, no need to manually change it. Simply navigate to `SAVE AND EXIT`.
 	
-<img src="/img/iidx10/16.png">
+<img src="/img/iidx11/7.png">
 
-<img src="/img/iidx10/17.png">
+<img src="/img/iidx11/8.png">
 
 !!! info "If you'd like to play offline, you can head straight to [Final Notes](setup.md#final-notes)"
 
@@ -198,28 +200,28 @@
 !!! tip ""
 	From the games settings menu, naviate to `e-AMUSEMENT OPTIONS` and select it. This will bring you to `e-AMUSEMENT SETTINGS`. Select it aswell.
 	
-<img src="/img/iidx10/18.png">
+<img src="/img/iidx11/9.png">
 
-<img src="/img/iidx10/19.png">
+<img src="/img/iidx11/10.png">
 
 !!! tip ""
 	It'll bring you to this next screen, select it so that `e-AMUSEMENT` switches to `ON` and it will look like this:
 	
-<img src="/img/iidx10/20.png">
+<img src="/img/iidx11/11.png">
 
-<img src="/img/iidx10/21.png">
+<img src="/img/iidx11/12.png">
 
 !!! tip ""
 	We now have to change our `SHOP NAME SETTING` and `PREFECTURE` otherwise the game will throw errors at us.
 	
 	Start with the shop name, select it and change them to what ever you like. When you're done editing your shop name, navigate to `EXIT` and select it.
 	
-<img src="/img/iidx10/22.png">
+<img src="/img/iidx11/13.png">
 
 !!! tip ""
 	For the prefecture change it once or how many times you'd like, it doesn't matter as long as it's not the default one.
 	
-<img src="/img/iidx10/23.png">
+<img src="/img/iidx11/14.png">
 
 !!! tip ""
 	Once that is done, hit `SAVE AND EXIT`. The game will now give you a message, which translated means: 
@@ -228,7 +230,7 @@
 	
 	So, close the game and open it up again.
 	
-<img src="/img/iidx10/24.png">
+<img src="/img/iidx11/15.png">
 	
 ### Final Notes
 

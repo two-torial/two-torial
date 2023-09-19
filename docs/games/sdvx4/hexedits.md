@@ -1,4 +1,4 @@
-# Sound Voltex IV: Heavenly Haven Hex Edits
+# Sound Voltex IV HEAVENLY HAVEN Hex Edits
 
 <img src="/img/sdvxiv/hh.png">
 
