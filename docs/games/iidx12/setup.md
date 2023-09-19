@@ -45,7 +45,7 @@
 
 <img src="/img/iidx12/3.png">
 
-<img src="/img/iidx11/4.png">
+<img src="/img/iidx12/4.png">
 
 !!! tip ""
 
