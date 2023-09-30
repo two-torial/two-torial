@@ -2,6 +2,10 @@
 
 ### What's New:
 
+!!! tip "September 30th, 2023"
+
+	- Add IIDX 13 setup & faq
+
 !!! tip "September 19th, 2023"
 
 	- Add IIDX 11 setup & faq
