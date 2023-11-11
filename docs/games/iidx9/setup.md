@@ -47,7 +47,7 @@
 	
 <img src="/img/iidx9/4.png">
 
-!!! info "If you'd like to play offline, you can head straight to [Final Steps and Setting up the Game](setup.md#final-steps-and-setting-up-the-game)"
+!!! info "If you'd like to play offline, you can head straight to [Setting up the games resolution](setup.md#setting-up-the-games-resolution)"
 
 ### Configuring Bemanitools for an Online Network
 
