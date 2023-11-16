@@ -40,6 +40,10 @@ nav:
                 - 'First Time Setup': 'games/iidx27/setup.md'
                 - 'Common Problems/Tips': 'games/iidx27/problems.md'
                 - 'Lightning Mode Specifics': 'games/iidx27/lightning.md'
+            - 'IIDX 31 EPOLIS':
+                - 'First Time Setup': 'games/iidx31/setup.md'
+                - 'Common Problems/Tips': 'games/iidx31/problems.md'
+                - 'Lightning Mode (TDJ)': 'games/iidx31/lightning.md'
         - 'SDVX':
             - 'SDVX IV HEAVENLY HAVEN':
                 - 'First Time Setup': 'games/sdvx4/setup.md'
