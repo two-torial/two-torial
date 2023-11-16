@@ -16,9 +16,9 @@ This repository houses a guide dedicated to assisting individuals in configuring
 We welcome contributions to bemani guide. To contribute, follow these steps:
 
 1. Fork the Project
-2. Create your Feature Branch (git checkout -b feature/LeBranch)
-3. Commit your Changes (git commit -m 'Added le feature')
-4. Push to the Branch (git push origin feature/LeBranch)
+2. Create your Feature Branch (`git checkout -b feature/LeBranch`)
+3. Commit your Changes (`git commit -m 'Added le feature`)
+4. Push to the Branch (`git push origin feature/LeBranch`)
 5. Open a Pull Request
 
 
