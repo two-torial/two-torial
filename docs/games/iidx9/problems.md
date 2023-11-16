@@ -54,4 +54,4 @@
 #### Fix #2 (RtEffects.dll didn't get replaced)
 
 !!! tip ""
-	Refer to [Getting Started](/games/iidx11/setup/#getting-started) again and check if you have followed all the instructions explained in it.
+	Refer to [Getting Started](/games/iidx9/setup/#getting-started) again and check if you have followed all the instructions explained in it.
