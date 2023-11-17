@@ -5,7 +5,7 @@
 ### My Game Is Running Crazy Fast!
 
 !!! tip ""
-	The most common reason for this is the game is running over its required 59.95hz, the game is hardcoded to run at 59.95hz and this cannot be changed. To solve this, check [this section](/games/iidx11/setup/#locking-the-games-fps) of the guide again.
+	The most common reason for this is the game is running over its required 59.95hz, the game is hardcoded to run at 59.95hz and this cannot be changed. To solve this, check [this section](/games/iidx11/setup/#setting-up-the-games-resolution-locking-fps-fix-stretched-videos) of the guide again.
 
 ### I'm getting "NETWORK WARNING" instead of "NETWORK OK"
 

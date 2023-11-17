@@ -9,8 +9,6 @@
 
 !!! danger "Warning:"
 	Please make sure your data is from an appropriate source and unmodified before proceeding, this guide is unable to troubleshoot any problems related to bad or poorly managed data.
-
-	If you obtained data from a torrent file, make sure you're not seeding the data before proceeding as well.
 	
 	If you encounter any issues or errors regarding this guide or come across issues that aren't listed, feel free to open up a [GitHub Issue!](https://github.com/yxrei/bemani-guide/issues)
 
@@ -121,14 +119,34 @@
 	
 	Replace `eamuse.pcbid=XXXXXXXXXXXXXXXXXXXX` **and** `eamuse.eamid=XXXXXXXXXXXXXXXXXXXX` with your PCBID of your network of choice.
 
-### Setting up the games resolution
+### Setting up the games resolution, locking FPS & fix stretched videos
 
 !!! tip ""
-	Next up, we'll setup borderless window and configure the proper resolution. We're using a `1920x1080` monitor so we will use that.
+	Before we begin, we'd like to mention that you have two options when it comes to how the game renders. You can choose between `Linear` and `Point`.
+
+	Below is an example of how both look like.
+
+??? info "Linear"
+	<img src="/img/iidx13/iidx13_linear.png">
+
+??? info "Point"
+	<img src="/img/iidx13/iidx13_point.png">
+
+!!! tip ""
+	It comes down to your own prefrence what you decide on, `Linear` is less sharp but doesn't have pixel perfect edges. `Point` is sharp and is pixel perfect.
+
+!!! tip ""
+	Next up, we'll setup borderless window, configure the proper resolution and fix stretched background videos. We're using a `1920x1080` monitor so we will use that.
 	
 	Repeat the previous step and open your `iidxhook-13.conf`. We want to find these lines:
 	
 	```
+	# Fix stretched BG videos on newer GPUs. Might appear on Red and newer
+	gfx.bgvideo_uv_fix=false
+	
+	# Software limit the frame rate of the rendering loop in hz, e.g. 60 or 59.95 (0.0 = no software limit)
+	gfx.frame_rate_limit=0.0
+	
 	# Run the game windowed
 	gfx.windowed=false
 
@@ -148,14 +166,16 @@
 	gfx.scale_back_buffer_filter=none
 	```
 	
-	If you can't seem to find them, simply press `CTRL` + `F` and search for `gfx.windowed=false`. This will bring you to the first line we want to edit.
+	If you can't seem to find them, simply press `CTRL` + `F` and search for each argument. It will highlight them for you.
 	
-<img src="/img/iidx10/10.png">
+<img src="/img/iidx9/8.png">
 	
 !!! tip ""
 	Listed below are the values we want to change them to.
 	
 	```
+	gfx.bgvideo_uv_fix=true
+	gfx.frame_rate_limit=59.95
 	gfx.windowed=true
 	gfx.window_width=1920
 	gfx.window_height=1080
@@ -163,29 +183,18 @@
 	gfx.scale_back_buffer_height=1080
 	gfx.scale_back_buffer_filter=linear
 	```
+	Unless you'd like to have the game properly windowed you can safely ignore `gfx.framed=false`. Under normal circumstances there shouldn't be a need for you to fiddle with `gfx.monitor_check=1.000000` so we are also going to ignore it.
+
+	Make sure to adjust for if you want either `Linear` or `Point` rendering.
+
+	```
+	gfx.scale_back_buffer_filter=linear
+	gfx.scale_back_buffer_filter=point
+	```
 	
 	When you're done, it should look like this:
 	
-<img src="/img/iidx10/11.png">
-
-### Fix stretched Background videos
-
-!!! tip ""
-	Inside `iidxhook-13.conf`, we want to look for `gfx.bgvideo_uv_fix=false` which is located right below the PCBID and EAMID prompts.
-
-<img src="/img/iidx11/5.png">
-
-!!! tip ""
-	Change that to `gfx.bgvideo_uv_fix=true`, this will ensure that the background videos won't appear stretched and zoomed in while playing.
-	
-### Locking the games FPS
-
-!!! tip ""
-	Before we can start the game, we need to lock the FPS of the game to `59.95`, otherwise the game will either run crazy fast or will desync. We will be using [RivaTuner Statistics Server](https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download). Simply install it and run it.
-	
-	Now press `Add` and locate your `bm2dx.exe`. You can copy these settings listed below (click on the Framerate limit to enter the value manually):
-	
-<img src="/img/iidx10/12.png">
+<img src="/img/iidx11/config_args.png">
 
 ### Final Steps and Setting up the Game
 
