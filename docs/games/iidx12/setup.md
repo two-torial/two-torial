@@ -2,8 +2,6 @@
 
 <img src="/img/iidx12/happysky_logo.png">
 
-!!! tip "This guide wouldn't exist without the help of sync (Discord: `sync_plus`)."
-
 !!! warning "Before reading:"
 	This game ***will*** require you to touch and edit files manually. This guide tries to make everything as clear as possible. **[Bemanitools](https://github.com/djhackersdev/bemanitools/releases/download/5.44/bemanitools-5.44.zip) & [Bemanitools Supplement](https://github.com/djhackersdev/bemanitools-supplement/releases/download/1.6/bemanitools-supplement-1.6.zip)** will be used in this guide.
 
