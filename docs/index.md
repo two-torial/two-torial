@@ -2,7 +2,7 @@
 description: A compendium of information and guides written to ease headaches.
 ---
 
-# Bemani Guide
+# TWO-TORIAL
 
 A compendium of information and guides written to ease headaches.
 

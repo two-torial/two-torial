@@ -1,4 +1,4 @@
-site_name: bemani guide
+site_name: TWO-TORIAL
 copyright: fumo.photos Team
 site_description: Bemani Troubleshooting Guide
 site_author: IIDX Player
@@ -120,7 +120,7 @@ nav:
         - 'List of Touchscreen Monitors and their Polling Rates': 'extras/pollingrates.md'
         - 'Exclusive Audio Workarounds': 'extras/streamaudio.md'
     - External Resources: externalresources.md
-    - About: about.md
+    - About & Credits: about.md
 
 theme:
     name: material

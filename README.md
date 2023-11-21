@@ -1,7 +1,7 @@
-# bemani guide
+# TWO-TORIAL
 
 
-bemani guide, a compendium of information and guides written to ease headaches for general use. It also serves as a comprehensive resource, providing a structured approach to setting up rhythm games from specific franchises. This guide aims to offer clear instructions, troubleshooting tips, and essential information for enthusiasts and newcomers alike.
+TWO-TORIAL, a compendium of information and guides written to ease headaches for general use. It also serves as a comprehensive resource, providing a structured approach to setting up rhythm games from specific franchises. This guide aims to offer clear instructions, troubleshooting tips, and essential information for enthusiasts and newcomers alike.
 
 https://guide.fumo.photos/
 
@@ -13,7 +13,7 @@ This repository houses a guide dedicated to assisting individuals in configuring
 
 ## Contributing
 
-We welcome contributions to bemani guide. To contribute, follow these steps:
+We welcome contributions to TWO-TORIAL. To contribute, follow these steps:
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/LeBranch`)
@@ -24,7 +24,7 @@ We welcome contributions to bemani guide. To contribute, follow these steps:
 
 ## License
 
-bemani guide is licensed under the Apache License 2.0. You can find the full text of the license in the [LICENSE](LICENSE) file.
+TWO-TORIAL is licensed under the Apache License 2.0. You can find the full text of the license in the [LICENSE](LICENSE) file.
 
 
 ## Additional Notes
