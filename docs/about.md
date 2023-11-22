@@ -22,7 +22,9 @@
 
 !!! tip ""
 
-    - Passionate rhythm game players worldwide that allow these games to exist, thank you for making it a lot of fun to be involved in the scene and around you all.
+    - Winberhouls (Discord: `winberhouls`) for the logo.
+	
+	- Passionate rhythm game players worldwide that allow these games to exist, thank you for making it a lot of fun to be involved in the scene and around you all.
 
 	- sync (Discord: `sync_plus`) for helping with the IIDX SD styles.
 

@@ -1,8 +1,8 @@
-site_name: TWO-TORIAL
-copyright: fumo.photos Team
+site_name: two-torial.xyz
+copyright: two-torial Team
 site_description: Bemani Troubleshooting Guide
 site_author: IIDX Player
-repo_url: https://github.com/yxrei/bemani-guide
+repo_url: https://github.com/yxrei/two-torial/
 repo_name: GitHub
 
 nav:
@@ -124,7 +124,7 @@ nav:
 
 theme:
     name: material
-    logo: img/bemani.png
+    logo: img/logo/website-logo.svg
     favicon: img/favicon.ico
     navigation_depth: 3
     palette:
@@ -143,5 +143,6 @@ markdown_extensions:
     - pymdownx.superfences
     - pymdownx.keys
     - attr_list
+    - md_in_html
 
 plugins: []

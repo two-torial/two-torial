@@ -2,13 +2,18 @@
 description: A compendium of information and guides written to ease headaches.
 ---
 
-# TWO-TORIAL
+#
+
+<figure markdown>
+![Banner](img/logo/banner.png)
+</figure>
+<figure markdown>
+[We now have a Discord server!](https://discord.gg/cZRUmEPK78){ .md-button }
+</figure>
 
 A compendium of information and guides written to ease headaches.
 
 Last Updated: November 21th, 2023.
-
-[We now have a Discord server!](https://discord.gg/cZRUmEPK78){ .md-button }
 
 Changelogs will now be posted on the Discord in much greater detail.
 
