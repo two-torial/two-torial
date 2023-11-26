@@ -5,7 +5,7 @@
 ### Hardware Specs
 
 !!! danger "Warning:"
-	The specs may not be correct. If something isn't correct or it's fine, [let me know](https://github.com/yxrei/bemani-guide/issues/1).
+	The specs may not be correct. If something isn't correct or it's fine, [let me know](https://github.com/yxrei/two-torial/issues/1).
 
 !!! tip ""
 	Bemani PC (ADE-704A)

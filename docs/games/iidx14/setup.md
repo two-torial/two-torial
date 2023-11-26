@@ -1,6 +1,6 @@
-# beatmania IIDX 12 HAPPY SKY
+# beatmania IIDX 14 GOLD
 
-<img src="/img/iidx12/happysky_logo.png">
+<img src="/img/iidx14/gold_logo.png">
 
 !!! warning "Before reading:"
 	This game ***will*** require you to touch and edit files manually. This guide tries to make everything as clear as possible. **[Bemanitools](https://github.com/djhackersdev/bemanitools/releases/download/5.44/bemanitools-5.44.zip) & [Bemanitools Supplement](https://github.com/djhackersdev/bemanitools-supplement/releases/download/1.6/bemanitools-supplement-1.6.zip)** will be used in this guide.
@@ -15,33 +15,21 @@
 
 !!! tip ""
 	
-	After downloading your data, the first thing to do is make sure your files aren't set to READ ONLY, make sure to uncheck it from the main folder in the Windows Properties tab if so. Then, locate `iidx-09-to-12.zip` inside the `bemanitools-5.44.zip`. Extract it inside the folder that contains the `bm2dx.exe` which should be located in `\ECO\JAD`. Pictured below is what your folder should look like, we've removed any files not necessary for **HAPPY SKY**. Feel free to name your `gamestart.bat` file whatever you desire, for the sake of convenience we've kept it as it.
+	After downloading your data, the first thing to do is make sure your files aren't set to READ ONLY, make sure to uncheck it from the main folder in the Windows Properties tab if so. Then, locate `iidx-14-to-17.zip` inside the `bemanitools-5.44.zip`. Extract it inside the folder that contains the `bm2dx.exe` which should be located in `\GLD\2007072301`. Pictured below is what your folder should look like, we've removed any files not necessary for **GOLD**. Feel free to name your `gamestart.bat` file whatever you desire, for the sake of convenience we've kept it as it.
 
-<img src="/img/iidx10/bt1.png">
+<img src="/img/iidx14/bt1.png">
 
-<img src="/img/iidx10/bt2.png">
+<img src="/img/iidx14/bt2.png">
 
-<img src="/img/iidx12/1.png">
+<img src="/img/iidx14/1.png">
 
 !!! tip ""
 
-	Next up, open the `bemanitools-supplement-v1.6.zip` or any version higher than that and navigate inside the `misc.zip`. Now navigate into `misc\d3d8to9` and extract `d3d8.dll` into the same folder as we previously have done. This enables us to use the graphic options inside `iidxhook-12.conf` which we will take advantage of. It should look like this:
+	Next up, open the `bemanitools-supplement-v1.6.zip` or any version higher than that and navigate inside the `misc.zip`. Now navigate into `misc\d3d8to9` and extract `d3d8.dll` into the same folder as we previously have done. This enables us to use the graphic options inside `iidxhook-14.conf` which we will take advantage of. It should look like this:
 
 <img src="/img/iidx10/btsup1.png">
 
-<img src="/img/iidx12/2.png">
-
-!!! tip ""
-
-	Now, open up `bemanitools-supplement-v1.6.zip` again and navigate into `iidx.zip`. Next, navigate into `iidx/misc` and extract `RtEffect_stub.dll` into the same folder as we previously have done. 
-	
-	Delete the already existing `RtEffect.dll` and rename `RtEffect_stub.dll` to `RtEffect.dll`. This will eliminate any immediate crashes relating to needing specific old hardware.
-
-<img src="/img/iidx10/btsup2.png">
-
-<img src="/img/iidx12/3.png">
-
-<img src="/img/iidx12/4.png">
+<img src="/img/iidx14/2.png">
 
 !!! tip ""
 
@@ -54,7 +42,7 @@
 	Open up the command prompt as ***administrator***. Now type `regsvr32 "<location of the file>\CLVSD.ax"` into the command prompt.
 
 	As an example, it could look like this: `regsvr32 "D:\BEMANI\IIDX\CLVSD.ax"` A prompt should appear telling you that it has been installed successfully.
-	This applies for all styles that require this codec, not just **HAPPY SKY**.
+	This applies for all styles that require this codec, not just **DistorteD**.
 
 	If an error occurs, you didn't run the command prompt as administrator or you messed up the location of the file.
 
@@ -100,7 +88,7 @@
 ### Configuring the game for an Online Network
 
 !!!tip ""
-	Locate your `iidxhook-12.conf` and edit it in your desired text editor (we're using [Notepad++](https://notepad-plus-plus.org/)). It may seem overwhelming at first but it's actually fairly simple. All we really care about are these lines:
+	Locate your `iidxhook-14.conf` and edit it in your desired text editor (we're using [Notepad++](https://notepad-plus-plus.org/)). It may seem overwhelming at first but it's actually fairly simple. All we really care about are these lines:
 	
 	```
 	# URL (e.g. http://my.eamuse.server:80/whatever) or IPV4 (e.g. 127.0.0.1:80) of the target eamuse server. The port is optional but defaults to 80.
@@ -125,10 +113,10 @@
 	Below is an example of how both look like.
 
 ??? info "Linear"
-	<img src="/img/iidx12/iidx12_linear.png">
+	<img src="/img/iidx14/iidx14_linear.png">
 
 ??? info "Point"
-	<img src="/img/iidx12/iidx12_point.png">
+	<img src="/img/iidx14/iidx14_point.png">
 
 !!! tip ""
 	It comes down to your own prefrence what you decide on, `Linear` is less sharp but doesn't have pixel perfect edges. `Point` is sharp and is pixel perfect.
@@ -136,7 +124,7 @@
 !!! tip ""
 	Next up, we'll setup borderless window, configure the proper resolution and fix stretched background videos. We're using a `1920x1080` monitor so we will use that.
 	
-	Repeat the previous step and open your `iidxhook-12.conf`. We want to find these lines:
+	Repeat the previous step and open your `iidxhook-14.conf`. We want to find these lines:
 	
 	```
 	# Fix stretched BG videos on newer GPUs. Might appear on Red and newer
@@ -198,63 +186,68 @@
 
 !!! tip ""
 	We can now focus on starting the game and getting it running. Open `gamestart.bat` (if you kept the name as is)
+
+	You might come across an error that says:
+
+	`USB I/O ERROR ERROR(FM TRNS-OUT)` or `USB I/O ERROR ERROR(FM-DL TIMEOUT)` simply reboot the game and it should work regardless.
 	
 	You will be greeted by the initialization screen and shortly after this screen:
 
-<img src="/img/iidx12/5.png">
+<img src="/img/iidx14/5.png">
 
-<img src="/img/iidx10/14.png">
-
-!!! tip ""
-	Hit your `Start` button to confirm to get to this screen:
-
-<img src="/img/iidx10/15.png">
+<img src="/img/iidx14/6.png">
 
 !!! tip ""
-	Hit your `Start` button again to confirm. This will bring you into the games settings menu. From there, navigate to `CLOCK SETUP`. You can leave the date, no need to manually change it. Simply navigate to `SAVE AND EXIT`.
+	Hit your `Test` button to confirm to get to this screen:
+
+<img src="/img/iidx14/7.png">
+
+!!! tip ""
+	Hit your `Test` button again to confirm. The game will then perform a `MONITOR CHECK`.
 	
-<img src="/img/iidx12/6.png">
+<img src="/img/iidx14/monitor_check.png">	
 
-<img src="/img/iidx11/8.png">
+!!! tip ""
+	Once the `MONITOR CHECK` is done, the game puts us into the games settings menu. From there, navigate to `CLOCK SETUP`. You can leave the date, no need to manually change it. Simply navigate to `SAVE AND EXIT`.
+	
+<img src="/img/iidx14/8.png">
+
+<img src="/img/iidx14/9.png">
 
 !!! info "If you'd like to play offline, you can head straight to [Final Notes](setup.md#final-notes)"
 
-### Enabling e-AMUSEMENT for Online Play
+### Setting Shop Name and Prefecture for Online Play
 
 !!! tip ""
 	From the games settings menu, naviate to `e-AMUSEMENT OPTIONS` and select it. This will bring you to `e-AMUSEMENT SETTINGS`. Select it aswell.
 	
-<img src="/img/iidx12/7.png">
+<img src="/img/iidx14/10.png">
 
-<img src="/img/iidx11/10.png">
+<img src="/img/iidx14/11.png">
 
 !!! tip ""
-	It'll bring you to this next screen, select it so that `e-AMUSEMENT` switches to `ON` and it will look like this:
-	
-<img src="/img/iidx11/11.png">
+	It'll bring you to this next screen, if `e-AMUSEMENT` is `OFF`, select it so that `e-AMUSEMENT` switches to `ON` and it will look like this:
 
-<img src="/img/iidx11/12.png">
+<img src="/img/iidx14/12.png">
 
 !!! tip ""
 	We now have to change our `SHOP NAME SETTING` and `PREFECTURE` otherwise the game will throw errors at us.
 	
 	Start with the shop name, select it and change them to what ever you like. When you're done editing your shop name, navigate to `EXIT` and select it.
 	
-<img src="/img/iidx11/13.png">
+<img src="/img/iidx14/13.png">
 
 !!! tip ""
 	For the prefecture change it once or how many times you'd like, it doesn't matter as long as it's not the default one.
 	
-<img src="/img/iidx11/14.png">
+<img src="/img/iidx14/14.png">
 
 !!! tip ""
-	Once that is done, hit `SAVE AND EXIT`. The game will now give you a message, which translated means: 
+	Once that is done, hit `SAVE AND EXIT`. The game will say `NOW SAVING`.
+
+	When it's done saving, you can exit out of the `NETWORK OPTIONS`.
 	
-	`e-AMUSEMENT settings have been changed. Please turn the power off and on again.`
-	
-	So, close the game and open it up again.
-	
-<img src="/img/iidx11/15.png">
+<img src="/img/iidx14/15.png">
 	
 ### Final Notes
 
