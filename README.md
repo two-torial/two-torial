@@ -1,5 +1,8 @@
-# TWO-TORIAL
+<p align="center">
+  <img src="https://github.com/yxrei/two-torial/blob/master/docs/img/logo/github-banner.png?raw=true">
+</p>
 
+#
 
 TWO-TORIAL, a compendium of information and guides written to ease headaches for general use. It also serves as a comprehensive resource, providing a structured approach to setting up rhythm games from specific franchises. This guide aims to offer clear instructions, troubleshooting tips, and essential information for enthusiasts and newcomers alike.
 
