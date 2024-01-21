@@ -13,7 +13,7 @@ description: A compendium of information and guides written to ease headaches.
 
 A compendium of information and guides written to ease headaches.
 
-Last Updated: November 21th, 2023.
+Last Updated: January 22nd, 2024.
 
 Changelogs will now be posted on the Discord in much greater detail.
 
