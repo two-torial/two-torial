@@ -60,6 +60,10 @@ nav:
                 - 'First Time Setup': 'games/sdvx5/setup.md'
                 - 'Common Problems/Tips': 'games/sdvx5/problems.md'
                 - 'Hex Edits': 'games/sdvx5/hexedits.md'
+            - 'SDVX EXCEED GEAR':
+                - 'First Time Setup': 'games/sdvx6/setup.md'
+                - 'Common Problems/Tips': 'games/sdvx6/problems.md'
+                - 'Valkyrie Model': 'games/sdvx6/valk.md'
         - 'Pop&apos;n':
             - 'Pop&apos;n Usaneko':
                 - 'First Time Setup': 'games/popnusaneko/setup.md'

@@ -1,4 +1,4 @@
-# SDVX V Common Problems/Tips
+# SDVX VW Common Problems/Tips
 
 <img src="/img/sdvxv/vw.png">
 
