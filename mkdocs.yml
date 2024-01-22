@@ -129,6 +129,7 @@ nav:
         - 'SpiceTools Usage, Parameters, and Functionality': 'extras/spiceguide.md'
         - 'SpiceTools Error Messages': 'extras/spiceerrors.md'
         - 'List of Touchscreen Monitors and their Polling Rates': 'extras/pollingrates.md'
+        - 'What is WASAPI and ASIO?': 'extras/audio.md'
         - 'Exclusive Audio Workarounds': 'extras/streamaudio.md'
     - External Resources: externalresources.md
     - About & Credits: about.md
@@ -153,6 +154,11 @@ markdown_extensions:
     - pymdownx.snippets
     - pymdownx.superfences
     - pymdownx.keys
+    - pymdownx.critic
+    - pymdownx.caret
+    - pymdownx.keys
+    - pymdownx.mark
+    - pymdownx.tilde
     - attr_list
     - md_in_html
 
