@@ -8,54 +8,55 @@ repo_name: GitHub
 nav:
     - Home: index.md
     - Games:
-        - 'IIDX':
-            - 'IIDX 9th style':
-                - 'First Time Setup': 'games/iidx9/setup.md'
-                - 'Common Problems/Tips': 'games/iidx9/problems.md'
-            - 'IIDX 10th style':
-                - 'First Time Setup': 'games/iidx10/setup.md'
-                - 'Common Problems/Tips': 'games/iidx10/problems.md'
-            - 'IIDX 11 IIDX RED':
-                - 'First Time Setup': 'games/iidx11/setup.md'
-                - 'Common Problems/Tips': 'games/iidx11/problems.md'
-            - 'IIDX 12 HAPPY SKY':
-                - 'First Time Setup': 'games/iidx12/setup.md'
-                - 'Common Problems/Tips': 'games/iidx12/problems.md'
-            - 'IIDX 13 DistorteD':
-                - 'First Time Setup': 'games/iidx13/setup.md'
-                - 'Common Problems/Tips': 'games/iidx13/problems.md'
-            - 'IIDX 14 GOLD':
-                - 'First Time Setup': 'games/iidx14/setup.md'
-                - 'Common Problems/Tips': 'games/iidx14/problems.md'
-            - 'IIDX 24 SINOBUZ':
-                - 'First Time Setup': 'games/iidx24/setup.md'
-                - 'Common Problems/Tips': 'games/iidx24/problems.md'
-                - 'Hex Edits': 'games/iidx24/hexedits.md'
-            - 'IIDX 25 CANNON BALLERS':
-                - 'First Time Setup': 'games/iidx25/setup.md'
-                - 'Common Problems/Tips': 'games/iidx25/problems.md'
-                - 'Hex Edits': 'games/iidx25/hexedits.md'
-            - 'IIDX 26 Rootage':
-                - 'First Time Setup': 'games/iidx26/setup.md'
-                - 'Common Problems/Tips': 'games/iidx26/problems.md'
-                - 'Hex Edits': 'games/iidx26/hexedits.md'
-            - 'IIDX 27 HEROIC VERSE':
-                - 'First Time Setup': 'games/iidx27/setup.md'
-                - 'Common Problems/Tips': 'games/iidx27/problems.md'
-                - 'Lightning Mode Specifics': 'games/iidx27/lightning.md'
-            - 'IIDX 30 RESIDENT':
-                - 'First Time Setup': 'games/iidx30/setup.md'
-                - 'Common Problems/Tips': 'games/iidx30/problems.md'
-                - 'Lightning Mode (TDJ)': 'games/iidx30/lightning.md'
-            - 'IIDX 31 EPOLIS':
-                - 'First Time Setup': 'games/iidx31/setup.md'
-                - 'Common Problems/Tips': 'games/iidx31/problems.md'
-                - 'Lightning Mode (TDJ)': 'games/iidx31/lightning.md'
-        - 'SDVX':
-            - 'SDVX IV HEAVENLY HAVEN':
-                - 'First Time Setup': 'games/sdvx4/setup.md'
-                - 'Common Problems/Tips': 'games/sdvx4/problems.md'
-                - 'Hex Edits': 'games/sdvx4/hexedits.md'
+        - BEMANI:
+            - 'IIDX':
+                - 'IIDX 9th style':
+                    - 'First Time Setup': 'games/iidx9/setup.md'
+                    - 'Common Problems/Tips': 'games/iidx9/problems.md'
+                - 'IIDX 10th style':
+                    - 'First Time Setup': 'games/iidx10/setup.md'
+                    - 'Common Problems/Tips': 'games/iidx10/problems.md'
+                - 'IIDX 11 IIDX RED':
+                    - 'First Time Setup': 'games/iidx11/setup.md'
+                    - 'Common Problems/Tips': 'games/iidx11/problems.md'
+                - 'IIDX 12 HAPPY SKY':
+                    - 'First Time Setup': 'games/iidx12/setup.md'
+                    - 'Common Problems/Tips': 'games/iidx12/problems.md'
+                - 'IIDX 13 DistorteD':
+                    - 'First Time Setup': 'games/iidx13/setup.md'
+                    - 'Common Problems/Tips': 'games/iidx13/problems.md'
+                - 'IIDX 14 GOLD':
+                    - 'First Time Setup': 'games/iidx14/setup.md'
+                    - 'Common Problems/Tips': 'games/iidx14/problems.md'
+                - 'IIDX 24 SINOBUZ':
+                    - 'First Time Setup': 'games/iidx24/setup.md'
+                    - 'Common Problems/Tips': 'games/iidx24/problems.md'
+                    - 'Hex Edits': 'games/iidx24/hexedits.md'
+                - 'IIDX 25 CANNON BALLERS':
+                    - 'First Time Setup': 'games/iidx25/setup.md'
+                    - 'Common Problems/Tips': 'games/iidx25/problems.md'
+                    - 'Hex Edits': 'games/iidx25/hexedits.md'
+                - 'IIDX 26 Rootage':
+                    - 'First Time Setup': 'games/iidx26/setup.md'
+                    - 'Common Problems/Tips': 'games/iidx26/problems.md'
+                    - 'Hex Edits': 'games/iidx26/hexedits.md'
+                - 'IIDX 27 HEROIC VERSE':
+                    - 'First Time Setup': 'games/iidx27/setup.md'
+                    - 'Common Problems/Tips': 'games/iidx27/problems.md'
+                    - 'Lightning Mode Specifics': 'games/iidx27/lightning.md'
+                - 'IIDX 30 RESIDENT':
+                    - 'First Time Setup': 'games/iidx30/setup.md'
+                    - 'Common Problems/Tips': 'games/iidx30/problems.md'
+                    - 'Lightning Mode (TDJ)': 'games/iidx30/lightning.md'
+                - 'IIDX 31 EPOLIS':
+                    - 'First Time Setup': 'games/iidx31/setup.md'
+                    - 'Common Problems/Tips': 'games/iidx31/problems.md'
+                    - 'Lightning Mode (TDJ)': 'games/iidx31/lightning.md'
+            - 'SDVX':
+                - 'SDVX IV HEAVENLY HAVEN':
+                    - 'First Time Setup': 'games/sdvx4/setup.md'
+                    - 'Common Problems/Tips': 'games/sdvx4/problems.md'
+                    - 'Hex Edits': 'games/sdvx4/hexedits.md'
             - 'SDVX VIVID WAVE':
                 - 'First Time Setup': 'games/sdvx5/setup.md'
                 - 'Common Problems/Tips': 'games/sdvx5/problems.md'
@@ -64,59 +65,61 @@ nav:
                 - 'First Time Setup': 'games/sdvx6/setup.md'
                 - 'Common Problems/Tips': 'games/sdvx6/problems.md'
                 - 'Valkyrie Model': 'games/sdvx6/valk.md'
-        - 'Pop&apos;n':
-            - 'Pop&apos;n Usaneko':
-                - 'First Time Setup': 'games/popnusaneko/setup.md'
-                - 'Common Problems/Tips': 'games/popnusaneko/problems.md'
-                - 'Hex Edits': 'games/popnusaneko/hexedits.md'
-            - 'Pop&apos;n Peace':
-                - 'First Time Setup': 'games/popnpeace/setup.md'
-                - 'Common Problems/Tips': 'games/popnpeace/problems.md'
-                - 'Hex Edits': 'games/popnpeace/hexedits.md'
-            - 'HELLO Pop&apos;n':
-                - 'First Time Setup': 'games/hellopopn/setup.md'
-                - 'Common Problems/Tips': 'games/hellopopn/problems.md'
-        - 'DDR':
-            - 'DDR Ace':
-                - 'First Time Setup': 'games/ddrace/setup.md'
-                - 'Common Problems/Tips': 'games/ddrace/problems.md'
-                - 'Hex Edits': 'games/ddrace/hexedits.md'
-        - 'Jubeat':
-            - 'Jubeat Clan':
-                - 'First Time Setup': 'games/jubeatclan/setup.md'
-                - 'Common Problems/Tips': 'games/jubeatclan/problems.md'
-                - 'Hex Edits': 'games/jubeatclan/hexedits.md'
-        - 'GITADORA':
-            - 'GITADORA Matixx':
-                - 'First Time Setup': 'games/gitamatixx/setup.md'
-                - 'Common Problems/Tips': 'games/gitamatixx/problems.md'
-                - 'Hex Edits': 'games/gitamatixx/hexedits.md'
-            - 'GITADORA EXCHAIN':
-                - 'First Time Setup': 'games/exchain/setup.md'
-                - 'Common Problems/Tips': 'games/exchain/problems.md'
-                - 'Hex Edits': 'games/exchain/hexedits.md'
-        - 'Reflec Beat':
-            - 'Reflec Beat: Reflesia':
-                - 'First Time Setup': 'games/reflesia/setup.md'
-                - 'Common Problems/Tips': 'games/reflesia/problems.md'
-                - 'Hex Edits': 'games/reflesia/hexedits.md'
-        - 'NOSTALGIA':
-            - 'Nostalgia FORTE':
-                - 'First Time Setup': 'games/nostforte/setup.md'
-                - 'Common Problems/Tips': 'games/nostforte/problems.md'
-                - 'Hex Edits': 'games/nostforte/hexedits.md'
-            - 'Nostalgia Op.2':
-                - 'First Time Setup': 'games/nostop2/setup.md'
-                - 'Common Problems/Tips': 'games/nostop2/problems.md'
-                - 'Hex Edits': 'games/nostop2/hexedits.md'
-        - 'BeatStream アニムトライヴ':
+            - 'Pop&apos;n':
+                - 'Pop&apos;n Usaneko':
+                    - 'First Time Setup': 'games/popnusaneko/setup.md'
+                    - 'Common Problems/Tips': 'games/popnusaneko/problems.md'
+                    - 'Hex Edits': 'games/popnusaneko/hexedits.md'
+                - 'Pop&apos;n Peace':
+                    - 'First Time Setup': 'games/popnpeace/setup.md'
+                    - 'Common Problems/Tips': 'games/popnpeace/problems.md'
+                    - 'Hex Edits': 'games/popnpeace/hexedits.md'
+                - 'HELLO Pop&apos;n':
+                    - 'First Time Setup': 'games/hellopopn/setup.md'
+                    - 'Common Problems/Tips': 'games/hellopopn/problems.md'
+            - 'DDR':
+                - 'DDR Ace':
+                    - 'First Time Setup': 'games/ddrace/setup.md'
+                    - 'Common Problems/Tips': 'games/ddrace/problems.md'
+                    - 'Hex Edits': 'games/ddrace/hexedits.md'
+            - 'Jubeat':
+                - 'Jubeat Clan':
+                    - 'First Time Setup': 'games/jubeatclan/setup.md'
+                    - 'Common Problems/Tips': 'games/jubeatclan/problems.md'
+                    - 'Hex Edits': 'games/jubeatclan/hexedits.md'
+            - 'GITADORA':
+                - 'GITADORA Matixx':
+                    - 'First Time Setup': 'games/gitamatixx/setup.md'
+                    - 'Common Problems/Tips': 'games/gitamatixx/problems.md'
+                    - 'Hex Edits': 'games/gitamatixx/hexedits.md'
+                - 'GITADORA EXCHAIN':
+                    - 'First Time Setup': 'games/exchain/setup.md'
+                    - 'Common Problems/Tips': 'games/exchain/problems.md'
+                    - 'Hex Edits': 'games/exchain/hexedits.md'
+            - 'Reflec Beat':
+                - 'Reflec Beat: Reflesia':
+                    - 'First Time Setup': 'games/reflesia/setup.md'
+                    - 'Common Problems/Tips': 'games/reflesia/problems.md'
+                    - 'Hex Edits': 'games/reflesia/hexedits.md'
+            - 'NOSTALGIA':
+                - 'Nostalgia FORTE':
+                    - 'First Time Setup': 'games/nostforte/setup.md'
+                    - 'Common Problems/Tips': 'games/nostforte/problems.md'
+                    - 'Hex Edits': 'games/nostforte/hexedits.md'
+                - 'Nostalgia Op.2':
+                    - 'First Time Setup': 'games/nostop2/setup.md'
+                    - 'Common Problems/Tips': 'games/nostop2/problems.md'
+                    - 'Hex Edits': 'games/nostop2/hexedits.md'
+            - 'BeatStream アニムトライヴ':
                 - 'First Time Setup': 'games/beatstreamfinal/setup.md'
                 - 'Common Problems/Tips': 'games/beatstreamfinal/problems.md'
                 - 'Hex Edits': 'games/beatstreamfinal/hexedits.md'
-        - 'MÚSECA 1+1/2':
+            - 'MÚSECA 1+1/2':
                 - 'First Time Setup': 'games/musecafinal/setup.md'
                 - 'Common Problems/Tips': 'games/musecafinal/problems.md'
                 - 'Hex Edits': 'games/musecafinal/hexedits.md'
+        - SEGA:
+            - 'Coming Soon': '#'
     - Error Codes: errorcodes.md
     - Extras:
         - 'Beginner Guide to Hex Editing': 'extras/hexguide.md'
