@@ -122,6 +122,7 @@ nav:
             - 'Coming Soon': '#'
     - Error Codes: errorcodes.md
     - Extras:
+        - 'How to use Patcher Websites': 'extras/patchweb.md'
         - 'Beginner Guide to Hex Editing': 'extras/hexguide.md'
         - 'Notes on the Most Common ASCs and Vendors': 'extras/ascs.md'
         - 'Arcade Parts List and Documentation': 'extras/parts.md'

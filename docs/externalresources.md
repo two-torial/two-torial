@@ -9,7 +9,14 @@
 	It might get a bit messy with time, but that's half the fun!
 
 
-## General
+### Patcher
+
+!!! tip ""
+	- [BemaniPatcher](https://mon.im/bemanipatcher/) - Drag and drop hex edit solution for a myriad of games
+
+	- [EGRS Patcher](https://egrspatcher.pages.dev/) - Drag and drop hex edit solution for n-0 games which gets frequent updates
+
+### General
 
 !!! tip ""
 	- [Remywiki](https://remywiki.com/Main_Page) - Generalized BEMANI content wiki
@@ -18,11 +25,11 @@
 
 	- [Cons&Stuff](https://consandstuff.github.io/) - Community resource for DIY controllers
 
-	- [BemaniPatcher](https://mon.im/bemanipatcher/) - Drag and drop hex edit solution for a myriad of games
-
 ### IIDX
 
 !!! tip ""
+	- [iidx.org](https://iidx.org/) - The go to guide for mechanics and skill related things
+  
 	- [sp12](https://sp12.iidx.app/) - IIDX SP☆12 reference site/difficulty tier list
 
 	- [iidx.insane.pe.kr](https://iidx.insane.pe.kr/!/) - IIDX difficulty tier list
