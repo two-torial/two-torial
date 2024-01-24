@@ -124,6 +124,7 @@ nav:
     - Extras:
         - 'How to use Patcher Websites': 'extras/patchweb.md'
         - 'Beginner Guide to Hex Editing': 'extras/hexguide.md'
+        - 'How to setup Asphyxia CORE': 'extras/asphyxia.md'
         - 'Notes on the Most Common ASCs and Vendors': 'extras/ascs.md'
         - 'Arcade Parts List and Documentation': 'extras/parts.md'
         - 'SpiceTools Usage, Parameters, and Functionality': 'extras/spiceguide.md'
