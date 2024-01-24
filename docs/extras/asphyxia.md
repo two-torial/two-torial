@@ -2,6 +2,13 @@
 
 !!! danger "If this isn't your first time setting up Asphyxia, make sure to ^^*backup your ```savedata``` folder*^^ and place it somewhere safe."
 
+### What is Asphyxia CORE?
+
+!!! tip ""
+	Asphyxia CORE is a ^^local^^ e-amuse emulator which includes score saving and customization. The software itself does not support any game out of the box. For this, you need ```plugins```.
+
+### Configuring Asphyxia
+
 !!! tip ""
 	First, grab the latest release [here.](https://github.com/asphyxia-core/asphyxia-core.github.io/releases) In ^^almost^^ all cases, you will use the ```asphyxia-core-win-x64.zip```. Next, open the ```.zip``` file and extract the ```plugins``` folder and ```asphyxia-core-x64.exe``` into the ```contents``` folder of your desired game. I will use SDVX EG for this example.
 
@@ -15,7 +22,7 @@
 !!! tip ""
 	For Asphyxia to run properly, you will need a plugin for each game you want to use it with. For this, we will provide them on our [Discord server.](https://discord.gg/cZRUmEPK78)
 
-	Now look for the ```Asphyxia``` category on the [Discord server](https://discord.gg/cZRUmEPK78) and choose your game. Download the ```.zip``` file and open it. Extract the ```plugins``` folder into the ```contents``` folder like we did before. Overwrite any files if prompted to.
+	Now look for the ```Asphyxia``` category and then the ```plugins``` channel on the [Discord server](https://discord.gg/cZRUmEPK78) and choose your game. Download the ```.zip``` file and open it. Extract the ```plugins``` folder into the ```contents``` folder like we did before. Overwrite any files if prompted to.
 
 !!! tip ""
 	Open ```asphyxia-core-x64.exe``` to start the server. It will automatically open a browser tab. This is your ```WebUI```. Next, click on the game you want to use, in my case, it's ```SDVX``` on the left-hand bar and click on ```Import Assets```. In here, paste the path of your ```contents``` folder.
