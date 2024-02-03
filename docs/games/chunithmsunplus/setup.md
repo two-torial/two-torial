@@ -3,7 +3,6 @@
 <img src="/img/chunithmsunplus/sunplus.png">
 
 !!! note "Author Note:"
-
 	Last updated: 25.01.2024 (Currently using `SDHD 2.16.00`)
 	
 	For hex edits: Go to [Missless Patcher](https://patcher.missless.net/chunisunplus.html) (should probably find a patcher host who's happy to be featured here)
@@ -72,16 +71,26 @@
 <img src="/img/chunithmsunplus/replace.png">
 
 !!! tip ""
-	Obtain unpacked copies of `chusanApp.exe` and `amdaemon.exe`.  
-	Copy these files to the `App\bin\` folder.  
-	When asked, choose to replace the existing files with the newly copied files.
+	Next we need to replace the protected executables with copys that will run on a regular PC.  
+	Obtain unpacked copies of `chusanApp.exe` and `amdaemon.exe`. If these weren't provided with your data, join the <a href="https://discord.gg/cZRUmEPK78">Discord</a> for assistance.  
+	Copy `chusanApp.exe` and `amdaemon.exe` to the `App\bin\` folder of your game data. When asked, overwrite the existing files.
 
-### segatools
+### Setting up segatools
+
+!!! note "segatools:"
+	`segatools` is a loader and hardware emulator for SEGA arcade games. It will allow us to launch the game, as well as configure inputs and network settings. More information can be found at the <a href="https://gitea.tendokyu.moe/Dniel97/segatools"> segatools gitea page</a>.
 
 !!! tip ""
-	Obtain segatools.zip from dniel97 git release tab  
-	Open chusan.zip inside of the segatools.zip  
-	Copy contents from chusan.zip to App\bin folder  
+	Download the latest version of segatools from <a href="https://gitea.tendokyu.moe/Dniel97/segatools/releases">the release tab</a> of the segatools page. This will be a file named `segatools.zip`.   
+	As segatools supports many games, the `segatools.zip` file will contain several more zip files. For CHUNITHM SUN PLUS, we will need to open the `chusan.zip`.
+
+<img src="/img/chunithmsunplus/chusanzip.png">
+
+!!! tip ""
+	Copy the files from `chusan.zip` to your `App/bin` folder.  
+	Here is how your `App/bin` folder should look after everything has been copied correctly.
+
+<img src="/img/chunithmsunplus/appbincomplete.png">
 
 !!! tip ""
 	Open segatools.ini with a text editor  
