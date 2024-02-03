@@ -122,6 +122,8 @@ nav:
             - 'CHUNITHM':
                 - 'SUN PLUS':
                     - 'First Time Setup': 'games/chunithmsunplus/setup.md'
+                    - 'Controllers': 'games/chunithmsunplus/controllers.md'
+                    - 'Networks': 'games/chunithmsunplus/networks.md'
                     - 'Common Problems/Tips': 'games/chunithmsunplus/problems.md'
     - Error Codes: errorcodes.md
     - Extras:
