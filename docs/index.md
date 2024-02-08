@@ -13,9 +13,9 @@ description: A compendium of information and guides written to ease headaches.
 
 A compendium of information and guides written to ease headaches.
 
-Last Updated: January 24th, 2024.
+Last Updated: February 8th, 2024.
 
-Changelogs will posted on the Discord in much greater detail.
+Changelogs will posted on the Discord in detail.
 
 We also have a troubleshooting section available on the Discord server.
 &nbsp;
