@@ -1,3 +1,7 @@
+# CHUNITHM SUN PLUS Network Setup
+
+<img src="/img/chunithmsunplus/sunplus.png">
+
 ARTEMiS  
 -harder to setup, works better once setup.
 

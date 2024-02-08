@@ -1,3 +1,7 @@
+# CHUNITHM SUN PLUS Controller Setup
+
+<img src="/img/chunithmsunplus/sunplus.png">
+
 Keyboard (sucks)
 
 Brokenithm  

@@ -3,9 +3,9 @@
 <img src="/img/chunithmsunplus/sunplus.png">
 
 !!! note "Author Note:"
-	Last updated: 03.02.2024 (Currently using `SDHD 2.16.00`)
+	Last updated: 08.02.2024 (Currently using `SDHD 2.16.00`)
 	
-	For hex edits: Go to [Missless Patcher](https://patcher.missless.net/chunisunplus.html) (should probably find a patcher host who's happy to be featured here)
+	For hex edits: Go to the CHUNITHM section of your prefered patcher host, or use the Offline Patcher included with the unpacked binaries.
 
 !!! danger "Warning:"
 	Please make sure your data is from an appropriate source and unmodified before proceeding, this guide is unable to troubleshoot any problems related to bad or poorly managed data.
@@ -56,7 +56,7 @@
 	The update folder should only contain an `App` folder.
 
 !!! note "Other Data Formats:"
-	SEGA data is also commonly distributed as single `.app` and `.opt` files. These files are useful for archive purposes, but are not required to run the game. Always download the unpacked data for home use.
+	SEGA data is also commonly distributed as single `.app` and `.opt` files. These files are useful for archival purposes, but are not required to run the game. Always download the unpacked data for home use.
 
 ### Setting Up the Game Data
 
@@ -107,7 +107,7 @@
 	`option=` should point to the `Option` folder, which contains game data update folders, with A**XXX** names. This should also be in the root of your game folder, next to `amfs`.  
 	`appdata=` is a new folder created for the games appdata. You can either create a folder somewhere to point this too, or simply enter `appdata=appdata` to have a folder created within your `App/bin` folder.
 
-	The example image below was created, with a base game folder of `C:\CHUNITHMSUNPLUS\`.
+	The example image below was created with a base game folder of `C:\CHUNITHMSUNPLUS\`.
 
 <img src="/img/chunithmsunplus/vfs.png">
 
@@ -143,7 +143,7 @@
     	}
 	}
 	```
-	This is only needed to boot the game in offline mode, as any correctly configured server should handle the default settings correctly.
+	This is only needed to boot the game in offline mode, as any correctly configured server should handle the default settings properly.
 
 ### Service Menu settings
 
@@ -182,8 +182,13 @@
 <img src="/img/chunithmsunplus/alltime.png">
 
 !!! tip ""
-	Select the last option from the menu to return to the previous menu, and then select the last option of the main menu to save your settings and boot the game.  
+	Select the last option from the menu to return to the previous menu, and then select the last option of the main menu to save your settings and continue booting the game.  
 
+	If you get stuck at a `Waiting for Distribution Server` message, shown below, close the game and relaunch. This is caused by dipswitch settings not setting themselves correctly the very first time the game is launched.
+
+<img src="/img/chunithmsunplus/distserver.png">
+
+!!! tip ""
 	If everything has been set up correctly, you should now be at the games Attract Screen.  
 	Now we know the game is working, we can move on to configuring controllers and network access.
 
