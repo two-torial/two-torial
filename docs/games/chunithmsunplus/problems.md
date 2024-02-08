@@ -70,3 +70,15 @@
 <img src="/img/chunithmsunplus/nvidiaperf.png">
 
 !!! note "AMD:"
+    In the Windows Taskbar Icon Tray, right click the `AMD Software` icon, and select `Open AMD Software: Adrenalin Edition`.  
+    At the top of the window, select the `Gaming` tab.  
+    If `chusanApp` isn't already listed in your Games Library, click on the 3 dots at the top right of the window, then click on `Add A Game...`. Navigate to your `\CHUNITHMSUNPLUS\App\bin\` folder, and select `chusanApp.exe`.  
+    Select `chusanApp` from the Games Library.  
+    Under the `Graphics` section, set the `Graphics Profile` to `Performance`.
+
+<img src="/img/chunithmsunplus/amdperf.png">
+
+!!! note "AMD, continued:"
+    While the above will help to reduce any issues, it's not quite the same as the `Power management mode` offered by NVIDIA.  
+    A similar configuration can be achieved by adding a custom Overlocking Game Profile in the `Performance` > `Tuning` section of the AMD Software, and increasing the minimum `GPU Frequency` for each `State`.  
+    As these settings will vary wildly from one GPU to another, and as overclocking comes with its own risks, specifics for this won't be included on this page.
