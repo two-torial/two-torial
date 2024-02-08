@@ -45,7 +45,9 @@
 ### SDVX
 
 !!! tip ""
-	- [sdvx.in](https://sdvx.in/) - SDVX chart reference
+	- [SDVX Index](https://sdvxindex.com/) - SDVX chart viewer and refrence
+	
+	- [sdvx.in](https://sdvx.in/) - worse alternative to SDVX Index
 
 	- [SDVX Progress Chart](https://docs.google.com/spreadsheets/d/1cFltguBvPplBem-x1STHnG3k4TZzFfyNEZ-RwsQszoo/edit#gid=0) - Functions as a generalized tier list
 
