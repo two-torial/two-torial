@@ -4,9 +4,9 @@
 
 !!! note "Author Note:"
 
-	Last updated: 16.11.2023 (Currently using `2023101800`)
+	Last updated: 09.02.2024 (Currently using `2023101800`)
 	
-	For hex edits: Go to [EGRS's Patcher](https://egrspatcher.pages.dev/epolis) (provided by the EGRS Community)
+	For hex edits: Go to [Türksigara Patcher](https://p.eagate.turksigara.net/)
 
 	For lightning mode specifics: they are found [here](lightning.md)
 
@@ -64,9 +64,11 @@
 	This is the games datacode, basically telling the game what version it is on.
 
 
-### Configuring for an Online Network
+### Configuring for a Network
 
-!!! tip ""
+!!! danger "You can decide between the two, whether you want to play on an online network or use a local e-amuse emulator. ***Do not*** use both. Only choose one."
+
+??? tip "Online Network"
 	Now that you have your files ready, open up `spicecfg.exe` and head to the `Options` where we'll set our desired parameters.
 	
 	On the `Service URL: -url` parameter, we're going to input our chosen network URL like so: `http://yoururlhere.com/`
@@ -83,9 +85,8 @@
 
 	Pictured below, the selected options inside the `Options` tab in `spicecfg.exe`.
 
-<img src="/img/iidx31/cfg_on.png">
+	<img src="/img/iidx31/cfg_on.png">
 
-!!! tip ""
 	One final note, since you're playing on a network, you will have one additional step of setting up your card file if you do not already have one.
 	For this, simply head to the `Cards` tab and press `Generate`.
 
@@ -94,12 +95,22 @@
 	Next, click on the three dots (`...`) next to `Card Path` and locate your card text file. Keep in mind that `Player 1` refers to 1P **side** and will log you in on the **left**, Player 2 does the opposite respectively.
 	If you have done everything correctly, it should look like this:
 
-<img src="/img/iidx31/card.png">
+	<img src="/img/iidx31/card.png">
+
+??? tip "e-amuse Emulator (Asphyxia CORE)"
+	We've written a guide on how to setup ```Asphyxia CORE``` which you can access [here.](/extras/asphyxia)
+
+	The process is universal and isn't specific to any game in particular.
+
+	When you're done setting up ```Asphyxia CORE``` come back here and continue with the guide.
 
 ### Audio & Keybinds
 
+!!! note "This guide will utilize ```WASAPI Shared``` because it is the easiest to set up in most cases. There are more methods to use which you can read about [here.](/extras/audio/) The next best method we recommend is using ```FlexASIO```. You can read more about it on what it does and how to set it up [here.](/extras/streamaudio/#option-4-flexasio)"
+
 !!! tip ""
-	Before we go over the keybinds, we'll change our `IIDX Sound Output Device` to `WASAPI`. This has (from my experience) the highest chance of working. If it doesn't work for you, try using `ASIO`. It really comes down to your own hardware setup. 
+	
+	Before we go over the keybinds, we'll change our `IIDX Sound Output Device` to `WASAPI`. This has (from my experience) the highest chance of working. If it doesn't work for you, try using `FlexASIO`. It really comes down to your own hardware setup. 
 	
 	If you're still having issues, feel free to join our [Discord server](https://discord.gg/yAtdhvee79) and ask away in the troubleshooting section as this could be something very specific. Keep in mind that if you're using `WASAPI`, IIDX will go into WASAPI exclusive mode which means that only IIDX will output it's audio and nothing else [(this can be changed with a hex edit if you'd like).](problems.md#when-i-run-this-game-all-other-background-audio-is-gone-whats-going-on)
 
