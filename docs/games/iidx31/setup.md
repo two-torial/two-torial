@@ -36,7 +36,7 @@
 
 <img src="/img/iidx31/1.png">
 
-!!! info "If you have gotten a complete data set, you are done and can head over to [Configuring for an Online Network](setup.md#configuring-for-an-online-network)"
+!!! info "If you have gotten a complete data set, you are done and can head over to [Configuring for a Network](setup.md#configuring-for-a-network)"
 
 ### Merging LDJ-2023090500 (RESIDENT final) with EPOLIS
 

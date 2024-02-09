@@ -38,7 +38,7 @@
 
 <img src="/img/sdvx6/1a.png">
 
-!!! info "If you have gotten a complete data set, you are done and can head over to [Configuring for an Online Network](setup.md#configuring-for-an-online-network)"
+!!! info "If you have gotten a complete data set, you are done and can head over to [Configuring for a Network](setup.md#configuring-for-a-network)"
 
 ### Merging Current Data with New Data
 
