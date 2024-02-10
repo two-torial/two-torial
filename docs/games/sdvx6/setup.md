@@ -101,9 +101,7 @@
 	<img src="/img/sdvx6/card.png">
 
 ??? tip "e-amuse Emulator (Asphyxia CORE)"
-	We've written a guide on how to setup ```Asphyxia CORE``` which you can access [here.](/extras/asphyxia)
-
-	The process is universal and isn't specific to any game in particular.
+	We've written a guide on how to setup ```Asphyxia CORE``` [which you can access here.](/extras/asphyxia)
 
 	When you're done setting up ```Asphyxia CORE``` come back here and continue with the guide.
 
