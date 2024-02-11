@@ -148,7 +148,14 @@
 ### Brokenithm iOS
 
 !!! tip ""
-    apple instructions reee
+    Requires jailbroken iOS device, or ability to install .ipa files.  
+    Sideload https://sideloadly.io/  
+    Follow IMPORTANT WINDOWS TASK (Install non-Microsoft Store version of iTunes, required for USB driver)  
+    Install ipa to device https://redive.estertion.win/ipas/Brokenithm-iOS-build-10.ipa  
+    Download brokenithm-evolved-ios https://redive.estertion.win/ipas/Brokenithm/Brokenithm-Evolved-iOS-v0.3.7z  
+    Extract all files somewhere, not including aimeio.dll and chuniio.dll  
+    run brokenithm-evolved-ios  
+    run brokenithm on ipad
 
 ***
 
