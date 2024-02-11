@@ -32,7 +32,7 @@
 ### My game crashes when I alt-tab out of fullscreen
 
 !!! tip ""
-    As the game is intended to run on dedicated hardware, if it detects it has lost focus it will force-close itself. On real hardware it would then try and restart.  
+    As the game is intended to run on dedicated hardware, it doesn't like to be minimised.  
     One work-around for this is to use [DXVK](https://github.com/doitsujin/dxvk/) to run the game with Vulkan rather than Direct3D. This has the added benefit of smoother frame rates for some hardware configurations.  
 
     Download the latest version of DXVK from the [releases tab](https://github.com/doitsujin/dxvk/releases). This will be a `dxvk-x.x.tar.gz` file. Open the file with `7zip` and navigate to the `x32` folder.  
@@ -56,7 +56,7 @@
 
 !!! tip ""
     While frame drops can be caused by running the game on under-powered hardware, it is also common for this to happen when running on hardware that is too over-powered!  
-    As a lot of the game consists of mostly 2D assets, your GPU is unlikely to be being pushed very hard. Modern GPUs attempt to be as energy efficient as possible by changing power-states when under-utilised. If these power-state changes happen mid song, this can lead to slight frame drops and stutters.  
+    As a lot of the game consists of mostly 2D assets, your GPU is unlikely to be pushed very hard. Modern GPUs attempt to be as energy efficient as possible by changing power-states when under-utilised. If these power-state changes happen mid song, this can lead to slight frame drops and stutters.  
     This can be solved by forcing the GPU to stay in its maximum power-state while the game is running.
 
 !!! note "NVIDIA:"
