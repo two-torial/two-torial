@@ -25,20 +25,12 @@
 	Now look for the ```Asphyxia``` category and then the ```plugins``` channel on the [Discord server](https://discord.gg/cZRUmEPK78) and choose your game. Download the ```.zip``` file and open it. Extract the ```plugins``` folder into the ```contents``` folder like we did before. Overwrite any files if prompted to.
 
 !!! tip ""
-	Open ```asphyxia-core-x64.exe``` to start the server. It will automatically open a browser tab. This is your ```WebUI```. Next, click on the game you want to use, in my case, it's ```SDVX``` on the left-hand bar and click on ```Import Assets```. In here, paste the path of your ```contents``` folder.
-	
-!!! tip ""
-	^^In my case^^, it's ```D:\BEMANI\SDVX\guide\KFC-2021083100\contents```. Make sure you're using the correct path as it won't work otherwise. When you've done that, click on ```Submit```. After a few seconds, a pop-up should appear saying ```Imported successfully!```
-
-!!! tip ""
-	Go to your desired game on the left-hand bar, which is in my case ```SDVX``` then ```Profiles``` and click on the green ```Detail``` button on your preferred profile. Click on ```Setting``` on the top bar and try changing some customization settings at the bottom. If they are working, head over to [Changing Service URL.](#changing-service-url) If they appear broken, completely close Asphyxia and continue reading.
-
-	Head to the ```contents``` folder of your game again. If you have inserted the correct path when Importing and everything worked without any errors, you will have a folder called ```webui```. Copy this folder and paste it into ```plugins\sdvx@asphyxia```. Overwrite any files if prompted to. Now re-open ```asphyxia-core-x64.exe``` and everything should function as intended.
+	Open ```asphyxia-core-x64.exe``` to start the server. It will automatically open a browser tab. This is your ```WebUI```. 
 
 ### Changing Service URL
 
 !!! tip ""
-	Lasty, open your ```spicecfg.exe```, head over to the ```Options``` tab and look for ```EA Service URL```. In there, you need to input what is displayed on the Asphyxia WebUI on the ```Dashboard``` at the right side.
+	Open your ```spicecfg.exe```, head over to the ```Options``` tab and look for ```EA Service URL```. In there, you need to input what is displayed on the Asphyxia WebUI on the ```Dashboard``` at the right side.
 
 <img src="/img/asphyxia/3.png">
 
@@ -46,5 +38,23 @@
 	For me, it's ```localhost:8083``` and should look like this:
 
 <img src="/img/asphyxia/4.png">
+	
+### Setting up SDVX
 
+!!! tip ""
+	On the ```WebUI```, click on ```SDVX``` on the left-hand bar and click on ```Import Assets```. In here, paste the path of your ```contents``` folder.
+	
+!!! tip ""
+	^^In my case^^, it's ```D:\BEMANI\SDVX\guide\KFC-2021083100\contents```. Make sure you're using the correct path as it won't work otherwise. When you've done that, click on ```Submit```. After a few seconds, a pop-up should appear saying ```Imported successfully!```
+
+!!! tip ""
+	Go to ```SDVX``` on the left-hand bar, then ```Profiles``` and click on the green ```Detail``` button on your preferred profile. Click on ```Setting``` on the top bar and try changing some customization settings at the bottom. If they are working, head over to [Changing Service URL.](#changing-service-url) If they appear broken, completely close Asphyxia and continue reading.
+
+	Head to the ```contents``` folder of your game again. If you have inserted the correct path when Importing and everything worked without any errors, you will have a folder called ```webui```. Copy this folder and paste it into ```plugins\sdvx@asphyxia```. Overwrite any files if prompted to. Now re-open ```asphyxia-core-x64.exe``` and everything should function as intended.
+
+### Setting up IIDX
+
+!!! tip ""
+	You have already done all the step required to have it working. Simply create a profile and it will be visible on the ```WebUI```.
+	
 !!! tip "You're all done! Enjoy your game!"

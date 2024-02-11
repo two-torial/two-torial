@@ -11,10 +11,10 @@
 
 ### Patcher
 
-!!! tip ""
-	- [BemaniPatcher](https://mon.im/bemanipatcher/) - Drag and drop hex edit solution for a myriad of games
-
-	- [EGRS Patcher](https://egrspatcher.pages.dev/) - Drag and drop hex edit solution for n-0 games which gets frequent updates
+!!! tip "There are more patch websites than listed here but these are the ones we recommend and can vouch for. You can always use other patchers if you want."
+	- [BemaniPatcher](https://mon.im/bemanipatcher/) - Supports a variety of **old games**
+  
+	- [Turksigara](https://p.eagate.turksigara.net/) - Is constantly getting maintained (n-0 and some old games)
 
 ### General
 
@@ -45,9 +45,9 @@
 ### SDVX
 
 !!! tip ""
-	- [SDVX Index](https://sdvxindex.com/) - SDVX chart viewer and refrence
+	- [SDVX Index](https://sdvxindex.com/) - SDVX chart viewer and reference
 	
-	- [sdvx.in](https://sdvx.in/) - worse alternative to SDVX Index
+	- [sdvx.in](https://sdvx.in/) - worse alternative to SDVX Index (but can be used for Chunithm and Ongeki too)
 
 	- [SDVX Progress Chart](https://docs.google.com/spreadsheets/d/1cFltguBvPplBem-x1STHnG3k4TZzFfyNEZ-RwsQszoo/edit#gid=0) - Functions as a generalized tier list
 
