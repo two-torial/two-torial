@@ -12,6 +12,19 @@
 
 <img src="/img/gen/sega480.png">
 
+### Some of my installed Songs and Events aren't visible in game
+
+!!! tip ""
+    Some content in CHUNITHM is locked behind event maps, or other requirements, such as playing the same song on another SEGA game, such as maimai.  
+    We can force unlock this content, making it always available in game.  
+
+    Download the [Chunithm_Unlocker](https://pixeldrain.com/u/Ccttn8u9) powershell script, and place it in your game folder, next to the `App` and `Option` folders.  
+    Right click the file, and select `Run with Powershell`.  
+    Once the script has scanned your game files, it will present you with several options for unlocking different types of content. You can either unlock everything, or only unlock specific things (such as songs), leaving the other content to be unlocked via regular gameplay.
+
+!!! note ""
+    The Chunithm_Unlocker script creates backups of any file it modifies, and has options to restore the files back to their original state. Please note that certain content (such as character unlocks) are sent to the server and saved to your profile, so reverting the unlock in your game files won't always relock that content for your game profile.
+
 ### My game takes a long time to boot
 
 !!! tip ""
