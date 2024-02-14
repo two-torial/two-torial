@@ -74,7 +74,7 @@
     Open the Brokenithm App on your Android device. At the top right, in the Address box, enter your PCs local IP address and then press the start button.  
     You can now run your game via the `start.bat` as normal.
 
-#### Automatically launching brokenithm_server
+#### Automatically launching the Brokenithm server
 
 !!! tip ""
     If you want the `brokenithm_server.exe` to automatically run when launching the game, you will need to modify `start.bat`.  
@@ -148,14 +148,63 @@
 ### Brokenithm iOS
 
 !!! tip ""
-    Requires jailbroken iOS device, or ability to install .ipa files.  
-    Sideload https://sideloadly.io/  
-    Follow IMPORTANT WINDOWS TASK (Install non-Microsoft Store version of iTunes, required for USB driver)  
-    Install ipa to device https://redive.estertion.win/ipas/Brokenithm-iOS-build-10.ipa  
-    Download brokenithm-evolved-ios https://redive.estertion.win/ipas/Brokenithm/Brokenithm-Evolved-iOS-v0.3.7z  
-    Extract all files somewhere, not including aimeio.dll and chuniio.dll  
-    run brokenithm-evolved-ios  
-    run brokenithm on ipad
+    Running Brokenithm on an iPad requires either a jailbroken device, or another method to install .ipa files. Using [Sideloady](https://sideloadly.io/) is a popular method.  
+
+    Before proceeding, you must uninstall the Microsoft Store versions of iTunes and iCloud (if present) then install the non Microsoft Store version from the [iTunes website](https://www.apple.com/itunes/download/win64). This is also covered under the **Important Windows Task** section of the Sideloady website.  
+
+    Download the latest version of Brokenithm-iOS from the [redive.estertion.win](https://redive.estertion.win/ipas/Brokenithm-iOS-build-10.ipa) website. Install the .ipa to your device using your preferred method.  
+    
+    Download the latest version of the Brokenithm-Evolved-iOS server from the [redive.estertion.win](https://redive.estertion.win/ipas/Brokenithm/Brokenithm-Evolved-iOS-v0.3.7z) website.  
+    Extract the files to your `\App\bin\` folder. `aimeio.dll` and `chuniio.dll` can be deleted, as they are not required.  
+
+    Download the latest version of the [Brokenithm-Evolved](https://gitea.tendokyu.moe/Dniel97/Brokenithm-Evolved/) IO dll files from the [releases tab](https://gitea.tendokyu.moe/Dniel97/Brokenithm-Evolved/releases). Extract the 3 dll files to your `\App\bin\` folder.  
+
+    Open your `segatools.ini` with a text editor, and modify the `[aimeio]` section as shown.  
+    ```ini
+    [aimeio]
+    ; Uncomment this if you have custom (x64) aime implementation.
+    ; Leave empty if you want to use Segatools built-in keyboard input.
+    path=aime_brokenithm.dll
+    ```   
+    Modify the `[chuniio]` section as shown.  
+    ```ini
+    [chuniio]
+    ; Uncomment this if you have custom chuniio implementation comprised of a single 32bit DLL.
+    ; (will use chu2to3 engine internally)
+    ;path=
+
+    ; Uncomment both of these if you have custom chuniio implementation comprised of two DLLs.
+    ; x86 chuniio to path32, x64 to path64. Both are necessary.
+    path32=brokenithm_x86.dll
+    path64=brokenithm_x64.dll
+    ```  
+    Run the `Brokenithm-Evolved-iOS.exe` you extracted previously. A CMD window should open, with a message that it is waiting for a device.  
+    Open the Brokenithm App on your iPad, and connect it to your PC via a USB cable.  
+    You can now run your game via the `start.bat` as normal.
+
+!!! note "Latency"
+    As Brokenithm for iOS only connects via USB connection, there is no need to configure any extra network settings to improve latency.
+
+#### Automatically launching the Brokenithm server
+
+!!! tip ""
+    If you want the `Brokenithm-Evolved-iOS.exe` to automatically run when launching the game, you will need to modify `start.bat`.  
+    Open `start.bat` with a text editor, and add a new line containing `start /min Brokenithm-Evolved-iOS` above the existing `start /min inject_x64 ...` line, as shown below.  
+    ```bat
+    @echo off
+
+    pushd %~dp0
+
+    start /min Brokenithm-Evolved-iOS
+    start /min inject_x64 -d -k chusanhook_x64.dll amdaemon.exe -c config_common.json config_server.json config_client.json config_cvt.json config_sp.json config_hook.json
+    inject_x86 -d -k chusanhook_x86.dll chusanApp.exe
+    taskkill /f /im amdaemon.exe > nul 2>&1
+
+    echo.
+    echo Game processes have terminated
+    pause
+    ```  
+    This will only work if you copied the `Brokenithm-Evolved-iOS.exe` file to your `\App\bin` folder.
 
 ***
 
@@ -196,6 +245,13 @@
     Make the required changes to `segatools.ini`, as shown in the `Configuration` section of the chuniio-yubideck readme.  
 
     If you want to make use of the built-in card scanner, add the following line to the `[aimeio]` section in `segatools.ini`.  
-    ```json
+    ```ini
     path=aimeio_yubideck.dll
     ```
+
+***
+
+## Arcade Panels and other Controllers
+
+!!! tip ""
+    If you're interested in connecting a real cabinet Slider and Airs, or possibly even DIYing your own controller, the [Cons&Stuff](https://consandstuff.github.io/) website and Discord community is a great place to start!
