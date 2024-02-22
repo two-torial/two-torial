@@ -158,8 +158,8 @@
 <img src="/img/chunithmsunplus/asettings.png">
 
 !!! tip ""
-	Press `1` on your keyboard to enter the Service Menu.  
-	Use `D` and `F` to navigate the menu, and L to select an option.  
+	Press `F1` on your keyboard to enter the Service Menu (`1` on older versions of segatools).  
+	Use `D` and `F` to navigate the menu, and `L` to select an option.  
 
 	Navigate to `Game Settings`, the 4th option from the top.
 
@@ -190,6 +190,7 @@
 
 !!! tip ""
 	If everything has been set up correctly, you should now be at the games Attract Screen.  
+	`F2` and `F3` will let you insert service/coin credits (`1` and `2` on older versions of segatools).
 	Now we know the game is working, we can move on to configuring controllers and network access.
 
 ### Further Configuration
