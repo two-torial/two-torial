@@ -145,6 +145,18 @@
 	```
 	This is only needed to boot the game in offline mode, as any correctly configured server should handle the default settings properly.
 
+!!! danger "Intel 10th Gen and higher:"
+	If your PC has a 10th Gen or newer Intel CPU, there is one last step before running the game.
+	Due to an [issue with OpenSSL](https://www.intel.com/content/www/us/en/developer/articles/troubleshooting/openssl-sha-crash-bug-requires-application-update.html), AMDaemon will fail to launch without the following changes.
+
+!!! tip ""
+	Find the `start.bat` file in your games bin folder, and open it with a text editor.  
+	At the very top of the file, above the `@echo off` line, add the following.
+	```bat
+	set OPENSSL_ia32cap=:~0x20000000
+	```  
+	Save and close `start.bat`.
+
 ### Service Menu settings
 
 !!! note "Service Menu:"
@@ -192,6 +204,9 @@
 	If everything has been set up correctly, you should now be at the games Attract Screen.  
 	`F2` and `F3` will let you insert service/coin credits (`1` and `2` on older versions of segatools).
 	Now we know the game is working, we can move on to configuring controllers and network access.
+
+!!! note "Dipswitch Settings:"
+	The dipswitch settings, `dipsw1`, `dipsw2` and `dipsw3`, are not set the very first time you run the game, as some system files still need to be created. If the game is running at the wrong frame rate, you may need to exit and re-open the game for these settings to apply.
 
 ### Further Configuration
 

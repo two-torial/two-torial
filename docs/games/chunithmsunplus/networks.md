@@ -5,34 +5,38 @@
 ## Why would you want to use a server?
 
 !!! tip ""
-    While CHUNITHM can be run offline, connecting to a server gives you the ability to create a profile, save scores, and even unlocks additional features.
+    While CHUNITHM can be run offline, connecting to a server gives you the ability to create a profile, save scores, and unlock additional features.
 
-## ARTEMiS
-
-!!! tip ""
-    -harder to setup, works better once setup.  
-    https://gitea.tendokyu.moe/Hay1tsme/artemis  
-    check supported game list  
-    read install documents relevant to your desired setup (windows/linux)  
-    read game specific instructions to make sure you have configured the server correctly for your game data, and that your game data has been imported to the server  
-
-    while artemis is stable and fine for local use, it is still very much in active development, and as such, the installation procedure is likely to change.  
-    due to this, i'm unable to provide a step by step setup guide on this page.
-
-## AquaDX
+## Self hosted local servers
 
 !!! tip ""
-    -ez mode setup, requires messing with game files to actually work. relys on updates from devs for future content.  
-    https://github.com/hykilpikonna/AquaDX  
-    install java jdk, make sure java is enabled on windows PATH  
-    click code > download zip  
-    extract to its own folder, NOT into your \app\bin folder  
-    go to releases and download the latest .jar, place it in the folder you extracted the previous files too  
-    go into config folder, configure application.properties file  
-    run start.bat  
+    If you wish to run the game locally, but with the ability to create and save a profile, you can run a server on the same computer you are playing the game on. This server will need to be running before you launch the game, however it can be shut down when you are no longer playing.  
+
+    These 2 projects are still in active development, and as such, any provided setup instructions are likely to become outdated rather quickly.  
+
+    Please refer to the included setup instructions on each projects respective web page.
+
+### ARTEMiS
+
+!!! note ""
+    [ARTEMiS](https://gitea.tendokyu.moe/Hay1tsme/artemis) - A network service emulator for games running SEGA'S ALL.NET service, and similar.
+
+!!! tip ""
+    ARTEMiS is a network service emulator for various ALL.NET games. It runs on Python.  
+    While initial setup is more involved than AquaDX, it offers a more complete emulation of the ALL.NET service.  
+    ARTEMiS also uses your own game files to build its database, meaning any new content updates can just be imported to the server yourself, without having to wait for someone else to provide an update.
+
+### AquaDX
+
+!!! note ""
+    [AquaDX](https://github.com/hykilpikonna/AquaDX) - Multipurpose game server powered by Spring Boot, for ALL.Net-based games
+
+!!! tip ""
+    AquaDX is a game server targetting SEGA Rhythm Games specifically. It runs on Java.  
+    Initial setup for AquaDX is a little easier, as more of the setup is provided by the developers.  
+    AquaDX does not currently support importing your own game data, so you will need to head back to the github page to download and updated build if new content becomes available.
 
 ## Online Hosted Servers
 
 !!! tip ""
-    aqua.msm.moe - does it even support sun plus?  
-    other 'public' all.net servers, doubt any would want to be linked here, as most required being invited by an existing member. ask your friends!
+    There are a few online hosted servers that support Chunithm SUN PLUS, however they are all currently invite only. Ask your friends where they play, and maybe they'll invite you!
