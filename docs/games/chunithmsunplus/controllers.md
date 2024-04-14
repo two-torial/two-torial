@@ -31,7 +31,7 @@
 !!! tip ""
     Keyboard is the default input method, and while not recommended for playing the game, it is useful for testing purposes.  
     The default layout uses `SDFGHJKL` for the slider input, and `Space Bar` for the AIRs.  
-    If you wish to change the default keybinds, an explanation for how to set these is included above the `[io3]` section in your `segatools.ini`.
+    If you wish to change the default keybinds, an explanation on how to set these is included above the `[io3]` section in your `segatools.ini`.
 
 ***
 
@@ -105,7 +105,7 @@
     Navigate to the folder that contains your `brokenithm_server.exe`, click on the Address Bar at the top of the folder, type `CMD`, and hit enter. A Command Prompt window should open.  
     In the Command Prompt window, type `brokenithm_server -T` and hit enter.  
 
-    On your Android device, find the button labeled `UDP` at the top-center of the Brokenithm application. Tap the button to toggle to `TCP` mode. You should now be able to connect, using your PCs local IP, as described above.  
+    On your Android device, find the button labeled `UDP` at the top-center of the Brokenithm application. Tap the button to toggle to `TCP` mode. You should now be able to connect, using your PC's local IP, as described above.  
 
     If you are running the Brokenithm Server via the `start.bat` as shown in the previous step, simply add ` -T` to the end of the brokenithm_server line, as shown below.
     ```bat
@@ -118,7 +118,7 @@
     As WiFi isn't the best for latency, it is preferable to run Brokenithm with your Android device tethered to your PC. This will require enabling Developer options, and USB debugging on your tablet. As this process varies by device, instructions are not included here.  
 
     Once you have USB debugging enabled, you will need to download and extract the [Android SDK Platform Tools](https://developer.android.com/tools/releases/platform-tools) to somewhere on your PC.  
-    Navigate to the folder you extracted the tools too, click in the Address bar, type `CMD` and hit enter to open a Command Prompt window.
+    Navigate to the folder you extracted the tools to, click in the Address bar, type `CMD` and hit enter to open a Command Prompt window.
 
     Make sure your Android device is connected and that USB debugging is enabled.  
 

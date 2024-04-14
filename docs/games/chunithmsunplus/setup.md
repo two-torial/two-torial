@@ -34,9 +34,9 @@
 
 	Run the downloaded `directx_Jun2010_redist.exe` and accept the License Agreement. You will be asked to pick a location to extract the installer too, it's recommended you create a new folder somewhere as it will extract a lot of files.
 
-	Go to the folder you extracted the installer too, find the `DXSETUP.exe` and run it. Accept the License Agreement and start the installation. Once it's complete, press Finish.
+	Go to the folder you extracted the installer to, find the `DXSETUP.exe` and run it. Accept the License Agreement and start the installation. Once it's complete, press Finish.
 
-	You can delete the folder you extracted the installer too once the install is complete.
+	You can delete the folder you extracted the installer to once the install is complete.
 
 <img src="/img/chunithmsunplus/redist_finished.png">
 
@@ -71,7 +71,7 @@
 <img src="/img/chunithmsunplus/replace.png">
 
 !!! tip ""
-	Next we need to replace the protected executables with copys that will run on a regular PC.  
+	Next we need to replace the protected executables with copies that will run on a regular PC.  
 	Obtain unpacked copies of `chusanApp.exe` and `amdaemon.exe`. If these weren't provided with your data, join the [Discord](https://discord.gg/cZRUmEPK78) for assistance.  
 	Copy `chusanApp.exe` and `amdaemon.exe` to the `App\bin\` folder of your game data. When asked, overwrite the existing files.
 
@@ -97,11 +97,11 @@
 !!! tip ""
 	The configuration information for segatools is all stored within `segatools.ini`.  
 	Open up `segatools.ini` with a text editor of your choice. We'll be using [Notepad++](https://notepad-plus-plus.org/).  
-	`segatools.ini` is seperated into several sections, indicated by the section name in `[square brackets]`.  
+	`segatools.ini` is separated into several sections, indicated by the section name in `[square brackets]`.  
 	Most options will have comments describing their function and how to configure them. We will go over the most important ones below.  
 
 !!! tip ""
-	The `[vfs]` section contains paths to important game files. You can use either relative or absoloute paths, however if your path name has spaces in it, you must wrap the path in "quotations marks".  
+	The `[vfs]` section contains paths to important game files. You can use either relative or absolute paths, however if your path name has spaces in it, you must wrap the path in "quotations marks".  
 
 	`amfs=` should point to the `amfs` folder, which should be in the root of your game folder. This folder should contain an ICF1 file.  
 	`option=` should point to the `Option` folder, which contains game data update folders, with A**XXX** names. This should also be in the root of your game folder, next to `amfs`.  
@@ -201,9 +201,9 @@
 <img src="/img/chunithmsunplus/distserver.png">
 
 !!! tip ""
-	If everything has been set up correctly, you should now be at the games Attract Screen.  
+	If everything has been set up correctly, you should now be at the game's Attract Screen.  
 	`F2` and `F3` will let you insert service/coin credits (`1` and `2` on older versions of segatools).
-	Now we know the game is working, we can move on to configuring controllers and network access.
+	Now that we know the game is working, we can move on to configuring controllers and network access.
 
 !!! note "Dipswitch Settings:"
 	The dipswitch settings, `dipsw1`, `dipsw2` and `dipsw3`, are not set the very first time you run the game, as some system files still need to be created. If the game is running at the wrong frame rate, you may need to exit and re-open the game for these settings to apply.
