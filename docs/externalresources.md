@@ -25,6 +25,8 @@
 
 	- [Cons&Stuff](https://consandstuff.github.io/) - Community resource for DIY controllers
 
+ 	- [Rhythm Game Cabs](https://discord.gg/MNcMGCE8sk) - Discord server for arcade cabs
+
 ### IIDX
 
 !!! tip ""
