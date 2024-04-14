@@ -16,6 +16,8 @@
   
 	- [Turksigara](https://p.eagate.turksigara.net/) - Is constantly getting maintained (n-0 and some old games)
 
+	- [Scribblers Chunithm Only Patcher](https://scrib-bler.github.io/patcher/) - Has every version of Chunithm available
+
 ### General
 
 !!! tip ""

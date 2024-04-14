@@ -5,7 +5,7 @@
 !!! note "Author Note:"
 	Last updated: 08.02.2024 (Currently using `SDHD 2.16.00`)
 	
-	For hex edits: Go to the CHUNITHM section of your prefered patcher host, or use the Offline Patcher included with the unpacked binaries.
+	For hex edits: Go to [Scribblers Chunithm Patcher](https://scrib-bler.github.io/patcher/)
 
 !!! danger "Warning:"
 	Please make sure your data is from an appropriate source and unmodified before proceeding, this guide is unable to troubleshoot any problems related to bad or poorly managed data.
