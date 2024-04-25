@@ -66,7 +66,7 @@
 	If `<ext __type="str">2023042500</ext>` already has `2023042500` then you're good to go. If it has anything other than that, change it to `2023042500`.
 	This is the games datacode, basically telling the game what version it is on.
 
-!!! info "If you'd like to enable the Valkyrie Model mode, which is `off` by default, head over to [Valkyrie Model](valk.md#setting-up-valkyrie-model-subscreen-120fps)"
+!!! info "If you'd like to enable the Valkyrie Model mode, which is `off` by default or want to change the game language to English, head over to [Valkyrie Model](valk.md#setting-up-valkyrie-model-subscreen-120fps)"
 
 ### Configuring for a Network
 
