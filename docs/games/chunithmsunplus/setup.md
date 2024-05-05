@@ -178,9 +178,9 @@
 <img src="/img/chunithmsunplus/gamesettings.png">
 
 !!! tip ""
-	Select the second option, `reference machine settings` and toggle this setting to `follow the reference machine`, as shown below.
+	Select the second option, `reference machine settings` and toggle this setting to `reference machine`, as shown below.
 
-<img src="/img/chunithmsunplus/followreference.png">
+<img src="/img/chunithmsunplus/reference.png">
 
 !!! tip ""
 	Select the last option from the menu, to return to the previous menu.  
