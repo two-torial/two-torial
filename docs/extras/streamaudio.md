@@ -98,17 +98,10 @@ FlexASIO is a virtual ASIO service that can redirect output to various backends,
 	- Disable "Force shared audio" hex edit. You want the game to output in exclusive mode for lower overall latency.
 
 !!! tip "SpiceTools set up to use ASIO"
-	1. Under the options tab, set -audiobackend to asio
-	1. If you have more than one ASIO driver installed, launch the game and look through the logs for something like this:
+	1. Under the options tab, make sure that ```IIDX Sound Output Device``` is set to default.
+	2. Directly below it is an option called ```IIDX ASIO Driver```. Type ```FlexASIO``` into it.
 
-			---------------
-			[YYYY/MM/DD HH:MM:SS] I:audio::asio: Driver 0
-			[YYYY/MM/DD HH:MM:SS] I:audio::asio: ... Name : FlexASIO
-			[YYYY/MM/DD HH:MM:SS] I:audio::asio: Driver 1
-			[YYYY/MM/DD HH:MM:SS] I:audio::asio: ... Name : Voicemeeter Virtual ASIO
-			---------------
-
-		Find the number attached to the ASIO driver of your choice and use -asiodriverid [deviceid] to make the game use the driver. In the example above, Voicemeeter's ID is 1, and FlexASIO is 0.
+	<img src="/img/flexasio/1.png">
 
 - To capture audio, you can capture desktop audio as you normally would in OBS.
 
