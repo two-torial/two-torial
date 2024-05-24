@@ -125,6 +125,13 @@ nav:
                     - 'Controllers': 'games/chunithmsunplus/controllers.md'
                     - 'Networks': 'games/chunithmsunplus/networks.md'
                     - 'Common Problems/Tips': 'games/chunithmsunplus/problems.md'
+        - NAMCO:
+            - 'Taiko no Tatsujin':
+                - 'Nijiiro':
+                    - 'First Time Setup': 'games/taikonijiiro/setup.md'
+                    - 'Controllers': 'games/taikonijiiro/controllers.md'
+                    - 'Networks': 'games/taikonijiiro/networks.md'
+                    - 'Common Problems/Tips': 'games/taikonijiiro/problems.md'
     - Error Codes: errorcodes.md
     - Extras:
         - 'How to use Patcher Websites': 'extras/patchweb.md'
