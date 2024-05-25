@@ -24,7 +24,7 @@
 
 	Run the downloaded `VisualCppRedist_AIO_x86_x64.exe` and press next. The installer will proceed to download and install the required files. This may take some time.
 
-<img src="/img/chunithmsunplus/AIO_finished.png">
+<img src="/img/taikonijiiro/AIO_finished.png">
 
 !!! tip ""
 	Next we should make sure we have all the required DirectX files.
@@ -37,7 +37,7 @@
 
 	You can delete the folder you extracted the installer to once the install is complete.
 
-<img src="/img/chunithmsunplus/redist_finished.png">
+<img src="/img/taikonijiiro/redist_finished.png">
 
 ### Verifying your Game Data
 
@@ -61,49 +61,40 @@
 
 !!! tip ""
 	Choose a location for your game data, for example, `C:\TaikoNijiiro\`.  
-	Copy/move the `amfs`, `App` and `Option` folders from `CHUNITHM SUN PLUS (SDHD 2.15.00)` to this new folder.  
-	Copy the `App` folder from `CHUNITHM SUN PLUS (SDHD 2.16.00)` to your new game folder. When asked, choose to replace the existing files with the newly copied files.
+	Copy/move the folders and files from `Taiko no Tatsujin Nijiiro Version (SBWY 39.06)` to this new folder.  
 
-<img src="/img/chunithmsunplus/replace.png">
-
-!!! tip ""
-	Next we need to replace the protected executables with copies that will run on a regular PC.  
-	Obtain unpacked copies of `chusanApp.exe` and `amdaemon.exe`. If these weren't provided with your data, join the [Discord](https://discord.gg/cZRUmEPK78) for assistance.  
-	Copy `chusanApp.exe` and `amdaemon.exe` to the `App\bin\` folder of your game data. When asked, overwrite the existing files.
-
-### Installing segatools
-
-!!! note "segatools:"
-	`segatools` is a loader and hardware emulator for SEGA arcade games. It will allow us to launch the game, as well as configure inputs and network settings. More information can be found at the [segatools gitea page](https://gitea.tendokyu.moe/Dniel97/segatools).
+!!! note "TaikoArcadeLoader:"
+	`TaikoArcadeLoader` is a loader and hardware emulator for Nijiiro. It will allow us to launch the game, as well as configure inputs and network settings. More information can be found at the [TAL github page](https://github.com/esuo1198/TaikoArcadeLoader).
 
 !!! tip ""
-	Download the latest version of segatools from [the release tab](https://gitea.tendokyu.moe/Dniel97/segatools/releases) of the segatools page. This will be a file named `segatools.zip`.   
-	As segatools supports many games, the `segatools.zip` file will contain several more zip files. For CHUNITHM SUN PLUS, we will need to open the `chusan.zip`.
+	Download the latest version of TAL from [the actions tab](https://github.com/esuo1198/TaikoArcadeLoader/actions) of the TAL page. This will be a file named `dist`.   
+	You will need to be logged into github to download this file.
 
-<img src="/img/chunithmsunplus/chusanzip.png">
-
-!!! tip ""
-	Copy the files from `chusan.zip` to your `App/bin` folder.  
-	Here is how your `App/bin` folder should look after everything has been copied correctly.
-
-<img src="/img/chunithmsunplus/appbincomplete.png">
-
-### Configuring segatools.ini
+<img src="/img/taikonijiiro/dist.png">
 
 !!! tip ""
-	The configuration information for segatools is all stored within `segatools.ini`.  
-	Open up `segatools.ini` with a text editor of your choice. We'll be using [Notepad++](https://notepad-plus-plus.org/).  
-	`segatools.ini` is separated into several sections, indicated by the section name in `[square brackets]`.  
-	Most options will have comments describing their function and how to configure them. We will go over the most important ones below.  
+	Copy the files from `dist.zip` to your `Executable/Release` folder. When asked, choose to replace the existing files with the newly copied files.  
+	Here is how your `Executable/Release` folder should look after everything has been copied correctly.
+
+<img src="/img/taikonijiiro/executablereleasecomplete.png">
+
+### Configuring config.toml
 
 !!! tip ""
-	The `[vfs]` section contains paths to important game files. You can use either relative or absolute paths, however if your path name has spaces in it, you must wrap the path in "quotations marks".  
+	The configuration information for segatools is stored within `config.toml`.  
+	Open up `config.toml` with a text editor of your choice. We'll be using [Notepad++](https://notepad-plus-plus.org/).  
+	`config.toml` is separated into several sections, indicated by the section name in `[square brackets]`.  
+	Information for this can be found at the [TAL github page](https://github.com/esuo1198/TaikoArcadeLoader). We will go over the most important ones below.  
 
-	`amfs=` should point to the `amfs` folder, which should be in the root of your game folder. This folder should contain an ICF1 file.  
-	`option=` should point to the `Option` folder, which contains game data update folders, with A**XXX** names. This should also be in the root of your game folder, next to `amfs`.  
-	`appdata=` is a new folder created for the games appdata. You can either create a folder somewhere to point this too, or simply enter `appdata=appdata` to have a folder created within your `App/bin` folder.
+!!! tip ""
+	The `[amauth]` section contains network related config.  
 
-	The example image below was created with a base game folder of `C:\CHUNITHMSUNPLUS\`.
+	`server =` can be left default if playing on a [local server](https://github.com/asesidaa/TaikoLocalServer/tree/Refactor) or offline but it is recommend to play on a [network](networks.md)                                 
+	`port =` do not change unless you know what you are doing                                                                           
+	`chassis_id =` do not change unless you know what you are doing    
+	`shop_id =`     
+
+	Example image below.
 
 <img src="/img/chunithmsunplus/vfs.png">
 
