@@ -89,111 +89,33 @@
 !!! tip ""
 	The `[amauth]` section contains network related config.  
 
-	`server =` can be left default if playing on a [local server](https://github.com/asesidaa/TaikoLocalServer/tree/Refactor) or offline but it is recommend to play on a [network](networks.md)                                 
-	`port =` do not change unless you know what you are doing                                                                           
-	`chassis_id =` do not change unless you know what you are doing    
-	`shop_id =`     
+	`server =` can be left default if playing on a [local server](https://github.com/asesidaa/TaikoLocalServer/tree/Refactor) or offline but it is recommend to play on a [network](networks.md).                                 
+	`port =` do not change unless you know what you are doing.                                                                           
+	`chassis_id =` do not change unless you know what you are doing.    
+	`shop_id =` mostly visual. change if you want to.                            
+	`game_ver =` mostly visual. change if you want to.                                                                
+	`country_code =` do not change unless you know what you are doing.                                                           
 
 	Example image below.
 
-<img src="/img/chunithmsunplus/vfs.png">
+<img src="/img/taikonijiiro/amauth.png">
 
 !!! tip ""
-	The `[dns]` section is for connecting to a server, however this will also need to be changed for offline play. In most cases this will be set to your local IPv4 Address.  
-	Open your Command Prompt from the start menu, and type `ipconfig`.  
-	Find the line that says `IPv4 Address. . . .` and copy the address. This will normally be in the format of **192.168.x.x**, though this may vary.  
-	Replace `127.0.0.1` with the IP address you copied from Command Prompt.
+	The `[patches]` section contains patches.  
 
-<img src="/img/chunithmsunplus/dns.png">
+	`version =` do not change unless you know what you are doing.                                 
+	`res =` change to your display's resolution.                                                                           
+	`windowed =` set to `true` if you want to run the game in windowed.    
+	`vsync =` set to `true` if your display is set to 120hz.                            
+	`unlock_songs =` do not change unless you know what you are doing.                                                                                                                           
 
-!!! tip ""
-	The `[gpio]` section is where we can change between 60 FPS and 120 FPS.  
-	For 60 FPS, leave the settings as they are.  
-	For 120 FPS, change `dipsw2` and `dipsw3` from `1` to `0`.
+	Example image below.
 
-<img src="/img/chunithmsunplus/gpio.png">
+<img src="/img/taikonijiiro/patches.png">
 
 !!! tip ""
-	Save and close `segatools.ini`.  
+	Save and close `config.toml` then run `Taiko.exe` to start the game.
 
-	Before we can test the game offline, we need to open `config_hook.json` in a text editor, and replace its content with the following:
-	```json
-	{
-    	"allnet_auth": {
-    	    "type": "1.0"
-    	},
-    	"allnet_accounting": {
-    	    "enable": false
-    	},
-    	"emoney": {
-     	   "enable": false
-    	}
-	}
-	```
-	This is only needed to boot the game in offline mode, as any correctly configured server should handle the default settings properly.
-
-!!! danger "Intel 10th Gen and higher:"
-	If your PC has a 10th Gen or newer Intel CPU, there is one last step before running the game.
-	Due to an [issue with OpenSSL](https://www.intel.com/content/www/us/en/developer/articles/troubleshooting/openssl-sha-crash-bug-requires-application-update.html), AMDaemon will fail to launch without the following changes.
-
-!!! tip ""
-	Find the `start.bat` file in your games bin folder, and open it with a text editor.  
-	At the very top of the file, above the `@echo off` line, add the following.
-	```bat
-	set OPENSSL_ia32cap=:~0x20000000
-	```  
-	Save and close `start.bat`.
-
-### Service Menu settings
-
-!!! note "Service Menu:"
-	Without an English patch the Service Menu will be in Japanese. [Google Lens](https://lens.google/) is a very handy tool for navigating this menu.
-
-!!! tip ""
-	We are now ready to test our game setup.  
-	Start the game by launching `start.bat` from the games `App/bin` folder.  
-	Let the game load until it gets to the following screen.
-
-<img src="/img/chunithmsunplus/asettings.png">
-
-!!! tip ""
-	Press `F1` on your keyboard to enter the Service Menu (`1` on older versions of segatools).  
-	Use `D` and `F` to navigate the menu, and `L` to select an option.  
-
-	Navigate to `Game Settings`, the 4th option from the top.
-
-<img src="/img/chunithmsunplus/gamesettings.png">
-
-!!! tip ""
-	Select the second option, `reference machine settings` and toggle this setting to `reference machine`, as shown below.
-
-<img src="/img/chunithmsunplus/reference.png">
-
-!!! tip ""
-	Select the last option from the menu, to return to the previous menu.  
-	Once back to the main Service Menu, select the 10th option in the list, `closing setting`.
-
-<img src="/img/chunithmsunplus/closingsetting.png">
-
-!!! tip ""
-	Select the second option, `hour`, and toggle with `L` until the option `all time` is selected.
-
-<img src="/img/chunithmsunplus/alltime.png">
-
-!!! tip ""
-	Select the last option from the menu to return to the previous menu, and then select the last option of the main menu to save your settings and continue booting the game.  
-
-	If you get stuck at a `Waiting for Distribution Server` message, shown below, close the game and relaunch. This is caused by dipswitch settings not setting themselves correctly the very first time the game is launched.
-
-<img src="/img/chunithmsunplus/distserver.png">
-
-!!! tip ""
-	If everything has been set up correctly, you should now be at the game's Attract Screen.  
-	`F2` and `F3` will let you insert service/coin credits (`1` and `2` on older versions of segatools).
-	Now that we know the game is working, we can move on to configuring controllers and network access.
-
-!!! note "Dipswitch Settings:"
-	The dipswitch settings, `dipsw1`, `dipsw2` and `dipsw3`, are not set the very first time you run the game, as some system files still need to be created. If the game is running at the wrong frame rate, you may need to exit and re-open the game for these settings to apply.
 
 ### Further Configuration
 
