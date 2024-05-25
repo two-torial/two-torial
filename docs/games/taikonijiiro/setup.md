@@ -81,7 +81,7 @@
 ### Configuring config.toml
 
 !!! tip ""
-	The configuration information for segatools is stored within `config.toml`.  
+	The configuration information for TaikoArcadeLoader is stored within `config.toml`.  
 	Open up `config.toml` with a text editor of your choice. We'll be using [Notepad++](https://notepad-plus-plus.org/).  
 	`config.toml` is separated into several sections, indicated by the section name in `[square brackets]`.  
 	Information for this can be found at the [TAL github page](https://github.com/esuo1198/TaikoArcadeLoader). We will go over the most important ones below.  
