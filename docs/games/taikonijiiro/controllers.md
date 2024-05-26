@@ -1,25 +1,6 @@
-# CHUNITHM SUN PLUS Controller Setup
+# Taiko no Tatsujin Nijiiro Controller Setup
 
-<img src="/img/chunithmsunplus/sunplus.png">
-
-## How Controller Input works with segatools
-
-!!! note "segatools:"
-    `segatools`, the loader used to run CHUNITHM, does not come with any built-in controller support. By default it will only accept keyboard input.  
-    The controller you plan on using with the game should also be provided with IO files, in the form of `*.dll`. If unsure, you can check the support section of the site you purchased your controller from, or email the vendor directly.  
-    Alternate options for the most common controllers are listed below.  
-    These `dll` files should be copied to your `\App\bin\` folder, alongside `chusanApp.exe`, and referenced in your `segatools.ini`.
-
-!!! tip ""
-    The input files you wish to use need to be referenced in the `[chuniio]` section of `segatools.ini`.  
-    If the `dll` files you plan to use consist of 2 files, with names ending in `_x86.dll` and `_x64.dll`, uncomment the `path32` and `path64` lines by removing the `;` from the beginning. Add your file names after the `=`.
-
-<img src="/img/chunithmsunplus/chuniio_twodll.png">
-
-!!! tip ""
-    If the input file you wish to use consists of a single `*.dll`, uncomment only the `path` line, and enter the dll name after the `=`.
-
-<img src="/img/chunithmsunplus/chuniio_onedll.png">
+<img src="/img/taikonijiiro/taikonijiiro.png">
 
 !!! note "Controllers:"
     Below is a quick introduction and setup guide for the commonly used input methods.
@@ -29,9 +10,9 @@
 ## Keyboard
 
 !!! tip ""
-    Keyboard is the default input method, and while not recommended for playing the game, it is useful for testing purposes.  
-    The default layout uses `SDFGHJKL` for the slider input, and `Space Bar` for the AIRs.  
-    If you wish to change the default keybinds, an explanation on how to set these is included above the `[io3]` section in your `segatools.ini`.
+    Keyboard is the default input method.  
+    The default layout uses `DF JK` for the drum input, and `ENTER` to add coins.  
+    If you wish to view or change all the default keybinds, you can do so in `keyconfig.toml`.
 
 ***
 
