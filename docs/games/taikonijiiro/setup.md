@@ -89,7 +89,7 @@
 !!! tip ""
 	The `[amauth]` section contains network related config.  
 
-	`server =` can be left default if playing on a [local server](https://github.com/asesidaa/TaikoLocalServer/tree/Refactor) or offline but it is recommend to play on a [network](networks.md).                                 
+	`server =` can be left default if playing on a [local server](networks.md) or offline but it is recommend to play on a [network](networks.md).                                 
 	`port =` do not change unless you know what you are doing.                                                                           
 	`chassis_id =` do not change unless you know what you are doing.    
 	`shop_id =` mostly visual. change if you want to.                            
