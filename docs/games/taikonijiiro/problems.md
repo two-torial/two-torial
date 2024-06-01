@@ -1,34 +1,29 @@
-# CHUNITHM SUN PLUS Common Problems/Tips
+# Taiko no Tatsujin Nijiiro Common Problems/Tips
 
-<img src="/img/chunithmsunplus/sunplus.png">
+<img src="/img/taikonijiiro/taikonijiiro.png">
 
-### I'm having audio issues
-
-!!! tip ""
-    CHUNITHM expects a specific Default Format from your sound card.  
-    In Windows, go to `Playback Devices` and then right click on your default device and go to `Properties`. From there, hit the `Advanced` tab and set your `Default Format` to `16bit, 48000 Hz (DVD Quality)` and check both of the options inside `Exclusive Mode` as pictured.  
-
-    By default, CHUNITHM uses Exclusive Audio. This means you won't be able to hear any other sounds from your PC while the game is running. A Shared Audio mode can be enabled via the chusanApp.exe Patcher website, though it should be noted that this can increase audio latency.
-
-<img src="/img/gen/sega480.png">
-
-### Some of my installed Songs and Events aren't visible in game
+### Change Language
 
 !!! tip ""
-    Some content in CHUNITHM is locked behind event maps, or other requirements, such as playing the same song on another SEGA game, such as maimai.  
-    We can force unlock this content, making it always available in game.  
+    Nijiiro support changing the language from the test menu. The officially supported languages are                                                                              
+    Japanese(Default)                                                                   
+    English                                                                           
+    Chinese(zh-TW)                                                                   
+    Korean                 
+    
+    An unofficial mod allows you to change the language to Chinese(simplified) this can be found on the [Discord](https://discord.gg/cZRUmEPK78).
+    
+    Using `F1` `arrow keys` and `ENTER` navigate to `OTHERS` -> `LANGUAGE`
 
-    Download the [Chunithm_Unlocker](https://pixeldrain.com/u/Ccttn8u9) powershell script, and place it in your game folder, next to the `App` and `Option` folders.  
-    Right click the file, and select `Run with Powershell`.  
-    Once the script has scanned your game files, it will present you with several options for unlocking different types of content. You can either unlock everything, or only unlock specific things (such as songs), leaving the other content to be unlocked via regular gameplay.
-
-!!! note ""
-    The Chunithm_Unlocker script creates backups of any file it modifies, and has options to restore the files back to their original state. Please note that certain content (such as character unlocks) are sent to the server and saved to your profile, so reverting the unlock in your game files won't always relock that content for your game profile.
+<img src="/img/taikonijiiro/lang.png">
 
 ### My game takes a long time to boot
 
+!!! danger "Warning:"
+    First boot after connecting to a network will be very long (>90s)
+
 !!! tip ""
-    The game files for CHUNITHM consists of thousands of small .xml files, and Windows Defender is known to spend a long time scanning through them during game boot up.  
+    The game files for Nijiiro consists of thousands of small .bin files, and Windows Defender is known to spend a long time scanning through them during game boot up.  
     One way to massively speed up boot times is to add the entire game folder as a Windows Defender Exception.
 
 !!! danger "Warning:"
@@ -40,30 +35,20 @@
     Scroll down to `Exclusions` and click on `Add or remove exclusions`.  
     Click the `Add an exclusion` button, select the `folder` option, navigate to the base of your game install and click `Select Folder`.
 
-<img src="/img/chunithmsunplus/defender.png">
+<img src="/img/taikonijiiro/defender.png">
 
-### My game crashes when I alt-tab out of fullscreen
+### My game is running crazy fast/slow
 
 !!! tip ""
-    As the game is intended to run on dedicated hardware, it doesn't like to be minimised.  
-    One work-around for this is to use [DXVK](https://github.com/doitsujin/dxvk/) to run the game with Vulkan rather than Direct3D. This has the added benefit of smoother frame rates for some hardware configurations.  
-
-    Download the latest version of DXVK from the [releases tab](https://github.com/doitsujin/dxvk/releases). This will be a `dxvk-x.x.tar.gz` file. Open the file with `7zip` and navigate to the `x32` folder.  
-    Extract the `d3d9.dll` file to your `\CHUNITHMSUNPLUS\App\bin\` folder, alongside your `chusanApp.exe`.  
-    You should now be able to tab out of fullscreeen, leaving the game running.
-
-!!! note "Additional DXVK configuration:"
-    DXVK has other options that can be changed by adding a `dxvk.conf` file next to the `d3d9.dll` file. The most common use for this is to add an FPS counter to the game.  
-    If you wish to have an FPS counter, create a `dxvk.conf` file and open it with Notepad++. Add the following line.  
-    ```json
-    dxvk.hud = fps
-    ```
-    You can learn more about the available options at the [DXVK Configuration Wiki page](https://github.com/doitsujin/dxvk/wiki/Configuration).
-
-!!! note "Controller inputs whilst minimised:"
-    As the game was never designed to be minimised, it will not ignore inputs when not focused. This means any controller inputs will be accepted, so try not to lean on your slider while tabbed out!  
-    The most common issue this causes is when typing the number `1` with the game minimised, as by default this will enter the test menu. If you were mid-credit, your scores will be lost.  
-    If you wish to change the keyboard keys assigned to the Test, Service and Coin buttons, this can be configured in the `[io3]` section of `segatools.ini`.
+    The game needs to be ran at 120fps or things will break.
+    
+    If you have a >=120hz display.                                  
+    Set your display to 120hz. you may need to make a custom resolution.                                                                              
+    In `config.toml` set `vsync =` to `true`.  
+     
+    If you have a <120hz display.                                                    
+    In `config.toml` set `vsync =` to `false`.                                                                        
+    Limit the FPS for `Taiko.exe` using your GPU settings or [RTSS](https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download/)                              
 
 ### My game occasionally drops frames/stutters
 
