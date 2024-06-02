@@ -48,35 +48,39 @@
      
     If you have a <120hz display.                                                    
     In `config.toml` set `vsync =` to `false`.                                                                        
-    Limit the FPS for `Taiko.exe` using your GPU settings or [RTSS](https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download/)                              
+    Limit the FPS for `Taiko.exe` using your GPU settings or [RTSS](https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download/)      
+    
+<img src="/img/taikonijiiro/fps.png">
 
-### My game occasionally drops frames/stutters
+### My game is not connected to a network but I set one up
 
 !!! tip ""
-    While frame drops can be caused by running the game on under-powered hardware, it is also common for this to happen when running on hardware that is too over-powered!  
-    As a lot of the game consists of mostly 2D assets, your GPU is unlikely to be pushed very hard. Modern GPUs attempt to be as energy efficient as possible by changing power-states when under-utilised. If these power-state changes happen mid song, this can lead to slight frame drops and stutters.  
-    This can be solved by forcing the GPU to stay in its maximum power-state while the game is running.
+    Disable shop close time or you won't always be able to connect to the network.
 
-!!! note "NVIDIA:"
-    In the Windows Taskbar Icon Tray, right click the NVIDIA Settings icon, and select `NVIDIA Control Panel`.  
-    On the left, select `Manage 3D settings`.  
-    On the right, click on the `Program Settings` tab.  
-    Click the add button, and navigate to your `\CHUNITHMSUNPLUS\App\bin\` folder, and select `chusanApp.exe`.  
-    In the `Feature` list, scroll down to `Power management mode` and select `Prefer maximum performance`.  
-    Save your settings and close `NVIDIA Control Panel`. Your game will now always run in the highest power-state!
+    Using `F1` `arrow keys` and `ENTER` navigate to `GAME OPTIONS` -> `CLOCK/CLOSE TIME SETTING` -> `SCHEDULE TYPE`.
 
-<img src="/img/chunithmsunplus/nvidiaperf.png">
+    If you are still unable to connect that means you have incorrectly configured your `config.toml` or your server.
 
-!!! note "AMD:"
-    In the Windows Taskbar Icon Tray, right click the `AMD Software` icon, and select `Open AMD Software: Adrenalin Edition`.  
-    At the top of the window, select the `Gaming` tab.  
-    If `chusanApp` isn't already listed in your Games Library, click on the 3 dots at the top right of the window, then click on `Add A Game...`. Navigate to your `\CHUNITHMSUNPLUS\App\bin\` folder, and select `chusanApp.exe`.  
-    Select `chusanApp` from the Games Library.  
-    Under the `Graphics` section, set the `Graphics Profile` to `Performance`.
+<img src="/img/taikonijiiro/close.png">
 
-<img src="/img/chunithmsunplus/amdperf.png">
+### Help some game modes are missing
 
-!!! note "AMD, continued:"
-    While the above will help to reduce any issues, it's not quite the same as the `Power management mode` offered by NVIDIA.  
-    A similar configuration can be achieved by adding a custom Overlocking Game Profile in the `Performance` > `Tuning` section of the AMD Software, and increasing the minimum `GPU Frequency` for each `State`.  
-    As these settings will vary wildly from one GPU to another, and as overclocking comes with its own risks, specifics for this won't be included on this page.
+!!! tip ""
+    This will happen if you did not correctly apply the unlock game modes mod or card in.
+
+    You can download the mod on the [Discord](https://discord.gg/cZRUmEPK78).
+
+    You can card in by pressing `P` by default.
+
+<img src="/img/taikonijiiro/game.png">
+
+### My game is still too big/small after setting resolution in `config.toml`
+
+!!! tip ""
+    This will happen if you incorrectly set your resolution or scale.
+
+    You can check your display resolution by right clicking your desktop and selecting `Display settings`.
+
+    You can set your scale to `100%` right above where it says your resolution.
+
+<img src="/img/taikonijiiro/scale.png">
