@@ -3,7 +3,7 @@
 <img src="/img/chunithmsunplus/sunplus.png">
 
 !!! note "Author Note:"
-	Last updated: 08.02.2024 (Currently using `SDHD 2.16.00`)
+	Last updated: February 8th, 2024 (Currently using `SDHD 2.16.00`)
 	
 	For hex edits: Go to [Scribblers Chunithm Patcher](https://scrib-bler.github.io/patcher/)
 
