@@ -8,8 +8,13 @@
 
 	It might get a bit messy with time, but that's half the fun!
 
+### Spice2x Patchers
+!!! tip "Given that the feature is new, only a couple of patchers support it but the following are the ones we can vouch for."
+	- **Turksigara** - `https://p.eagate.turksigara.net/resources`
+  
+	- **DJTrackers** - `https://djtrackers.github.io/BemaniPatcher`
 
-### Patcher
+### Web Patchers
 
 !!! tip "There are more patch websites than listed here but these are the ones we recommend and can vouch for. You can always use other patchers if you want."
 	- [BemaniPatcher](https://mon.im/bemanipatcher/) - Supports a variety of **old games**
