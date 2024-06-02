@@ -1,7 +1,7 @@
 # Spice2x DLL Patching
 
 !!! note ""
-	Last updated: `06.02.2024` *(mm/dd/yyyy)*
+	Last updated: June 6th, 2024
 
 	Known spice2x patchers: [External resources](/externalresources#spice2x-patchers)
 

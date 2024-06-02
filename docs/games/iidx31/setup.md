@@ -4,7 +4,7 @@
 
 !!! note "Author Note:"
 
-	Last updated: 09.02.2024 (Currently using `2023101800`)
+	Last updated: February 9th, 2024 (Currently using `2023101800`)
 	
 	For hex edits: Go to [Türksigara Patcher](https://p.eagate.turksigara.net/)
 
