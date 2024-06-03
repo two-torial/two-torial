@@ -1,0 +1,115 @@
+# SOUND VOLTEX EXCEED GEAR
+<img src="/img/sdvx6/setup/0_exceedgear.png">
+
+!!! info "Last updated: June 3rd, 2024"
+
+!!! danger "Please make sure you downloaded your data from an appropriate source.<br>This guide is unable to troubleshoot any problems related to bad or poorly managed data."
+
+---
+### Nemsys & Valkyrie modes
+
+!!! warning "Valkyrie mode requires a 120hz capable monitor, or to have patched your `.dll` with `Valkyrie Mode 60hz`.<br>You will also need a second 60hz monitor with touchscreen capabilities."
+
+    If you do not have that second monitor:
+
+    - Open `spicecfg.exe`.
+    - Head to the `Options` tab.
+    - Enable `Only Use One Monitor` under the `Graphics (common)` category.
+
+    <img src="/img/sdvx6/troubleshooting/1_onemonitor.png">
+
+!!! tip ""
+
+	To make use of the Valkyrie Mode, which unlocks the subscreen and 120FPS, we need to go to the `contents\prop` folder and edit the `ea3-config.xml` file.
+
+    We're interested in these lines:
+
+	```xml
+		<soft>
+			<model __type="str">KFC</model>
+			<dest __type="str">J</dest>
+			<spec __type="str">G</spec>
+			<rev __type="str">A</rev>
+			<ext __type="str">2024052100</ext>
+		</soft>
+	```
+
+    This is the line that determines if the game will run in Nemsys (60 FPS) or Valkyrie (120 FPS) mode.
+
+    ```xml
+    <spec __type="str">F</spec>
+    ```
+
+    Use ^^`F`^^ for Nemsys, or ^^`G`^^ for Valkyrie.    
+    
+---
+### Changing the game's language
+
+!!! tip ""
+
+    Go to the `contents\prop` folder and edit the `ea3-config.xml` file.
+
+    We're interested in these lines:
+
+	```xml
+		<soft>
+			<model __type="str">KFC</model>
+			<dest __type="str">J</dest>
+			<spec __type="str">G</spec>
+			<rev __type="str">A</rev>
+			<ext __type="str">2024052100</ext>
+		</soft>
+	```
+
+    This is the line that determines which region, and therefore which language the game will use.
+
+    ```xml
+    <dest __type="str">J</dest>
+    ```
+
+    Use ^^`J`^^ for Japanese, ^^`K`^^ for Korean, or ^^`A`^^ for English.
+
+---
+### More about ea3-config.xml
+
+!!! tip ""
+
+    The `ea3-config.xml` file is located inside the `prop` folder. 
+
+    Below is an explanation on what different sections of this file do.
+
+    The following lines change the PCBID and HARDID that your system reports to your e-amusement server.  
+    There is ^^**no need to manually change this**^^ as `spice2x` will do it for us.
+    
+    ```xml
+    <pcbid __type="str">00010203040506070809</pcbid>
+    <hardid __type="str">00010203040506070809</hardid>
+    ```
+
+    The following line determines what version of the game you are running.  
+    ^^**You should never change this**^^. It should always say `KFC`.
+
+    ```xml
+    <model __type="str">KFC</model>
+    ```
+
+    ^^**You should never change this**^^. It should always say `A` for Exceed Gear.
+
+    ```xml
+    <rev __type="str">A</rev>
+    ```
+
+    The following line determines your datecode.  
+    ^^**Always keep it up to date**^^ with your game's current version.
+
+    ```xml
+    <ext __type="str">2024052100</ext>
+    ```
+
+    The following option determine what Service URL Server `spice2x` is supposed to connect to.  
+    There is ^^**no need to manually change this**^^ as `spice2x` will do it for us.
+    ```xml
+    <network>
+        <services __type="str">http://localhost:8083</services>
+    </network>
+    ```
