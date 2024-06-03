@@ -140,9 +140,7 @@
 
 #### Cards
 
-!!! tip ""
-
-	Covered in the [Connecting to a network](#connecting-to-a-network) section.
+!!! info "Covered in the [Connecting to a network](#connecting-to-a-network) section."
 
 #### Patches
 
@@ -203,8 +201,15 @@
 
 	| Category 		| Option 				| Parameter 		| Setting |
 	|---------------|-----------------------|-------------------|---------|
-	| Game Options	| SDVX Disable Cameras 	| -sdvxdisablecams 	| ON		|
+	| Game Options	| SDVX Disable Cameras 	| -sdvxdisablecams 	| ON	  |
 	| Network		| EA Service URL		| -url				| Covered in [Connecting to a network](#connecting-to-a-network) |
+
+!!! tip "Highly Recommended for NVIDIA users ONLY"
+
+	| Category 			| Option 							| Parameter 	| Setting |
+	|-------------------|-----------------------------------|---------------| 		  |
+	| Graphics (common)	| NVIDIA profile optimization	 	| -nvprofile 	| ON	  |
+
 
 #### Advanced & Development
 
