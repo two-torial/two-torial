@@ -84,3 +84,26 @@
     You can set your scale to `100%` right above where it says your resolution.
 
 <img src="/img/taikonijiiro/scale.png">
+
+### Best settings for Nvidia GPUs
+!!! tip ""
+    This will help with latency and other issues
+    
+    In `NVIDIA Control Panel` set the following settings for `Taiko.exe`.                                                         
+    Low Latency Mode `Ultra`                                                    
+    Max Frame Rate `120 FPS`                                          
+    Power management mode `Prefer maximum performance`                                         
+    Vertical sync `Fast`                                                  
+
+### Audio
+!!! tip ""
+    By default the game will use wasapi shared
+    
+    To use wasapi exclusive disable `wasapi_shared` in `config.toml`.                                                                      
+    Copy the audio settings in the screenshot.                                
+
+    To use ASIO disable `wasapi_shared` in `config.toml` and enable `asio`.
+    Set your `asio_driver`
+
+    To use FlexASIO refer to [this](../../extras/streamaudio.md#option-4-flexasio).
+    

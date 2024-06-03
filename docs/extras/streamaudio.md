@@ -103,6 +103,11 @@ FlexASIO is a virtual ASIO service that can redirect output to various backends,
 
 	<img src="/img/flexasio/1.png">
 
+!!! tip "Taiko no Tatsujin Nijiiro"
+	1. Disable `wasapi_shared` in `config.toml`.
+	2. Enable `asio` in `config.toml`.
+	3. Set `asio_driver` to `FlexASIO`.
+
 - To capture audio, you can capture desktop audio as you normally would in OBS.
 
 ### Option 5 - Voicemeeter
