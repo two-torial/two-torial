@@ -13,7 +13,7 @@
 	The most common reason for this is the game is running over its required refresh rate.  
 	To solve this, make sure v-sync isn't disabled in your graphics card's settings.
 
-	For NVIDIA users, enable  `NVIDIA orofile optimization (-nvprofile)` in the `Options` tab. 
+	For NVIDIA users, enable  `NVIDIA profile optimization (-nvprofile)` in the `Options` tab. 
 
 ---
 ### Which Offset Do I Use?

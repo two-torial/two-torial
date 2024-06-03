@@ -279,7 +279,7 @@
 
 	- Right click on your desktop.
 	- Click `Display Options`.
-	- Look for `Display orientation` and set it to `Portait` or `Portrait (flipped)`.
+	- Look for `Display orientation` and set it to `Portrait` or `Portrait (flipped)`.
  
 	<img src="/img/sdvx6/setup/6_orientation.png">
 
