@@ -239,7 +239,7 @@
 
 	<img src="/img/sdvx6/setup/5_cards.png">
 
-??? tip "Local e-amuse Emulator (Aphyxia)"
+??? tip "Local e-amuse Emulator (Asphyxia)"
 
 	This is covered in the [Asphyxia CORE](/extras/asphyxia) page.
 
