@@ -2,7 +2,7 @@
 
 !!! info "Last updated: June 4th, 2024<br>Known web patchers: [External resources](/externalresources#web-patchers)"
 
-!!! warning "For BEMANI games consider [Spice2x Patching](/extras/patchsp2x.md)"
+!!! warning "For BEMANI games consider [Spice2x Patching](/extras/patchsp2x)"
 
 	**This patching method is outdated for BEMANI games.**
 
