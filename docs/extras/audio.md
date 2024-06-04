@@ -3,7 +3,7 @@
 !!! tip ""
 	```WASAPI``` and ```ASIO``` are audio systems that manage how your applications like games, music, and others interact with your audio hardware. Without these core systems you would ^^not^^ be able to hear anything. This is a basic explanation on what they are and will not go into detail on how they function. There are 3 types that I'll cover here with pros and cons for each one.
 
-	I would ^^personally^^ recommend using ```WASAPI Shared``` as this has in most cases the highest chance of working and requires the least amount of work. You can enable it by using a [hex edit.](../extras/patchweb.md#how-to-use-patcher-websites)
+	I would ^^personally^^ recommend using ```WASAPI Shared``` as this has in most cases the highest chance of working and requires the least amount of work. You can enable it by using a patch.
 
 	If you would like to use ```WASAPI Exclusive```, you can read more about it [here.](../extras/streamaudio.md#workarounds-for-exclusive-audio)
 

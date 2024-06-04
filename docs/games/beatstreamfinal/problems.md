@@ -16,7 +16,7 @@
 ### My Game Doesn't Boot After Following the Guide!
 
 !!! tip ""
-	The most common problem present here is if you do not have an E:/ drive. To resolve this issue, you must apply the `E:/drive fix` hex edit found [here.](hexedits.md)
+	The most common problem present here is if you do not have an E:/ drive. To resolve this issue, you must modify your game with the `E:/drive fix` patch.
 
 ### My Touchscreen Monitor Isn't Working
 

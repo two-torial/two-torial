@@ -5,10 +5,8 @@
 !!! note "Author Note:"
 
 	Last updated: February 9th, 2024 (Currently using `2023101800`)
-	
-	For hex edits: Go to [Türksigara Patcher](https://p.eagate.turksigara.net/)
 
-	For lightning mode specifics: they are found [here](lightning.md)
+	Lightning mode specifics: they are found [here](lightning.md)
 
 !!! danger "Warning:"
 	Please make sure your data is from an appropriate source and unmodified before proceeding, this guide is unable to troubleshoot any problems related to bad or poorly managed data.
@@ -110,7 +108,7 @@
 	
 	Before we go over the keybinds, we'll change our `IIDX Sound Output Device` to `WASAPI`. This has (from my experience) the highest chance of working. If it doesn't work for you, try using `FlexASIO`. It really comes down to your own hardware setup. 
 	
-	If you're still having issues, feel free to join our [Discord server](https://discord.gg/yAtdhvee79) and ask away in the troubleshooting section as this could be something very specific. Keep in mind that if you're using `WASAPI`, IIDX will go into WASAPI exclusive mode which means that only IIDX will output it's audio and nothing else [(this can be changed with a hex edit if you'd like).](problems.md#when-i-run-this-game-all-other-background-audio-is-gone-whats-going-on)
+	If you're still having issues, feel free to join our [Discord server](https://discord.gg/yAtdhvee79) and ask away in the troubleshooting section as this could be something very specific. Keep in mind that if you're using `WASAPI`, IIDX will go into WASAPI exclusive mode which means that only IIDX will output it's audio and nothing else, this can be changed with a patch.
 
 	Below is an example of how it looks like using `WASAPI`.
 

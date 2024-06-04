@@ -34,6 +34,6 @@ Pop&apos;n Peace Common Problems/Tips
 ### Other Crashes
 
 !!! tip ""
-	This game requires an E: drive to be named by the computer. If you do not have one, make sure to apply the `E: Drive fix` [hex edit](hexedits.md)
+	This game requires an E: drive to be named by the computer. If you do not have one, make sure to apply the `E: Drive fix` patch.
 
-	It may also fail to boot regardless of this, such as in the case of using HDMI audio. Even if you're not using HDMI audio however, some failures to boot have been noted. For safety, make sure to also apply the `HDMI Audio Fix` [hex edit](hexedits.md) unless you're using the latest SpiceTools which fixes this issue.
+	It may also fail to boot regardless of this, such as in the case of using HDMI audio. Even if you're not using HDMI audio however, some failures to boot have been noted. For safety, make sure to also apply the `HDMI Audio Fix` patch unless you're using the latest SpiceTools which fixes this issue.

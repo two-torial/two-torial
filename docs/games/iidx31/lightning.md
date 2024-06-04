@@ -5,7 +5,7 @@
 ### Setting up TDJ (Subscreen & 120FPS)
 
 !!! tip ""
-	As of right now, for EPOLIS, you'll have to use a hex edit if you'd like to have TDJ working. First, locate your `bm2dx.dll` which is located inside the `\modules` folder and make a backup of it in case something goes wrong. Next, head over to [EGRS's Patcher](https://egrspatcher.pages.dev/epolis) and drag & drop your `bm2dx.dll` into the website.
+	As of right now, for EPOLIS, you'll have to use a patch if you'd like to have TDJ working. First, locate your `bm2dx.dll` which is located inside the `\modules` folder and make a backup of it in case something goes wrong. Next, head over to [EGRS's Patcher](https://egrspatcher.pages.dev/epolis) and drag & drop your `bm2dx.dll` into the website.
 
 	At the very bottom, you'll see `Force TDJ Mode`. Enable it and press `Save Patched File`. Replace the file inside of `\modules`.
 

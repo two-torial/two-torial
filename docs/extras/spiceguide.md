@@ -10,7 +10,7 @@
 ### What is SpiceTools?
 
 !!! tip ""
-	SpiceTools is a toolkit allowing users to play several Konami games on their PC, typically of the arcade variety with the focus being on BEMANI games. The idea behind SpiceTools is to provide a simple to use toolkit that consists of just the executable and its configuration, allowing users to have minimal interaction with game files and thus minimizing user error.
+	SpiceTools is a toolkit allowing users to play several BEMANI games on their PC, typically of the arcade variety with the focus being on BEMANI games. The idea behind SpiceTools is to provide a simple to use toolkit that consists of just the executable and its configuration, allowing users to have minimal interaction with game files and thus minimizing user error.
 
 ### Why SpiceTools
 
@@ -20,7 +20,7 @@
 ### SpiceOverlay
 
 !!! tip ""
-	One of the newest features SpiceTools has is an included overlay called SpiceOverlay, it contains a number of useful options such as a patch manager to enable/disable hex edits on the fly, and virtual keypads, its keybinds are as follows below:
+	One of the newest features SpiceTools has is an included overlay called SpiceOverlay, it contains a number of useful options such as a patch manager to enable/disable patches on the fly, and virtual keypads, its keybinds are as follows below:
 
 	``F5 - Keypad P1``
 	``F6 - Keypad P2``

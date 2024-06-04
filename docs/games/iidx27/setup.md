@@ -3,10 +3,7 @@
 <img src="/img/iidx27/hv.png">
 
 !!! note "Author Note:"
-
-	For hex edits: Use the Patches tab in SpiceTools or SpiceCompanion.
-
-	For lightning mode specifics: they are found [here](lightning.md)
+	Lightning mode specifics: they are found [here](lightning.md)
 
 !!! danger "Warning:"
 	Please make sure your data is from an appropriate source and unmodified before proceeding, this guide is unable to troubleshoot any problems related to bad or poorly managed data.
