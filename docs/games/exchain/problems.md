@@ -36,7 +36,7 @@
 ### I get an IP Change Error!
 
 !!! tip ""
-	Apply the [Fix IP Change Error Hex Edit](/games/exchain/hexedits/)
+	Apply the `Fix IP Change Error` patch.
 
 ### Which Offset Is Which?
 

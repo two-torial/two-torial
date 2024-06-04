@@ -45,16 +45,16 @@
 ### A Note About SSE 4.2
 
 !!! tip ""
-	In the rare case you are running this game on *very* old hardware, SDVX V requires a processor supporting the [SSE 4.2 instruction set](https://en.wikipedia.org/wiki/SSE4#SSE4.2). But, in the event your processor does not have this, there is a [hex edit](hexedits.md) available to bypass this.
+	In the rare case you are running this game on *very* old hardware, SDVX V requires a processor supporting the [SSE 4.2 instruction set](https://en.wikipedia.org/wiki/SSE4#SSE4.2). But, in the event your processor does not have this, there is a patch available to bypass this.
 
 ### When I Run This Game All Other Background Audio Is Gone! What's Going On?
 
 !!! tip ""
-	64-bit versions of SDVX	 are now utilizing a feature in Windows called [WASAPI exclusive mode](https://docs.microsoft.com/en-us/windows/win32/coreaudio/exclusive-mode-streams) to obtain less audio latency than the former 32-bit versions of the games which used [DirectSound](https://en.wikipedia.org/wiki/DirectSound). You can use the [Shared Mode WASAPI hex edit](hexedits.md) to deal with some hardware issues, it can also be used to hear background audio outside the game so that the game does not take total control. Many have reported that this edit only works when the audio is set to either 16-bit 44100Hz or 24-bit 44100Hz.
+	64-bit versions of SDVX	 are now utilizing a feature in Windows called [WASAPI exclusive mode](https://docs.microsoft.com/en-us/windows/win32/coreaudio/exclusive-mode-streams) to obtain less audio latency than the former 32-bit versions of the games which used [DirectSound](https://en.wikipedia.org/wiki/DirectSound). You can use the `Shared Mode WASAPI` patch to deal with some hardware issues, it can also be used to hear background audio outside the game so that the game does not take total control. Many have reported that this edit only works when the audio is set to either 16-bit 44100Hz or 24-bit 44100Hz.
 
 ### I'm Not Getting Any Audio/My Audio Is Completely Wrecked and I'm Using an External Dac!
 
 !!! tip ""
 	Several external DACs have issues with [WASAPI exclusive mode](https://docs.microsoft.com/en-us/windows/win32/coreaudio/exclusive-mode-streams) and are unable to be used entirely, it's likely you'll be forced to use your motherboard's sound chip, or find a compatible DAC.
 
-	Alongside this, many setups have found some difficulty with audio due to various equipment being used. Consider applying the [Shared Mode WASAPI hex edit](hexedits.md)
+	Alongside this, many setups have found some difficulty with audio due to various equipment being used. Consider applying the `Shared Mode WASAPI` patch.

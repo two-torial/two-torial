@@ -77,7 +77,7 @@
 ### 5-1503-0042
 
 !!! tip "CAMERA DEVICE ERROR"
-	This error occurs when camera devices are missing/not functional. To resolve either have two cameras connected to your machine or apply a [hex edit](/extras/hexguide/) for your game's specific version and date code to simply not have this error occur on startup. It can be bypassed by hitting the `Test` button so it is not a critical error.
+	This error occurs when camera devices are missing/not functional. To resolve either have two cameras connected to your machine or apply a patch for your game's specific version and date code to simply not have this error occur on startup. It can be bypassed by hitting the `Test` button so it is not a critical error.
 
 ### 5-1506-0001
 

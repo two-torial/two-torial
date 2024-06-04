@@ -55,7 +55,7 @@
 ###  Where Is the Option For Dancers/Shading/Measure lines/Fast-Slow/Layering?
 
 !!! tip ""
-	These options are locked behind network requirements and they will not show unless connected to a network that has written support for these options. There are some [hex edits](hexedits.md) for some of these options, however
+	These options are locked behind network requirements and they will not show unless connected to a network that has written support for these options. Patches exist to alleviate this.
 	
 ###  Why Is My Game Not in English?
 

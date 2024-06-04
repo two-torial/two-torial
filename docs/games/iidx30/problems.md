@@ -23,7 +23,7 @@
 ### My Game Audio Is Super Quiet!
 
 !!! tip ""
-	When using `TDJ mode` the audio is very quiet by default. To mitigate this, you can use the `Increase Game Volume` [hex edit.](https://mon.im/bemanipatcher/resident.html)
+	When using `TDJ mode` the audio is very quiet by default. To mitigate this, you can use the `Increase Game Volume` patch.
 
 ### Which Offset Is Which?
 
@@ -33,7 +33,7 @@
 ### When I Run This Game All Other Background Audio Is Gone! What's Going On?
 
 !!! tip ""
-	64-bit versions of IIDX are now utilizing a feature in Windows called [WASAPI exclusive mode](https://docs.microsoft.com/en-us/windows/win32/coreaudio/exclusive-mode-streams) to obtain less audio latency than the former 32-bit versions of the games which used [DirectSound](https://en.wikipedia.org/wiki/DirectSound). You can use the `WASAPI Shared Mode` [hex edit](https://mon.im/bemanipatcher/resident.html) which is found at the very bottom to avoid this issue.
+	64-bit versions of IIDX are now utilizing a feature in Windows called [WASAPI exclusive mode](https://docs.microsoft.com/en-us/windows/win32/coreaudio/exclusive-mode-streams) to obtain less audio latency than the former 32-bit versions of the games which used [DirectSound](https://en.wikipedia.org/wiki/DirectSound). You can use the `WASAPI Shared Mode` patch to avoid this issue.
 
 ### I'm Not Getting Any Audio/My Audio Is Completely Wrecked and I'm Using an External Dac!
 
