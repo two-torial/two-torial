@@ -16,6 +16,7 @@
 	If you've already patched your game through other methods *([web patching](/extras/patchweb) or [hex editing](/extras/hexguide))*,  
 	**Please replace your game's DLL with the original**.
 
+---
 ### Getting Started
 
 !!! tip ""
