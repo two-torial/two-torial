@@ -1,5 +1,5 @@
 # SOUND VOLTEX EXCEED GEAR
-<img src="/img/sdvx6/setup/0_exceedgear.png">
+<img src="/img/sdvx6/exceedgear.png">
 
 !!! info "Last updated: June 3rd, 2024"
 
@@ -357,6 +357,23 @@
 
 	Select `GAME MODE` and press `Start`.
 	
-	You're all done! The game should load ready to be played.
-	
-	Have fun!
+	You're all done! The game should load up properly now.
+
+---
+### Carding in
+
+!!! tip "" 
+
+	Once the game is done loading, you need to card in.
+
+	- Press your `Keypad Insert Card` button.
+	- Enter your code using your keypad binds.
+
+---
+### Troubleshooting
+
+!!! warning "Have any other issue?"
+
+	Check out the [Troubleshooting](troubleshooting.md) and [Error Codes](/errorcodes) pages.
+
+	For any more game-specific information, check out [Extra Information](extras.md).
