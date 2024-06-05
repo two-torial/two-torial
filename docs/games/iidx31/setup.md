@@ -142,7 +142,7 @@
 
 !!! tip ""
 
-	With a controller rather than binding buttons to `TT+` and TT-`, you need to:
+	With a controller rather than binding buttons to `TT+` and `TT-`, you need to:
 
 	- For Turntable P1, click `Bind`.
 	- In `Device`, pick your controller.
