@@ -118,8 +118,6 @@ nav:
         - 'How to setup Asphyxia CORE': 'extras/asphyxia.md'
         - 'Notes on the Most Common ASCs and Vendors': 'extras/ascs.md'
         - 'Arcade Parts List and Documentation': 'extras/parts.md'
-        - 'SpiceTools Usage, Parameters, and Functionality': 'extras/spiceguide.md'
-        - 'SpiceTools Error Messages': 'extras/spiceerrors.md'
         - 'List of Touchscreen Monitors and their Polling Rates': 'extras/pollingrates.md'
         - 'What is WASAPI and ASIO?': 'extras/audio.md'
         - 'Exclusive Audio Workarounds': 'extras/streamaudio.md'
