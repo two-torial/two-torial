@@ -1,5 +1,5 @@
 # SOUND VOLTEX EXCEED GEAR
-<img src="/img/sdvx6/setup/0_exceedgear.png">
+<img src="/img/sdvx6/exceedgear.png">
 
 !!! info "Last updated: June 3rd, 2024"
 
@@ -54,10 +54,9 @@
 !!! tip ""
 
 	Sound Voltex Exceed Gear uses [WASAPI exclusive mode](https://docs.microsoft.com/en-us/windows/win32/coreaudio/exclusive-mode-streams) for audio to get better audio latency.  
-	Former versions of the games which used [DirectSound](https://en.wikipedia.org/wiki/DirectSound).   
+	Unlike former versions of the games which used [DirectSound](https://en.wikipedia.org/wiki/DirectSound).   
 	
 	You can use the `Shared Mode WASAPI` patch to deal with some hardware issues, it can also be used to hear audio outside the game at the cost of audio latency.  
-	Many have reported that this edit only works when the audio is set to either 16-bit 44100Hz or 24-bit 44100Hz.
 
 ---
 ### I'm not getting any audio, or my audio is completely wrecked and I'm using an External Dac!

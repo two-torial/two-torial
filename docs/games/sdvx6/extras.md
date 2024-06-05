@@ -1,5 +1,5 @@
 # SOUND VOLTEX EXCEED GEAR
-<img src="/img/sdvx6/setup/0_exceedgear.png">
+<img src="/img/sdvx6/exceedgear.png">
 
 !!! info "Last updated: June 3rd, 2024"
 
@@ -106,10 +106,9 @@
     <ext __type="str">2024052100</ext>
     ```
 
-    The following option determine what Service URL Server `spice2x` is supposed to connect to.  
+    The following line determine what remote service URL `spice2x` is supposed to connect to.  
     There is ^^**no need to manually change this**^^ as `spice2x` will do it for us.
+    
     ```xml
-    <network>
-        <services __type="str">http://localhost:8083</services>
-    </network>
+    <services __type="str">http://localhost:8083</services>
     ```
