@@ -144,7 +144,7 @@
 
 #### Patches
 
-!!! info "Go through the [Spice2x Patching](/extras/patchsp2x) page to import patches."
+!!! info "Go through the [Spice2x Patching](../../extras/patchsp2x.md) page to import patches."
 
 !!! danger "As a general rule of thumb, if you're not sure what a patch does or you're not absolutely certain you need it, leave it alone, regardless of recommendations below."
 
@@ -241,7 +241,7 @@
 
 ??? tip "Local e-amuse Emulator (Asphyxia)"
 
-	This is covered in the [Asphyxia CORE](/extras/asphyxia) page.
+	This is covered in the [Asphyxia CORE](../../extras/asphyxia.md) page.
 
 ---
 ### Pre-launch requirements
@@ -374,6 +374,6 @@
 
 !!! warning "Have any other issue?"
 
-	Check out the [Troubleshooting](troubleshooting.md) and [Error Codes](/errorcodes) pages.
+	Check out the [Troubleshooting](troubleshooting.md) and [Error Codes](../../errorcodes.md) pages.
 
 	For any more game-specific information, check out [Extra Information](extras.md).

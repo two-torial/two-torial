@@ -178,7 +178,7 @@
 
 #### Patches
 
-!!! info "Go through the [Spice2x Patching](/extras/patchsp2x) page to import patches."
+!!! info "Go through the [Spice2x Patching](../../extras/patchsp2x.md) page to import patches."
 
 	There are **many** patches available for IIDX.  
 	We will only bring up the ones we think could be genuinely useful.
@@ -266,7 +266,7 @@
 
 ??? tip "Local e-amuse Emulator (Asphyxia)"
 
-	This is covered in the [Asphyxia CORE](/extras/asphyxia) page.
+	This is covered in the [Asphyxia CORE](../../extras/asphyxia.md) page.
 
 ---
 ### Pre-launch requirements
@@ -400,6 +400,6 @@
 
 !!! warning "Have any other issue?"
 
-	Check out the [Troubleshooting](troubleshooting.md) and [Error Codes](/errorcodes) pages.
+	Check out the [Troubleshooting](troubleshooting.md) and [Error Codes](../../errorcodes.md) pages.
 
 	For any more game-specific information, check out [Extra Information](extras.md).
