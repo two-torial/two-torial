@@ -1,8 +1,8 @@
 # Website DLL Patching
 
-!!! info "Last updated: June 4th, 2024<br>Known web patchers: [External resources](/externalresources#web-patchers)"
+!!! info "Last updated: June 4th, 2024<br>Known web patchers: [External resources](../externalresources.md#web-patchers)"
 
-!!! warning "For BEMANI games consider [Spice2x Patching](/extras/patchsp2x)"
+!!! warning "For BEMANI games consider [Spice2x Patching](patchsp2x.md)"
 
 	**This patching method is outdated for BEMANI games.**
 
@@ -12,7 +12,7 @@
 
 	**It is highly recommended to use an unpatched DLL as your base!**
 	
-	If you've already patched your game through other methods *([spice2x patching](/extras/patchsp2x) or [hex editing](/extras/hexguide))*,  
+	If you've already patched your game through other methods *([spice2x patching](patchsp2x.md) or [hex editing](hexguide.md))*,  
 	**Please replace your game's DLL with the original**.
 
 ---
@@ -23,7 +23,7 @@
 	We'll be using mon's [BemaniPatcher](https://mon.im/bemanipatcher).  
 	Almost every other patcher is based off of this and functions exactly the same.   
 
-	**If your game is recent, please check [External resources](/externalresources#web-patchers) and use another web patcher.**
+	**If your game is recent, please check [External resources](../externalresources.md#web-patchers) and use another web patcher.**
 
 	Go to your chosen patcher's website, you'll get something similar to this:
 
@@ -58,7 +58,7 @@
 	Now, you can select the patches you'd like to apply. 
 	
 	If you're unsure on what to do, refer to your specific game's guide as it might have more information there.  
-	Otherwise feel free to join our Discord server, the link is at the top of the [home page](/), and ask the community!
+	Otherwise feel free to join our Discord server, the link is at the top of the [home page](../index.md), and ask the community!
 
 <img src="/img/patchweb/5.png">
 

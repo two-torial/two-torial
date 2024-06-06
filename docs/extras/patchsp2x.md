@@ -1,6 +1,6 @@
 # Spice2x DLL Patching
 
-!!! info "Last updated: June 3rd, 2024<br>Known spice2x patchers: [External resources](/externalresources#spice2x-patchers)"
+!!! info "Last updated: June 6th, 2024<br>Known spice2x patchers: [External resources](../externalresources.md#spice2x-patchers)"
 
 !!! warning "Compatibility"
 
@@ -13,7 +13,7 @@
 
 	**It is highly recommended to use an unpatched DLL as your base!**
 	
-	If you've already patched your game through other methods *([web patching](/extras/patchweb) or [hex editing](/extras/hexguide))*,  
+	If you've already patched your game through other methods *([web patching](patchweb.md) or [hex editing](hexguide.md))*,  
 	**Please replace your game's DLL with the original**.
 
 ---
@@ -42,7 +42,10 @@
 	Click on `Import from URL`.
 
 	A new popup will appear, in which you should paste your preferred patcher's URL.  
-	At time of writing `https://p.eagate.turksigara.net/resources/` is the most up-to-date for SDVX.
+
+	**SDVX**: `https://p.eagate.turksigara.net/resources` is recommended for `SDVX Exceed Gear` but does not support `0521` yet. For now, you may use the `0430` `.dll` file inside your `0521` data, then import your patches.
+
+	**IIDX**: `https://static.girlsband.party/spice2x` is the most up-to-date for `IIDX 31 Epolis` but is written in chinese. You may instead choose to use the [web patcher](https://static.girlsband.party/patcher/iidx31/) version and translate the page to English.
 
 	After pasting your URL in, click on `Import`.  
 	If patching fails, it most likely is because the URL you provided doesn't support your game's version.

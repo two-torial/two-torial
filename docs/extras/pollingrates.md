@@ -9,7 +9,7 @@
 
 	One thing to note is, this is not to say that monitors with low polling rates are unusable, they can still provide enjoyment and are often cheap enough to be a great option to see how far one may want to get into a certain touchscreen based game. But, the goal is to provide a potential buyer information to make an educated choice, and monitors with low polling rates will run the risk of needing to be replaced as higher levels of play, potentially causing frustration and wasted money.
 
-	If you want to check your touch screen monitor's polling rate simply download [Mouse Rate Checker](https://www.softpedia.com/get/System/System-Miscellaneous/Mouse-Rate-Checker.shtml) and move your finger across the window at a reasonable pace, but not too fast! After you get your results, maybe even consider [contacting me with your monitor type, manufacturing date, and result](/about/#contact) so that I can include your results where applicable.
+	If you want to check your touch screen monitor's polling rate simply download [Mouse Rate Checker](https://www.softpedia.com/get/System/System-Miscellaneous/Mouse-Rate-Checker.shtml) and move your finger across the window at a reasonable pace, but not too fast!
 
 ### Dell S2240T
 
