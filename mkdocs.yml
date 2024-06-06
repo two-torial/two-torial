@@ -122,7 +122,6 @@ nav:
         - 'What is WASAPI and ASIO?': 'extras/audio.md'
         - 'Exclusive Audio Workarounds': 'extras/streamaudio.md'
     - External Resources: externalresources.md
-    - About & Credits: about.md
 
 theme:
     name: material
