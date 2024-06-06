@@ -1,5 +1,7 @@
 # External Resources
 
+!!! info "Last updated: June 6th, 2024"
+
 !!! warning "Before reading:"
 	This section contains a variety of external resources outside of this website, some even submitted by users!
 
@@ -7,16 +9,20 @@
 
 ### Spice2x Patchers
 !!! tip "Given that the feature is new, only a couple of patchers support it but the following are the ones we can vouch for."
-	- **Turksigara** - `https://p.eagate.turksigara.net/resources`
+	- **Turksigara** - `https://p.eagate.turksigara.net/resources` - **Recommended for SDVX Exceed Gear**
+  
+	- **Girlsband** - `https://static.girlsband.party/spice2x` - **Recommended for IIDX 31 Epolis**
   
 	- **DJTrackers** - `https://djtrackers.github.io/BemaniPatcher`
 
 ### Web Patchers
 
-!!! tip "There are more patch websites than listed here but these are the ones we recommend and can vouch for. You can always use other patchers if you want."
+!!! tip "There are more patch websites than listed here but these are the ones we recommend and can vouch for.<br> You can always use other patchers if you want."
 	- [BemaniPatcher](https://mon.im/bemanipatcher/) - Supports a variety of **old games**
 
-	- [Scribblers Chunithm Only Patcher](https://scrib-bler.github.io/patcher/) - Has every version of Chunithm available
+	- [Scribblers Chunithm Only Patcher](https://scrib-bler.github.io/patcher/) - Has every version of **Chunithm** available
+  
+	- [Girlsband](https://static.girlsband.party/patcher/iidx31/) - Currently the best option for **IIDX 31 Epolis** despite being in Chinese. Use Google Translate.
 
 ### General
 
