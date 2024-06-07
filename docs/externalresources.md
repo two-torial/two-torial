@@ -19,7 +19,7 @@
 
 !!! tip "There are more patch websites than listed here but these are the ones we recommend and can vouch for.<br> You can always use other patchers if you want."
 
-	- [BemaniPatcher](https://mon.im/bemanipatcher/) - Supports a variety of **old games**
+	- [Mon's BemaniPatcher](https://mon.im/bemanipatcher/) - Supports a variety of **old games**
 
 	- [Scribblers Chunithm Only Patcher](https://scrib-bler.github.io/patcher/) - Has every version of **Chunithm** available
   
