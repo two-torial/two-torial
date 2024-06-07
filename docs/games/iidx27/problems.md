@@ -50,7 +50,7 @@
 ### A Note About SSE 4.2
 
 !!! tip ""
-	In the rare case you are running this game on *very* old hardware, IIDX 27 requires a processor supporting the [SSE 4.2 instruction set](https://en.wikipedia.org/wiki/SSE4#SSE4.2). But, in the event your processor does not have this, there is a [hex edit](hexedits.md) available to bypass this.
+	In the rare case you are running this game on *very* old hardware, IIDX 27 requires a processor supporting the [SSE 4.2 instruction set](https://en.wikipedia.org/wiki/SSE4#SSE4.2). But, in the event your processor does not have this, there is a patch available to bypass this.
 
 ### When I Run This Game All Other Background Audio Is Gone! What's Going On?
 

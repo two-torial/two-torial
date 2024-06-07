@@ -1,179 +1,379 @@
 # SOUND VOLTEX EXCEED GEAR
+<img src="/img/sdvx6/exceedgear.png">
 
-<img src="/img/sdvx6/eg.png">
+!!! info "Last updated: June 3rd, 2024"
 
-!!! note "Author Note:"
+!!! danger "Please make sure you downloaded your data from an appropriate source.<br>This guide is unable to troubleshoot any problems related to bad or poorly managed data."
 
-	Last updated: 09.02.2024 (Currently using `2023042500`)
-	
-	For hex edits: Go to the [Türksigara Patcher](https://p.eagate.turksigara.net/)
-
-	For Valkyrie Model specifics: they are found [here](valk.md)
-
-!!! danger "Warning"
-
-	Please make sure your data is from an appropriate source and unmodified before proceeding, this guide is unable to troubleshoot any problems related to bad or poorly managed data.
-
-	This guide will use [spice2x](https://spice2x.github.io/) which is a fork of SpiceTools that gets regular updates and will be needed to get the game running.
-
-	This guide will try to accommodate for both an Upgrade Kit and a whole file set.
-
-### Getting Started
+---
+### Preparing data
 
 !!! tip ""
 
-	Before we even touch the game, let's fiddle with our audio settings to minimize crashes on start up. In Windows, go to Playback Devices and then right click on your default device and go to Properties. From there, hit the Advanced tab and set your Default Format to 44100 Hz and check both of the options inside Exclusive Mode as pictured.
+	After downloading and extracting your data, we need to make sure your files aren't set to `Read-only`.
 
-<img src="/img/gen/441.png">
+	- Right click the folder containing your data, then click on `Properties`.
+	- In the `General` tab go down to `Attributes`, untick `Read-only` and click `Apply`.
+	- A popup will appear, select `Apply changes to this folder, subfolder and files` and press `OK`.
+	- Finally, click `OK` again to exit out of properties.
+
+	You should end up with a file structure with a few folders only, as follows.
+
+<img src="/img/sdvx6/setup/1_sdvxdata.png">
+
+??? warning "If your data doesn't look like this"
+
+	If you're missing the `modules` folder and instead have bunch of `.dll` files next to your folders:  
+
+	- Create a `modules` folder.
+	- Move all `.dll` files inside of it so you end up with a structure as shown above.
+
+	If extra files are present next to your folders, such as executables, scripts, etc.. **remove them**.  
+	**This also means your data was tampered with and we strongly recommend getting new data from somewhere else.**
+
+!!! info "If you don't need to update your data, you can skip over to the [Installing Spice2x](#installing-spice2x) section."
+
+---
+### Updating data
+
+??? danger "Please make sure you're using the right update for your current data."
+
+	SDVX Patches re-uploaded by the community tend to be appropriately named `KFC-DATECODE-to-DATECODE`.
+
+	For example `KFC-2024043000-to-2024052100`.
+
+	- `2024043000` being your current data's version.
+	- `2024052100` being the one you would arrive at.
 
 !!! tip ""
-	Once that's done, it's time to work on setting up your data.
 
-	After downloading your data, the first thing to do is make sure your files aren't set to READ ONLY, if that's the case, uncheck it from the main folder in the Windows Properties tab if so. Then, put your spice2x 64-bit tools inside the game's contents folder. Pictured below is what your folder should look like.
+	- Extract your patch's files to your existing data in a way that matches its file structure. Agree to overwrite files if necessary.
+	- Open `prop\ea3-config.yml` in a text editor and find the following lines near the top.
 
-<img src="/img/sdvx6/1.png">
-
-!!! tip ""
-	Why does this look different than the usual? This installation includes a `modules` folder that Spice automatically detects, keeping things clean and simple. If your version of the game doesn't have this, it probably has the `contents` folder populated with many different dll files such as the main `soundvoltex.dll`. Below is an example with the populated `contents` folder.
-
-<img src="/img/sdvx6/1a.png">
-
-!!! info "If you have gotten a complete data set, you are done and can head over to [Configuring for a Network](setup.md#configuring-for-a-network)"
-
-### Merging Current Data with New Data
-
-!!! tip ""
-	In this case, I'll be using `KFC-2021083100` as my old data and `KFC-2023042500` as my new data. Both can be replaced with what ever you have at hand or would like to update to. Just make sure that it is compatible with your current version, for example in my case, it's conveniently named `KFC-2021083100-to-KFC-2023042500`.
-
-!!! tip ""
-	Next, unpack the contents of the archive and drag & drop all files into your `contents` folder of `KFC-2021083100`. Make sure to confirm if it prompts you to replace files in the destination, this is normal. The folders in which files are getting replaced should look like this:
-
-<img src="/img/sdvx6/2.png">
-
-!!! tip ""
-	Lastly, head over to `\contents\prop` and open up `ea3-config.xml` with a text editor of your choice. I'll be using [Notepad++](https://notepad-plus-plus.org/) for that. In this example, I'll use `2023101800`.
-
-	Look for these lines which should be at the top:
+	```xml
+		<soft>
+			<model __type="str">KFC</model>
+			<dest __type="str">J</dest>
+			<spec __type="str">G</spec>
+			<rev __type="str">A</rev>
+			<ext __type="str">2024052100</ext>
+		</soft>
 	```
-    <soft>
-        <model __type="str">KFC</model>
-        <dest __type="str">J</dest>
-        <spec __type="str">F</spec>
-        <rev __type="str">A</rev>
-        <ext __type="str">2023042500</ext>
-    </soft>
-	```
-	If `<ext __type="str">2023042500</ext>` already has `2023042500` then you're good to go. If it has anything other than that, change it to `2023042500`.
-	This is the games datacode, basically telling the game what version it is on.
 
-!!! info "If you'd like to enable the Valkyrie Model mode, which is `off` by default or want to change the game language to English, head over to [Valkyrie Model](valk.md#setting-up-valkyrie-model-subscreen-120fps)"
+	On the line with `<ext __type="str">` the datecode needs to match your new version.
 
-### Configuring for a Network
+	- If that's already the case then great! Don't touch anything.
+	- If it instead corresponds to our pre-patch datecode, replace it with the new one and save the file.
 
-!!! danger "You can decide between the two, whether you want to play on an online network or use a local e-amuse emulator. ***Do not*** use both. Only choose one."
+---
+### Installing Spice2x
 
-??? tip "Online Network"
-	Now that you have your files ready, open up `spicecfg.exe` and head to the `Options` where we'll set our desired parameters.
+!!! tip ""
+
+	- Head over to [spice2x.github.io](https://spice2x.github.io) and download the latest release.
+	- Extract the `spice64.exe` and `spicecfg.exe` files from the archive to your game's directory.
+  
+	<img src="/img/sdvx6/setup/3_spicedata.png">
+
+??? warning "If you're using an AMD graphics card"
+
+	A few more files are required to make your game work with AMD as the game was built for NVIDIA.
+
+	- From the spice2x archive, extract the `.dll` files found in `spice2x\stubs\64\` to your data's `modules` folder.
+
+	<img src="/img/sdvx6/setup/3_dllamd.png">
+
+### Configuring Spice2x
+
+!!! info "Open `spicecfg.exe`, each following sub-section corresponds to a tab at the top."
+
+#### Buttons
+
+!!! tip ""
+
+	Click on `Bind` then press the key you want associated with the action.
+
+	With your controller and/or keyboard plugged in, configure your keys for:  
+
+	- **Maintenance:** `Service, Test`
+	- **Game buttons:** `BT-A, BT-B, BT-C, BT-D, FX-L, FX-R, Start`
+	- **P1 Keypad**: `Keypad 0 to 9, Keypad Insert Card` 
+
+	**Only if** you're playing using a keyboard:
+
+	- **Knobs:** `VOL-L Left, VOL-L Right, VOL-R Left, Vol-R Right`
+  
+#### Analogs (controller/cab only)
+
+!!! tip ""
+
+	With a controller rather than binding buttons to VOL-L and VOL-R, you need to:
+
+	- Click `Bind`.
+	- In `Device`, pick your controller.
+	- In `Control`, pick `X` for `VOL-L` or `Y` for `VOL-R`.
+	- Turn your knob ensuring that the Preview knob turns along with it.
+	- Click `Close`, leaving the rest of the settings alone.
+	- Repeat for your other knob.
+
+#### Overlay
+
+!!! tip ""
+
+	Modifying buttons in this section is not required but you are free to change what you want.
+
+	Click on `Bind` then press the key you want associated with the action.
+
+#### Lights (controller/cab only)
+
+!!! tip ""
+
+	Your controller might support having its lights controlled by the game through spice2x.
+
+	If it does, here's how you may link different actions to your lights:
+
+	- Click `Bind`.
+	- In `Device`, pick your controller.
+	- In `Light Control`, select the corresponding light.
+	- Click `Close`.
+	- Repeat for your other lights.
+
+#### Cards
+
+!!! info "Covered in the [Connecting to a network](#connecting-to-a-network) section."
+
+#### Patches
+
+!!! info "Go through the [Spice2x Patching](../../extras/patchsp2x.md) page to import patches."
+
+!!! danger "As a general rule of thumb, if you're not sure what a patch does or you're not absolutely certain you need it, leave it alone, regardless of recommendations below."
+
+??? tip "General patches"
+
+	| Patch 										| Recommendation 	| Description |
+	|-----------------------------------------------|----------------	|-------------|
+	| Disable power change 							| Either 		 	| Prevents the game from changing	 Windows power settings. |
+	| Disable monitor change 						| Either 		 	| Prevents the game from changing Windows monitor settings. |
+	| Force BIO2 (KFC) IO in Valkyrie mode 			| OFF 	 		 	|  |
+	| Shared mode WASAPI 							| Either 		 	| Runs the game in non-exclusive audio mode, allowing you to hear audio from other sources **at the cost of audio latency**. |
+	| Shared mode WASAPI Valkyrie 					| Either 		 	| Same as above for Valkyrie setups. |
+	| Allow non E004 cards 							| OFF 	   		 	| Makes the game accept cards that do not start with E004, you typically won't need this. |
+	| Unlock All Songs 								| OFF 	 		 	| **This might get you banned from remote servers.**<br> If using Asphyxia, **you should unlock Songs using the WebUI instead**. |
+	| Unlock All Difficulties						| OFF 	 		 	| **This might get you banned from remote servers.**<br> If using Asphyxia, **you should unlock Difficulties using the WebUI instead**. |
+	| Uncensor album jackets (for K region only) 	| OFF 	 			| Only consider turning this on if your game is set to Korean. The game is already "uncensored" otherwise. |
+	| Hide all bottom text							| Either 		 	| Hides text at the bottom of the screen such as `Credits` or `Paseli`. |
+	| Disable subscreen in Valkyrie mode			| Either		 	| Disables the subscreen entirely. Note that this option is also available in the Options tab (`-sdvxnosub`).
+	| Timer freeze									| Either		 	| Freezes the timer in all non-premium environments.
+	| Premium timer freeze							| Either		 	| Freezes the timer in premium environments.
+	| Premium Time Length							| Any			 	| Defines how long your premium time will be. If you've frozen premium time this is just vanity.
+	| Fake Japan Region								| Either			| Unlocks Japan exclusive content if your game is set to any other region/language.
+	| Valkyrie Mode 60hz							| OFF				| Allows 60hz monitor users to use Valkyrie-exclusive features. To be used in conjunction with the Force BIO2 patch and `G` spec in `ea3-config.yml`. 
+
+??? tip "If your monitor supports 120hz or more"
+
+	| Patch 										| Recommendation 			|
+	|-----------------------------------------------|---------------------------|
+	| Game FPS Target 								| 120 FPS **(NOT higher)** 	|
+	| Note FPS Target 								| 120 FPS **(NOT higher)** 	|
+	| Force Note FPS Target 						| ON					 	|
+  
+??? tip "If your monitor only supports 60hz"
+
+	| Patch 										| Recommendation 			|
+	|-----------------------------------------------|---------------------------|
+	| Game FPS Target 								| 60 FPS **(Default)** 		|
+	| Note FPS Target 								| 60 FPS **(Default)** 		|
+	| Force Note FPS Target 						| OFF					 	|
+
+#### API
+
+!!! warning "Leave everything at default unless you know what you're doing."
+
+#### Options
+
+!!! info "If you don't know what an option does, hover over the question mark at the very left."
+
+	<img src="/img/sdvx6/setup/4_opthover.png">
+
+!!! danger "Be very careful changing options you don't understand as it may cause issues."
+
+!!! tip "Required"
+
+	| Category 		| Option 				| Parameter 		| Setting |
+	|---------------|-----------------------|-------------------|---------|
+	| Game Options	| SDVX Disable Cameras 	| -sdvxdisablecams 	| ON	  |
+	| Network		| EA Service URL		| -url				| Covered in [Connecting to a network](#connecting-to-a-network) |
+
+!!! tip "Highly Recommended for NVIDIA users ONLY"
+
+	| Category 			| Option 							| Parameter 	| Setting |
+	|-------------------|-----------------------------------|---------------| 		  |
+	| Graphics (common)	| NVIDIA profile optimization	 	| -nvprofile 	| ON	  |
+
+
+#### Advanced & Development
+
+!!! warning "Leave everything at default unless you know what you're doing."
+
+---
+### Connecting to a network
+
+!!! danger "Please choose one of the two solutions, not both!"
+
+??? tip "Remote (Online Network)"
+
+	Open `spicecfg.exe` and head to the `Options` tab.
+  
+	In the `Network` category, set the following settings: 
 	
-	On the `Service URL: -url` parameter, we're going to input our chosen network URL like so: `http://yoururlhere.com/`
+	- `EA Service URL` to the URL provided by your network.
+	- `PCBID` to the PCBID provided by your network.
+	
+	<img src="/img/sdvx6/setup/5_network.png">
 
-	To go alongside this, we'll also be inputting into the `PCBID: -p` parameter, the PCBID given to us from our network, like so: `XXXXXXXXXXXXXXXXXXXX`
+	Next you need a card number.  
+	If you don't already have one, generate one in the `Cards` tab.  
+	To keep your card number safe, create a new `.txt` file with ONLY it inside.
 
-	Lastly, we'll click on the `Windowed Mode: -w` parameter.
+	Once that's done, head to the `Cards` tab, for `Player 1` click `Open...` and point to your text file.
 
-	What do these different parameters do?
+	<img src="/img/sdvx6/setup/5_cards.png">
 
-	- `-url` allows you to specify a custom service URL to connect with, simply replace `http://yoururlhere.com/` with your chosen network's URL.
-	- `-p` takes your PCBID on your network of choice, simply replace `XXXXXXXXXXXXXXXXXXXX` with your PCBID.
-	- `-w` will boot the game in windowed mode which will ease our initial setup and testing later, make sure to remove `-w` to run the game fullscreen once you're done setting up!
+??? tip "Local e-amuse Emulator (Asphyxia)"
 
-	Pictured below, the selected options inside the `Options` tab in `spicecfg.exe`.
+	This is covered in the [Asphyxia CORE](../../extras/asphyxia.md) page.
 
-	<img src="/img/sdvx6/cfg_on.png">
+---
+### Pre-launch requirements
 
-	One final note, since you're playing on a network, you will have one additional step of setting up your card file if you do not already have one.
-	For this, simply head to the `Cards` tab and press `Generate`.
+!!! info "These steps are required, otherwise your game won't run."
 
-	I highly recommend that you copy your `Card Number`, create a `.txt`, paste the `Card Number` and store the `.txt` file somewhere safe where you won't lose it. It doesn't matter what you name it. **For the purpose of this guide, I've chosen the root of my `D:\` drive for easy access and called the text file `guidecard.txt`.**
+#### VCRedist & DirectX
 
-	Next, click on the three dots (`...`) next to `Card Path` and locate your card text file. If you have done everything correctly, it should look like this:
+!!! tip ""	
 
-	<img src="/img/sdvx6/card.png">
+	- Download and install the latest [VCRedist](https://github.com/abbodi1406/vcredist/releases/latest) (`VisualCppRedist_AIO_x86_x64.exe`)
+	- Download and install the [DirectX End-User Runtimes](https://www.microsoft.com/en-us/download/details.aspx?id=8109)
 
-??? tip "e-amuse Emulator (Asphyxia CORE)"
-	We've written a guide on how to setup ```Asphyxia CORE``` [which you can access here.](/extras/asphyxia)
-
-	When you're done setting up ```Asphyxia CORE``` come back here and continue with the guide.
-
-### Audio & Keybinds
-
-!!! note "This guide will utilize ```WASAPI Shared``` because it is the easiest to set up in most cases. There are more methods to use which you can read about [here.](/extras/audio/) The next best method we recommend is using ```FlexASIO```. You can read more about it on what it does and how to set it up [here.](/extras/streamaudio/#option-4-flexasio)"
+#### Audio
 
 !!! tip ""
-	Before we go over the keybinds, I'd like to mention that Sound Voltex Exceed Gear by default, uses `WASAPI`. This has (from my experience) the highest chance of working.
 
-	If you're having issues, feel free to join our [Discord server](https://discord.gg/yAtdhvee79) and ask away in the troubleshooting section as this could be something very specific. Keep in mind that if you're using `WASAPI`, SDVX will go into WASAPI exclusive mode which means that only SDVX will output it's audio and nothing else [(this can be changed with a hex edit if you'd like).](problems.md#when-i-run-this-game-all-other-background-audio-is-gone-whats-going-on)
+	- Open `spicecfg.exe`.
+	- At the very top, click on `Shortcuts` then `Audio Playback Devices`.
+	- In the popup window, right click on your default audio device, and click on `Properties`.
+	- Go to the `Advanced` tab.
+	- Check both boxes under `Exclusive Mode`.
+	- Open the `Default Format` dropdown.
+	- Pick the `24 bit, 44100 Hz (CD Quality)` option and click `Apply` then `OK`. `24 bit, 48000 Hz` is also acceptable as spice2x will handle it.
 
-!!! tip ""
-	The last steps you'll have to do is simply setting up your desired keybinds inside the `Buttons` and `Analogs` tabs. If you'd like an example, I've shown my keybindings below on a Keyboard. Make sure you setup the `Test` keybind as it will be critical for setting up the game. 
+	<img src="/img/sdvx6/setup/6_audio.png">
 
-<img src="/img/sdvx6/sdvx_bind.png">
-
-### Disabling Cameras
-
-!!! tip ""
-	Go back to the `Options` tab and make sure to enable `SDVX Disable Cameras` or else you will encounter an error (or potentially a crash) and you will be unable to proceed otherwise.
-
-<img src="/img/sdvx6/sdvx_disable_cam.png">
-
-### Setting up the game
+#### Monitor orientation
 
 !!! tip ""
-	It's important to note before booting the game that Sound Voltex uses portrait mode and attempting to boot the game fullscreen in most landscape environments will result in a crash. To alleviate this, we must set our *main* monitor to portrait mode and be ready to rotate it. To do so, right click on your desktop and go into `Display Settings`, then simply set the orientation to `Portrait` as pictured.
 
-<img src="/img/sdvx6/port_mode.png">
+	Before each play session, you will have to make sure your monitor is in `Portrait` or `Portrait (flipped)` mode.
 
-!!! tip ""
-	In the event that you do not have the means to run the game in portrait mode and cannot rotate your monitor, it is recommended you boot the game in windowed mode.
+	To do so:
 
-!!! tip ""
-	Finally we're ready to start the game. Go ahead and start `spice64.exe`.
+	- Right click on your desktop.
+	- Click `Display Options`.
+	- Look for `Display orientation` and set it to `Portrait` or `Portrait (flipped)`.
+ 
+	<img src="/img/sdvx6/setup/6_orientation.png">
 
-	To not clutter everything with a lot of blackscreens, I've cut the images to only show what is important.
+	- Rotate your monitor vertically.
+  
+#### Valkyrie / Nemsys / Language settings
 
-	If it's your first time running the game, you'll immediately be greeted with this screen.
+!!! info "Read through the [Extra Information](extras.md) page and edit your `prop\ea3-config.yml` file if necessary."
 
-<img src="/img/sdvx6/3.png">
+---
+### First launch
 
-!!! tip ""
-	Hit the `Test` keybinding to start calibrating your analogs. You'll be instructed by the game on where to navigate inside the menu.
-
-<img src="/img/sdvx6/4.png">
-
-!!! tip ""
-	Select `I/O CHECK` and hit your `Start` button.
-
-<img src="/img/sdvx6/5.png">
+!!! danger "If you have any issues running the game, refer to the [Troubleshooting](troubleshooting.md) page."
 
 !!! tip ""
-	Navigate to `CALIBRATION SETTINGS` with your designated A and B buttons and hit `Start`
 
-<img src="/img/sdvx6/6.png">
+	If you've followed all instructions correctly, you're now finally ready to launch the game!
 
-!!! tip ""
-	In here, you're instructed to turn your left knob **3 whole rotations to the *left.*** If you're on keyboard simply hold your `VOL-L Left` button.
+	**First plug your controller if you have one** and run `spice64.exe`, press `Yes` when it asks for elevated privileges.
 
-<img src="/img/sdvx6/7.png">
+	The game will go through a series of checks, let it run, if you've done everything properly they'll pass.
 
-!!! tip ""
-	When you have done that, the `COUNT = X` (X being the value at which the knob stopped) should turn to `COUNT = OK`. Press your `Start` button.
+#### Calibration
 
-	Now repeat the same steps but with your right knob. Once you're finished, select `SAVE AND EXIT`.
+<img src="/img/sdvx6/calibration/1.png">
 
 !!! tip ""
-	You're all done! From the service menu select `GAME MODE` and the game should load ready to be played! Have fun!
 
-!!! warning "Have any other errors?"
-	Check out the [Common Problems/Tips](problems.md) section and [Error Code](/errorcodes/) section to resolve any issues not seen in this guide to greater depth.
+	If you're seeing this screen, it means you need to calibrate your knobs.
 
-	Valkyrie Model specifics can be found: [here](valk.md)
+	Press your `Test` key. The game will instruct you where to navigate inside the menu.
+
+	- Press `BT-A` to go up.
+	- Press `BT-B` to go down.
+	- Press `Start` to select.
+  
+	Select `I/O CHECK` and press `Start`.
+
+<img src="/img/sdvx6/calibration/2.png">
+
+!!! tip ""
+
+	Select `CALIBRATION SETTINGS` and press `Start`.
+
+<img src="/img/sdvx6/calibration/3.png">
+<img src="/img/sdvx6/calibration/4.png">
+
+!!! tip ""
+
+	Select `CALIBRATION` and press `Start`.
+
+	First, your left knob (`VOL-L` for keyboard players)
+
+    1. **Slowly turn** your **LEFT knob counterclockwise** (`VOL-L Left`) until the first line says `COUNT = OK`.
+	2. Press `Start`.
+	3. **Slowly turn** your **LEFT knob clockwise** (`VOL-L Right`) until the first line says `COUNT = OK`.
+	4. Press `Start`.
+
+	Now same thing but for the right knob (`VOL-R` for keyboard players)
+
+    5. **Slowly turn** your **RIGHT knob counterclockwise** (`VOL-R Left`) until the first line says `COUNT = OK`.
+	6. Press `Start`.
+	7. **Slowly turn** your **RIGHT knob clockwise** (`VOL-R Right`) until the first line says `COUNT = OK`.
+	8. Press `Start`.
+	
+<img src="/img/sdvx6/calibration/5.png">
+
+!!! tip ""
+	
+	Select `SAVE AND EXIT` and press `Start`.
+
+<img src="/img/sdvx6/calibration/6.png">
+
+!!! tip ""
+
+	Select `GAME MODE` and press `Start`.
+	
+	You're all done! The game should load up properly now.
+
+---
+### Carding in
+
+!!! tip "" 
+
+	Once the game is done loading, you need to card in.
+
+	- Press your `Keypad Insert Card` button.
+	- Enter your code using your keypad binds.
+
+---
+### Troubleshooting
+
+!!! warning "Have any other issue?"
+
+	Check out the [Troubleshooting](troubleshooting.md) and [Error Codes](../../errorcodes.md) pages.
+
+	For any more game-specific information, check out [Extra Information](extras.md).

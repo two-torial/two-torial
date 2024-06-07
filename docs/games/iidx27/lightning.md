@@ -5,7 +5,7 @@
 ### Notes
 
 !!! tip ""
-	Booting the game in Lightning Mode requires a few things. To start off with, you will need to enable the `-iidxtdj` option in SpiceTools and you will also need to enable the `Enable Lightning Mode` hex edit inside of SpiceTools and SpiceCompanion's patches tab.
+	Booting the game in Lightning Mode requires a few things. To start off with, you will need to enable the `-iidxtdj` option in SpiceTools and you will also need to enable the `Enable Lightning Mode` patch.
 
 	In doing so, and subsequently every time you choose to switch between the two modes, you will want to delete everything inside your `dev/nvram` folder, and redo the setup process again with initializing the backup date, setting the clock, shop name, and the definition type.
 

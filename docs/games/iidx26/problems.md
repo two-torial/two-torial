@@ -34,7 +34,7 @@
 !!! tip ""
 	The game released with two USB cameras and naturally it's looking for them, if you do not have two cameras plugged into your computer then the game outputs this error, which can be ignored simply by hitting `Test` or waiting 60 seconds for it to be auto-dismissed.
 
-	But if you're tired of this message every time you start up the game, the `CAMERA DEVICE ERROR` message can be removed via a hex edit, check out the [Hex Edits](hexedits.md) section for an easy drag and drop solution.
+	But if you're tired of this message every time you start up the game, the `CAMERA DEVICE ERROR` message can be removed via a patch.
 
 ### Occasional Game Stutters During Play
 
@@ -54,7 +54,7 @@
 ### A Note About SSE 4.2
 
 !!! tip ""
-	In the rare case you are running this game on *very* old hardware, IIDX 26 requires a processor supporting the [SSE 4.2 instruction set](https://en.wikipedia.org/wiki/SSE4#SSE4.2). But, in the event your processor does not have this, there is a [hex edit](hexedits.md) available to bypass this.
+	In the rare case you are running this game on *very* old hardware, IIDX 26 requires a processor supporting the [SSE 4.2 instruction set](https://en.wikipedia.org/wiki/SSE4#SSE4.2). But, in the event your processor does not have this, there is a patch available to bypass this.
 
 ### When I Run This Game All Other Background Audio Is Gone! What's Going On?
 

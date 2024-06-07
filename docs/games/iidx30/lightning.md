@@ -5,7 +5,7 @@
 ### Setting up TDJ (Subscreen & 120FPS)
 
 !!! tip ""
-	To mitigate any errors during the process, we'll use a `Bypasss Lightning Monitor Error` hex edit.
+	To mitigate any errors during the process, we'll use a `Bypasss Lightning Monitor Error` patch.
 	First, locate your `bm2dx.dll` which is located inside the `\modules` folder and make a backup of it in case something goes wrong. Next, head over to [mon's Bemani Patcher](https://mon.im/bemanipatcher/resident.html) and drag & drop your `bm2dx.dll` into the website.
 
 	At the top, you'll see `Bypasss Lightning Monitor Error`. Enable it and press `Save Patched File`. Replace the file inside of `\modules`.

@@ -18,13 +18,13 @@ There are advantages and disadvantages to each of the methods, so read carefully
  - Disadvantages: may add significant audio latency to your game, depending on the game and your hardware, to a point where it becomes unplayable.
 
 !!! tip "Sound Voltex"
-	- Enable "Shared mode WASAPI" hex edit.
+	- Enable `Shared mode WASAPI` patch.
 	- If you run into any issues, change the audio playback device to output at 44.1khz and 16 bit.
 
 !!! tip "IIDX"
 	- For TDJ mode, ensure that the sound output device is set to WASAPI.
 		- In SpiceTools, set -iidxsounddevice to wasapi.
-	- Enable "Force shared audio" hex edit.
+	- Enable `Force shared audio` patch.
 	- If you run into any issues, change the audio playback device to output at 44.1khz and 16 bit.
 
 - That's really all there is. If you use OBS or Discord to capture the game, you will not have any issues recording audio with this configuration.
@@ -90,12 +90,12 @@ FlexASIO is a virtual ASIO service that can redirect output to various backends,
 	Try to lower bufferSizeSamples for minimal latency - recommended value is 128. If you hear audio crackling, increase bufferSizeSamples.
 
 !!! tip "Sound Voltex"
-	- Disable "Shared mode WASAPI" hex edit. You want the game to output in exclusive mode for lower overall latency.
+	- Disable `Shared mode WASAPI` patch. You want the game to output in exclusive mode for lower overall latency.
 
 !!! tip "IIDX"
 	- For TDJ mode, ensure that the sound output device is set to WASAPI.
 		- In SpiceTools, set -iidxsounddevice to wasapi.
-	- Disable "Force shared audio" hex edit. You want the game to output in exclusive mode for lower overall latency.
+	- Disable `Force shared audio` patch. You want the game to output in exclusive mode for lower overall latency.
 
 !!! tip "SpiceTools set up to use ASIO"
 	1. Under the options tab, make sure that ```IIDX Sound Output Device``` is set to default.
@@ -132,10 +132,10 @@ Voicemeeter is free virtual audio mixer for Windows. It allows you to "mux" audi
 	- Configure the output device to Voicemeeter AUX Input.
 
 !!! tip "Sound Voltex"
-	- Disable "Shared mode WASAPI" hex edit. You want the game to output in exclusive mode for lower overall latency.
+	- Disable `Shared mode WASAPI` patch. You want the game to output in exclusive mode for lower overall latency.
 
 !!! tip "IIDX"
-	- Disable "Force shared audio" hex edit. You want the game to output in exclusive mode for lower overall latency.
+	- Disable `Force shared audio` patch. You want the game to output in exclusive mode for lower overall latency.
 	- For TDJ mode, ensure that the sound output device is set to WASAPI.
 		- In SpiceTools, set -iidxsounddevice to wasapi.
 	- (Optionally, you can output the game audio using SpiceTools -audiobackend asio and outputting to Voicemeeter ASIO instead of doing it over WASAPI, but probably provides negligible benefit to latency)
@@ -144,10 +144,10 @@ At this point, you may want to look up various tutorials on YouTube to learn the
 
 !!! tip "Muxing with Voicemeeter"
 	1. Launch the game.
-	1. In Voicemeeter, you'll notice that the VU meter under Voicemeeter VAIO is showing that it is receiving game audio. You'll want to ensure "A1" box is green so that you route the game audio to your main output device, so you can hear the game in your ears.
+	2. In Voicemeeter, you'll notice that the VU meter under Voicemeeter VAIO is showing that it is receiving game audio. You'll want to ensure "A1" box is green so that you route the game audio to your main output device, so you can hear the game in your ears.
 		- <img src="/img/voicemeeter/vumeter.png">
-	1. (Similarly, audio from the voice chat would come through Voicemeeter AUX column.)
-	1. At this point, you are able to hear both the game & listen to voice chat - success!
+	3. (Similarly, audio from the voice chat would come through Voicemeeter AUX column.)
+	4. At this point, you are able to hear both the game & listen to voice chat - success!
 
 !!! tip "Capturing audio in OBS with Voicemeeter"
 	1. Now, how do you capture this audio for recording? The basic idea is to route game audio to Voicemeeter's virtual output device, and capturing that output device in OBS.

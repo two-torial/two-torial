@@ -31,15 +31,12 @@ nav:
                 - 'IIDX 24 SINOBUZ':
                     - 'First Time Setup': 'games/iidx24/setup.md'
                     - 'Common Problems/Tips': 'games/iidx24/problems.md'
-                    - 'Hex Edits': 'games/iidx24/hexedits.md'
                 - 'IIDX 25 CANNON BALLERS':
                     - 'First Time Setup': 'games/iidx25/setup.md'
                     - 'Common Problems/Tips': 'games/iidx25/problems.md'
-                    - 'Hex Edits': 'games/iidx25/hexedits.md'
                 - 'IIDX 26 Rootage':
                     - 'First Time Setup': 'games/iidx26/setup.md'
                     - 'Common Problems/Tips': 'games/iidx26/problems.md'
-                    - 'Hex Edits': 'games/iidx26/hexedits.md'
                 - 'IIDX 27 HEROIC VERSE':
                     - 'First Time Setup': 'games/iidx27/setup.md'
                     - 'Common Problems/Tips': 'games/iidx27/problems.md'
@@ -49,31 +46,27 @@ nav:
                     - 'Common Problems/Tips': 'games/iidx30/problems.md'
                     - 'Lightning Mode (TDJ)': 'games/iidx30/lightning.md'
                 - 'IIDX 31 EPOLIS':
-                    - 'First Time Setup': 'games/iidx31/setup.md'
-                    - 'Common Problems/Tips': 'games/iidx31/problems.md'
-                    - 'Lightning Mode (TDJ)': 'games/iidx31/lightning.md'
+                    - 'Game Setup': 'games/iidx31/setup.md'
+                    - 'Extra Information': 'games/iidx31/extras.md'
+                    - 'Troubleshooting': 'games/iidx31/troubleshooting.md'
             - 'SDVX':
                 - 'SDVX IV HEAVENLY HAVEN':
                     - 'First Time Setup': 'games/sdvx4/setup.md'
                     - 'Common Problems/Tips': 'games/sdvx4/problems.md'
-                    - 'Hex Edits': 'games/sdvx4/hexedits.md'
                 - 'SDVX VIVID WAVE':
                     - 'First Time Setup': 'games/sdvx5/setup.md'
                     - 'Common Problems/Tips': 'games/sdvx5/problems.md'
-                    - 'Hex Edits': 'games/sdvx5/hexedits.md'
                 - 'SDVX EXCEED GEAR':
-                    - 'First Time Setup': 'games/sdvx6/setup.md'
-                    - 'Common Problems/Tips': 'games/sdvx6/problems.md'
-                    - 'Valkyrie Model': 'games/sdvx6/valk.md'
+                    - 'Game Setup': 'games/sdvx6/setup.md'
+                    - 'Extra Information': 'games/sdvx6/extras.md'
+                    - 'Troubleshooting': 'games/sdvx6/troubleshooting.md'
             - 'Pop&apos;n':
                 - 'Pop&apos;n Usaneko':
                     - 'First Time Setup': 'games/popnusaneko/setup.md'
                     - 'Common Problems/Tips': 'games/popnusaneko/problems.md'
-                    - 'Hex Edits': 'games/popnusaneko/hexedits.md'
                 - 'Pop&apos;n Peace':
                     - 'First Time Setup': 'games/popnpeace/setup.md'
                     - 'Common Problems/Tips': 'games/popnpeace/problems.md'
-                    - 'Hex Edits': 'games/popnpeace/hexedits.md'
                 - 'HELLO Pop&apos;n':
                     - 'First Time Setup': 'games/hellopopn/setup.md'
                     - 'Common Problems/Tips': 'games/hellopopn/problems.md'
@@ -81,43 +74,34 @@ nav:
                 - 'DDR Ace':
                     - 'First Time Setup': 'games/ddrace/setup.md'
                     - 'Common Problems/Tips': 'games/ddrace/problems.md'
-                    - 'Hex Edits': 'games/ddrace/hexedits.md'
             - 'Jubeat':
                 - 'Jubeat Clan':
                     - 'First Time Setup': 'games/jubeatclan/setup.md'
                     - 'Common Problems/Tips': 'games/jubeatclan/problems.md'
-                    - 'Hex Edits': 'games/jubeatclan/hexedits.md'
             - 'GITADORA':
                 - 'GITADORA Matixx':
                     - 'First Time Setup': 'games/gitamatixx/setup.md'
                     - 'Common Problems/Tips': 'games/gitamatixx/problems.md'
-                    - 'Hex Edits': 'games/gitamatixx/hexedits.md'
                 - 'GITADORA EXCHAIN':
                     - 'First Time Setup': 'games/exchain/setup.md'
                     - 'Common Problems/Tips': 'games/exchain/problems.md'
-                    - 'Hex Edits': 'games/exchain/hexedits.md'
             - 'Reflec Beat':
                 - 'Reflec Beat: Reflesia':
                     - 'First Time Setup': 'games/reflesia/setup.md'
                     - 'Common Problems/Tips': 'games/reflesia/problems.md'
-                    - 'Hex Edits': 'games/reflesia/hexedits.md'
             - 'NOSTALGIA':
                 - 'Nostalgia FORTE':
                     - 'First Time Setup': 'games/nostforte/setup.md'
                     - 'Common Problems/Tips': 'games/nostforte/problems.md'
-                    - 'Hex Edits': 'games/nostforte/hexedits.md'
                 - 'Nostalgia Op.2':
                     - 'First Time Setup': 'games/nostop2/setup.md'
                     - 'Common Problems/Tips': 'games/nostop2/problems.md'
-                    - 'Hex Edits': 'games/nostop2/hexedits.md'
             - 'BeatStream アニムトライヴ':
                 - 'First Time Setup': 'games/beatstreamfinal/setup.md'
                 - 'Common Problems/Tips': 'games/beatstreamfinal/problems.md'
-                - 'Hex Edits': 'games/beatstreamfinal/hexedits.md'
             - 'MÚSECA 1+1/2':
                 - 'First Time Setup': 'games/musecafinal/setup.md'
                 - 'Common Problems/Tips': 'games/musecafinal/problems.md'
-                - 'Hex Edits': 'games/musecafinal/hexedits.md'
         - SEGA:
             - 'CHUNITHM':
                 - 'SUN PLUS':
@@ -133,19 +117,18 @@ nav:
                     - 'Networks': 'games/taikonijiiro/networks.md'
                     - 'Common Problems/Tips': 'games/taikonijiiro/problems.md'
     - Error Codes: errorcodes.md
+    - Game Patching:
+        - 'Spice2x Patching': 'extras/patchsp2x.md'
+        - 'Website Patching': 'extras/patchweb.md'
+        - 'Manual Hex Editing': 'extras/hexguide.md'
     - Extras:
-        - 'How to use Patcher Websites': 'extras/patchweb.md'
-        - 'Beginner Guide to Hex Editing': 'extras/hexguide.md'
         - 'How to setup Asphyxia CORE': 'extras/asphyxia.md'
         - 'Notes on the Most Common ASCs and Vendors': 'extras/ascs.md'
         - 'Arcade Parts List and Documentation': 'extras/parts.md'
-        - 'SpiceTools Usage, Parameters, and Functionality': 'extras/spiceguide.md'
-        - 'SpiceTools Error Messages': 'extras/spiceerrors.md'
         - 'List of Touchscreen Monitors and their Polling Rates': 'extras/pollingrates.md'
         - 'What is WASAPI and ASIO?': 'extras/audio.md'
         - 'Exclusive Audio Workarounds': 'extras/streamaudio.md'
     - External Resources: externalresources.md
-    - About & Credits: about.md
 
 theme:
     name: material

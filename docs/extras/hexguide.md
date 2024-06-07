@@ -1,52 +1,89 @@
-# Beginner's Guide to Hex Editing
+# Manual DLL Hex Editing
 
-!!! warning "Before reading:"
-	This section is for users that have never hex edited their game before, if you already know how to do this, nothing here will be of any use to you.
+!!! info "Last updated: June 4th, 2024"
 
+!!! danger "Before proceeding"
 
-### Before Beginning
+	**This guide should ONLY be used as a last resort if all other methods fail.**  
+	**It has a high chance of breaking your game, make backups.**
+
+---
+### Preamble
 
 !!! tip ""
-	There's several ways to apply hex edits to games, for the sake of this guide we'll demonstrate the manual way of doing edits to games in the event that the sites/services that simplify the process ever go down.
 
-	We'll be using HxD to edit beatmania IIDX 25 CANNON BALLERS, the process is the same for any other game so this guide can work universally.
+	We're going to patch Beatmania IIDX 25 CANNON BALLERS, however the process is similar for other BEMANI games.
 
 	Here's what you'll need:
 
-	- Your favorite hex editor, such as [HxD](https://mh-nexus.de/en/hxd/).
+	- Your favorite hex editor, here we'll be using [HxD](https://mh-nexus.de/en/hxd/).
 	- A clean copy of your desired BEMANI game.
-	- A backup of your original `.dll` before editing in the event of any mistakes.
+	- A backup of your original `.dll` before editing.
 
+---
 ### Getting Started
 
 !!! tip ""
-	So after downloading HxD or your preferred editor and deciding on what hex edits you want to apply, it's time to load it up for the first time. If you're using HxD, you'll be greeted with the screen below.
+
+	Decide on what hex edits you want to apply, you may find that information from the community or external resources.
+	
+	It's time to open our hex editor. If you're using HxD, you'll be greeted with the screen below.
 
 <img src="/img/hexguide/1.png">
 
 !!! tip ""
-	Open up the appropriate `.dll` file inside HxD that you wish to edit, for the grand majority of hex edits, this is the main game file, such as `bm2dx.dll`, `soundvoltex.dll`, and so on. Pictured below, I've opened up `bm2dx.dll` inside of HxD.
+
+	Open your game's `.dll` file in the hex editor.
+	
+	For the grand majority of hex edits, this is the main game file, such as `bm2dx.dll`, `soundvoltex.dll`, etc..
+	
+	Pictured below, we've opened up `bm2dx.dll` inside HxD.
 
 <img src="/img/hexguide/2.png">
 
-!!! warning "Please note:"
-	For demonstrative purposes, we're going to apply 1 edit to the game. The edit we'll be applying is EXCLUSIVE to this version of the game, meaning that it will not work on any other version of the game, nor any other games, because it's modifying specific addresses in memory that only apply to this specific version of the game.
+!!! danger "Attention"
+
+	The edit we'll be applying is **EXCLUSIVE to this version of the game** and serves as an example.
+	
+	This means it will not work on any other version of the game, nor any other game!  
+	Hex edits modify specific memory addresses that only apply to very specific game versions.
 
 !!! tip ""
-	The edit we've chosen to apply is `Unlock All Songs` and its edit is `0xB60B2: 74 10 -> 90 90` so to start in HxD we're going to hit `Ctrl+G` to open the `Goto` window. From here, we'll input the offset `B60B2` inside the `Offset` section, as pictured, and hit OK.
+
+	We'll be editing our game to `Unlock All Songs` and its edit is:
+	
+	- **Offset**: `0xB60B2`
+	- **Original**: `74 10`
+	- **Modified**: `90 90`
+	
+	In HxD we're going to hit `Ctrl+G` to open the `Goto` window. 
+	
+	From here, we'll input the offset `B60B2` in the `Offset` section as shown below, and hit `OK`.
 
 <img src="/img/hexguide/3.png">
 
 !!! tip ""
-	Your cursor should be taken to the offset at the exact location you're ready to edit. As you can see, the numbers in front of you are `74` and `10` the same exact ones we need to replace! If they're not, it's likely you put in the wrong offset so be sure to double check.
+
+	Our cursor should be taken to the offset at the exact location you want to edit.
+	
+	As you can see, the numbers in front of the cursor are `74` and `10` which corresponds to what we need to replace.
+	
+	**If there's a mismatch, it's likely the offset you've put in was wrong, so be sure to double check!**
 
 <img src="/img/hexguide/4.png">
 
 !!! tip ""
-	From here, all we need to do is mouse over `74 10` and replace it with `90 90` you can do this by either manually typing `90 90` or by copy and pasting, it should look as it does below.
+
+	Now all we need to do is select `74 10` and replace it with `90 90`.
+
+	You can do this by either manually typing `90 90` or by copy and pasting.
+	
+	It should now look as shown below.
 
 <img src="/img/hexguide/5.png">
 
 !!! tip ""
-	Once that's done, all you need to do is save the changes and repeat for every additional edit you want to do! The whole process is merely repeating by going to whichever offsets an edit requires and replacing the values in each location just as we did! Simple, right?
-	
+
+	Lastly, simply save your file and repeat these steps for any other edits you want to apply!
+
+	If at any point your game has issues due to your edits, restore your backup.

@@ -3,10 +3,7 @@
 <img src="/img/iidx27/hv.png">
 
 !!! note "Author Note:"
-
-	For hex edits: Use the Patches tab in SpiceTools or SpiceCompanion.
-
-	For lightning mode specifics: they are found [here](lightning.md)
+	Lightning mode specifics: they are found [here](lightning.md)
 
 !!! danger "Warning:"
 	Please make sure your data is from an appropriate source and unmodified before proceeding, this guide is unable to troubleshoot any problems related to bad or poorly managed data.
@@ -137,6 +134,6 @@
 	You're all done! From the service menu select `GAME MODE` and the game should load ready to be played! Have fun!
 
 !!! warning "Have any other errors?"
-	Check out the [Common Problems/Tips](problems.md) section and [Error Code](/errorcodes/) section to resolve any issues not seen in this guide to greater depth.
+	Check out the [Common Problems/Tips](problems.md) section and [Error Code](../../errorcodes.md) section to resolve any issues not seen in this guide to greater depth.
 
 	Lightning Mode specifics can be found: [here](lightning.md#lightning-specific-troubleshooting)

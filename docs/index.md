@@ -1,43 +1,45 @@
 ---
-description: A compendium of information and guides written to ease headaches.
+description: A compendium of information and guides about arcade games. By the community, for the community.
 ---
 
 #
 
 <figure markdown>
-![Banner](img/logo/banner.png)
+![Banner](./img/logo/banner.png)
+A compendium of information and guides about arcade games.  
+By the community, for the community.
+
+[Join our Discord server!](https://discord.gg/cZRUmEPK78){ .md-button }
 </figure>
-<figure markdown>
-[We now have a Discord server!](https://discord.gg/cZRUmEPK78){ .md-button }
-</figure>
-
-A compendium of information and guides written to ease headaches.
-
-Last Updated: May 12th, 2024.
-
-Changelogs will posted on the Discord in detail.
-
-We also have a troubleshooting section available on the Discord server.
-&nbsp;
-
-!!! danger "Important"
-    This site is by no means all-encompassing, I place emphasis on the need to engage in these guides with clean data from a trusted source.
-
-    Please treat these games with some degree of respect and don't tamper with things if you don't know what you're doing, if you can do that, these guides will probably be of use to you. If not, I imagine you're beyond the help of the pages within, good luck.
-
-### What do I need to know before starting?
 
 !!! tip ""
-    Before beginning with any of the guides on this site, please make sure your game files are from a clean and trusted source, also make sure you are using the latest version of whichever tools you have chosen, the guides on this website at the time of writing are using [SpiceTools](/extras/spiceguide/) ***with the exception of IIDX from 9th style up to Lincle which use Bemanitools.*** This will be stated on each individual game itself aswell.
 
-### First time working with data?
+    *Changelogs are posted on our Discord.  
+    There also is troubleshooting section available there if you need direct help!*
 
-!!! tip ""
-    Check out the `First Time Setup` section of your respective game if you've never worked with BEMANI games before or if it's just been a while.
+!!! warning "This site is by no means all-encompassing"
 
-### Need help with error codes?
+    **We're only a group of volunteers aiming to bring you the most up-to-date information.**  
 
-!!! tip ""
-    Check out the [Error Codes](/errorcodes/) section for a list of the majority of error codes you may come across.
+    But we're only humans, we make mistakes, and therefore:
 
-&nbsp;
+    - Please **use a certain degree of caution** while manipulating your game files and **make backups**.
+    - Don't tamper with things if you don't know what you're doing.
+
+    If you can do that, these guides will probably be of use to you.  
+    If not, **don't tell us we didn't warn you!**
+
+!!! info "How to use the site?"
+
+    On the left side is a navigation bar containing every guide:
+
+    - **Games** category for game-specific guides on how to setup data, troubleshoot issues, etc..
+    - **Error Codes** for a listing of known errors and what to do about them.
+    - **Game Patching** category for ways to patch/modify your game.
+    - **Extras** for anything that doesn't fit in the above categories.
+    - **External Resources** for links to external sites such as patchers, and generally useful links.
+
+!!! info "Do you want to help us out?"
+
+    Please check out our GitHub Repo by clicking the link at the top of right of the page.  
+    Information on how to contribute is available there.

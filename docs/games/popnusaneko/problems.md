@@ -34,13 +34,13 @@ Pop&apos;n Usaneko Common Problems/Tips
 ### Other Crashes
 
 !!! tip ""
-	This game requires an E: drive to be named by the computer. If you do not have one, make sure to apply the `E: Drive fix` [hex edit](hexedits.md)
+	This game requires an E: drive to be named by the computer. If you do not have one, make sure to apply the `E: Drive fix` patch.
 
-	It may also fail to boot regardless of this, such as in the case of using HDMI audio. Even if you're not using HDMI audio however, some failures to boot have been noted. For safety, make sure to also apply the `HDMI Audio Fix` [hex edit](hexedits.md) unless you're using the latest SpiceTools which fixes this issue.
+	It may also fail to boot regardless of this, such as in the case of using HDMI audio. Even if you're not using HDMI audio however, some failures to boot have been noted. For safety, make sure to also apply the `HDMI Audio Fix` patch unless you're using the latest SpiceTools which fixes this issue.
 
 ### How to Unlock Songs
 
 !!! tip ""
-	Without an appropriate hex edit available, the game is missing song unlocks. To resolve this, I've provided an unlocked DLL with BOTH the HDMI audio fix and E: drive fix already applied. You can download it [here](/files/usaneko-unlock.zip)
+	Without an appropriate patch, the game is missing song unlocks. To resolve this, I've provided an unlocked DLL with BOTH the HDMI audio fix and E: drive fix already applied. You can download from the Discord server [here.](https://discord.gg/cZRUmEPK78)
 
 	Simply replace it with your existing one inside the `contents` folder of your game installation. When asked to replace, hit yes.

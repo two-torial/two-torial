@@ -5,8 +5,6 @@
 	Nonetheless, dozens, if not hundreds are currently missing. This list is a massive work in progress and will be updated with time.
 
 	Furthermore, not every solution listed can be the definitive solution to your error, sometimes various odd software and hardware nuances occur to create yet unseen issues. 
-	I encourage you to be vocal about your solutions so that they can be added to the guide by [contacting me.](/about/#contact)
-
 
 ## Universal Error Codes
 
@@ -77,7 +75,7 @@
 ### 5-1503-0042
 
 !!! tip "CAMERA DEVICE ERROR"
-	This error occurs when camera devices are missing/not functional. To resolve either have two cameras connected to your machine or apply a [hex edit](/extras/hexguide/) for your game's specific version and date code to simply not have this error occur on startup. It can be bypassed by hitting the `Test` button so it is not a critical error.
+	This error occurs when camera devices are missing/not functional. To resolve either have two cameras connected to your machine or apply a patch for your game's specific version and date code to simply not have this error occur on startup. It can be bypassed by hitting the `Test` button so it is not a critical error.
 
 ### 5-1506-0001
 
@@ -107,7 +105,7 @@
 ### 5-2002-2400
 
 !!! tip ""
-	This error was seen on Pop&apos;n Usaneko due to improper setup and bad parameter usage in SpiceTools, make sure to follow [the first time setup](/games/popnusaneko/setup/) and utilize the `-url` and `-p` parameters in SpiceTools 
+	This error was seen on Pop&apos;n Usaneko due to improper setup and bad parameter usage in SpiceTools, make sure to follow [the first time setup](./games/popnusaneko/setup.md) and utilize the `-url` and `-p` parameters in SpiceTools 
 	so that you're not needlessly risking making mistakes in modifying the game's files. 
 
 &nbsp;
@@ -116,7 +114,7 @@
 ### 5-2500-0000
 
 !!! tip "BACKUP DATA ERROR"
-	Follow the steps listed [here](/games/jubeatclan/setup/#final-steps-and-setting-up-the-game)
+	Follow the steps listed [here](./games/jubeatclan/setup.md#final-steps-and-setting-up-the-game)
 
 &nbsp;
 ## GITADORA Error Codes
@@ -157,7 +155,7 @@
 ### 5-2500-0001
 
 !!! tip "BACKUP DATA ERROR"
-	Follow the steps listed [here](/games/gitamatixx/setup/#final-steps-and-setting-up-the-game)
+	Follow the steps listed [here](./games/gitamatixx/setup.md#final-steps-and-setting-up-the-game)
 
 ### 5-2501-0000
 

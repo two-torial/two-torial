@@ -72,7 +72,7 @@
 	
 <img src="/img/iidx10/6.png">
 
-!!! info "If you'd like to play offline, you can head straight to [Setting up the games resolution](setup.md#setting-up-the-games-resolution)"
+!!! info "If you'd like to play offline, you can head straight to [Setting up the games resolution](#setting-up-the-games-resolution-locking-fps-and-fixing-stretched-videos)"
 
 ### Configuring Bemanitools for an Online Network
 
@@ -117,7 +117,7 @@
 	
 	Replace `eamuse.pcbid=XXXXXXXXXXXXXXXXXXXX` **and** `eamuse.eamid=XXXXXXXXXXXXXXXXXXXX` with your PCBID of your network of choice.
 
-### Setting up the games resolution, locking FPS & fix stretched videos
+### Setting up the game's resolution, locking FPS and fixing stretched videos
 
 !!! tip ""
 	Before we begin, we'd like to mention that you have two options when it comes to how the game renders. You can choose between `Linear` and `Point`.
@@ -217,7 +217,7 @@
 
 <img src="/img/iidx11/8.png">
 
-!!! info "If you'd like to play offline, you can head straight to [Final Notes](setup.md#final-notes)"
+!!! info "If you'd like to play offline, you can head straight to [Final Notes](#final-notes)"
 
 ### Enabling e-AMUSEMENT for Online Play
 
