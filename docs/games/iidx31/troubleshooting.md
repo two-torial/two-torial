@@ -1,5 +1,5 @@
 # beatmania IIDX 31 EPOLIS
-<img src="/img/iidx31/epolis.png">
+<img src="/img/iidx30-31/epolis.png">
 
 !!! info "Last updated: June 5th, 2024"
 

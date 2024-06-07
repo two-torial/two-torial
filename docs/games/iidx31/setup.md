@@ -1,5 +1,5 @@
 # beatmania IIDX 31 EPOLIS
-<img src="/img/iidx31/epolis.png">
+<img src="/img/iidx30-31/epolis.png">
 
 !!! info "Last updated: June 5th, 2024"
 
@@ -44,7 +44,7 @@
 
 	You should end up with a file structure with a few folders only, as follows.
 
-<img src="/img/iidx31/setup/2_iidxdata.png">
+<img src="/img/iidx30-31/setup/2_iidxdata.png">
 
 ??? warning "If your data doesn't look like this"
 
@@ -112,7 +112,7 @@
 	- Head over to [spice2x.github.io](https://spice2x.github.io) and download the latest release.
 	- Extract the `spice64.exe` and `spicecfg.exe` files from the archive to your game's directory.
   
-	<img src="/img/iidx31/setup/4_spicedata.png">
+	<img src="/img/iidx30-31/setup/4_spicedata.png">
 
 ### Configuring Spice2x
 
@@ -205,7 +205,7 @@
 
 !!! info "If you don't know what an option does, hover over the question mark at the very left."
 
-	<img src="/img/iidx31/setup/5_opthover.png">
+	<img src="/img/iidx30-31/setup/5_opthover.png">
 
 !!! danger "Be very careful changing options you don't understand as it may cause issues."
 
@@ -254,7 +254,7 @@
 	- `EA Service URL` to the URL provided by your network.
 	- `PCBID` to the PCBID provided by your network.
 	
-	<img src="/img/iidx31/setup/6_network.png">
+	<img src="/img/iidx30-31/setup/6_network.png">
 
 	Next you need a card number.  
 	If you don't already have one, generate one in the `Cards` tab.  
@@ -262,7 +262,7 @@
 
 	Once that's done, head to the `Cards` tab, for `Player 1` click `Open...` and point to your text file.
 
-	<img src="/img/iidx31/setup/6_cards.png">
+	<img src="/img/iidx30-31/setup/6_cards.png">
 
 ??? tip "Local e-amuse Emulator (Asphyxia)"
 
@@ -292,7 +292,7 @@
 	- Open the `Default Format` dropdown.
 	- Pick the `24 bit, 44100 Hz (CD Quality)` option and click `Apply` then `OK`. `24 bit, 48000 Hz` is also acceptable as spice2x will handle it.
 
-	<img src="/img/iidx31/setup/7_audio.png">
+	<img src="/img/iidx30-31/setup/7_audio.png">
 
 #### Standard / Lightning / Language settings
 
@@ -313,7 +313,7 @@
 
 	If it's your first time running the game, you'll immediately be greeted with this screen.
 
-<img src="/img/iidx31/firstlaunch/1.png">
+<img src="/img/iidx30-31/firstlaunch/1.png">
 
 #### CLOCK ERROR
 
@@ -323,13 +323,13 @@
 
 	Next, you'll get another error.
 
-<img src="/img/iidx31/firstlaunch/2.png">
+<img src="/img/iidx30-31/firstlaunch/2.png">
 
 !!! tip ""
 
 	Let the game run for a bit until the monitor check is complete and you should be taken to the service menu.
 
-<img src="/img/iidx31/firstlaunch/3.png">
+<img src="/img/iidx30-31/firstlaunch/3.png">
 
 !!! tip ""
 
@@ -340,7 +340,7 @@
   
 	Start by going up to `CLOCK`.
 
-<img src="/img/iidx31/firstlaunch/4.png">
+<img src="/img/iidx30-31/firstlaunch/4.png">
 
 !!! tip ""
 
@@ -354,8 +354,8 @@
 
 	Go to `NETWORK OPTIONS` then `SHOP NAME SETTING`.
 
-<img src="/img/iidx31/firstlaunch/5.png">
-<img src="/img/iidx31/firstlaunch/6.png">
+<img src="/img/iidx30-31/firstlaunch/5.png">
+<img src="/img/iidx30-31/firstlaunch/6.png">
 
 !!! tip ""
 
@@ -365,8 +365,8 @@
 	- Go to `EXIT` then `SAVE AND EXIT`.
 
 
-<img src="/img/iidx31/firstlaunch/7.png">
-<img src="/img/iidx31/firstlaunch/3.png">
+<img src="/img/iidx30-31/firstlaunch/7.png">
+<img src="/img/iidx30-31/firstlaunch/3.png">
 
 !!! tip ""
 
