@@ -39,6 +39,23 @@
 !!! danger "Warning:"
     If you use an analog input for the drums you may need to enable `analog_input =` in `config.toml`.
 
+!!! danger "Warning:"
+    If you using 2 controllers use [JoyToKey](https://joytokey.net/en/) and remove SDL inputs from `keyconfig.toml`.
+
+***
+
+## Card Reader
+
+!!! tip ""
+    The setup for aic pico and acr122u are different.                                                        
+    In `config.toml` set `[card_reader]` to `true`.               
+    
+    If you are using an aic pico update to the latest [firmware](https://github.com/whowechina/aic_pico).                                           
+    Inside `AMFWConfig.ini` change com4 to the port of your aic pico                  
+    
+    If you are using an acr122u or similar.                                                                    
+    Use AkaiiKitsune's [tal-cardreader plugin](https://gitea.farewell.dev/AkaiiKitsune/tal-cardreader)
+
 ***
 
 ## Arcade Drums and other Controllers
