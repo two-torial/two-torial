@@ -152,4 +152,4 @@ markdown_extensions:
     - md_in_html
 
 plugins:
-  - material/search
+  - search
