@@ -1,7 +1,7 @@
-# beatmania IIDX 31 EPOLIS
-<img src="/img/iidx30-31/epolis.png">
+# beatmania IIDX 30 RESIDENT
+<img src="/img/iidx30-31/resident.png">
 
-!!! info "Last updated: June 5th, 2024"
+!!! info "Last updated: June 7th, 2024"
 
 !!! danger "Please make sure you downloaded your data from an appropriate source.<br>This guide is unable to troubleshoot any problems related to bad or poorly managed data."
 
@@ -31,7 +31,6 @@
 
 	If you're getting too many `Fast`, increase your offset `(+)`.   
 	If you're getting too many `Slow`, decrease your offset `(-)`.
-
 
 ---
 ### My inputs aren't working / I can't get past error messages!
