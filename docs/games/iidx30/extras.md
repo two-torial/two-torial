@@ -1,48 +1,12 @@
-# beatmania IIDX 31 EPOLIS
-<img src="/img/iidx30-31/epolis.png">
+# beatmania IIDX 30 RESIDENT
+<img src="/img/iidx30-31/resident.png">
 
-!!! info "Last updated: June 5th, 2024"
+!!! info "Last updated: June 7th, 2024"
 
 !!! danger "Please make sure you downloaded your data from an appropriate source.<br>This guide is unable to troubleshoot any problems related to bad or poorly managed data."
-
----
-### Standard & Lightning modes
-
-!!! warning "Lightning mode requires a 120hz capable monitor."
-
-!!! tip ""
-
-	To make use of the Lightning Mode, which unlocks the subscreen and 120FPS, we need to go to the `contents\prop` folder and edit the `ea3-config.xml` file.
-
-    We're interested in these lines:
-
-	```xml
-		<soft>
-			<model __type="str">LDJ</model>
-			<dest __type="str">J</dest>
-			<spec __type="str">E</spec>
-			<rev __type="str">A</rev>
-			<ext __type="str">2024050700</ext>
-		</soft>
-	```
-
-    This is the line that determines if the game will run in Standard (60 FPS) or Lightning (120 FPS) mode.
-
-    ```xml
-	<spec __type="str">E</spec>
-    ```
-
-    Use ^^`A`^^ for Standard, or ^^`E`^^ for Lightning.    
     
 ---
-### Changing the game's language
-
-!!! tip ""
-
-    This is done in-game before card-in by pressing your `EFFECT` key.
-
----
-### More about ea3-config.xml
+### About ea3-config.xml
 
 !!! tip ""
 

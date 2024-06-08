@@ -42,9 +42,9 @@ nav:
                     - 'Common Problems/Tips': 'games/iidx27/problems.md'
                     - 'Lightning Mode Specifics': 'games/iidx27/lightning.md'
                 - 'IIDX 30 RESIDENT':
-                    - 'First Time Setup': 'games/iidx30/setup.md'
-                    - 'Common Problems/Tips': 'games/iidx30/problems.md'
-                    - 'Lightning Mode (TDJ)': 'games/iidx30/lightning.md'
+                    - 'Game Setup': 'games/iidx30/setup.md'
+                    - 'Extra Information': 'games/iidx30/extras.md'
+                    - 'Troubleshooting': 'games/iidx30/troubleshooting.md'
                 - 'IIDX 31 EPOLIS':
                     - 'Game Setup': 'games/iidx31/setup.md'
                     - 'Extra Information': 'games/iidx31/extras.md'
@@ -159,4 +159,4 @@ markdown_extensions:
     - md_in_html
 
 plugins:
-  - material/search
+  - search
