@@ -85,7 +85,15 @@
 
 <img src="/img/taikonijiiro/scale.png">
 
+### My controller is dropping inputs/I can't hit good drumrolls
+
+!!! tip ""
+    This a common issue on some controllers.
+
+    In `config.toml` increase `wait_period =` by 1 then test in game and repeat untill feels correct.
+
 ### Best settings for Nvidia GPUs
+
 !!! tip ""
     This will help with latency and other issues
     
@@ -96,6 +104,7 @@
     Vertical sync `Fast`                                                  
 
 ### Audio
+
 !!! tip ""
     By default the game will use wasapi shared
     
