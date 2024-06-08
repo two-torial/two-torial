@@ -112,10 +112,8 @@ nav:
       - NAMCO:
           - "Taiko no Tatsujin":
               - "Nijiiro":
-                  - "First Time Setup": "games/taikonijiiro/setup.md"
-                  - "Controllers": "games/taikonijiiro/controllers.md"
-                  - "Networks": "games/taikonijiiro/networks.md"
-                  - "Common Problems/Tips": "games/taikonijiiro/problems.md"
+                  - "Game Setup": "games/taikonijiiro/setup.md"
+                  - "Troubleshooting": "games/taikonijiiro/troubleshooting.md"
   - Error Codes: errorcodes.md
   - Game Patching:
       - "Spice2x Patching": "extras/patchsp2x.md"
