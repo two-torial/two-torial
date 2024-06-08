@@ -85,7 +85,7 @@
 
     You can card in by pressing ++p++ by default.
 
-    <img src="/img/taikonijiiro/troubleshooting/game.png">
+    <img src="/img/taikonijiiro/troubleshooting/game.jpg">
 
 ---
 ### My game is still too big/small after setting the resolution in `config.toml`
