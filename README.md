@@ -4,14 +4,14 @@
 
 #
 
-TWO-TORIAL, a compendium of information and guides written to ease headaches for general use. It also serves as a comprehensive resource, providing a structured approach to setting up rhythm games from specific franchises. This guide aims to offer clear instructions, troubleshooting tips, and essential information for enthusiasts and newcomers alike.
+TWO-TORIAL, a compendium of information and guides about arcade games. It also serves as a comprehensive resource, providing a structured approach to setting up arcade games from specific franchises. This guide aims to offer clear instructions, troubleshooting tips, and essential information for enthusiasts and newcomers alike.
 
 https://two-torial.xyz/
 
 
 
 ## About
-This repository houses a guide dedicated to assisting individuals in configuring and navigating the setup process for various rhythm games within this specific gaming genre. It covers essential aspects of installation, configuration, and troubleshooting, aiming to streamline the experience for users.
+This repository houses a guide dedicated to assisting individuals in configuring and navigating the setup process for various arcade games within this specific gaming genre. It covers essential aspects of installation, configuration, and troubleshooting, aiming to streamline the experience for users.
 
 
 ## Contributing
