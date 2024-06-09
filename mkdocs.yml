@@ -124,7 +124,7 @@ nav:
       - "Notes on the Most Common ASCs and Vendors": "extras/ascs.md"
       - "Arcade Parts List and Documentation": "extras/parts.md"
       - "List of Touchscreen Monitors and their Polling Rates": "extras/pollingrates.md"
-      - "What is WASAPI and ASIO?": "extras/audio.md"
+      - "What is WASAPI & ASIO?": "extras/audio.md"
       - "Exclusive Audio Workarounds": "extras/streamaudio.md"
   - External Resources: externalresources.md
 
