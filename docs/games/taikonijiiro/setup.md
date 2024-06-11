@@ -78,6 +78,17 @@
 	unlock_songs = true
 	```
 
+!!! tip "The `[keyboard]` section contains keyboard related config"
+
+	- `auto_ime =` if set to true, changes your keyboard layout to Qwerty until the game is closed.
+	- `jp_layout =` should be set to `true` for **actual** japanese keyboards.
+
+	```toml
+	[keyboard]
+	auto_ime = false
+	jp_layout = false
+	```
+
 ### Configuring Inputs
 
 !!! tip ""
@@ -93,8 +104,6 @@
 	- ++enter++ to add coins
 
 	If you wish to view or change all the default keybinds, you can do so in `keyconfig.toml.`
-	
-	!!! danger "When you are using a Japanese keyboard layout, set both `jp_layout = false` and `auto_ime = false` to `true` inside `config.toml`."
 
 ??? tip "Controller"
 
