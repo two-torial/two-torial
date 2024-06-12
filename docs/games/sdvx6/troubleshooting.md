@@ -49,6 +49,13 @@
 	Many navigators are locked behind network requirements and they will not show unless connected to a network that has written support for the events they're typically locked behind.
 
 ---
+### My game audio is super quiet!
+
+!!! tip ""
+
+	Press your `Test` key to enter its menu, go to `SOUND OPTIONS` and change the volume from `20` to `30`.
+
+---
 ### When I run the game all other audio is gone!
 
 !!! tip ""
