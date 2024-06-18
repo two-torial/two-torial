@@ -196,6 +196,7 @@
 	| Increase Game Volume							| Either			| Ignores in-game settings and keeps the volume at a maximum, helpful for `TDJ` which tends to be quiet. |
 	| Hide all bottom text							| Either 		 	| Hides text at the bottom of the screen such as `Credits` or `Paseli`. |
 	| Force LDJ Mode								| OFF				| Starts the game in LDJ (012) mode when using a TDJ (010) `.dll` file. **Please just use the proper `.dll` file instead of forcing the other mode.** |
+	| Force Audio Output Mode						| WASAPI			| Forces the game to output the game using a specific method (WASAPI/ASIO). **This can potentially fix desync or crashing issues in recent updates.** |
 
 #### API
 
