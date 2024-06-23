@@ -225,9 +225,9 @@
 
 	**If you only have a single 120hz monitor**, and not another 60hz touchscreen:
 
-	| Category 		| Option 				| Parameter 						| Setting |
-	|---------------|-----------------------|-----------------------------------|---------|
-	| Game Options	| IIDX TDJ Mode		 	| -graphics-force-single-adapter 	| ON	  |
+	| Category			| Option 						| Parameter 						| Setting |
+	|-------------------|-------------------------------|-----------------------------------|---------|
+	| Graphics (common)	| Only Use One Monitor		 	| -graphics-force-single-adapter 	| ON	  |
 
 
 !!! tip "Highly Recommended for NVIDIA users ONLY"

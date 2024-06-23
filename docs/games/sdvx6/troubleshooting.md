@@ -29,8 +29,8 @@
 
 	Play through a chart you're comfortable with.
 
-	If you're getting too many `Late`, increase your offset `(+)`.  
-	If you're getting too many `Early`, decrease your offset `(-)`.  
+	If you're getting too many `Late`, decrease your offset `(-)`.  
+	If you're getting too many `Early`, increase your offset `(+)`.  
 
 	Sound Voltex Exceed Gear has two types of offset adjustments, visual and audio based, so be sure to fiddle with both to find desirable settings.
 
