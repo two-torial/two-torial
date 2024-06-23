@@ -1,6 +1,6 @@
 # Spice2x DLL Patching
 
-!!! info "Last updated: June 18th, 2024<br>Known spice2x patchers: [External resources](../externalresources.md#spice2x-patchers)"
+!!! info "Last updated: June 18th, 2024<br>Known spice2x patchers: [Resources](../resources.md#spice2x-patchers)"
 
 !!! warning "Compatibility"
 
@@ -42,7 +42,7 @@
 	- Click on `Import from URL`.	
 	- Paste your preferred patcher's URL.  
 
-	**Note**: Check the [External resources](../externalresources.md) page for a list of recommended patchers.
+	**Note**: Check the [Resources](../resources.md) page for a list of recommended patchers.
 
 	- Click on `Import`.  
 	

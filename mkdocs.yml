@@ -126,7 +126,7 @@ nav:
       - "List of Touchscreen Monitors and their Polling Rates": "extras/pollingrates.md"
       - "What is WASAPI & ASIO?": "extras/audio.md"
       - "Exclusive Audio Workarounds": "extras/streamaudio.md"
-  - External Resources: externalresources.md
+  - Other Resources: resources.md
 
 theme:
   name: material
