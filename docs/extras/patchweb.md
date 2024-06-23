@@ -1,6 +1,6 @@
 # Website DLL Patching
 
-!!! info "Last updated: June 4th, 2024<br>Known web patchers: [External resources](../externalresources.md#web-patchers)"
+!!! info "Last updated: June 4th, 2024<br>Known web patchers: [Resources](../resources.md#web-patchers)"
 
 !!! warning "For BEMANI games consider [Spice2x Patching](patchsp2x.md)"
 
@@ -23,7 +23,7 @@
 	We'll be using mon's [BemaniPatcher](https://mon.im/bemanipatcher).  
 	Almost every other patcher is based off of this and functions exactly the same.   
 
-	**If your game is recent, please check [External resources](../externalresources.md#web-patchers) and use another web patcher.**
+	**If your game is recent, please check [Resources](../resources.md#web-patchers) and use another web patcher.**
 
 	Go to your chosen patcher's website, you'll get something similar to this:
 

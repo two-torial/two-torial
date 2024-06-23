@@ -37,7 +37,7 @@ By the community, for the community.
     - **Error Codes** for a listing of known errors and what to do about them.
     - **Game Patching** category for ways to patch/modify your game.
     - **Extras** for anything that doesn't fit in the above categories.
-    - **External Resources** for links to external sites such as patchers, and generally useful links.
+    - **Other Resources** for links to useful sites such as patchers, external guides, etc..
 
 !!! info "Do you want to help us out?"
 
