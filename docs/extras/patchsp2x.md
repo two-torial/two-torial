@@ -6,8 +6,7 @@
 
 	This patching method only is for [spice2x supported games](https://github.com/spice2x/spice2x.github.io/wiki/List-of-supported-games).
 
-	Please make sure you're using the latest release for [spice2x](https://spice2x.github.io/).  
-	**Note: As of writing, you need to use the latest beta release as the feature has not yet been pushed to stable.**
+	**Please make sure you're using the latest release for [spice2x](https://spice2x.github.io/) as the feature is fairly new.**
 
 !!! danger "Before proceeding"
 
