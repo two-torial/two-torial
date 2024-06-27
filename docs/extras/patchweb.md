@@ -47,7 +47,7 @@
 	If you've used the correct file and the site is compatible, it will tell you.
 
 	`X of X patches matched (100%)` means the patcher is compatible with your game.  
-	**If this shows any less than 100%, DO NOT use it, find another patcher.**
+	**If this shows any less than 100%, DO NOT use it. Your `.dll` file might not be clean. Only proceed with a clean one.**
 
 	**Please keep in mind that some patchers may not support the most recent versions of your game right away.**
 
