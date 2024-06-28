@@ -1,6 +1,6 @@
 # Spice2x DLL Patching
 
-!!! info "Last updated: June 18th, 2024<br>Known spice2x patchers: [Resources](../resources.md#spice2x-patchers)"
+!!! info "Last updated: June 28th, 2024<br>Known spice2x patchers: [Resources](../resources.md#spice2x-patchers)"
 
 !!! warning "Compatibility"
 
