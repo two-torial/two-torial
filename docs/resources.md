@@ -10,7 +10,6 @@
 
 	- **TWO-TORIAL** - `https://sp2x.two-torial.xyz/` - **Our very own [open-source](https://github.com/two-torial/sp2xpatcher) patcher. Help us make it better!**
 	- **DJTrackers** - `https://djtrackers.com/bemanipatcher/2x` - **Recommended**
-	- **Turksigara** - `https://p.eagate.turksigara.net/resources` - **Not being updated right now**
 	- **Girlsband** - `https://static.girlsband.party/spice2x` **Only for IIDX Epolis, in Chinese**
 
 ---
