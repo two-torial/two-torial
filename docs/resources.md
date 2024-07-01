@@ -6,7 +6,7 @@
 
 ---
 ### Spice2x Patchers
-!!! tip "Given that the feature is new, only a couple of patchers support it but the following are the ones we can vouch for."
+!!! tip "See [Spice2x Patching](./extras/patchsp2x.md)."
 
 	- **TWO-TORIAL** - `https://sp2x.two-torial.xyz/` - **Our [open-source](https://github.com/two-torial/sp2xpatcher) patcher. Help us make it better!**
 	- **DJTrackers** - `https://djtrackers.com/bemanipatcher/2x` - **Recommended for anything we don't yet support**
@@ -14,10 +14,10 @@
 ---
 ### Web Patchers
 
-!!! tip "There are more patch websites than listed here but these are the ones we recommend and can vouch for.<br> You can always use other patchers if you want."
+!!! tip "See [Web Patching](./extras/patchweb.md)."
 
-	- [Scribblers Chunithm Only Patcher](https://scrib-bler.github.io/patcher/) - Has every version of **Chunithm** available
 	- [Mon's BemaniPatcher](https://mon.im/bemanipatcher/) - Supports a variety of **old games**
+	- [Scribblers Chunithm Only Patcher](https://scrib-bler.github.io/patcher/) - Has every version of **Chunithm** available
 
 ---
 ### General
