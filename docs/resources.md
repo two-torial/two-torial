@@ -1,6 +1,6 @@
 # Other Resources
 
-!!! info "Last updated: June 23rd, 2024"
+!!! info "Last updated: July 1st, 2024"
 
 	This section contains a variety of resources.
 
@@ -8,20 +8,16 @@
 ### Spice2x Patchers
 !!! tip "Given that the feature is new, only a couple of patchers support it but the following are the ones we can vouch for."
 
-	- **TWO-TORIAL** - `https://sp2x.two-torial.xyz/` - **Our very own [open-source](https://github.com/two-torial/sp2xpatcher) patcher. Help us make it better!**
-	- **DJTrackers** - `https://djtrackers.com/bemanipatcher/2x` - **Recommended**
-	- **Girlsband** - `https://static.girlsband.party/spice2x` **Only for IIDX Epolis, in Chinese**
+	- **TWO-TORIAL** - `https://sp2x.two-torial.xyz/` - **Our [open-source](https://github.com/two-torial/sp2xpatcher) patcher. Help us make it better!**
+	- **DJTrackers** - `https://djtrackers.com/bemanipatcher/2x` - **Recommended for anything we don't yet support**
 
 ---
 ### Web Patchers
 
 !!! tip "There are more patch websites than listed here but these are the ones we recommend and can vouch for.<br> You can always use other patchers if you want."
 
-	- [DJTrackers (IIDX 31 Epolis)](https://djtrackers.com/bemanipatcher/iidx31.html)
-	- [DJTrackers (SDVX 6 Exceed Gear)](https://djtrackers.com/bemanipatcher/sdvx6.html)
 	- [Scribblers Chunithm Only Patcher](https://scrib-bler.github.io/patcher/) - Has every version of **Chunithm** available
 	- [Mon's BemaniPatcher](https://mon.im/bemanipatcher/) - Supports a variety of **old games**
-	- [Girlsband](https://static.girlsband.party/patcher/iidx31/) - Chinese patcher for IIDX 31 Epolis
 
 ---
 ### General
