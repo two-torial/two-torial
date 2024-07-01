@@ -8,7 +8,7 @@
 ### Spice2x Patchers
 !!! tip "See [Spice2x Patching](./extras/patchsp2x.md)."
 
-	- **TWO-TORIAL** - `https://sp2x.two-torial.xyz/` - **Our [open-source](https://github.com/two-torial/sp2xpatcher) patcher. Help us make it better!**
+	- **TWO-TORIAL** - `https://sp2x.two-torial.xyz/` - **Our [open-source](https://github.com/two-torial/sp2xpatcher) patcher for Spice2x compatible games.**
 	- **DJTrackers** - `https://djtrackers.com/bemanipatcher/2x` - **Recommended for anything we don't yet support**
 
 ---
@@ -16,8 +16,9 @@
 
 !!! tip "See [Web Patching](./extras/patchweb.md)."
 
-	- [Mon's BemaniPatcher](https://mon.im/bemanipatcher/) - Supports a variety of **old games**
-	- [Scribblers Chunithm Only Patcher](https://scrib-bler.github.io/patcher/) - Has every version of **Chunithm** available
+	- [TWO-TORIAL](https://patcher.two-torial.xyz/) - **Our [open-source](https://github.com/two-torial/webpatcher) web patcher** *(based on mon's)* **for games incompatible with Spice2x.**
+	- [mon's](https://mon.im/bemanipatcher/) - Supports a variety of **old games**
+	- [Scribblers Chuni Only Patcher](https://scrib-bler.github.io/patcher/) - Has every version of **Chunithm** available
 
 ---
 ### General
