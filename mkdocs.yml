@@ -117,7 +117,7 @@ nav:
   - Error Codes: errorcodes.md
   - Game Patching:
       - "Spice2x Patching": "extras/patchsp2x.md"
-      - "Website Patching": "extras/patchweb.md"
+      - "Web Patching": "extras/patchweb.md"
       - "Manual Hex Editing": "extras/hexguide.md"
   - Extras:
       - "How to setup Asphyxia CORE": "extras/asphyxia.md"
