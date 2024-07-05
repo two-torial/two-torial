@@ -12,8 +12,6 @@ By the community, for the community.
 [Join our Discord server!](https://discord.gg/cZRUmEPK78){ .md-button }
 </figure>
 
-!!! danger "TEST"
-
 !!! tip ""
 
     *Changelogs are posted on our Discord.  
