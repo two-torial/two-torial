@@ -8,7 +8,7 @@
 !!! danger "Warning:"
 	Please make sure your data is from an appropriate source and unmodified before proceeding, this guide is unable to troubleshoot any problems related to bad or poorly managed data.
 	
-	If you encounter any issues or errors regarding this guide or come across issues that aren't listed, feel free to open up a [GitHub Issue!](https://github.com/yxrei/two-torial/issues)
+	If you encounter any issues or errors regarding this guide or come across issues that aren't listed, feel free to open up a [GitHub Issue!](https://github.com/two-torial/two-torial/issues)
 
 
 ### Getting Started

@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/yxrei/two-torial/blob/master/docs/img/logo/github-banner.png?raw=true">
+  <img src="https://github.com/two-torial/two-torial/blob/master/docs/img/logo/github-banner.png?raw=true">
 </p>
 
 #
