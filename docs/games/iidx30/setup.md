@@ -379,6 +379,6 @@
 
 !!! warning "Have any other issue?"
 
-	Check out the [Troubleshooting](troubleshooting.md) and [Error Codes](../../errorcodes.md) pages.
+	Check out the [Troubleshooting](troubleshooting.md) and [Error Codes](../../errorcodes/bemani.md) pages.
 
 	For any more game-specific information, check out [Extra Information](extras.md).

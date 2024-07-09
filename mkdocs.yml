@@ -114,7 +114,9 @@ nav:
               - "Nijiiro":
                   - "Game Setup": "games/taikonijiiro/setup.md"
                   - "Troubleshooting": "games/taikonijiiro/troubleshooting.md"
-  - Error Codes: errorcodes.md
+  - Error Codes:
+    - BEMANI: "errorcodes/bemani.md"
+    - SEGA: "errorcodes/sega.md"
   - Game Patching:
       - "Spice2x Patching": "extras/patchsp2x.md"
       - "Web Patching": "extras/patchweb.md"
@@ -157,6 +159,8 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
+  features:
+    - content.code.annotate
 
 markdown_extensions:
   - admonition

@@ -215,4 +215,4 @@
 	Local Network options will be covered in the [Networks](networks.md) section.
 
 !!! warning "Have any other errors?"
-	Check out the [Common Problems/Tips](problems.md) section.
+	Check out the [Common Problems/Tips](problems.md) and [Error Codes](../../errorcodes/sega.md) section.
