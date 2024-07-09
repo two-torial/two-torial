@@ -11,7 +11,7 @@
 !!! tip ""
 
     Could be due to **many** things. The most common of which is you need to patch the DLL for your game with `Force Audio Output Mode` set to `WASAPI` or `ASIO`.
-	Also see the audio section in the [setup guide](setup.md).
+	Also see the audio section in the [setup guide](setup.md#audio).
 
 ---
 ### My game is running too slow/fast / Game gets stuck / Monitor error at boot / Error 5-1503-0043
