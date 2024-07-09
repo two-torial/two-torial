@@ -68,4 +68,4 @@
 	You're all done! If you have a touchscreen monitor make sure it's plugged in, it should work automatically, if it doesn't check out the advertised `Common Problems/Tips` section at the link below.
 
 !!! warning "Have any other errors?"
-	Check out the [Common Problems/Tips](problems.md) section and [Error Code](../../errorcodes.md) section to resolve any issues not seen in this guide to greater depth.
+	Check out the [Common Problems/Tips](problems.md) section and [Error Code](../../errorcodes/bemani.md) section to resolve any issues not seen in this guide to greater depth.
