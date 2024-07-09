@@ -64,7 +64,7 @@
 !!! tip ""
 
 	- Extract your patch's files to your existing data in a way that matches its file structure. Agree to overwrite files if necessary.
-	- Open `prop\ea3-config.yml` in a text editor and find the following lines near the top.
+	- Open `prop\ea3-config.xml` in a text editor and find the following lines near the top.
 
 	```xml
 		<soft>
@@ -275,7 +275,7 @@
 
 #### Standard / Lightning / Language settings
 
-!!! info "Read through the [Extra Information](extras.md) page and edit your `prop\ea3-config.yml` file if necessary."
+!!! info "Read through the [Extra Information](extras.md) page and edit your `prop\ea3-config.xml` file if necessary."
 
 ---
 ### First launch

@@ -48,7 +48,7 @@
 !!! tip ""
 
 	- Extract your patch's files to your existing data in a way that matches its file structure. Agree to overwrite files if necessary.
-	- Open `prop\ea3-config.yml` in a text editor and find the following lines near the top.
+	- Open `prop\ea3-config.xml` in a text editor and find the following lines near the top.
 
 	```xml
 		<soft>
@@ -167,7 +167,7 @@
 	| Premium timer freeze							| Either		 	| Freezes the timer in premium environments.
 	| Premium Time Length							| Any			 	| Defines how long your premium time will be. If you've frozen premium time this is just vanity.
 	| Fake Japan Region								| Either			| Unlocks Japan exclusive content if your game is set to any other region/language.
-	| Valkyrie Mode 60hz							| OFF				| Allows 60hz monitor users to use Valkyrie-exclusive features. To be used in conjunction with the Force BIO2 patch and `G` spec in `ea3-config.yml`. 
+	| Valkyrie Mode 60hz							| OFF				| Allows 60hz monitor users to use Valkyrie-exclusive features. To be used in conjunction with the Force BIO2 patch and `G` spec in `ea3-config.xml`. 
 
 ??? tip "If your monitor supports 120hz or more"
 
@@ -287,7 +287,7 @@
   
 #### Valkyrie / Nemsys / Language settings
 
-!!! info "Read through the [Extra Information](extras.md) page and edit your `prop\ea3-config.yml` file if necessary."
+!!! info "Read through the [Extra Information](extras.md) page and edit your `prop\ea3-config.xml` file if necessary."
 
 ---
 ### First launch
