@@ -1,26 +1,45 @@
 # beatmania IIDX 31 EPOLIS
 <img src="/img/iidx30-31/epolis.png">
 
-!!! info "Last updated: June 5th, 2024"
+!!! info "Last updated: July 9th, 2024"
 
 !!! danger "Please make sure you downloaded your data from an appropriate source.<br>This guide is unable to troubleshoot any problems related to bad or poorly managed data."
 
 ---
-### I'm having performance issues!
+### My game crashes on launch!
+
+!!! tip ""
+
+    Could be due to **many** things. The most common of which is you need to patch the DLL for your game with `Force Audio Output Mode` set to `WASAPI` or `ASIO`.
+	Also see the audio section in the [setup guide](setup.md).
+
+---
+### My game is running too slow/fast / Game gets stuck / Monitor error at boot / Error 5-1503-0043
+
+!!! tip ""
+
+	Potential causes:
+
+	1. The game could be running over/under its required refresh rate (60 for LDJ, 120 for TDJ)  
+	To solve this, make sure v-sync isn't disabled in your graphics card's settings.
+	For NVIDIA users, enable `NVIDIA profile optimization (-nvprofile)` in the `Options` tab. 
+	2. It could be that your computer's performance isn't good enough to keep a steady framerate.
+	
+---
+### I'm having performance issues / my FPS fluctates!
 
 !!! tip ""
 
     If you're having performance issues of some kind, spice2x's [PC optimization](https://github.com/spice2x/spice2x.github.io/wiki/PC-optimization) guide is worth looking at.
+	If none of that works, your PC probably isn't good enough to run the game, sorry.
 
 ---
-### My game is running slow/fast, After finishing a song the game gets stuck loading!
+### Unable to login / Eamuse error / Network error
 
 !!! tip ""
 
-	The most common reason for this is the game is running over its required refresh rate.  
-	To solve this, make sure v-sync isn't disabled in your graphics card's settings.
-
-	For NVIDIA users, enable  `NVIDIA profile optimization (-nvprofile)` in the `Options` tab. 
+	Get the proper Asphyxia plugin from our [Discord server](https://discord.gg/cZRUmEPK78) in the #iidx channel > Resources post.
+	Make sure you didn't enable `-smartea` in spicecfg's options.
 
 ---
 ### How do I set my offset?
@@ -31,7 +50,6 @@
 
 	If you're getting too many `Fast`, increase your offset `(+)`.   
 	If you're getting too many `Slow`, decrease your offset `(-)`.
-
 
 ---
 ### My inputs aren't working / I can't get past error messages!
@@ -55,7 +73,7 @@
 	IIDX uses [WASAPI exclusive mode](https://docs.microsoft.com/en-us/windows/win32/coreaudio/exclusive-mode-streams) for audio to get better audio latency.  
 	Unlike former versions of the games which used [DirectSound](https://en.wikipedia.org/wiki/DirectSound).   
 	
-	You can use the `Shared Mode WASAPI` patch to deal with some hardware issues, it can also be used to hear audio outside the game at the cost of audio latency.
+	You can use the `Shared Mode WASAPI` patch to hear other apps while the game is running, at the cost of some audio latency.
 
 ---
 ### I'm not getting any audio, or my audio is completely wrecked and I'm using an External Dac!
