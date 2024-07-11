@@ -1,6 +1,6 @@
 # Workarounds for exclusive audio
 
-!!! warning "Before reading:"
+!!! warning "Before reading"
 	This section describes various workarounds and tips for dealing with games that use exclusive mode audio.
 
 	In the recent years, BEMANI games started using WASAPI exclusive mode and ASIO to output game audio. While these provide great benefit when it comes to audio latency perceived by the player, they present additional challenges when trying to use other audio applications at the same time (e.g. a Discord voice call) or when capturing game audio for recording and streaming. This page explains how you can work around these issues. Read on carefully, as there are many things that can go wrong when dealing with audio.

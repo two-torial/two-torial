@@ -2,7 +2,7 @@
 
 !!! info "Last updated: July 11th, 2024"
 
-!!! warning "Before reading:"
+!!! warning "Before reading"
 	This section contains various gamecode errors that a user may run across. There is an innumerable amount of these and I sometimes wonder if it's truly possible to have them all listed. 
 	Nonetheless, dozens, if not hundreds are currently missing. This list is a massive work in progress and will be updated with time.
 

@@ -1,6 +1,6 @@
 # List of Touchscreen Monitors and their Polling Rates
 
-!!! warning "Before reading:"
+!!! warning "Before reading"
 	This section contains a few touchscreen monitors tested by community members over the years and their respective polling rates. Please note that a polling rate is **NOT THE REFRESH RATE** of a monitor, but is the critical factor in determining how responsive a touchscreen is and is unfortunately something every major retailer omits from their product listings due to lack of consumer awareness.
 
 	At higher levels of gameplay, rapid button presses may fail to be acknowledged by touchscreen monitors with a low polling rate, making good scores impossible and creating a frustrating experience.
