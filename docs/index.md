@@ -9,7 +9,7 @@ description: A compendium of information and guides about arcade games. By the c
 A compendium of information and guides about arcade games.  
 By the community, for the community.
 
-[Join our Discord server!](https://discord.gg/cZRUmEPK78){ .md-button }
+[Join our Discord server! :fontawesome-brands-discord:](https://discord.gg/cZRUmEPK78){ .md-button }
 </figure>
 
 !!! tip ""
