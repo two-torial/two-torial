@@ -109,6 +109,10 @@ nav:
                   - "Controllers": "games/chunithmsunplus/controllers.md"
                   - "Networks": "games/chunithmsunplus/networks.md"
                   - "Common Problems/Tips": "games/chunithmsunplus/problems.md"
+              - "LUMINOUS":
+                  - "Game Setup": "games/chunithmluminous/setup.md"
+                  - "Controllers": "games/chunithmluminous/controllers.md"
+                  - "Troubleshooting": "games/chunithmluminous/troubleshooting.md"
       - NAMCO:
           - "Taiko no Tatsujin":
               - "Nijiiro":
