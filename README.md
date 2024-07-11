@@ -43,6 +43,8 @@ TWO-TORIAL is licensed under the Apache License 2.0. You can find the full text 
 
 ## Additional Notes
 
+The TWO-TORIAL team does not provide any tools to circumvent software copy protection, nor distribute any copyright-protected game data.
+
 Documentation plays a crucial role in fostering understanding and accessibility within any domain. Detailed guides not only facilitate smoother experiences but also encourage the growth of communities by empowering individuals to engage more deeply. By documenting the intricacies of setup and configuration, this guide aims to support users in their journey through the realm of rhythm gaming.
 
 Feel free to tailor or modify this template according to your preferences or specific content requirements for the repository.
