@@ -10,6 +10,7 @@
 ### My game crashes on launch!
 
 !!! tip ""
+
     Could be due to **many** things, the most common of which are:
     
     - `amdaemon` crashing in the background. Make sure that the `config_*.json` files
@@ -22,6 +23,7 @@
     monitor check"/"Bypass 1080p monitor check" on a CHUNITHM web patcher (see [Resources](../../resources.md#web-patchers)).
     
 ??? info "Capturing logs from `amdaemon` for troubleshooting"
+
     To assist with troubleshooting, a script can be used to capture logs from `amdaemon`. Create a file named
     `amdaemontest.bat` in `App\bin`, then paste the code block below into the file.
 
@@ -49,11 +51,13 @@
 ### My game takes a long time to boot!
 
 !!! tip ""
+
     CHUNITHM game files consist of thousands of small XML files, which Windows Defender
     takes a long time to scan through. Add your game folder to the Windows Defender
     exclusion list.
 
 !!! danger
+
     Doing this will prevent Windows Defender from scanning your game folder for viruses.
     Only do this if you trust the source of the data.
 
@@ -62,6 +66,7 @@
 ### My game is running too slow/fast
 
 !!! tip ""
+
     The game could be running under or over its required refresh rate.
     
     - Make sure V-Sync isn't disabled in your graphics settings (called "Vertical sync"
@@ -76,6 +81,7 @@
 ### My game is stuttering
 
 !!! tip ""
+
     For NVIDIA users, create an override for `chusanApp.exe` in NVIDIA Control Panel
     and change "Power management mode" to "**Prefer maximum performance**".
 
@@ -84,6 +90,7 @@
 ### My game crashes when I tab out of fullscreen!
 
 !!! tip ""
+
     As the game is intended to run on arcade hardware, it doesn't like being minimized.
     
     One workaround for this is to use DXVK. Download the latest version from [releases](https://github.com/doitsujin/dxvk/releases/latest).
@@ -94,6 +101,7 @@
     You should now be able to tab out of fullscreen without crashing the game.
 
 !!! warning
+
     The game will not ignore inputs when out of focus.
     
     This means any controller inputs will still be accepted, so try not to lean onto
@@ -108,9 +116,9 @@
 ### When I run the game all other audio is gone!
 
 !!! tip ""
+
     CHUNITHM uses [WASAPI exclusive mode](https://docs.microsoft.com/en-us/windows/win32/coreaudio/exclusive-mode-streams)
     for audio to get better latency.
 
     You can apply the "Shared Audio" patch on a CHUNITHM web patcher (see [Resources](../../resources.md#web-patchers))
     to hear audio outside of the game at the cost of audio latency.
-

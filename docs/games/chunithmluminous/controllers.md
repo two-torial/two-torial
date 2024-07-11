@@ -8,6 +8,7 @@
 ---
 
 !!! tip ""
+
     segatools, by default, only accepts keyboard input and does not recognize any
     controllers. However, it can be configured with IO DLLs to add support for controllers.
 
@@ -19,6 +20,7 @@
     `segatools.ini` under the `[chuniio]` section.
     
 !!! tip ""
+
     If you have a single DLL, uncomment the `path=` line by removing the leading semicolon (`;`),
     then add your DLL's file name after the `=`:
 
@@ -33,6 +35,7 @@
     1. Note that there is no leading semicolon.
 
 !!! tip ""
+
     If you have two DLLs, ending in `_x86.dll` and `_x64.dll` (or `_chusan.dll` and `_amdaemon.dll`),
     uncomment the `path32=` and `path64=` lines by removing the leading semicolon (`;`), then
     add your DLLs after the `=`:
@@ -53,6 +56,7 @@
 ### Keyboard
 
 !!! tip ""
+
     Keyboard is the default input method, and while not recommended for playing the game,
     it is useful for testing purposes.
     
@@ -66,6 +70,7 @@
 ### Brokenithm
 
 !!! tip ""
+
     Brokenithm allows you to use a mobile device as a CHUNITHM controller. It uses the bottom
     half of the screen as the ground slider, and sliding into the upper half activates the air
     sensors.
@@ -73,9 +78,11 @@
 #### Android
 
 !!! warning
+
     Your computer and your Android device must be on the same local network.
 
 !!! tip ""
+
     - Download the latest version of [Brokenithm-Android](https://github.com/tindy2013/Brokenithm-Android/releases/latest)
     and install it on your Android device.
     - Download the latest version of [Brokenithm-Android-Server](https://github.com/tindy2013/Brokenithm-Android-Server/releases/latest)
@@ -101,6 +108,7 @@
     - Run the game as normal.
 
 ??? info "Getting your computer's IP address"
+
     Open **Settings** -> **Network and Internet** and select **Properties**. Scroll down to
     the bottom and check the address under the **IPv4 address** field:
 
@@ -109,6 +117,7 @@
     That is your computer's IP address.
 
 ??? info "Automatically launching the Brokenithm server when starting the game"
+
     **This will only work if you extracted `brokenithm_server.exe` to `App\bin\` as previously instructed.**
     
     You can edit the launch script to launch the Brokenithm server when starting the game.
@@ -130,6 +139,7 @@
     ```
 
 ??? info "Improving latency"
+
     You can improve latency by running Brokenithm with your Android device tethered to
     your computer. However, this requires a little extra setup:
 
@@ -179,6 +189,7 @@
 #### iOS/iPadOS
 
 !!! tip ""
+
     - Install Brokenithm on your iOS/iPadOS device by joining the [Brokenithm TestFlight](https://testflight.apple.com/join/15FSg9sB).
         - If the TestFlight is full, you will need to sideload the [IPA](https://redive.estertion.win/ipas/Brokenithm-iOS-build-10.ipa) with [Sideloadly](https://sideloadly.io/).
     - If you have iTunes and/or iCloud installed from the Microsoft Store on your computer, **uninstall it.**
@@ -206,6 +217,7 @@
     - Run the game as normal.
 
 ??? info "Automatically launching the Brokenithm server when starting the game"
+
     **This will only work if you extracted the server to `App\bin\Brokenithm-Server` as previously instructed.**
     
     You can edit the launch script to launch the Brokenithm server when starting the game.
@@ -229,6 +241,7 @@
 ### TASOLLER
 
 !!! warning
+
     This guide only covers TASOLLERs running the v2.0 touch firmware. If you've purchased the
     controller after January 2022, the update should have already been applied.
 
@@ -236,6 +249,7 @@
     firmware by following the instructions on [DJ-DAO's support page](https://www.dj-dao.com/en/support/11.html).
 
 !!! tip ""
+
     - Install the [custom Host and LED firmware](https://pixeldrain.com/u/DajSPEoa) to your controller.
     Instructions on how to do so is provided in the linked archive.
     - Pick one of these two TASOLLER IO DLLs to download and extract to your `App\bin` folder.
@@ -258,6 +272,7 @@
 ### YubiDeck
 
 !!! tip ""
+
     - Switch your YubiDeck to HID output mode. Instructions on how to do so are provided
     in the [YubiDeck manual](https://drive.google.com/file/d/11KVlKbg3zGCRwI7R-30t2IJc6OQwDEgo/view).
     - Download the latest version of [YubiDeck IO DLLs](https://gitea.tendokyu.moe/beerpsi/chuniio-yubideck/releases)
@@ -283,6 +298,7 @@
 ### Arcade hardware and other controllers
 
 !!! tip ""
+
     If you're interested in using a cabinet slider and air sensors, or possibly even
     making your own controller, the [Cons&Stuff website](https://consandstuff.github.io/)
     and Discord community is a great place to start!
