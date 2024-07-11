@@ -1,5 +1,5 @@
 # CHUNITHM LUMINOUS
-<!-- <img src="/img/chunithmluminous/logo.png"> -->
+<img src="/img/chunithm/luminous.png">
 
 !!! info "Last updated: ???? ???, 2024"
 
