@@ -38,7 +38,7 @@
     <img width="500" src="/img/chunithm/setup/1_chunithmapp.png">
 
 ??? warning "If your data doesn't look like this"
-    If your data looks like the second image:
+    If your data looks like the third image:
 
     - Create an `App` folder and move all files and folders from the image inside of it.
     - Create empty folders named `amfs`, `Option` and `AppData` next to the `App` folder.
