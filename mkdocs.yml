@@ -138,6 +138,8 @@ theme:
   name: material
   logo: img/logo/website-logo.svg
   favicon: img/favicon.ico
+  icon:
+    repo: fontawesome/brands/github
   navigation_depth: 3
   palette:
     # Toggle for auto mode
@@ -183,6 +185,9 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.tilde
   - attr_list
+  - pymdownx.emoji:
+        emoji_index: !!python/name:material.extensions.emoji.twemoji
+        emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - md_in_html
 
 plugins:
