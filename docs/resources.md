@@ -61,3 +61,12 @@
 
 	- [573Controller](https://github.com/limyz/573controller) - DIY guitar solution for converting official cab guitars to USB home-use
 	- [Drummania English Menu Translation](https://twitter.com/approvedtx/status/1174028743989317632?s=21) - Handy for beginners, lots of options!
+
+---
+
+### CHUNITHM
+
+!!! tip ""
+
+	- Codex's [English Chunithm Guide](https://docs.google.com/document/d/1bsVv3-cOuk_0ZMlLq8joqcwa5YUM_Ff4VnQCgJIkUOk/view) -
+	Handy CHUNITHM resource for players of all skill levels

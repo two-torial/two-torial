@@ -52,8 +52,21 @@
     If your game files does not include `config_hook.json`, it is OK to create a new
     file, then edit the launch script (usually `start.bat`) to tell the game about it:
     
-    ```batchfile
+    ```
     amdaemon.exe -f -c config_common.json config_server.json config_client.json {++config_hook.json++}
+    ```
+
+### 0800
+!!! tip "Unknown Error"
+    Generic network error usually thrown because the game is not able to connect to a server.
+
+    Make sure that you have correctly entered your network's address in `segatools.ini` under
+    the `[dns]` section:
+    ```ini
+    [dns]
+    ; Can also be an IP address:
+    ; default=192.168.34.23
+    default=example.com
     ```
 
 ### 0919
@@ -78,6 +91,28 @@
 
     If on a real cabinet using a real keychip, confirm that the keychip is connected
     properly and working.
+
+### 4104
+!!! tip "Unexpected Error Occured"
+    Make sure that the game files are not on the `E:` or `Y:` drive. If that is already the case,
+    check if the config files passed to AM Daemon exists and are valid JSON files:
+
+    ```hl_lines="5"
+    Runtime exception occurred.
+    File: D:\Jenkins\workspace\amdaemon_all_build\libs\amdproc\src\ConfigFileLoader.cpp
+    Line: 79
+    Function: enum amdaemon::process::ConfigFileLoader::Result __cdecl `anonymous-namespace'::parse(const class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > &,class picojson::value &)
+    Message: Cannot open "config_nonexistent.json".
+    ```
+
+    ```hl_lines="5 6"
+    Runtime exception occurred.
+    File: D:\Jenkins\workspace\amdaemon_all_build\libs\amdproc\src\ConfigFileLoader.cpp
+    Line: 89
+    Function: enum amdaemon::process::ConfigFileLoader::Result __cdecl `anonymous-namespace'::parse(const class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > &,class picojson::value &)
+    Message: Cannot parse ".\config_hook.json".
+    syntax error at line 6 near: }
+    ```
 
 ### 4105
 !!! tip "Unexpected Error Occured"
@@ -152,7 +187,7 @@
     If your game files does not include `config_hook.json`, it is OK to create a new
     file, then edit the launch script (usually `start.bat`) to tell the game about it:
     
-    ```batchfile
+    ```
     amdaemon.exe -f -c config_common.json config_server.json config_client.json {++config_hook.json++}
     ```
 
