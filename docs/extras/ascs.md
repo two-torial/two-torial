@@ -13,6 +13,7 @@
 <img src="/img/ascs/fp7.png">
 
 !!! tip ""
+
 	This controller works really well, the spacing is [accurate](../img/ascs/dao_comp.png) to the arcade between buttons and the turntable, obviously the turntable size is reduced which is often noticed as a minor nuisance to players that play both at home and on cabs.
 
 	One minor aspect that's appreciated are the feet of the controller, which hold up really well on all kinds of surfaces with a stable grip, alongside the fairly hefty weight of the controller it's rather unlikely it's going to budge even a little bit during play.
@@ -34,6 +35,7 @@
 <img src="/img/ascs/wan.png">
 
 !!! tip ""
+
 	The Phoenixwan, sometimes jokingly referred to as the wang, or phoenixwang, is a rather odd controller. It fills a niche that wasn't needed (Gamo2's site was already selling 6 different IIDX controllers) but still manages to be the smallest full-sized beatmania controller offered on the site.
 
 	As expected, the spacing between the buttons and turntable is arcade accurate, and the turntable is full sized unlike the FP7. Moreover, 4 buttons are present for menu navigation this time around. 
@@ -53,6 +55,7 @@
 <img src="/img/ascs/yuaniidx.png">
 
 !!! tip ""
+
 	YuanCon's IIDX controller looks rather plain, doesn't it? But the controller works really well, the spacing is of course accurate to arcade, and the turntable is full size as well. Obviously, it features 4 buttons for menu navigation too, which is incredibly convenient.
 
 	The cost is very reasonable too, by default it comes with dubious microswitches labeled "Chinese" on the site, it's important to note that if a buyer upgrades to Omron switches on the site, it's a bit cheaper than buying Omrons separately later down the line. The "Chinese" switches are definitely not recommended and feel bad.
@@ -70,6 +73,7 @@
 ### IIDX Arcade Parts to Consider
 
 !!! tip ""
+
 	IIDX controllers have a lot of options to choose from and it can be daunting, especially if you've never played before. I'll try to cover springs, microswitches, and buttons to the best of my ability. 
 
 	I've also documented many of the parts that I talk about and where to buy them [here](parts.md)
@@ -89,8 +93,6 @@
 		- Sanwa keys come with 100g springs and 100g Omron switches.
 		- Samduck keys come with 20g springs and 65g Gersung switches.
 		- DJ DAO keys come with 40g springs and 20g Honeywell switches.
-
-		&nbsp;
 
 		There are also many other cheap Chinese variants that I won't bother listing because I insist you do not play on them. Please stick to Omron or Gersung microswitches for an enjoyable play experience! The Honeywell microswitches for example are an incredibly cheap feeling switch that often breaks easily.
 
@@ -112,6 +114,7 @@
 <img src="/img/ascs/svse5.png">
 
 !!! tip ""
+
 	The SVSE5 is a pretty straightforward controller without much to worry about, the sizing is very compact while retaining proper arcade spacing between the knobs and buttons at a very reasonable price, most of the gripes with this controller will come based on what parts are used. It uses the same firmware/board as the SVRE9 and also lacks HID-controlled lights.
 
 	Dao's SDVX buttons are especially prone to sticking and getting stuck under their holders, notably more than their IIDX counterparts. Thankfully, this problem can be alleviated by sanding down the corners of the buttons but they still obviously do not feel as nice as Sanwa buttons and it requires taking apart the controller, which while simple, is a minor inconvenience.
@@ -125,6 +128,7 @@
 <img src="/img/ascs/yuansdvx.png">
 
 !!! tip ""
+
 	YuanCon's SDVX controller has quickly become the most popular option for Sound Voltex players and is inarguably their best controller yet. The controller feels great in your hands thanks to its light weight and good sizing. Like the SVSE5, it matches arcade dimensions perfectly as well, so anyone can transfer their skills from home to the arcade 1 to 1. One other noteworthy convenience is the detachable USB cable, making transportation and storage a little more enjoyable.
 
 	One of aspects people comment on a fair bit is the metal casing, after years of Dao's tacky glossy acrylic designs a lot of buyers have welcomed this addition with open arms. Yuan's SDVX controller is as durable and sturdy as any other out there.
@@ -140,6 +144,7 @@
 <img src="/img/ascs/svre9.png">
 
 !!! tip ""
+
 	The crown jewel for many Sound Voltex players, the SVRE9 is designed to match the dimensions of an arcade cab as best as possible, providing both maximum luxury and performance. This controller includes arcade knobs out of the box, offering no alternative and is no doubt a part of the heftier price tag.
 
 	This controller is a monster, both in size and weight, it is probably one of the most inconvenient Sound Voltex controllers to transport but even still it's not honestly not that bad, make sure you have enough space to safely place the controller on any surface before playing. One positive about the greater size and weight is that there's almost no risk of it moving around when accidentally bumped.
@@ -157,6 +162,7 @@
 ### SDVX Arcade Parts to Consider
 
 !!! tip ""
+
 	Sound Voltex controllers have a lot of options to choose from and it can be daunting, especially if you've never played before. I'll try to cover springs, microswitches, and encoders to the best of my ability.
 
 	I've also documented many of the parts that I talk about and where to buy them [here](parts.md)
@@ -193,6 +199,7 @@
 <img src="/img/ascs/daopop.png">
 
 !!! tip ""
+
 	Gamo2's Pop'n offering is a controller that results in a project for a lot of players. While it is a playable experience, for many, it will be dissatisfying out of the box. However, with a bit of knowledge one can turn it into a fantastic controller.
 
 	One of the biggest issues with Pop'n controllers are the buttons. The Chinese default buttons are simply unacceptable, these things stick [like crazy](https://www.youtube.com/watch?v=lC7G8P-sGXY) and getting [Samduck buttons](http://istmall.eumshop.com/us/?menuType=product&mode=view&act=list&prodCode=2016062400008), a Korean alternative, is considered almost mandatory for a lot of players. It is possible to sand down the stock Chinese Dao buttons or get lucky and only have a few with problems, but the odds are heavily stacked against the buyer's favor here. The primary problem here and why Sanwas are not offered are their extreme cost, at around $40 a button it's simply out of reach for many. At the very least, one nice addition is that by default the controller comes with Omron microswitches.
@@ -210,6 +217,7 @@
 <img src="/img/ascs/yuanpop.png">
 
 !!! tip ""
+
 	YuanCon's Pop'n controller arrived on the scene many years after Dao's controller and seemingly has managed to address some of the more notable difficulties of its competitor at an expected competitive price point and with a sleek design.
 
 	Right away it should be noted that this controller is a significantly smaller size than the Dao while retaining the expected arcade spacing between buttons. It's also in a metal shell for added durability yet it has notably less weight than the Dao.
@@ -231,6 +239,7 @@
 <img src='/img/ascs/fb9.png'>
 
 !!! tip ""
+
 	Gamo2's jubeat controller is a very fun contraption, buyers actually slide their own monitor under it in order to play. While neat, the pricing on this thing isn't for the faint of heart and unfortunately it doesn't come without some problems.
 
 	Right away the need to buy your own monitor separately should be addressed, as it adds to the already high cost and the requirements for the monitor are somewhat specific as well, further complicating things.
@@ -252,6 +261,7 @@
 <img src="/img/ascs/smx.gif">
 
 !!! tip ""
+
 	Dance games have the luxury of many pads functioning the same across a wide variety of games so while it's not specifically for DDR, this is simply the apex beyond buying your own arcade cab. At an extreme price tag, Kyle Ward spares no expense to create the ultimate controller. It's even hard to label this thing as a true ASC, as it's not styled like an arcade controller, it IS one!
 
 	Getting into the important details though, a couple of changes on the latest model feature a new sleek design, superior FSR sensors that help to minimalize maintenance, and a fleet of sleek LED customization to really help a buyer individual their product and make it look and feel like theirs. 
@@ -284,9 +294,8 @@
 
 ### Gamo2
 
-&nbsp;
-
 !!! tip ""
+
 	- Website: <https://www.gamo2.com>
 	- Social Media: <https://twitter.com/gamotwo>
 
@@ -306,9 +315,8 @@
 
 ### YuanCon
 
-&nbsp;
-
 !!! tip ""
+
 	- Website: <https://yuancon.store>
 	- Social Media: <https://twitter.com/yuancontop>
 
@@ -332,9 +340,8 @@
 
 ### StepRevolution (StepManiaX)
 
-&nbsp;
-
 !!! tip ""
+
 	- Website: <https://shop.steprevolution.com/>
 	- Social Media: <https://twitter.com/smxgame>
 	
@@ -348,9 +355,8 @@
 
 ### L-Tek
 
-&nbsp;
-
 !!! tip ""
+
 	- Website: <https://maty-taneczne.pl/>
 	- Social Media: <https://www.facebook.com/maty-tanecznepl-106162192775436/>
 	
