@@ -14,8 +14,7 @@ By the community, for the community.
 
 !!! tip ""
 
-    *Changelogs are posted on our Discord.  
-    There also are troubleshooting sections available if you need direct help!*
+    *There are troubleshooting sections available if you need direct help!*
 
 !!! warning "This site is by no means all-encompassing"
 
