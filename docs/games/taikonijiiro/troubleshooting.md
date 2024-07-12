@@ -51,11 +51,11 @@
 
     The game needs to be ran at 120 FPS or things will break.
     
-    ??? tip "If you have display that supports more than 120fps"                           
+    ??? tip "If you have a display that supports 120hz or higher"                           
         - Set your display to 120hz. You may need to make a custom resolution.                                                                              
         - In `config.toml` set `vsync =` to `true`.  
      
-    ??? tip "If you have a display that is less than 120 FPS"                                                   
+    ??? tip "If you have a display that is less than 120hz"                                                   
         - In `config.toml` set `vsync =` to `false`.                                                                        
         - Limit the FPS for `Taiko.exe` using your GPU settings or [RTSS](https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download/)      
     

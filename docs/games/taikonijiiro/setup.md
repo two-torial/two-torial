@@ -118,16 +118,15 @@
 ??? tip "Physical Card Readers"
 
 	You can insert your card with physical card readers. If you happen to have one, you can set them up to use them for Taiko no Tatsujin Nijiiro.
-
-	- In `config.toml` set `[card_reader]` to `true`. 
+ 
 
 	??? tip "AIC Pico"
-
+		- In `config.toml` set `[card_reader]` to `false`.
     	- Update to the latest [firmware](https://github.com/whowechina/aic_pico)
     	- Inside `AMFWConfig.ini` change COM4 to the port of your AIC Pico  
 
 	??? tip "ACR122U"
-
+		- In `config.toml` set `[card_reader]` to `true`.
     	- Use AkaiiKitsune's [tal-cardreader plugin](https://gitea.farewell.dev/AkaiiKitsune/tal-cardreader)
 
 !!! note "If you don't have a physical card reader, you can skip over to the [Networks](#networks) section"
