@@ -100,7 +100,7 @@
     for assistance.
 
     Copy `chusanApp.exe` and `amdaemon.exe` to the `bin` folder of your game data. Agree
-    to overwirte when asked.
+    to overwrite when asked.
 
 ---
 
