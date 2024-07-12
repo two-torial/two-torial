@@ -1,7 +1,5 @@
 # Manual DLL Hex Editing
 
-!!! info "Last updated: June 4th, 2024"
-
 !!! danger "Before proceeding"
 
 	**This guide should ONLY be used as a last resort if all other methods fail.**  

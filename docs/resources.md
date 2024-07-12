@@ -1,9 +1,5 @@
 # Other Resources
 
-!!! info "Last updated: July 11th, 2024"
-
-	This section contains a variety of resources.
-
 ---
 ### Spice2x Patchers
 !!! tip "See [Spice2x Patching](./extras/patchsp2x.md)."

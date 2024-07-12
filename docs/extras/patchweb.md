@@ -1,6 +1,6 @@
 # Website DLL Patching
 
-!!! info "Last updated: June 4th, 2024<br>Known web patchers: [Resources](../resources.md#web-patchers)"
+!!! info "Known web patchers: [Resources](../resources.md#web-patchers)"
 
 !!! warning "For BEMANI games consider [Spice2x Patching](patchsp2x.md)"
 

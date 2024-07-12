@@ -1,8 +1,6 @@
 # SOUND VOLTEX EXCEED GEAR
 <img src="/img/sdvx6/exceedgear.png">
 
-!!! info "Last updated: June 3rd, 2024"
-
 !!! danger "Please make sure you downloaded your data from an appropriate source.<br>This guide is unable to troubleshoot any problems related to bad or poorly managed data."
 
 ---

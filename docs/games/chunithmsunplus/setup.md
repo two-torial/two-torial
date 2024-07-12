@@ -2,9 +2,6 @@
 
 <img src="/img/chunithmsunplus/sunplus.png">
 
-!!! note "Author Note:"
-	Last updated: February 8th, 2024 (Currently using `SDHD 2.16.00`)
-
 !!! danger "Warning:"
 	Please make sure your data is from an appropriate source and unmodified before proceeding, this guide is unable to troubleshoot any problems related to bad or poorly managed data.
 

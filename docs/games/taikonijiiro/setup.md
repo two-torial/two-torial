@@ -1,8 +1,6 @@
 # Taiko no Tatsujin Nijiiro
 <img src="/img/taikonijiiro/taikonijiiro.png">
 
-!!! info "Last updated: June 8th, 2024 (using `JP/39.06`)"
-
 !!! danger "Please make sure you downloaded your data from an appropriate source.<br>This guide is unable to troubleshoot any problems related to bad or poorly managed data."
 
 ---

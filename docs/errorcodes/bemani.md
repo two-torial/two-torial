@@ -1,7 +1,5 @@
 # BEMANI Error Codes
 
-!!! info "Last updated: July 11th, 2024"
-
 !!! warning "Before reading"
 
 	This section contains various gamecode errors that a user may run across. There is an innumerable amount of these and I sometimes wonder if it's truly possible to have them all listed. 
