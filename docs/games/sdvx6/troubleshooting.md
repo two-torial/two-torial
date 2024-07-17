@@ -65,7 +65,7 @@
 	You can use the `Shared Mode WASAPI` patch to deal with some hardware issues, it can also be used to hear audio outside the game at the cost of audio latency.  
 
 ---
-### I'm not getting any audio, or my audio is completely wrecked and I'm using an External Dac!
+### I'm not getting any audio / My game crashes due to audio
 
 !!! tip ""
 

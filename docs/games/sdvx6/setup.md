@@ -263,7 +263,7 @@
 	- Go to the `Advanced` tab.
 	- Check both boxes under `Exclusive Mode`.
 	- Open the `Default Format` dropdown.
-	- Pick the `24 bit, 44100 Hz (CD Quality)` option and click `Apply` then `OK`. `24 bit, 48000 Hz` is also acceptable as spice2x will handle it.
+	- Pick the `16 bit, 44100 Hz (CD Quality)` option and click `Apply` then `OK`.
 
 	<img src="/img/sdvx6/setup/6_audio.png">
 
