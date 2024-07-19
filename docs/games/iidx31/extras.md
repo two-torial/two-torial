@@ -18,7 +18,7 @@
 		<soft>
 			<model __type="str">LDJ</model>
 			<dest __type="str">J</dest>
-			<spec __type="str">E</spec>
+			<spec __type="str">B</spec>
 			<rev __type="str">A</rev>
 			<ext __type="str">2024050700</ext>
 		</soft>
@@ -27,10 +27,10 @@
     This is the line that determines if the game will run in Standard (60 FPS) or Lightning (120 FPS) mode.
 
     ```xml
-	<spec __type="str">E</spec>
+	<spec __type="str">B</spec>
     ```
 
-    Use ^^`A`^^ for Standard, or ^^`E`^^ for Lightning.    
+    Use ^^`A`^^ for Standard, or ^^`B`^^ for Lightning.    
     
 ---
 ### Changing the game's language

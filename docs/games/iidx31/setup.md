@@ -82,7 +82,7 @@
 		<soft>
 			<model __type="str">LDJ</model>
 			<dest __type="str">J</dest>
-			<spec __type="str">E</spec>
+			<spec __type="str">B</spec>
 			<rev __type="str">A</rev>
 			<ext __type="str">2024050700</ext>
 		</soft>
@@ -90,7 +90,7 @@
 
 	On the line with `<spec __type="str">` the letter needs to match your data type:
 	
-	- `E` for TDJ *(010)*
+	- `B` for TDJ *(010)*
 	- `A` for LDJ *(012)*
   
 	Replace the letter accordingly if necessary.
