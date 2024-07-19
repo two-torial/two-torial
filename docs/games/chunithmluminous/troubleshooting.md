@@ -1,5 +1,5 @@
 # CHUNITHM LUMINOUS
-<img src="/img/chunithm/luminous.png">
+<img src="/img/chunithm/sdhd/luminous.png">
 
 !!! danger "Please make sure you downloaded your data from an appropriate source.<br>This guide is unable to troubleshoot any problems related to bad or poorly managed data."
 
