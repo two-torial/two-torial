@@ -90,8 +90,8 @@
 
 	On the line with `<spec __type="str">` the letter needs to match your data type:
 	
-	- `B` for TDJ *(010)*
-	- `A` for LDJ *(012)*
+    - ^^`B`^^ for Lightning (LDJ-010, TDJ, 120hz)
+    - ^^`E`^^ for Standard (LDJ-012, LDJ, 60hz)
   
 	Replace the letter accordingly if necessary.
 

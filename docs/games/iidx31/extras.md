@@ -18,7 +18,7 @@
 		<soft>
 			<model __type="str">LDJ</model>
 			<dest __type="str">J</dest>
-			<spec __type="str">B</spec>
+			<spec __type="str">E</spec>
 			<rev __type="str">A</rev>
 			<ext __type="str">2024050700</ext>
 		</soft>
@@ -30,7 +30,8 @@
 	<spec __type="str">B</spec>
     ```
 
-    Use ^^`A`^^ for Standard, or ^^`B`^^ for Lightning.    
+    - ^^`B`^^ for Lightning (LDJ-010, TDJ, 120hz)
+    - ^^`E`^^ for Standard (LDJ-012, LDJ, 60hz)
     
 ---
 ### Changing the game's language
