@@ -104,11 +104,22 @@ nav:
               - "Common Problems/Tips": "games/musecafinal/problems.md"
       - SEGA:
           - "CHUNITHM":
+              - "NEW":
+                  - "Game Setup": "games/chunithmnew/setup.md"
+                  - "Controllers": "games/chunithmnew/controllers.md"
+                  - "Troubleshooting": "games/chunithmnew/troubleshooting.md"
+              - "NEW PLUS":
+                  - "Game Setup": "games/chunithmnewplus/setup.md"
+                  - "Controllers": "games/chunithmnewplus/controllers.md"
+                  - "Troubleshooting": "games/chunithmnewplus/troubleshooting.md"
+              - "SUN":
+                  - "Game Setup": "games/chunithmsun/setup.md"
+                  - "Controllers": "games/chunithmsun/controllers.md"
+                  - "Troubleshooting": "games/chunithmsun/troubleshooting.md"
               - "SUN PLUS":
-                  - "First Time Setup": "games/chunithmsunplus/setup.md"
+                  - "Game Setup": "games/chunithmsunplus/setup.md"
                   - "Controllers": "games/chunithmsunplus/controllers.md"
-                  - "Networks": "games/chunithmsunplus/networks.md"
-                  - "Common Problems/Tips": "games/chunithmsunplus/problems.md"
+                  - "Troubleshooting": "games/chunithmsunplus/troubleshooting.md"
               - "LUMINOUS":
                   - "Game Setup": "games/chunithmluminous/setup.md"
                   - "Controllers": "games/chunithmluminous/controllers.md"

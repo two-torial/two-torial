@@ -1,5 +1,5 @@
 # CHUNITHM LUMINOUS
-<img src="/img/chunithm/luminous.png">
+<img src="/img/chunithm/sdhd/luminous.png">
 
 !!! danger "Please make sure you downloaded your data from an appropriate source.<br>This guide is unable to troubleshoot any problems related to bad or poorly managed data."
 
@@ -110,7 +110,7 @@
     Open **Settings** -> **Network and Internet** and select **Properties**. Scroll down to
     the bottom and check the address under the **IPv4 address** field:
 
-    <img src="/img/chunithm/controllers/0_ipaddress.png">
+    <img src="/img/chunithm/sdhd/controllers/0_ipaddress.png">
 
     That is your computer's IP address.
 

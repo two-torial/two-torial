@@ -1,5 +1,5 @@
 # CHUNITHM LUMINOUS
-<img src="/img/chunithm/luminous.png">
+<img src="/img/chunithm/sdhd/luminous.png">
 
 !!! danger "Please make sure you downloaded your data from an appropriate source.<br>This guide is unable to troubleshoot any problems related to bad or poorly managed data."
 
@@ -27,15 +27,15 @@
 
 	You should end up with a file structure as follows.
 
-    <img width="500" src="/img/chunithm/setup/0_chunithmdata.png">
+    <img width="500" src="/img/chunithm/sdhd/setup/0_chunithmdata.png">
 
     Create another empty folder named `AppData` next to them. It should now look like below.
 
-    <img width="500" src="/img/chunithm/setup/0_chunithmdata_withappdata.png"> 
+    <img width="500" src="/img/chunithm/sdhd/setup/0_chunithmdata_withappdata.png"> 
 
     The `App` folder should have a file structure as follows.
 
-    <img width="500" src="/img/chunithm/setup/1_chunithmapp.png">
+    <img width="500" src="/img/chunithm/sdhd/setup/1_chunithmapp.png">
 
 ??? warning "If your data doesn't look like this"
 
@@ -67,7 +67,7 @@
     Extract any options you've downloaded into the `Option` folder. You should end up with
     a file structure as follows. **Do not be worried if you have fewer or more option folders.**
 
-    <img width="500" src="/img/chunithm/setup/2_chunithmoption.png">
+    <img width="500" src="/img/chunithm/sdhd/setup/2_chunithmoption.png">
 
 #### Installing ICFs
 
@@ -137,7 +137,7 @@
 
     You should now have a few more files inside the folder, as highlighted:
 
-    <img width="500" src="/img/chunithm/setup/3_segatools_installed.png">
+    <img width="500" src="/img/chunithm/sdhd/setup/3_segatools_installed.png">
 
 ---
 
@@ -238,7 +238,7 @@
     your 20-digit access code if you already have one, or make one up if you don't. If you're making one
     up, the access code **MUST NOT** start with a 3.
 
-    <img src="/img/chunithm/setup/4_access_code.png">
+    <img src="/img/chunithm/sdhd/setup/4_access_code.png">
 
 ??? warning "Local (ARTEMiS/AquaDX)"
 
@@ -270,7 +270,7 @@
 	- Open the `Default Format` dropdown.
     - Pick either `16 bit, 48000Hz (DVD Quality)` or `24 bit, 48000Hz (Studio Quality)`, click `Apply`, then `OK`.
 
-    <img src="/img/chunithm/setup/5_audio.png">
+    <img src="/img/chunithm/sdhd/setup/5_audio.png">
 
 #### Fixing OpenSSL on Intel 10th Gen and newer CPUs
 
@@ -306,7 +306,7 @@
 
     Start the game by running `App\bin\start.bat`. Let the game load until it reaches the screen below.
 
-<img src="/img/chunithmsunplus/asettings.png">
+<img src="/img/chunithm/sdhd/setup/servicemenu/0_asettings.png">
 
 !!! tip ""
 
@@ -315,14 +315,14 @@
 
     Navigate to **ゲーム設定** (`GAME ASSIGNMENTS`, the 4th option).
 
-<img src="/img/chunithmsunplus/gamesettings.png">
+<img src="/img/chunithm/sdhd/setup/servicemenu/1_gamesettings.png">
 
 !!! tip ""
 
     Select **グループ内基準機設定** (`SET STANDARD IN GROUP`, the second option)
     and toggle this setting to **基準機** (`STANDARD`).
 
-<img src="/img/chunithmsunplus/reference.png">
+<img src="/img/chunithm/sdhd/setup/servicemenu/2_reference.png">
 
 !!! tip ""
 
@@ -334,14 +334,14 @@
 
     Navigate to **閉店設定** (`CLOSE SETTING`, the 10th option).
 
-<img src="/img/chunithmsunplus/closingsetting.png">
+<img src="/img/chunithm/sdhd/setup/servicemenu/3_closingsetting.png">
 
 !!! tip ""
 
     Navigate to **時** (`HOUR`, the 2nd option) and use the `Service` button
     to toggle the setting until it says **全時刻** (`ALL TIME`).
 
-<img src="/img/chunithmsunplus/alltime.png">
+<img src="/img/chunithm/sdhd/setup/servicemenu/4_alltime.png">
 
 !!! tip ""
 
@@ -354,7 +354,7 @@
 
     If you're stuck at the `Waiting for Distribution Server` screen below, close the game and relaunch.
 
-<img src="/img/chunithmsunplus/distserver.png">
+<img src="/img/chunithm/sdhd/setup/servicemenu/5_distserver.png">
 
 !!! tip ""
 
