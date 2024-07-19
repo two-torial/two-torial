@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#beatmania-iidx-30-resident" class="md-skip">
+        <a href="#beatmania-iidx-31-resident" class="md-skip">
           Skip to content
         </a>
       
@@ -1369,9 +1369,27 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#about-ea3-configxml" class="md-nav__link">
+  <a href="#standard-lightning-modes" class="md-nav__link">
     <span class="md-ellipsis">
-      About ea3-config.xml
+      Standard &amp; Lightning modes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#changing-the-games-language" class="md-nav__link">
+    <span class="md-ellipsis">
+      Changing the game's language
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#more-about-ea3-configxml" class="md-nav__link">
+    <span class="md-ellipsis">
+      More about ea3-config.xml
     </span>
   </a>
   
@@ -4332,9 +4350,27 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#about-ea3-configxml" class="md-nav__link">
+  <a href="#standard-lightning-modes" class="md-nav__link">
     <span class="md-ellipsis">
-      About ea3-config.xml
+      Standard &amp; Lightning modes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#changing-the-games-language" class="md-nav__link">
+    <span class="md-ellipsis">
+      Changing the game's language
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#more-about-ea3-configxml" class="md-nav__link">
+    <span class="md-ellipsis">
+      More about ea3-config.xml
     </span>
   </a>
   
@@ -4358,39 +4394,68 @@
   
 
 
-<h1 id="beatmania-iidx-30-resident">beatmania IIDX 30 RESIDENT</h1>
+<h1 id="beatmania-iidx-31-resident">beatmania IIDX 31 RESIDENT</h1>
 <p><img src="/img/iidx30-31/resident.png"></p>
 <div class="admonition danger">
 <p class="admonition-title">Please make sure you downloaded your data from an appropriate source.<br>This guide is unable to troubleshoot any problems related to bad or poorly managed data.</p>
 </div>
 <hr />
-<h3 id="about-ea3-configxml">About ea3-config.xml</h3>
+<h3 id="standard-lightning-modes">Standard &amp; Lightning modes</h3>
+<div class="admonition warning">
+<p class="admonition-title">Lightning mode requires a 120hz capable monitor.</p>
+</div>
+<div class="admonition tip">
+<p>To make use of the Lightning Mode, which unlocks the subscreen and 120FPS, we need to go to the <code>contents\prop</code> folder and edit the <code>ea3-config.xml</code> file.</p>
+<p>We're interested in these lines:</p>
+<div class="language-xml highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="w">    </span><span class="nt">&lt;soft&gt;</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">        </span><span class="nt">&lt;model</span><span class="w"> </span><span class="na">__type=</span><span class="s">&quot;str&quot;</span><span class="nt">&gt;</span>LDJ<span class="nt">&lt;/model&gt;</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">        </span><span class="nt">&lt;dest</span><span class="w"> </span><span class="na">__type=</span><span class="s">&quot;str&quot;</span><span class="nt">&gt;</span>J<span class="nt">&lt;/dest&gt;</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">        </span><span class="nt">&lt;spec</span><span class="w"> </span><span class="na">__type=</span><span class="s">&quot;str&quot;</span><span class="nt">&gt;</span>A<span class="nt">&lt;/spec&gt;</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">        </span><span class="nt">&lt;rev</span><span class="w"> </span><span class="na">__type=</span><span class="s">&quot;str&quot;</span><span class="nt">&gt;</span>A<span class="nt">&lt;/rev&gt;</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="w">        </span><span class="nt">&lt;ext</span><span class="w"> </span><span class="na">__type=</span><span class="s">&quot;str&quot;</span><span class="nt">&gt;</span>2023090500<span class="nt">&lt;/ext&gt;</span>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="w">    </span><span class="nt">&lt;/soft&gt;</span>
+</span></code></pre></div>
+<p>This is the line that determines if the game will run in Standard (60 FPS) or Lightning (120 FPS) mode.</p>
+<div class="language-xml highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="nt">&lt;spec</span><span class="w"> </span><span class="na">__type=</span><span class="s">&quot;str&quot;</span><span class="nt">&gt;</span>B<span class="nt">&lt;/spec&gt;</span>
+</span></code></pre></div>
+<ul>
+<li><ins><code>B</code></ins> for Lightning (LDJ-010, TDJ, 120hz)</li>
+<li><ins><code>A</code></ins> for Standard (LDJ-003, LDJ, 60hz)</li>
+</ul>
+</div>
+<hr />
+<h3 id="changing-the-games-language">Changing the game's language</h3>
+<div class="admonition tip">
+<p>This is done in-game before card-in by pressing your <code>EFFECT</code> key.</p>
+</div>
+<hr />
+<h3 id="more-about-ea3-configxml">More about ea3-config.xml</h3>
 <div class="admonition tip">
 <p>The <code>ea3-config.xml</code> file is located inside the <code>prop</code> folder. </p>
 <p>Below is an explanation on what different sections of this file do.</p>
 <p>The following lines change the PCBID and HARDID that your system reports to your e-amusement server.<br />
 There is <ins><strong>no need to manually change this</strong></ins> as <code>spice2x</code> will do it for us.</p>
-<div class="language-xml highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nt">&lt;pcbid</span><span class="w"> </span><span class="na">__type=</span><span class="s">&quot;str&quot;</span><span class="nt">&gt;</span>00010203040506070809<span class="nt">&lt;/pcbid&gt;</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="nt">&lt;hardid</span><span class="w"> </span><span class="na">__type=</span><span class="s">&quot;str&quot;</span><span class="nt">&gt;</span>00010203040506070809<span class="nt">&lt;/hardid&gt;</span>
+<div class="language-xml highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="nt">&lt;pcbid</span><span class="w"> </span><span class="na">__type=</span><span class="s">&quot;str&quot;</span><span class="nt">&gt;</span>00010203040506070809<span class="nt">&lt;/pcbid&gt;</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="nt">&lt;hardid</span><span class="w"> </span><span class="na">__type=</span><span class="s">&quot;str&quot;</span><span class="nt">&gt;</span>00010203040506070809<span class="nt">&lt;/hardid&gt;</span>
 </span></code></pre></div>
 <p>The following line determines what version of the game you are running.<br />
 <ins><strong>You should never change this</strong></ins>. It should always say <code>LDJ</code>.</p>
-<div class="language-xml highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="nt">&lt;model</span><span class="w"> </span><span class="na">__type=</span><span class="s">&quot;str&quot;</span><span class="nt">&gt;</span>LDJ<span class="nt">&lt;/model&gt;</span>
+<div class="language-xml highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="nt">&lt;model</span><span class="w"> </span><span class="na">__type=</span><span class="s">&quot;str&quot;</span><span class="nt">&gt;</span>LDJ<span class="nt">&lt;/model&gt;</span>
 </span></code></pre></div>
 <p>The following line determines the game's region.
 <ins><strong>You should never change this</strong></ins>. As you can change the language in-game.</p>
-<div class="language-xml highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="nt">&lt;dest</span><span class="w"> </span><span class="na">__type=</span><span class="s">&quot;str&quot;</span><span class="nt">&gt;</span>J<span class="nt">&lt;/dest&gt;</span>
+<div class="language-xml highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="nt">&lt;dest</span><span class="w"> </span><span class="na">__type=</span><span class="s">&quot;str&quot;</span><span class="nt">&gt;</span>J<span class="nt">&lt;/dest&gt;</span>
 </span></code></pre></div>
-<p><ins><strong>You should never change this</strong></ins>. It should always say <code>A</code> for Epolis.</p>
-<div class="language-xml highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="nt">&lt;rev</span><span class="w"> </span><span class="na">__type=</span><span class="s">&quot;str&quot;</span><span class="nt">&gt;</span>A<span class="nt">&lt;/rev&gt;</span>
+<p><ins><strong>You should never change this</strong></ins>. It should always say <code>A</code> for Resident.</p>
+<div class="language-xml highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="nt">&lt;rev</span><span class="w"> </span><span class="na">__type=</span><span class="s">&quot;str&quot;</span><span class="nt">&gt;</span>A<span class="nt">&lt;/rev&gt;</span>
 </span></code></pre></div>
 <p>The following line determines your datecode.<br />
 <ins><strong>Always keep it up to date</strong></ins> with your game's current version.</p>
-<div class="language-xml highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="nt">&lt;ext</span><span class="w"> </span><span class="na">__type=</span><span class="s">&quot;str&quot;</span><span class="nt">&gt;</span>2024052100<span class="nt">&lt;/ext&gt;</span>
+<div class="language-xml highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="nt">&lt;ext</span><span class="w"> </span><span class="na">__type=</span><span class="s">&quot;str&quot;</span><span class="nt">&gt;</span>2024052100<span class="nt">&lt;/ext&gt;</span>
 </span></code></pre></div>
 <p>The following line determine what remote service URL <code>spice2x</code> is supposed to connect to.<br />
 There is <ins><strong>no need to manually change this</strong></ins> as <code>spice2x</code> will do it for us.</p>
-<div class="language-xml highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="nt">&lt;services</span><span class="w"> </span><span class="na">__type=</span><span class="s">&quot;str&quot;</span><span class="nt">&gt;</span>http://localhost:8083<span class="nt">&lt;/services&gt;</span>
+<div class="language-xml highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="nt">&lt;services</span><span class="w"> </span><span class="na">__type=</span><span class="s">&quot;str&quot;</span><span class="nt">&gt;</span>http://localhost:8083<span class="nt">&lt;/services&gt;</span>
 </span></code></pre></div>
 </div>
 
@@ -4413,7 +4478,7 @@ There is <ins><strong>no need to manually change this</strong></ins> as <code>sp
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">July 12, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">July 19, 2024</span>
   </span>
 
     
