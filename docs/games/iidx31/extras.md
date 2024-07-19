@@ -27,11 +27,11 @@
     This is the line that determines if the game will run in Standard (60 FPS) or Lightning (120 FPS) mode.
 
     ```xml
-	<spec __type="str">B</spec>
+	<spec __type="str">E</spec>
     ```
 
-    - ^^`B`^^ for Lightning (LDJ-010, TDJ, 120hz)
     - ^^`E`^^ for Standard (LDJ-012, LDJ, 60hz)
+    - ^^`B`^^ for Lightning (LDJ-010, TDJ, 120hz)
     
 ---
 ### Changing the game's language
