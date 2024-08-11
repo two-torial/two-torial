@@ -31,7 +31,8 @@
     ```
 
     Use:
-    - ^^`F`^^ for Nemsys
+
+    - ^^`F`^^ for Nemsys  
     - ^^`G`^^ for Valkyrie
     
 ---
@@ -60,10 +61,11 @@
     ```
 
     Use:
-    - ^^`J`^^ for Japan (Japanese)
-    - ^^`K`^^ for Korea (Korean + some censored jackets)
-    - ^^`A`^^ for Asia/Australia (English)
-    - ^^`U`^^ for America (English + some censoring in recent versions)
+
+    - ^^`J`^^ for Japan (Japanese)  
+    - ^^`K`^^ for Korea (Korean + some censored jackets)  
+    - ^^`A`^^ for Asia/Australia (English)  
+    - ^^`U`^^ for America (English + some censoring in recent versions)  
     - ^^`Y`^^ for Indonesia
 
 ---
