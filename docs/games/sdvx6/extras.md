@@ -6,19 +6,11 @@
 ---
 ### Nemsys & Valkyrie modes
 
-!!! warning "Valkyrie mode requires a 120hz capable monitor, or to have patched your `.dll` with `Valkyrie Mode 60hz`.<br>You will also need a second 60hz monitor with touchscreen capabilities."
-
-    If you do not have that second monitor:
-
-    - Open `spicecfg.exe`.
-    - Head to the `Options` tab.
-    - Enable `Only Use One Monitor` under the `Graphics (common)` category.
-
-    <img src="/img/sdvx6/troubleshooting/1_onemonitor.png">
+!!! warning "Valkyrie mode requires a 120hz capable monitor, or to have patched your `.dll` with `Valkyrie Mode 60hz`."
 
 !!! tip ""
 
-	To make use of the Valkyrie Mode, which unlocks the subscreen and 120FPS, we need to go to the `contents\prop` folder and edit the `ea3-config.xml` file.
+	To make use of the Valkyrie Mode (Subscreen, 120FPS, S-CRITICAL..) you need to go to the `contents\prop` folder and edit the `ea3-config.xml` file.
 
     We're interested in these lines:
 
@@ -35,10 +27,12 @@
     This is the line that determines if the game will run in Nemsys (60 FPS) or Valkyrie (120 FPS) mode.
 
     ```xml
-    <spec __type="str">F</spec>
+    <spec __type="str">G</spec>
     ```
 
-    Use ^^`F`^^ for Nemsys, or ^^`G`^^ for Valkyrie.    
+    Use:
+    - ^^`F`^^ for Nemsys
+    - ^^`G`^^ for Valkyrie
     
 ---
 ### Changing the game's language
@@ -65,7 +59,12 @@
     <dest __type="str">J</dest>
     ```
 
-    Use ^^`J`^^ for Japanese, ^^`K`^^ for Korean, or ^^`A`^^ for English.
+    Use:
+    - ^^`J`^^ for Japan (Japanese)
+    - ^^`K`^^ for Korea (Korean + some censored jackets)
+    - ^^`A`^^ for Asia/Australia (English)
+    - ^^`U`^^ for America (English + some censoring in recent versions)
+    - ^^`Y`^^ for Indonesia
 
 ---
 ### More about ea3-config.xml
