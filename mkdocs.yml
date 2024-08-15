@@ -124,6 +124,11 @@ nav:
                   - "Game Setup": "games/chunithmluminous/setup.md"
                   - "Controllers": "games/chunithmluminous/controllers.md"
                   - "Troubleshooting": "games/chunithmluminous/troubleshooting.md"
+          - "MAIMAI":
+              - "BUDDIES":
+                  - "Game Setup": "games/maimai/buddies/setup.md"
+                  - "Controllers": "games/maimai/buddies/controllers.md"
+                  - "Troubleshooting": "games/maimai/buddies/troubleshooting.md"
       - NAMCO:
           - "Taiko no Tatsujin":
               - "Nijiiro":
