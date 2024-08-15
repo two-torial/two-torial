@@ -195,7 +195,7 @@
 	syntax highlighting such as [Notepad++](https://notepad-plus-plus.org/).
 
 	If you've been matching the file structure as described in the 
-	[Preparing data](#preparing-data) section, you can fill in this 
+	[Preparing data](#3-preparing-data) section, you can fill in this 
 	section with the values below:
 
 	```ini
