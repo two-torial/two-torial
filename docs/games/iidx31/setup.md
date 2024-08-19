@@ -82,7 +82,7 @@
 		<soft>
 			<model __type="str">LDJ</model>
 			<dest __type="str">J</dest>
-			<spec __type="str">B</spec>
+			<spec __type="str">E</spec>
 			<rev __type="str">A</rev>
 			<ext __type="str">2024050700</ext>
 		</soft>
