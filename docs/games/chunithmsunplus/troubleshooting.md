@@ -15,7 +15,7 @@
     have valid syntax, your ICF files are correct, and [the OpenSSL fix](setup.md#fixing-openssl-on-intel-10th-gen-and-newer-cpus)
     is applied on Intel Core 10th Gen CPUs and newer.
     - Using the incorrect dipswitch settings for your refresh rate (e.g. `dipsw3=0` on
-    a 60Hz screen). Refer to [the setup guide](setup.md#gpio) to fix it.
+    a 60Hz screen). Refer to [the setup guide](setup.md) to fix it.
     - Enabling 120FPS on a monitor that is not **exactly 120Hz** or **exactly 1080p**.
     If you cannot set your monitor's refresh rate to 120Hz, apply the "Bypass 120Hz
     monitor check"/"Bypass 1080p monitor check" on a CHUNITHM web patcher (see [Resources](../../resources.md#web-patchers)).
