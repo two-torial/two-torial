@@ -4924,7 +4924,7 @@
 <p class="admonition-title">Go through the <a href="../../../extras/patchsp2x/">Spice2x Patching</a> page to import patches.</p>
 </div>
 <div class="admonition danger">
-<p class="admonition-title">As a general rule of thumb, if you're not sure what a patch does or you're not absolutely certain you need it, leave it alone, regardless of recommendations below.</p>
+<p class="admonition-title">If you don't absolutely need a patch or you're unsure what it does, leave it alone! Regardless of recommendations below.</p>
 </div>
 <details class="tip">
 <summary>General patches</summary>
@@ -4940,7 +4940,7 @@
 <tr>
 <td>Disable power change</td>
 <td>Either</td>
-<td>Prevents the game from changing    Windows power settings.</td>
+<td>Prevents the game from changing Windows power settings.</td>
 </tr>
 <tr>
 <td>Disable monitor change</td>
@@ -4950,22 +4950,22 @@
 <tr>
 <td>Force BIO2 (KFC) IO in Valkyrie mode</td>
 <td>OFF</td>
-<td></td>
+<td>Only useful for real cabs or Valkyrie at 60hz.</td>
 </tr>
 <tr>
 <td>Shared mode WASAPI</td>
 <td>Either</td>
-<td>Runs the game in non-exclusive audio mode, allowing you to hear audio from other sources <strong>at the cost of audio latency</strong>.</td>
+<td><strong>For non-Valkyrie setups</strong>. Runs the game with non-exclusive WASAPI audio, allowing you to hear audio from other sources <strong>at the cost of audio latency</strong>.</td>
 </tr>
 <tr>
 <td>Shared mode WASAPI Valkyrie</td>
 <td>Either</td>
-<td>Same as above for Valkyrie setups.</td>
+<td><strong>For Valkyrie setups</strong>. Same as above.</td>
 </tr>
 <tr>
-<td>Allow non E004 cards</td>
+<td>ASIO 2 Channels Mode</td>
 <td>OFF</td>
-<td>Makes the game accept cards that do not start with E004, you typically won't need this.</td>
+<td><strong>For ASIO audio only</strong>. Uses 2 channels instead of 8, useful for some audio cards.</td>
 </tr>
 <tr>
 <td>Unlock All Songs</td>
@@ -4980,7 +4980,7 @@
 <tr>
 <td>Uncensor album jackets (for K region only)</td>
 <td>OFF</td>
-<td>Only consider turning this on if your game is set to Korean. The game is already "uncensored" otherwise.</td>
+<td><strong>Only useful for Korean region</strong>. The game is already "uncensored" otherwise.</td>
 </tr>
 <tr>
 <td>Hide all bottom text</td>
@@ -5003,19 +5003,24 @@
 <td>Freezes the timer in premium environments.</td>
 </tr>
 <tr>
+<td>Hide premium guide banner</td>
+<td>Either</td>
+<td>Hides the premium guide banner at the bottom of the screen during play.</td>
+</tr>
+<tr>
 <td>Premium Time Length</td>
 <td>Any</td>
 <td>Defines how long your premium time will be. If you've frozen premium time this is just vanity.</td>
 </tr>
 <tr>
-<td>Fake Japan Region</td>
-<td>Either</td>
-<td>Unlocks Japan exclusive content if your game is set to any other region/language.</td>
-</tr>
-<tr>
 <td>Valkyrie Mode 60hz</td>
 <td>OFF</td>
 <td>Allows 60hz monitor users to use Valkyrie-exclusive features. To be used in conjunction with the Force BIO2 patch and <code>G</code> spec in <code>ea3-config.xml</code>.</td>
+</tr>
+<tr>
+<td>Fake Region</td>
+<td>Japan</td>
+<td>Unlocks region specific content regardless of the chosen region in <code>ea3-config.xml</code>. Japan unlocks the most content and is therefore recommended.</td>
 </tr>
 </tbody>
 </table>
@@ -5037,35 +5042,6 @@
 <tr>
 <td>Note FPS Target</td>
 <td>120 FPS <strong>(NOT higher)</strong></td>
-</tr>
-<tr>
-<td>Force Note FPS Target</td>
-<td>ON</td>
-</tr>
-</tbody>
-</table>
-</details>
-<details class="tip">
-<summary>If your monitor only supports 60hz</summary>
-<table>
-<thead>
-<tr>
-<th>Patch</th>
-<th>Recommendation</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Game FPS Target</td>
-<td>60 FPS <strong>(Default)</strong></td>
-</tr>
-<tr>
-<td>Note FPS Target</td>
-<td>60 FPS <strong>(Default)</strong></td>
-</tr>
-<tr>
-<td>Force Note FPS Target</td>
-<td>OFF</td>
 </tr>
 </tbody>
 </table>
@@ -5291,7 +5267,7 @@ To keep your card number safe, create a new <code>.txt</code> file with ONLY it 
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">July 17, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">September 15, 2024</span>
   </span>
 
     
