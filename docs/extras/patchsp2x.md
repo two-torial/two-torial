@@ -1,6 +1,13 @@
 # Spice2x DLL Patching
 
-!!! info "Known spice2x patchers: [Resources](../resources.md#spice2x-patchers)"
+!!! info "TWO-TORIAL Patcher"
+
+	URL: `https://sp2x.two-torial.xyz`  
+	[GitHub Repo](https://github.com/two-torial/sp2xpatcher)  
+	[Supported Games](https://github.com/two-torial/sp2xpatcher/blob/main/SUPPORTED.md)  
+	[Contributing](https://github.com/two-torial/sp2xpatcher/blob/main/CONTRIBUTING.md)  
+
+	[Known spice2x patchers](../resources.md#spice2x-patchers)
 
 !!! warning "Compatibility"
 

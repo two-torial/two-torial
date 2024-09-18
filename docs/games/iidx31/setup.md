@@ -6,6 +6,8 @@
 ---
 ### About data
 
+!!! info "The full game should be around 100gb while updates are only around 2-5gb in size."
+
 !!! info "Standard (LDJ) / Lightning (TDJ)"
 
 	Please keep the following in mind as you're going through this guide.  
@@ -82,7 +84,7 @@
 		<soft>
 			<model __type="str">LDJ</model>
 			<dest __type="str">J</dest>
-			<spec __type="str">B</spec>
+			<spec __type="str">E</spec>
 			<rev __type="str">A</rev>
 			<ext __type="str">2024050700</ext>
 		</soft>
@@ -90,8 +92,8 @@
 
 	On the line with `<spec __type="str">` the letter needs to match your data type:
 	
-    - ^^`B`^^ for Lightning (LDJ-010, TDJ, 120hz)
     - ^^`E`^^ for Standard (LDJ-012, LDJ, 60hz)
+    - ^^`D`^^ for Lightning (LDJ-010, TDJ, 120hz)
   
 	Replace the letter accordingly if necessary.
 

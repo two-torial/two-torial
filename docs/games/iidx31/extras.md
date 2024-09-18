@@ -31,7 +31,7 @@
     ```
 
     - ^^`E`^^ for Standard (LDJ-012, LDJ, 60hz)
-    - ^^`B`^^ for Lightning (LDJ-010, TDJ, 120hz)
+    - ^^`D`^^ for Lightning (LDJ-010, TDJ, 120hz)
     
 ---
 ### Changing the game's language

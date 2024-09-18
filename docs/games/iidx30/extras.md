@@ -1,4 +1,4 @@
-# beatmania IIDX 31 RESIDENT
+# beatmania IIDX 30 RESIDENT
 <img src="/img/iidx30-31/resident.png">
 
 !!! danger "Please make sure you downloaded your data from an appropriate source.<br>This guide is unable to troubleshoot any problems related to bad or poorly managed data."
@@ -31,7 +31,7 @@
     ```
 
     - ^^`A`^^ for Standard (LDJ-003, LDJ, 60hz)
-    - ^^`B`^^ for Lightning (LDJ-010, TDJ, 120hz)
+    - ^^`D`^^ for Lightning (LDJ-010, TDJ, 120hz)
     
 ---
 ### Changing the game's language

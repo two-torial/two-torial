@@ -159,7 +159,7 @@
     setting. Do not add another key.
 
     ```ini
-    [gpio]
+    [system]
     dipsw2=1
     dipsw2=1 ; WRONG!
     ```
@@ -178,14 +178,18 @@
     appdata=../../AppData
     ```
 
-#### `[gpio]`
+#### `[system] (formerly [gpio])`
+
+!!! warning
+
+    As of 2024-08-20, the [gpio] section in segatools has been renamed to [system].
 
 !!! tip ""
 
     - If you have a 120Hz monitor, set `dipsw2` and `dipsw3` to 0:
 
     ```ini
-    [gpio]
+    [system]
     dipsw2=0
     dipsw3=0
     ```
@@ -193,7 +197,7 @@
     - If you have a 60Hz monitor, set `dipsw2` and `dipsw3` to 1:
 
     ```ini
-    [gpio]
+    [system]
     dipsw2=1
     dipsw3=1
     ```
