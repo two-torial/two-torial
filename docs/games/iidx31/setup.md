@@ -6,6 +6,8 @@
 ---
 ### About data
 
+!!! info "The full game should be around 100gb while updates are only around 2-5gb in size."
+
 !!! info "Standard (LDJ) / Lightning (TDJ)"
 
 	Please keep the following in mind as you're going through this guide.  
