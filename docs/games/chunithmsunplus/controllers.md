@@ -188,8 +188,8 @@
 
 !!! tip ""
 
-    - Install Brokenithm on your iOS/iPadOS device by joining the [Brokenithm TestFlight](https://testflight.apple.com/join/15FSg9sB).
-        - If the TestFlight is full, you will need to sideload the [IPA](https://redive.estertion.win/ipas/Brokenithm-iOS-build-10.ipa) with [Sideloadly](https://sideloadly.io/).
+    - Install Brokenithm on your iOS/iPadOS device by joining the [Brokenithm TestFlight](https://testflight.apple.com/join/U6kwvETm) ^^(iOS 18 only)^^.
+        - If your iOS/iPadOS device doesn't have iOS 18, you will need to sideload a different [IPA](https://redive.estertion.win/ipas/Brokenithm-iOS-build-10.ipa) with [Sideloadly](https://sideloadly.io/).
     - If you have iTunes and/or iCloud installed from the Microsoft Store on your computer, **uninstall it.**
     - Install the **non-Microsoft Store** version of iTunes from the [website](https://www.apple.com/itunes/download/win64).
     - Download the latest version of [Brokenithm-Evolved-iOS server](https://redive.estertion.win/ipas/Brokenithm/Brokenithm-Evolved-iOS-v0.3.7z)
