@@ -23,9 +23,9 @@
 
 	`TaikoArcadeLoader` is a loader and hardware emulator for Nijiiro. It will allow us to launch the game, as well as configure inputs and network settings. More information can be found at the [TAL github page](https://github.com/esuo1198/TaikoArcadeLoader).
 
-	- ~~Download the latest version of TAL from [the actions tab](https://github.com/esuo1198/TaikoArcadeLoader/actions) of the TAL page. This will be a file named `dist`. You will need to be logged into github to download this file.~~ **The GitHub's latest Dist is unavailable at the moment, see below instead.**
+	- Download the latest version of TAL from [the actions tab](https://github.com/esuo1198/TaikoArcadeLoader/actions) of the TAL page. This will be a file named `dist`. You will need to be logged into github to download this file.
 
-	- Download TAL from our [Discord](https://discord.gg/cZRUmEPK78) in `Taiko > Resources`
+	- If github link is not working download TAL from our [Discord](https://discord.gg/cZRUmEPK78) in `Taiko > Resources`
 
 	- Copy the files from `dist.zip` to your `Executable/Release` folder. When asked, choose to replace the existing files with the newly copied files.  
 
