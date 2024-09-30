@@ -56,7 +56,7 @@
         - In `config.toml` set `vsync =` to `true`.  
      
     ??? tip "If you have a display that is less than 120hz"                                                   
-        - In `config.toml` set `vsync =` to `false`.                                                                        
+        - In `config.toml` set `vsync =` to `false` and `windowed =` to `true`.                                                                        
         - Limit the FPS for `Taiko.exe` using your GPU settings or [RTSS](https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download/)      
     
         <img src="/img/taikonijiiro/troubleshooting/fps.png">
