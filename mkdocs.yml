@@ -49,6 +49,10 @@ nav:
                   - "Game Setup": "games/iidx31/setup.md"
                   - "Extra Information": "games/iidx31/extras.md"
                   - "Troubleshooting": "games/iidx31/troubleshooting.md"
+              - "IIDX 32 Pinky Crush":
+                  - "Game Setup": "games/iidx32/setup.md"
+                  - "Extra Information": "games/iidx32/extras.md"
+                  - "Troubleshooting": "games/iidx32/troubleshooting.md"
           - "SDVX":
               - "SDVX IV HEAVENLY HAVEN":
                   - "First Time Setup": "games/sdvx4/setup.md"
