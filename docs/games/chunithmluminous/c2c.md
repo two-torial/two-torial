@@ -57,3 +57,9 @@
 	<img src="/img/chunithm/sdhd/c2c/client.png">
 
 	If you are able to see each other's session, congrats! You can now enjoy some cab-to-cab chain action!
+
+### Troubleshooting
+
+!!! warning "Have any other issues?"
+
+	Check out the [Troubleshooting](troubleshooting.md) and [Error Codes](../../errorcodes/sega.md) pages.
