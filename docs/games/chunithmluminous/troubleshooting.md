@@ -120,3 +120,13 @@
 
     You can apply the "Shared Audio" patch on a CHUNITHM web patcher (see [Resources](../../resources.md#web-patchers))
     to hear audio outside of the game at the cost of audio latency.
+
+---
+
+### Cabinet-to-Cabinet(c2c) Fixes
+
+!!! tip ""
+
+    c2c can have many problems but you can fix most of them by applying the "Patch for head-to-head play" and disabling "Set all timers to 999" on a CHUNITHM web patcher (see [Resources](../../resources.md#web-patchers)).
+
+    If the above does not work then please ensure both machines have the exact same data and can communicate with each other if they cannot then you can try disabling firewalls or changing the c2c group.
