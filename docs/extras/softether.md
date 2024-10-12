@@ -11,6 +11,8 @@
 
 !!! danger "This part of the guide is for hosting a hub! If you only wish to connect to a hub, refer to [Connecting to a SoftEther Hub](#connecting-to-a-softether-hub)."
 
+!!! info "While this guide is mainly focused on setting up link-play for arcade games, theoretically this should also work with other PC games that supports link-playing over LAN."
+
 #### Setting up the Server, and Creating a Hub
 
 !!! tip ""
