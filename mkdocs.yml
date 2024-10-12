@@ -111,22 +111,27 @@ nav:
               - "NEW":
                   - "Game Setup": "games/chunithmnew/setup.md"
                   - "Controllers": "games/chunithmnew/controllers.md"
+                  - "Cabinet-to-Cabinet/Multiplayer Link": "games/chunithmnew/c2c.md"
                   - "Troubleshooting": "games/chunithmnew/troubleshooting.md"
               - "NEW PLUS":
                   - "Game Setup": "games/chunithmnewplus/setup.md"
                   - "Controllers": "games/chunithmnewplus/controllers.md"
+                  - "Cabinet-to-Cabinet/Multiplayer Link": "games/chunithmnewplus/c2c.md"
                   - "Troubleshooting": "games/chunithmnewplus/troubleshooting.md"
               - "SUN":
                   - "Game Setup": "games/chunithmsun/setup.md"
                   - "Controllers": "games/chunithmsun/controllers.md"
+                  - "Cabinet-to-Cabinet/Multiplayer Link": "games/chunithmsun/c2c.md"
                   - "Troubleshooting": "games/chunithmsun/troubleshooting.md"
               - "SUN PLUS":
                   - "Game Setup": "games/chunithmsunplus/setup.md"
                   - "Controllers": "games/chunithmsunplus/controllers.md"
+                  - "Cabinet-to-Cabinet/Multiplayer Link": "games/chunithmsunplus/c2c.md"
                   - "Troubleshooting": "games/chunithmsunplus/troubleshooting.md"
               - "LUMINOUS":
                   - "Game Setup": "games/chunithmluminous/setup.md"
                   - "Controllers": "games/chunithmluminous/controllers.md"
+                  - "Cabinet-to-Cabinet/Multiplayer Link": "games/chunithmluminous/c2c.md"
                   - "Troubleshooting": "games/chunithmluminous/troubleshooting.md"
           - "maimai DX":
               - "BUDDiES":
