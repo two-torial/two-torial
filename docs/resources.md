@@ -5,24 +5,32 @@
 !!! tip "See [Spice2x Patching](./extras/patchsp2x.md)."
 
 	- **TWO-TORIAL** - `https://sp2x.two-torial.xyz/` - **Our [open-source](https://github.com/two-torial/sp2xpatcher) patcher for Spice2x compatible games.**
-	- **DJTrackers** - `https://djtrackers.com/bemanipatcher/2x` - **Recommended for anything we don't yet support**
+	- **DJTrackers** - `https://djtrackers.com/bemanipatcher/2x` - **Recommended for anything we don't yet support. Our IIDX patches are based off of theirs for the most part.**
 
 ---
 ### Web Patchers
 
 !!! tip "See [Web Patching](./extras/patchweb.md)."
 
-	- [TWO-TORIAL](https://patcher.two-torial.xyz/) - **Our [open-source](https://github.com/two-torial/webpatcher) web patcher** *(based on mon's)* **for games incompatible with Spice2x.**
-	- [mon's](https://mon.im/bemanipatcher/) - Supports a variety of **old games**
-	- [Scribblers Chuni Only Patcher](https://scrib-bler.github.io/patcher/) - Has every version of **Chunithm** available
+	- [TWO-TORIAL](https://patcher.two-torial.xyz/) - **Our [open-source](https://github.com/two-torial/webpatcher) web patcher** *(based on mon's)* **for games incompatible with Spice2x.** Also integrates Scribbler's patches for chunithm.
+	- [mon's](https://mon.im/bemanipatcher/) - The longest lasting web patcher, supports a variety of **n-1 and older** games.
+	- [Scribbler's Chuni Only Patcher](https://scrib-bler.github.io/patcher/) - Has every version of **Chunithm** available.
 
 ---
 ### General
 
 !!! tip ""
 
-	- [Spice2x Wiki](https://github.com/spice2x/spice2x.github.io/wiki) - Contains a bunch of useful info
-	- [Remywiki](https://remywiki.com/Main_Page) - Generalized BEMANI content wiki
+	- [Spice2x Wiki](https://github.com/spice2x/spice2x.github.io/wiki) - The best resource for Spice2x
+	- [Bemaniwiki](https://bemaniwiki.com/) - A bemani wiki written in japanese
+	- [RemyWiki](https://remywiki.com/Main_Page) - Bemani arcade games wiki with lots of useful info
+	- [SilentBlue](https://silentblue.remywiki.com/Main_Page) - By RemyWiki's creators, but for SEGA games
+
+---
+### Cons & Cabs
+
+!!! tip ""
+
 	- [GameRepair.info](https://gamerepair.info/) - Repository of arcade part repair & misc information
 	- [Cons&Stuff](https://consandstuff.github.io/) - Community resource for DIY controllers
 	- [Rhythm Game Cabs](https://discord.gg/MNcMGCE8sk) - Discord server for arcade cabs
