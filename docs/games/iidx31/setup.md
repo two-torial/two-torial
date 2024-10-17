@@ -178,25 +178,23 @@
 
 #### Patches
 
-!!! info "Go through the [Spice2x Patching](../../extras/patchsp2x.md) page to import patches."
+!!! info "First go through the [Spice2x Patching](../../extras/patchsp2x.md) page to import patches."
 
-	There are **many** patches available for IIDX.  
-	We will only bring up the ones we think could be genuinely useful.
+!!! danger "If not using ASIO, you NEED to patch `Force Audio Output Mode` to `WASAPI` otherwise the game won't boot."
 
-!!! danger "As a general rule of thumb, if you're not sure what a patch does or you're not absolutely certain you need it, leave it alone, regardless of recommendations below."
+??? tip "Other patches that may be useful to you"
 
-??? tip "General patches"
+	Note: As a general rule of thumb, the fewer patches the better. If you're unsure what something does, don't enable or change it.
 
 	| Patch 										| Recommendation 	| Description |
 	|-----------------------------------------------|----------------	|-------------|
+	| Force TDJ Mode								| Either			| Starts the game in TDJ (010) mode when using a LDJ (012) `.dll` file. Use this instead of forcing 120Hz using other patches. |
 	| Standard/Menu Timer Freeze					| Either		 	| Freezes the timer in all non-premium environments. |
 	| Premium Free Timer Freeze						| Either		 	| Freezes the timer in Premium Free mode. |
 	| Cursor Lock									| Either			| In song select, always returns to the previously selected song. |
 	| CS-style Song Start Delay						| Either			| At the start of a song, holding Start will pause it until you release it. |
 	| Increase Game Volume							| Either			| Ignores in-game settings and keeps the volume at a maximum, helpful for `TDJ` which tends to be quiet. |
 	| Hide all bottom text							| Either 		 	| Hides text at the bottom of the screen such as `Credits` or `Paseli`. |
-	| Force LDJ Mode								| OFF				| Starts the game in LDJ (012) mode when using a TDJ (010) `.dll` file. **Please just use the proper `.dll` file instead of forcing the other mode.** |
-	| Force Audio Output Mode						| WASAPI			| Forces the game to output the game using a specific method (WASAPI/ASIO). **This can potentially fix desync or crashing issues in recent updates.** |
 
 #### API
 
