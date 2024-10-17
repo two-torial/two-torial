@@ -5369,15 +5369,14 @@ When updating from a previous version to the next, our current <code>.dll</code>
 </div>
 <h4 id="patches">Patches</h4>
 <div class="admonition info">
-<p class="admonition-title">Go through the <a href="../../../extras/patchsp2x/">Spice2x Patching</a> page to import patches.</p>
-<p>There are <strong>many</strong> patches available for IIDX.<br />
-We will only bring up the ones we think could be genuinely useful.</p>
+<p class="admonition-title">First go through the <a href="../../../extras/patchsp2x/">Spice2x Patching</a> page to import patches.</p>
 </div>
 <div class="admonition danger">
-<p class="admonition-title">As a general rule of thumb, if you're not sure what a patch does or you're not absolutely certain you need it, leave it alone, regardless of recommendations below.</p>
+<p class="admonition-title">If not using ASIO, you NEED to patch <code>Force Audio Output Mode</code> to <code>WASAPI</code> otherwise the game won't boot.</p>
 </div>
 <details class="tip">
-<summary>General patches</summary>
+<summary>Other patches that may be useful to you</summary>
+<p>Note: As a general rule of thumb, the fewer patches the better. If you're unsure what something does, don't enable or change it.</p>
 <table>
 <thead>
 <tr>
@@ -5387,6 +5386,11 @@ We will only bring up the ones we think could be genuinely useful.</p>
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>Force TDJ Mode</td>
+<td>Either</td>
+<td>Starts the game in TDJ (010) mode when using a LDJ (012) <code>.dll</code> file. Use this instead of forcing 120Hz using other patches.</td>
+</tr>
 <tr>
 <td>Standard/Menu Timer Freeze</td>
 <td>Either</td>
@@ -5416,16 +5420,6 @@ We will only bring up the ones we think could be genuinely useful.</p>
 <td>Hide all bottom text</td>
 <td>Either</td>
 <td>Hides text at the bottom of the screen such as <code>Credits</code> or <code>Paseli</code>.</td>
-</tr>
-<tr>
-<td>Force LDJ Mode</td>
-<td>OFF</td>
-<td>Starts the game in LDJ (012) mode when using a TDJ (010) <code>.dll</code> file. <strong>Please just use the proper <code>.dll</code> file instead of forcing the other mode.</strong></td>
-</tr>
-<tr>
-<td>Force Audio Output Mode</td>
-<td>WASAPI</td>
-<td>Forces the game to output the game using a specific method (WASAPI/ASIO). <strong>This can potentially fix desync or crashing issues in recent updates.</strong></td>
 </tr>
 </tbody>
 </table>
@@ -5691,7 +5685,7 @@ To keep your card number safe, create a new <code>.txt</code> file with ONLY it 
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">October 9, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">October 17, 2024</span>
   </span>
 
     
