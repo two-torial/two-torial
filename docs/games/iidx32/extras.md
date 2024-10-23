@@ -71,7 +71,7 @@
 	<dest __type="str">J</dest>
 	```
 
-    ^^**You should never change this**^^. It should always say `A` for Epolis.
+    ^^**You should never change this**^^. It should always say `A` for Pinky Crush.
 
     ```xml
     <rev __type="str">A</rev>
