@@ -79,3 +79,11 @@
 !!! tip ""
 
 	Many setups have found some difficulty with audio due to various equipment being used. Consider using the `Shared Mode WASAPI` patch.
+
+---
+
+### My audio is slowed/distorted and I'm using the `Shared Mode WASAPI` patch.
+
+!!! tip ""
+
+	When using this patch, you must set your audio device's sample rate to 48000 Hz. See [audio](setup.md#audio) for more details
