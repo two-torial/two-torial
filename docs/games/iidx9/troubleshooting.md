@@ -5,7 +5,7 @@
 ### My Game Is Running Crazy Fast!
 
 !!! tip ""
-	The most common reason for this is the game is running over its required 59.95hz, the game is hardcoded to run at 59.95hz and this cannot be changed. To solve this, check [this section](setup.md#setting-up-the-games-resolution-and-locking-fps) of the guide again.
+	The most common reason for this is the game is running over its required 59.95hz, the game is hardcoded to run at 59.95hz and this cannot be changed. To solve this, check [this section](setup.md#game-resolution-and-locking-fps) of the guide again.
 
 ### I'm getting "NETWORK WARNING" instead of "NETWORK OK"
 
@@ -54,4 +54,4 @@
 #### Fix #2 (RtEffects.dll didn't get replaced)
 
 !!! tip ""
-	Refer to [Getting Started](setup.md#getting-started) again and check if you have followed all the instructions explained in it.
+	Refer to [Getting Started](setup.md#preparing-data) again and check if you have followed all the instructions explained in it.

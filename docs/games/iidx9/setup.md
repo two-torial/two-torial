@@ -89,7 +89,7 @@
 	- In `Game Light`, select the corresponding button that will be used for that light.
 	- Repeat for your other lights.
 
-!!! info "If you'd like to play offline, you can head straight to [Setting up the games resolution](#setting-up-the-games-resolution-and-locking-fps)"
+!!! info "If you'd like to play offline, you can head straight to [Game resolution and locking FPS](#game-resolution-and-locking-fps)"
 
 #### Configuring Bemanitools for a network
 
