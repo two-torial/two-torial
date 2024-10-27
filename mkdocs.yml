@@ -12,7 +12,7 @@ nav:
           - "IIDX":
               - "IIDX 9th style":
                   - "First Time Setup": "games/iidx9/setup.md"
-                  - "Common Problems/Tips": "games/iidx9/problems.md"
+                  - "Troubleshooting": "games/iidx9/troubleshooting.md"
               - "IIDX 10th style":
                   - "First Time Setup": "games/iidx10/setup.md"
                   - "Common Problems/Tips": "games/iidx10/problems.md"
