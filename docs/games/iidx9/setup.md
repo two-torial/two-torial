@@ -16,7 +16,6 @@
 	- Finally, click `OK` again to exit out of properties.
 
 ---
-
 ### Installing Bemanitools
 
 !!! tip ""
@@ -44,7 +43,6 @@
 	This enables us to use the graphic options inside :material-file-code:`iidxhook-09.conf` which we will take advantage of.
 
 ---
-
 ### Configuring Bemanitools
 
 !!! info "To configure your keybinds, open your :material-file:`config.bat` file."
@@ -132,6 +130,7 @@
 	eamuse.eamid=XXXXXXXXXXXXXXXXXXXX
 	```
 
+---
 ### Game resolution and locking FPS
 
 !!! tip ""
@@ -175,7 +174,7 @@
 	gfx.scale_back_buffer_filter=none
 	```
 	
-	If you can't seem to find them, simply press `CTRL` + `F` and search for `gfx.frame_rate_limit=0.0`. This will bring you to the first line we want to edit.
+	If you can't seem to find them, press `CTRL` + `F` and search for `gfx.frame_rate_limit=0.0`. This will bring you to the first line we want to edit.
 	
 !!! tip ""
 	Listed below are the values we want to change them to.
@@ -198,6 +197,7 @@
 	gfx.scale_back_buffer_filter=point
 	```
 
+---
 ### First launch
 
 !!! danger "If you have any issues running the game, refer to the [Troubleshooting](troubleshooting.md) page."
@@ -227,7 +227,7 @@
 	- Press `1` and `2` to go up and down.
 	- Press `6` to select/execute.
 	
-	Navigate to `CLOCK SETUP`. You do not need to manually change it. Simply navigate to `SAVE AND EXIT`.
+	Navigate to `CLOCK SETUP`. You do not need to manually change it. Navigate to `SAVE AND EXIT`.
 
 <img src="/img/iidx9/firstlaunch/4.png">
 
@@ -270,7 +270,8 @@
 	So, close the game and open it again.
 	
 <img src="/img/iidx9/firstlaunch/11.png">
-	
+
+---	
 ### Final Notes
 
 !!! success "You're all done! From the service menu select `GAMEMODE` and the game should load ready to be played. Make sure to insert two credits by pressing your `SERVICE` key. Have fun!"
