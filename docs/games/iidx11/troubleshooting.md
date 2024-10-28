@@ -1,5 +1,4 @@
-# IIDX 11 Common Problems/Tips
-
+# IIDX 11 Troubleshooting
 <img src="/img/iidx11/RED_logo.png">
 
 ### My Game Is Running Crazy Fast!
@@ -7,6 +6,7 @@
 !!! tip ""
 	The most common reason for this is the game is running over its required 59.95hz, the game is hardcoded to run at 59.95hz and this cannot be changed. To solve this, check [this section](setup.md#game-resolution-and-locking-fps) of the guide again.
 
+---
 ### I'm getting "NETWORK WARNING" instead of "NETWORK OK"
 
 !!! tip ""
@@ -17,6 +17,7 @@
 	- Invalid eamuse url or port specified
 	- Game is not run using the Administrator account 
 
+---
 ### My background videos aren't working!
 
 !!! tip ""
@@ -36,6 +37,7 @@
 
 	You ***can not*** move or delete :material-file:`CLVSD.ax` ***at all***, otherwise it will revert the changes and you have to install it again.
 
+---
 ### My game crashes immediately!
 
 !!! warning "This can have multiple reasons. These fixes shouldn't be needed for IIDX RED since we're addressing them in the guide. We'll add them anyway just in case."
