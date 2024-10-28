@@ -30,7 +30,7 @@
 
 <img src="/img/iidx9/setup/1.png">
 
-#### Making use of iidxhook-09.conf
+#### Using iidxhook-09.conf
 
 !!! tip ""
 

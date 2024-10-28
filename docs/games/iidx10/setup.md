@@ -30,7 +30,7 @@
 
 <img src="/img/iidx10/setup/1.png">
 
-#### Making use of iidxhook-10.conf & RtEffect.dll
+#### Using iidxhook-10.conf & RtEffect.dll
 
 !!! tip ""
 
