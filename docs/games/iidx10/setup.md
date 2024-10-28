@@ -159,10 +159,10 @@
 	Below is an example of how both look like.
 
 	??? info "Linear"
-		<img src="/img/iidx9/9th_linear.png">
+		<img src="/img/iidx10/iidx10_linear.png">
 
 	??? info "Point"
-		<img src="/img/iidx9/9th_point.png">
+		<img src="/img/iidx10/iidx10_point.png">
 		
 	It comes down to your own prefrence what you decide on, `Linear` is less sharp but doesn't have pixel perfect edges. `Point` is sharp and is pixel perfect.
 
@@ -216,6 +216,7 @@
 	gfx.scale_back_buffer_filter=linear
 	gfx.scale_back_buffer_filter=point
 	```
+
 ---
 ### First launch
 
