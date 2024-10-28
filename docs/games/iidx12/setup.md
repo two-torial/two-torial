@@ -265,7 +265,7 @@
 	
 	Navigate to `CLOCK`. You do not need to manually change it. Navigate to `SAVE AND EXIT`.
 
-<img src="/img/iidx11/firstlaunch/5.png">
+<img src="/img/iidx12/firstlaunch/5.png">
 
 !!! info "If you'd like to play offline, you can head straight to [Final Notes](#final-notes)"
 
@@ -276,19 +276,19 @@
 	
 <img src="/img/iidx12/firstlaunch/6.png">
 
-<img src="/img/iidx11/firstlaunch/7.png">
+<img src="/img/iidx12/firstlaunch/7.png">
 
 !!! tip ""
 	It'll bring you to this screen, change it so that `e-AMUSEMENT` switches to `ON` and it will look like this:
 	
-<img src="/img/iidx11/firstlaunch/8.png">
+<img src="/img/iidx12/firstlaunch/8.png">
 
-<img src="/img/iidx11/firstlaunch/9.png">
+<img src="/img/iidx12/firstlaunch/9.png">
 
 !!! tip ""
 	We will need to set a `SHOP NAME SETTING` and change our `PREFECTURE` otherwise the game will throw errors at us.
 	
-<img src="/img/iidx11/firstlaunch/10.png">
+<img src="/img/iidx12/firstlaunch/10.png">
 
 !!! tip ""
 
@@ -296,7 +296,7 @@
 	- Navigate to `EXIT` and select it.
 	- Change your prefecture once or how many times you'd like, it doesn't matter as long as it's not the default one.
 	
-<img src="/img/iidx11/firstlaunch/11.png">
+<img src="/img/iidx12/firstlaunch/11.png">
 
 !!! tip ""
 	Select `SAVE AND EXIT`. The game will now give you a message, which translated means: 
@@ -305,7 +305,7 @@
 	
 	So, close the game and open it again.
 	
-<img src="/img/iidx11/firstlaunch/12.png">
+<img src="/img/iidx12/firstlaunch/12.png">
 	
 ---	
 ### Final Notes
