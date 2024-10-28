@@ -54,4 +54,4 @@
 #### Fix #2 (RtEffects.dll didn't get replaced)
 
 !!! tip ""
-	Refer to [Getting Started](setup.md#preparing-data) again and check if you have followed all the instructions explained in it.
+	Refer to [Getting Started](setup.md#using-iidxhook-10conf-rteffectdll) again and check if you have followed all the instructions explained in it.
