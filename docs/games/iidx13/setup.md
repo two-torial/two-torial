@@ -168,10 +168,10 @@
 	Below is an example of how both look like.
 
 	??? info "Linear"
-		<img src="/img/iidx12/iidx12_linear.png">
+		<img src="/img/iidx13/iidx13_linear.png">
 
 	??? info "Point"
-		<img src="/img/iidx12/iidx12_point.png">
+		<img src="/img/iidx13/iidx13_point.png">
 		
 	It comes down to your own prefrence what you decide on, `Linear` is less sharp but doesn't have pixel perfect edges. `Point` is sharp and is pixel perfect.
 
