@@ -23,18 +23,18 @@
 
 	You need to install a codec.
 	
-	Inside the [Bemanitools Supplement](https://github.com/djhackersdev/bemanitools-supplement/releases/download/1.6/bemanitools-supplement-1.6.zip) archive, navigate to `\iidx.zip\iidx\misc\` where you'll find `CLVSD.ax`.
+	Inside the :material-zip-box:[Bemanitools Supplement](https://github.com/djhackersdev/bemanitools-supplement/releases/download/1.6/bemanitools-supplement-1.6.zip) archive, navigate to :material-folder:`\iidx.zip\iidx\misc\` where you'll find :material-file:`CLVSD.ax`.
 
-	Extract `CLVSD.ax` inside a folder that you know won't be moved or renamed.
+	Extract :material-file:`CLVSD.ax` inside a :material-folder:folder that you know won't be moved or renamed.
 
-	Open up the command prompt as ***administrator***. Now type `regsvr32 "<location of the file>\CLVSD.ax"` into the command prompt.
+	Open up the :material-console:command prompt as ***administrator***. Now type `regsvr32 "<location of the file>\CLVSD.ax"` into the command prompt.
 
 	As an example, it could look like this: `regsvr32 "D:\BEMANI\IIDX\CLVSD.ax"` A prompt should appear telling you that it has been installed successfully.
 	This applies for all styles that require this codec.
 
 	If an error occurs, you didn't run the command prompt as administrator or you messed up the location of the file.
 
-	You ***can not*** move or delete `CLVSD.ax` ***at all***, otherwise it will revert the changes and you have to install it again.
+	You ***can not*** move or delete :material-file:`CLVSD.ax` ***at all***, otherwise it will revert the changes and you have to install it again.
 
 ### My game crashes immediately!
 
@@ -54,4 +54,4 @@
 #### Fix #2 (RtEffects.dll didn't get replaced)
 
 !!! tip ""
-	Refer to [Getting Started](setup.md#using-iidxhook-10conf-rteffectdll) again and check if you have followed all the instructions explained in it.
+	Refer to [Using iidxhook-10.conf & RtEffect.dll](setup.md#using-iidxhook-10conf-rteffectdll) again and check if you have followed all the instructions explained in it.
