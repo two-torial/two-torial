@@ -24,18 +24,20 @@
 
 	You need to install a codec.
 	
-	Inside the :material-zip-box:[Bemanitools Supplement](https://github.com/djhackersdev/bemanitools-supplement/releases/download/1.6/bemanitools-supplement-1.6.zip) archive, navigate to :material-folder:`\iidx.zip\iidx\misc\` where you'll find :material-file:`CLVSD.ax`.
+	- Open :material-zip-box:`bemanitools-supplement-v1.6.zip` and navigate to :material-folder:`\iidx.zip\iidx\misc\` where :material-file:`CLVSD.ax` is located.
 
-	Extract :material-file:`CLVSD.ax` inside a :material-folder:folder that you know won't be moved or renamed.
+	- Extract :material-file:`CLVSD.ax` inside a :material-folder: folder that you know won't be moved or renamed.
 
-	Open up the :material-console:command prompt as ***administrator***. Now type `regsvr32 "<location of the file>\CLVSD.ax"` into the command prompt.
+	- Open the :material-console:command prompt as ***administrator***. Now type `regsvr32 "<location of the file>\CLVSD.ax"` into the command prompt.
 
-	As an example, it could look like this: `regsvr32 "D:\BEMANI\IIDX\CLVSD.ax"` A prompt should appear telling you that it has been installed successfully.
-	This applies for all styles that require this codec.
+	As an example, it could look like this: `regsvr32 "D:\BEMANI\IIDX\CLVSD.ax"`
+
+	A prompt should appear telling you that it has been installed successfully.
+	This applies for all styles that require this codec, not just **HAPPY SKY**.
 
 	If an error occurs, you didn't run the command prompt as administrator or you messed up the location of the file.
 
-	You ***can not*** move or delete :material-file:`CLVSD.ax` ***at all***, otherwise it will revert the changes and you have to install it again.
+!!! danger "You **can not** move or delete :material-file:`CLVSD.ax` **at all**, otherwise it will revert the changes and you have to install it again."
 
 ---
 ### My game crashes immediately!

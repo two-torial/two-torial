@@ -137,6 +137,7 @@
 	eamuse.eamid=XXXXXXXXXXXXXXXXXXXX
 	```
 
+---
 ### Game resolution and locking FPS
 
 !!! tip ""
