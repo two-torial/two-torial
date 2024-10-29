@@ -30,7 +30,7 @@
 	Depending on how your mod is packaged, you may or may not need to create another folder to contain it.  
 	Inside that folder, the structure should follow the one in `data/`.
 
-	- Place your files inside that `data_mods/folder/`.
+	- Place your files inside that `data_mods/mod_folder/`.
 
 	If you're confused, the following may help you understand what this means.
 
@@ -42,7 +42,7 @@
 	├─── sound/
 	├─── etc...
 	├─ data_mods/  
-	├─── mod_folder_name/
+	├─── mod_folder/
 	├───── graphic/ <- files that mod the /data/graphic/ folder go here
 	├───── info/ <- files that mod the /data/info/ folder go here
 	├───── movie/ <- files that mod the /data/movie/ folder go here
