@@ -87,13 +87,7 @@
 
 	- Copy the `ifs_hook.dll` file to your game's `modules` folder.
 
-	- Back to the archive, go inside the `automatic_injector_dlls` folder.
-
 	<img src="/img/datamods/7.png">
-
-	- Copy the `d3d9.dll` file to your game's `modules` folder.
-
-	<img src="/img/datamods/8.png">
 
 #### Loading ifs_layeredfs
 
@@ -108,7 +102,7 @@
 	Note: If you have other DLL hooks, simply add more by having a space in between them..  
 	Example: `ifs_hook.dll somehook.dll`
 
-	<img src="/img/datamods/9.png">
+	<img src="/img/datamods/8.png">
 
 	Assuming your `data_mods` folder has been made properly, that's it!
 
