@@ -395,6 +395,11 @@
 	- If your code is accepted, you may now close the overlay.
 
 ---
+### (optional) Installing Omnimix
+
+!!! info "Check out the [Data Mods and Omnimix](../../extras/datamods.md) guide."
+
+---
 ### Troubleshooting
 
 !!! warning "Have any other issue?"
