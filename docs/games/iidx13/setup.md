@@ -253,7 +253,7 @@
 <img src="/img/iidx13/firstlaunch/2.png">
 
 !!! tip ""
-	Press your `Start` key to confirm to get to the next error message.
+	Press your `Test` key to confirm to get to the next error message.
 
 #### CLOCK ERROR
 
