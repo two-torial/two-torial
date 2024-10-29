@@ -42,7 +42,7 @@
 	├─── sound/
 	├─── etc...
 	├─ data_mods/  
-	├─── folder_name/
+	├─── mod_folder_name/
 	├───── graphic/ <- files that mod the /data/graphic/ folder go here
 	├───── info/ <- files that mod the /data/info/ folder go here
 	├───── movie/ <- files that mod the /data/movie/ folder go here
