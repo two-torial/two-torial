@@ -301,11 +301,6 @@
 	
 <img src="/img/iidx14/firstlaunch/12.png">
 
-!!! tip ""
-	Navigate to `GAMEMODE` to start the game.
-
-<img src="/img/iidx14/firstlaunch/13.png">
-
 ---	
 ### Final Notes
 
