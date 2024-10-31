@@ -107,8 +107,6 @@
 	- In `Game Light`, select the corresponding button that will be used for that light.
 	- Repeat for your other lights.
 
-!!! info "If you'd like to play offline, you can head straight to [Game resolution and locking FPS](#game-resolution-and-locking-fps)"
-
 #### Configuring Bemanitools for a network
 
 !!! tip "Head over to the `Network` tab."
@@ -172,9 +170,6 @@
 	Repeat the previous step and open your :material-file-code:`iidxhook-10.conf`. We want to find these lines:
 	
 	```
-	# Software limit the frame rate of the rendering loop in hz, e.g. 60 or 59.95 (0.0 = no software limit)
-	gfx.frame_rate_limit=0.0
-	
 	# Run the game windowed
 	gfx.windowed=false
 
@@ -206,7 +201,7 @@
 	gfx.window_height=1080
 	gfx.scale_back_buffer_width=1920
 	gfx.scale_back_buffer_height=1080
-	gfx.scale_back_buffer_filter=linear
+	gfx.scale_back_buffer_filter=point
 	```
 	Unless you'd like to have the game properly windowed you can safely ignore `gfx.framed=false`.
 
@@ -257,8 +252,6 @@
 	Navigate to `CLOCK`. You do not need to manually change it. Navigate to `SAVE AND EXIT`.
 
 <img src="/img/iidx10/firstlaunch/5.png">
-
-!!! info "If you'd like to play offline, you can head straight to [Final Notes](setup.md#final-notes)"
 
 #### Enabling e-AMUSEMENT for Online Play
 
