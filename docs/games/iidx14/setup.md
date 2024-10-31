@@ -1,94 +1,150 @@
 # beatmania IIDX 14 GOLD
-
 <img src="/img/iidx14/gold_logo.png">
 
-!!! warning "Before reading"
-	This game ***will*** require you to touch and edit files manually. This guide tries to make everything as clear as possible. **[Bemanitools](https://github.com/djhackersdev/bemanitools/releases/download/5.44/bemanitools-5.44.zip) & [Bemanitools Supplement](https://github.com/djhackersdev/bemanitools-supplement/releases/download/1.6/bemanitools-supplement-1.6.zip)** will be used in this guide.
+!!! danger "Please make sure you downloaded your data from an appropriate source.<br>This guide is unable to troubleshoot any problems related to bad or poorly managed data."
 
-!!! danger "Warning:"
-	Please make sure your data is from an appropriate source and unmodified before proceeding, this guide is unable to troubleshoot any problems related to bad or poorly managed data.
-	
-	If you encounter any issues or errors regarding this guide or come across issues that aren't listed, feel free to open up a [GitHub Issue!](https://github.com/two-torial/two-torial/issues)
-
-
-### Getting Started
+---
+### Preparing data
 
 !!! tip ""
 	
-	After downloading your data, the first thing to do is make sure your files aren't set to READ ONLY, make sure to uncheck it from the main folder in the Windows Properties tab if so. Then, locate `iidx-14-to-17.zip` inside the `bemanitools-5.44.zip`. Extract it inside the folder that contains the `bm2dx.exe` which should be located in `\GLD\2007072301`. Pictured below is what your folder should look like, we've removed any files not necessary for **GOLD**. Feel free to name your `gamestart.bat` file whatever you desire, for the sake of convenience we've kept it as it.
+	After downloading and extracting your data, we need to make sure your files aren't set to `Read-only`.
 
-<img src="/img/iidx14/bt1.png">
+	- Right click the folder containing your data, then click on `Properties`.
+	- In the `General` tab go down to `Attributes`, untick `Read-only` and click `Apply`.
+	- A popup will appear, select `Apply changes to this folder, subfolder and files` and press `OK`.
+	- Finally, click `OK` again to exit out of properties.
 
-<img src="/img/iidx14/bt2.png">
-
-<img src="/img/iidx14/1.png">
-
-!!! tip ""
-
-	Next up, open the `bemanitools-supplement-v1.6.zip` or any version higher than that and navigate inside the `misc.zip`. Now navigate into `misc\d3d8to9` and extract `d3d8.dll` into the same folder as we previously have done. This enables us to use the graphic options inside `iidxhook-14.conf` which we will take advantage of. It should look like this:
-
-<img src="/img/iidx10/btsup1.png">
-
-<img src="/img/iidx14/2.png">
+---
+### Installing Bemanitools
 
 !!! tip ""
-
-	Lastly, we need to install a codec so that background videos will work and won't cause an error. 
 	
-	Inside the [Bemanitools Supplement](https://github.com/djhackersdev/bemanitools-supplement/releases/download/1.6/bemanitools-supplement-1.6.zip) archive, navigate to `\iidx.zip\iidx\misc\` where you'll find `CLVSD.ax`.
+	- Download :material-package-down:[Bemanitools](https://github.com/djhackersdev/bemanitools/releases/download/5.48/bemanitools-5.48.zip).
+  
+	- Inside :material-zip-box:`bemanitools-5.48.zip` locate :material-zip-box:`iidx-14-to-17.zip`.
 
-	Extract `CLVSD.ax` inside a folder that you know won't be moved or renamed.
+	- Extract everything inside the folder that contains the :material-file:`bm2dx.exe` which is located in :material-folder:`\GLD\2007072301`.
+	
+	Pictured below is what your folder should look like. We've removed any files not necessary for **GOLD**.
 
-	Open up the command prompt as ***administrator***. Now type `regsvr32 "<location of the file>\CLVSD.ax"` into the command prompt.
+<img src="/img/iidx14/setup/1.png">
 
-	As an example, it could look like this: `regsvr32 "D:\BEMANI\IIDX\CLVSD.ax"` A prompt should appear telling you that it has been installed successfully.
-	This applies for all styles that require this codec, not just **DistorteD**.
+#### Using iidxhook-14.conf & RtEffect.dll
+
+!!! tip ""
+
+	- Download the :material-package-down:[Bemanitools supplements](https://github.com/djhackersdev/bemanitools-supplement/releases/download/1.6/bemanitools-supplement-1.6.zip)
+
+	- Open :material-zip-box:`bemanitools-supplement-v1.6.zip` and navigate inside :material-zip-box:`misc.zip`
+
+	- Inside :material-folder:`misc\d3d8to9`, extract :material-file-cog-outline:`d3d8.dll` to :material-folder:`\GLD\2007072301`.
+
+	This enables us to use the graphic options inside :material-file-code:`iidxhook-14.conf` which we will take advantage of.
+
+	- Open :material-zip-box:`bemanitools-supplement-v1.6.zip` and navigate inside :material-zip-box:`iidx.zip`
+
+	- Inside :material-folder:`iidx/misc`, extract :material-file-cog-outline:`RtEffect_stub.dll` to :material-folder:`\GLD\2007072301`.
+	
+	- Delete the already existing :material-file-remove-outline:`RtEffect.dll` and rename :material-file-edit-outline:`RtEffect_stub.dll` to :material-file-cog-outline:`RtEffect.dll`.
+  
+  	This will eliminate any immediate crashes relating to needing specific old hardware.
+
+#### Installing CLVSD.ax
+
+!!! tip ""
+
+	We need to install a codec so that background videos will work and won't cause an error.
+	
+	- Open :material-zip-box:`bemanitools-supplement-v1.6.zip` and navigate to :material-folder:`\iidx.zip\iidx\misc\` where :material-file:`CLVSD.ax` is located.
+
+	- Extract :material-file:`CLVSD.ax` inside a :material-folder: folder that you know won't be moved or renamed.
+
+	- Open the :material-console:command prompt as ***administrator***. Now type `regsvr32 "<location of the file>\CLVSD.ax"` into the command prompt.
+
+	As an example, it could look like this: `regsvr32 "D:\BEMANI\IIDX\CLVSD.ax"`
+
+	A prompt should appear telling you that it has been installed successfully.
+	This applies for all styles that require this codec, not just **GOLD**.
 
 	If an error occurs, you didn't run the command prompt as administrator or you messed up the location of the file.
 
-	You ***can not*** move or delete `CLVSD.ax` ***at all***, otherwise it will revert the changes and you have to install it again.
+!!! danger "You **can not** move or delete :material-file:`CLVSD.ax` **at all**, otherwise it will revert the changes and you have to install it again."
 
-### Configuring Your Tools
+---
+### Configuring Bemanitools
 
-!!! tip ""
-	To configure your keybinds, open up your `config.bat` file. You'll be greeted by this screen:
+!!! info "To configure your keybinds, open your :material-file:`config.bat` file."
 
-<img src="/img/iidx10/5.png">
-
-!!! tip ""
-	It works similarly to Spice but not entirely. Make sure to also bind `Test` and `Service` since we will need it later. `Service` will also be used to **insert coins** to start the game. When you're done setting up your keybinds and analogs, it should look something like this:
-	
-<img src="/img/iidx10/6.png">
-
-!!! info "If you'd like to play offline, you can head straight to [Setting up the games resolution](#setting-up-the-games-resolution-locking-fps-and-fixing-stretched-videos)"
-
-### Configuring Bemanitools for an Online Network
+#### Buttons
 
 !!! tip ""
-	After setting the keybinds and analogs, we can head over to the `Network` tab, which will look like this:
 
-<img src="/img/iidx10/7.png">
+	Double click on the right on a button that you wish to bind, then press the key you want associated with the action.
+
+	With your controller and/or keyboard plugged in, configure your keys for:  
+
+	- **Maintenance**: `Service, Test`
+	- **P1 Game buttons**: `1 to 7, Start, EFFECT, VEFX` 
+	- **P1 Keypad**: `Keypad Insert Card` 
+
+	**Only if** you're playing using a keyboard:
+
+	- **Turntable**: `TT+, TT-` **and optionally** `TT+/-` which alternates between `TT+` and `TT-` on each press.
+
+#### Analogs (controller/cab only)
+
+!!! tip ""
+
+	With a controller rather than binding buttons to `TT+` and `TT-`, you need to:
+
+	- Head to the `Analogs` tab at the top.
+	- In `Device`, pick your controller.
+	- In `Control`, pick whichever one corresponds to the turntable.
+	- Turn your turntable ensuring that the preview turns along with it.
+	- Click `OK`, leaving the rest of the settings alone.
+
+#### Lights (controller/cab only)
+
+!!! tip ""
+
+	Your controller might support having its lights controlled by the game through bemanitools.
+
+	If it does, here's how you may link different actions to your lights:
+
+	- In `Device`, pick your controller.
+	- In `Game Light`, select the corresponding button that will be used for that light.
+	- Repeat for your other lights.
+
+#### Configuring Bemanitools for a network
+
+!!! tip "Head over to the `Network` tab."
 
 !!! tip ""
 	Now we will set up our PIN pad and card.
-	Click on `Keyboard device`, you may or may not have more than one option. This is normal. To figure out which one is your actual keyboard, select a device inside that list and press a button on the numpad.
+	
+	- Click on `Keyboard device`
+	- You may or may not have more than one option. To figure out which one is your actual keyboard, select a device inside that list and press a button on the numpad.
+	- Once you have found your correct device, the `Keyboard status` will change **(the number and location of the number does not matter, it only matters that it changed)**.
+	- Grab your card, create a :material-file-document-edit:`.txt` and name it however you like. In this example it's called :material-file-document-edit:`card.txt`
+	- Place the file in a location that is easily accessible and you won't forget. In this case it's in a seperate folder.
 	
 !!! info "If you don't have a numpad, make sure to tick `Use top keyboard row for PIN pad input`. This will also change the `Card In` button to `Backspace`."
 
-!!! tip ""
-	If you have found your correct device, the `Keyboard status` will change **(the number and location of the number does not matter, it only matters that it changed)**. It should look similiar to this:
-	
-<img src="/img/iidx10/8.png">
+<img src="/img/iidx14/setup/2.png">
+
+---
+### Connecting to a network
 
 !!! tip ""
-	Next, grab your card, create a `.txt`, name it however you like, in this example it's called `card.txt` and place the file in a location that is easily accessible and you won't forget. In this case it's in a seperate folder. It should look like this:
 	
-<img src="/img/iidx10/9.png">
+	- Locate your :material-file-code:`iidxhook-14.conf`
+	
+	- Open it with your desired text editor (we're using [Notepad++](https://notepad-plus-plus.org/))
 
-### Configuring the game for an Online Network
+	- Replace the `eamuse.server=localhost:80` with your desired network URL
 
-!!!tip ""
-	Locate your `iidxhook-14.conf` and edit it in your desired text editor (we're using [Notepad++](https://notepad-plus-plus.org/)). It may seem overwhelming at first but it's actually fairly simple. All we really care about are these lines:
+	- Replace `eamuse.pcbid=XXXXXXXXXXXXXXXXXXXX` **and** `eamuse.eamid=XXXXXXXXXXXXXXXXXXXX` with your PCBID of your network of choice.
 	
 	```
 	# URL (e.g. http://my.eamuse.server:80/whatever) or IPV4 (e.g. 127.0.0.1:80) of the target eamuse server. The port is optional but defaults to 80.
@@ -100,36 +156,29 @@
 	# EAMID
 	eamuse.eamid=XXXXXXXXXXXXXXXXXXXX
 	```
-	
-	Replace the `eamuse.server=localhost:80` with your desired network URL
-	
-	Replace `eamuse.pcbid=XXXXXXXXXXXXXXXXXXXX` **and** `eamuse.eamid=XXXXXXXXXXXXXXXXXXXX` with your PCBID of your network of choice.
 
-### Setting up the game's resolution, locking FPS and fixing stretched videos
+---
+### Game resolution and locking FPS
 
 !!! tip ""
-	Before we begin, we'd like to mention that you have two options when it comes to how the game renders. You can choose between `Linear` and `Point`.
+	We'd like to mention that there are two options when it comes to how the game renders. You can choose between `Linear` and `Point`.
 
 	Below is an example of how both look like.
 
-??? info "Linear"
-	<img src="/img/iidx14/iidx14_linear.png">
+	??? info "Linear"
+		<img src="/img/iidx14/iidx14_linear.png">
 
-??? info "Point"
-	<img src="/img/iidx14/iidx14_point.png">
-
-!!! tip ""
+	??? info "Point"
+		<img src="/img/iidx14/iidx14_point.png">
+		
 	It comes down to your own prefrence what you decide on, `Linear` is less sharp but doesn't have pixel perfect edges. `Point` is sharp and is pixel perfect.
 
 !!! tip ""
-	Next up, we'll setup borderless window, configure the proper resolution and fix stretched background videos. We're using a `1920x1080` monitor so we will use that.
+	Next up, we'll setup borderless window and configure the proper resolution. We're using a `1920x1080` monitor so we will use that.
 	
-	Repeat the previous step and open your `iidxhook-14.conf`. We want to find these lines:
+	Repeat the previous step and open your :material-file-code:`iidxhook-14.conf`. We want to find these lines:
 	
 	```
-	# Fix stretched BG videos on newer GPUs. Might appear on Red and newer
-	gfx.bgvideo_uv_fix=false
-	
 	# Software limit the frame rate of the rendering loop in hz, e.g. 60 or 59.95 (0.0 = no software limit)
 	gfx.frame_rate_limit=0.0
 	
@@ -152,15 +201,12 @@
 	gfx.scale_back_buffer_filter=none
 	```
 	
-	If you can't seem to find them, simply press `CTRL` + `F` and search for each argument. It will highlight them for you.
-	
-<img src="/img/iidx9/8.png">
+	If you can't seem to find them, press `CTRL` + `F` and search for `gfx.frame_rate_limit=0.0`. This will bring you to the first line we want to edit.
 	
 !!! tip ""
 	Listed below are the values we want to change them to.
 	
 	```
-	gfx.bgvideo_uv_fix=true
 	gfx.frame_rate_limit=59.95
 	gfx.windowed=true
 	gfx.window_width=1920
@@ -169,89 +215,101 @@
 	gfx.scale_back_buffer_height=1080
 	gfx.scale_back_buffer_filter=linear
 	```
-	Unless you'd like to have the game properly windowed you can safely ignore `gfx.framed=false`. Under normal circumstances there shouldn't be a need for you to fiddle with `gfx.monitor_check=1.000000` so we are also going to ignore it.
+	Unless you'd like to have the game properly windowed you can safely ignore `gfx.framed=false`.
 
-	Make sure to adjust for if you want either `Linear` or `Point` rendering.
+	Make sure to decide on whether you want `Linear` or `Point` rendering.
 
 	```
 	gfx.scale_back_buffer_filter=linear
 	gfx.scale_back_buffer_filter=point
 	```
-	
-	When you're done, it should look like this:
-	
-<img src="/img/iidx11/config_args.png">
 
-### Final Steps and Setting up the Game
+---
+### First launch
 
-!!! tip ""
-	We can now focus on starting the game and getting it running. Open `gamestart.bat` (if you kept the name as is)
+!!! danger "If you have any issues running the game, refer to the [Troubleshooting](troubleshooting.md) page."
 
-	You might come across an error that says:
-
-	`USB I/O ERROR ERROR(FM TRNS-OUT)` or `USB I/O ERROR ERROR(FM-DL TIMEOUT)` simply reboot the game and it should work regardless.
-	
-	You will be greeted by the initialization screen and shortly after this screen:
-
-<img src="/img/iidx14/5.png">
-
-<img src="/img/iidx14/6.png">
+#### BACKUP DATA
 
 !!! tip ""
-	Hit your `Test` button to confirm to get to this screen:
 
-<img src="/img/iidx14/7.png">
+	If you've followed all instructions correctly, you're now finally ready to launch the game!
 
-!!! tip ""
-	Hit your `Test` button again to confirm. The game will then perform a `MONITOR CHECK`.
-	
-<img src="/img/iidx14/monitor_check.png">	
+	**First plug your controller if you have one** and run :material-file:`gamestart.bat`.
 
-!!! tip ""
-	Once the `MONITOR CHECK` is done, the game puts us into the games settings menu. From there, navigate to `CLOCK SETUP`. You can leave the date, no need to manually change it. Simply navigate to `SAVE AND EXIT`.
-	
-<img src="/img/iidx14/8.png">
+	If it's your first time running the game, you'll immediately be greeted with this screen.
 
-<img src="/img/iidx14/9.png">
+<img src="/img/iidx14/firstlaunch/1.png">
 
-!!! info "If you'd like to play offline, you can head straight to [Final Notes](setup.md#final-notes)"
+!!! warning "If you get `USB I/O ERROR ERROR(FM TRNS-OUT)` or `USB I/O ERROR ERROR(FM-DL TIMEOUT)`"
+	Reboot the game and it should get fixed.
 
-### Setting Shop Name and Prefecture for Online Play
+<img src="/img/iidx14/firstlaunch/2.png">
 
 !!! tip ""
-	From the games settings menu, naviate to `e-AMUSEMENT OPTIONS` and select it. This will bring you to `e-AMUSEMENT SETTINGS`. Select it aswell.
-	
-<img src="/img/iidx14/10.png">
+	Press your `Test` key to confirm to get to the next error message.
 
-<img src="/img/iidx14/11.png">
+#### CLOCK ERROR
 
-!!! tip ""
-	It'll bring you to this next screen, if `e-AMUSEMENT` is `OFF`, select it so that `e-AMUSEMENT` switches to `ON` and it will look like this:
-
-<img src="/img/iidx14/12.png">
+<img src="/img/iidx14/firstlaunch/3.png">
 
 !!! tip ""
-	We now have to change our `SHOP NAME SETTING` and `PREFECTURE` otherwise the game will throw errors at us.
+	Press your `Test` key to confirm. The game will then perform a `MONITOR CHECK`.
 	
-	Start with the shop name, select it and change them to what ever you like. When you're done editing your shop name, navigate to `EXIT` and select it.
+<img src="/img/iidx14/firstlaunch/4.png">	
 	
-<img src="/img/iidx14/13.png">
+<img src="/img/iidx14/firstlaunch/5.png">
 
 !!! tip ""
-	For the prefecture change it once or how many times you'd like, it doesn't matter as long as it's not the default one.
+	After the monitor check, the game will bring you into it's service menu.
+
+	Instructions on how to navigate the menu are shown at the bottom of the screen.
+
+	- Press `1` and `2` to go up and down.
+	- Press `6` to select/execute.
 	
-<img src="/img/iidx14/14.png">
+	Navigate to `CLOCK`. You do not need to manually change it. Navigate to `SAVE AND EXIT`.
+
+<img src="/img/iidx14/firstlaunch/6.png">
+
+#### Enabling e-AMUSEMENT for Online Play
 
 !!! tip ""
-	Once that is done, hit `SAVE AND EXIT`. The game will say `NOW SAVING`.
+	From the service menu, go to `NETWORK OPTIONS` then `e-AMUSEMENT SETTINGS`.
+	
+<img src="/img/iidx14/firstlaunch/7.png">
 
-	When it's done saving, you can exit out of the `NETWORK OPTIONS`.
+<img src="/img/iidx14/firstlaunch/8.png">
+
+<img src="/img/iidx14/firstlaunch/9.png">
+
+!!! tip ""
+	We will need to set a `SHOP NAME SETTING` and change our `SETTING AREA` otherwise the game will throw errors at us.
 	
-<img src="/img/iidx14/15.png">
+<img src="/img/iidx14/firstlaunch/10.png">
+
+!!! tip ""
+
+	- Name your shop to whatever you'd like. Instructions on how to navigate are at the bottom of the screen.
+	- Navigate to `EXIT` and select it.
+	- Change your `SETTING AREA` once or how many times you'd like, it doesn't matter as long as it's not the default one.
 	
+<img src="/img/iidx14/firstlaunch/11.png">
+
+!!! tip ""
+	Select `SAVE AND EXIT`.
+	
+<img src="/img/iidx14/firstlaunch/12.png">
+
+!!! tip ""
+	Navigate to `GAMEMODE` to start the game.
+
+<img src="/img/iidx14/firstlaunch/13.png">
+
+---	
 ### Final Notes
 
-!!! success "You're all done! From the service menu select `GAMEMODE` and the game should load ready to be played! Make sure to insert two credits by pressing your `SERVICE` key! Have fun!"
+!!! success "You're all done! From the service menu select `GAMEMODE` and the game should load ready to be played. Make sure to insert two credits by pressing your `SERVICE` key. Have fun!"
 
 !!! warning "Have any other errors?"
-	Check out the [Common Problems/Tips](problems.md) section to resolve any issues not seen in this guide to greater depth.
+	Check out the [Troubleshooting](troubleshooting.md) section.
