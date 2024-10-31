@@ -4,7 +4,7 @@
 ### My Game Is Running Crazy Fast!
 
 !!! tip ""
-	The most common reason for this is the game is running over its required 59.95hz, the game is hardcoded to run at 59.95hz and this cannot be changed. To solve this, check [Game resolution and locking FPS](setup.md#game-resolution-and-locking-fps) of the guide again.
+	The most common reason for this is the game is running over its required 59.95hz, the game is hardcoded to run at 59.95hz and this cannot be changed. To solve this, check [Game resolution and locking FPS](setup.md#game-resolution-and-locking-fps) again.
 
 ---
 ### I'm getting "NETWORK WARNING" instead of "NETWORK OK"
