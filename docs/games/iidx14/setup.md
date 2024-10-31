@@ -30,7 +30,7 @@
 
 <img src="/img/iidx14/setup/1.png">
 
-#### Using iidxhook-14.conf & RtEffect.dll
+#### Using iidxhook-14.conf
 
 !!! tip ""
 
@@ -41,14 +41,6 @@
 	- Inside :material-folder:`misc\d3d8to9`, extract :material-file-cog-outline:`d3d8.dll` to :material-folder:`\GLD\2007072301`.
 
 	This enables us to use the graphic options inside :material-file-code:`iidxhook-14.conf` which we will take advantage of.
-
-	- Open :material-zip-box:`bemanitools-supplement-v1.6.zip` and navigate inside :material-zip-box:`iidx.zip`
-
-	- Inside :material-folder:`iidx/misc`, extract :material-file-cog-outline:`RtEffect_stub.dll` to :material-folder:`\GLD\2007072301`.
-	
-	- Delete the already existing :material-file-remove-outline:`RtEffect.dll` and rename :material-file-edit-outline:`RtEffect_stub.dll` to :material-file-cog-outline:`RtEffect.dll`.
-  
-  	This will eliminate any immediate crashes relating to needing specific old hardware.
 
 #### Installing CLVSD.ax
 
