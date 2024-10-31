@@ -65,7 +65,7 @@
 	As an example, it could look like this: `regsvr32 "D:\BEMANI\IIDX\CLVSD.ax"`
 
 	A prompt should appear telling you that it has been installed successfully.
-	This applies for all styles that require this codec, not just **HAPPY SKY**.
+	This applies for all styles that require this codec, not just **DistorteD**.
 
 	If an error occurs, you didn't run the command prompt as administrator or you messed up the location of the file.
 
