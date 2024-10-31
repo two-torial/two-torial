@@ -274,7 +274,7 @@
 ---	
 ### Final Notes
 
-!!! success "You're all done! From the service menu select `GAMEMODE` and the game should load ready to be played. Make sure to insert two credits by pressing your `SERVICE` key. Have fun!"
+!!! success "You're all done! Make sure to insert two credits by pressing your `SERVICE` key. Have fun!"
 
 !!! warning "Have any other errors?"
 	Check out the [Troubleshooting](troubleshooting.md) section.
