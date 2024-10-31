@@ -58,4 +58,4 @@
 #### Fix #2 (RtEffects.dll didn't get replaced)
 
 !!! tip ""
-	Refer to [Getting Started](setup.md#preparing-data) again and check if you have followed all the instructions explained in it.
+	Refer to [Preparing data](setup.md#preparing-data) again and check if you have followed all the instructions explained in it.
