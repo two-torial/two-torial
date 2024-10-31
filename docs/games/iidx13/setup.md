@@ -116,8 +116,6 @@
 	- In `Game Light`, select the corresponding button that will be used for that light.
 	- Repeat for your other lights.
 
-!!! info "If you'd like to play offline, you can head straight to [Game resolution and locking FPS](#game-resolution-and-locking-fps)"
-
 #### Configuring Bemanitools for a network
 
 !!! tip "Head over to the `Network` tab."
@@ -226,13 +224,6 @@
 	gfx.scale_back_buffer_filter=point
 	```
 
-### Final Steps and Setting up the Game
-
-!!! tip ""
-	We can now focus on starting the game and getting it running. Open `gamestart.bat` (if you kept the name as is)
-	
-	You will be greeted by the initialization screen and shortly after this screen:
-
 ---
 ### First launch
 
@@ -260,7 +251,7 @@
 <img src="/img/iidx13/firstlaunch/3.png">
 
 !!! tip ""
-	Press your `Start` key to confirm. This will bring you into it's service menu.
+	Press your `Test` key to confirm. This will bring you into it's service menu.
 	
 <img src="/img/iidx13/firstlaunch/4.png">
 
@@ -273,8 +264,6 @@
 	Navigate to `CLOCK`. You do not need to manually change it. Navigate to `SAVE AND EXIT`.
 
 <img src="/img/iidx13/firstlaunch/5.png">
-
-!!! info "If you'd like to play offline, you can head straight to [Final Notes](#final-notes)"
 
 #### Enabling e-AMUSEMENT for Online Play
 
