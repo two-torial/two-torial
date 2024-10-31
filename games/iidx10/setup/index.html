@@ -5181,9 +5181,6 @@
 <li>Repeat for your other lights.</li>
 </ul>
 </div>
-<div class="admonition info">
-<p class="admonition-title">If you'd like to play offline, you can head straight to <a href="#game-resolution-and-locking-fps">Game resolution and locking FPS</a></p>
-</div>
 <h4 id="configuring-bemanitools-for-a-network">Configuring Bemanitools for a network</h4>
 <div class="admonition tip">
 <p class="admonition-title">Head over to the <code>Network</code> tab.</p>
@@ -5247,26 +5244,23 @@
 <div class="admonition tip">
 <p>Next up, we'll setup borderless window and configure the proper resolution. We're using a <code>1920x1080</code> monitor so we will use that.</p>
 <p>Repeat the previous step and open your <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 9h5.5L13 3.5zM6 2h8l6 6v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4c0-1.11.89-2 2-2m.12 13.5 3.74 3.74 1.42-1.41-2.33-2.33 2.33-2.33-1.42-1.41zm11.16 0-3.74-3.74-1.42 1.41 2.33 2.33-2.33 2.33 1.42 1.41z"/></svg></span><code>iidxhook-10.conf</code>. We want to find these lines:</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a># Software limit the frame rate of the rendering loop in hz, e.g. 60 or 59.95 (0.0 = no software limit)
-</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>gfx.frame_rate_limit=0.0
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a># Run the game windowed
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>gfx.windowed=false
 </span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>
-</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a># Run the game windowed
-</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>gfx.windowed=false
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a># Windowed width, 0 for default size
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>gfx.window_width=0
 </span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>
-</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a># Windowed width, 0 for default size
-</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>gfx.window_width=0
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a># Windowed height, 0 for default size
+</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>gfx.window_height=0
 </span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a>
-</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a># Windowed height, 0 for default size
-</span><span id="__span-1-11"><a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a>gfx.window_height=0
+</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a># Up-/downscale the back buffer&#39;s width. This does not change the game&#39;s rendering resolution but scales the final frame. Use this to target the native resolution of your monitor/TV, e.g. to avoid over-/underscan, bad image quality or latency caused by the monitors internal upscaler. 0 to disable this feature. Must be set in combination with the corresponding height parameter.
+</span><span id="__span-1-11"><a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a>gfx.scale_back_buffer_width=0
 </span><span id="__span-1-12"><a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a>
-</span><span id="__span-1-13"><a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a># Up-/downscale the back buffer&#39;s width. This does not change the game&#39;s rendering resolution but scales the final frame. Use this to target the native resolution of your monitor/TV, e.g. to avoid over-/underscan, bad image quality or latency caused by the monitors internal upscaler. 0 to disable this feature. Must be set in combination with the corresponding height parameter.
-</span><span id="__span-1-14"><a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a>gfx.scale_back_buffer_width=0
+</span><span id="__span-1-13"><a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a># Up-/downscale the back buffer&#39;s height. This does not change the game&#39;s rendering resolution but scales the final frame. Use this to target the native resolution of your monitor/TV, e.g. to avoid over-/underscan, bad image quality or latency caused by the monitors internal upscaler. 0 to disable this feature. Must be set in combination with the corresponding width parameter.
+</span><span id="__span-1-14"><a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a>gfx.scale_back_buffer_height=0
 </span><span id="__span-1-15"><a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a>
-</span><span id="__span-1-16"><a id="__codelineno-1-16" name="__codelineno-1-16" href="#__codelineno-1-16"></a># Up-/downscale the back buffer&#39;s height. This does not change the game&#39;s rendering resolution but scales the final frame. Use this to target the native resolution of your monitor/TV, e.g. to avoid over-/underscan, bad image quality or latency caused by the monitors internal upscaler. 0 to disable this feature. Must be set in combination with the corresponding width parameter.
-</span><span id="__span-1-17"><a id="__codelineno-1-17" name="__codelineno-1-17" href="#__codelineno-1-17"></a>gfx.scale_back_buffer_height=0
-</span><span id="__span-1-18"><a id="__codelineno-1-18" name="__codelineno-1-18" href="#__codelineno-1-18"></a>
-</span><span id="__span-1-19"><a id="__codelineno-1-19" name="__codelineno-1-19" href="#__codelineno-1-19"></a># Filter type to use for up-/downscaling the back buffer. Only used if scaling feature was enabled by setting the scaling width and height parameters. Available types: none, linear, point (refer to D3DTEXTUREFILTERTYPE  for explanation).
-</span><span id="__span-1-20"><a id="__codelineno-1-20" name="__codelineno-1-20" href="#__codelineno-1-20"></a>gfx.scale_back_buffer_filter=none
+</span><span id="__span-1-16"><a id="__codelineno-1-16" name="__codelineno-1-16" href="#__codelineno-1-16"></a># Filter type to use for up-/downscaling the back buffer. Only used if scaling feature was enabled by setting the scaling width and height parameters. Available types: none, linear, point (refer to D3DTEXTUREFILTERTYPE  for explanation).
+</span><span id="__span-1-17"><a id="__codelineno-1-17" name="__codelineno-1-17" href="#__codelineno-1-17"></a>gfx.scale_back_buffer_filter=none
 </span></code></pre></div>
 <p>If you can't seem to find them, press <code>CTRL</code> + <code>F</code> and search for <code>gfx.frame_rate_limit=0.0</code>. This will bring you to the first line we want to edit.</p>
 </div>
@@ -5278,7 +5272,7 @@
 </span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>gfx.window_height=1080
 </span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>gfx.scale_back_buffer_width=1920
 </span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>gfx.scale_back_buffer_height=1080
-</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>gfx.scale_back_buffer_filter=linear
+</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>gfx.scale_back_buffer_filter=point
 </span></code></pre></div>
 Unless you'd like to have the game properly windowed you can safely ignore <code>gfx.framed=false</code>.</p>
 <p>Make sure to decide on whether you want <code>Linear</code> or <code>Point</code> rendering.</p>
@@ -5317,9 +5311,6 @@ Unless you'd like to have the game properly windowed you can safely ignore <code
 <p>Navigate to <code>CLOCK</code>. You do not need to manually change it. Navigate to <code>SAVE AND EXIT</code>.</p>
 </div>
 <p><img src="/img/iidx10/firstlaunch/5.png"></p>
-<div class="admonition info">
-<p class="admonition-title">If you'd like to play offline, you can head straight to <a href="./#final-notes">Final Notes</a></p>
-</div>
 <h4 id="enabling-e-amusement-for-online-play">Enabling e-AMUSEMENT for Online Play</h4>
 <div class="admonition tip">
 <p>From the service menu, go to <code>e-AMUSEMENT OPTIONS</code> then <code>e-AMUSEMENT SETTINGS</code>.</p>
@@ -5352,7 +5343,7 @@ Unless you'd like to have the game properly windowed you can safely ignore <code
 <hr />
 <h3 id="final-notes">Final Notes</h3>
 <div class="admonition success">
-<p class="admonition-title">You're all done! From the service menu select <code>GAMEMODE</code> and the game should load ready to be played. Make sure to insert two credits by pressing your <code>SERVICE</code> key. Have fun!</p>
+<p class="admonition-title">You're all done! Make sure to insert two credits by pressing your <code>SERVICE</code> key. Have fun!</p>
 </div>
 <div class="admonition warning">
 <p class="admonition-title">Have any other errors?</p>
@@ -5378,7 +5369,7 @@ Unless you'd like to have the game properly windowed you can safely ignore <code
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">October 28, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">October 31, 2024</span>
   </span>
 
     
