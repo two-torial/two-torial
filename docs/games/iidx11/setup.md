@@ -94,8 +94,6 @@
 	- In `Game Light`, select the corresponding button that will be used for that light.
 	- Repeat for your other lights.
 
-!!! info "If you'd like to play offline, you can head straight to [Game resolution and locking FPS](#game-resolution-and-locking-fps)"
-
 #### Configuring Bemanitools for a network
 
 !!! tip "Head over to the `Network` tab."
@@ -193,7 +191,7 @@
 	gfx.window_height=1080
 	gfx.scale_back_buffer_width=1920
 	gfx.scale_back_buffer_height=1080
-	gfx.scale_back_buffer_filter=linear
+	gfx.scale_back_buffer_filter=point
 	```
 	Unless you'd like to have the game properly windowed you can safely ignore `gfx.framed=false`.
 
@@ -244,8 +242,6 @@
 	Navigate to `CLOCK`. You do not need to manually change it. Navigate to `SAVE AND EXIT`.
 
 <img src="/img/iidx11/firstlaunch/5.png">
-
-!!! info "If you'd like to play offline, you can head straight to [Final Notes](#final-notes)"
 
 #### Enabling e-AMUSEMENT for Online Play
 
