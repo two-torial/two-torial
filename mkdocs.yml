@@ -11,22 +11,22 @@ nav:
       - BEMANI:
           - "IIDX":
               - "IIDX 9th style":
-                  - "First Time Setup": "games/iidx9/setup.md"
+                  - "Game Setup": "games/iidx9/setup.md"
                   - "Troubleshooting": "games/iidx9/troubleshooting.md"
               - "IIDX 10th style":
-                  - "First Time Setup": "games/iidx10/setup.md"
+                  - "Game Setup": "games/iidx10/setup.md"
                   - "Troubleshooting": "games/iidx10/troubleshooting.md"
               - "IIDX 11 IIDX RED":
-                  - "First Time Setup": "games/iidx11/setup.md"
+                  - "Game Setup": "games/iidx11/setup.md"
                   - "Troubleshooting": "games/iidx11/troubleshooting.md"
               - "IIDX 12 HAPPY SKY":
-                  - "First Time Setup": "games/iidx12/setup.md"
+                  - "Game Setup": "games/iidx12/setup.md"
                   - "Troubleshooting": "games/iidx12/troubleshooting.md"
               - "IIDX 13 DistorteD":
-                  - "First Time Setup": "games/iidx13/setup.md"
+                  - "Game Setup": "games/iidx13/setup.md"
                   - "Troubleshooting": "games/iidx13/troubleshooting.md"
               - "IIDX 14 GOLD":
-                  - "First Time Setup": "games/iidx14/setup.md"
+                  - "Game Setup": "games/iidx14/setup.md"
                   - "Troubleshooting": "games/iidx14/troubleshooting.md"
               - "IIDX 24 SINOBUZ":
                   - "First Time Setup": "games/iidx24/setup.md"
