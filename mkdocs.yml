@@ -151,6 +151,7 @@ nav:
       - "Web Patching": "extras/patchweb.md"
       - "Manual Hex Editing": "extras/hexguide.md"
   - Extras:
+      - "Data Mods and Omnimix": "extras/datamods.md"
       - "How to setup Asphyxia CORE": "extras/asphyxia.md"
       - "Notes on the Most Common ASCs and Vendors": "extras/ascs.md"
       - "Arcade Parts List and Documentation": "extras/parts.md"
