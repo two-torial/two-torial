@@ -192,9 +192,7 @@
 
 	Run `Taiko.exe` to start the game.
 
-    Enter the I/O setup screen by pressing ++f1++ on the Attract screen then using the `arrow keys` and ++enter++, navigate to `I/O TEST` -> `TAIKO TEST`. For the best settings copy the image below. If you wish you can adjust these settings to your liking.
-
-<img src="/img/taikonijiiro/setup/io.png">
+    Enter the I/O setup screen by pressing ++f1++ on the Attract screen then using the `arrow keys` and ++enter++, navigate to `I/O TEST` -> `TAIKO TEST`. Adjust these settings to your liking as they vary between controllers and keyboards. If you are unsure just leave the defaults as is.
 
 !!! tip ""
 	

@@ -102,8 +102,7 @@
     
     In `NVIDIA Control Panel` set the following settings for `Taiko.exe`.    
 
-    - Low Latency Mode `Ultra`                                                    
-    - Max Frame Rate `120 FPS`                                          
+    - Low Latency Mode `Ultra`                                                                                      
     - Power management mode `Prefer maximum performance`                                         
     - Vertical sync `Fast`                                                  
 
