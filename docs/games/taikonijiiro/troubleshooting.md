@@ -15,7 +15,9 @@
     - Korean                 
     
     An unofficial mod allows you to change the language to Chinese (simplified), this can be found on the [Discord](https://discord.gg/cZRUmEPK78).
-    
+     
+    Inside `config.toml`, set `fix_language =` to `true`. If you are using Chinese (simplified) mod then also set `chs_patch =` to `true`
+
     Using ++f1++, the `arrow keys` and ++enter++, navigate to `OTHERS` -> `LANGUAGE`
 
 <img src="/img/taikonijiiro/troubleshooting/lang.png">
@@ -57,9 +59,6 @@
      
     ??? tip "If you have a display that is less than 120hz"                                                   
         - In `config.toml` set `vsync =` to `false` and `windowed =` to `true`.                                                                        
-        - Limit the FPS for `Taiko.exe` using your GPU settings or [RTSS](https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download/)      
-    
-        <img src="/img/taikonijiiro/troubleshooting/fps.png">
 
 ---
 ### My game is not connected to a network but I set one up
@@ -71,19 +70,6 @@
     <img src="/img/taikonijiiro/troubleshooting/close.png">
 
     If you are still unable to connect that means you have incorrectly configured your `config.toml` or your server.
-
----
-### Game modes are missing
-
-!!! tip ""
-
-    This will happen if you didn't correctly apply the unlock game modes mod or didn't card in.
-
-    You can download the mod on the [Discord](https://discord.gg/cZRUmEPK78).
-
-    You can card in by pressing ++p++ by default.
-
-    <img src="/img/taikonijiiro/troubleshooting/game.jpg">
 
 ---
 ### My game is still too big/small after setting the resolution in `config.toml`

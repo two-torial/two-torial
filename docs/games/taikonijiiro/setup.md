@@ -61,21 +61,38 @@
 	country_code = "JPN"
 	```
 
-!!! tip "The `[patches]` section contains patches" 
+!!! tip "The `[patches.jpn39]` section contains patches" 
 
-	- `version =` do not change unless you know what you are doing.                                 
-	- `res =` change to your display's resolution.        
-	- `windowed =` set to `true` if you want to run the game in windowed.    
-	- `vsync =` set to `true` if your display is set to 120hz.                            
-	- `unlock_songs =` do not change unless you know what you are doing.
+	- `fix_language =` set to `true` if you are [changing the language](../troubleshooting/#changing-the-language).
+	- `freeze_timer =` set to `true` if you want to freeze timer.
+    - `chs_patch =` set to `true` if you are [changing the language](../troubleshooting/#changing-the-language) to Chinese (simplified).                                        
+	- `mode_collabo025 =` set to `true` if you want to enable one piece collab mode.
+	- `mode_collabo026 =` set to `true` if you want to enable ai soshina mode.
+	- `mode_aprilfool001 =` set to `true` if you want to enable aoharu no tatsujinn mode.
 
 	```toml
-	[patches]
-	version = "auto"
+	[patches.jpn39]
+	fix_language = true
+	freeze_timer = true
+	chs_patch = false
+	mode_collabo025 = true
+	mode_collabo026 = true
+	mode_aprilfool001 = true
+	```
+
+!!! tip "The `[graphics]` section contains patches" 
+
+	- `res =` change to your display's resolution.
+	- `windowed =` set to `true` if you want to run the game in windowed.
+    - `vsync =` set to `true` if your display is set to 120hz.                                        
+	- `fpslimit =` do not change unless you know what you are doing.
+
+	```toml
+	[graphics]
 	res = { x = 1920, y = 1080 }
 	windowed = false
 	vsync = false
-	unlock_songs = true
+	fpslimit = 120
 	```
 
 !!! tip "The `[keyboard]` section contains keyboard related config"
