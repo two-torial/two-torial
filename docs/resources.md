@@ -42,7 +42,7 @@
 
 	- [iidx.org](https://iidx.org/) - The go to guide for mechanics and skill related things
 	- [sp12](https://sp12.iidx.app/) - IIDX SP☆12 reference site/difficulty tier list
-	- [beatmania.app](https://beatmania.app/!/) - IIDX difficulty tier list
+	- [beatmania.app](https://beatmania.app/!/) - IIDX INFINITAS difficulty tier list
 	- [Statistik](http://statistik.benhgreen.com/) - IIDX difficulty tier list
 	- [atwiki](https://w.atwiki.jp/bemani2sp/sp/) - IIDX wiki in JP (includes tier lists)
 	- [textage.cc](https://textage.cc/score/) - Chart viewing resource
