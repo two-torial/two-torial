@@ -66,6 +66,10 @@
 ---
 ### Installing Spice2x
 
+!!! info ""
+
+	If you already have Spice2x installed, make sure it is up to date!
+
 !!! tip ""
 
 	- Head over to [spice2x.github.io](https://spice2x.github.io) and download the latest release.
@@ -144,36 +148,13 @@
 
 !!! info "Go through the [Spice2x Patching](../../extras/patchsp2x.md) page to import patches."
 
-!!! danger "If you don't absolutely need a patch or you're unsure what it does, leave it alone! Regardless of recommendations below."
+!!! tip ""
 
-??? tip "General patches"
+	Ever since the 2024-09-10 update, patches have a description built-in to them.
 
-	| Patch 										| Recommendation 	| Description |
-	|-----------------------------------------------|----------------	|-------------|
-	| Disable power change 							| Either 		 	| Prevents the game from changing Windows power settings. |
-	| Disable monitor change 						| Either 		 	| Prevents the game from changing Windows monitor settings. |
-	| Force BIO2 (KFC) IO in Valkyrie mode 			| OFF 	 		 	| Only useful for real cabs or Valkyrie at 60hz. |
-	| Shared mode WASAPI 							| Either 		 	| **For non-Valkyrie setups**. Runs the game with non-exclusive WASAPI audio, allowing you to hear audio from other sources **at the cost of audio latency**. |
-	| Shared mode WASAPI Valkyrie 					| Either 		 	| **For Valkyrie setups**. Same as above. |
-	| ASIO 2 Channels Mode 							| OFF 	   		 	| **For ASIO audio only**. Uses 2 channels instead of 8, useful for some audio cards. |
-	| Unlock All Songs 								| OFF 	 		 	| **This might get you banned from remote servers.**<br> If using Asphyxia, **you should unlock Songs using the WebUI instead**. |
-	| Unlock All Difficulties						| OFF 	 		 	| **This might get you banned from remote servers.**<br> If using Asphyxia, **you should unlock Difficulties using the WebUI instead**. |
-	| Uncensor album jackets (for K region only) 	| OFF 	 			| **Only useful for Korean region**. The game is already "uncensored" otherwise. |
-	| Hide all bottom text							| Either 		 	| Hides text at the bottom of the screen such as `Credits` or `Paseli`. |
-	| Disable subscreen in Valkyrie mode			| Either		 	| Disables the subscreen entirely. Note that this option is also available in the Options tab (`-sdvxnosub`).
-	| Timer freeze									| Either		 	| Freezes the timer in all non-premium environments.
-	| Premium timer freeze							| Either		 	| Freezes the timer in premium environments.
-	| Hide premium guide banner						| Either		 	| Hides the premium guide banner at the bottom of the screen during play.
-	| Premium Time Length							| Any			 	| Defines how long your premium time will be. If you've frozen premium time this is just vanity.
-	| Valkyrie Mode 60hz							| OFF				| Allows 60hz monitor users to use Valkyrie-exclusive features. To be used in conjunction with the Force BIO2 patch and `G` spec in `ea3-config.xml`. 
-	| Fake Region									| Japan				| Unlocks region specific content regardless of the chosen region in `ea3-config.xml`. Japan unlocks the most content and is therefore recommended.
+	To view it, hover-over the `(?)` or `(!)` to the left of each patch's name.
 
-??? tip "If your monitor supports 120hz or more"
-
-	| Patch 										| Recommendation 			|
-	|-----------------------------------------------|---------------------------|
-	| Game FPS Target 								| 120 FPS **(NOT higher)** 	|
-	| Note FPS Target 								| 120 FPS **(NOT higher)** 	|
+!!! danger "To prevent issues, avoid patching things you don't need or understand."
 
 #### API
 

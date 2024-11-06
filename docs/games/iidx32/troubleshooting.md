@@ -86,4 +86,4 @@
 
 !!! tip ""
 
-	When using this patch, you must set your audio device's sample rate to 48000 Hz. See [audio](setup.md#audio) for more details
+	When using this patch, you must set your audio device's sample rate to 48000 Hz. See [audio](setup.md#audio) for more details.

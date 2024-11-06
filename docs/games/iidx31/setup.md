@@ -107,6 +107,10 @@
 ---
 ### Installing Spice2x
 
+!!! info ""
+
+	If you already have Spice2x installed, make sure it is up to date!
+
 !!! tip ""
 
 	- Head over to [spice2x.github.io](https://spice2x.github.io) and download the latest release.
@@ -178,23 +182,15 @@
 
 #### Patches
 
-!!! info "First go through the [Spice2x Patching](../../extras/patchsp2x.md) page to import patches."
+!!! info "Go through the [Spice2x Patching](../../extras/patchsp2x.md) page to import patches."
 
-!!! danger "If not using ASIO, you NEED to patch `Force Audio Output Mode` to `WASAPI` otherwise the game won't boot."
+!!! tip ""
 
-??? tip "Other patches that may be useful to you"
+	Ever since EPOLIS final (2024-08-26), patches have a description built-in to them.
 
-	Note: As a general rule of thumb, the fewer patches the better. If you're unsure what something does, don't enable or change it.
+	To view it, hover-over the `(?)` or `(!)` to the left of each patch's name.
 
-	| Patch 										| Recommendation 	| Description |
-	|-----------------------------------------------|----------------	|-------------|
-	| Force TDJ Mode								| Either			| Starts the game in TDJ (010) mode when using a LDJ (012) `.dll` file. Use this instead of forcing 120Hz using other patches. |
-	| Standard/Menu Timer Freeze					| Either		 	| Freezes the timer in all non-premium environments. |
-	| Premium Free Timer Freeze						| Either		 	| Freezes the timer in Premium Free mode. |
-	| Cursor Lock									| Either			| In song select, always returns to the previously selected song. |
-	| CS-style Song Start Delay						| Either			| At the start of a song, holding Start will pause it until you release it. |
-	| Increase Game Volume							| Either			| Ignores in-game settings and keeps the volume at a maximum, helpful for `TDJ` which tends to be quiet. |
-	| Hide all bottom text							| Either 		 	| Hides text at the bottom of the screen such as `Credits` or `Paseli`. |
+!!! danger "To prevent issues, avoid patching things you don't need or understand."
 
 #### API
 

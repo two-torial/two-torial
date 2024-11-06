@@ -84,6 +84,10 @@
 ---
 ### Installing Spice2x
 
+!!! info ""
+
+	If you already have Spice2x installed, make sure it is up to date!
+
 !!! tip ""
 
 	- Head over to [spice2x.github.io](https://spice2x.github.io) and download the latest release.
