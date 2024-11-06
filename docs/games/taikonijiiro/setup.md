@@ -63,9 +63,9 @@
 
 !!! tip "The `[patches.jpn39]` section contains patches" 
 
-	- `fix_language =` set to `true` if you are [changing the language](../troubleshooting/#changing-the-language).
+	- `fix_language =` set to `true` if you are [changing the language](troubleshooting.md/#changing-the-language).
 	- `freeze_timer =` set to `true` if you want to freeze timer.
-    - `chs_patch =` set to `true` if you are [changing the language](../troubleshooting/#changing-the-language) to Chinese (simplified).                                        
+    - `chs_patch =` set to `true` if you are [changing the language](troubleshooting.md/#changing-the-language) to Chinese (simplified).                                        
 	- `mode_collabo025 =` set to `true` if you want to enable one piece collab mode.
 	- `mode_collabo026 =` set to `true` if you want to enable ai soshina mode.
 	- `mode_aprilfool001 =` set to `true` if you want to enable aoharu no tatsujinn mode.
