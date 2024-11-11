@@ -239,9 +239,13 @@
     (dip switch 1 ON). Set all other machines to dip switch 1 OFF:
 
     ```ini hl_lines="2"
-    [gpio]
+    [system]
     dipsw1=0
     ```
+
+!!! warning
+
+    As of 2024-08-20, the [gpio] section in segatools has been renamed to [system].
 
 ### 3301
 
@@ -266,9 +270,13 @@
     switch 3 OFF) to run the game in 120fps. In `segatools.ini` this would be:
 
     ```ini
-    [gpio]
+    [system]
     dipsw3=0
     ```
+
+!!! warning
+
+    As of 2024-08-20, the [gpio] section in segatools has been renamed to [system].
 
 ## AMDaemon Error Codes
 
