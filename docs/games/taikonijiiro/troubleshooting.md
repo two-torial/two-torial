@@ -23,6 +23,15 @@
 <img src="/img/taikonijiiro/troubleshooting/lang.png">
 
 ---
+
+### My game is frozen/black screen
+
+!!! tip ""
+
+    You can fix this by running the game as admin. You can also try updating windows and gpu drivers.
+
+---
+
 ### My game takes a long time to boot
 
 !!! info "First boot after connecting to a network will be very long (>90s)"
