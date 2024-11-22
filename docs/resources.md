@@ -23,6 +23,7 @@
 
 	- [Spice2x Wiki](https://github.com/spice2x/spice2x.github.io/wiki) - The best resource for Spice2x
 	- [Bemaniwiki](https://bemaniwiki.com/) - A bemani wiki written in japanese
+	- [Namuwiki](https://namu.wiki/) - A korean wiki for bemani and more 
 	- [RemyWiki](https://remywiki.com/Main_Page) - Bemani arcade games wiki with lots of useful info
 	- [SilentBlue](https://silentblue.remywiki.com/Main_Page) - By RemyWiki's creators, but for SEGA games
 
