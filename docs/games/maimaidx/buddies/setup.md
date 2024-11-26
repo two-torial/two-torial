@@ -283,10 +283,11 @@
     default=network.example
     ```
 
-    Then, head to the `[keychip]` section and set `id` to the keychip ID provided by your network:
+    Then, head to the `[keychip]` section and add & set `id` to the keychip ID provided by your network:
 
     ```ini
     [keychip]
+    subnet=192.168.172.0
     id=A69E-XXXXXXXXXXX
     ```
 
