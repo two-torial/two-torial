@@ -106,15 +106,17 @@
 
 ??? tip "Keyboard"
 
-	Keyboard is the default input method.
+	Keyboard is the default input method. 
+	 
+	The default layout uses:
 
-	- The default layout uses ++D++++F++ ++J+++K++ for the P1 drum input
-	- ++Z++++X++ ++C+++V++ for the P2 drum input
-	- ++P++ to `Insert Card`
-	- ++F2++ to `SERVICE`
-	- ++ENTER++ to add coins
+	- ++d++++f++ ++j++++k++ for the P1 drum input
+	- ++z++++x++ ++c++++v++ for the P2 drum input
+	- ++p++ to `Insert Card`
+	- ++f2++ to `SERVICE`
+	- ++enter++ to add coins
 
-	If you wish to view or change all the default keybinds, you can do so in `keyconfig.toml.`
+	If you wish to view or change all the default keybinds, you can do so in `keyconfig.toml`
 
 ??? tip "Controller"
 
