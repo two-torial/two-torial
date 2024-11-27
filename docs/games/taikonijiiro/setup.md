@@ -64,20 +64,12 @@
 !!! tip "The `[patches.jpn39]` section contains patches" 
 
 	- `fix_language =` set to `true` if you are [changing the language](troubleshooting.md/#changing-the-language).
-	- `freeze_timer =` set to `true` if you want to freeze timer.
     - `chs_patch =` set to `true` if you are [changing the language](troubleshooting.md/#changing-the-language) to Chinese (simplified).                                        
-	- `mode_collabo025 =` set to `true` if you want to enable one piece collab mode.
-	- `mode_collabo026 =` set to `true` if you want to enable ai soshina mode.
-	- `mode_aprilfool001 =` set to `true` if you want to enable aoharu no tatsujinn mode.
 
 	```toml
 	[patches.jpn39]
 	fix_language = true
-	freeze_timer = true
 	chs_patch = false
-	mode_collabo025 = true
-	mode_collabo026 = true
-	mode_aprilfool001 = true
 	```
 
 !!! tip "The `[graphics]` section contains patches" 
@@ -193,6 +185,10 @@
 	Run `Taiko.exe` to start the game.
 
     Enter the I/O setup screen by pressing ++f1++ on the Attract screen then using the `arrow keys` and ++enter++, navigate to `I/O TEST` -> `TAIKO TEST`. Adjust these settings to your liking as they vary between controllers and keyboards. If you are unsure just leave the defaults as is.
+
+	If you would like to adjust patch settings enter the test menu by pressing ++f1++ on the Attract screen then using the `arrow keys` and ++enter++, navigate to `MOD MANAGER`.
+
+	<img src="/img/taikonijiiro/setup/mod.png">
 
 !!! tip ""
 	
