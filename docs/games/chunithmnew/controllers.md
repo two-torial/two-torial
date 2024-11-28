@@ -258,6 +258,8 @@
     :material-file-cog:`led_aprom.bin` from the [release archive](https://gitea.tendokyu.moe/tasoller/host-aprom/releases),
     then follow the setup instructions in the [README](https://gitea.tendokyu.moe/tasoller/host-aprom#setup).
 
+    You do not need any IO DLLs for this.
+
 ??? warning "HID custom firmware"
 
     - Install the [custom Host and LED firmware](https://pixeldrain.com/u/DajSPEoa) to your controller.
