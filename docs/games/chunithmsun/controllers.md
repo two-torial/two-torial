@@ -1,5 +1,5 @@
-# CHUNITHM SUN
-<img src="/img/chunithm/sdhd/sun.png">
+# CHUNITHM LUMINOUS
+<img src="/img/chunithm/sdhd/luminous.png">
 
 !!! danger "Please make sure you downloaded your data from an appropriate source.<br>This guide is unable to troubleshoot any problems related to bad or poorly managed data."
 
@@ -246,7 +246,21 @@
     If you've purchased the controller before then, you will need to update the touch
     firmware by following the instructions on [DJ-DAO's support page](https://www.dj-dao.com/en/support/11.html).
 
-!!! tip ""
+!!! danger "Please choose one of the two solutions, not both!"
+
+??? tip "Bottersnike's custom firmware"
+    
+    Bottersnike has written custom firmware for the TASOLLER which fixes many issues with the original
+    firmware (e.g. dropped and ghost inputs).
+    
+    To install this firmware, download the latest version of
+    :material-file-code:`TASOLLER-FirmwareUpdater.exe`, :material-file-cog:`host_aprom.bin` and 
+    :material-file-cog:`led_aprom.bin` from the [release archive](https://gitea.tendokyu.moe/tasoller/host-aprom/releases),
+    then follow the setup instructions in the [README](https://gitea.tendokyu.moe/tasoller/host-aprom#setup).
+
+    You do not need any IO DLLs for this.
+
+??? warning "HID custom firmware"
 
     - Install the [custom Host and LED firmware](https://pixeldrain.com/u/DajSPEoa) to your controller.
     Instructions on how to do so is provided in the linked archive.
