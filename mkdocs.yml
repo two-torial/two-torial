@@ -133,6 +133,11 @@ nav:
                   - "Controllers": "games/chunithmluminous/controllers.md"
                   - "Cabinet-to-Cabinet/Multiplayer Link": "games/chunithmluminous/c2c.md"
                   - "Troubleshooting": "games/chunithmluminous/troubleshooting.md"
+              - "LUMINOUS PLUS":
+                  - "Game Setup": "games/chunithmluminousplus/setup.md"
+                  - "Controllers": "games/chunithmluminousplus/controllers.md"
+                  - "Cabinet-to-Cabinet/Multiplayer Link": "games/chunithmluminousplus/c2c.md"
+                  - "Troubleshooting": "games/chunithmluminousplus/troubleshooting.md"
           - "maimai DX":
               - "BUDDiES":
                   - "Game Setup": "games/maimaidx/buddies/setup.md"
