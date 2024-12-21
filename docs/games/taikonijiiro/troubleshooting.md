@@ -16,7 +16,7 @@
     
     An unofficial mod allows you to change the language to Chinese (simplified), this can be found on the [Discord](https://discord.gg/cZRUmEPK78).
      
-    Inside `config.toml`, set `fix_language =` to `true`. If you are using Chinese (simplified) mod then also set `chs_patch =` to `true`
+    If you are using Chinese (simplified) mod then also set `chs_patch =` to `true`.
 
     Using ++f1++, the `arrow keys` and ++enter++, navigate to `OTHERS` -> `LANGUAGE`
 

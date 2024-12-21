@@ -63,12 +63,10 @@
 
 !!! tip "The `[patches.jpn39]` section contains patches" 
 
-	- `fix_language =` set to `true` if you are [changing the language](troubleshooting.md/#changing-the-language).
     - `chs_patch =` set to `true` if you are [changing the language](troubleshooting.md/#changing-the-language) to Chinese (simplified).                                        
 
 	```toml
 	[patches.jpn39]
-	fix_language = true
 	chs_patch = false
 	```
 
@@ -76,6 +74,7 @@
 
 	- `res =` change to your display's resolution.
 	- `windowed =` set to `true` if you want to run the game in windowed.
+	- `cursor =` mostly visual. change if you want to.
     - `vsync =` set to `true` if your display is set to 120hz.                                        
 	- `fpslimit =` do not change unless you know what you are doing.
 
@@ -83,6 +82,7 @@
 	[graphics]
 	res = { x = 1920, y = 1080 }
 	windowed = false
+	cursor = true
 	vsync = false
 	fpslimit = 120
 	```
