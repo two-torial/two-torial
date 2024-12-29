@@ -14,7 +14,7 @@ By the community, for the community.
 
 !!! tip ""
 
-    *There are troubleshooting sections available if you need direct help!*
+    *Troubleshooting forums are available on our Discord server if you need direct help!*
 
 !!! warning "This site is by no means all-encompassing"
 
