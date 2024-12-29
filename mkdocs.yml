@@ -8,162 +8,161 @@ repo_name: GitHub
 nav:
   - Home: index.md
   - Games:
-      - BEMANI:
-          - "IIDX":
-              - "IIDX 9th style":
-                  - "Game Setup": "games/iidx9/setup.md"
-                  - "Troubleshooting": "games/iidx9/troubleshooting.md"
-              - "IIDX 10th style":
-                  - "Game Setup": "games/iidx10/setup.md"
-                  - "Troubleshooting": "games/iidx10/troubleshooting.md"
-              - "IIDX 11 IIDX RED":
-                  - "Game Setup": "games/iidx11/setup.md"
-                  - "Troubleshooting": "games/iidx11/troubleshooting.md"
-              - "IIDX 12 HAPPY SKY":
-                  - "Game Setup": "games/iidx12/setup.md"
-                  - "Troubleshooting": "games/iidx12/troubleshooting.md"
-              - "IIDX 13 DistorteD":
-                  - "Game Setup": "games/iidx13/setup.md"
-                  - "Troubleshooting": "games/iidx13/troubleshooting.md"
-              - "IIDX 14 GOLD":
-                  - "Game Setup": "games/iidx14/setup.md"
-                  - "Troubleshooting": "games/iidx14/troubleshooting.md"
-              - "IIDX 24 SINOBUZ":
-                  - "First Time Setup": "games/iidx24/setup.md"
-                  - "Common Problems/Tips": "games/iidx24/problems.md"
-              - "IIDX 25 CANNON BALLERS":
-                  - "First Time Setup": "games/iidx25/setup.md"
-                  - "Common Problems/Tips": "games/iidx25/problems.md"
-              - "IIDX 26 Rootage":
-                  - "First Time Setup": "games/iidx26/setup.md"
-                  - "Common Problems/Tips": "games/iidx26/problems.md"
-              - "IIDX 27 HEROIC VERSE":
-                  - "First Time Setup": "games/iidx27/setup.md"
-                  - "Common Problems/Tips": "games/iidx27/problems.md"
-                  - "Lightning Mode Specifics": "games/iidx27/lightning.md"
-              - "IIDX 30 RESIDENT":
-                  - "Game Setup": "games/iidx30/setup.md"
-                  - "Extra Information": "games/iidx30/extras.md"
-                  - "Troubleshooting": "games/iidx30/troubleshooting.md"
-              - "IIDX 31 EPOLIS":
-                  - "Game Setup": "games/iidx31/setup.md"
-                  - "Extra Information": "games/iidx31/extras.md"
-                  - "Troubleshooting": "games/iidx31/troubleshooting.md"
-              - "IIDX 32 Pinky Crush":
-                  - "Game Setup": "games/iidx32/setup.md"
-                  - "Extra Information": "games/iidx32/extras.md"
-                  - "Troubleshooting": "games/iidx32/troubleshooting.md"
-          - "SDVX":
-              - "SDVX IV HEAVENLY HAVEN":
-                  - "First Time Setup": "games/sdvx4/setup.md"
-                  - "Common Problems/Tips": "games/sdvx4/problems.md"
-              - "SDVX VIVID WAVE":
-                  - "First Time Setup": "games/sdvx5/setup.md"
-                  - "Common Problems/Tips": "games/sdvx5/problems.md"
-              - "SDVX EXCEED GEAR":
-                  - "Game Setup": "games/sdvx6/setup.md"
-                  - "Extra Information": "games/sdvx6/extras.md"
-                  - "Troubleshooting": "games/sdvx6/troubleshooting.md"
-          - "Pop&apos;n":
-              - "Pop&apos;n Usaneko":
-                  - "First Time Setup": "games/popnusaneko/setup.md"
-                  - "Common Problems/Tips": "games/popnusaneko/problems.md"
-              - "Pop&apos;n Peace":
-                  - "First Time Setup": "games/popnpeace/setup.md"
-                  - "Common Problems/Tips": "games/popnpeace/problems.md"
-              - "HELLO Pop&apos;n":
-                  - "First Time Setup": "games/hellopopn/setup.md"
-                  - "Common Problems/Tips": "games/hellopopn/problems.md"
-          - "DDR":
-              - "DDR Ace":
-                  - "First Time Setup": "games/ddrace/setup.md"
-                  - "Common Problems/Tips": "games/ddrace/problems.md"
-          - "Jubeat":
-              - "Jubeat Clan":
-                  - "First Time Setup": "games/jubeatclan/setup.md"
-                  - "Common Problems/Tips": "games/jubeatclan/problems.md"
-          - "GITADORA":
-              - "GITADORA Matixx":
-                  - "First Time Setup": "games/gitamatixx/setup.md"
-                  - "Common Problems/Tips": "games/gitamatixx/problems.md"
-              - "GITADORA EXCHAIN":
-                  - "First Time Setup": "games/exchain/setup.md"
-                  - "Common Problems/Tips": "games/exchain/problems.md"
-          - "Reflec Beat":
-              - "Reflec Beat: Reflesia":
-                  - "First Time Setup": "games/reflesia/setup.md"
-                  - "Common Problems/Tips": "games/reflesia/problems.md"
-          - "NOSTALGIA":
-              - "Nostalgia FORTE":
-                  - "First Time Setup": "games/nostforte/setup.md"
-                  - "Common Problems/Tips": "games/nostforte/problems.md"
-              - "Nostalgia Op.2":
-                  - "First Time Setup": "games/nostop2/setup.md"
-                  - "Common Problems/Tips": "games/nostop2/problems.md"
-          - "BeatStream アニムトライヴ":
-              - "First Time Setup": "games/beatstreamfinal/setup.md"
-              - "Common Problems/Tips": "games/beatstreamfinal/problems.md"
-          - "MÚSECA 1+1/2":
-              - "First Time Setup": "games/musecafinal/setup.md"
-              - "Common Problems/Tips": "games/musecafinal/problems.md"
-      - SEGA:
-          - "CHUNITHM":
-              - "NEW":
-                  - "Game Setup": "games/chunithmnew/setup.md"
-                  - "Controllers": "games/chunithmnew/controllers.md"
-                  - "Cabinet-to-Cabinet/Multiplayer Link": "games/chunithmnew/c2c.md"
-                  - "Troubleshooting": "games/chunithmnew/troubleshooting.md"
-              - "NEW PLUS":
-                  - "Game Setup": "games/chunithmnewplus/setup.md"
-                  - "Controllers": "games/chunithmnewplus/controllers.md"
-                  - "Cabinet-to-Cabinet/Multiplayer Link": "games/chunithmnewplus/c2c.md"
-                  - "Troubleshooting": "games/chunithmnewplus/troubleshooting.md"
-              - "SUN":
-                  - "Game Setup": "games/chunithmsun/setup.md"
-                  - "Controllers": "games/chunithmsun/controllers.md"
-                  - "Cabinet-to-Cabinet/Multiplayer Link": "games/chunithmsun/c2c.md"
-                  - "Troubleshooting": "games/chunithmsun/troubleshooting.md"
-              - "SUN PLUS":
-                  - "Game Setup": "games/chunithmsunplus/setup.md"
-                  - "Controllers": "games/chunithmsunplus/controllers.md"
-                  - "Cabinet-to-Cabinet/Multiplayer Link": "games/chunithmsunplus/c2c.md"
-                  - "Troubleshooting": "games/chunithmsunplus/troubleshooting.md"
-              - "LUMINOUS":
-                  - "Game Setup": "games/chunithmluminous/setup.md"
-                  - "Controllers": "games/chunithmluminous/controllers.md"
-                  - "Cabinet-to-Cabinet/Multiplayer Link": "games/chunithmluminous/c2c.md"
-                  - "Troubleshooting": "games/chunithmluminous/troubleshooting.md"
-              - "LUMINOUS PLUS":
-                  - "Game Setup": "games/chunithmluminousplus/setup.md"
-                  - "Controllers": "games/chunithmluminousplus/controllers.md"
-                  - "Cabinet-to-Cabinet/Multiplayer Link": "games/chunithmluminousplus/c2c.md"
-                  - "Troubleshooting": "games/chunithmluminousplus/troubleshooting.md"
-          - "maimai DX":
-              - "BUDDiES":
-                  - "Game Setup": "games/maimaidx/buddies/setup.md"
-                  - "Controllers": "games/maimaidx/buddies/controllers.md"
-                  - "Troubleshooting": "games/maimaidx/buddies/troubleshooting.md"
-      - NAMCO:
-          - "Taiko no Tatsujin":
-              - "Nijiiro":
-                  - "Game Setup": "games/taikonijiiro/setup.md"
-                  - "Troubleshooting": "games/taikonijiiro/troubleshooting.md"
+    - BEMANI:
+      - "IIDX":
+        - "IIDX 9th style":
+          - "Game Setup": "games/iidx9/setup.md"
+          - "Troubleshooting": "games/iidx9/troubleshooting.md"
+        - "IIDX 10th style":
+          - "Game Setup": "games/iidx10/setup.md"
+          - "Troubleshooting": "games/iidx10/troubleshooting.md"
+        - "IIDX 11 IIDX RED":
+          - "Game Setup": "games/iidx11/setup.md"
+          - "Troubleshooting": "games/iidx11/troubleshooting.md"
+        - "IIDX 12 HAPPY SKY":
+          - "Game Setup": "games/iidx12/setup.md"
+          - "Troubleshooting": "games/iidx12/troubleshooting.md"
+        - "IIDX 13 DistorteD":
+          - "Game Setup": "games/iidx13/setup.md"
+          - "Troubleshooting": "games/iidx13/troubleshooting.md"
+        - "IIDX 14 GOLD":
+          - "Game Setup": "games/iidx14/setup.md"
+          - "Troubleshooting": "games/iidx14/troubleshooting.md"
+        - "IIDX 24 SINOBUZ":
+          - "First Time Setup": "games/iidx24/setup.md"
+          - "Common Problems/Tips": "games/iidx24/problems.md"
+        - "IIDX 25 CANNON BALLERS":
+          - "First Time Setup": "games/iidx25/setup.md"
+          - "Common Problems/Tips": "games/iidx25/problems.md"
+        - "IIDX 26 Rootage":
+          - "First Time Setup": "games/iidx26/setup.md"
+          - "Common Problems/Tips": "games/iidx26/problems.md"
+        - "IIDX 27 HEROIC VERSE":
+          - "First Time Setup": "games/iidx27/setup.md"
+          - "Common Problems/Tips": "games/iidx27/problems.md"
+          - "Lightning Mode Specifics": "games/iidx27/lightning.md"
+        - "IIDX 30 RESIDENT":
+          - "Game Setup": "games/iidx30/setup.md"
+          - "Extra Information": "games/iidx30/extras.md"
+          - "Troubleshooting": "games/iidx30/troubleshooting.md"
+        - "IIDX 31 EPOLIS":
+          - "Game Setup": "games/iidx31/setup.md"
+          - "Extra Information": "games/iidx31/extras.md"
+          - "Troubleshooting": "games/iidx31/troubleshooting.md"
+        - "IIDX 32 Pinky Crush":
+          - "Game Setup": "games/iidx32/setup.md"
+          - "Extra Information": "games/iidx32/extras.md"
+          - "Troubleshooting": "games/iidx32/troubleshooting.md"
+      - "SDVX":
+        - "SDVX IV HEAVENLY HAVEN":
+          - "First Time Setup": "games/sdvx4/setup.md"
+          - "Common Problems/Tips": "games/sdvx4/problems.md"
+        - "SDVX VIVID WAVE":
+          - "First Time Setup": "games/sdvx5/setup.md"
+          - "Common Problems/Tips": "games/sdvx5/problems.md"
+        - "SDVX EXCEED GEAR":
+          - "Game Setup": "games/sdvx6/setup.md"
+          - "Extra Information": "games/sdvx6/extras.md"
+          - "Troubleshooting": "games/sdvx6/troubleshooting.md"
+      - "Pop&apos;n":
+        - "Pop&apos;n Usaneko":
+          - "First Time Setup": "games/popnusaneko/setup.md"
+          - "Common Problems/Tips": "games/popnusaneko/problems.md"
+        - "Pop&apos;n Peace":
+          - "First Time Setup": "games/popnpeace/setup.md"
+          - "Common Problems/Tips": "games/popnpeace/problems.md"
+        - "HELLO Pop&apos;n":
+          - "First Time Setup": "games/hellopopn/setup.md"
+          - "Common Problems/Tips": "games/hellopopn/problems.md"
+      - "DDR":
+        - "DDR Ace":
+          - "First Time Setup": "games/ddrace/setup.md"
+          - "Common Problems/Tips": "games/ddrace/problems.md"
+      - "Jubeat":
+        - "Jubeat Clan":
+          - "First Time Setup": "games/jubeatclan/setup.md"
+          - "Common Problems/Tips": "games/jubeatclan/problems.md"
+      - "GITADORA":
+        - "GITADORA Matixx":
+          - "First Time Setup": "games/gitamatixx/setup.md"
+          - "Common Problems/Tips": "games/gitamatixx/problems.md"
+        - "GITADORA EXCHAIN":
+          - "First Time Setup": "games/exchain/setup.md"
+          - "Common Problems/Tips": "games/exchain/problems.md"
+      - "Reflec Beat":
+        - "Reflec Beat: Reflesia":
+          - "First Time Setup": "games/reflesia/setup.md"
+          - "Common Problems/Tips": "games/reflesia/problems.md"
+      - "NOSTALGIA":
+        - "Nostalgia FORTE":
+          - "First Time Setup": "games/nostforte/setup.md"
+          - "Common Problems/Tips": "games/nostforte/problems.md"
+        - "Nostalgia Op.2":
+          - "First Time Setup": "games/nostop2/setup.md"
+          - "Common Problems/Tips": "games/nostop2/problems.md"
+      - "BeatStream アニムトライヴ":
+        - "First Time Setup": "games/beatstreamfinal/setup.md"
+        - "Common Problems/Tips": "games/beatstreamfinal/problems.md"
+      - "MÚSECA 1+1/2":
+        - "First Time Setup": "games/musecafinal/setup.md"
+        - "Common Problems/Tips": "games/musecafinal/problems.md"
+    - SEGA:
+      - "CHUNITHM":
+        - "NEW":
+          - "Game Setup": "games/chunithmnew/setup.md"
+          - "Controllers": "games/chunithmnew/controllers.md"
+          - "Cab-to-Cab": "games/chunithmnew/c2c.md"
+          - "Troubleshooting": "games/chunithmnew/troubleshooting.md"
+        - "NEW PLUS":
+          - "Game Setup": "games/chunithmnewplus/setup.md"
+          - "Controllers": "games/chunithmnewplus/controllers.md"
+          - "Troubleshooting": "games/chunithmnewplus/troubleshooting.md"
+          - "Cab-to-Cab": "games/chunithmnewplus/c2c.md"
+        - "SUN":
+          - "Game Setup": "games/chunithmsun/setup.md"
+          - "Controllers": "games/chunithmsun/controllers.md"
+          - "Troubleshooting": "games/chunithmsun/troubleshooting.md"
+          - "Cab-to-Cab": "games/chunithmsun/c2c.md"
+        - "SUN PLUS":
+          - "Game Setup": "games/chunithmsunplus/setup.md"
+          - "Controllers": "games/chunithmsunplus/controllers.md"
+          - "Troubleshooting": "games/chunithmsunplus/troubleshooting.md"
+          - "Cab-to-Cab": "games/chunithmsunplus/c2c.md"
+        - "LUMINOUS":
+          - "Game Setup": "games/chunithmluminous/setup.md"
+          - "Controllers": "games/chunithmluminous/controllers.md"
+          - "Troubleshooting": "games/chunithmluminous/troubleshooting.md"
+          - "Cab-to-Cab": "games/chunithmluminous/c2c.md"
+        - "LUMINOUS PLUS":
+          - "Game Setup": "games/chunithmluminousplus/setup.md"
+          - "Controllers": "games/chunithmluminousplus/controllers.md"
+          - "Troubleshooting": "games/chunithmluminousplus/troubleshooting.md"
+          - "Cab-to-Cab": "games/chunithmluminousplus/c2c.md"
+      - "maimai DX":
+        - "BUDDiES":
+          - "Game Setup": "games/maimaidx/buddies/setup.md"
+          - "Controllers": "games/maimaidx/buddies/controllers.md"
+          - "Troubleshooting": "games/maimaidx/buddies/troubleshooting.md"
+    - NAMCO:
+      - "Taiko no Tatsujin: Nijiiro":
+        - "Game Setup": "games/taikonijiiro/setup.md"
+        - "Troubleshooting": "games/taikonijiiro/troubleshooting.md"
   - Error Codes:
     - BEMANI: "errorcodes/bemani.md"
     - SEGA: "errorcodes/sega.md"
   - Game Patching:
-      - "Spice2x Patching": "extras/patchsp2x.md"
-      - "Web Patching": "extras/patchweb.md"
-      - "Manual Hex Editing": "extras/hexguide.md"
+    - "Using Spice2x": "extras/patchsp2x.md"
+    - "Using Web": "extras/patchweb.md"
+    - "Manually": "extras/hexguide.md"
   - Extras:
-      - "Data Mods and Omnimix": "extras/datamods.md"
-      - "How to setup Asphyxia CORE": "extras/asphyxia.md"
-      - "Notes on the Most Common ASCs and Vendors": "extras/ascs.md"
-      - "Arcade Parts List and Documentation": "extras/parts.md"
-      - "List of Touchscreen Monitors and their Polling Rates": "extras/pollingrates.md"
-      - "What is WASAPI & ASIO?": "extras/audio.md"
-      - "Exclusive Audio Workarounds": "extras/streamaudio.md"
-      - "Setting Up SoftEther VPN for Cabinet-to-Cabinet Play": "extras/softether.md"
+    - "Data Mods & Omnimix": "extras/datamods.md"
+    - "Asphyxia Core": "extras/asphyxia.md"
+    - "WASAPI & ASIO": "extras/audio.md"
+    - "Exclusive Audio Workarounds": "extras/streamaudio.md"
+    - "Common ASCs & Vendors": "extras/ascs.md"
+    - "Arcade Parts": "extras/parts.md"
+    - "Touch Monitors & Polling Rates": "extras/pollingrates.md"
+    - "SoftEther VPN for Cab-to-Cab": "extras/softether.md"
   - Other Resources: resources.md
 
 theme:
@@ -218,8 +217,8 @@ markdown_extensions:
   - pymdownx.tilde
   - attr_list
   - pymdownx.emoji:
-        emoji_index: !!python/name:material.extensions.emoji.twemoji
-        emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - md_in_html
 
 plugins:

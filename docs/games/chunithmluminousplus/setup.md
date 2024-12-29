@@ -1,4 +1,4 @@
-# CHUNITHM LUMINOUS PLUS
+# Game Setup (LUMINOUS PLUS)
 <img src="/img/chunithm/sdhd/luminousplus.png">
 
 !!! danger "Please make sure you downloaded your data from an appropriate source.<br>This guide is unable to troubleshoot any problems related to bad or poorly managed data."
@@ -308,7 +308,7 @@ Patches for :material-file-cog:`amdaemon.exe`
 
 ### First launch
 
-!!! danger "If you have any issues running the game, refer to the [Troubleshooting](troubleshooting.md) page."
+!!! danger "If you have any issues running the game, refer to the [Troubleshooting](../chusan/troubleshooting.md) page."
 
 !!! tip
 
@@ -381,8 +381,8 @@ Patches for :material-file-cog:`amdaemon.exe`
 
 ### Further configuration
 
-!!! info "Input methods and controllers are covered in the [Controllers](controllers.md) page."
+!!! info "Input methods and controllers are covered in the [Controllers](../chusan/controllers.md) page."
 
 !!! warning "Have any other issues?"
 
-	Check out the [Troubleshooting](troubleshooting.md) and [Error Codes](../../errorcodes/sega.md) pages.
+	Check out the [Troubleshooting](../chusan/troubleshooting.md) and [Error Codes](../../errorcodes/sega.md) pages.
