@@ -3,6 +3,12 @@
 
 !!! danger "Please make sure you downloaded your data from an appropriate source.<br>This guide is unable to troubleshoot any problems related to bad or poorly managed data."
 
+!!! danger "Reasonably modern CPU required"
+
+	beatmania IIDX 31 and above require an AVX2 capable CPU. 
+
+	If your CPU is too old, the game will crash with an `EXCEPTION_ILLEGAL_INSTRUCTION` error.
+
 ---
 ### About data
 
@@ -285,7 +291,7 @@
 	- Go to the `Advanced` tab.
 	- Check both boxes under `Exclusive Mode`.
 	- Open the `Default Format` dropdown.
-	- Pick the `24 bit, 44100 Hz (CD Quality)` option and click `Apply` then `OK`. `24 bit, 48000 Hz` is also acceptable as spice2x will handle it.
+	- Pick the `16 (or 24) bit, 44100 Hz` option, click `Apply` then `OK`.
 
 	<img src="/img/iidx30-32/setup/7_audio.png">
 
