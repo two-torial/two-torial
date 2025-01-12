@@ -13,7 +13,8 @@
 	Start by checking the audio section in the [setup guide](setup.md#audio).
 
 	beatmania IIDX 31 and above require an AVX2 capable CPU.  
-	If your CPU is too old, the game will crash with an `EXCEPTION_ILLEGAL_INSTRUCTION` error.
+	If your CPU is too old, the game will crash with an `EXCEPTION_ILLEGAL_INSTRUCTION` error.  
+	A known workaround is renaming/deleting the `movies` folder to prevent the game from loading them altogether. 
 
 ---
 ### My game is running too slow/fast / Game gets stuck / Monitor error at boot / Error 5-1503-0043
