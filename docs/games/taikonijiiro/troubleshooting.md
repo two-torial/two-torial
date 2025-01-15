@@ -16,8 +16,6 @@
     
     An unofficial mod allows you to change the language to Chinese (simplified), this can be found on the [Discord](https://discord.gg/cZRUmEPK78).
      
-    If you are using Chinese (simplified) mod then also set `chs_patch =` to `true`.
-
     Using ++f1++, the `arrow keys` and ++enter++, navigate to `OTHERS` -> `LANGUAGE`
 
 <img src="/img/taikonijiiro/troubleshooting/lang.png">
@@ -124,12 +122,12 @@
     
     To use WASAPI exclusive:
 
-    - Inside `config.toml`, set `wasapi_shared = true` to `false`                             
+    - Inside `config.toml`, set `wasapi_shared =` to `false`                             
 
     To use ASIO in combination with FlexASIO:
 
-    - Inside `config.toml`, set `wasapi_shared = true` to `false` and set `asio = false` to `true`.
-    - Change `asio_driver = ""` to `asio_driver = "FlexASIO"`
+    - Inside `config.toml`, set `wasapi_shared =` to `false` and set `asio =` to `true`.
+    - Change `asio_driver =` to `asio_driver = "FlexASIO"`
 
     To change FlexASIO settings refer to [this](../../extras/streamaudio.md#option-4-flexasio).
 

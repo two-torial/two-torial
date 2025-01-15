@@ -23,11 +23,11 @@
 
 	`TaikoArcadeLoader` is a loader and hardware emulator for Nijiiro. It will allow us to launch the game, as well as configure inputs and network settings. More information can be found at the [TAL github page](https://github.com/esuo1198/TaikoArcadeLoader).
 
-	- Download the latest version of TAL from [the actions tab](https://github.com/esuo1198/TaikoArcadeLoader/actions) of the TAL page. This will be a file named `dist`. You will need to be logged into github to download this file.
+	- Download the latest version of TAL from [the actions tab](https://github.com/esuo1198/TaikoArcadeLoader/actions) of the TAL page. This will be a file named `TaikoArcadeLoader`. You will need to be logged into github to download this file.
 
 	- If github link is not working download TAL from our [Discord](https://discord.gg/cZRUmEPK78) in `Taiko > Resources`
 
-	- Copy the files from `dist.zip` to your `Executable/Release` folder. When asked, choose to replace the existing files with the newly copied files.  
+	- Copy the files from `TaikoArcadeLoader.zip` to your `Executable/Release` folder. When asked, choose to replace the existing files with the newly copied files.  
 
 	<img src="/img/taikonijiiro/setup/2.png">
 
@@ -61,15 +61,6 @@
 	country_code = "JPN"
 	```
 
-!!! tip "The `[patches.jpn39]` section contains patches" 
-
-    - `chs_patch =` set to `true` if you are [changing the language](troubleshooting.md/#changing-the-language) to Chinese (simplified).                                        
-
-	```toml
-	[patches.jpn39]
-	chs_patch = false
-	```
-
 !!! tip "The `[graphics]` section contains patches" 
 
 	- `res =` change to your display's resolution.
@@ -77,6 +68,7 @@
 	- `cursor =` mostly visual. change if you want to.
     - `vsync =` set to `true` if your display is set to 120hz.                                        
 	- `fpslimit =` do not change unless you know what you are doing.
+	- `model_res_rate =` do not change unless you know what you are doing.
 
 	```toml
 	[graphics]
@@ -84,7 +76,8 @@
 	windowed = false
 	cursor = true
 	vsync = false
-	fpslimit = 120
+	# fpslimit = 0
+	model_res_rate = 1.0
 	```
 
 !!! tip "The `[keyboard]` section contains keyboard related config"
@@ -136,12 +129,12 @@
  
 
 	??? tip "AIC Pico"
-		- In `config.toml` set `[card_reader]` to `false`.
+		- In `config.toml` set `card_reader =` to `false`.
     	- Update to the latest [firmware](https://github.com/whowechina/aic_pico)
     	- Inside `AMFWConfig.ini` change COM4 to the port of your AIC Pico  
 
 	??? tip "ACR122U"
-		- In `config.toml` set `[card_reader]` to `true`.
+		- In `config.toml` set `card_reader =` to `true`.
     	- Use AkaiiKitsune's [tal-cardreader plugin](https://gitea.farewell.dev/AkaiiKitsune/tal-cardreader)
 
 !!! note "If you don't have a physical card reader, you can skip over to the [Networks](#networks) section"
