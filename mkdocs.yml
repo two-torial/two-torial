@@ -89,6 +89,9 @@ nav:
         - "GITADORA EXCHAIN":
           - "First Time Setup": "games/exchain/setup.md"
           - "Common Problems/Tips": "games/exchain/problems.md"
+        - "GITADORA FUZZ-UP":
+          - "Game Setup": "games/fuzzup/setup.md"
+          - "Troubleshooting": "games/fuzzup/troubleshooting.md"
       - "Reflec Beat":
         - "Reflec Beat: Reflesia":
           - "First Time Setup": "games/reflesia/setup.md"
