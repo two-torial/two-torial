@@ -116,7 +116,7 @@
 	A configuração do controle "tambor" e o controle convencional é o mesmo processo.
 
     - Abrindo o arquivo `config.toml` coloque `wait_period =` para `0`           
-    - Se você estiver suando um controle que não use os botões como as teclas do teclado, voce deve configurar as teclas em SDL editando o arquivo `keyconfig.toml`
+    - Se você estiver usando um controle que não use os botões como as teclas do teclado, voce deve configurar as teclas em SDL editando o arquivo `keyconfig.toml`
     - Se caso usar os analógicos para o mapeamento dos botões do controle "tambor" `analog_input = false` to `true` in `config.toml`
   
 	Mapeamento SDL válidos está descrito no arquivo  `keyconfig.toml`
