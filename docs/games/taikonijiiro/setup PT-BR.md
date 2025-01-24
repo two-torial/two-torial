@@ -44,7 +44,7 @@
 	
 !!! tip "A Aba `[amauth]` contém configurações relacionadas a rede"
 
-	- `server =` Mantenha ess opção se caso jogar em um servidor local ou offline, mas é recomendado jogar em uma [rede online](#redes).                                 
+	- `server =` Mantenha ess opção se caso jogar em um servidor local ou offline, mas é recomendado jogar em uma [Rede online](#Tipos de rede).                                 
 	- `port =` Não mude caso não saiba o que está fazendo.                                                                           
 	- `chassis_id =` Não mude caso não saiba o que está fazendo.    
 	- `shop_id =` Meramente visual. Altere se caso desejar.                            
@@ -137,10 +137,10 @@
 		- Edite o arquivo `config.toml` e coloque `card_reader =` para `true`.
     	- Use o AkaiiKitsune [O plugin leitor de cartão TAL](https://gitea.farewell.dev/AkaiiKitsune/tal-cardreader)
 
-!!! note "Se você não possuir um leitor de cartão físico, você pode pular para a a seção [Rede](#redes)"
+!!! note "Se você não possuir um leitor de cartão físico, você pode pular para a a seção [Tipos de rede](Tipos de rede)"
 
 ---
-### Networks
+### Tipos de rede
 
 !!! danger "Por favor use uma das alternativas, não ambas."
 
