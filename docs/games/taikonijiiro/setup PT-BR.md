@@ -137,7 +137,7 @@
 		- Edite o arquivo `config.toml` e coloque `card_reader =` para `true`.
     	- Use o AkaiiKitsune [O plugin leitor de cartão TAL](https://gitea.farewell.dev/AkaiiKitsune/tal-cardreader)
 
-!!! note "Se você não possuir um leitor de cartão físico, você pode pular para a parte [Rede Online] na seção (Tipos de rede)"
+!!! note "Se você não possuir um leitor de cartão físico, você pode pular para a parte da rede online em [Tipos de rede] na seção (Tipos de rede)"
 
 ---
 ### Tipos de rede
