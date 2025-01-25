@@ -154,7 +154,7 @@
     adb reverse tcp:52468 tcp:52468
     ```
 
-    - Start `brokenithm_server.exe`.
+    - Start brokenithm_server in TCP mode with the -T command line flag, `brokenithm_server.exe -T`.
     - On your Android device, open Brokenithm, and change the address to `0.0.0.0`.
         - If the text box to the left of the "SETTINGS" button say "UDP", tap on it
     once to switch to "TCP" mode.
@@ -165,13 +165,13 @@
     again. To do this automatically when the game starts, add a line to the `start.bat`
     script **before** the `brokenithm_server` line:
 
-    ```batch hl_lines="5"
+    ```batch hl_lines="5 6"
     @echo off
 
     pushd %~dp0
 
     start /min platform-tools\adb reverse tcp:52468 tcp:52468
-    start /min brokenithm_server
+    start /min brokenithm_server -T
     start /min inject_x64 -d -k chusanhook_x64.dll amdaemon.exe -c config_common.json config_server.json config_client.json config_cvt.json config_sp.json config_hook.json
     inject_x86 -d -k chusanhook_x86.dll chusanApp.exe
     taskkill /f /im amdaemon.exe > nul 2>&1
