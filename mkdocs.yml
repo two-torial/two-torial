@@ -168,6 +168,11 @@ nav:
     - "SoftEther VPN for Cab-to-Cab": "extras/softether.md"
   - Other Resources: resources.md
 
+not_in_nav: |
+  games/chusan/c2c.md
+  games/chusan/controllers.md
+  games/chusan/troubleshooting.md
+
 theme:
   name: material
   logo: img/logo/website-logo.svg

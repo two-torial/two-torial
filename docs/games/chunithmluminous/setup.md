@@ -69,6 +69,8 @@
 
     <img width="500" src="/img/chunithm/sdhd/setup/2_chunithmoption.png">
 
+!!! warning "If you plan to connect to a network (Hosted or Local), the `A001` option folder for your specific game version is required. This option contains a special Event file that lets the game connect."
+
 #### Installing ICFs
 
 !!! tip ""
