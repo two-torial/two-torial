@@ -169,9 +169,7 @@ nav:
   - Other Resources: resources.md
 
 not_in_nav: |
-  games/chusan/c2c.md
-  games/chusan/controllers.md
-  games/chusan/troubleshooting.md
+  games/chusan
 
 theme:
   name: material
