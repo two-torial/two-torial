@@ -298,7 +298,7 @@
 
 ### First launch
 
-!!! danger "If you have any issues running the game, refer to the [Troubleshooting](../chusan/troubleshooting.md) page."
+!!! danger "If you have any issues running the game, refer to the [Troubleshooting](../chunithmluminous/troubleshooting.md) page."
 
 !!! tip
 
@@ -371,8 +371,8 @@
 
 ### Further configuration
 
-!!! info "Input methods and controllers are covered in the [Controllers](../chusan/controllers.md) page."
+!!! info "Input methods and controllers are covered in the [Controllers](../chunithmluminous/controllers.md) page."
 
 !!! warning "Have any other issues?"
 
-	Check out the [Troubleshooting](../chusan/troubleshooting.md) and [Error Codes](../../errorcodes/sega.md) pages.
+	Check out the [Troubleshooting](../chunithmluminous/troubleshooting.md) and [Error Codes](../../errorcodes/sega.md) pages.
