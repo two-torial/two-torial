@@ -33,7 +33,7 @@
 
     Create another empty folder named `AppData` next to them. It should now look like below.
 
-    <img width="500" src="/img/ongeki/sddt/setup/0_ongekidata_withappdata.png"> 
+    <img width="500" src="/img/ongeki/sddt/setup/0_ongekidata_withappdata.png">
 
     The `App` folder should have a file structure as follows.
 
@@ -85,7 +85,7 @@
     If your `amfs` folder already has a file named `ICF1`, skip this step.
 
     In some cases, your data may have a folder containing ICFs in `App\package\amfs`.
-    If so, move all contents inside to the `amfs` folder where `App` and `AppData`, 
+    If so, move all contents inside to the `amfs` folder where `App` and `AppData`,
     delete the `App\package\amfs` folder, and skip this step.
 
     Otherwise, obtain copies of `ICF1` for your game version and place it in
@@ -99,7 +99,7 @@
 
     By default, file extensions on Windows are hidden. Enable them by navigating to
     the `View` tab in File Explorer and select `File name extensions`.
-    
+
 
 #### Installing unprotected executables
 
@@ -138,7 +138,7 @@
 
     Since there is no graphical configuration tool for segatools, you will have to edit the
     configuration file by hand. It is found in `App\bin\segatools.ini`.
-    
+
     It is recommended that you follow along using a text editor with syntax highlighting such as [Notepad++](https://notepad-plus-plus.org/).
 
     Each following sub-section will correspond to a section in `segatools.ini`. If any
@@ -285,13 +285,13 @@
     Press your `Test` button (default `F1`) to enter the service menu. Use the `Service` button
     (default `F2`) to navigate the menu, and `Test` button to select an option.
 
-    Navigate to **ゲーム設定** (`GAME ASSIGNMENTS`, the 5th option).
+    Navigate to **ゲーム設定** (`GAME ASSIGNMENTS`, the 6th option).
 
 <img src="/img/ongeki/sddt/setup/servicemenu/1_gamesettings.png">
 
 !!! tip ""
 
-    Select **グループ内基準機設定** (`SET STANDARD IN GROUP`, the second option)
+    Select **グループ内基準機の設定** (`SET STANDARD IN GROUP`, the second option)
     and toggle this setting to **基準機** (`STANDARD`).
 
 <img src="/img/ongeki/sddt/setup/servicemenu/2_reference.png">
@@ -334,11 +334,11 @@
 
     !!! danger "Please use BepInEx to load all mods including MelonLoader and MonoMods"
 
-    Mods have historically been hardcoded into the unprotected `Assembly-CSharp.dll` which the user can 
-    enable/disable with the `mu3.ini` configuration. The modern approach is to use 
+    Mods have historically been hardcoded into the unprotected `Assembly-CSharp.dll` which the user can
+    enable/disable with the `mu3.ini` configuration. The modern approach is to use
     BepInEx to load custom mods without hardmodding the Assembly-CSharp file.
 
-    To enable BepInEx, download the [BepInEx stable release](https://github.com/BepInEx/BepInEx/releases/latest), 
+    To enable BepInEx, download the [BepInEx stable release](https://github.com/BepInEx/BepInEx/releases/latest),
     extract the BepInEx folder to the `App/package` folder, and modify `segatools.ini` with the following:
 
     ```ini
@@ -351,9 +351,11 @@
     - Melonloader: use [BepInEx.MelonLoader.Loader](https://github.com/BepInEx/BepInEx.MelonLoader.Loader/releases/latest) UnityMono-BepInEx5. Place mods in `MLLoader/Mods`
     - MonoMods: use [BepInEx.MonoMod.Loader](https://github.com/BepInEx/BepInEx.MonoMod.Loader/releases/latest). Place mods in `BepInEx/monomod`
 
+---
+
 ### Controllers and Troubleshooting
 
-!!! info "Input methods and controllers are covered in the [Controllers](../mu3/controllers.md) page."
+!!! info "Input methods and controllers are covered in the [Controllers](../ongekibrightmemory/controllers.md) page."
 
 !!! warning "Have any other issues?"
 

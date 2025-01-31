@@ -36,6 +36,7 @@
     named `amdaemontest.txt` in `App\bin`, which you can send to help people troubleshoot your issue.
 
 ---
+
 ### My game is stuck on a black screen at launch!
 !!! tip ""
 
@@ -46,6 +47,7 @@
         This is likely to be `Assembly-CSharp.dll`, `Assembly-CSharp-firstpass.dll`, and/or `AMDaemon.NET.dll`.
         You can try replacing the DLLs or re-downloading data from elsewhere.
 
+---
 
 ### My game is running too slow/fast or the notes are out of sync!
 

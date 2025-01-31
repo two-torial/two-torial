@@ -101,7 +101,8 @@
 
     If IOConfig still fails to launch, try using the [SelfContained version of ongeki-io](https://github.com/Sanheiii/ongeki-io/releases)
 
-
+---
+    
 ### Arcade hardware and other controllers
 
 !!! tip ""
