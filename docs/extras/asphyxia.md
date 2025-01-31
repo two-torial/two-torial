@@ -32,6 +32,8 @@
 	- It should contain a folder such as `sdvx@asphyxia` or `iidx@asphyxia`.
 	- Put that folder in your Asphyxia `plugins` folder, typically `contents\plugins\` and overwrite files if needed.
 
+	Note: We do NOT provide plugins for every game.
+
 !!! tip ""
 
 	Run ```asphyxia-core-x64.exe``` to start the server. It will automatically open a browser tab. This is your ```WebUI```. 

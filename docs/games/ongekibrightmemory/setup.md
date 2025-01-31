@@ -107,10 +107,8 @@
 
     ONGEKI executables are protected and will not run on a regular computer.
 
-    Obtained unprotected (also called "unpacked" or "decrypted" by the community)
-    copies of `mu3.exe` and `amdaemon.exe` for your game version. If these weren't
-    provided with your data, join the [Discord](https://discord.gg/cZRUmEPK78)
-    for assistance.
+    Obtain unprotected (also called "unpacked" or "decrypted" by the community)
+    copies of `mu3.exe` and `amdaemon.exe` for your game version.
 
     Copy `mu3.exe` and `amdaemon.exe` to the `bin` folder of your game data. Agree
     to overwrite when asked.

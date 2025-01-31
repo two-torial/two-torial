@@ -41,6 +41,6 @@ Pop&apos;n Usaneko Common Problems/Tips
 ### How to Unlock Songs
 
 !!! tip ""
-	Without an appropriate patch, the game is missing song unlocks. To resolve this, I've provided an unlocked DLL with BOTH the HDMI audio fix and E: drive fix already applied. You can download from the Discord server [here.](https://discord.gg/cZRUmEPK78)
+	Without an appropriate patch, the game is missing song unlocks. To resolve this, you will need an unlocked DLL with BOTH the HDMI audio fix and E: drive fix already applied.
 
 	Simply replace it with your existing one inside the `contents` folder of your game installation. When asked to replace, hit yes.

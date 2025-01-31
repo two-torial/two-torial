@@ -72,7 +72,7 @@
 
     maimai DX executables are protected and will not run on a regular computer.
 
-    Obtained unprotected (also called "unpacked" or "decrypted" by the community) 
+    Obtain unprotected (also called "unpacked" or "decrypted" by the community) 
     copies of the following files and the associated configuration file:
 
     - amdaemon.exe
@@ -89,8 +89,7 @@
     !!! Warning "Assembly-CSharp Notes"
 
         `Assembly-CSharp.dll` **must** match your game version. All others can be 
-        reused from other game versions. If these were not provided with your data, 
-        join the [Discord](https://discord.gg/cZRUmEPK78) for assistance.
+        reused from other game versions.
 
         `Assembly-CSharp.dll` **must** also contain `mai2.ini` or `maimaiDX.ini`. These configuration 
         files are specific to the unprotected `Assembly-CSharp.dll`. If your package does not 
