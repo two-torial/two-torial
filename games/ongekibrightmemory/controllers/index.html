@@ -20,7 +20,7 @@
       
       
       <link rel="icon" href="../../../img/favicon.ico">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.1">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.3">
     
     
       
@@ -28,7 +28,7 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.a40c8224.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.d7758b05.min.css">
       
         
         <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
@@ -4581,6 +4581,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#ontroller" class="md-nav__link">
+    <span class="md-ellipsis">
+      ONTROLLER
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#arcade-hardware-and-other-controllers" class="md-nav__link">
     <span class="md-ellipsis">
       Arcade hardware and other controllers
@@ -5273,6 +5282,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#ontroller" class="md-nav__link">
+    <span class="md-ellipsis">
+      ONTROLLER
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#arcade-hardware-and-other-controllers" class="md-nav__link">
     <span class="md-ellipsis">
       Arcade hardware and other controllers
@@ -5314,7 +5332,7 @@ However, it can be configured with IO DLLs to add support for other controllers.
 <p>The controller you plan on using should also be provided with these IO DLLs. If unsure,
 check the support section for your controller, or contact the vendor directly. Alternate
 options for the most common controllers are listed below.</p>
-<p>These IO DLLs should be copied to your game's <code>App\bin\</code> folder and referenced in
+<p>These IO DLLs should be copied to your game's <code>App\package</code> folder and referenced in
 <code>segatools.ini</code> under the <code>[mu3io]</code> section.</p>
 </div>
 <div class="admonition tip">
@@ -5367,7 +5385,7 @@ the <a href="https://github.com/Sanheiii/Mageki/wiki/Mageki-User-Manual">English
 </div>
 <div class="admonition warning">
 <p class="admonition-title">Configuring ongeki-io and MU3-input.dll</p>
-<p>When moving the zipped contents of <code>MU3Input</code>, move all folders <strong>EXCEPT</strong> the <code>segatools.ini</code> file into your <code>App\package</code> folder.
+<p>When moving the zipped contents of <code>MU3Input</code>, move all folders <strong>EXCEPT</strong> the <code>segatools.ini</code> file into your <code>App\package</code> folder in a way that matches its file structure.
 Modify the <code>[mu3io]</code> and <code>[aimeio]</code> sections of your existing <code>segatools.ini</code> file to look like the following:</p>
 <p><div class="language-ini highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="k">[mu3io]</span>
 </span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="hll"><span class="na">path</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">MU3Input.dll</span>
@@ -5382,6 +5400,19 @@ If these sections do not exist, add them to the end of your <code>segatools.ini<
 <p>Download and extract the contents of the <a href="https://aka.ms/windowsappsdk/1.5/1.5.240802000/Microsoft.WindowsAppRuntime.Redist.1.5.zip">Windows App Runtime Version 1.5 Redustributable</a>
 In the <code>WindowsAppSDK-Installer-x64</code> folder run <code>WindowsAppRuntimeInstall-x64.exe</code></p>
 <p>If IOConfig still fails to launch, try using the <a href="https://github.com/Sanheiii/ongeki-io/releases">SelfContained version of ongeki-io</a></p>
+</div>
+<hr />
+<h3 id="ontroller">ONTROLLER</h3>
+<div class="admonition tip">
+<ul>
+<li>Navigate to <a href="https://github.com/jujuforce/Mu3IO.NET/releases/">Mu3IO.NET releases</a> and download <code>mu3io.dll</code>. Put this file in your <code>App\package</code> folder.</li>
+<li>Edit your <code>segatools.ini</code> to reference the DLL:</li>
+</ul>
+<div class="language-ini highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="k">[mu3io]</span>
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="c1">; To use a custom O.N.G.E.K.I. IO DLL enter its path here.</span>
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="c1">; Leave empty if you want to use Segatools built-in keyboard/gamepad input.</span>
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="hll"><span class="na">path</span><span class="o">=</span><span class="s">mu3io.dll</span>
+</span></span></code></pre></div>
 </div>
 <hr />
 <h3 id="arcade-hardware-and-other-controllers">Arcade hardware and other controllers</h3>
@@ -5464,7 +5495,7 @@ and Discord community is a great place to start!</p>
     <script id="__config" type="application/json">{"base": "../../..", "features": ["content.code.annotate"], "search": "../../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.5090c770.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.f1b6f286.min.js"></script>
       
     
   </body>
