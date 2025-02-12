@@ -110,7 +110,7 @@
     Obtain unprotected (also called "unpacked" or "decrypted" by the community)
     copies of `mu3.exe` and `amdaemon.exe` for your game version.
 
-    Copy `mu3.exe` and `amdaemon.exe` to the `bin` folder of your game data. Agree
+    Copy `mu3.exe` and `amdaemon.exe` to the `App` folder of your game data. Agree
     to overwrite when asked.
 
 ---
@@ -122,7 +122,7 @@
     - Head over to [segatools releases](https://gitea.tendokyu.moe/Dniel97/segatools/releases)
     and download `segatools.zip`. **Do not download the source code.**
     - Extracting the archive should give you a few more zip files. Find **`mu3.zip`**
-    and extract it to the `App\bin` folder in your game data.
+    and extract it to the `App\package` folder in your game data.
 
     You should now have a few more files inside the folder, as highlighted:
 
@@ -135,7 +135,7 @@
 !!! tip ""
 
     Since there is no graphical configuration tool for segatools, you will have to edit the
-    configuration file by hand. It is found in `App\bin\segatools.ini`.
+    configuration file by hand. It is found in `App\package\segatools.ini`.
 
     It is recommended that you follow along using a text editor with syntax highlighting such as [Notepad++](https://notepad-plus-plus.org/).
 
@@ -337,7 +337,7 @@
     BepInEx to load custom mods without hardmodding the Assembly-CSharp file.
 
     To enable BepInEx, download the [BepInEx stable release](https://github.com/BepInEx/BepInEx/releases/latest),
-    extract the BepInEx folder to the `App/package` folder, and modify `segatools.ini` with the following:
+    extract the BepInEx folder to the `App\package` folder, and modify `segatools.ini` with the following:
 
     ```ini
     [unity]
@@ -345,9 +345,9 @@
     targetAssembly=BepInEx\core\BepInEx.Preloader.dll
     ```
 
-    - BepInEx: place mods in `BepInEx/Plugins`
-    - Melonloader: use [BepInEx.MelonLoader.Loader](https://github.com/BepInEx/BepInEx.MelonLoader.Loader/releases/latest) UnityMono-BepInEx5. Place mods in `MLLoader/Mods`
-    - MonoMods: use [BepInEx.MonoMod.Loader](https://github.com/BepInEx/BepInEx.MonoMod.Loader/releases/latest). Place mods in `BepInEx/monomod`
+    - BepInEx: place mods in `BepInEx\Plugins`
+    - Melonloader: use [BepInEx.MelonLoader.Loader](https://github.com/BepInEx/BepInEx.MelonLoader.Loader/releases/latest) UnityMono-BepInEx5. Place mods in `MLLoader\Mods`
+    - MonoMods: use [BepInEx.MonoMod.Loader](https://github.com/BepInEx/BepInEx.MonoMod.Loader/releases/latest). Place mods in `BepInEx\monomod`
 
 ---
 

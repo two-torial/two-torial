@@ -11,7 +11,7 @@
     check the support section for your controller, or contact the vendor directly. Alternate
     options for the most common controllers are listed below.
 
-    These IO DLLs should be copied to your game's `App\bin\` folder and referenced in
+    These IO DLLs should be copied to your game's `App\package` folder and referenced in
     `segatools.ini` under the `[mu3io]` section.
     
 !!! tip ""
@@ -82,7 +82,7 @@
 
 !!! warning "Configuring ongeki-io and MU3-input.dll"
 
-	When moving the zipped contents of `MU3Input`, move all folders **EXCEPT** the `segatools.ini` file into your `App\package` folder.
+	When moving the zipped contents of `MU3Input`, move all folders **EXCEPT** the `segatools.ini` file into your `App\package` folder in a way that matches its file structure.
     Modify the `[mu3io]` and `[aimeio]` sections of your existing `segatools.ini` file to look like the following:
 
     ```ini hl_lines="2 5"
@@ -102,7 +102,22 @@
     If IOConfig still fails to launch, try using the [SelfContained version of ongeki-io](https://github.com/Sanheiii/ongeki-io/releases)
 
 ---
-    
+
+### ONTROLLER
+
+!!! tip ""
+
+    - Navigate to [Mu3IO.NET releases](https://github.com/jujuforce/Mu3IO.NET/releases/) and download `mu3io.dll`. Put this file in your `App\package` folder.
+    - Edit your `segatools.ini` to reference the DLL:
+
+    ```ini hl_lines="4"
+    [mu3io]
+    ; To use a custom O.N.G.E.K.I. IO DLL enter its path here.
+    ; Leave empty if you want to use Segatools built-in keyboard/gamepad input.
+    path=mu3io.dll
+    ```
+
+---
 ### Arcade hardware and other controllers
 
 !!! tip ""
