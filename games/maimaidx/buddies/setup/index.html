@@ -20,7 +20,7 @@
       
       
       <link rel="icon" href="../../../../img/favicon.ico">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.3">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.5">
     
     
       
@@ -28,7 +28,7 @@
       
     
     
-      <link rel="stylesheet" href="../../../../assets/stylesheets/main.d7758b05.min.css">
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.8608ea7d.min.css">
       
         
         <link rel="stylesheet" href="../../../../assets/stylesheets/palette.06af60db.min.css">
@@ -4555,17 +4555,17 @@
   
 </li>
         
-          <li class="md-nav__item">
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#custom-mods" class="md-nav__link">
     <span class="md-ellipsis">
       Custom Mods
     </span>
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -4668,7 +4668,7 @@
             
   
   <span class="md-ellipsis">
-    ONGEKI
+    O.N.G.E.K.I.
     
   </span>
   
@@ -4679,7 +4679,7 @@
         <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_2_3">
             <span class="md-nav__icon md-icon"></span>
-            ONGEKI
+            O.N.G.E.K.I.
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -5356,6 +5356,28 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../extras/unity/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Modding Unity-based games
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -5588,17 +5610,17 @@
   
 </li>
         
-          <li class="md-nav__item">
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#custom-mods" class="md-nav__link">
     <span class="md-ellipsis">
       Custom Mods
     </span>
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -5902,30 +5924,11 @@ a file structure as follows. <strong>Do not be worried if you have fewer or more
 <p class="admonition-title">Do not mix option data between versions</p>
 </div>
 </div>
-<h4 id="custom-mods">Custom Mods</h4>
-<div class="admonition tip">
-<div class="admonition danger">
-<p class="admonition-title">Please use BepInEx to load all mods including MelonLoader and MonoMods</p>
-</div>
-<p>Mods have historically been hardcoded into the unprotected <code>Assembly-CSharp.dll</code> which the user can 
-enable/disable with the <code>mai2.ini</code> or <code>maimaiDX.ini</code> configuration. The modern approach is to use 
-BepInEx to load custom mods without hardmodding the Assembly-CSharp file.</p>
-<p>To enable BepInEx, download the <a href="https://github.com/BepInEx/BepInEx/releases/latest">BepInEx stable release</a>, 
-extract the BepInEx folder to the <code>App/Package</code> folder, and modify <code>segatools.ini</code> with the following:</p>
-<div class="language-ini highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="k">[unity]</span>
-</span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="na">enable</span><span class="o">=</span><span class="s">1</span>
-</span><span id="__span-7-3"><a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a><span class="na">targetAssembly</span><span class="o">=</span><span class="s">BepInEx\core\BepInEx.Preloader.dll</span>
-</span></code></pre></div>
-<ul>
-<li>BepInEx: place mods in <code>BepInEx/Plugins</code></li>
-<li>Melonloader: use <a href="https://github.com/BepInEx/BepInEx.MelonLoader.Loader/releases/latest">BepInEx.MelonLoader.Loader</a> UnityMono-BepInEx5. Place mods in <code>MLLoader/Mods</code></li>
-<li>MonoMods: use <a href="https://github.com/BepInEx/BepInEx.MonoMod.Loader/releases/latest">BepInEx.MonoMod.Loader</a>. Place mods in <code>BepInEx/monomod</code></li>
-</ul>
-<div class="admonition warning">
-<p class="admonition-title">Some maimai DX mods are only compatible with BepInEx 5.4.22</p>
-</div>
-</div>
 <hr />
+<h3 id="custom-mods">Custom Mods</h3>
+<div class="admonition info">
+<p class="admonition-title">Mods are covered on the <a href="../../../../extras/unity/">Unity modding</a> page.</p>
+</div>
 <h3 id="controllers-and-troubleshooting">Controllers and Troubleshooting</h3>
 <div class="admonition info">
 <p class="admonition-title">Input methods and controllers are covered in the <a href="../controllers/">Controllers</a> page.</p>
@@ -5954,7 +5957,7 @@ extract the BepInEx folder to the <code>App/Package</code> folder, and modify <c
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">January 31, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">February 21, 2025</span>
   </span>
 
     

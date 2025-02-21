@@ -20,7 +20,7 @@
       
       
       <link rel="icon" href="../../../img/favicon.ico">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.3">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.5">
     
     
       
@@ -28,7 +28,7 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.d7758b05.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.8608ea7d.min.css">
       
         
         <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
@@ -4424,7 +4424,7 @@
             
   
   <span class="md-ellipsis">
-    ONGEKI
+    O.N.G.E.K.I.
     
   </span>
   
@@ -4435,7 +4435,7 @@
         <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_2_3">
             <span class="md-nav__icon md-icon"></span>
-            ONGEKI
+            O.N.G.E.K.I.
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -4615,15 +4615,6 @@
   <a href="#my-game-is-stuttering" class="md-nav__link">
     <span class="md-ellipsis">
       My game is stuttering
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#my-game-crashes-when-i-tab-out-of-fullscreen" class="md-nav__link">
-    <span class="md-ellipsis">
-      My game crashes when I tab out of fullscreen!
     </span>
   </a>
   
@@ -5209,6 +5200,28 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../extras/unity/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Modding Unity-based games
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -5308,15 +5321,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#my-game-crashes-when-i-tab-out-of-fullscreen" class="md-nav__link">
-    <span class="md-ellipsis">
-      My game crashes when I tab out of fullscreen!
-    </span>
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -5336,7 +5340,7 @@
   
 
 
-<h1 id="troubleshooting-ongeki-bright-memory">Troubleshooting (ONGEKI bright MEMORY)</h1>
+<h1 id="troubleshooting-ongeki-bright-memory">Troubleshooting (O.N.G.E.K.I. bright MEMORY)</h1>
 <div style="text-align: center;">
     <img src="/img/ongeki/sddt/brightmemory.png" width="50%">
 </div>
@@ -5384,6 +5388,9 @@ named <code>amdaemontest.txt</code> in <code>App\bin</code>, which you can send 
 <p>This is likely to be <code>Assembly-CSharp.dll</code>, <code>Assembly-CSharp-firstpass.dll</code>, and/or <code>AMDaemon.NET.dll</code>.
 You can try replacing the DLLs or re-downloading data from elsewhere.</p>
 </li>
+<li>
+<p>An ill-formed keychip is defined in <code>segatools.ini</code></p>
+</li>
 </ul>
 </div>
 <hr />
@@ -5393,7 +5400,7 @@ You can try replacing the DLLs or re-downloading data from elsewhere.</p>
 <ul>
 <li>Make sure V-Sync isn't disabled in your graphics settings (called "Vertical sync"
 in NVIDIA Control Panel and "Wait for Vertical Refresh" in AMD Control Panel.)</li>
-<li>Limit <code>mu3.exe</code> to run at 60 FPS using a tool like <a href="https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download">RivaTuner</a>.</li>
+<li>Limit <code>mu3.exe</code> to run at 60 FPS using a tool like <a href="https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download">RivaTuner</a> or a patch.</li>
 </ul>
 <p>It could also be that your computer's performance isn't good enough to keep
 a steady framerate.</p>
@@ -5411,25 +5418,6 @@ right ensuring that the game detects the full range of motion.</p>
 <div class="admonition tip">
 <p>For NVIDIA users, create an override for <code>mu3.exe</code> in NVIDIA Control Panel
 and change "Power management mode" to "<strong>Prefer maximum performance</strong>".</p>
-</div>
-<hr />
-<h3 id="my-game-crashes-when-i-tab-out-of-fullscreen">My game crashes when I tab out of fullscreen!</h3>
-<div class="admonition tip">
-<p>As the game is intended to run on arcade hardware, it doesn't like being minimized.</p>
-<p>One workaround for this is to use DXVK. Download the latest version from <a href="https://github.com/doitsujin/dxvk/releases/latest">releases</a>.
-This will be a <code>dxvk-x.y.z.tar.gz</code> file, which you can open using <a href="https://www.7-zip.org/">7zip</a>.
-Navigate to the <code>x32</code> folder, and copy the <code>d3d9.dll</code> file to your game's <code>App\bin</code> folder, agreeing
-to overwrite when asked.</p>
-<p>You should now be able to tab out of fullscreen without crashing the game.</p>
-</div>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>The game will not ignore inputs when out of focus.</p>
-<p>This means any controller inputs will still be accepted, so try not to lean onto
-your slider whilst tabbed out!</p>
-<p>This also means that you can accidentally enter the service menu by hitting your
-<code>Test</code> key even if the game is minimised. If you were in the middle of a credit,
-<strong>your scores will be lost.</strong></p>
 </div>
 
 
@@ -5451,7 +5439,7 @@ your slider whilst tabbed out!</p>
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">January 30, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">February 21, 2025</span>
   </span>
 
     
