@@ -1,14 +1,14 @@
-# Game Setup (ONGEKI bright MEMORY)
+# Game Setup (O.N.G.E.K.I. bright MEMORY)
 <div style="text-align: center;">
     <img src="/img/ongeki/sddt/brightmemory.png" width="50%">
 </div>
 
 !!! danger "Please make sure you downloaded your data from an appropriate source.<br>This guide is unable to troubleshoot any problems related to bad or poorly managed data."
 
-!!! danger "If you're coming from a previous version of ONGEKI"
+!!! danger "If you're coming from a previous version of O.N.G.E.K.I."
 
     You'll want to create a new folder for the game and start from scratch.
-    ONGEKI **DOES NOT** like being extracted over old data!
+    O.N.G.E.K.I. **DOES NOT** like being extracted over old data!
 
 ---
 
@@ -61,7 +61,7 @@
 
 !!! tip ""
 
-    ONGEKI content updates are distributed through option folders instead of patching
+    O.N.G.E.K.I. content updates are distributed through option folders instead of patching
     the base game. They are named `A???`, with each `?` being a number. Custom options
     distributed by the community might use letters instead, to distinguish them from
     official ones.
@@ -105,13 +105,24 @@
 
 !!! tip ""
 
-    ONGEKI executables are protected and will not run on a regular computer.
+    O.N.G.E.K.I. executables are protected and will not run on a regular computer.
 
     Obtain unprotected (also called "unpacked" or "decrypted" by the community)
-    copies of `mu3.exe` and `amdaemon.exe` for your game version.
+    copies of the following files:
 
-    Copy `mu3.exe` and `amdaemon.exe` to the `App` folder of your game data. Agree
-    to overwrite when asked.
+    - `amdaemon.exe`
+    - `mu3.exe`
+    - `mu3_Data\Plugins\amdaemon_api.dll`
+    - `mu3_Data\Managed\AMDaemon.NET.dll`
+    - `mu3_Data\Managed\Assembly-CSharp-firstpass.dll`
+    - `mu3_Data\Managed\Assembly-CSharp.dll`
+
+    Copy the files and folders into the `App/Package` folder of your game data. Agree to overwrite
+    when asked.
+
+    !!! Warning "Assembly-CSharp Note"
+
+        `Assembly-CSharp.dll` **must** match your game version.
 
 ---
 
@@ -149,8 +160,8 @@
 
     ```ini
     [system]
-    dipsw2=1
-    dipsw2=1 ; WRONG!
+    dipsw1=1
+    dipsw1=1 ; WRONG!
     ```
 
 #### `[vfs]`
@@ -167,19 +178,39 @@
     appdata=../../AppData
     ```
 
-#### `[gfx]`
+---
+
+### Setting launch options
 
 !!! tip ""
+    Right click `App\package\start.bat`, select `Edit`. Locate the line that launches `mu3` and edit it according to your preferences:
 
-    - Set `windowed` to `0` to run in fullscreen mode and `1` to run in windowed mode.
-    - If you have multiple monitors and you're running in fullscreen mode (`windowed=0`),
-    set `monitor` to the index of the monitor you want to run the game on.
+    ```bat hl_lines="6"
+    @echo off
 
-??? info "Getting the monitor index"
+    pushd %~dp0
 
-    Navigate to Windows display settings. Each monitor should be assigned a number.
-    The monitor index is that number minus one. For example, monitor 2 means monitor index 1.
+    start "AM Daemon" /min inject -d -k mu3hook.dll amdaemon.exe -f -c config_common.json config_server.json config_client.json
+    inject -d -k mu3hook.dll mu3 -screen-fullscreen 0 -popupwindow -screen-width 1080 -screen-height 1920
+    taskkill /f /im amdaemon.exe > nul 2>&1
 
+    echo.
+    echo Game processes have terminated
+    pause
+    ```
+
+??? tip "Launch options"
+    * `-screen-fullscreen 0`: windowed
+    * `-screen-fullscreen 0 -popupwindow`: borderless windowed
+    * `-screen-fullscreen 1`: exclusive fullscreen
+    * `-screen-width <W> -screen-height <H>`: resolution
+    ??? warning "Note about resolution"
+        - The service menu will only render correctly at 1080x1920.
+        - This can be fixed with a patch.
+    * `-monitor <N>`: the monitor to run the game on
+    ??? info "Getting the monitor index"
+        Navigate to Windows display settings. Each monitor should be assigned a number.
+        The monitor index is that number. For example, monitor 2 means `-monitor 2`.
 ---
 
 ### Connecting to a network
@@ -204,7 +235,7 @@
     id=A69E-XXXXXXXXXXX
     ```
 
-    Finally, you need a card number. Create a file named `aime.txt` inside `App\bin\DEVICE` and type in
+    Finally, you need a card number. Create a file named `aime.txt` inside `App\package\DEVICE` and type in
     your 20-digit access code if you already have one, or make one up if you don't. If you're making one
     up, the access code **MUST NOT** start with a 3.
 
@@ -233,20 +264,18 @@
 
 !!! tip ""
 
-    - Right-click on the volume setting in your taskbar and select `Sounds`.
-    - Navigate to the `Playback` tab, right click on your default audio device, and click on `Properties`.
-    - Go to the `Advanced` tab.
-	- Check both boxes under `Exclusive Mode`.
-	- Open the `Default Format` dropdown.
-    - Pick either `16 bit, 48000Hz (DVD Quality)` or `24 bit, 48000Hz (Studio Quality)`, click `Apply`, then `OK`.
+    - Open `App\package\mu3.ini` (or create it if it doesn't exist).
+    - Set `WasapiExclusive` in the `Sound` section to `0` (create the key if it doesn't exist):
 
-    <img src="/img/ongeki/sddt/setup/5_audio.png">
-
+    ```ini
+    [Sound]
+    WasapiExclusive=0
+    ```
 #### Fixing OpenSSL on Intel 10th Gen and newer CPUs
 
 !!! tip ""
 
-    If you have an Intel 10th Gen CPU or newer, right click `App\bin\start.bat`, select `Edit`, and add the
+    If you have an Intel 10th Gen CPU or newer, right click `App\package\start.bat`, select `Edit`, and add the
     highlighted line to the top of the file.
 
     ```batch hl_lines="2"
@@ -328,32 +357,11 @@
 
 ### Custom Mods
 
-!!! tip ""
-
-    !!! danger "Please use BepInEx to load all mods including MelonLoader and MonoMods"
-
-    Mods have historically been hardcoded into the unprotected `Assembly-CSharp.dll` which the user can
-    enable/disable with the `mu3.ini` configuration. The modern approach is to use
-    BepInEx to load custom mods without hardmodding the Assembly-CSharp file.
-
-    To enable BepInEx, download the [BepInEx stable release](https://github.com/BepInEx/BepInEx/releases/latest),
-    extract the BepInEx folder to the `App\package` folder, and modify `segatools.ini` with the following:
-
-    ```ini
-    [unity]
-    enable=1
-    targetAssembly=BepInEx\core\BepInEx.Preloader.dll
-    ```
-
-    - BepInEx: place mods in `BepInEx\Plugins`
-    - Melonloader: use [BepInEx.MelonLoader.Loader](https://github.com/BepInEx/BepInEx.MelonLoader.Loader/releases/latest) UnityMono-BepInEx5. Place mods in `MLLoader\Mods`
-    - MonoMods: use [BepInEx.MonoMod.Loader](https://github.com/BepInEx/BepInEx.MonoMod.Loader/releases/latest). Place mods in `BepInEx\monomod`
-
----
+!!! info "Mods are covered on the [Unity modding](../../extras/unity.md) page."
 
 ### Controllers and Troubleshooting
 
-!!! info "Input methods and controllers are covered in the [Controllers](../ongekibrightmemory/controllers.md) page."
+!!! info "Input methods and controllers are covered on the [Controllers](../ongekibrightmemory/controllers.md) page."
 
 !!! warning "Have any other issues?"
 

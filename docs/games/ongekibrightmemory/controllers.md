@@ -1,4 +1,4 @@
-# Controllers (ONGEKI bright MEMORY)
+# Controllers (O.N.G.E.K.I. bright MEMORY)
 <div style="text-align: center;">
     <img src="/img/ongeki/sddt/brightmemory.png" width="50%">
 </div>
