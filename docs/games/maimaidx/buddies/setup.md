@@ -330,32 +330,11 @@
 
     !!! warning "Do not mix option data between versions"
 
-#### Custom Mods
-
-!!! tip ""
-
-    !!! danger "Please use BepInEx to load all mods including MelonLoader and MonoMods"
-
-    Mods have historically been hardcoded into the unprotected `Assembly-CSharp.dll` which the user can 
-    enable/disable with the `mai2.ini` or `maimaiDX.ini` configuration. The modern approach is to use 
-    BepInEx to load custom mods without hardmodding the Assembly-CSharp file.
-
-    To enable BepInEx, download the [BepInEx stable release](https://github.com/BepInEx/BepInEx/releases/latest), 
-    extract the BepInEx folder to the `App/Package` folder, and modify `segatools.ini` with the following:
-
-    ```ini
-    [unity]
-    enable=1
-    targetAssembly=BepInEx\core\BepInEx.Preloader.dll
-    ```
-
-    - BepInEx: place mods in `BepInEx/Plugins`
-    - Melonloader: use [BepInEx.MelonLoader.Loader](https://github.com/BepInEx/BepInEx.MelonLoader.Loader/releases/latest) UnityMono-BepInEx5. Place mods in `MLLoader/Mods`
-    - MonoMods: use [BepInEx.MonoMod.Loader](https://github.com/BepInEx/BepInEx.MonoMod.Loader/releases/latest). Place mods in `BepInEx/monomod`
-
-    !!! warning "Some maimai DX mods are only compatible with BepInEx 5.4.22"
-
 ---
+
+### Custom Mods
+
+!!! info "Mods are covered on the [Unity modding](../../../extras/unity.md) page."
 
 ### Controllers and Troubleshooting
 

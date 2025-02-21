@@ -74,8 +74,8 @@
 
 !!! tip ""
 
-    Mageki allows you to use a mobile device as a ONGEKI controller. It replicates the layout
-    of an arcade ONGEKI controller on your mobile device.
+    Mageki allows you to use a mobile device as a O.N.G.E.K.I. controller. It replicates the layout
+    of an arcade O.N.G.E.K.I. controller on your mobile device.
 
     Mageki supports both Android and iOS devices. For installation instructions, please refer to
     the [English User Manual on the Mageki GitHub Repository](https://github.com/Sanheiii/Mageki/wiki/Mageki-User-Manual).
@@ -87,16 +87,16 @@
 
     ```ini hl_lines="2 5"
     [mu3io]
-    path = MU3Input.dll
+    path=MU3Input.dll
 
     [aimeio]
-    path64 = MU3Input.dll
+    path=MU3Input.dll
     ```
     If these sections do not exist, add them to the end of your `segatools.ini` file.
 
 !!! info "IOConfig doesn't launch for me/This application requires the Windows App Runtime"
 
-    Download and extract the contents of the [Windows App Runtime Version 1.5 Redustributable](https://aka.ms/windowsappsdk/1.5/1.5.240802000/Microsoft.WindowsAppRuntime.Redist.1.5.zip)
+    Download and extract the contents of the [Windows App Runtime Version 1.5 Redistributable](https://aka.ms/windowsappsdk/1.5/1.5.240802000/Microsoft.WindowsAppRuntime.Redist.1.5.zip)
     In the `WindowsAppSDK-Installer-x64` folder run `WindowsAppRuntimeInstall-x64.exe`
 
     If IOConfig still fails to launch, try using the [SelfContained version of ongeki-io](https://github.com/Sanheiii/ongeki-io/releases)

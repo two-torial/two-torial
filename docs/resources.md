@@ -76,3 +76,13 @@
 	- [CHUNITHM Humen](https://www.youtube.com/@chunithm_humen) - Screen captures of all CHUNITHM charts
 	- Codex's [English Chunithm Guide](https://docs.google.com/document/d/1bsVv3-cOuk_0ZMlLq8joqcwa5YUM_Ff4VnQCgJIkUOk/view) -
 	Handy CHUNITHM resource for players of all skill levels
+
+---
+
+### O.N.G.E.K.I.
+
+!!! tip ""
+	- [sdvx.in](https://sdvx.in/ongeki.html) – Chart viewer for O.N.G.E.K.I.
+	- [O.N.G.E.K.I. Humen](https://www.youtube.com/@ongeki_humen) and [MLN Rev](https://www.youtube.com/@MLN_Rev) – Screen captures of all O.N.G.E.K.I. charts
+	- Lilyshy's [English O.N.G.E.K.I. Guide](https://docs.google.com/document/d/1HKCW7DWjYRnVjCmPzrQwDKC0wKTi41X-Y-dP1-ygliU/view) –
+	Handy O.N.G.E.K.I. resource for players of all skill levels
