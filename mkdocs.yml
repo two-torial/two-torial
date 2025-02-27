@@ -212,7 +212,6 @@ theme:
         name: Switch to system preference
   features:
     - content.code.annotate
-    - navigation.instant
 
 markdown_extensions:
   - admonition
