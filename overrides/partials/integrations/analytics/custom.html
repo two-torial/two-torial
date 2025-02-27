@@ -1,7 +1,7 @@
 <script data-goatcounter="{{ config.extra.analytics.property }}"
         {# We also need to disable sending a pageview on load if using instant navigation, see below. #}
         {% if "navigation.instant" in config.theme.features %}
-        data-goatcounter-settings='{"no_onload": true, "allow_local": true}'
+        data-goatcounter-settings='{"no_onload": true}'
         {% endif %}
         async src="//gc.zgo.at/count.js"></script>
 {# 
