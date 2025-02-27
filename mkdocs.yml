@@ -180,6 +180,7 @@ not_in_nav: |
 
 theme:
   name: material
+  custom_dir: overrides
   logo: img/logo/website-logo.svg
   favicon: img/favicon.ico
   icon:
@@ -211,6 +212,7 @@ theme:
         name: Switch to system preference
   features:
     - content.code.annotate
+    - navigation.instant
 
 markdown_extensions:
   - admonition
@@ -237,3 +239,8 @@ markdown_extensions:
 plugins:
   - search
   - git-revision-date-localized
+
+extra:
+  analytics:
+    provider: custom
+    property: https://two-torial.goatcounter.com/count
