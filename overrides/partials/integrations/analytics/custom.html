@@ -1,0 +1,37 @@
+<script data-goatcounter="{{ config.extra.analytics.property }}"
+        {# We also need to disable sending a pageview on load if using instant navigation, see below. #}
+        {% if "navigation.instant" in config.theme.features %}
+        data-goatcounter-settings='{"no_onload": true}'
+        {% endif %}
+        async src="//gc.zgo.at/count.js"></script>
+{# 
+    The below code block is for handling "instant navigation" in Material MkDocs.
+    It is currently not applicable to us, but if we wish to switch to it in the future, 
+    this will properly handle URL changes for analytics.
+#}
+{% if "navigation.instant" in config.theme.features %}
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        // GoatCounter might not load, because people might have it blocked
+        // from uBlock Origin or other content blockers.
+        if (!window.goatcounter) {
+            return;
+        }
+
+        let referrer = document.referrer;
+
+        document$.subscribe((d) => {
+            // We don't need to pass the path, because when this observable is called,
+            // `window.location` will already be on the new path.
+            // We still need to manually handle referrals and site titles though.
+            window.goatcounter.count({
+                title: d.querySelector("h1")?.textContent || d.title,
+                referrer,
+            });
+
+            referrer = window.location.href;
+        });
+    });
+</script>
+{% endif %}
+
