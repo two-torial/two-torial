@@ -242,4 +242,4 @@ plugins:
 extra:
   analytics:
     provider: custom
-    property: https://two-torial.goatcounter.com/count
+    property: https://tuah-torial.goatcounter.com/count
