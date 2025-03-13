@@ -187,7 +187,7 @@
 
     Since segatools.ini is in the `/bin/` folder, typing `../` would move you up to the App folder. Since the Option folder is next to the App folder, the second `../` takes you to `App`'s parent folder, which is the folder containing `App`, `Option`, etc.
 
-    The benefits of using this method include;
+    The benefits of using this method include:
 
     - Avoiding issues that arise when folders have spaces in their names.
 
