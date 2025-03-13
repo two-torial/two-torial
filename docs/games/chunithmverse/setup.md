@@ -1,5 +1,5 @@
-# Game Setup (NEW PLUS)
-<img src="/img/chunithm/sdhd/newplus.png">
+# Game Setup (VERSE)
+<img src="/img/chunithm/sdhd/verse.png">
 
 !!! danger "Please make sure you downloaded your data from an appropriate source.<br>This guide is unable to troubleshoot any problems related to bad or poorly managed data."
 
@@ -114,15 +114,27 @@
 
 !!! danger "As a general rule of thumb, if you're not sure what a patch does or you're not absolutely certain you need it, leave it alone, regardless of recommendations below."
 
+Patches for :material-file-cog:`chusanApp.exe` 
+
 | Patch                        | Recommendation | Description |
 |------------------------------|----------------|-------------|
 | Force shared audio mode      | Either         | Force the game to use shared mode audio output, letting you listen to other audio sources while the game is running **at the cost of audio latency.**
 | Force 2 channel audio output | Either         | Try enabling this patch if you don't get audio output at all. |
 | Disable song select timer    | Either         | Disables the song select timer. |
+| Map selection timer          | `30` or `-1`   | Sets the map selection timer. |
+| Ticket selection timer       | `60` or `-1`   | Sets the ticket selection timer. |
+| Course selection timer       | `30` or `-1`   | Sets the course selection timer. |
 | No encryption                | ON             | Disable encrypting network requests. **Required if you plan to run a local server.** |
 | No TLS                       | ON             | Disable checking if the server is `HTTPS` or not. **Required if you plan to run a local server.** |
 | Bypass 1080p monitor check   | Either         | Disable checking if the monitor is 1080p when enabling 120FPS. Enable if you cannot set your monitor to 1080p. |
 | Bypass 120Hz monitor check   | Either         | Disable checking if the monitor is **exactly 120Hz** when enabling 120FPS. Enable if you cannot set your monitor to 120Hz. |
+
+Patches for :material-file-cog:`amdaemon.exe`
+
+| Patch                                           | Recommendation | Description                               |
+|-------------------------------------------------|----------------|-------------------------------------------|
+| Allow 127.0.0.1/localhost as the network server | Either         | Useful if you plan to run a local server. |
+| Infinite credits                                | Either         | Prevent credits from being consumed. You still have to put in enough credits to start the game or purchase premium tickets. |
 
 ---
 
@@ -312,7 +324,7 @@
 
 ### First launch
 
-!!! danger "If you have any issues running the game, refer to the [Troubleshooting](../chunithmnewplus/troubleshooting.md) page."
+!!! danger "If you have any issues running the game, refer to the [Troubleshooting](../chunithmverse/troubleshooting.md) page."
 
 !!! tip
 
@@ -385,8 +397,8 @@
 
 ### Further configuration
 
-!!! info "Input methods and controllers are covered in the [Controllers](../chunithmnewplus/controllers.md) page."
+!!! info "Input methods and controllers are covered in the [Controllers](../chunithmverse/controllers.md) page."
 
 !!! warning "Have any other issues?"
 
-	Check out the [Troubleshooting](../chunithmnewplus/troubleshooting.md) and [Error Codes](../../errorcodes/sega.md) pages.
+	Check out the [Troubleshooting](../chunithmverse/troubleshooting.md) and [Error Codes](../../errorcodes/sega.md) pages.
