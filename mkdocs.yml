@@ -141,6 +141,11 @@ nav:
           - "Controllers": "games/chunithmluminousplus/controllers.md"
           - "Troubleshooting": "games/chunithmluminousplus/troubleshooting.md"
           - "Cab-to-Cab": "games/chunithmluminousplus/c2c.md"
+        - "VERSE":
+          - "Game Setup": "games/chunithmverse/setup.md"
+          - "Controllers": "games/chunithmverse/controllers.md"
+          - "Troubleshooting": "games/chunithmverse/troubleshooting.md"
+          - "Cab-to-Cab": "games/chunithmverse/c2c.md"
       - "maimai DX":
         - "BUDDiES":
           - "Game Setup": "games/maimaidx/buddies/setup.md"
