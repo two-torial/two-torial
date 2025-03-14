@@ -290,6 +290,51 @@
 
     - Connect the controller to your computer, and then start the game.
 
+### Laverita 3
+
+!!! tip ""
+
+    - Switch your Laverita to IO mode. You can do so in ConfigApp
+    found in the yuancon [discord](https://discord.gg/4ncuRrq).
+    - Change the COM port of your controller. You can do so in
+    Device manager by looking for `USB Serial Device` you may need to unplug and replug your controller to properly idetify which one is the Laverita.
+    - Double click on it
+    - Go to Port Settings|
+    - Click on Advanced
+    - From the dropdown select COM1
+    - Restart to ensure changes took effect and saved
+    - Edit your `App\bin\segatools.ini` to disable io emulation and set led:
+
+    ```ini
+    [led]
+    ; Output billboard LED strip data to a named pipe called "\\.\pipe\chuni_led"
+    cabLedOutputPipe=0
+    ; Output billboard LED strip data to serial
+    cabLedOutputSerial=1
+    
+    ; Output slider LED data to the named pipe
+    controllerLedOutputPipe=0
+    ; Output slider LED data to the serial port
+    controllerLedOutputSerial=1
+    ; Use the OpeNITHM protocol for serial LED output
+    controllerLedOutputOpeNITHM=0
+    
+    ; Serial port to send data to if using serial output. Default is COM5.
+    serialPort=COM1
+    ; Baud rate for serial data (set to 115200 if using OpeNITHM)
+    serialBaud=9600
+
+    [slider]
+    ; Enable slider emulation. If you have real AC slider, set this to 0.
+    ; Slider serial port must be COM1.
+    enable=0
+
+    [io4]
+    enable=0
+    ```
+
+    - Then start the game.
+
 ### Arcade hardware and other controllers
 
 !!! tip ""
