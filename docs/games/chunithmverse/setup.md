@@ -305,6 +305,16 @@ Patches for :material-file-cog:`amdaemon.exe`
 
     <img src="/img/chunithm/sdhd/setup/5_audio.png">
 
+#### Audio (5.1 Channel Setup - Speaker & Headphone)
+
+!!! tip ""
+
+    - If you have 5.1 Channel sound card on your system (the one with 5-6 headphone ports):
+    - Disable "Force 2 channel audio output" and "Force shared audio mode" patches.
+    - Connect your speaker to the FRONT LINE-OUT (usually green).
+    - Connect your headphone to the REAR LINE-OUT (usually black).
+
+
 #### Fixing OpenSSL on Intel 10th Gen and newer CPUs
 
 !!! tip ""
