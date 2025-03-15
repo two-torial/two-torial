@@ -309,9 +309,11 @@ Patches for :material-file-cog:`amdaemon.exe`
 
 !!! warning "You must have a 5.1 capable sound card on your system (the one with 5-6 headphone ports)"
 
+    You are able to use both speakers and headphones at once.
+
     - Disable "Force 2 channel audio output" and "Force shared audio mode" patches.
-    - Connect your speaker to the FRONT LINE-OUT (usually green).
-    - Connect your headphone to the REAR LINE-OUT (usually black).
+    - Connect your speakers to the FRONT LINE-OUT (usually green).
+    - Connect your headphones to the REAR LINE-OUT (usually black).
 
 #### Fixing OpenSSL on Intel 10th Gen and newer CPUs
 
