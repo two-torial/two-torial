@@ -4429,6 +4429,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#laverita-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Laverita 3
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#arcade-hardware-and-other-controllers" class="md-nav__link">
     <span class="md-ellipsis">
       Arcade hardware and other controllers
@@ -5506,6 +5515,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#laverita-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Laverita 3
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#arcade-hardware-and-other-controllers" class="md-nav__link">
     <span class="md-ellipsis">
       Arcade hardware and other controllers
@@ -5798,6 +5816,50 @@ built-in card reader:</li>
 </span></code></pre></div>
 <ul>
 <li>Connect the controller to your computer, and then start the game.</li>
+</ul>
+</div>
+<h3 id="laverita-3">Laverita 3</h3>
+<div class="admonition tip">
+<ul>
+<li>Switch your Laverita to IO mode. You can do so in ConfigApp
+found in the yuancon <a href="https://discord.gg/4ncuRrq">discord</a>.</li>
+<li>Change the COM port of your controller. You can do so in
+Device manager by looking for <code>USB Serial Device</code> you may need to unplug and replug your controller to properly idetify which one is the Laverita.</li>
+<li>Double click on it</li>
+<li>Go to Port Settings|</li>
+<li>Click on Advanced</li>
+<li>From the dropdown select COM1</li>
+<li>Restart to ensure changes took effect and saved</li>
+<li>Edit your <code>App\bin\segatools.ini</code> to disable io emulation and set led:</li>
+</ul>
+<div class="language-ini highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a><span class="k">[led]</span>
+</span><span id="__span-13-2"><a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a><span class="c1">; Output billboard LED strip data to a named pipe called &quot;\\.\pipe\chuni_led&quot;</span>
+</span><span id="__span-13-3"><a id="__codelineno-13-3" name="__codelineno-13-3" href="#__codelineno-13-3"></a><span class="na">cabLedOutputPipe</span><span class="o">=</span><span class="s">0</span>
+</span><span id="__span-13-4"><a id="__codelineno-13-4" name="__codelineno-13-4" href="#__codelineno-13-4"></a><span class="c1">; Output billboard LED strip data to serial</span>
+</span><span id="__span-13-5"><a id="__codelineno-13-5" name="__codelineno-13-5" href="#__codelineno-13-5"></a><span class="na">cabLedOutputSerial</span><span class="o">=</span><span class="s">1</span>
+</span><span id="__span-13-6"><a id="__codelineno-13-6" name="__codelineno-13-6" href="#__codelineno-13-6"></a>
+</span><span id="__span-13-7"><a id="__codelineno-13-7" name="__codelineno-13-7" href="#__codelineno-13-7"></a><span class="c1">; Output slider LED data to the named pipe</span>
+</span><span id="__span-13-8"><a id="__codelineno-13-8" name="__codelineno-13-8" href="#__codelineno-13-8"></a><span class="na">controllerLedOutputPipe</span><span class="o">=</span><span class="s">0</span>
+</span><span id="__span-13-9"><a id="__codelineno-13-9" name="__codelineno-13-9" href="#__codelineno-13-9"></a><span class="c1">; Output slider LED data to the serial port</span>
+</span><span id="__span-13-10"><a id="__codelineno-13-10" name="__codelineno-13-10" href="#__codelineno-13-10"></a><span class="na">controllerLedOutputSerial</span><span class="o">=</span><span class="s">1</span>
+</span><span id="__span-13-11"><a id="__codelineno-13-11" name="__codelineno-13-11" href="#__codelineno-13-11"></a><span class="c1">; Use the OpeNITHM protocol for serial LED output</span>
+</span><span id="__span-13-12"><a id="__codelineno-13-12" name="__codelineno-13-12" href="#__codelineno-13-12"></a><span class="na">controllerLedOutputOpeNITHM</span><span class="o">=</span><span class="s">0</span>
+</span><span id="__span-13-13"><a id="__codelineno-13-13" name="__codelineno-13-13" href="#__codelineno-13-13"></a>
+</span><span id="__span-13-14"><a id="__codelineno-13-14" name="__codelineno-13-14" href="#__codelineno-13-14"></a><span class="c1">; Serial port to send data to if using serial output. Default is COM5.</span>
+</span><span id="__span-13-15"><a id="__codelineno-13-15" name="__codelineno-13-15" href="#__codelineno-13-15"></a><span class="na">serialPort</span><span class="o">=</span><span class="s">COM1</span>
+</span><span id="__span-13-16"><a id="__codelineno-13-16" name="__codelineno-13-16" href="#__codelineno-13-16"></a><span class="c1">; Baud rate for serial data (set to 115200 if using OpeNITHM)</span>
+</span><span id="__span-13-17"><a id="__codelineno-13-17" name="__codelineno-13-17" href="#__codelineno-13-17"></a><span class="na">serialBaud</span><span class="o">=</span><span class="s">9600</span>
+</span><span id="__span-13-18"><a id="__codelineno-13-18" name="__codelineno-13-18" href="#__codelineno-13-18"></a>
+</span><span id="__span-13-19"><a id="__codelineno-13-19" name="__codelineno-13-19" href="#__codelineno-13-19"></a><span class="k">[slider]</span>
+</span><span id="__span-13-20"><a id="__codelineno-13-20" name="__codelineno-13-20" href="#__codelineno-13-20"></a><span class="c1">; Enable slider emulation. If you have real AC slider, set this to 0.</span>
+</span><span id="__span-13-21"><a id="__codelineno-13-21" name="__codelineno-13-21" href="#__codelineno-13-21"></a><span class="c1">; Slider serial port must be COM1.</span>
+</span><span id="__span-13-22"><a id="__codelineno-13-22" name="__codelineno-13-22" href="#__codelineno-13-22"></a><span class="na">enable</span><span class="o">=</span><span class="s">0</span>
+</span><span id="__span-13-23"><a id="__codelineno-13-23" name="__codelineno-13-23" href="#__codelineno-13-23"></a>
+</span><span id="__span-13-24"><a id="__codelineno-13-24" name="__codelineno-13-24" href="#__codelineno-13-24"></a><span class="k">[io4]</span>
+</span><span id="__span-13-25"><a id="__codelineno-13-25" name="__codelineno-13-25" href="#__codelineno-13-25"></a><span class="na">enable</span><span class="o">=</span><span class="s">0</span>
+</span></code></pre></div>
+<ul>
+<li>Then start the game.</li>
 </ul>
 </div>
 <h3 id="arcade-hardware-and-other-controllers">Arcade hardware and other controllers</h3>
