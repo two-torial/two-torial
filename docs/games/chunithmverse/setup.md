@@ -305,10 +305,9 @@ Patches for :material-file-cog:`amdaemon.exe`
 
     <img src="/img/chunithm/sdhd/setup/5_audio.png">
 
-#### (optional) 5.1 Surround Sound
+??? warning "(optional) 5.1 Audio"
 
-!!! warning "You must have a 5.1 capable sound card on your system (the one with 5-6 headphone ports)"
-
+    **IF** you have a 5.1 capable sound card on your system (with 5-6 ports)
     You are able to use both speakers and headphones at once.
 
     - Disable "Force 2 channel audio output" and "Force shared audio mode" patches.
