@@ -307,7 +307,7 @@ Patches for :material-file-cog:`amdaemon.exe`
 
 ??? warning "(optional) 5.1 Audio"
 
-    **IF** you have a 5.1 capable sound card on your system (with 5-6 ports)
+    **IF** you have a 5.1 capable sound card on your system (with 5-6 ports).  
     You are able to use both speakers and headphones at once.
 
     - Disable "Force 2 channel audio output" and "Force shared audio mode" patches.
