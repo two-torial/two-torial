@@ -40,8 +40,9 @@
 
 !!! tip ""
 
-    Extract your patch's files to your existing data in a way that matches its
-    file structure. Agree to overwrite files if necessary.
+    Extract all updates in order. Agree to overwrite files if necessary.
+
+    For example, if you have `3.00.00`; install `3.01.00`, then `3.02.00`, etc.
 
 
 #### Installing ICFs
@@ -164,7 +165,7 @@
 
     ```ini
     [keychip]
-    subnet=192.168.139.0
+    subnet=192.168.174.0
     id=A69E-XXXXXXXXXXX
     ```
 
