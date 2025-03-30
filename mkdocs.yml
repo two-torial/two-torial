@@ -156,6 +156,13 @@ nav:
           - "Game Setup": "games/ongekibrightmemory/setup.md"
           - "Controllers": "games/ongekibrightmemory/controllers.md"
           - "Troubleshooting": "games/ongekibrightmemory/troubleshooting.md"
+      - "WACCA":
+        - "WACCA Lily R":
+          - "Game Setup": "games/waccalilyr/setup.md"
+          - "Controllers": "games/waccalilyr/controllers.md"
+        - "WACCA Reverse":
+          - "Game Setup": "games/waccareverse/setup.md"
+          - "Controllers": "games/waccareverse/controllers.md"
     - NAMCO:
       - "Taiko no Tatsujin: Nijiiro":
         - "Game Setup": "games/taikonijiiro/setup.md"
@@ -182,6 +189,7 @@ nav:
 not_in_nav: |
   games/chusan
   games/mu3
+  games/mercury
 
 theme:
   name: material
