@@ -218,20 +218,20 @@
 
     Navigate to **SYSTEM SETTING**.
 
-<img src="/img/wacca/setup/servicemenu/3_systemsetting.png">
+<img src="/img/wacca/setup/servicemenu/4_systemsetting.png">
 
 !!! tip ""
 
     Navigate to **CLOSING TIME SETTINGS**.
 
-<img src="/img/wacca/setup/servicemenu/4_closingtime.png">
+<img src="/img/wacca/setup/servicemenu/5_closingtime.png">
 
 !!! tip ""
 
     Navigate to **ALL DAYS OF THE WEEK** and use the `Service` button
     to toggle the setting until it says **OFF**.
 
-<img src="/img/wacca/setup/servicemenu/5_closingtimesetting.png">
+<img src="/img/wacca/setup/servicemenu/6_closingtimesetting.png">
 
 !!! tip ""
 
