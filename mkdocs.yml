@@ -190,6 +190,7 @@ not_in_nav: |
   games/chusan
   games/mu3
   games/mercury
+  games/mai2
 
 theme:
   name: material
