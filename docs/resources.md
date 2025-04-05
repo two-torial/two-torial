@@ -74,7 +74,7 @@
 !!! tip ""
 	- [sdvx.in](https://sdvx.in/chunithm.html) - Chart viewer for CHUNITHM
 	- [CHUNITHM Humen](https://www.youtube.com/@chunithm_humen) - Screen captures of all CHUNITHM charts
-	- Codex's [English Chunithm Guide](chunithm.org) -
+	- Codex's [English Chunithm Guide](https://chunithm.org) -
 	Handy CHUNITHM resource for players of all skill levels
 
 ---
