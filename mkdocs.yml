@@ -75,9 +75,18 @@ nav:
           - "First Time Setup": "games/hellopopn/setup.md"
           - "Common Problems/Tips": "games/hellopopn/problems.md"
       - "DDR":
-        - "DDR Ace":
-          - "First Time Setup": "games/ddrace/setup.md"
-          - "Common Problems/Tips": "games/ddrace/problems.md"
+        - "DDR A20":
+          - "Game Setup": "games/ddra20/setup.md"
+          - "Troubleshooting": "games/ddra20/troubleshooting.md"
+        - "DDR A20 PLUS":
+          - "Game Setup": "games/ddra20plus/setup.md"
+          - "Troubleshooting": "games/ddra20plus/troubleshooting.md"
+        - "DDR A3":
+          - "Game Setup": "games/ddra3/setup.md"
+          - "Troubleshooting": "games/ddra3/troubleshooting.md"
+        - "DDR WORLD":
+          - "Game Setup": "games/ddrworld/setup.md"
+          - "Troubleshooting": "games/ddrworld/troubleshooting.md"
       - "Jubeat":
         - "Jubeat Clan":
           - "First Time Setup": "games/jubeatclan/setup.md"
@@ -203,6 +212,7 @@ not_in_nav: |
   games/mu3
   games/mercury
   games/mai2
+  games/ddr
 
 theme:
   name: material
