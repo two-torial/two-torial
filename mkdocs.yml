@@ -151,11 +151,23 @@ nav:
           - "Game Setup": "games/maimaidx/buddies/setup.md"
           - "Controllers": "games/maimaidx/buddies/controllers.md"
           - "Troubleshooting": "games/maimaidx/buddies/troubleshooting.md"
+        - "PRiSM":
+          - "Game Setup": "games/maimaidx/prism/setup.md"
+          - "Controllers": "games/maimaidx/prism/controllers.md"
+          - "Troubleshooting": "games/maimaidx/prism/troubleshooting.md"
+        - "PRiSM PLUS":
+          - "Game Setup": "games/maimaidx/prismplus/setup.md"
+          - "Controllers": "games/maimaidx/prismplus/controllers.md"
+          - "Troubleshooting": "games/maimaidx/prismplus/troubleshooting.md"
       - "O.N.G.E.K.I.":
         - "bright MEMORY":
           - "Game Setup": "games/ongekibrightmemory/setup.md"
           - "Controllers": "games/ongekibrightmemory/controllers.md"
           - "Troubleshooting": "games/ongekibrightmemory/troubleshooting.md"
+        - "Re:Fresh":
+          - "Game Setup": "games/ongekirefresh/setup.md"
+          - "Controllers": "games/ongekirefresh/controllers.md"
+          - "Troubleshooting": "games/ongekirefresh/troubleshooting.md"
       - "WACCA":
         - "WACCA Lily R":
           - "Game Setup": "games/waccalilyr/setup.md"
@@ -190,6 +202,7 @@ not_in_nav: |
   games/chusan
   games/mu3
   games/mercury
+  games/mai2
 
 theme:
   name: material

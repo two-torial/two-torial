@@ -42,11 +42,21 @@
 
     This could also be due to **many** things, the most common of which are:
 
-    - You have one or more incorrect/broken DLL(s) in `App\package\mu3_Data\Managed`
+    - You have one or more incorrect/broken DLL(s) in `App\Package\Sinmai_Data\Managed`
 
         This is likely to be `Assembly-CSharp.dll`, `Assembly-CSharp-firstpass.dll`, and/or `AMDaemon.NET.dll`.
         You can try replacing the DLLs or re-downloading data from elsewhere.
+
     - An ill-formed keychip is defined in `segatools.ini`
+
+    - You need to app the OpenSSL fix on Intel Core 10th Gen CPUs and newer.
+
+---
+
+### My game is stuck on a blue and black screen!
+You need to run the data using unprotected/unpacked files. Please refer to the setup guide to find which ones you need and obtain them.
+
+If you belive you've already done this. You might be missing a try installing the latest [vcredist](https://github.com/abbodi1406/vcredist/releases)
 
 ---
 
@@ -58,57 +68,7 @@
 
     - Make sure V-Sync isn't disabled in your graphics settings (called "Vertical sync"
     in NVIDIA Control Panel and "Wait for Vertical Refresh" in AMD Control Panel.)
-    - Limit `mu3.exe` to run at 60 FPS using a tool like [RivaTuner](https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download) or a patch.
+    - Limit `Sinmai.exe` to run at 60 FPS using a tool like [RivaTuner](https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download) or a patch.
 
     It could also be that your computer's performance isn't good enough to keep
     a steady framerate.
-
----
-
-### My lever controls aren't working!
-!!! tip ""
-
-    You may need to calibrate your lever.
-
-    From the `TEST MENU` select **レバー設定** (`LEVER SETTINGS`) and then move the lever left to
-    right ensuring that the game detects the full range of motion.
-
-    Then save by selecting **終了** (`EXIT`) and then **保存する** (`SAVE`).
-
----
-
-### My game is stuttering
-
-!!! tip ""
-
-    For NVIDIA users, create an override for `mu3.exe` in NVIDIA Control Panel
-    and change "Power management mode" to "**Prefer maximum performance**".
-
----
-
-### I can't insert credits!
-
-!!! tip ""
-
-    Open `App\package\config_common.json` and find the `credit` section. From here, set `freeplay` to `true`
-
-    ```json hl_lines="8"
-    "credit" :
-    {
-        "max_credit" : 24,
-        "config" :
-        {
-            "coin_chute_type_common" : true,
-            "service_type_common" : true,
-            "freeplay" : true,
-            "coin_chute_multiplier" : [ 1, 1 ],
-            "coin_to_credit" : 1,
-            "bonus_adder" : 0,
-            "game_cost" : [ 1 ]
-        }
-    },
-    ```
-
-    Then delete the `amfs\sysfile.dat` folder and the `AppData\SDDT` folder
-
-    After re-launching the game, you should be able to play by purchasing GP

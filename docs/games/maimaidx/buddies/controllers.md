@@ -1,7 +1,4 @@
 # maimai DX BUDDiES
-
 <img src="/img/maimaidx/buddies.png">
 
----
-
-### Coming Soon
+--8<-- "docs/games/mai2/controllers.md"
