@@ -164,6 +164,10 @@ nav:
           - "Game Setup": "games/ongekibrightmemory/setup.md"
           - "Controllers": "games/ongekibrightmemory/controllers.md"
           - "Troubleshooting": "games/ongekibrightmemory/troubleshooting.md"
+        - "Re:Fresh":
+          - "Game Setup": "games/ongekirefresh/setup.md"
+          - "Controllers": "games/ongekirefresh/controllers.md"
+          - "Troubleshooting": "games/ongekirefresh/troubleshooting.md"
       - "WACCA":
         - "WACCA Lily R":
           - "Game Setup": "games/waccalilyr/setup.md"
