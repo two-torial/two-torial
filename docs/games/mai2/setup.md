@@ -316,10 +316,15 @@
 !!! tip ""
 
     maimai DX content updates are distributed through option folders instead of patching
-    the base game. They are named with a letter followed by three numbers. Each release
-    increments the letter (ie. BUDDiES is `H???` and BUDDiES+ is `I???`).
+    the base game.
 
-    Extract any options you've downloaded into the `option` folder. You should end up with
+    Options are named with a letter followed by three numbers.
+
+    For JPN data, each new release of maimai DX increments the first letter of the Option (ie. BUDDiES is `H???` and BUDDiES+ is `I???`).
+
+    For EXPORT data, Options will always begin with the letter `A` (i.e `A???`)
+
+    Extract any options you've downloaded into the `Option` folder. You should end up with
     a file structure as follows. **Do not be worried if you have fewer or more option folders.**
 
     <img width="500" src="/img/maimaidx/setup/options.png">
