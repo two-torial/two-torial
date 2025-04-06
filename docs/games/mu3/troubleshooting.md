@@ -7,10 +7,10 @@
 !!! tip ""
 
     Could be due to **many** things, the most common of which are:
-    
+
     - `amdaemon` crashing in the background. Make sure that the `config_*.json` files
     have valid syntax, your ICF files are correct, and the OpenSSL fix is applied on Intel Core 10th Gen CPUs and newer.
-    
+
 ??? info "Capturing logs from `amdaemon` for troubleshooting"
 
     To assist with troubleshooting, a script can be used to capture logs from `amdaemon`. Create a file named
@@ -28,7 +28,7 @@
     :sub
     set OPENSSL_ia32cap=:~0x20000000
     pushd %~dp0
-    start /b "AM Daemon" /min inject -d -k mu3hook.dll amdaemon.exe -f -c config_common.json config_server.json 
+    start /b "AM Daemon" /min inject -d -k mu3hook.dll amdaemon.exe -f -c config_common.json config_server.json
     ping 127.0.0.1 -n 31 > nul && taskkill /F /im amdaemon.exe
     ```
 
@@ -41,9 +41,9 @@
 !!! tip ""
 
     This could also be due to **many** things, the most common of which are:
-    
+
     - You have one or more incorrect/broken DLL(s) in `App\package\mu3_Data\Managed`
-    
+
         This is likely to be `Assembly-CSharp.dll`, `Assembly-CSharp-firstpass.dll`, and/or `AMDaemon.NET.dll`.
         You can try replacing the DLLs or re-downloading data from elsewhere.
     - An ill-formed keychip is defined in `segatools.ini`
@@ -55,7 +55,7 @@
 !!! tip ""
 
     The game could be running under or over its required refresh rate.
-    
+
     - Make sure V-Sync isn't disabled in your graphics settings (called "Vertical sync"
     in NVIDIA Control Panel and "Wait for Vertical Refresh" in AMD Control Panel.)
     - Limit `mu3.exe` to run at 60 FPS using a tool like [RivaTuner](https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download) or a patch.
@@ -83,3 +83,32 @@
 
     For NVIDIA users, create an override for `mu3.exe` in NVIDIA Control Panel
     and change "Power management mode" to "**Prefer maximum performance**".
+
+---
+
+### I can't insert credits!
+
+!!! tip ""
+
+    Open `App\package\config_common.json` and find the `credit` section. From here, set `freeplay` to `true`
+
+    ```json hl_lines="8"
+    "credit" :
+    {
+        "max_credit" : 24,
+        "config" :
+        {
+            "coin_chute_type_common" : true,
+            "service_type_common" : true,
+            "freeplay" : true,
+            "coin_chute_multiplier" : [ 1, 1 ],
+            "coin_to_credit" : 1,
+            "bonus_adder" : 0,
+            "game_cost" : [ 1 ]
+        }
+    },
+    ```
+
+    Then delete the `amfs\sysfile.dat` folder and the `AppData\SDDT` folder
+
+    After re-launching the game, you should be able to play by purchasing GP
