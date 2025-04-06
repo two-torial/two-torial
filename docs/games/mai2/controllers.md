@@ -45,26 +45,29 @@
 ---
 
 ### ADX Controller
-First, you will need to purchase a compatible monitor if your controller did not come with one. A list of compatible monitors can be found on [this spreadsheet](https://docs.google.com/spreadsheets/d/1WN50pyJEPpXR32UTsEzsKe4Qm-EUAQgwmkCBX3kWB1Q)
 
-Plug your controller in and open `Windows Device Manager`.
+!!! tip ""
 
-Under the `Ports (COM & LPT)` section ensure the correct ports are set for both the Touch Panel and Button LED.
+    First, you will need to purchase a compatible monitor if your controller did not come with one. A list of compatible monitors can be found on [this spreadsheet](https://docs.google.com/spreadsheets/d/1WN50pyJEPpXR32UTsEzsKe4Qm-EUAQgwmkCBX3kWB1Q)
 
-- (Touch Panel) USB Serial Device: `COM3`
-- (Button LED) USB-SERIAL CH340: `COM21`
+    Plug your controller in and open `Device Manager`.
 
-If they are different change the port of the device by `Right Clicking on the Device -> Properties -> Port Settings -> COM Port Number`
+    Under the `Ports (COM & LPT)` section, ensure the correct ports are set for both the Touch Panel and Button LED.
 
-Finally ensure the `mai2.ini` file in your data's `App/Package` folder has the following values set under the `[AM]` section
-```
-[AM]
-Target=0
-DummyTouchPanel=0
-DummyLED=0
-```
+    - (Touch Panel) USB Serial Device: `COM3`
+    - (Button LED) USB-SERIAL CH340: `COM21`
 
-This gets your controller to working with keyboard inputs at a basically level. Its highly recommended that you also view [this setup guide](https://github.com/maimai-dx/ADX-Controller-Guide/blob/master/document/Setup.md) which provides more detailed instructions, improved drivers, and help with adjusting touch panel sensitivity.
+    If they are different change the port of the device by `Right Clicking on the Device -> Properties -> Port Settings -> COM Port Number`
+
+    Finally ensure the `mai2.ini` file in your data's `App/Package` folder has the following values set under the `[AM]` section
+    ```
+    [AM]
+    Target=0
+    DummyTouchPanel=0
+    DummyLED=0
+    ```
+
+    This gets your controller working with keyboard inputs. Its highly recommended that you also view [this setup guide](https://github.com/maimai-dx/ADX-Controller-Guide/blob/master/document/Setup.md) which provides more detailed instructions, improved drivers, and help with adjusting touch panel sensitivity.
 
 !!! warning
     You **DO NOT** need to follow the Network Setup steps in the linked guide above if you've already done so while setting up game data
