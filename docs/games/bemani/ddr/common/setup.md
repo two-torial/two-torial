@@ -33,7 +33,7 @@
 
 	You should end up with a file structure with a few folders only, as follows.
 
-<img src="/img/ddr/setup/1_data.png">
+<img src="/img/bemani/ddr/common/setup/1_data.png">
 
 ??? warning "If your data doesn't look like this"
 
@@ -89,14 +89,14 @@
 	- Head over to [spice2x.github.io](https://spice2x.github.io) and download the latest release.
 	- Extract the `spice.exe` and `spicecfg.exe` files from the archive to your game's directory.
   
-	<img src="/img/ddr/setup/spice2x32data">
+	<img src="/img/bemani/ddr/common/setup/spice2x32data">
 
 ??? tip "For MDX-003 (64 bits)"
 
 	- Head over to [spice2x.github.io](https://spice2x.github.io) and download the latest release.
 	- Extract the `spice64.exe` and `spicecfg.exe` files from the archive to your game's directory.
   
-	<img src="/img/ddr/setup/spice2x64data.png">
+	<img src="/img/bemani/ddr/common/setup/spice2x64data.png">
 
 ### Configuring Spice2x
 
