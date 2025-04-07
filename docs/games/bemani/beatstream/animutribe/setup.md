@@ -1,4 +1,5 @@
 # BeatStream アニムトライヴ
+<img class="header-logo" src="/img/bemani/beatstream/animutribe/logo.png"/>
 
 !!! danger "Warning:"
 	Please make sure your data is from an appropriate source and unmodified before proceeding, this guide is unable to troubleshoot any problems related to bad or poorly managed data.
@@ -20,7 +21,7 @@
 
 	After downloading your data, the first thing to do is make sure your files aren't set to READ ONLY, make sure to uncheck it from the main folder in the Windows Properties tab if so. Then, put your desired 64-bit tools inside the game's `contents` folder, and to create a `.bat` file. Pictured below is what your folder should look like, feel free to name your `.bat` file whatever you desire, for the sake of convenience we've named ours `gamestart.bat`.
 
-<img src="/img/bst/1.png">
+<img src="/img/bemani/beatstream/animutribe/1.png">
 
 ### Configuring Your Tools
 
@@ -40,10 +41,6 @@
 	- `-ea` enables an integrated e-amusement server within SpiceTools.
 	- `-w` will boot the game in windowed mode which will ease our initial setup and testing later, make sure to remove `-w` to run the game fullscreen once you're done setting up!
 
-	Pictured below, the contents of our `gamestart.bat` file in Notepad++.
-
-<img src="/img/iidx25/2.png">
-
 ### Configuring for an Online Network
 
 !!! tip ""
@@ -54,10 +51,6 @@
 	- `-p` takes your PCBID on your network of choice, simply replace `XXXXXXXXXXXXXXXXXXXX` with your PCBID.
 	- `-url` allows you to specify a custom service URL to connect with, simply replace `http://yoururlhere.com/` with your chosen network's URL.
 	- `-w` will boot the game in windowed mode which will ease our initial setup and testing later, make sure to remove `-w` to run the game fullscreen once you're done setting up!
-
-	Pictured below, the contents of our `gamestart.bat` file in Notepad++.
-
-<img src="/img/iidx25/3.png">
 
 ### Final Steps and Setting up the Game
 
