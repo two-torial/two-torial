@@ -118,8 +118,8 @@ nav:
           - "Common Problems/Tips": "games/beatstreamfinal/problems.md"
       - "MÚSECA":
         - "MÚSECA 1+1/2":
-          - "First Time Setup": "games/musecafinal/setup.md"
-          - "Common Problems/Tips": "games/musecafinal/problems.md"
+          - "Game Setup": "games/bemani/museca/1plushalf/setup.md"
+          - "Troubleshooting": "games/bemani/museca/1plushalf/troubleshooting.md"
     - SEGA:
       - "CHUNITHM":
         - "NEW":

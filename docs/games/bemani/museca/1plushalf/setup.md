@@ -1,4 +1,5 @@
 # MUSECA 1+1/2
+<img class="header-logo" src="/img/bemani/museca/1plushalf/logo.png"/>
 
 !!! danger "Warning:"
 	Please make sure your data is from an appropriate source and unmodified before proceeding, this guide is unable to troubleshoot any problems related to bad or poorly managed data.
@@ -73,4 +74,4 @@
 
 !!! warning "Have any other errors?"
 
-	Check out the [Common Problems/Tips](problems.md) section and [Error Code](/errorcodes/bemani.md) section to resolve any issues not seen in this guide to greater depth.
+	Check out the [Troubleshooting](troubleshooting.md) and [Error Code](/errorcodes/bemani.md) sections to resolve any issues not seen in this guide to greater depth.
