@@ -1,4 +1,4 @@
-HELLO Pop'n Common Problems/Tips
+HELLO Pop'n Troubleshooting
 
 ### My Game Is Running Slow/Lagging
 

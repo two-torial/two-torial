@@ -1,4 +1,4 @@
-Pop&apos;n Peace Common Problems/Tips
+Pop&apos;n Peace Troubleshooting
 
 ### Hardware Specs
 

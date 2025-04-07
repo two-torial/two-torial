@@ -1,4 +1,4 @@
-# IIDX 13 Common Problems/Tips
+# IIDX 13 Troubleshooting
 <img src="/img/iidx13/distorted_logo.png">
 
 ### My Game Is Running Crazy Fast!

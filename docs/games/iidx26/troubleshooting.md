@@ -1,6 +1,6 @@
-# IIDX 25 Common Problems/Tips
+# IIDX 26 Troubleshooting
 
-<img src="/img/iidx25/cb.png">
+<img src="/img/iidx26/rootage.png">
 
 ### Hardware Specs
 
@@ -44,7 +44,7 @@
 ### HD and HD*
 
 !!! tip ""
-	This version of IIDX has two HD mode options, `HD` and `HD*` neither is inherently better than the other, the only difference is HD* is an additional + 1.0 offset in-game, the official reasoning is to account for a different set of monitors on arcade cabs. In beatmania IIDX 26 ROOTAGE this option is removed entirely and only HD is present.
+	This version of IIDX has removed having two HD mode options, leaving only HD. `HD` and `HD*` neither is inherently better than the other, the only difference is HD* is an additional + 1.0 offset in-game, now applied to the lone `HD` mode. The official reasoning is to account for a different set of monitors on arcade cabs.
 
 ### Which Offset Is Which?
 
@@ -54,7 +54,7 @@
 ### A Note About SSE 4.2
 
 !!! tip ""
-	In the rare case you are running this game on *very* old hardware, IIDX 25 requires a processor supporting the [SSE 4.2 instruction set](https://en.wikipedia.org/wiki/SSE4#SSE4.2). But, in the event your processor does not have this, there is a patch available to bypass this.
+	In the rare case you are running this game on *very* old hardware, IIDX 26 requires a processor supporting the [SSE 4.2 instruction set](https://en.wikipedia.org/wiki/SSE4#SSE4.2). But, in the event your processor does not have this, there is a patch available to bypass this.
 
 ### When I Run This Game All Other Background Audio Is Gone! What's Going On?
 

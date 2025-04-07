@@ -29,17 +29,17 @@ nav:
           - "Game Setup": "games/iidx14/setup.md"
           - "Troubleshooting": "games/iidx14/troubleshooting.md"
         - "24 SINOBUZ":
-          - "First Time Setup": "games/iidx24/setup.md"
-          - "Common Problems/Tips": "games/iidx24/problems.md"
+          - "Game Setup": "games/iidx24/setup.md"
+          - "Troubleshooting": "games/iidx24/troubleshooting.md"
         - "25 CANNON BALLERS":
-          - "First Time Setup": "games/iidx25/setup.md"
-          - "Common Problems/Tips": "games/iidx25/problems.md"
+          - "Game Setup": "games/iidx25/setup.md"
+          - "Troubleshooting": "games/iidx25/troubleshooting.md"
         - "26 Rootage":
-          - "First Time Setup": "games/iidx26/setup.md"
-          - "Common Problems/Tips": "games/iidx26/problems.md"
+          - "Game Setup": "games/iidx26/setup.md"
+          - "Troubleshooting": "games/iidx26/troubleshooting.md"
         - "27 HEROIC VERSE":
-          - "First Time Setup": "games/iidx27/setup.md"
-          - "Common Problems/Tips": "games/iidx27/problems.md"
+          - "Game Setup": "games/iidx27/setup.md"
+          - "Troubleshooting": "games/iidx27/troubleshooting.md"
           - "Lightning Mode Specifics": "games/iidx27/lightning.md"
         - "30 RESIDENT":
           - "Game Setup": "games/bemani/iidx/30_resident/setup.md"
@@ -55,25 +55,25 @@ nav:
           - "Troubleshooting": "games/bemani/iidx/32_pinkycrush/troubleshooting.md"
       - "Sound Voltex":
         - "IV HEAVENLY HAVEN":
-          - "First Time Setup": "games/bemani/sdvx/4_heavenlyhaven/setup.md"
-          - "Common Problems/Tips": "games/bemani/sdvx/4_heavenlyhaven/problems.md"
+          - "Game Setup": "games/bemani/sdvx/4_heavenlyhaven/setup.md"
+          - "Troubleshooting": "games/bemani/sdvx/4_heavenlyhaven/troubleshooting.md"
         - "V VIVID WAVE":
-          - "First Time Setup": "games/bemani/sdvx/5_vividwave/setup.md"
-          - "Common Problems/Tips": "games/bemani/sdvx/5_vividwave/problems.md"
+          - "Game Setup": "games/bemani/sdvx/5_vividwave/setup.md"
+          - "Troubleshooting": "games/bemani/sdvx/5_vividwave/troubleshooting.md"
         - "VI EXCEED GEAR":
           - "Game Setup": "games/bemani/sdvx/6_exceedgear/setup.md"
           - "Extra Information": "games/bemani/sdvx/6_exceedgear/extras.md"
           - "Troubleshooting": "games/bemani/sdvx/6_exceedgear/troubleshooting.md"
       - "Pop'n Music":
         - "Usaneko":
-          - "First Time Setup": "games/popnusaneko/setup.md"
-          - "Common Problems/Tips": "games/popnusaneko/problems.md"
+          - "Game Setup": "games/bemani/popn/usaneko/setup.md"
+          - "Troubleshooting": "games/bemani/popn/usaneko/troubleshooting.md"
         - "Peace":
-          - "First Time Setup": "games/popnpeace/setup.md"
-          - "Common Problems/Tips": "games/popnpeace/problems.md"
+          - "Game Setup": "games/bemani/popn/peace/setup.md"
+          - "Troubleshooting": "games/bemani/popn/peace/troubleshooting.md"
         - "HELLO!":
-          - "First Time Setup": "games/hellopopn/setup.md"
-          - "Common Problems/Tips": "games/hellopopn/problems.md"
+          - "Game Setup": "games/bemani/popn/hello/setup.md"
+          - "Troubleshooting": "games/bemani/popn/hello/troubleshooting.md"
       - "Dance Dance Revolution":
         - "A20":
           - "Game Setup": "games/bemani/ddr/a20/setup.md"
@@ -89,33 +89,33 @@ nav:
           - "Troubleshooting": "games/bemani/ddr/world/troubleshooting.md"
       - "Jubeat":
         - "Clan":
-          - "First Time Setup": "games/jubeatclan/setup.md"
-          - "Common Problems/Tips": "games/jubeatclan/problems.md"
+          - "Game Setup": "games/jubeatclan/setup.md"
+          - "Troubleshooting": "games/jubeatclan/troubleshooting.md"
       - "GITADORA":
         - "Matixx":
-          - "First Time Setup": "games/gitamatixx/setup.md"
-          - "Common Problems/Tips": "games/gitamatixx/problems.md"
+          - "Game Setup": "games/gitamatixx/setup.md"
+          - "Troubleshooting": "games/gitamatixx/troubleshooting.md"
         - "EXCHAIN":
-          - "First Time Setup": "games/exchain/setup.md"
-          - "Common Problems/Tips": "games/exchain/problems.md"
+          - "Game Setup": "games/exchain/setup.md"
+          - "Troubleshooting": "games/exchain/troubleshooting.md"
         - "Fuzz-Up":
           - "Game Setup": "games/fuzzup/setup.md"
           - "Troubleshooting": "games/fuzzup/troubleshooting.md"
       - "Reflec Beat":
         - "Reflesia":
-          - "First Time Setup": "games/reflesia/setup.md"
-          - "Common Problems/Tips": "games/reflesia/problems.md"
+          - "Game Setup": "games/reflesia/setup.md"
+          - "Troubleshooting": "games/reflesia/troubleshooting.md"
       - "NOSTALGIA":
         - "FORTE":
-          - "First Time Setup": "games/nostforte/setup.md"
-          - "Common Problems/Tips": "games/nostforte/problems.md"
+          - "Game Setup": "games/nostforte/setup.md"
+          - "Troubleshooting": "games/nostforte/troubleshooting.md"
         - "Op.2":
-          - "First Time Setup": "games/nostop2/setup.md"
-          - "Common Problems/Tips": "games/nostop2/problems.md"
+          - "Game Setup": "games/nostop2/setup.md"
+          - "Troubleshooting": "games/nostop2/troubleshooting.md"
       - "BeatStream":
         - "アニムトライヴ":
-          - "First Time Setup": "games/beatstreamfinal/setup.md"
-          - "Common Problems/Tips": "games/beatstreamfinal/problems.md"
+          - "Game Setup": "games/beatstreamfinal/setup.md"
+          - "Troubleshooting": "games/beatstreamfinal/troubleshooting.md"
       - "MÚSECA":
         - "MÚSECA 1+1/2":
           - "Game Setup": "games/bemani/museca/1plushalf/setup.md"

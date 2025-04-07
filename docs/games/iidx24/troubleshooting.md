@@ -1,4 +1,4 @@
-# IIDX 24 Common Problems/Tips
+# IIDX 24 Troubleshooting
 
 <img src="/img/iidx24/sb.png">
 

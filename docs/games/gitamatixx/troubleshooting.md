@@ -1,4 +1,4 @@
-# GITADORA Matixx Common Problems/Tips
+# GITADORA Matixx Troubleshooting
 
 ### Hardware Specs
 

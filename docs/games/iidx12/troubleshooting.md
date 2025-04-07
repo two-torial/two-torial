@@ -1,4 +1,4 @@
-# IIDX 12 Common Problems/Tips
+# IIDX 12 Troubleshooting
 <img src="/img/iidx12/happysky_logo.png">
 
 ### My Game Is Running Crazy Fast!

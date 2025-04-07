@@ -1,4 +1,4 @@
-# jubeat clan Common Problems/Tips
+# jubeat clan Troubleshooting
 
 ### Hardware Specs
 

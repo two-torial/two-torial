@@ -1,4 +1,4 @@
-# SDVX IV Common Problems/Tips
+# SDVX IV Troubleshooting
 <img class="header-logo" src="/img/bemani/sdvx/4_heavenlyhaven/logo.png">
 
 ### Hardware Specs

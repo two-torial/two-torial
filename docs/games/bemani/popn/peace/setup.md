@@ -1,4 +1,4 @@
-# HELLO Pop'n
+# Pop&apos;n Peace
 
 !!! danger "Warning"
 	Please make sure your data is from an appropriate source and unmodified before proceeding, this guide is unable to troubleshoot any problems related to bad or poorly managed data.
@@ -13,7 +13,7 @@
 
     This game still uses DirectSound so we can skip audio related setup needed for other games. After downloading your data, the first thing to do is make sure your files aren't set to READ ONLY, make sure to uncheck it from the main folder in the Windows Properties tab if so. Then, put your desired 32-bit tools inside the game's `contents` folder. Pictured below is what your folder should look like.
 
-<img src="/img/popn/hello1.png">
+<img src="/img/popn/2.png">
 
 
 ### Configuring Your Tools
@@ -39,7 +39,7 @@
 
 	Pictured below, the selected options in `spicecfg.exe`.
 
-<img src="/img/popn/hello2.png">
+<img src="/img/popn/3.png">
 
 ### Configuring for an Online Network
 
@@ -59,7 +59,7 @@
 
 	Pictured below, the enabled options in `spicecfg.exe`.
 
-<img src="/img/popn/hello3.png">
+<img src="/img/popn/4.png">
 
 !!! tip ""
 
@@ -69,26 +69,15 @@
 
 !!! tip ""
     
-    While we're still in `spicecfg.exe`, why not set up the keybinds? To do this you'll have to head on over to the `Buttons` tab. Here you simply click `Bind` and press the button on your controller (or keyboard). Below are my keybinds for a keyboard. Notice that I've also bound the `Service`, `Test` and `Coin Mech` buttons to my keyboard. This might come in handy but shouldn't be necessary to play the game.
+    While we're still in `spicecfg.exe`, why not set up the keybinds? To do this you'll have to head on over to the `Buttons` tab. Here you simply click `Bind` and press the button on your controller (or keyboard). Below are my keybinds of an arduino based controller. Notice that I've also bound the `Service`, `Test` and `Coin Mech` buttons to my keyboard. This might come in handy but shouldn't be necessary to play the game.
     
-<img src="/img/popn/hello4.png">
+<img src="/img/popn/5.png">
 
-### Final Steps and Setting up the Game
+### Booting
 
 !!! tip ""
-	Boot the game by double-clicking `spice.exe`.
-    
-    The boot sequence may have a very light blue background. Press any overlay hotkey (F12, for example) to make it display normally.
-
-<img src="/img/popn/helloboot1.png">
-<img src="/img/popn/helloboot2.png">
-
-!!! tip ""
-    Simply follow the on-screen text in the bottom left corner to continue. On the first boot, the game may tell you to press `Test`, and then `Service`.
-    
-    HELLO Pop'n has the ability to run offline, so the network error can be safely ignored.
-
-	You're all done! The game takes a couple of seconds to load all of the data.
+	With that, you're all done! Boot the game by double-clicking `spice.exe` and the game should load and be ready to be enjoyed! Have fun!
 
 !!! warning "Have any other errors?"
-	Check out the [Common Problems/Tips](problems.md) section and [Error Code](/errorcodes/bemani.md) section to resolve any issues not seen in this guide to greater depth.
+
+	Check out the [Troubleshooting](troubleshooting.md) section and [Error Code](/errorcodes/bemani.md) section to resolve any issues not seen in this guide to greater depth.

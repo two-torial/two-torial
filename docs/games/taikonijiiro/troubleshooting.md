@@ -1,4 +1,4 @@
-# Taiko no Tatsujin Nijiiro Common Problems/Tips
+# Taiko no Tatsujin Nijiiro Troubleshooting
 <img src="/img/taikonijiiro/taikonijiiro.png">
 
 !!! danger "Please make sure you downloaded your data from an appropriate source.<br>This guide is unable to troubleshoot any problems related to bad or poorly managed data."

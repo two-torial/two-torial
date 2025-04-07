@@ -1,4 +1,4 @@
-Pop&apos;n Usaneko Common Problems/Tips
+Pop&apos;n Usaneko Troubleshooting
 
 ### Hardware Specs
 

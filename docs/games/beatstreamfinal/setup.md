@@ -65,7 +65,7 @@
 	The last steps you'll have to do with your chosen tools is simply setting up your desired keybinds! Make sure you setup the `Test` keybind as it will be critical for setting up the game. Once you've done that, launch your game for the first time by double clicking the `.bat` you setup and the game should load.
 
 !!! tip ""
-	You're all done! If you have a touchscreen monitor make sure it's plugged in, it should work automatically, if it doesn't check out the advertised `Common Problems/Tips` section at the link below.
+	You're all done! If you have a touchscreen monitor make sure it's plugged in, it should work automatically, if it doesn't check out the advertised `Troubleshooting` section at the link below.
 
 !!! warning "Have any other errors?"
-	Check out the [Common Problems/Tips](problems.md) section and [Error Code](/errorcodes/bemani.md) section to resolve any issues not seen in this guide to greater depth.
+	Check out the [Troubleshooting](troubleshooting.md) section and [Error Code](/errorcodes/bemani.md) section to resolve any issues not seen in this guide to greater depth.

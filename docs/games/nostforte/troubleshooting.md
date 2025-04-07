@@ -1,4 +1,4 @@
-# NOSTALGIA OP.2 Common Problems/Tips
+# NOSTALGIA FORTE Troubleshooting
 
 ### Hardware Specs
 

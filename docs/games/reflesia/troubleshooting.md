@@ -1,4 +1,4 @@
-# REFLEC BEAT: Reflesia Common Problems/Tips
+# REFLEC BEAT: Reflesia Troubleshooting
 
 ### Hardware Specs
 

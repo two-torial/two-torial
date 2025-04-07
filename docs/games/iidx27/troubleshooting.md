@@ -1,4 +1,4 @@
-# IIDX 27 Common Problems/Tips
+# IIDX 27 Troubleshooting
 
 <img src="/img/iidx27/hv.png">
 

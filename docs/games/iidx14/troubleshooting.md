@@ -1,4 +1,4 @@
-# IIDX 14 Common Problems/Tips
+# IIDX 14 Troubleshooting
 
 <img src="/img/iidx14/gold_logo.png">
 

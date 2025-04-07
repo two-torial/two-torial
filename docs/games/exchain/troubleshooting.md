@@ -1,4 +1,4 @@
-# GITADORA EXCHAIN Common Problems/Tips
+# GITADORA EXCHAIN Troubleshooting
 
 ### Hardware Specs
 
