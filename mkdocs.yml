@@ -188,8 +188,8 @@ nav:
           - "Controllers": "games/sega/wacca/reverse/controllers.md"
     - NAMCO:
       - "Taiko no Tatsujin: Nijiiro":
-        - "Game Setup": "games/taikonijiiro/setup.md"
-        - "Troubleshooting": "games/taikonijiiro/troubleshooting.md"
+        - "Game Setup": "games/namco/taikonijiiro/setup.md"
+        - "Troubleshooting": "games/namco/taikonijiiro/troubleshooting.md"
   - Error Codes:
     - BEMANI: "errorcodes/bemani.md"
     - SEGA: "errorcodes/sega.md"

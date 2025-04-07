@@ -1,5 +1,5 @@
 # Taiko no Tatsujin Nijiiro Troubleshooting
-<img src="/img/taikonijiiro/taikonijiiro.png">
+<img class="header-logo" src="/img/namco/taikonijiiro/logo.png">
 
 !!! danger "Please make sure you downloaded your data from an appropriate source.<br>This guide is unable to troubleshoot any problems related to bad or poorly managed data."
 
@@ -18,7 +18,7 @@
      
     Using ++f1++, the `arrow keys` and ++enter++, navigate to `OTHERS` -> `LANGUAGE`
 
-<img src="/img/taikonijiiro/troubleshooting/lang.png">
+<img src="/img/namco/taikonijiiro/troubleshooting/lang.png">
 
 ---
 
@@ -51,7 +51,7 @@
     - Scroll down to `Exclusions` and click on `Add or remove exclusions`.  
     - Click the `Add an exclusion` button, select the `folder` option, navigate to the root of your game installation and click `Select Folder`.
 
-<img src="/img/taikonijiiro/troubleshooting/defender.png">
+<img src="/img/namco/taikonijiiro/troubleshooting/defender.png">
 
 ---
 ### My game is running crazy fast/slow
@@ -74,7 +74,7 @@
 
     Using ++f1++ `arrow keys` and ++enter++ navigate to `GAME OPTIONS` -> `CLOCK/CLOSE TIME SETTING` -> `SCHEDULE TYPE`.
 
-    <img src="/img/taikonijiiro/troubleshooting/close.png">
+    <img src="/img/namco/taikonijiiro/troubleshooting/close.png">
 
     If you are still unable to connect that means you have incorrectly configured your `config.toml` or your server.
 
@@ -89,7 +89,7 @@
 
     You can set your scale to `100%` right above where it says your resolution.
 
-    <img src="/img/taikonijiiro/troubleshooting/scale.png">
+    <img src="/img/namco/taikonijiiro/troubleshooting/scale.png">
 
 ---
 ### My controller is dropping inputs / I can't hit good drumrolls
