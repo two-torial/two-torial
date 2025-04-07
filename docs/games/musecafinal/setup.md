@@ -65,11 +65,9 @@
 ### Final Steps and Setting up the Game
 
 !!! tip ""
-	It's important to note before booting the game that Museca uses portrait mode and attempting to boot the game fullscreen in most landscape environments will result in a crash. To alleviate this, we must set our *main* monitor to portrait mode and be ready to rotate it! To do so, right click on your desktop and go into `Display Settings`, then simply set the orientation to `Portrait` as pictured.
+	It's important to note before booting the game that Museca uses portrait mode and attempting to boot the game fullscreen in most landscape environments will result in a crash. To alleviate this, we must set our *main* monitor to portrait mode and be ready to rotate it! To do so, right click on your desktop and go into `Display Settings`, then simply set the orientation to `Portrait`.
 
 	In the event that you do not have the means to run the game in portrait mode and cannot rotate your monitor, it is recommended you boot the game in windowed mode. In SpiceTools, simply add the windowed mode parameter, this parameter is `-w` and can be placed right after any other desired parameters chosen in our `gamestart.bat`
-
-	<img src="/img/bemani/sdvx/4_heavenlyhaven/4.png">
 
 	The last steps you'll have to do with your chosen tools is simply setting up your desired keybinds! Make sure you setup the `Test` keybind as it will be critical for setting up the game. Once you've done that, launch your game for the first time by double clicking the `.bat` you setup and the game should load and be ready to be enjoyed! Have fun!
 
