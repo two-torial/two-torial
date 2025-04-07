@@ -214,6 +214,10 @@ not_in_nav: |
   games/mai2
   games/ddr
 
+validation:
+  links:
+    absolute_links: relative_to_docs
+
 theme:
   name: material
   custom_dir: overrides
