@@ -1,4 +1,5 @@
-Pop&apos;n Usaneko Troubleshooting
+# Pop'n Music Usaneko
+<img class="header-logo" src="/img/bemani/popn/usaneko/logo.png"/>
 
 ### Hardware Specs
 

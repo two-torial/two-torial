@@ -1,4 +1,5 @@
-# Pop&apos;n Peace
+# Pop'n Music Peace
+<img class="header-logo" src="/img/bemani/popn/peace/logo.png"/>
 
 !!! danger "Warning"
 	Please make sure your data is from an appropriate source and unmodified before proceeding, this guide is unable to troubleshoot any problems related to bad or poorly managed data.
@@ -13,7 +14,7 @@
 
     This game still uses DirectSound so we can skip audio related setup needed for other games. After downloading your data, the first thing to do is make sure your files aren't set to READ ONLY, make sure to uncheck it from the main folder in the Windows Properties tab if so. Then, put your desired 32-bit tools inside the game's `contents` folder. Pictured below is what your folder should look like.
 
-<img src="/img/popn/2.png">
+<img src="/img/bemani/popn/common/2.png">
 
 
 ### Configuring Your Tools
@@ -39,7 +40,7 @@
 
 	Pictured below, the selected options in `spicecfg.exe`.
 
-<img src="/img/popn/3.png">
+<img src="/img/bemani/popn/common/3.png">
 
 ### Configuring for an Online Network
 
@@ -59,7 +60,7 @@
 
 	Pictured below, the enabled options in `spicecfg.exe`.
 
-<img src="/img/popn/4.png">
+<img src="/img/bemani/popn/common/4.png">
 
 !!! tip ""
 
@@ -71,7 +72,7 @@
     
     While we're still in `spicecfg.exe`, why not set up the keybinds? To do this you'll have to head on over to the `Buttons` tab. Here you simply click `Bind` and press the button on your controller (or keyboard). Below are my keybinds of an arduino based controller. Notice that I've also bound the `Service`, `Test` and `Coin Mech` buttons to my keyboard. This might come in handy but shouldn't be necessary to play the game.
     
-<img src="/img/popn/5.png">
+<img src="/img/bemani/popn/common/5.png">
 
 ### Booting
 

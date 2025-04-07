@@ -1,4 +1,5 @@
-# Pop&apos;n Usaneko
+# Pop'n Usaneko
+<img class="header-logo" src="/img/bemani/popn/usaneko/logo.png"/>
 
 !!! danger "Warning"
 	Please make sure your data is from an appropriate source and unmodified before proceeding, this guide is unable to troubleshoot any problems related to bad or poorly managed data.
@@ -13,7 +14,7 @@
 
     This game still uses DirectSound so we can skip audio related setup needed for other games. After downloading your data, the first thing to do is make sure your files aren't set to READ ONLY, make sure to uncheck it from the main folder in the Windows Properties tab if so. Then, put your desired 32-bit tools inside the game's `contents` folder, and to create a `.bat` file. Pictured below is what your folder should look like, feel free to name your `.bat` file anything you desire, for the sake of convenience we've named ours `gamestart.bat`.
 
-<img src="/img/popn/1.png">
+<img src="/img/bemani/popn/common/1.png">
 
 
 ### Configuring Your Tools

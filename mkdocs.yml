@@ -114,8 +114,8 @@ nav:
           - "Troubleshooting": "games/nostop2/troubleshooting.md"
       - "BeatStream":
         - "アニムトライヴ":
-          - "Game Setup": "games/beatstreamfinal/setup.md"
-          - "Troubleshooting": "games/beatstreamfinal/troubleshooting.md"
+          - "Game Setup": "games/bemani/beatstream/animutribe/setup.md"
+          - "Troubleshooting": "games/bemani/beatstream/animutribe/troubleshooting.md"
       - "MÚSECA":
         - "MÚSECA 1+1/2":
           - "Game Setup": "games/bemani/museca/1plushalf/setup.md"

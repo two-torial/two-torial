@@ -1,4 +1,5 @@
-# HELLO Pop'n
+# HELLO Pop'n Music
+<img class="header-logo" src="/img/bemani/popn/hello/logo.png"/>
 
 !!! danger "Warning"
 	Please make sure your data is from an appropriate source and unmodified before proceeding, this guide is unable to troubleshoot any problems related to bad or poorly managed data.
@@ -13,7 +14,7 @@
 
     This game still uses DirectSound so we can skip audio related setup needed for other games. After downloading your data, the first thing to do is make sure your files aren't set to READ ONLY, make sure to uncheck it from the main folder in the Windows Properties tab if so. Then, put your desired 32-bit tools inside the game's `contents` folder. Pictured below is what your folder should look like.
 
-<img src="/img/popn/hello1.png">
+<img src="/img/bemani/popn/common/hello1.png">
 
 
 ### Configuring Your Tools
@@ -39,7 +40,7 @@
 
 	Pictured below, the selected options in `spicecfg.exe`.
 
-<img src="/img/popn/hello2.png">
+<img src="/img/bemani/popn/common/hello2.png">
 
 ### Configuring for an Online Network
 
@@ -59,7 +60,7 @@
 
 	Pictured below, the enabled options in `spicecfg.exe`.
 
-<img src="/img/popn/hello3.png">
+<img src="/img/bemani/popn/common/hello3.png">
 
 !!! tip ""
 
@@ -71,7 +72,7 @@
     
     While we're still in `spicecfg.exe`, why not set up the keybinds? To do this you'll have to head on over to the `Buttons` tab. Here you simply click `Bind` and press the button on your controller (or keyboard). Below are my keybinds for a keyboard. Notice that I've also bound the `Service`, `Test` and `Coin Mech` buttons to my keyboard. This might come in handy but shouldn't be necessary to play the game.
     
-<img src="/img/popn/hello4.png">
+<img src="/img/bemani/popn/common/hello4.png">
 
 ### Final Steps and Setting up the Game
 
@@ -80,8 +81,8 @@
     
     The boot sequence may have a very light blue background. Press any overlay hotkey (F12, for example) to make it display normally.
 
-<img src="/img/popn/helloboot1.png">
-<img src="/img/popn/helloboot2.png">
+<img src="/img/bemani/popn/common/helloboot1.png">
+<img src="/img/bemani/popn/common/helloboot2.png">
 
 !!! tip ""
     Simply follow the on-screen text in the bottom left corner to continue. On the first boot, the game may tell you to press `Test`, and then `Service`.

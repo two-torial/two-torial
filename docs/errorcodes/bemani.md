@@ -108,7 +108,7 @@
 	This error was seen on Sound Voltex Booth, a user had messed up their dll files. Thus, the solution would be to leave files unmodified and do not needlessly tamper. If your data came from a trusted source and you're having this issue, consider redownloading the files and making sure your installation was done properly.
 
 &nbsp;
-## Pop&apos;n Error Codes
+## Pop'n Error Codes
 
 ### 5-1509-0000
 
@@ -120,7 +120,7 @@
 
 !!! tip ""
 
-	This error was seen on Pop&apos;n Usaneko due to improper setup and bad parameter usage in SpiceTools, make sure to follow [the Game Setup](/games/bemani/popn/usaneko/setup.md) and utilize the `-url` and `-p` parameters in SpiceTools 
+	This error was seen on Pop'n Usaneko due to improper setup and bad parameter usage in SpiceTools, make sure to follow [the Game Setup](/games/bemani/popn/usaneko/setup.md) and utilize the `-url` and `-p` parameters in SpiceTools 
 	so that you're not needlessly risking making mistakes in modifying the game's files. 
 
 &nbsp;

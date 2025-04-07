@@ -1,4 +1,5 @@
-HELLO Pop'n Troubleshooting
+# HELLO Pop'n Music
+<img class="header-logo" src="/img/bemani/popn/hello/logo.png"/>
 
 ### My Game Is Running Slow/Lagging
 
