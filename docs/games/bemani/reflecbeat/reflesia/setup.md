@@ -1,4 +1,5 @@
 # REFLEC BEAT: The Reflesia of Eternity
+<img class="header-logo" src="/img/bemani/reflecbeat/reflesia/logo.png">
 
 !!! danger "Warning"
 
@@ -16,7 +17,7 @@
 
     This game still uses DirectSound so we can skip audio related setup needed for other games. After downloading your data, the first thing to do is put your desired 32-bit tools inside the game's `contents` folder, and to create a `.bat` file. Pictured below is what your folder should look like, feel free to name your `.bat` file anything you desire, for the sake of convenience we've named ours `gamestart.bat`.
 
-<img src="/img/reflesia/reflesia.png">
+<img src="/img/bemani/reflecbeat/reflesia/data.png">
 
 
 ### Configuring Your Tools
@@ -40,10 +41,6 @@
 	- `-ea` enables an integrated e-amusement server within SpiceTools.
 	- `-w` will boot the game in windowed mode which will ease our initial setup and testing later, make sure to remove `-w` to run the game fullscreen once you're done setting up!
 
-	Pictured below, the contents of our `gamestart.bat` file in Notepad++.
-
-<img src="/img/bemani/sdvx/4_heavenlyhaven/2.png">
-
 ### Configuring for an Online Network
 
 !!! tip ""
@@ -55,10 +52,6 @@
 	- `-p` takes your PCBID on your network of choice, simply replace `XXXXXXXXXXXXXXXXXXXX` with your PCBID.
 	- `-url` allows you to specify a custom service URL to connect with, simply replace `http://yoururlhere.com/` with your chosen network's URL.
 	- `-w` will boot the game in windowed mode which will ease our initial setup and testing later, make sure to remove `-w` to run the game fullscreen once you're done setting up!
-
-	Pictured below, the contents of our `gamestart.bat` file in Notepad++.
-
-<img src="/img/bemani/sdvx/4_heavenlyhaven/3.png">
 
 !!! tip ""
 

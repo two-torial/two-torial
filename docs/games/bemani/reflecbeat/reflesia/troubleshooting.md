@@ -1,4 +1,5 @@
-# REFLEC BEAT: Reflesia Troubleshooting
+# REFLEC BEAT: Reflesia
+<img class="header-logo" src="/img/bemani/reflecbeat/reflesia/logo.png">
 
 ### Hardware Specs
 

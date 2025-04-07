@@ -102,9 +102,9 @@ nav:
           - "Game Setup": "games/bemani/gitadora/fuzzup/setup.md"
           - "Troubleshooting": "games/bemani/gitadora/fuzzup/troubleshooting.md"
       - "Reflec Beat":
-        - "Reflesia":
-          - "Game Setup": "games/reflesia/setup.md"
-          - "Troubleshooting": "games/reflesia/troubleshooting.md"
+        - "悠久のリフレシア (Reflesia)":
+          - "Game Setup": "games/bemani/reflecbeat/reflesia/setup.md"
+          - "Troubleshooting": "games/bemani/reflecbeat/reflesia/troubleshooting.md"
       - "NOSTALGIA":
         - "FORTE":
           - "Game Setup": "games/bemani/nostalgia/forte/setup.md"
@@ -113,7 +113,7 @@ nav:
           - "Game Setup": "games/bemani/nostalgia/op2/setup.md"
           - "Troubleshooting": "games/bemani/nostalgia/op2/troubleshooting.md"
       - "BeatStream":
-        - "アニムトライヴ":
+        - "アニムトライヴ (Animutribe)":
           - "Game Setup": "games/bemani/beatstream/animutribe/setup.md"
           - "Troubleshooting": "games/bemani/beatstream/animutribe/troubleshooting.md"
       - "MÚSECA":
