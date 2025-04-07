@@ -130,7 +130,7 @@
 
 !!! tip "BACKUP DATA ERROR"
 
-	Follow the steps listed [here](/games/jubeatclan/setup.md#final-steps-and-setting-up-the-game)
+	Follow the steps listed [here](/games/bemani/jubeat/clan/setup.md#final-steps-and-setting-up-the-game)
 
 &nbsp;
 ## GITADORA Error Codes

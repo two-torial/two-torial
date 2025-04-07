@@ -1,5 +1,5 @@
 # Pop'n Music Peace
-<img class="header-logo" src="/img/bemani/popn/peace/logo.png"/>
+<img class="header-logo" src="/img/bemani/popn/peace/logo.png">
 
 ### Hardware Specs
 

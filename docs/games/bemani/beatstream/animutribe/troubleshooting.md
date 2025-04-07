@@ -1,5 +1,5 @@
 # BeatStream アニムトライヴ
-<img class="header-logo" src="/img/bemani/beatstream/animutribe/logo.png"/>
+<img class="header-logo" src="/img/bemani/beatstream/animutribe/logo.png">
 
 ### Hardware Specs
 

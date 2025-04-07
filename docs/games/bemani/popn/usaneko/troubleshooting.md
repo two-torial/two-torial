@@ -1,5 +1,5 @@
 # Pop'n Music Usaneko
-<img class="header-logo" src="/img/bemani/popn/usaneko/logo.png"/>
+<img class="header-logo" src="/img/bemani/popn/usaneko/logo.png">
 
 ### Hardware Specs
 

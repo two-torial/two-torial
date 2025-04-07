@@ -1,5 +1,5 @@
 # HELLO Pop'n Music
-<img class="header-logo" src="/img/bemani/popn/hello/logo.png"/>
+<img class="header-logo" src="/img/bemani/popn/hello/logo.png">
 
 !!! danger "Warning"
 	Please make sure your data is from an appropriate source and unmodified before proceeding, this guide is unable to troubleshoot any problems related to bad or poorly managed data.

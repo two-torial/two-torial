@@ -1,4 +1,5 @@
-# jubeat clan Troubleshooting
+# jubeat clan
+<img class="header-logo" src="/img/bemani/jubeat/clan/logo.png">
 
 ### Hardware Specs
 

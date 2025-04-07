@@ -89,8 +89,8 @@ nav:
           - "Troubleshooting": "games/bemani/ddr/world/troubleshooting.md"
       - "Jubeat":
         - "Clan":
-          - "Game Setup": "games/jubeatclan/setup.md"
-          - "Troubleshooting": "games/jubeatclan/troubleshooting.md"
+          - "Game Setup": "games/bemani/jubeat/clan/setup.md"
+          - "Troubleshooting": "games/bemani/jubeat/clan/troubleshooting.md"
       - "GITADORA":
         - "Matixx":
           - "Game Setup": "games/gitamatixx/setup.md"

@@ -1,5 +1,5 @@
 # MUSECA 1+1/2
-<img class="header-logo" src="/img/bemani/museca/1plushalf/logo.png"/>
+<img class="header-logo" src="/img/bemani/museca/1plushalf/logo.png">
 
 ### Hardware Specs
 
