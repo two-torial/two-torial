@@ -42,17 +42,17 @@ nav:
           - "Common Problems/Tips": "games/iidx27/problems.md"
           - "Lightning Mode Specifics": "games/iidx27/lightning.md"
         - "30 RESIDENT":
-          - "Game Setup": "games/iidx30/setup.md"
-          - "Extra Information": "games/iidx30/extras.md"
-          - "Troubleshooting": "games/iidx30/troubleshooting.md"
+          - "Game Setup": "games/bemani/iidx/30_resident/setup.md"
+          - "Extra Information": "games/bemani/iidx/30_resident/extras.md"
+          - "Troubleshooting": "games/bemani/iidx/30_resident/troubleshooting.md"
         - "31 EPOLIS":
-          - "Game Setup": "games/iidx31/setup.md"
-          - "Extra Information": "games/iidx31/extras.md"
-          - "Troubleshooting": "games/iidx31/troubleshooting.md"
+          - "Game Setup": "games/bemani/iidx/31_epolis/setup.md"
+          - "Extra Information": "games/bemani/iidx/31_epolis/extras.md"
+          - "Troubleshooting": "games/bemani/iidx/31_epolis/troubleshooting.md"
         - "32 Pinky Crush":
-          - "Game Setup": "games/iidx32/setup.md"
-          - "Extra Information": "games/iidx32/extras.md"
-          - "Troubleshooting": "games/iidx32/troubleshooting.md"
+          - "Game Setup": "games/bemani/iidx/32_pinkycrush/setup.md"
+          - "Extra Information": "games/bemani/iidx/32_pinkycrush/extras.md"
+          - "Troubleshooting": "games/bemani/iidx/32_pinkycrush/troubleshooting.md"
       - "Sound Voltex":
         - "IV HEAVENLY HAVEN":
           - "First Time Setup": "games/bemani/sdvx/4_heavenlyhaven/setup.md"
