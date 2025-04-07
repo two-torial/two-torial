@@ -1,4 +1,4 @@
-# Notes on the Most Common ASCs and Vendors
+# Most Common ASCs and Vendors
 
 !!! warning "Before proceeding, please read:"
 
@@ -6,7 +6,7 @@
 
 	Lastly, certain bits will repeat across controller categories. Please treat each controller's section as its own individual list of noteworthy elements.
 
-# IIDX
+## IIDX
 
 ### DJ DAO FP7 EMP
 
@@ -107,7 +107,7 @@
 		Experimentation is strongly recommended regardless as you become a more developed and experienced player. If you love the game, don't be afraid of traveling to try out different setups or dropping some more cash on parts to experiment.
 
 
-# Sound Voltex
+## Sound Voltex
 
 ### DJ DAO SVSE5
 
@@ -192,7 +192,7 @@
 
 		I've documented many of the parts and where to buy them [here](parts.md)
 
-# Pop'n Music
+## Pop'n Music
 
 ### DJ DAO POP ASC
 
@@ -232,7 +232,7 @@
 
 	Yuan's Pop'n controller and its pricing is very good, perhaps due to the known dissatisfaction with Chinese Pop'n buttons, the controller is offered to come with no buttons and switches to save further on cost, making it an extremely enticing option for anyone that would rather buy their buttons and switches separately. Compared to alternatives, the pricing on this Pop'n ASC is best in class by a significant margin and it functions just as well as any other out there.
 
-# jubeat
+## jubeat
 
 ### DJ DAO FB9
 
@@ -288,16 +288,13 @@
 	
 	All in all, I'd say they are a totally acceptable pad for someone wanting to get back into the game or starting out and wanting something that will last with little upkeep.
 	
-# Vendors
-
-<a href="https://www.gamo2.com" target="_blank"><img style="float: right;" src="/img/extras/ascs/g2.jpg"></a>
+## Vendors
 
 ### Gamo2
 
 !!! tip ""
 
 	- Website: <https://www.gamo2.com>
-	- Social Media: <https://twitter.com/gamotwo>
 
 	Gamo2 has been around for a rather long time and is still one of, if not the most popular choice for people looking to buy an ASC. Dao sells a wide variety of controllers and occasionally squeezes out a new one here and there. 
 
@@ -311,14 +308,11 @@
 
 	Finally, Gamo2's tech support is good. Dao's English isn't the best, but he is very patient and understanding, willing to work with buyers on almost any issue or question they could have.
 
-<a href="https://yuancon.store" target="_blank"><img style="float: right;" src="/img/extras/ascs/yuan.png"></a>
-
 ### YuanCon
 
 !!! tip ""
 
 	- Website: <https://yuancon.store>
-	- Social Media: <https://twitter.com/yuancontop>
 
 	YuanCon has grown immensely in popularity in just a short amount of time, if Gamo2 is no longer on top, then look to YuanCon as they self-report they're currently ranked first in Chinese sales! YuanCon's approach so far has been fantastic communication and utilizing their Discord server and Twitter to get their name out there as much as possible, even partnering with prominent rhythm game players.
 
@@ -336,14 +330,12 @@
 
 	It's worth noting that despite these negatives, Yuan and his team have made great efforts to stay very communicative and ensure that nobody ends up with a faulty product they're dissatisfied with, as shown in the above links. YuanCon's support and communication is top notch, and the future remains promising. Even if there's a small risk of initial hassle through slow shipping or quality control, buyers will ultimately end up with a fully functioning product that they can be satisfied with one way or another.
 
-<a href="https://shop.steprevolution.com/" target="_blank"><img style="float: right;" src="/img/extras/ascs/Stepmaniax Logo.png"></a>
 
 ### StepRevolution (StepManiaX)
 
 !!! tip ""
 
 	- Website: <https://shop.steprevolution.com/>
-	- Social Media: <https://twitter.com/smxgame>
 	
 	Premium pads, spare parts and full cabinets that are designed to either play StepmaniaX or have other games run on them are for sale, there is official support for setting up a normal computer for use with stepmania or if you have the right configuration you can use Pump it up simulators with the cabinet aswell, and Kyle Ward is always very helpful for anyone who has questions!
 	
@@ -351,14 +343,12 @@
 	
 	American based company and every person who has purchased a pad or cabinet has been nothing short of ecstatic with it, if you have the money and don't mind waiting, this is the best option on the market, in or out of the arcade!
 	
-<a href="https://maty-taneczne.pl/" target="_blank"><img style="float: right;" src="/img/extras/ascs/L-tek Logo.png"></a>
 
-### L-Tek
+### L-Tek / iamats
 
 !!! tip ""
 
-	- Website: <https://maty-taneczne.pl/>
-	- Social Media: <https://www.facebook.com/maty-tanecznepl-106162192775436/>
+	- Website: <https://www.iamats.com//>
 	
 	Pads are good starting points and most customers who've purchased them have been happy with them. Shipping is usually reasonably quick (upto a month depending on where in the world you are).
 	
