@@ -11,36 +11,36 @@ nav:
     - BEMANI:
       - "beatmania IIDX":
         - "9th style":
-          - "Game Setup": "games/iidx9/setup.md"
-          - "Troubleshooting": "games/iidx9/troubleshooting.md"
+          - "Game Setup": "games/bemani/iidx/9thstyle/setup.md"
+          - "Troubleshooting": "games/bemani/iidx/9thstyle/troubleshooting.md"
         - "10th style":
-          - "Game Setup": "games/iidx10/setup.md"
-          - "Troubleshooting": "games/iidx10/troubleshooting.md"
+          - "Game Setup": "games/bemani/iidx/10thstyle/setup.md"
+          - "Troubleshooting": "games/bemani/iidx/10thstyle/troubleshooting.md"
         - "11 RED":
-          - "Game Setup": "games/iidx11/setup.md"
-          - "Troubleshooting": "games/iidx11/troubleshooting.md"
+          - "Game Setup": "games/bemani/iidx/11_red/setup.md"
+          - "Troubleshooting": "games/bemani/iidx/11_red/troubleshooting.md"
         - "12 HAPPY SKY":
-          - "Game Setup": "games/iidx12/setup.md"
-          - "Troubleshooting": "games/iidx12/troubleshooting.md"
+          - "Game Setup": "games/bemani/iidx/12_happysky/setup.md"
+          - "Troubleshooting": "games/bemani/iidx/12_happysky/troubleshooting.md"
         - "13 DistorteD":
-          - "Game Setup": "games/iidx13/setup.md"
-          - "Troubleshooting": "games/iidx13/troubleshooting.md"
+          - "Game Setup": "games/bemani/iidx/13_distorted/setup.md"
+          - "Troubleshooting": "games/bemani/iidx/13_distorted/troubleshooting.md"
         - "14 GOLD":
-          - "Game Setup": "games/iidx14/setup.md"
-          - "Troubleshooting": "games/iidx14/troubleshooting.md"
+          - "Game Setup": "games/bemani/iidx/14_gold/setup.md"
+          - "Troubleshooting": "games/bemani/iidx/14_gold/troubleshooting.md"
         - "24 SINOBUZ":
-          - "Game Setup": "games/iidx24/setup.md"
-          - "Troubleshooting": "games/iidx24/troubleshooting.md"
+          - "Game Setup": "games/bemani/iidx/24_sinobuz/setup.md"
+          - "Troubleshooting": "games/bemani/iidx/24_sinobuz/troubleshooting.md"
         - "25 CANNON BALLERS":
-          - "Game Setup": "games/iidx25/setup.md"
-          - "Troubleshooting": "games/iidx25/troubleshooting.md"
+          - "Game Setup": "games/bemani/iidx/25_cannonballers/setup.md"
+          - "Troubleshooting": "games/bemani/iidx/25_cannonballers/troubleshooting.md"
         - "26 Rootage":
-          - "Game Setup": "games/iidx26/setup.md"
-          - "Troubleshooting": "games/iidx26/troubleshooting.md"
+          - "Game Setup": "games/bemani/iidx/26_rootage/setup.md"
+          - "Troubleshooting": "games/bemani/iidx/26_rootage/troubleshooting.md"
         - "27 HEROIC VERSE":
-          - "Game Setup": "games/iidx27/setup.md"
-          - "Troubleshooting": "games/iidx27/troubleshooting.md"
-          - "Lightning Mode Specifics": "games/iidx27/lightning.md"
+          - "Game Setup": "games/bemani/iidx/27_heroicverse/setup.md"
+          - "Troubleshooting": "games/bemani/iidx/27_heroicverse/troubleshooting.md"
+          - "Lightning Mode Specifics": "games/bemani/iidx/27_heroicverse/lightning.md"
         - "30 RESIDENT":
           - "Game Setup": "games/bemani/iidx/30_resident/setup.md"
           - "Extra Information": "games/bemani/iidx/30_resident/extras.md"

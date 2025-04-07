@@ -40,10 +40,6 @@
 	- `-ea` enables an integrated e-amusement server within SpiceTools.
 	- `-w` will boot the game in windowed mode which will ease our initial setup and testing later, make sure to remove `-w` to run the game fullscreen once you're done setting up!
 
-	Pictured below, the contents of our `gamestart.bat` file in Notepad++.
-
-<img src="/img/iidx25/2.png">
-
 ### Configuring for an Online Network
 
 !!! tip ""
@@ -54,10 +50,6 @@
 	- `-p` takes your PCBID on your network of choice, simply replace `XXXXXXXXXXXXXXXXXXXX` with your PCBID.
 	- `-url` allows you to specify a custom service URL to connect with, simply replace `http://yoururlhere.com/` with your chosen network's URL.
 	- `-w` will boot the game in windowed mode which will ease our initial setup and testing later, make sure to remove `-w` to run the game fullscreen once you're done setting up!
-
-	Pictured below, the contents of our `gamestart.bat` file in Notepad++.
-
-<img src="/img/iidx25/3.png">
 
 ### Final Steps and Setting up the Game
 
