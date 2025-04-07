@@ -151,7 +151,7 @@
 	- `EA Service URL` to the URL provided by your network.
 	- `PCBID` to the PCBID provided by your network.
 	
-	<img src="/img/gen/network.png">
+	<img src="/img/common/network.png">
 
 	Next you need a card number.  
 	If you don't already have one, generate one in the `Cards` tab.  
@@ -159,7 +159,7 @@
 
 	Once that's done, head to the `Cards` tab, for `Player 1` click `Open...` and point to your text file.
 
-	<img src="/img/gen/cards.png">
+	<img src="/img/common/cards.png">
 
 ??? tip "Local e-amuse Emulator (Asphyxia)"
 
@@ -191,7 +191,7 @@
 	- Open the `Default Format` dropdown.
 	- Pick the `24 bit, 44100 Hz (Studio Quality)` option and click `Apply` then `OK`.
 
-	<img src="/img/gen/441.png">
+	<img src="/img/common/441.png">
 
 ---
 ### First Launch

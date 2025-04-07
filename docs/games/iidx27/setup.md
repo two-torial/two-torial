@@ -18,7 +18,7 @@
 !!! tip ""
 	Before we even touch the game, let's fiddle with our audio settings to minimize any potential crashing on startup. In Windows, go to `Playback Devices` and then right click on your default device and go to `Properties`. From there, hit the `Advanced` tab and set your `Default Format` to `44100 Hz` and check both of the options inside `Exclusive Mode` as pictured.
 
-<img src="/img/gen/441.png">
+<img src="/img/common/441.png">
 
 !!! tip ""
 	Once that's done, it's time to work on setting up your data.
@@ -76,7 +76,7 @@
 !!! tip ""
 	The last steps you'll have to do with your chosen tools is simply setting up your desired keybinds inside the `Buttons` and `Analogs` tabs! If you'd like an example, I've shown my keybindings below on a DJ DAO FP7 from the 1P side. Make sure you setup the `Test` keybind as it will be critical for setting up the game. 
 
-<img src="/img/gen/bind_iidx.png">
+<img src="/img/common/bind_iidx.png">
 
 
 !!! tip ""
