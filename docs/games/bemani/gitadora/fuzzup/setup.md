@@ -1,5 +1,5 @@
 # GITADORA FUZZ-UP
-<img src="/img/fuzzup/fuzzup.png">
+<img class="header-logo" src="/img/bemani/gitadora/fuzzup/logo.png">
 
 !!! danger "Please make sure you downloaded your data from an appropriate source.<br>This guide is unable to troubleshoot any problems related to bad or poorly managed data."
 
@@ -15,7 +15,7 @@
 	- Head over to [spice2x.github.io](https://spice2x.github.io) and download the latest release.
 	- Extract the `spice64.exe` and `spicecfg.exe` files from the archive to your game's directory.
   
-	<img src="/img/fuzzup/spice.png">
+	<img src="/img/bemani/gitadora/fuzzup/spice.png">
 
 ---
 ### General Configuration
@@ -206,37 +206,37 @@
 
 	Upon launching your game, you will be greeted with this `BACKUP DATA ERROR` screen.
 
-<img src="/img/matixx/4.png">
+<img src="/img/bemani/gitadora/matixx/4.png">
 
 !!! tip ""
 
 	This is normal, simply hit your `Test` keybind to enter test mode.
 
-<img src="/img/matixx/5.png">
+<img src="/img/bemani/gitadora/matixx/5.png">
 
 !!! tip ""
 
 	From here, we will need to set a shop name to play, so select the `GAME OPTIONS` option.
 
-<img src="/img/matixx/6.png">
+<img src="/img/bemani/gitadora/matixx/6.png">
 
 !!! tip "" 
 
 	Then, select `SHOP SETTINGS`.
 
-<img src="/img/matixx/7.png">
+<img src="/img/bemani/gitadora/matixx/7.png">
 
 !!! tip "" 
 
 	Once inside, select `SHOP NAME SETTINGS` and name your shop whatever you desire! Once that's done, go down to `PREFECTURE` and set it to whatever you desire as well. Finally, go to `SAVE AND EXIT` to get back to the test menu.
 
-<img src="/img/matixx/8.png">
+<img src="/img/bemani/gitadora/matixx/8.png">
 
 !!! tip ""
 
 	The last menu we'll go inside from the test menu is the clock menu. Go inside `CLOCK` and simply set the clock by hitting `SAVE AND EXIT` as pictured below.
 
-<img src="/img/matixx/9.png">
+<img src="/img/bemani/gitadora/matixx/9.png">
 
 !!! tip ""
 

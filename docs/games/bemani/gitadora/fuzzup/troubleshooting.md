@@ -1,5 +1,5 @@
 # GITADORA FUZZ-UP
-<img src="/img/fuzzup/fuzzup.png">
+<img class="header-logo" src="/img/bemani/gitadora/fuzzup/logo.png">
 
 !!! danger "Please make sure you downloaded your data from an appropriate source.<br>This guide is unable to troubleshoot any problems related to bad or poorly managed data."
 

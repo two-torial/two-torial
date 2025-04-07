@@ -1,4 +1,5 @@
-# GITADORA Matixx
+# GITADORA EXCHAIN
+<img class="header-logo" src="/img/bemani/gitadora/exchain/logo.png">
 
 !!! danger "Warning:"
 	Please make sure your data is from an appropriate source and unmodified before proceeding, this guide is unable to troubleshoot any problems related to bad or poorly managed data.
@@ -19,7 +20,10 @@
 
 	After downloading your data, the first thing to do is make sure your files aren't set to READ ONLY, make sure to uncheck it from the main folder in the Windows Properties tab if so. Then, the first thing to do is put your desired 64-bit tools inside the game's `contents` folder, and to create a `.bat` file. Pictured below is what your folder should look like, feel free to name your `.bat` file whatever you desire, for the sake of convenience we've named ours `gamestart.bat`.
 
-<img src="/img/matixx/1.png">
+<img src="/img/bemani/gitadora/exchain/1.png">
+
+!!! tip ""
+	Why does this look different than the usual? This installation includes a `modules` folder that Spice automatically detects, keeping things clean and simple.
 
 ### Configuring Your Tools
 
@@ -44,7 +48,7 @@
 
 	Pictured below, the contents of our `gamestart.bat` file in Notepad++.
 
-<img src="/img/matixx/2g.png">
+<img src="/img/bemani/gitadora/matixx/2g.png">
 
 !!! tip ""
 	**FOR DRUM**
@@ -58,7 +62,7 @@
 
 	Pictured below, the contents of our `gamestart.bat` file in Notepad++.
 
-<img src="/img/matixx/2d.png">
+<img src="/img/bemani/gitadora/matixx/2d.png">
 
 ### Configuring for an Online Network
 
@@ -77,7 +81,7 @@
 
 	Pictured below, the contents of our `gamestart.bat` file in Notepad++.
 
-<img src="/img/matixx/3g.png">
+<img src="/img/bemani/gitadora/matixx/3g.png">
 
 !!! tip ""
 	**FOR DRUM**
@@ -93,7 +97,7 @@
 
 	Pictured below, the contents of our `gamestart.bat` file in Notepad++.
 
-<img src="/img/matixx/3d.png">
+<img src="/img/bemani/gitadora/matixx/3d.png">
 
 !!! tip ""
 	One final note, since you're playing on a network, you will have one additional step of setting up your card file within your chosen tools, make sure to check your server's information on how to setup a card file.
@@ -105,32 +109,32 @@
 
 	If it's your first time running the game, you'll immediately be greeted with this screen, oh no!
 
-<img src="/img/matixx/4.png">
+<img src="/img/bemani/gitadora/matixx/4.png">
 
 !!! tip ""
 	This is normal, simply hit your `Test` keybind and continue on to this.
 
-<img src="/img/matixx/5.png">
+<img src="/img/bemani/gitadora/matixx/5.png">
 
 !!! tip ""
 	From here, we will need to set a shop name to play, so select the `GAME OPTIONS` option.
 
-<img src="/img/matixx/6.png">
+<img src="/img/bemani/gitadora/matixx/6.png">
 
 !!! tip "" 
 	Then, select `SHOP SETTINGS`.
 
-<img src="/img/matixx/7.png">
+<img src="/img/bemani/gitadora/matixx/7.png">
 
 !!! tip "" 
 	Once inside, select `SHOP NAME SETTINGS` and name your shop whatever you desire! For the purpose of the guide, we named it `Guide` but highly encourage fun and/or lazy names. Once that's done, go down to `PREFECTURE` and set it to whatever you desire as well. Finally, go to `SAVE AND EXIT` to get back to the main menu.
 
-<img src="/img/matixx/8.png">
+<img src="/img/bemani/gitadora/matixx/8.png">
 
 !!! tip ""
 	The last menu we'll go inside from the service menu is the clock menu. Go inside `CLOCK` and simply set the clock by hitting `SAVE AND EXIT` as pictured below.
 
-<img src="/img/matixx/9.png">
+<img src="/img/bemani/gitadora/matixx/9.png">
 
 !!! tip ""
 	You're all done! From the service menu select `GAME MODE` and the game should load ready to be played! Have fun!

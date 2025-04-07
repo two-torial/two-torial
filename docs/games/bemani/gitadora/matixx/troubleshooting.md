@@ -1,4 +1,5 @@
-# GITADORA Matixx Troubleshooting
+# GITADORA Matixx
+<img class="header-logo" src="/img/bemani/gitadora/matixx/logo.png">
 
 ### Hardware Specs
 

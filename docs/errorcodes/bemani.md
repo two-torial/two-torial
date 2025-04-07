@@ -174,7 +174,7 @@
 
 !!! tip "BACKUP DATA ERROR"
 
-	Follow the steps listed [here](/games/gitamatixx/setup.md#final-steps-and-setting-up-the-game)
+	Follow the steps listed [here](/games/bemani/gitadora/matixx/setup.md#final-steps-and-setting-up-the-game)
 
 ### 5-2501-0000
 

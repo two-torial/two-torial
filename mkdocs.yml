@@ -93,14 +93,14 @@ nav:
           - "Troubleshooting": "games/bemani/jubeat/clan/troubleshooting.md"
       - "GITADORA":
         - "Matixx":
-          - "Game Setup": "games/gitamatixx/setup.md"
-          - "Troubleshooting": "games/gitamatixx/troubleshooting.md"
+          - "Game Setup": "games/bemani/gitadora/matixx/setup.md"
+          - "Troubleshooting": "games/bemani/gitadora/matixx/troubleshooting.md"
         - "EXCHAIN":
-          - "Game Setup": "games/exchain/setup.md"
-          - "Troubleshooting": "games/exchain/troubleshooting.md"
+          - "Game Setup": "games/bemani/gitadora/exchain/setup.md"
+          - "Troubleshooting": "games/bemani/gitadora/exchain/troubleshooting.md"
         - "Fuzz-Up":
-          - "Game Setup": "games/fuzzup/setup.md"
-          - "Troubleshooting": "games/fuzzup/troubleshooting.md"
+          - "Game Setup": "games/bemani/gitadora/fuzzup/setup.md"
+          - "Troubleshooting": "games/bemani/gitadora/fuzzup/troubleshooting.md"
       - "Reflec Beat":
         - "Reflesia":
           - "Game Setup": "games/reflesia/setup.md"

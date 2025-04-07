@@ -1,4 +1,5 @@
-# GITADORA EXCHAIN Troubleshooting
+# GITADORA EXCHAIN
+<img class="header-logo" src="/img/bemani/gitadora/exchain/logo.png">
 
 ### Hardware Specs
 
