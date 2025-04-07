@@ -33,7 +33,7 @@
 
 	You should end up with a file structure with a few folders only, as follows.
 
-<img src="/img/bemani/ddr/common/setup/1_data.png">
+<img src="/img/bemani/ddr/common/setup/data.png">
 
 ??? warning "If your data doesn't look like this"
 

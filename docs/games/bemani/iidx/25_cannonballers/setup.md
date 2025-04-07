@@ -1,5 +1,5 @@
 # beatmania IIDX 25 CANNON BALLERS
-<img src="/img/bemani/iidx/25_cannonballers/logo.png">
+<img class="header-logo" src="/img/bemani/iidx/25_cannonballers/logo.png">
 
 !!! danger "Warning:"
 	Please make sure your data is from an appropriate source and unmodified before proceeding, this guide is unable to troubleshoot any problems related to bad or poorly managed data.

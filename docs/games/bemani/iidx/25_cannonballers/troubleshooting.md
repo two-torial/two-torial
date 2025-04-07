@@ -1,5 +1,5 @@
 # beatmania IIDX 25 CANNON BALLERS
-<img src="/img/bemani/iidx/25_cannonballers/logo.png">
+<img class="header-logo" src="/img/bemani/iidx/25_cannonballers/logo.png">
 
 ### Hardware Specs
 
