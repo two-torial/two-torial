@@ -1,5 +1,5 @@
 # SDVX VW Common Problems/Tips
-<img class="header-logo" src="/img/bemani/sdvx/5_vivid-wave/logo.png">
+<img class="header-logo" src="/img/bemani/sdvx/5_vividwave/logo.png">
 
 ### Hardware Specs
 

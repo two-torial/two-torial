@@ -55,15 +55,15 @@ nav:
           - "Troubleshooting": "games/iidx32/troubleshooting.md"
       - "SDVX":
         - "SDVX IV HEAVENLY HAVEN":
-          - "First Time Setup": "games/bemani/sdvx/4_heavenly-haven/setup.md"
-          - "Common Problems/Tips": "games/bemani/sdvx/4_heavenly-haven/problems.md"
+          - "First Time Setup": "games/bemani/sdvx/4_heavenlyhaven/setup.md"
+          - "Common Problems/Tips": "games/bemani/sdvx/4_heavenlyhaven/problems.md"
         - "SDVX VIVID WAVE":
-          - "First Time Setup": "games/bemani/sdvx/5_vivid-wave/setup.md"
-          - "Common Problems/Tips": "games/bemani/sdvx/5_vivid-wave/problems.md"
+          - "First Time Setup": "games/bemani/sdvx/5_vividwave/setup.md"
+          - "Common Problems/Tips": "games/bemani/sdvx/5_vividwave/problems.md"
         - "SDVX EXCEED GEAR":
-          - "Game Setup": "games/bemani/sdvx/6_exceed-gear/setup.md"
-          - "Extra Information": "games/bemani/sdvx/6_exceed-gear/extras.md"
-          - "Troubleshooting": "games/bemani/sdvx/6_exceed-gear/troubleshooting.md"
+          - "Game Setup": "games/bemani/sdvx/6_exceedgear/setup.md"
+          - "Extra Information": "games/bemani/sdvx/6_exceedgear/extras.md"
+          - "Troubleshooting": "games/bemani/sdvx/6_exceedgear/troubleshooting.md"
       - "Pop&apos;n":
         - "Pop&apos;n Usaneko":
           - "First Time Setup": "games/popnusaneko/setup.md"

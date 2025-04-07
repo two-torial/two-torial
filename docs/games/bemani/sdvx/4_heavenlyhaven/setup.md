@@ -1,5 +1,5 @@
-# SOUND VOLTEX VIVID WAVE
-<img class="header-logo" src="/img/bemani/sdvx/5_vivid-wave/logo.png">
+# SOUND VOLTEX IV HEAVENLY HAVEN
+<img class="header-logo" src="/img/bemani/sdvx/4_heavenlyhaven/logo.png">
 
 !!! danger "Warning"
 
@@ -13,18 +13,9 @@
 
 !!! tip ""
 
-	Before we even touch the game, let's fiddle with our audio settings to minimize any potential crashing on startup. In Windows, go to `Playback Devices` and then right click on your default device and go to `Properties`. From there, hit the `Advanced` tab and set your `Default Format` to `44100 Hz` and check both of the options inside `Exclusive Mode` as pictured.
+    This game still uses DirectSound so we can skip audio related setup needed for other games. After downloading your data, the first thing to do is make sure your files aren't set to READ ONLY, make sure to uncheck it from the main folder in the Windows Properties tab if so. Then, put your desired 32-bit tools inside the game's `contents` folder, and to create a `.bat` file. Pictured below is what your folder should look like, feel free to name your `.bat` file anything you desire, for the sake of convenience we've named ours `gamestart.bat`.
 
-<img src="/img/common/441.png">
-
-!!! tip ""
-
-    After downloading your data, the first thing to do is make sure your files aren't set to READ ONLY, make sure to uncheck it from the main folder in the Windows Properties tab if so. Then, put your desired 64-bit tools inside the game's `contents` folder, and to create a `.bat` file. Pictured below is what your folder should look like, feel free to name your `.bat` file anything you desire, for the sake of convenience we've named ours `gamestart.bat`.
-
-<img src="/img/bemani/sdvx/5_vivid-wave/setup/1.png">
-
-!!! tip ""
-	Why does this look different than the usual? This installation includes a `modules` folder that Spice automatically detects, keeping things clean and simple. If your version of the game doesn't have this, it probably has the `contents` folder populated with many different dll files such as the main `soundvoltex.dll`. You should still place your tools here if so!
+<img src="/img/bemani/sdvx/4_heavenlyhaven/setup/1.png">
 
 
 ### Configuring Your Tools
@@ -40,17 +31,23 @@
 ### Configuring for a Local Network
 
 !!! tip ""
-	For our local network configuration example, on a single line in the `.bat` file we're going to type `spice64.exe -ea -w` and save the file. 
+
+	For our local network configuration example, on a single line in the `.bat` file we're going to type `spice.exe -ea -w` and save the file. 
 
 	What do these different parameters do?
 
 	- `-ea` enables an integrated e-amusement server within SpiceTools.
 	- `-w` will boot the game in windowed mode which will ease our initial setup and testing later, make sure to remove `-w` to run the game fullscreen once you're done setting up!
 
+	Pictured below, the contents of our `gamestart.bat` file in Notepad++.
+
+<img src="/img/bemani/sdvx/4_heavenlyhaven/setup/2.png">
+
 ### Configuring for an Online Network
 
 !!! tip ""
-	For our online network example we're simply doing the above but with different parameters! On our single line, we're going to type `spice64.exe -p XXXXXXXXXXXXXXXXXXXX -url http://yoururlhere.com/ -w` and save the file. 
+
+	For our online network example we're simply doing the above but with different parameters! On our single line, we're going to type `spice.exe -p XXXXXXXXXXXXXXXXXXXX -url http://yoururlhere.com/ -w` and save the file. 
 
 	What do these different parameters do? 
 
@@ -58,7 +55,12 @@
 	- `-url` allows you to specify a custom service URL to connect with, simply replace `http://yoururlhere.com/` with your chosen network's URL.
 	- `-w` will boot the game in windowed mode which will ease our initial setup and testing later, make sure to remove `-w` to run the game fullscreen once you're done setting up!
 
+	Pictured below, the contents of our `gamestart.bat` file in Notepad++.
+
+<img src="/img/bemani/sdvx/4_heavenlyhaven/setup/3.png">
+
 !!! tip ""
+
 	One final note, since you're playing on a network, you will have one additional step of setting up your card file within your chosen tools, make sure to check your server's information on how to setup a card file.
 
 ### Final Steps and Setting up the Game

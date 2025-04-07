@@ -1,5 +1,5 @@
 # SDVX IV Common Problems/Tips
-<img class="header-logo" src="/img/bemani/sdvx/4_heavenly-haven/logo.png">
+<img class="header-logo" src="/img/bemani/sdvx/4_heavenlyhaven/logo.png">
 
 ### Hardware Specs
 
