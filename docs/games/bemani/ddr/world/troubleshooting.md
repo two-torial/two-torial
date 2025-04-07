@@ -1,4 +1,4 @@
 # Troubleshooting (DDR WORLD)
 <img class="header-logo" src="/img/bemani/ddr/world/logo.png">
 
---8<-- "docs/games/ddr/common/troubleshooting.md"
+--8<-- "docs/games/bemani/ddr/common/troubleshooting.md"
