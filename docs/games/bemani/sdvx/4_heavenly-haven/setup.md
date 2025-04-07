@@ -1,6 +1,5 @@
 # SOUND VOLTEX IV HEAVENLY HAVEN
-
-<img src="/img/sdvxiv/hh.png">
+<img class="header-logo" src="/img/bemani/sdvx/4_heavenly-haven/logo.png">
 
 !!! danger "Warning"
 
@@ -16,7 +15,7 @@
 
     This game still uses DirectSound so we can skip audio related setup needed for other games. After downloading your data, the first thing to do is make sure your files aren't set to READ ONLY, make sure to uncheck it from the main folder in the Windows Properties tab if so. Then, put your desired 32-bit tools inside the game's `contents` folder, and to create a `.bat` file. Pictured below is what your folder should look like, feel free to name your `.bat` file anything you desire, for the sake of convenience we've named ours `gamestart.bat`.
 
-<img src="/img/sdvxiv/1.png">
+<img src="/img/bemani/sdvx/4_heavenly-haven/1.png">
 
 
 ### Configuring Your Tools
@@ -42,7 +41,7 @@
 
 	Pictured below, the contents of our `gamestart.bat` file in Notepad++.
 
-<img src="/img/sdvxiv/2.png">
+<img src="/img/bemani/sdvx/4_heavenly-haven/2.png">
 
 ### Configuring for an Online Network
 
@@ -58,7 +57,7 @@
 
 	Pictured below, the contents of our `gamestart.bat` file in Notepad++.
 
-<img src="/img/sdvxiv/3.png">
+<img src="/img/bemani/sdvx/4_heavenly-haven/3.png">
 
 !!! tip ""
 
@@ -70,7 +69,7 @@
 
 	It's important to note before booting the game that Sound Voltex uses portrait mode and attempting to boot the game fullscreen in most landscape environments will result in a crash. To alleviate this, we must set our *main* monitor to portrait mode and be ready to rotate it! To do so, right click on your desktop and go into `Display Settings`, then simply set the orientation to `Portrait` as pictured.
 
-	<img src="/img/sdvxiv/4.png">
+	<img src="/img/bemani/sdvx/4_heavenly-haven/4.png">
 
 	In the event that you do not have the means to run the game in portrait mode and cannot rotate your monitor, it is recommended you boot the game in windowed mode. In SpiceTools, simply add the windowed mode parameter, this parameter is `-w` and can be placed right after any other desired parameters chosen in our `gamestart.bat`
 

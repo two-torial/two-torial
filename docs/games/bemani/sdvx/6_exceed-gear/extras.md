@@ -1,5 +1,5 @@
 # SOUND VOLTEX EXCEED GEAR
-<img src="/img/sdvx6/exceedgear.png">
+<img class="header-logo" src="/img/bemani/sdvx/6_exceed-gear/logo.png">
 
 !!! danger "Please make sure you downloaded your data from an appropriate source.<br>This guide is unable to troubleshoot any problems related to bad or poorly managed data."
 

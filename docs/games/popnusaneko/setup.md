@@ -39,7 +39,7 @@
 
 	Pictured below, the contents of our `gamestart.bat` file in Notepad++.
 
-<img src="/img/sdvxiv/2.png">
+<img src="/img/bemani/sdvx/4_heavenly-haven/2.png">
 
 ### Configuring for an Online Network
 
@@ -55,7 +55,7 @@
 
 	Pictured below, the contents of our `gamestart.bat` file in Notepad++.
 
-<img src="/img/sdvxiv/3.png">
+<img src="/img/bemani/sdvx/4_heavenly-haven/3.png">
 
 !!! tip ""
 

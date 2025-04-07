@@ -335,7 +335,7 @@
 
 ### Custom Mods
 
-!!! info "Mods are covered on the [Unity modding](../../../extras/unity.md) page."
+!!! info "Mods are covered on the [Unity modding](/extras/unity.md) page."
 
 ### Controllers and Troubleshooting
 
@@ -343,4 +343,4 @@
 
 !!! warning "Have any other issues?"
 
-    Check out the [Troubleshooting](troubleshooting.md) and [Error Codes](../../../errorcodes/sega.md) pages.
+    Check out the [Troubleshooting](troubleshooting.md) and [Error Codes](/errorcodes/sega.md) pages.

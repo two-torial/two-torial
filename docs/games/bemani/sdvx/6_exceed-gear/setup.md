@@ -1,5 +1,5 @@
 # SOUND VOLTEX EXCEED GEAR
-<img src="/img/sdvx6/exceedgear.png">
+<img class="header-logo" src="/img/bemani/sdvx/6_exceed-gear/logo.png">
 
 !!! danger "Please make sure you downloaded your data from an appropriate source.<br>This guide is unable to troubleshoot any problems related to bad or poorly managed data."
 
@@ -17,7 +17,7 @@
 
 	You should end up with a file structure with a few folders only, as follows.
 
-<img src="/img/sdvx6/setup/1_sdvxdata.png">
+<img src="/img/bemani/sdvx/6_exceed-gear/setup/1_sdvxdata.png">
 
 ??? warning "If your data doesn't look like this"
 
@@ -75,7 +75,7 @@
 	- Head over to [spice2x.github.io](https://spice2x.github.io) and download the latest release.
 	- Extract the `spice64.exe` and `spicecfg.exe` files from the archive to your game's directory.
   
-	<img src="/img/sdvx6/setup/3_spicedata.png">
+	<img src="/img/bemani/sdvx/6_exceed-gear/setup/3_spicedata.png">
 
 ??? warning "If you're using an AMD graphics card"
 
@@ -83,7 +83,7 @@
 
 	- From the spice2x archive, extract the `.dll` files found in `spice2x\stubs\64\` to your data's `modules` folder.
 
-	<img src="/img/sdvx6/setup/3_dllamd.png">
+	<img src="/img/bemani/sdvx/6_exceed-gear/setup/3_dllamd.png">
 
 ### Configuring Spice2x
 
@@ -164,7 +164,7 @@
 
 !!! info "If you don't know what an option does, hover over the question mark at the very left."
 
-	<img src="/img/sdvx6/setup/4_opthover.png">
+	<img src="/img/bemani/sdvx/6_exceed-gear/setup/4_opthover.png">
 
 !!! danger "Be very careful changing options you don't understand as it may cause issues."
 
@@ -238,7 +238,7 @@
 	- Open the `Default Format` dropdown.
 	- Pick the `16 bit, 44100 Hz (CD Quality)` option and click `Apply` then `OK`.
 
-	<img src="/img/sdvx6/setup/6_audio.png">
+	<img src="/img/bemani/sdvx/6_exceed-gear/setup/6_audio.png">
 
 #### Monitor orientation
 
@@ -252,7 +252,7 @@
 	- Click `Display Options`.
 	- Look for `Display orientation` and set it to `Portrait` or `Portrait (flipped)`.
  
-	<img src="/img/sdvx6/setup/6_orientation.png">
+	<img src="/img/bemani/sdvx/6_exceed-gear/setup/6_orientation.png">
 
 	- Rotate your monitor vertically.
   
@@ -275,7 +275,7 @@
 
 #### Calibration
 
-<img src="/img/sdvx6/calibration/1.png">
+<img src="/img/bemani/sdvx/6_exceed-gear/calibration/1.png">
 
 !!! tip ""
 
@@ -289,14 +289,14 @@
   
 	Select `I/O CHECK` and press `Start`.
 
-<img src="/img/sdvx6/calibration/2.png">
+<img src="/img/bemani/sdvx/6_exceed-gear/calibration/2.png">
 
 !!! tip ""
 
 	Select `CALIBRATION SETTINGS` and press `Start`.
 
-<img src="/img/sdvx6/calibration/3.png">
-<img src="/img/sdvx6/calibration/4.png">
+<img src="/img/bemani/sdvx/6_exceed-gear/calibration/3.png">
+<img src="/img/bemani/sdvx/6_exceed-gear/calibration/4.png">
 
 !!! tip ""
 
@@ -316,13 +316,13 @@
 	7. **Slowly turn** your **RIGHT knob clockwise** (`VOL-R Right`) until the first line says `COUNT = OK`.
 	8. Press `Start`.
 	
-<img src="/img/sdvx6/calibration/5.png">
+<img src="/img/bemani/sdvx/6_exceed-gear/calibration/5.png">
 
 !!! tip ""
 	
 	Select `SAVE AND EXIT` and press `Start`.
 
-<img src="/img/sdvx6/calibration/6.png">
+<img src="/img/bemani/sdvx/6_exceed-gear/calibration/6.png">
 
 !!! tip ""
 

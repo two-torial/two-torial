@@ -1,6 +1,5 @@
 # SOUND VOLTEX VIVID WAVE
-
-<img src="/img/sdvxv/vw.png">
+<img class="header-logo" src="/img/bemani/sdvx/5_vivid-wave/logo.png">
 
 !!! danger "Warning"
 
@@ -22,7 +21,7 @@
 
     After downloading your data, the first thing to do is make sure your files aren't set to READ ONLY, make sure to uncheck it from the main folder in the Windows Properties tab if so. Then, put your desired 64-bit tools inside the game's `contents` folder, and to create a `.bat` file. Pictured below is what your folder should look like, feel free to name your `.bat` file anything you desire, for the sake of convenience we've named ours `gamestart.bat`.
 
-<img src="/img/sdvxv/1.png">
+<img src="/img/bemani/sdvx/5_vivid-wave/1.png">
 
 !!! tip ""
 	Why does this look different than the usual? This installation includes a `modules` folder that Spice automatically detects, keeping things clean and simple. If your version of the game doesn't have this, it probably has the `contents` folder populated with many different dll files such as the main `soundvoltex.dll`. You should still place your tools here if so!
@@ -76,7 +75,7 @@
 
 	It's important to note before booting the game that Sound Voltex uses portrait mode and attempting to boot the game fullscreen in most landscape environments will result in a crash. To alleviate this, we must set our *main* monitor to portrait mode and be ready to rotate it! To do so, right click on your desktop and go into `Display Settings`, then simply set the orientation to `Portrait` as pictured.
 
-	<img src="/img/sdvxiv/4.png">
+	<img src="/img/bemani/sdvx/4_heavenly-haven/4.png">
 
 	In the event that you do not have the means to run the game in portrait mode and cannot rotate your monitor, it is recommended you boot the game in windowed mode. In SpiceTools, simply add the windowed mode parameter, this parameter is `-w` and can be placed right after any other desired parameters chosen in our `gamestart.bat`
 
