@@ -1,5 +1,5 @@
 # beatmania IIDX 31 EPOLIS
-<img src="/img/iidx30-32/epolis.png">
+<img class="header-logo" src="/img/bemani/iidx/31_epolis/logo.png">
 
 !!! danger "Please make sure you downloaded your data from an appropriate source.<br>This guide is unable to troubleshoot any problems related to bad or poorly managed data."
 
@@ -52,7 +52,7 @@
 
 	You should end up with a file structure with a few folders only, as follows.
 
-<img src="/img/iidx30-32/setup/2_iidxdata.png">
+<img src="/img/bemani/iidx/common/setup/data.png">
 
 ??? warning "If your data doesn't look like this"
 
@@ -124,7 +124,7 @@
 	- Head over to [spice2x.github.io](https://spice2x.github.io) and download the latest release.
 	- Extract the `spice64.exe` and `spicecfg.exe` files from the archive to your game's directory.
   
-	<img src="/img/iidx30-32/setup/4_spicedata.png">
+	<img src="/img/bemani/iidx/common/setup/spice2x64data.png">
 
 ### Configuring Spice2x
 
@@ -208,7 +208,7 @@
 
 !!! info "If you don't know what an option does, hover over the question mark at the very left."
 
-	<img src="/img/iidx30-32/setup/5_opthover.png">
+	<img src="/img/common/spice2x_option_hover.png">
 
 !!! danger "Be very careful changing options you don't understand as it may cause issues."
 
@@ -257,7 +257,7 @@
 	- `EA Service URL` to the URL provided by your network.
 	- `PCBID` to the PCBID provided by your network.
 	
-	<img src="/img/iidx30-32/setup/6_network.png">
+	<img src="/img/common/spice2x_network.png">
 
 	Next you need a card number.  
 	If you don't already have one, generate one in the `Cards` tab.  
@@ -265,7 +265,7 @@
 
 	Once that's done, head to the `Cards` tab, for `Player 1` click `Open...` and point to your text file.
 
-	<img src="/img/iidx30-32/setup/6_cards.png">
+	<img src="/img/common/spice2x_cards.png">
 
 ??? tip "Local e-amuse Emulator (Asphyxia)"
 
@@ -295,7 +295,7 @@
 	- Open the `Default Format` dropdown.
 	- Pick the `16 (or 24) bit, 44100 Hz` option, click `Apply` then `OK`.
 
-	<img src="/img/iidx30-32/setup/7_audio.png">
+	<img src="/img/common/audio_24_441.png">
 
 #### Standard / Lightning / Language settings
 
@@ -316,7 +316,7 @@
 
 	If it's your first time running the game, you'll immediately be greeted with this screen.
 
-<img src="/img/iidx30-32/firstlaunch/1.png">
+<img src="/img/bemani/iidx/common/firstlaunch/1.png">
 
 #### CLOCK ERROR
 
@@ -326,13 +326,13 @@
 
 	Next, you'll get another error.
 
-<img src="/img/iidx30-32/firstlaunch/2.png">
+<img src="/img/bemani/iidx/common/firstlaunch/2.png">
 
 !!! tip ""
 
 	Let the game run for a bit until the monitor check is complete and you should be taken to the service menu.
 
-<img src="/img/iidx30-32/firstlaunch/3.png">
+<img src="/img/bemani/iidx/common/firstlaunch/3.png">
 
 !!! tip ""
 
@@ -343,7 +343,7 @@
   
 	Start by going up to `CLOCK`.
 
-<img src="/img/iidx30-32/firstlaunch/4.png">
+<img src="/img/bemani/iidx/common/firstlaunch/4.png">
 
 !!! tip ""
 
@@ -357,8 +357,8 @@
 
 	Go to `NETWORK OPTIONS` then `SHOP NAME SETTING`.
 
-<img src="/img/iidx30-32/firstlaunch/5.png">
-<img src="/img/iidx30-32/firstlaunch/6.png">
+<img src="/img/bemani/iidx/common/firstlaunch/5.png">
+<img src="/img/bemani/iidx/common/firstlaunch/6.png">
 
 !!! tip ""
 
@@ -368,8 +368,8 @@
 	- Go to `EXIT` then `SAVE AND EXIT`.
 
 
-<img src="/img/iidx30-32/firstlaunch/7.png">
-<img src="/img/iidx30-32/firstlaunch/3.png">
+<img src="/img/bemani/iidx/common/firstlaunch/7.png">
+<img src="/img/bemani/iidx/common/firstlaunch/3.png">
 
 !!! tip ""
 

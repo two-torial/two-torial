@@ -89,14 +89,14 @@
 	- Head over to [spice2x.github.io](https://spice2x.github.io) and download the latest release.
 	- Extract the `spice.exe` and `spicecfg.exe` files from the archive to your game's directory.
   
-	<img src="/img/ddr/setup/2_spicedata32.png">
+	<img src="/img/ddr/setup/spice2x32data">
 
 ??? tip "For MDX-003 (64 bits)"
 
 	- Head over to [spice2x.github.io](https://spice2x.github.io) and download the latest release.
 	- Extract the `spice64.exe` and `spicecfg.exe` files from the archive to your game's directory.
   
-	<img src="/img/ddr/setup/2_spicedata64.png">
+	<img src="/img/ddr/setup/spice2x64data.png">
 
 ### Configuring Spice2x
 
@@ -155,7 +155,7 @@
 
 !!! info "If you don't know what an option does, hover over the question mark at the very left."
 
-	<img src="/img/ddr/setup/3_opthover.png">
+	<img src="/img/common/spice2x_option_hover.png">
 
 !!! danger "Be very careful changing options you don't understand as it may cause issues."
 
@@ -190,7 +190,7 @@
 	- `EA Service URL` to the URL provided by your network.
 	- `PCBID` to the PCBID provided by your network.
 	
-	<img src="/img/ddr/setup/4_network.png">
+	<img src="/img/common/spice2x_network.png">
 
 	Next you need a card number.  
 	If you don't already have one, generate one in the `Cards` tab.  
@@ -198,7 +198,7 @@
 
 	Once that's done, head to the `Cards` tab, for `Player 1` click `Open...` and point to your text file.
 
-	<img src="/img/ddr/setup/4_cards.png">
+	<img src="/img/common/spice2x_cards.png">
 
 ??? tip "Local e-amuse Emulator (Asphyxia)"
 

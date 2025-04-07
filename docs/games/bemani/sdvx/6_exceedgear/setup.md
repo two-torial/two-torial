@@ -75,7 +75,7 @@
 	- Head over to [spice2x.github.io](https://spice2x.github.io) and download the latest release.
 	- Extract the `spice64.exe` and `spicecfg.exe` files from the archive to your game's directory.
   
-	<img src="/img/bemani/sdvx/6_exceedgear/setup/3_spicedata.png">
+	<img src="/img/bemani/sdvx/6_exceedgear/setup/data.png">
 
 ??? warning "If you're using an AMD graphics card"
 
@@ -164,7 +164,7 @@
 
 !!! info "If you don't know what an option does, hover over the question mark at the very left."
 
-	<img src="/img/bemani/sdvx/6_exceedgear/setup/4_opthover.png">
+	<img src="/img/common/spice2x_option_hover.png">
 
 !!! danger "Be very careful changing options you don't understand as it may cause issues."
 
@@ -200,7 +200,7 @@
 	- `EA Service URL` to the URL provided by your network.
 	- `PCBID` to the PCBID provided by your network.
 	
-	<img src="/img/common/network.png">
+	<img src="/img/common/spice2x_network.png">
 
 	Next you need a card number.  
 	If you don't already have one, generate one in the `Cards` tab.  
@@ -208,7 +208,7 @@
 
 	Once that's done, head to the `Cards` tab, for `Player 1` click `Open...` and point to your text file.
 
-	<img src="/img/common/cards.png">
+	<img src="/img/common/spice2x_cards.png">
 
 ??? tip "Local e-amuse Emulator (Asphyxia)"
 
@@ -238,7 +238,7 @@
 	- Open the `Default Format` dropdown.
 	- Pick the `16 bit, 44100 Hz (CD Quality)` option and click `Apply` then `OK`.
 
-	<img src="/img/bemani/sdvx/6_exceedgear/setup/6_audio.png">
+	<img src="/img/common/audio_16_441.png">
 
 #### Monitor orientation
 

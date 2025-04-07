@@ -288,7 +288,7 @@
 	- Open the `Default Format` dropdown.
     - Pick either `16 bit, 48000Hz (DVD Quality)` or `24 bit, 48000Hz (Studio Quality)`, click `Apply`, then `OK`.
 
-    <img src="/img/sega/chunithm/common/setup/5_audio.png">
+    <img src="/img/common/audio_16_48.png">
 
 #### Fixing OpenSSL on Intel 10th Gen and newer CPUs
 

@@ -1,5 +1,5 @@
 # beatmania IIDX 32 Pinky Crush
-<img src="/img/iidx30-32/pinky-crush.png">
+<img class="header-logo" src="/img/bemani/iidx/32_pinkycrush/logo.png">
 
 !!! danger "Please make sure you downloaded your data from an appropriate source.<br>This guide is unable to troubleshoot any problems related to bad or poorly managed data."
 

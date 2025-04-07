@@ -15,7 +15,7 @@
 
 	Before we even touch the game, let's fiddle with our audio settings to minimize any potential crashing on startup. In Windows, go to `Playback Devices` and then right click on your default device and go to `Properties`. From there, hit the `Advanced` tab and set your `Default Format` to `44100 Hz` and check both of the options inside `Exclusive Mode` as pictured.
 
-<img src="/img/common/441.png">
+<img src="/img/common/audio_24_441.png">
 
 !!! tip ""
 
