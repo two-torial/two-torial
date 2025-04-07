@@ -121,40 +121,40 @@ nav:
     - SEGA:
       - "CHUNITHM":
         - "NEW":
-          - "Game Setup": "games/chunithmnew/setup.md"
-          - "Controllers": "games/chunithmnew/controllers.md"
-          - "Cab-to-Cab": "games/chunithmnew/c2c.md"
-          - "Troubleshooting": "games/chunithmnew/troubleshooting.md"
+          - "Game Setup": "games/sega/chunithm/new/setup.md"
+          - "Controllers": "games/sega/chunithm/new/controllers.md"
+          - "Cab-to-Cab": "games/sega/chunithm/new/c2c.md"
+          - "Troubleshooting": "games/sega/chunithm/new/troubleshooting.md"
         - "NEW PLUS":
-          - "Game Setup": "games/chunithmnewplus/setup.md"
-          - "Controllers": "games/chunithmnewplus/controllers.md"
-          - "Troubleshooting": "games/chunithmnewplus/troubleshooting.md"
-          - "Cab-to-Cab": "games/chunithmnewplus/c2c.md"
+          - "Game Setup": "games/sega/chunithm/newplus/setup.md"
+          - "Controllers": "games/sega/chunithm/newplus/controllers.md"
+          - "Troubleshooting": "games/sega/chunithm/newplus/troubleshooting.md"
+          - "Cab-to-Cab": "games/sega/chunithm/newplus/c2c.md"
         - "SUN":
-          - "Game Setup": "games/chunithmsun/setup.md"
-          - "Controllers": "games/chunithmsun/controllers.md"
-          - "Troubleshooting": "games/chunithmsun/troubleshooting.md"
-          - "Cab-to-Cab": "games/chunithmsun/c2c.md"
+          - "Game Setup": "games/sega/chunithm/sun/setup.md"
+          - "Controllers": "games/sega/chunithm/sun/controllers.md"
+          - "Troubleshooting": "games/sega/chunithm/sun/troubleshooting.md"
+          - "Cab-to-Cab": "games/sega/chunithm/sun/c2c.md"
         - "SUN PLUS":
-          - "Game Setup": "games/chunithmsunplus/setup.md"
-          - "Controllers": "games/chunithmsunplus/controllers.md"
-          - "Troubleshooting": "games/chunithmsunplus/troubleshooting.md"
-          - "Cab-to-Cab": "games/chunithmsunplus/c2c.md"
+          - "Game Setup": "games/sega/chunithm/sunplus/setup.md"
+          - "Controllers": "games/sega/chunithm/sunplus/controllers.md"
+          - "Troubleshooting": "games/sega/chunithm/sunplus/troubleshooting.md"
+          - "Cab-to-Cab": "games/sega/chunithm/sunplus/c2c.md"
         - "LUMINOUS":
-          - "Game Setup": "games/chunithmluminous/setup.md"
-          - "Controllers": "games/chunithmluminous/controllers.md"
-          - "Troubleshooting": "games/chunithmluminous/troubleshooting.md"
-          - "Cab-to-Cab": "games/chunithmluminous/c2c.md"
+          - "Game Setup": "games/sega/chunithm/luminous/setup.md"
+          - "Controllers": "games/sega/chunithm/luminous/controllers.md"
+          - "Troubleshooting": "games/sega/chunithm/luminous/troubleshooting.md"
+          - "Cab-to-Cab": "games/sega/chunithm/luminous/c2c.md"
         - "LUMINOUS PLUS":
-          - "Game Setup": "games/chunithmluminousplus/setup.md"
-          - "Controllers": "games/chunithmluminousplus/controllers.md"
-          - "Troubleshooting": "games/chunithmluminousplus/troubleshooting.md"
-          - "Cab-to-Cab": "games/chunithmluminousplus/c2c.md"
+          - "Game Setup": "games/sega/chunithm/luminousplus/setup.md"
+          - "Controllers": "games/sega/chunithm/luminousplus/controllers.md"
+          - "Troubleshooting": "games/sega/chunithm/luminousplus/troubleshooting.md"
+          - "Cab-to-Cab": "games/sega/chunithm/luminousplus/c2c.md"
         - "VERSE":
-          - "Game Setup": "games/chunithmverse/setup.md"
-          - "Controllers": "games/chunithmverse/controllers.md"
-          - "Troubleshooting": "games/chunithmverse/troubleshooting.md"
-          - "Cab-to-Cab": "games/chunithmverse/c2c.md"
+          - "Game Setup": "games/sega/chunithm/verse/setup.md"
+          - "Controllers": "games/sega/chunithm/verse/controllers.md"
+          - "Troubleshooting": "games/sega/chunithm/verse/troubleshooting.md"
+          - "Cab-to-Cab": "games/sega/chunithm/verse/c2c.md"
       - "maimai DX":
         - "BUDDiES":
           - "Game Setup": "games/maimaidx/buddies/setup.md"
@@ -208,7 +208,7 @@ nav:
   - Other Resources: resources.md
 
 not_in_nav: |
-  games/chusan
+  games/sega/chunithm/common
   games/mu3
   games/mercury
   games/mai2
