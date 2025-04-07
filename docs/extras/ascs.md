@@ -14,7 +14,7 @@
 
 !!! tip ""
 
-	This controller works really well, the spacing is [accurate](../img/ascs/dao_comp.png) to the arcade between buttons and the turntable, obviously the turntable size is reduced which is often noticed as a minor nuisance to players that play both at home and on cabs.
+	This controller works really well, the spacing is [accurate](/img/ascs/dao_comp.png) to the arcade between buttons and the turntable, obviously the turntable size is reduced which is often noticed as a minor nuisance to players that play both at home and on cabs.
 
 	One minor aspect that's appreciated are the feet of the controller, which hold up really well on all kinds of surfaces with a stable grip, alongside the fairly hefty weight of the controller it's rather unlikely it's going to budge even a little bit during play.
 
@@ -206,7 +206,7 @@
 
 	Dao's controller design here also isn't the best, it's big and bulky which has its pros and cons depending on preferences, but unlike Gamo2's other options providing magnetic bottoms that are easy to remove, the Pop'n ASC has *20* screws to gain access to the internals. While buyers hopefully won't need to be digging inside all that often, it's still a tedious process.
 
-	This controller is notably loud too, any form of play is going to generate substantial noise that will annoy others in your household. Pop'n is naturally a loud game, but many attempts can be made to alleviate some of the noise. Some people play with a towel over the controller which is called toweling, but in the more desperate cases some people have [filled the internals to brim with cotton balls](../img/ascs/cotton.jpg) and other various materials.
+	This controller is notably loud too, any form of play is going to generate substantial noise that will annoy others in your household. Pop'n is naturally a loud game, but many attempts can be made to alleviate some of the noise. Some people play with a towel over the controller which is called toweling, but in the more desperate cases some people have [filled the internals to brim with cotton balls](/img/ascs/cotton.jpg) and other various materials.
 	
 	Many users choose to upgrade from the default USB board to a custom one (Arduino, Arcin) since the button lights can't be controlled via software and it's only polling at the default 250hz. Of course that also means you can't use the original board's PS2 connector anymore.
 
@@ -228,7 +228,7 @@
 
 	It's also worth noting that this controller comes with Chinese microswitches, which is a disappointment. Many players vastly prefer Omron microswitches over the Chinese clones. 
 
-	This controller is notably loud too, any form of play is going to generate substantial noise that will annoy others in your household. Pop'n is naturally a loud game and this applies to any controller, but many attempts can be made to alleviate some of the noise. Some people play with a towel over the controller which is called toweling, but in the more desperate cases some people have [filled the internals to brim with cotton balls](../img/ascs/cotton.jpg) and other various materials. 
+	This controller is notably loud too, any form of play is going to generate substantial noise that will annoy others in your household. Pop'n is naturally a loud game and this applies to any controller, but many attempts can be made to alleviate some of the noise. Some people play with a towel over the controller which is called toweling, but in the more desperate cases some people have [filled the internals to brim with cotton balls](/img/ascs/cotton.jpg) and other various materials. 
 
 	Yuan's Pop'n controller and its pricing is very good, perhaps due to the known dissatisfaction with Chinese Pop'n buttons, the controller is offered to come with no buttons and switches to save further on cost, making it an extremely enticing option for anyone that would rather buy their buttons and switches separately. Compared to alternatives, the pricing on this Pop'n ASC is best in class by a significant margin and it functions just as well as any other out there.
 

@@ -120,7 +120,7 @@
 
 !!! tip ""
 
-	This error was seen on Pop&apos;n Usaneko due to improper setup and bad parameter usage in SpiceTools, make sure to follow [the first time setup](../games/popnusaneko/setup.md) and utilize the `-url` and `-p` parameters in SpiceTools 
+	This error was seen on Pop&apos;n Usaneko due to improper setup and bad parameter usage in SpiceTools, make sure to follow [the first time setup](/games/popnusaneko/setup.md) and utilize the `-url` and `-p` parameters in SpiceTools 
 	so that you're not needlessly risking making mistakes in modifying the game's files. 
 
 &nbsp;
@@ -130,7 +130,7 @@
 
 !!! tip "BACKUP DATA ERROR"
 
-	Follow the steps listed [here](../games/jubeatclan/setup.md#final-steps-and-setting-up-the-game)
+	Follow the steps listed [here](/games/jubeatclan/setup.md#final-steps-and-setting-up-the-game)
 
 &nbsp;
 ## GITADORA Error Codes
@@ -174,7 +174,7 @@
 
 !!! tip "BACKUP DATA ERROR"
 
-	Follow the steps listed [here](../games/gitamatixx/setup.md#final-steps-and-setting-up-the-game)
+	Follow the steps listed [here](/games/gitamatixx/setup.md#final-steps-and-setting-up-the-game)
 
 ### 5-2501-0000
 

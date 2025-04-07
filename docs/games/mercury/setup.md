@@ -72,7 +72,7 @@
 
 ### Patching the game
 
-!!! info "Go through the [Web Patching](../../extras/patchweb.md) guide to learn how to use a web patcher."
+!!! info "Go through the [Web Patching](/extras/patchweb.md) guide to learn how to use a web patcher."
 
 ---
 
@@ -255,4 +255,4 @@
 
 !!! warning "Have any other issues?"
 
-	Check out the [Error Codes](../../errorcodes/sega.md) page.
+	Check out the [Error Codes](/errorcodes/sega.md) page.

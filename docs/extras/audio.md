@@ -6,7 +6,7 @@
 
 	I would ^^personally^^ recommend using ```WASAPI Shared``` as this has in most cases the highest chance of working and requires the least amount of work. You can enable it by using a patch.
 
-	If you would like to use ```WASAPI Exclusive```, you can read more about it [here.](../extras/streamaudio.md#workarounds-for-exclusive-audio)
+	If you would like to use ```WASAPI Exclusive```, you can read more about it [here.](/extras/streamaudio.md#workarounds-for-exclusive-audio)
 
 ---
 ### WASAPI Shared

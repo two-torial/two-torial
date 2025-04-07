@@ -129,5 +129,5 @@
     - Inside `config.toml`, set `wasapi_shared =` to `false` and set `asio =` to `true`.
     - Change `asio_driver =` to `asio_driver = "FlexASIO"`
 
-    To change FlexASIO settings refer to [this](../../extras/streamaudio.md#option-4-flexasio).
+    To change FlexASIO settings refer to [this](/extras/streamaudio.md#option-4-flexasio).
 

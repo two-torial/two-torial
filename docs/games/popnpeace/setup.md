@@ -80,4 +80,4 @@
 
 !!! warning "Have any other errors?"
 
-	Check out the [Common Problems/Tips](problems.md) section and [Error Code](../../errorcodes/bemani.md) section to resolve any issues not seen in this guide to greater depth.
+	Check out the [Common Problems/Tips](problems.md) section and [Error Code](/errorcodes/bemani.md) section to resolve any issues not seen in this guide to greater depth.

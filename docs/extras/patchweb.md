@@ -1,6 +1,6 @@
 # Website DLL Patching
 
-!!! info "Known web patchers: [Resources](../resources.md#web-patchers)"
+!!! info "Known web patchers: [Resources](/resources.md#web-patchers)"
 
 !!! warning "For BEMANI games consider [Spice2x Patching](patchsp2x.md)"
 
@@ -23,7 +23,7 @@
 	We'll be using mon's [BemaniPatcher](https://mon.im/bemanipatcher).  
 	Almost every other patcher is based off of this and functions exactly the same.   
 
-	**If your game is recent, please check [Resources](../resources.md#web-patchers) and use another web patcher.**
+	**If your game is recent, please check [Resources](/resources.md#web-patchers) and use another web patcher.**
 
 	Go to your chosen patcher's website, you'll get something similar to this:
 
@@ -58,7 +58,7 @@
 	Now, you can select the patches you'd like to apply. 
 	
 	If you're unsure on what to do, refer to your specific game's guide as it might have more information there.  
-	Otherwise feel free to join our Discord server, the link is at the top of the [home page](../index.md), and ask the community!
+	Otherwise feel free to join our Discord server, the link is at the top of the [home page](/index.md), and ask the community!
 
 <img src="/img/patchweb/5.png">
 

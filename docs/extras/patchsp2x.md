@@ -7,7 +7,7 @@
 	[Supported Games](https://github.com/two-torial/sp2xpatcher/blob/main/SUPPORTED.md)  
 	[Contributing](https://github.com/two-torial/sp2xpatcher/blob/main/CONTRIBUTING.md)  
 
-	[Known spice2x patchers](../resources.md#spice2x-patchers)
+	[Known spice2x patchers](/resources.md#spice2x-patchers)
 
 !!! warning "Compatibility"
 
@@ -48,7 +48,7 @@
 	- Click on `Import from URL`.	
 	- Paste your preferred patcher's URL.  
 
-	**Note**: Check the [Resources](../resources.md) page for a list of recommended patchers.
+	**Note**: Check the [Resources](/resources.md) page for a list of recommended patchers.
 
 	- Click on `Import`.  
 	

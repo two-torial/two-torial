@@ -23,7 +23,7 @@
 
 !!! tip ""
 
-	Decide on what hex edits you want to apply, you may find that information from the community or our [Resources](../resources.md).
+	Decide on what hex edits you want to apply, you may find that information from the community or our [Resources](/resources.md).
 	
 	It's time to open our hex editor. If you're using HxD, you'll be greeted with the screen below.
 

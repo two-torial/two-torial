@@ -43,7 +43,7 @@
 
 #### Patches
 
-!!! info "Go through the [Spice2x Patching](../../extras/patchsp2x.md) page to import patches."
+!!! info "Go through the [Spice2x Patching](/extras/patchsp2x.md) page to import patches."
 
 !!! danger "To prevent issues, avoid patching things you don't need or understand."
 
@@ -163,7 +163,7 @@
 
 ??? tip "Local e-amuse Emulator (Asphyxia)"
 
-	This is covered in the [Asphyxia CORE](../../extras/asphyxia.md) page.
+	This is covered in the [Asphyxia CORE](/extras/asphyxia.md) page.
 
 ---
 ### Pre-launch Requirements
@@ -257,4 +257,4 @@
 
 !!! warning "Have any other issue?"
 
-	Check out the [Troubleshooting](troubleshooting.md) and [Error Codes](../../errorcodes/bemani.md) pages.
+	Check out the [Troubleshooting](troubleshooting.md) and [Error Codes](/errorcodes/bemani.md) pages.
