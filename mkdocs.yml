@@ -210,6 +210,9 @@ nav:
   - Other Resources: resources.md
 
 not_in_nav: |
+  games/bemani/iidx/common
+  games/bemani/sdvx/common
+  games/bemani/ddr/common
   games/sega/chunithm/common
   games/mu3
   games/mercury
@@ -223,7 +226,7 @@ validation:
 theme:
   name: material
   custom_dir: overrides
-  logo: img/logo/website-logo.svg
+  logo: img/two-torial/website-logo.svg
   favicon: img/favicon.ico
   icon:
     repo: fontawesome/brands/github
