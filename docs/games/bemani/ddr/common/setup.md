@@ -89,7 +89,7 @@
 	- Head over to [spice2x.github.io](https://spice2x.github.io) and download the latest release.
 	- Extract the `spice.exe` and `spicecfg.exe` files from the archive to your game's directory.
   
-	<img src="/img/bemani/ddr/common/setup/spice2x32data">
+	<img src="/img/bemani/ddr/common/setup/spice2x32data.png">
 
 ??? tip "For MDX-003 (64 bits)"
 
