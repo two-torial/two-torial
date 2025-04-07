@@ -23,15 +23,15 @@
 
     You should end up with a file structure as follows.
 
-    <img width="500" src="/img/sega/maimaidx/setup/rootdir.png">
+    <img width="500" src="/img/sega/maimaidx/common/setup/rootdir.png">
 
     Create two new empty folders named `appdata` and `amfs` (and the folder `option` if not present) next to them as shown below:
 
-    <img width="500" src="/img/sega/maimaidx/setup/rootdir2.png">
+    <img width="500" src="/img/sega/maimaidx/common/setup/rootdir2.png">
 
     The `App` folder should have a file structure as follows.
 
-    <img width="500" src="/img/sega/maimaidx/setup/appdir.png">
+    <img width="500" src="/img/sega/maimaidx/common/setup/appdir.png">
 
 ??? warning "If your data doesn't look like this"
 
@@ -122,7 +122,7 @@
 
     You should now have a few more files inside the `App/Package` folder, as highlighted:
 
-    <img width="500" src="/img/sega/maimaidx/setup/segatools.png">
+    <img width="500" src="/img/sega/maimaidx/common/setup/segatools.png">
 
 ---
 
@@ -241,11 +241,11 @@
 
     Start the game by running `App/Package/start.bat`. You should see a terminal pop-up with the following:
 
-    <img src="/img/sega/maimaidx/setup/cmd.png">
+    <img src="/img/sega/maimaidx/common/setup/cmd.png">
 
     Another window titled `Sinmai` is the actual game. It should pause on `Search for Distribution Servers`:
 
-    <img src="/img/sega/maimaidx/setup/distribution_servers_check.png">
+    <img src="/img/sega/maimaidx/common/setup/distribution_servers_check.png">
 
 !!! tip ""
 
@@ -254,11 +254,11 @@
     - Press `F1` to enter the service menu
     - Press `c` a few times to navigate to `Game Settings` or `ゲーム設定` as shown below:
 
-    <img src="/img/sega/maimaidx/setup/service_menu.png">
+    <img src="/img/sega/maimaidx/common/setup/service_menu.png">
 
     - Press `F1` to enter the menu. Press `c` to navigate to the top option and toggle to `OFF` using `F1`. You should see the following:
 
-    <img src="/img/sega/maimaidx/setup/service_game_settings.png">
+    <img src="/img/sega/maimaidx/common/setup/service_game_settings.png">
 
     - Press `ESC` to exit. Close all associated windows including `CMD`, `AMDaemon`, and `Sinmai`. Relaunch with `start.bat` and the game should boot into guest mode.
 
@@ -290,7 +290,7 @@
     your 20-digit access code if you already have one, or make one up if you don't. If you're making one
     up, the access code **MUST NOT** start with a 3.
 
-    <img src="/img/sega/maimaidx/setup/access_code.png">
+    <img src="/img/sega/maimaidx/common/setup/access_code.png">
 
 ??? tip "Local (ARTEMiS/AquaDX)"
 
@@ -327,7 +327,7 @@
     Extract any options you've downloaded into the `Option` folder. You should end up with
     a file structure as follows. **Do not be worried if you have fewer or more option folders.**
 
-    <img width="500" src="/img/sega/maimaidx/setup/options.png">
+    <img width="500" src="/img/sega/maimaidx/common/setup/options.png">
 
     !!! warning "Do not mix option data between versions"
 
