@@ -15,7 +15,7 @@
 
     This game still uses DirectSound so we can skip audio related setup needed for other games. After downloading your data, the first thing to do is make sure your files aren't set to READ ONLY, make sure to uncheck it from the main folder in the Windows Properties tab if so. Then, put your desired 32-bit tools inside the game's `contents` folder, and to create a `.bat` file. Pictured below is what your folder should look like, feel free to name your `.bat` file anything you desire, for the sake of convenience we've named ours `gamestart.bat`.
 
-<img src="/img/bemani/sdvx/4_heavenly-haven/1.png">
+<img src="/img/bemani/sdvx/4_heavenly-haven/setup/1.png">
 
 
 ### Configuring Your Tools
@@ -41,7 +41,7 @@
 
 	Pictured below, the contents of our `gamestart.bat` file in Notepad++.
 
-<img src="/img/bemani/sdvx/4_heavenly-haven/2.png">
+<img src="/img/bemani/sdvx/4_heavenly-haven/setup/2.png">
 
 ### Configuring for an Online Network
 
@@ -57,7 +57,7 @@
 
 	Pictured below, the contents of our `gamestart.bat` file in Notepad++.
 
-<img src="/img/bemani/sdvx/4_heavenly-haven/3.png">
+<img src="/img/bemani/sdvx/4_heavenly-haven/setup/3.png">
 
 !!! tip ""
 
