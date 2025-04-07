@@ -9,115 +9,117 @@ nav:
   - Home: index.md
   - Games:
     - BEMANI:
-      - "IIDX":
-        - "IIDX 9th style":
+      - "beatmania IIDX":
+        - "9th style":
           - "Game Setup": "games/iidx9/setup.md"
           - "Troubleshooting": "games/iidx9/troubleshooting.md"
-        - "IIDX 10th style":
+        - "10th style":
           - "Game Setup": "games/iidx10/setup.md"
           - "Troubleshooting": "games/iidx10/troubleshooting.md"
-        - "IIDX 11 IIDX RED":
+        - "11 RED":
           - "Game Setup": "games/iidx11/setup.md"
           - "Troubleshooting": "games/iidx11/troubleshooting.md"
-        - "IIDX 12 HAPPY SKY":
+        - "12 HAPPY SKY":
           - "Game Setup": "games/iidx12/setup.md"
           - "Troubleshooting": "games/iidx12/troubleshooting.md"
-        - "IIDX 13 DistorteD":
+        - "13 DistorteD":
           - "Game Setup": "games/iidx13/setup.md"
           - "Troubleshooting": "games/iidx13/troubleshooting.md"
-        - "IIDX 14 GOLD":
+        - "14 GOLD":
           - "Game Setup": "games/iidx14/setup.md"
           - "Troubleshooting": "games/iidx14/troubleshooting.md"
-        - "IIDX 24 SINOBUZ":
+        - "24 SINOBUZ":
           - "First Time Setup": "games/iidx24/setup.md"
           - "Common Problems/Tips": "games/iidx24/problems.md"
-        - "IIDX 25 CANNON BALLERS":
+        - "25 CANNON BALLERS":
           - "First Time Setup": "games/iidx25/setup.md"
           - "Common Problems/Tips": "games/iidx25/problems.md"
-        - "IIDX 26 Rootage":
+        - "26 Rootage":
           - "First Time Setup": "games/iidx26/setup.md"
           - "Common Problems/Tips": "games/iidx26/problems.md"
-        - "IIDX 27 HEROIC VERSE":
+        - "27 HEROIC VERSE":
           - "First Time Setup": "games/iidx27/setup.md"
           - "Common Problems/Tips": "games/iidx27/problems.md"
           - "Lightning Mode Specifics": "games/iidx27/lightning.md"
-        - "IIDX 30 RESIDENT":
+        - "30 RESIDENT":
           - "Game Setup": "games/iidx30/setup.md"
           - "Extra Information": "games/iidx30/extras.md"
           - "Troubleshooting": "games/iidx30/troubleshooting.md"
-        - "IIDX 31 EPOLIS":
+        - "31 EPOLIS":
           - "Game Setup": "games/iidx31/setup.md"
           - "Extra Information": "games/iidx31/extras.md"
           - "Troubleshooting": "games/iidx31/troubleshooting.md"
-        - "IIDX 32 Pinky Crush":
+        - "32 Pinky Crush":
           - "Game Setup": "games/iidx32/setup.md"
           - "Extra Information": "games/iidx32/extras.md"
           - "Troubleshooting": "games/iidx32/troubleshooting.md"
-      - "SDVX":
-        - "SDVX IV HEAVENLY HAVEN":
+      - "Sound Voltex":
+        - "IV HEAVENLY HAVEN":
           - "First Time Setup": "games/bemani/sdvx/4_heavenlyhaven/setup.md"
           - "Common Problems/Tips": "games/bemani/sdvx/4_heavenlyhaven/problems.md"
-        - "SDVX VIVID WAVE":
+        - "V VIVID WAVE":
           - "First Time Setup": "games/bemani/sdvx/5_vividwave/setup.md"
           - "Common Problems/Tips": "games/bemani/sdvx/5_vividwave/problems.md"
-        - "SDVX EXCEED GEAR":
+        - "VI EXCEED GEAR":
           - "Game Setup": "games/bemani/sdvx/6_exceedgear/setup.md"
           - "Extra Information": "games/bemani/sdvx/6_exceedgear/extras.md"
           - "Troubleshooting": "games/bemani/sdvx/6_exceedgear/troubleshooting.md"
-      - "Pop&apos;n":
-        - "Pop&apos;n Usaneko":
+      - "Pop'n Music":
+        - "Usaneko":
           - "First Time Setup": "games/popnusaneko/setup.md"
           - "Common Problems/Tips": "games/popnusaneko/problems.md"
-        - "Pop&apos;n Peace":
+        - "Peace":
           - "First Time Setup": "games/popnpeace/setup.md"
           - "Common Problems/Tips": "games/popnpeace/problems.md"
-        - "HELLO Pop&apos;n":
+        - "HELLO!":
           - "First Time Setup": "games/hellopopn/setup.md"
           - "Common Problems/Tips": "games/hellopopn/problems.md"
-      - "DDR":
-        - "DDR A20":
+      - "Dance Dance Revolution":
+        - "A20":
           - "Game Setup": "games/ddr/a20/setup.md"
           - "Troubleshooting": "games/ddr/a20/troubleshooting.md"
-        - "DDR A20 PLUS":
+        - "A20 PLUS":
           - "Game Setup": "games/ddr/a20plus/setup.md"
           - "Troubleshooting": "games/ddr/a20plus/troubleshooting.md"
-        - "DDR A3":
+        - "A3":
           - "Game Setup": "games/ddr/a3/setup.md"
           - "Troubleshooting": "games/ddr/a3/troubleshooting.md"
-        - "DDR WORLD":
+        - "WORLD":
           - "Game Setup": "games/ddr/world/setup.md"
           - "Troubleshooting": "games/ddr/world/troubleshooting.md"
       - "Jubeat":
-        - "Jubeat Clan":
+        - "Clan":
           - "First Time Setup": "games/jubeatclan/setup.md"
           - "Common Problems/Tips": "games/jubeatclan/problems.md"
       - "GITADORA":
-        - "GITADORA Matixx":
+        - "Matixx":
           - "First Time Setup": "games/gitamatixx/setup.md"
           - "Common Problems/Tips": "games/gitamatixx/problems.md"
-        - "GITADORA EXCHAIN":
+        - "EXCHAIN":
           - "First Time Setup": "games/exchain/setup.md"
           - "Common Problems/Tips": "games/exchain/problems.md"
-        - "GITADORA FUZZ-UP":
+        - "Fuzz-Up":
           - "Game Setup": "games/fuzzup/setup.md"
           - "Troubleshooting": "games/fuzzup/troubleshooting.md"
       - "Reflec Beat":
-        - "Reflec Beat: Reflesia":
+        - "Reflesia":
           - "First Time Setup": "games/reflesia/setup.md"
           - "Common Problems/Tips": "games/reflesia/problems.md"
       - "NOSTALGIA":
-        - "Nostalgia FORTE":
+        - "FORTE":
           - "First Time Setup": "games/nostforte/setup.md"
           - "Common Problems/Tips": "games/nostforte/problems.md"
-        - "Nostalgia Op.2":
+        - "Op.2":
           - "First Time Setup": "games/nostop2/setup.md"
           - "Common Problems/Tips": "games/nostop2/problems.md"
-      - "BeatStream アニムトライヴ":
-        - "First Time Setup": "games/beatstreamfinal/setup.md"
-        - "Common Problems/Tips": "games/beatstreamfinal/problems.md"
-      - "MÚSECA 1+1/2":
-        - "First Time Setup": "games/musecafinal/setup.md"
-        - "Common Problems/Tips": "games/musecafinal/problems.md"
+      - "BeatStream":
+        - "アニムトライヴ":
+          - "First Time Setup": "games/beatstreamfinal/setup.md"
+          - "Common Problems/Tips": "games/beatstreamfinal/problems.md"
+      - "MÚSECA":
+        - "MÚSECA 1+1/2":
+          - "First Time Setup": "games/musecafinal/setup.md"
+          - "Common Problems/Tips": "games/musecafinal/problems.md"
     - SEGA:
       - "CHUNITHM":
         - "NEW":
@@ -178,10 +180,10 @@ nav:
           - "Controllers": "games/ongekirefresh/controllers.md"
           - "Troubleshooting": "games/ongekirefresh/troubleshooting.md"
       - "WACCA":
-        - "WACCA Lily R":
+        - "Lily R":
           - "Game Setup": "games/waccalilyr/setup.md"
           - "Controllers": "games/waccalilyr/controllers.md"
-        - "WACCA Reverse":
+        - "Reverse":
           - "Game Setup": "games/waccareverse/setup.md"
           - "Controllers": "games/waccareverse/controllers.md"
     - NAMCO:
