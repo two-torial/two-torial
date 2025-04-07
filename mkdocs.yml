@@ -107,11 +107,11 @@ nav:
           - "Troubleshooting": "games/reflesia/troubleshooting.md"
       - "NOSTALGIA":
         - "FORTE":
-          - "Game Setup": "games/nostforte/setup.md"
-          - "Troubleshooting": "games/nostforte/troubleshooting.md"
+          - "Game Setup": "games/bemani/nostalgia/forte/setup.md"
+          - "Troubleshooting": "games/bemani/nostalgia/forte/troubleshooting.md"
         - "Op.2":
-          - "Game Setup": "games/nostop2/setup.md"
-          - "Troubleshooting": "games/nostop2/troubleshooting.md"
+          - "Game Setup": "games/bemani/nostalgia/op2/setup.md"
+          - "Troubleshooting": "games/bemani/nostalgia/op2/troubleshooting.md"
       - "BeatStream":
         - "アニムトライヴ":
           - "Game Setup": "games/bemani/beatstream/animutribe/setup.md"

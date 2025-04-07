@@ -1,4 +1,5 @@
 # NOSTALGIA OP.2
+<img class="header-logo" src="/img/bemani/nostalgia/op2/logo.png">
 
 !!! danger "Warning:"
 	Please make sure your data is from an appropriate source and unmodified before proceeding, this guide is unable to troubleshoot any problems related to bad or poorly managed data.
@@ -19,7 +20,7 @@
 
 	After downloading your data, the first thing to do is make sure your files aren't set to READ ONLY, make sure to uncheck it from the main folder in the Windows Properties tab if so. Then, put your desired 64-bit tools inside the game's main folder and to create a `.bat` file. Pictured below is what your folder should look like, feel free to name your `.bat` file whatever you desire, for the sake of convenience we've named ours `gamestart.bat`.
 
-<img src="/img/nost/8.png">
+<img src="/img/bemani/nostalgia/common/8.png">
 
 ### Configuring Your Tools
 
@@ -65,34 +66,34 @@
 
 	If it's your first time running the game, you should be automatically forced into the service menu with lots of scary flashing notifications as pictured below, let's work through them.
 
-<img src="/img/nost/2.png">
+<img src="/img/bemani/nostalgia/common/2.png">
 
 !!! tip ""
 	Interestingly, only the red flashing ones really take any effort to deal with. You can start by entering and exiting the following menus: `SOUND OPTIONS`, `GAME OPTIONS`, `COIN OPTIONS`, `ECOMODE OPTIONS`, and `NETWORK OPTIONS`. 
 
 	Once you've done that, enter `CLOCK` and set the clock by hitting `SAVE AND EXIT` as pictured below.
 
-<img src="/img/nost/3.png">
+<img src="/img/bemani/nostalgia/common/3.png">
 
 !!! tip ""
 	The final menu we must deal with is `VIRTUAL COIN`, enter the menu and select `OPERATION SETTINGS` as seen below.
 
-<img src="/img/nost/4.png">
+<img src="/img/bemani/nostalgia/common/4.png">
 
 !!! tip ""
 	Once inside this menu, we'll need to deal with all 4 blinking options, let's start by entering the `TAX RATE SETTING` menu, shown below.
 
-<img src="/img/nost/5.png">
+<img src="/img/bemani/nostalgia/common/5.png">
 
 !!! tip ""
 	Set the tax rate by simply selecting `SAVE AND EXIT` while will take us back into the `OPERATING SETTINGS`. Pictured below is the `TAX RATE SETTING` menu.
 
-<img src="/img/nost/6.png">
+<img src="/img/bemani/nostalgia/common/6.png">
 
 !!! tip ""
 	Once back inside the `TAX RATE SETTING` menu, we must deal with the three blinking `PATTERN` options. Doing so is effortless, simply enter all three menus one by one and hit `SAVE AND EXIT` just as we did for the `TAX RATE SETTING` in the previous step. Pictured below is the inside of `PATTERN 1`. 
 
-<img src="/img/nost/6.png">
+<img src="/img/bemani/nostalgia/common/6.png">
 
 !!! tip ""
 	After saving and exiting all three `PATTERN` options, you're all done! From the service menu select `GAME MODE` and the game should load ready to be played! Have fun!

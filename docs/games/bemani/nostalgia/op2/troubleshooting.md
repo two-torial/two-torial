@@ -1,4 +1,5 @@
-# NOSTALGIA FORTE Troubleshooting
+# NOSTALGIA OP.2
+<img class="header-logo" src="/img/bemani/nostalgia/op2/logo.png">
 
 ### Hardware Specs
 
