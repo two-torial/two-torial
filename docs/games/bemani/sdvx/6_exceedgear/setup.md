@@ -17,7 +17,7 @@
 
 	You should end up with a file structure with a few folders only, as follows.
 
-<img src="/img/bemani/sdvx/6_exceedgear/setup/1_sdvxdata.png">
+<img src="/img/bemani/sdvx/6_exceedgear/setup/data.png">
 
 ??? warning "If your data doesn't look like this"
 
@@ -75,7 +75,7 @@
 	- Head over to [spice2x.github.io](https://spice2x.github.io) and download the latest release.
 	- Extract the `spice64.exe` and `spicecfg.exe` files from the archive to your game's directory.
   
-	<img src="/img/bemani/sdvx/6_exceedgear/setup/data.png">
+	<img src="/img/bemani/sdvx/6_exceedgear/setup/spice2x64data.png">
 
 ??? warning "If you're using an AMD graphics card"
 
@@ -83,7 +83,7 @@
 
 	- From the spice2x archive, extract the `.dll` files found in `spice2x\stubs\64\` to your data's `modules` folder.
 
-	<img src="/img/bemani/sdvx/6_exceedgear/setup/3_dllamd.png">
+	<img src="/img/bemani/sdvx/6_exceedgear/setup/dllamd.png">
 
 ### Configuring Spice2x
 
@@ -252,7 +252,7 @@
 	- Click `Display Options`.
 	- Look for `Display orientation` and set it to `Portrait` or `Portrait (flipped)`.
  
-	<img src="/img/bemani/sdvx/6_exceedgear/setup/6_orientation.png">
+	<img src="/img/common/orientation_portrait.png">
 
 	- Rotate your monitor vertically.
   
