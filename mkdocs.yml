@@ -279,6 +279,9 @@ plugins:
   - search
   - git-revision-date-localized
 
+extra_css:
+  - style.css
+
 extra:
   analytics:
     provider: custom
