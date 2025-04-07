@@ -4,8 +4,9 @@ description: A compendium of information and guides about arcade games. By the c
 
 #
 
+<img class="header-logo" src="/img/two-torial/banner.png">
+
 <figure markdown>
-![Banner](./img/logo/banner.png)
 A compendium of information and guides about arcade games.  
 By the community, for the community.
 

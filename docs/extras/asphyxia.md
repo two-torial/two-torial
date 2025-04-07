@@ -14,13 +14,13 @@
 
 	First, grab the latest release [here.](https://github.com/asphyxia-core/asphyxia-core.github.io/releases) In ^^almost^^ all cases, you will use the ```asphyxia-core-win-x64.zip```. Next, open the ```.zip``` file and extract the ```plugins``` folder and ```asphyxia-core-x64.exe``` into the ```contents``` folder of your desired game. We will use SDVX EG for this example.
 
-<img src="/img/asphyxia/1.png">
+<img src="/img/extras/asphyxia/1.png">
 
 !!! tip ""
 
 	Your ```contents``` folder should look like this then:
 
-<img src="/img/asphyxia/2.png">
+<img src="/img/extras/asphyxia/2.png">
 
 !!! tip ""
 
@@ -44,13 +44,13 @@
 
 	Run ```spicecfg.exe```, head over to the ```Options``` tab and look for ```EA Service URL```. In there, you need to input what is displayed on the Asphyxia WebUI on the ```Dashboard``` at the right side.
 
-<img src="/img/asphyxia/3.png">
+<img src="/img/extras/asphyxia/3.png">
 
 !!! tip ""
 
 	For me, it's ```localhost:8083``` and should look like this:
 
-<img src="/img/asphyxia/4.png">
+<img src="/img/extras/asphyxia/4.png">
 	
 ### Setting up SDVX
 

@@ -131,7 +131,7 @@
 			- [Sensatec (JP Seller)](https://www.sensatec.co.jp/e/products/detail.php?product_id=336)
 
 &nbsp;
-## Pop&apos;n Buttons
+## Pop'n Buttons
 
 ### Sanwa
 

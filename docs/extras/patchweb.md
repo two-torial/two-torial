@@ -1,6 +1,6 @@
 # Website DLL Patching
 
-!!! info "Known web patchers: [Resources](../resources.md#web-patchers)"
+!!! info "Known web patchers: [Resources](/resources.md#web-patchers)"
 
 !!! warning "For BEMANI games consider [Spice2x Patching](patchsp2x.md)"
 
@@ -23,19 +23,19 @@
 	We'll be using mon's [BemaniPatcher](https://mon.im/bemanipatcher).  
 	Almost every other patcher is based off of this and functions exactly the same.   
 
-	**If your game is recent, please check [Resources](../resources.md#web-patchers) and use another web patcher.**
+	**If your game is recent, please check [Resources](/resources.md#web-patchers) and use another web patcher.**
 
 	Go to your chosen patcher's website, you'll get something similar to this:
 
-<img src="/img/patchweb/1.png">
+<img src="/img/extras/patchweb/1.png">
 
 !!! tip ""
 
 	Click on any game you'd like the patches for. In this case, we'll use Beatmania IIDX 30 Resident.
 
-<img src="/img/patchweb/2.png">
+<img src="/img/extras/patchweb/2.png">
 
-<img src="/img/patchweb/3.png">
+<img src="/img/extras/patchweb/3.png">
 
 !!! tip ""
 
@@ -51,22 +51,22 @@
 
 	**Please keep in mind that some patchers may not support the most recent versions of your game right away.**
 
-<img src="/img/patchweb/4.png">
+<img src="/img/extras/patchweb/4.png">
 
 !!! tip ""
 
 	Now, you can select the patches you'd like to apply. 
 	
 	If you're unsure on what to do, refer to your specific game's guide as it might have more information there.  
-	Otherwise feel free to join our Discord server, the link is at the top of the [home page](../index.md), and ask the community!
+	Otherwise feel free to join our Discord server, the link is at the top of the [home page](/index.md), and ask the community!
 
-<img src="/img/patchweb/5.png">
+<img src="/img/extras/patchweb/5.png">
 
 !!! tip ""
 
 	When you're done selecting patches, click on `Save Patched File` and your new `.dll` file will start downloading.
 
-<img src="/img/patchweb/6.png">
+<img src="/img/extras/patchweb/6.png">
 
 !!! danger "Backup your original `.dll` file first!"
 

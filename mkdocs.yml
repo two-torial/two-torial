@@ -9,185 +9,187 @@ nav:
   - Home: index.md
   - Games:
     - BEMANI:
-      - "IIDX":
-        - "IIDX 9th style":
-          - "Game Setup": "games/iidx9/setup.md"
-          - "Troubleshooting": "games/iidx9/troubleshooting.md"
-        - "IIDX 10th style":
-          - "Game Setup": "games/iidx10/setup.md"
-          - "Troubleshooting": "games/iidx10/troubleshooting.md"
-        - "IIDX 11 IIDX RED":
-          - "Game Setup": "games/iidx11/setup.md"
-          - "Troubleshooting": "games/iidx11/troubleshooting.md"
-        - "IIDX 12 HAPPY SKY":
-          - "Game Setup": "games/iidx12/setup.md"
-          - "Troubleshooting": "games/iidx12/troubleshooting.md"
-        - "IIDX 13 DistorteD":
-          - "Game Setup": "games/iidx13/setup.md"
-          - "Troubleshooting": "games/iidx13/troubleshooting.md"
-        - "IIDX 14 GOLD":
-          - "Game Setup": "games/iidx14/setup.md"
-          - "Troubleshooting": "games/iidx14/troubleshooting.md"
-        - "IIDX 24 SINOBUZ":
-          - "First Time Setup": "games/iidx24/setup.md"
-          - "Common Problems/Tips": "games/iidx24/problems.md"
-        - "IIDX 25 CANNON BALLERS":
-          - "First Time Setup": "games/iidx25/setup.md"
-          - "Common Problems/Tips": "games/iidx25/problems.md"
-        - "IIDX 26 Rootage":
-          - "First Time Setup": "games/iidx26/setup.md"
-          - "Common Problems/Tips": "games/iidx26/problems.md"
-        - "IIDX 27 HEROIC VERSE":
-          - "First Time Setup": "games/iidx27/setup.md"
-          - "Common Problems/Tips": "games/iidx27/problems.md"
-          - "Lightning Mode Specifics": "games/iidx27/lightning.md"
-        - "IIDX 30 RESIDENT":
-          - "Game Setup": "games/iidx30/setup.md"
-          - "Extra Information": "games/iidx30/extras.md"
-          - "Troubleshooting": "games/iidx30/troubleshooting.md"
-        - "IIDX 31 EPOLIS":
-          - "Game Setup": "games/iidx31/setup.md"
-          - "Extra Information": "games/iidx31/extras.md"
-          - "Troubleshooting": "games/iidx31/troubleshooting.md"
-        - "IIDX 32 Pinky Crush":
-          - "Game Setup": "games/iidx32/setup.md"
-          - "Extra Information": "games/iidx32/extras.md"
-          - "Troubleshooting": "games/iidx32/troubleshooting.md"
-      - "SDVX":
-        - "SDVX IV HEAVENLY HAVEN":
-          - "First Time Setup": "games/sdvx4/setup.md"
-          - "Common Problems/Tips": "games/sdvx4/problems.md"
-        - "SDVX VIVID WAVE":
-          - "First Time Setup": "games/sdvx5/setup.md"
-          - "Common Problems/Tips": "games/sdvx5/problems.md"
-        - "SDVX EXCEED GEAR":
-          - "Game Setup": "games/sdvx6/setup.md"
-          - "Extra Information": "games/sdvx6/extras.md"
-          - "Troubleshooting": "games/sdvx6/troubleshooting.md"
-      - "Pop&apos;n":
-        - "Pop&apos;n Usaneko":
-          - "First Time Setup": "games/popnusaneko/setup.md"
-          - "Common Problems/Tips": "games/popnusaneko/problems.md"
-        - "Pop&apos;n Peace":
-          - "First Time Setup": "games/popnpeace/setup.md"
-          - "Common Problems/Tips": "games/popnpeace/problems.md"
-        - "HELLO Pop&apos;n":
-          - "First Time Setup": "games/hellopopn/setup.md"
-          - "Common Problems/Tips": "games/hellopopn/problems.md"
-      - "DDR":
-        - "DDR A20":
-          - "Game Setup": "games/ddr/a20/setup.md"
-          - "Troubleshooting": "games/ddr/a20/troubleshooting.md"
-        - "DDR A20 PLUS":
-          - "Game Setup": "games/ddr/a20plus/setup.md"
-          - "Troubleshooting": "games/ddr/a20plus/troubleshooting.md"
-        - "DDR A3":
-          - "Game Setup": "games/ddr/a3/setup.md"
-          - "Troubleshooting": "games/ddr/a3/troubleshooting.md"
-        - "DDR WORLD":
-          - "Game Setup": "games/ddr/world/setup.md"
-          - "Troubleshooting": "games/ddr/world/troubleshooting.md"
+      - "beatmania IIDX":
+        - "9th style":
+          - "Game Setup": "games/bemani/iidx/9thstyle/setup.md"
+          - "Troubleshooting": "games/bemani/iidx/9thstyle/troubleshooting.md"
+        - "10th style":
+          - "Game Setup": "games/bemani/iidx/10thstyle/setup.md"
+          - "Troubleshooting": "games/bemani/iidx/10thstyle/troubleshooting.md"
+        - "11 RED":
+          - "Game Setup": "games/bemani/iidx/11_red/setup.md"
+          - "Troubleshooting": "games/bemani/iidx/11_red/troubleshooting.md"
+        - "12 HAPPY SKY":
+          - "Game Setup": "games/bemani/iidx/12_happysky/setup.md"
+          - "Troubleshooting": "games/bemani/iidx/12_happysky/troubleshooting.md"
+        - "13 DistorteD":
+          - "Game Setup": "games/bemani/iidx/13_distorted/setup.md"
+          - "Troubleshooting": "games/bemani/iidx/13_distorted/troubleshooting.md"
+        - "14 GOLD":
+          - "Game Setup": "games/bemani/iidx/14_gold/setup.md"
+          - "Troubleshooting": "games/bemani/iidx/14_gold/troubleshooting.md"
+        - "24 SINOBUZ":
+          - "Game Setup": "games/bemani/iidx/24_sinobuz/setup.md"
+          - "Troubleshooting": "games/bemani/iidx/24_sinobuz/troubleshooting.md"
+        - "25 CANNON BALLERS":
+          - "Game Setup": "games/bemani/iidx/25_cannonballers/setup.md"
+          - "Troubleshooting": "games/bemani/iidx/25_cannonballers/troubleshooting.md"
+        - "26 Rootage":
+          - "Game Setup": "games/bemani/iidx/26_rootage/setup.md"
+          - "Troubleshooting": "games/bemani/iidx/26_rootage/troubleshooting.md"
+        - "27 HEROIC VERSE":
+          - "Game Setup": "games/bemani/iidx/27_heroicverse/setup.md"
+          - "Troubleshooting": "games/bemani/iidx/27_heroicverse/troubleshooting.md"
+          - "Lightning Mode Specifics": "games/bemani/iidx/27_heroicverse/lightning.md"
+        - "30 RESIDENT":
+          - "Game Setup": "games/bemani/iidx/30_resident/setup.md"
+          - "Extra Information": "games/bemani/iidx/30_resident/extras.md"
+          - "Troubleshooting": "games/bemani/iidx/30_resident/troubleshooting.md"
+        - "31 EPOLIS":
+          - "Game Setup": "games/bemani/iidx/31_epolis/setup.md"
+          - "Extra Information": "games/bemani/iidx/31_epolis/extras.md"
+          - "Troubleshooting": "games/bemani/iidx/31_epolis/troubleshooting.md"
+        - "32 Pinky Crush":
+          - "Game Setup": "games/bemani/iidx/32_pinkycrush/setup.md"
+          - "Extra Information": "games/bemani/iidx/32_pinkycrush/extras.md"
+          - "Troubleshooting": "games/bemani/iidx/32_pinkycrush/troubleshooting.md"
+      - "Sound Voltex":
+        - "IV HEAVENLY HAVEN":
+          - "Game Setup": "games/bemani/sdvx/4_heavenlyhaven/setup.md"
+          - "Troubleshooting": "games/bemani/sdvx/4_heavenlyhaven/troubleshooting.md"
+        - "V VIVID WAVE":
+          - "Game Setup": "games/bemani/sdvx/5_vividwave/setup.md"
+          - "Troubleshooting": "games/bemani/sdvx/5_vividwave/troubleshooting.md"
+        - "VI EXCEED GEAR":
+          - "Game Setup": "games/bemani/sdvx/6_exceedgear/setup.md"
+          - "Extra Information": "games/bemani/sdvx/6_exceedgear/extras.md"
+          - "Troubleshooting": "games/bemani/sdvx/6_exceedgear/troubleshooting.md"
+      - "Pop'n Music":
+        - "Usaneko":
+          - "Game Setup": "games/bemani/popn/usaneko/setup.md"
+          - "Troubleshooting": "games/bemani/popn/usaneko/troubleshooting.md"
+        - "Peace":
+          - "Game Setup": "games/bemani/popn/peace/setup.md"
+          - "Troubleshooting": "games/bemani/popn/peace/troubleshooting.md"
+        - "HELLO!":
+          - "Game Setup": "games/bemani/popn/hello/setup.md"
+          - "Troubleshooting": "games/bemani/popn/hello/troubleshooting.md"
+      - "Dance Dance Revolution":
+        - "A20":
+          - "Game Setup": "games/bemani/ddr/a20/setup.md"
+          - "Troubleshooting": "games/bemani/ddr/a20/troubleshooting.md"
+        - "A20 PLUS":
+          - "Game Setup": "games/bemani/ddr/a20plus/setup.md"
+          - "Troubleshooting": "games/bemani/ddr/a20plus/troubleshooting.md"
+        - "A3":
+          - "Game Setup": "games/bemani/ddr/a3/setup.md"
+          - "Troubleshooting": "games/bemani/ddr/a3/troubleshooting.md"
+        - "WORLD":
+          - "Game Setup": "games/bemani/ddr/world/setup.md"
+          - "Troubleshooting": "games/bemani/ddr/world/troubleshooting.md"
       - "Jubeat":
-        - "Jubeat Clan":
-          - "First Time Setup": "games/jubeatclan/setup.md"
-          - "Common Problems/Tips": "games/jubeatclan/problems.md"
+        - "Clan":
+          - "Game Setup": "games/bemani/jubeat/clan/setup.md"
+          - "Troubleshooting": "games/bemani/jubeat/clan/troubleshooting.md"
       - "GITADORA":
-        - "GITADORA Matixx":
-          - "First Time Setup": "games/gitamatixx/setup.md"
-          - "Common Problems/Tips": "games/gitamatixx/problems.md"
-        - "GITADORA EXCHAIN":
-          - "First Time Setup": "games/exchain/setup.md"
-          - "Common Problems/Tips": "games/exchain/problems.md"
-        - "GITADORA FUZZ-UP":
-          - "Game Setup": "games/fuzzup/setup.md"
-          - "Troubleshooting": "games/fuzzup/troubleshooting.md"
+        - "Matixx":
+          - "Game Setup": "games/bemani/gitadora/matixx/setup.md"
+          - "Troubleshooting": "games/bemani/gitadora/matixx/troubleshooting.md"
+        - "EXCHAIN":
+          - "Game Setup": "games/bemani/gitadora/exchain/setup.md"
+          - "Troubleshooting": "games/bemani/gitadora/exchain/troubleshooting.md"
+        - "Fuzz-Up":
+          - "Game Setup": "games/bemani/gitadora/fuzzup/setup.md"
+          - "Troubleshooting": "games/bemani/gitadora/fuzzup/troubleshooting.md"
       - "Reflec Beat":
-        - "Reflec Beat: Reflesia":
-          - "First Time Setup": "games/reflesia/setup.md"
-          - "Common Problems/Tips": "games/reflesia/problems.md"
+        - "悠久のリフレシア (Reflesia)":
+          - "Game Setup": "games/bemani/reflecbeat/reflesia/setup.md"
+          - "Troubleshooting": "games/bemani/reflecbeat/reflesia/troubleshooting.md"
       - "NOSTALGIA":
-        - "Nostalgia FORTE":
-          - "First Time Setup": "games/nostforte/setup.md"
-          - "Common Problems/Tips": "games/nostforte/problems.md"
-        - "Nostalgia Op.2":
-          - "First Time Setup": "games/nostop2/setup.md"
-          - "Common Problems/Tips": "games/nostop2/problems.md"
-      - "BeatStream アニムトライヴ":
-        - "First Time Setup": "games/beatstreamfinal/setup.md"
-        - "Common Problems/Tips": "games/beatstreamfinal/problems.md"
-      - "MÚSECA 1+1/2":
-        - "First Time Setup": "games/musecafinal/setup.md"
-        - "Common Problems/Tips": "games/musecafinal/problems.md"
+        - "FORTE":
+          - "Game Setup": "games/bemani/nostalgia/forte/setup.md"
+          - "Troubleshooting": "games/bemani/nostalgia/forte/troubleshooting.md"
+        - "Op.2":
+          - "Game Setup": "games/bemani/nostalgia/op2/setup.md"
+          - "Troubleshooting": "games/bemani/nostalgia/op2/troubleshooting.md"
+      - "BeatStream":
+        - "アニムトライヴ (Animutribe)":
+          - "Game Setup": "games/bemani/beatstream/animutribe/setup.md"
+          - "Troubleshooting": "games/bemani/beatstream/animutribe/troubleshooting.md"
+      - "MÚSECA":
+        - "MÚSECA 1+1/2":
+          - "Game Setup": "games/bemani/museca/1plushalf/setup.md"
+          - "Troubleshooting": "games/bemani/museca/1plushalf/troubleshooting.md"
     - SEGA:
       - "CHUNITHM":
         - "NEW":
-          - "Game Setup": "games/chunithmnew/setup.md"
-          - "Controllers": "games/chunithmnew/controllers.md"
-          - "Cab-to-Cab": "games/chunithmnew/c2c.md"
-          - "Troubleshooting": "games/chunithmnew/troubleshooting.md"
+          - "Game Setup": "games/sega/chunithm/new/setup.md"
+          - "Controllers": "games/sega/chunithm/new/controllers.md"
+          - "Cab-to-Cab": "games/sega/chunithm/new/c2c.md"
+          - "Troubleshooting": "games/sega/chunithm/new/troubleshooting.md"
         - "NEW PLUS":
-          - "Game Setup": "games/chunithmnewplus/setup.md"
-          - "Controllers": "games/chunithmnewplus/controllers.md"
-          - "Troubleshooting": "games/chunithmnewplus/troubleshooting.md"
-          - "Cab-to-Cab": "games/chunithmnewplus/c2c.md"
+          - "Game Setup": "games/sega/chunithm/newplus/setup.md"
+          - "Controllers": "games/sega/chunithm/newplus/controllers.md"
+          - "Troubleshooting": "games/sega/chunithm/newplus/troubleshooting.md"
+          - "Cab-to-Cab": "games/sega/chunithm/newplus/c2c.md"
         - "SUN":
-          - "Game Setup": "games/chunithmsun/setup.md"
-          - "Controllers": "games/chunithmsun/controllers.md"
-          - "Troubleshooting": "games/chunithmsun/troubleshooting.md"
-          - "Cab-to-Cab": "games/chunithmsun/c2c.md"
+          - "Game Setup": "games/sega/chunithm/sun/setup.md"
+          - "Controllers": "games/sega/chunithm/sun/controllers.md"
+          - "Troubleshooting": "games/sega/chunithm/sun/troubleshooting.md"
+          - "Cab-to-Cab": "games/sega/chunithm/sun/c2c.md"
         - "SUN PLUS":
-          - "Game Setup": "games/chunithmsunplus/setup.md"
-          - "Controllers": "games/chunithmsunplus/controllers.md"
-          - "Troubleshooting": "games/chunithmsunplus/troubleshooting.md"
-          - "Cab-to-Cab": "games/chunithmsunplus/c2c.md"
+          - "Game Setup": "games/sega/chunithm/sunplus/setup.md"
+          - "Controllers": "games/sega/chunithm/sunplus/controllers.md"
+          - "Troubleshooting": "games/sega/chunithm/sunplus/troubleshooting.md"
+          - "Cab-to-Cab": "games/sega/chunithm/sunplus/c2c.md"
         - "LUMINOUS":
-          - "Game Setup": "games/chunithmluminous/setup.md"
-          - "Controllers": "games/chunithmluminous/controllers.md"
-          - "Troubleshooting": "games/chunithmluminous/troubleshooting.md"
-          - "Cab-to-Cab": "games/chunithmluminous/c2c.md"
+          - "Game Setup": "games/sega/chunithm/luminous/setup.md"
+          - "Controllers": "games/sega/chunithm/luminous/controllers.md"
+          - "Troubleshooting": "games/sega/chunithm/luminous/troubleshooting.md"
+          - "Cab-to-Cab": "games/sega/chunithm/luminous/c2c.md"
         - "LUMINOUS PLUS":
-          - "Game Setup": "games/chunithmluminousplus/setup.md"
-          - "Controllers": "games/chunithmluminousplus/controllers.md"
-          - "Troubleshooting": "games/chunithmluminousplus/troubleshooting.md"
-          - "Cab-to-Cab": "games/chunithmluminousplus/c2c.md"
+          - "Game Setup": "games/sega/chunithm/luminousplus/setup.md"
+          - "Controllers": "games/sega/chunithm/luminousplus/controllers.md"
+          - "Troubleshooting": "games/sega/chunithm/luminousplus/troubleshooting.md"
+          - "Cab-to-Cab": "games/sega/chunithm/luminousplus/c2c.md"
         - "VERSE":
-          - "Game Setup": "games/chunithmverse/setup.md"
-          - "Controllers": "games/chunithmverse/controllers.md"
-          - "Troubleshooting": "games/chunithmverse/troubleshooting.md"
-          - "Cab-to-Cab": "games/chunithmverse/c2c.md"
+          - "Game Setup": "games/sega/chunithm/verse/setup.md"
+          - "Controllers": "games/sega/chunithm/verse/controllers.md"
+          - "Troubleshooting": "games/sega/chunithm/verse/troubleshooting.md"
+          - "Cab-to-Cab": "games/sega/chunithm/verse/c2c.md"
       - "maimai DX":
         - "BUDDiES":
-          - "Game Setup": "games/maimaidx/buddies/setup.md"
-          - "Controllers": "games/maimaidx/buddies/controllers.md"
-          - "Troubleshooting": "games/maimaidx/buddies/troubleshooting.md"
+          - "Game Setup": "games/sega/maimaidx/buddies/setup.md"
+          - "Controllers": "games/sega/maimaidx/buddies/controllers.md"
+          - "Troubleshooting": "games/sega/maimaidx/buddies/troubleshooting.md"
         - "PRiSM":
-          - "Game Setup": "games/maimaidx/prism/setup.md"
-          - "Controllers": "games/maimaidx/prism/controllers.md"
-          - "Troubleshooting": "games/maimaidx/prism/troubleshooting.md"
+          - "Game Setup": "games/sega/maimaidx/prism/setup.md"
+          - "Controllers": "games/sega/maimaidx/prism/controllers.md"
+          - "Troubleshooting": "games/sega/maimaidx/prism/troubleshooting.md"
         - "PRiSM PLUS":
-          - "Game Setup": "games/maimaidx/prismplus/setup.md"
-          - "Controllers": "games/maimaidx/prismplus/controllers.md"
-          - "Troubleshooting": "games/maimaidx/prismplus/troubleshooting.md"
+          - "Game Setup": "games/sega/maimaidx/prismplus/setup.md"
+          - "Controllers": "games/sega/maimaidx/prismplus/controllers.md"
+          - "Troubleshooting": "games/sega/maimaidx/prismplus/troubleshooting.md"
       - "O.N.G.E.K.I.":
         - "bright MEMORY":
-          - "Game Setup": "games/ongekibrightmemory/setup.md"
-          - "Controllers": "games/ongekibrightmemory/controllers.md"
-          - "Troubleshooting": "games/ongekibrightmemory/troubleshooting.md"
+          - "Game Setup": "games/sega/ongeki/brightmemory/setup.md"
+          - "Controllers": "games/sega/ongeki/brightmemory/controllers.md"
+          - "Troubleshooting": "games/sega/ongeki/brightmemory/troubleshooting.md"
         - "Re:Fresh":
-          - "Game Setup": "games/ongekirefresh/setup.md"
-          - "Controllers": "games/ongekirefresh/controllers.md"
-          - "Troubleshooting": "games/ongekirefresh/troubleshooting.md"
+          - "Game Setup": "games/sega/ongeki/refresh/setup.md"
+          - "Controllers": "games/sega/ongeki/refresh/controllers.md"
+          - "Troubleshooting": "games/sega/ongeki/refresh/troubleshooting.md"
       - "WACCA":
-        - "WACCA Lily R":
-          - "Game Setup": "games/waccalilyr/setup.md"
-          - "Controllers": "games/waccalilyr/controllers.md"
-        - "WACCA Reverse":
-          - "Game Setup": "games/waccareverse/setup.md"
-          - "Controllers": "games/waccareverse/controllers.md"
+        - "Lily R":
+          - "Game Setup": "games/sega/wacca/lilyr/setup.md"
+          - "Controllers": "games/sega/wacca/lilyr/controllers.md"
+        - "Reverse":
+          - "Game Setup": "games/sega/wacca/reverse/setup.md"
+          - "Controllers": "games/sega/wacca/reverse/controllers.md"
     - NAMCO:
       - "Taiko no Tatsujin: Nijiiro":
-        - "Game Setup": "games/taikonijiiro/setup.md"
-        - "Troubleshooting": "games/taikonijiiro/troubleshooting.md"
+        - "Game Setup": "games/namco/taikonijiiro/setup.md"
+        - "Troubleshooting": "games/namco/taikonijiiro/troubleshooting.md"
   - Error Codes:
     - BEMANI: "errorcodes/bemani.md"
     - SEGA: "errorcodes/sega.md"
@@ -208,16 +210,22 @@ nav:
   - Other Resources: resources.md
 
 not_in_nav: |
-  games/chusan
-  games/mu3
-  games/mercury
-  games/mai2
-  games/ddr
+  games/bemani/iidx/common
+  games/bemani/sdvx/common
+  games/bemani/ddr/common
+  games/sega/chunithm/common
+  games/sega/maimaidx/common
+  games/sega/ongeki/common
+  games/sega/wacca/common
+
+validation:
+  links:
+    absolute_links: relative_to_docs
 
 theme:
   name: material
   custom_dir: overrides
-  logo: img/logo/website-logo.svg
+  logo: img/two-torial/website-logo.svg
   favicon: img/favicon.ico
   icon:
     repo: fontawesome/brands/github
@@ -274,6 +282,9 @@ markdown_extensions:
 plugins:
   - search
   - git-revision-date-localized
+
+extra_css:
+  - style.css
 
 extra:
   analytics:
