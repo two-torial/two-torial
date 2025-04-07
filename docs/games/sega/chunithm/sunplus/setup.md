@@ -1,4 +1,4 @@
 # Game Setup (SUN PLUS)
-<img src="/img/chunithm/sdhd/sunplus.png">
+<img class="header-logo" src="/img/sega/chunithm/sunplus/logo.png">
 
 --8<-- "docs/games/sega/chunithm/common/chusan/setup.md"

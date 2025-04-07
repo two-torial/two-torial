@@ -1,4 +1,4 @@
 # Game Setup (VERSE)
-<img src="/img/chunithm/sdhd/verse.png">
+<img class="header-logo" src="/img/sega/chunithm/verse/logo.png">
 
 --8<-- "docs/games/sega/chunithm/common/chusan/setup.md"

@@ -107,7 +107,7 @@
     Open **Settings** -> **Network and Internet** and select **Properties**. Scroll down to
     the bottom and check the address under the **IPv4 address** field:
 
-    <img src="/img/chunithm/sdhd/controllers/0_ipaddress.png">
+    <img src="/img/sega/chunithm/common/controllers/0_ipaddress.png">
 
     That is your computer's IP address.
 
