@@ -181,11 +181,11 @@ nav:
           - "Troubleshooting": "games/ongekirefresh/troubleshooting.md"
       - "WACCA":
         - "Lily R":
-          - "Game Setup": "games/waccalilyr/setup.md"
-          - "Controllers": "games/waccalilyr/controllers.md"
+          - "Game Setup": "games/sega/wacca/lilyr/setup.md"
+          - "Controllers": "games/sega/wacca/lilyr/controllers.md"
         - "Reverse":
-          - "Game Setup": "games/waccareverse/setup.md"
-          - "Controllers": "games/waccareverse/controllers.md"
+          - "Game Setup": "games/sega/wacca/reverse/setup.md"
+          - "Controllers": "games/sega/wacca/reverse/controllers.md"
     - NAMCO:
       - "Taiko no Tatsujin: Nijiiro":
         - "Game Setup": "games/taikonijiiro/setup.md"
@@ -215,7 +215,7 @@ not_in_nav: |
   games/bemani/ddr/common
   games/sega/chunithm/common
   games/mu3
-  games/mercury
+  games/sega/wacca/common
   games/mai2
   games/ddr
 

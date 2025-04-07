@@ -19,11 +19,11 @@
 
 	You should end up with a file structure as follows.
 
-    <img width="500" src="/img/wacca/setup/0_waccadata.png">
+    <img width="500" src="/img/sega/wacca/common/setup/0_waccadata.png">
     
     The `App` folder should have a file structure as follows.
 
-    <img width="500" src="/img/wacca/setup/1_waccaapp.png">
+    <img width="500" src="/img/sega/wacca/common/setup/1_waccaapp.png">
 
 ??? warning "If your data doesn't look like this"
 
@@ -87,7 +87,7 @@
 
     You should now have a few more files inside the folder, as highlighted:
 
-    <img width="500" src="/img/wacca/setup/2_wacca_segatools_installed.png">
+    <img width="500" src="/img/sega/wacca/common/setup/2_wacca_segatools_installed.png">
 
 ---
 
@@ -173,7 +173,7 @@
     your 20-digit access code if you already have one, or make one up if you don't. If you're making one
     up, the access code **MUST NOT** start with a 3.
 
-    <img src="/img/wacca/setup/3_access_code.png">
+    <img src="/img/sega/wacca/common/setup/3_access_code.png">
 
 ??? warning "Local (ARTEMiS/AquaDX)"
 
@@ -219,20 +219,20 @@
 
     Navigate to **SYSTEM SETTING**.
 
-<img src="/img/wacca/setup/servicemenu/4_systemsetting.png">
+<img src="/img/sega/wacca/common/setup/servicemenu/4_systemsetting.png">
 
 !!! tip ""
 
     Navigate to **CLOSING TIME SETTINGS**.
 
-<img src="/img/wacca/setup/servicemenu/5_closingtime.png">
+<img src="/img/sega/wacca/common/setup/servicemenu/5_closingtime.png">
 
 !!! tip ""
 
     Navigate to **ALL DAYS OF THE WEEK** and use the `Service` button
     to toggle the setting until it says **OFF**.
 
-<img src="/img/wacca/setup/servicemenu/6_closingtimesetting.png">
+<img src="/img/sega/wacca/common/setup/servicemenu/6_closingtimesetting.png">
 
 !!! tip ""
 
