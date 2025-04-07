@@ -25,7 +25,7 @@
 
 	- Create a `data_mods` folder next to the others in your game files.
 
-	<img src="/img/datamods/1.png">
+	<img src="/img/extras/datamods/1.png">
 
 	Depending on how your mod is packaged, you may or may not need to create another folder to contain it.  
 	Inside that folder, the structure should follow the one in `data/`.
@@ -56,10 +56,10 @@
 !!! info "Example: Omnimix for beatmania IIDX 31 EPOLIS"
 
 	**Directory**: `contents/data_mods/`
-	<img src="/img/datamods/2.png">
+	<img src="/img/extras/datamods/2.png">
 	
 	**Directory**: `contents/data_mods/omnimix_31`
-	<img src="/img/datamods/3.png">
+	<img src="/img/extras/datamods/3.png">
 
 ---
 ### Loading data_mods
@@ -72,22 +72,22 @@
 
 	- Download the most recent release of [ifs_layeredfs](https://github.com/mon/ifs_layeredfs/releases/).
 
-	<img src="/img/datamods/4.png">
+	<img src="/img/extras/datamods/4.png">
 
 	- Open the archive.
 
-	<img src="/img/datamods/5.png">
+	<img src="/img/extras/datamods/5.png">
 
 	What we're interested in are the `64bit` and `32bit` folders:
 	
 	- Your game is 32bit *(spice.exe to launch)*: go in the `32bit` folder.
 	- Your game is 64bit *(spice64.exe to launch)*: go in the `64bit` folder.
 
-	<img src="/img/datamods/6.png">
+	<img src="/img/extras/datamods/6.png">
 
 	- Copy the `ifs_hook.dll` file to your game's `modules` folder.
 
-	<img src="/img/datamods/7.png">
+	<img src="/img/extras/datamods/7.png">
 
 #### Loading ifs_layeredfs
 
@@ -102,7 +102,7 @@
 	Note: If you have other DLL hooks, simply add more by having a space in between them..  
 	Example: `ifs_hook.dll somehook.dll`
 
-	<img src="/img/datamods/8.png">
+	<img src="/img/extras/datamods/8.png">
 
 	Assuming your `data_mods` folder has been made properly, that's it!
 

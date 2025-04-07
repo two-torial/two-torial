@@ -31,7 +31,7 @@
 
 	In this case we will be using a clean SDVX installation as a reference, with the following folder structure.
 
-<img src="/img/patchsp2x/1.png">
+<img src="/img/extras/patchsp2x/1.png">
 
 #### Importing Patches from URL
 
@@ -39,7 +39,7 @@
 
 	Open `spicecfg.exe` and head to the `Patches` tab.
 
-<img src="/img/patchsp2x/2.png">
+<img src="/img/extras/patchsp2x/2.png">
 
 !!! tip ""
 
@@ -54,7 +54,7 @@
 	
 	^^**If patching fails, it most likely is because the URL you provided doesn't support your game's version.**^^
 
-<img src="/img/patchsp2x/3.png">
+<img src="/img/extras/patchsp2x/3.png">
 
 #### Picking Patches
 
@@ -68,7 +68,7 @@
 	
 	A new `Patches` folder has also been created, containing a `.json` file with your available patches for offline use.
 
-<img src="/img/patchsp2x/4.png">
+<img src="/img/extras/patchsp2x/4.png">
 
 !!! tip ""
 

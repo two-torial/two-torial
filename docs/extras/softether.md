@@ -19,31 +19,31 @@
 
 	First, go to the [SoftEther VPN Download Center](https://www.softether-download.com/en.aspx?product=softether). In the ```Select Component``` section, choose ```SoftEther VPN Server```. Choose the Operating System and CPU based on your own machine, and grab the latest ```rtm``` build. This guide will be using Windows as an example, the layout for other OS might vary.
 
-<img src="/img/softether/softetherserverdownload.png">
+<img src="/img/extras/softether/softetherserverdownload.png">
 
 !!! tip ""
 
 	Run the installer and choose to install ```SoftEther VPN Server```. Press Next to finish the installation, and start the Server Manager.
 
-<img src="/img/softether/serverinstall.png">
+<img src="/img/extras/softether/serverinstall.png">
 
 !!! tip ""
 
 	When running the Server Manager for the first time, you should be greeted with the window below. Click on the ```Connect``` button.
 
-<img src="/img/softether/serverfirstboot.png">
+<img src="/img/extras/softether/serverfirstboot.png">
 
 !!! tip ""
 
 	If prompted to setup a root password, set a password that you will remember. If prompted with the Easy Setup wizard, click ```Close``` on the bottom right of the window.
 
-<img src="/img/softether/easysetup.png">
+<img src="/img/extras/softether/easysetup.png">
 
 !!! tip ""
 
 	Click on ```Create a Virtual Hub``` on the window below.
 
-<img src="/img/softether/createhub.png">
+<img src="/img/extras/softether/createhub.png">
 
 !!! tip ""
 
@@ -51,13 +51,13 @@
 
 !!! Info "If you wish to limit the maximum amount of sessions that can be connected to your hub at a time, you can enable ```Limit Max VPN Sessions```. Most arcade games support up to 4-way link, so we will set the limit to 4 in this example."
 
-<img src="/img/softether/hubcreation.png">
+<img src="/img/extras/softether/hubcreation.png">
 
 !!! tip ""
 
 	Your hub is now created! You should see the hub show up on your Virtual Hub list. Click on the hub to highlight it, and click ```Manage Virtual Hub```.
 
-<img src="/img/softether/managehub.png">
+<img src="/img/extras/softether/managehub.png">
 
 ---
 #### Adding Users to your Virtual Hub
@@ -66,20 +66,20 @@
 
 	You will need to add User Accounts into the Virtual Hub before anyone can connect. Click on ```Manage Users```, then click ```New``` at the bottom left of the window.
 
-<img src="/img/softether/manageuser.png">
+<img src="/img/extras/softether/manageuser.png">
 
 !!! tip ""
 
 	Set a Username and Password for the user account, then check the ```Set Security Policy``` box on the top right, and click ```Security Policy```. 
 
-<img src="/img/softether/createnewuser.png">
+<img src="/img/extras/softether/createnewuser.png">
 
 !!! tip ""
 
 	Scroll down and find ```Unlimited Number of Broadcasts``` and ```Filter all IPv6 Packets```, then enable the 2 options. Leave everything else as defaults and click ```OK```.
 
-<img src="/img/softether/unlimitedbroadcast.png">
-<img src="/img/softether/filteripv6.png">
+<img src="/img/extras/softether/unlimitedbroadcast.png">
+<img src="/img/extras/softether/filteripv6.png">
 
 !!! tip ""
 
@@ -87,8 +87,8 @@
 
 !!! Info "You can either create one user account and give everyone the same credentials to connect to your hub under the same user, or you can also create individual user accounts for all the players that wish to connect to your hub. I recommend creating an user account for each player so you can have an easier time to manage the hub if needed."
 
-<img src="/img/softether/usercreated.png">
-<img src="/img/softether/usercreated2.png">
+<img src="/img/extras/softether/usercreated.png">
+<img src="/img/extras/softether/usercreated2.png">
 
 ---
 #### Configuring SecureNAT
@@ -98,8 +98,8 @@
 	We will use the SecureNAT option to assign a custom subnet to each connected machines. Some games like Chunithm requires you to be on a specific subnet or cab-to-cab link will not work.
 	Click on ```Virtual NAT and Virtual DHCP Server (SecureNAT)```, then enable SecureNAT, and click on ```SecureNAT Configuration```.
 
-<img src="/img/softether/securenat.png">
-<img src="/img/softether/enablesecurenat.png">
+<img src="/img/extras/softether/securenat.png">
+<img src="/img/extras/softether/enablesecurenat.png">
 
 !!! tip ""
 
@@ -108,7 +108,7 @@
 	- **IMPORTANT: LEAVE THE ```Options Applied to Clients``` SECTION BLANK!!!**
 	Once everything is set, click on ```OK``` and ```Exit```.
 
-<img src="/img/softether/configsecurenat.png">
+<img src="/img/extras/softether/configsecurenat.png">
 
 ---
 #### Setting a Dynamic DNS for your SoftEther Server
@@ -117,24 +117,24 @@
 
 	Click ```Dynamic DNS Setting``` on the bottom left.
 
-<img src="/img/softether/ddns.png">
+<img src="/img/extras/softether/ddns.png">
 
 !!! tip ""
 	
 	- Under ```Change the Dynamic DNS Hostname``` section, set your preferred hostname. In this example, we will use ```twotorial```.
 	- Click ```Set to Above Hostname``` when done, and click ```Exit```.
 
-<img src="/img/softether/configddns.png">
+<img src="/img/extras/softether/configddns.png">
 
 !!! info "If a prompt shows up and ask if you want to regenerate a new Server Certificate, click on No."
 
-<img src="/img/softether/ddnscert.png">
+<img src="/img/extras/softether/ddnscert.png">
 
 !!! tip ""
 	
 	If done correctly, the bottom left of your Virtual Hub management window should show your updated Hostname.
 
-<img src="/img/softether/hostname.png">
+<img src="/img/extras/softether/hostname.png">
 
 !!! tip ""
 	
@@ -149,31 +149,31 @@
 
 	Go to the [SoftEther VPN Download Center](https://www.softether-download.com/en.aspx?product=softether). In the ```Select Component``` section, choose ```SoftEther VPN Client```. Choose the Operating System and CPU based on your own machine, and grab the latest ```rtm``` build. This guide will be using Windows as an example, the layout for other OS might vary.
 
-<img src="/img/softether/softetherclient.png">
+<img src="/img/extras/softether/softetherclient.png">
 
 !!! tip ""
 
 	Run the installer and choose to install ```SoftEther VPN Client```. Press Next to finish the installation, and start the VPN Client.
 
-<img src="/img/softether/clientinstall.png">
+<img src="/img/extras/softether/clientinstall.png">
 
 !!! tip ""
 	
 	In the VPN Client window, click on ```Add VPN Connection```.
 
-<img src="/img/softether/addvpn.png">
+<img src="/img/extras/softether/addvpn.png">
 
 !!! info "If a prompt shows up saying that you need to create a Virtual Network Adapter first, click Yes."
 
-<img src="/img/softether/createadapter.png">
+<img src="/img/extras/softether/createadapter.png">
 
 !!! tip ""
 
 	Leave the adapter name as default, and press ```OK```. Wait for the creation process to finish.
 
-<img src="/img/softether/createadapter2.png">
+<img src="/img/extras/softether/createadapter2.png">
 
-<img src="/img/softether/createadapter3.png">
+<img src="/img/extras/softether/createadapter3.png">
 
 ---
 #### Connecting to a Virtual Hub
@@ -182,7 +182,7 @@
 
 	After you have created a Virtual Network Adapter, you should be able to add a VPN Hub. Click on ```Add VPN Connection``` again.
 
-<img src="/img/softether/addvpn.png">
+<img src="/img/extras/softether/addvpn.png">
 
 !!! tip ""
 
@@ -192,21 +192,21 @@
 
 !!! info "If the Virtual Hub Name shows a blank list even after clicking the dropdown box multiple times, it usually means your client is unable to establish a connection. Double check if the hostname, and your hub config is correct."
 
-<img src="/img/softether/hubname.png">
+<img src="/img/extras/softether/hubname.png">
 
 !!! tip ""
 
 	- Under ```User Authentication Setting```, input your username and password.
 	- If you are connecting to another person's hub, ask the person for your login credentials.
 
-<img src="/img/softether/hublogin.png">
+<img src="/img/extras/softether/hublogin.png">
 
 !!! tip ""
 
 	- Under ```Advanced Setting of Communication```, **UNCHECK THE ```RECONNECTS AUTOMATICALLY AFTER DISCONNECTED``` BOX.** If this option is enabled, your VPN Client will always try to reconnect to the hub when it is running, taking up a spot in the hub. Please do not do this, it's just annoying when you're AFK in someone's hub and hogging up a spot.
 	- Click ```Advanced Settings...```.
 
-<img src="/img/softether/autoreconnect.png">
+<img src="/img/extras/softether/autoreconnect.png">
 
 !!! tip ""
 	
@@ -215,13 +215,13 @@
 	- If you find yourself desyncing a lot when in game, you can also enable ```Use Data Compression``` to improve the connection stability.
 	- Click on ```OK``` once everything is set.
 
-<img src="/img/softether/advancedclientconfig.png">
+<img src="/img/extras/softether/advancedclientconfig.png">
 
 !!! tip ""
 	
 	Double click on the VPN hub to connect. If it shows you your assigned IP address, congratulations! You are now connected to the Virtual Hub and is ready for some cab-to-cab action!
 
-<img src="/img/softether/connected.png">
+<img src="/img/extras/softether/connected.png">
 
 ---
 ### Tips
@@ -231,16 +231,16 @@
 	- If you need to fetch your assigned IP address because the notification window disappeared too fast or if you forgot your IP, you can do so with the ```ipconfig``` command in CMD.
 	- The Virtual Adapter name will usually be ```Unknown adapter VPN - VPN Client```. 
 
-	<img src="/img/softether/ipconfig.png">
+	<img src="/img/extras/softether/ipconfig.png">
 
 !!! tip ""
 	
 	- If you already have your hub setup and want to share the config with other users, you can ```Export``` your VPN profile and send it to them. Right click on the VPN Hub you wish to share and click ```Export VPN Connection Setting...```.
 
-	<img src="/img/softether/export.png">
+	<img src="/img/extras/softether/export.png">
 
 !!! tip ""	
 
 	- If you wish to include your username and password in the exported config, click on No. If the hub you are connecting to have different accounts setup for individual users, click on Yes to remove all sensitive information from the config.
 
-	<img src="/img/softether/exportpassword.png">
+	<img src="/img/extras/softether/exportpassword.png">

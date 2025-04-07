@@ -44,7 +44,7 @@ Some sound cards have a thing called Stereo Mix, which presents itself as a reco
 	1. Go to Windows Sound device settings. In the Playback tab, make sure the default audio device is set to the sound card output (speakers or headphones).
 	1. Go to Recording devices tab.
 	1. Look for Stereo Mix. If you don't see it, right click and check "Show Disabled Devices" and try again.
-		- <img src="/img/voicemeeter/stereomix.png">
+		- <img src="/img/extras/voicemeeter/stereomix.png">
 
 !!! tip "Capturing audio in OBS with Stereo Mix"
 	1. Add a new Audio Input Capture source.
@@ -101,7 +101,7 @@ FlexASIO is a virtual ASIO service that can redirect output to various backends,
 	1. Under the options tab, make sure that ```IIDX Sound Output Device``` is set to default.
 	2. Directly below it is an option called ```IIDX ASIO Driver```. Type ```FlexASIO``` into it.
 
-	<img src="/img/flexasio/1.png">
+	<img src="/img/extras/flexasio/1.png">
 
 !!! tip "Taiko no Tatsujin Nijiiro"
 	1. Disable `wasapi_shared` in `config.toml`.
@@ -125,7 +125,7 @@ Voicemeeter is free virtual audio mixer for Windows. It allows you to "mux" audi
 	1. Install and **REBOOT YOUR COMPUTER** when prompted.
 	1. Launch Voicemeeter Banana or Potato, whichever one you prefer.
 	1. On the right hand side, you will see flashing red text that says "Select Main Output Device (A1). Look immediately to the left, click on A1 with a down arrow, and choose your output device. Typically you want the one that starts with "WDM:", but if your audio device supports it, "ASIO:" option will provide lower latency.
-		- <img src="/img/voicemeeter/a1.png">
+		- <img src="/img/extras/voicemeeter/a1.png">
 	1. In Windows sound settings, set your default audio playback device to Voicemeeter Input (and not Voicemeeter AUX Input!)
 
 !!! tip "Discord or other voice applications"
@@ -145,7 +145,7 @@ At this point, you may want to look up various tutorials on YouTube to learn the
 !!! tip "Muxing with Voicemeeter"
 	1. Launch the game.
 	2. In Voicemeeter, you'll notice that the VU meter under Voicemeeter VAIO is showing that it is receiving game audio. You'll want to ensure "A1" box is green so that you route the game audio to your main output device, so you can hear the game in your ears.
-		- <img src="/img/voicemeeter/vumeter.png">
+		- <img src="/img/extras/voicemeeter/vumeter.png">
 	3. (Similarly, audio from the voice chat would come through Voicemeeter AUX column.)
 	4. At this point, you are able to hear both the game & listen to voice chat - success!
 
@@ -178,7 +178,7 @@ We are going to make OBS capture audio and redirect the result to a virtual moni
 !!! tip "Option 2 - Using Voicemeeter Potato"
 	1. We are going to make use of an unused virtual input device which is only available in Potato. In Banana this feature is not present.
 	1. Go to OBS Settings, Audio, Advanced, Monitoring Device - set to VoiceMeeter VAIO3 Input.
-		- <img src="/img/voicemeeter/obsvaio3.png">
+		- <img src="/img/extras/voicemeeter/obsvaio3.png">
 	1. Go to Edit, Advanced Audio Properties. For any audio channels you want to stream, turn on monitor to "Monitor and Output".
 	1. In VoiceMeeter Potato, prevent VAIO3 output so that you don't hear the OBS monitor audio in your ears. You can do this by disabling A1, B1, and so on in the VAIO3 column.
 
@@ -187,10 +187,10 @@ We are going to make OBS capture audio and redirect the result to a virtual moni
 !!! tip ""
 	1. Add the game window capture as a scene, as you normally would in OBS.
 	1. Right click on OBS stage and click on Windows Projector (Preview).
-		- <img src="/img/voicemeeter/projector.png">
+		- <img src="/img/extras/voicemeeter/projector.png">
 	1. Resize the new window as needed.
 	1. Use Discord to screen share this Windowed Projector.
-		- <img src="/img/voicemeeter/golive.png">
+		- <img src="/img/extras/voicemeeter/golive.png">
 	1. You're done! The screen share should include both the OBS scene and the audio.
 
 ## Troubleshooting
