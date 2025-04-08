@@ -16,8 +16,6 @@ This repository houses a guide dedicated to assisting individuals in configuring
 
 ## Contributing
 
-**More detailed instructions and guidelines are coming within a few days, stay tuned!**
-
 We welcome contributions to TWO-TORIAL. To contribute, follow these steps:
 
 1. Fork the Project
