@@ -6544,6 +6544,15 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#mu3ini" class="md-nav__link">
+    <span class="md-ellipsis">
+      mu3.ini
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -6793,7 +6802,7 @@ the <code>View</code> tab in File Explorer and select <code>File name extensions
 <div class="admonition tip">
 <p>O.N.G.E.K.I. executables are protected and will not run on a regular computer.</p>
 <p>Obtain unprotected (also called "unpacked" or "decrypted" by the community)
-copies of the following files:</p>
+copies of the following files and the associated configuration file:</p>
 <ul>
 <li><code>amdaemon.exe</code></li>
 <li><code>mu3.exe</code></li>
@@ -6801,12 +6810,33 @@ copies of the following files:</p>
 <li><code>mu3_Data\Managed\AMDaemon.NET.dll</code></li>
 <li><code>mu3_Data\Managed\Assembly-CSharp-firstpass.dll</code></li>
 <li><code>mu3_Data\Managed\Assembly-CSharp.dll</code></li>
+<li><code>mu3.ini</code></li>
 </ul>
 <p>Copy the files and folders into the <code>App/Package</code> folder of your game data. Agree to overwrite
 when asked.</p>
 <div class="admonition warning">
 <p class="admonition-title">Assembly-CSharp Note</p>
 <p><code>Assembly-CSharp.dll</code> <strong>must</strong> match your game version.</p>
+</div>
+</div>
+<h4 id="mu3ini">mu3.ini</h4>
+<div class="admonition tip">
+<p>Ensure that the <code>App\package</code> folder contains <code>mu3.ini</code>.</p>
+<p>If this configuration file is missing, create one using the contents below.</p>
+<div class="language-ini highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="k">[AM]</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="na">IgnoreError</span><span class="o">=</span><span class="s">1</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="na">OptionDev</span><span class="o">=</span><span class="s">0</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="na">DummyAime</span><span class="o">=</span><span class="s">0</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="na">DummyCredit</span><span class="o">=</span><span class="s">1</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="na">DummyJVS</span><span class="o">=</span><span class="s">0</span>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="k">[Sound]</span>
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="na">WasapiExclusive</span><span class="o">=</span><span class="s">0</span>
+</span></code></pre></div>
+<div class="admonition danger">
+<p class="admonition-title">Warning</p>
+<p>If you are following the folder structure of this guide, you must ensure that <code>OptionDev</code> is set to <code>0</code>
+in your <code>mu3.ini</code>, or else your Option data will not load.</p>
 </div>
 </div>
 <hr />
@@ -6834,36 +6864,36 @@ section is not mentioned, you can skip them.</p>
 <p class="admonition-title">Warning</p>
 <p>If a key already exists in the section, delete everything after <code>=</code> and replace it with your
 setting. Do not add another key.</p>
-<div class="language-ini highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="k">[system]</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="na">dipsw1</span><span class="o">=</span><span class="s">1</span>
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="na">dipsw1</span><span class="o">=</span><span class="s">1</span><span class="w"> </span><span class="c1">; WRONG!</span>
+<div class="language-ini highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="k">[system]</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="na">dipsw1</span><span class="o">=</span><span class="s">1</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="na">dipsw1</span><span class="o">=</span><span class="s">1</span><span class="w"> </span><span class="c1">; WRONG!</span>
 </span></code></pre></div>
 </div>
 <h4 id="vfs"><code>[vfs]</code></h4>
 <div class="admonition tip">
 <p>If you've been matching the file structure as described in the <a href="#preparing-data">Preparing data</a>
 section, you can fill in this section with the values below:</p>
-<div class="language-ini highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="k">[vfs]</span>
-</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="na">amfs</span><span class="o">=</span><span class="s">../../amfs</span>
-</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="na">option</span><span class="o">=</span><span class="s">../../Option</span>
-</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="na">appdata</span><span class="o">=</span><span class="s">../../AppData</span>
+<div class="language-ini highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="k">[vfs]</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="na">amfs</span><span class="o">=</span><span class="s">../../amfs</span>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="na">option</span><span class="o">=</span><span class="s">../../Option</span>
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="na">appdata</span><span class="o">=</span><span class="s">../../AppData</span>
 </span></code></pre></div>
 </div>
 <hr />
 <h3 id="setting-launch-options">Setting launch options</h3>
 <div class="admonition tip">
 <p>Right click <code>App\package\start.bat</code>, select <code>Edit</code>. Locate the line that launches <code>mu3</code> and edit it according to your preferences:</p>
-<div class="language-bat highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="p">@</span><span class="k">echo</span> off
-</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>
-</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="k">pushd</span> <span class="nv">%~dp0</span>
-</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>
-</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="k">start</span> <span class="s2">&quot;AM Daemon&quot;</span> /min inject -d -k mu3hook.dll amdaemon.exe -f -c config_common.json config_server.json config_client.json
-</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="hll">inject -d -k mu3hook.dll mu3 -screen-fullscreen 0 -popupwindow -screen-width 1080 -screen-height 1920
-</span></span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>taskkill /f /im amdaemon.exe <span class="p">&gt;</span> nul <span class="mi">2</span><span class="p">&gt;&amp;</span><span class="mi">1</span>
-</span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a>
-</span><span id="__span-2-9"><a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a><span class="k">echo</span>.
-</span><span id="__span-2-10"><a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a><span class="k">echo</span> Game processes have terminated
-</span><span id="__span-2-11"><a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a><span class="k">pause</span>
+<div class="language-bat highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="p">@</span><span class="k">echo</span> off
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="k">pushd</span> <span class="nv">%~dp0</span>
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="k">start</span> <span class="s2">&quot;AM Daemon&quot;</span> /min inject -d -k mu3hook.dll amdaemon.exe -f -c config_common.json config_server.json config_client.json
+</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="hll">inject -d -k mu3hook.dll mu3 -screen-fullscreen 0 -popupwindow -screen-width 1080 -screen-height 1920
+</span></span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a>taskkill /f /im amdaemon.exe <span class="p">&gt;</span> nul <span class="mi">2</span><span class="p">&gt;&amp;</span><span class="mi">1</span>
+</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a>
+</span><span id="__span-3-9"><a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a><span class="k">echo</span>.
+</span><span id="__span-3-10"><a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a><span class="k">echo</span> Game processes have terminated
+</span><span id="__span-3-11"><a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a><span class="k">pause</span>
 </span></code></pre></div>
 </div>
 <details class="tip">
@@ -6899,13 +6929,13 @@ The monitor index is that number. For example, monitor 2 means <code>-monitor 2<
 <summary>Remote (Online Network)</summary>
 <p>Head to the <code>[dns]</code> section inside <code>segatools.ini</code>. Set <code>default</code> to the address
 provided by your network. <strong>Do not add <code>http://</code> or <code>https://</code> to the address!</strong></p>
-<div class="language-ini highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="k">[dns]</span>
-</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="na">default</span><span class="o">=</span><span class="s">network.example</span>
+<div class="language-ini highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="k">[dns]</span>
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="na">default</span><span class="o">=</span><span class="s">network.example</span>
 </span></code></pre></div>
 <p>Then, head to the <code>[keychip]</code> section and add &amp; set <code>id</code> to the keychip ID provided by your network:</p>
-<div class="language-ini highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="k">[keychip]</span>
-</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="na">subnet</span><span class="o">=</span><span class="s">192.168.139.0</span>
-</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="na">id</span><span class="o">=</span><span class="s">A69E-XXXXXXXXXXX</span>
+<div class="language-ini highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="k">[keychip]</span>
+</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="na">subnet</span><span class="o">=</span><span class="s">192.168.139.0</span>
+</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="na">id</span><span class="o">=</span><span class="s">A69E-XXXXXXXXXXX</span>
 </span></code></pre></div>
 <p>Finally, you need a card number. Create a file named <code>aime.txt</code> inside <code>App\package\DEVICE</code> and type in
 your 20-digit access code if you already have one, or make one up if you don't. If you're making one
@@ -6936,19 +6966,19 @@ to set up a local server.</p>
 <li>Open <code>App\package\mu3.ini</code> (or create it if it doesn't exist).</li>
 <li>Set <code>WasapiExclusive</code> in the <code>Sound</code> section to <code>0</code> (create the key if it doesn't exist):</li>
 </ul>
-<div class="language-ini highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="k">[Sound]</span>
-</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="na">WasapiExclusive</span><span class="o">=</span><span class="s">0</span>
+<div class="language-ini highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="k">[Sound]</span>
+</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="na">WasapiExclusive</span><span class="o">=</span><span class="s">0</span>
 </span></code></pre></div>
 </div>
 <h4 id="fixing-openssl-on-intel-10th-gen-and-newer-cpus">Fixing OpenSSL on Intel 10th Gen and newer CPUs</h4>
 <div class="admonition tip">
 <p>If you have an Intel 10th Gen CPU or newer, right click <code>App\package\start.bat</code>, select <code>Edit</code>, and add the
 highlighted line to the top of the file.</p>
-<div class="language-batch highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="p">@</span><span class="k">echo</span> off
-</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="hll"><span class="k">set</span> <span class="nv">OPENSSL_ia32cap</span><span class="p">=</span>:~0x20000000
-</span></span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>
-</span><span id="__span-6-4"><a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a><span class="k">pushd</span> <span class="nv">%~dp0</span>
-</span><span id="__span-6-5"><a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a>...
+<div class="language-batch highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="p">@</span><span class="k">echo</span> off
+</span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="hll"><span class="k">set</span> <span class="nv">OPENSSL_ia32cap</span><span class="p">=</span>:~0x20000000
+</span></span><span id="__span-7-3"><a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a>
+</span><span id="__span-7-4"><a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a><span class="k">pushd</span> <span class="nv">%~dp0</span>
+</span><span id="__span-7-5"><a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a>...
 </span></code></pre></div>
 </div>
 <hr />
@@ -7032,7 +7062,7 @@ to toggle the setting until it says <strong>全時刻</strong> (<code>ALL TIME</
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="April 7, 2025 13:08:30">April 7, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="April 8, 2025 04:53:50">April 8, 2025</span>
   </span>
 
     

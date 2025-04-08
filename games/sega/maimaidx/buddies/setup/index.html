@@ -5117,6 +5117,15 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#mai2ini-maimaidxini" class="md-nav__link">
+    <span class="md-ellipsis">
+      mai2.ini / maimaiDX.ini
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -6783,6 +6792,15 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#mai2ini-maimaidxini" class="md-nav__link">
+    <span class="md-ellipsis">
+      mai2.ini / maimaiDX.ini
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -7051,10 +7069,15 @@ when asked.</p>
 <p class="admonition-title">Assembly-CSharp Notes</p>
 <p><code>Assembly-CSharp.dll</code> <strong>must</strong> match your game version. All others can be
 reused from other game versions.</p>
-<p><code>Assembly-CSharp.dll</code> <strong>must</strong> also contain <code>mai2.ini</code> or <code>maimaiDX.ini</code>. These configuration
-files are specific to the unprotected <code>Assembly-CSharp.dll</code>. If your package does not
-contain a configuration file, please create one with the following to bypass hardware
-checks on game startup:</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">If the assembly supports it, <code>App/Package/dpPatchLog.log</code> lists supported patches after the first run. Otherwise see <a href="#custom-mods">Custom Mods</a></p>
+</div>
+</div>
+<h4 id="mai2ini-maimaidxini">mai2.ini / maimaiDX.ini</h4>
+<div class="admonition tip">
+<p>Ensure that the <code>App/Package</code> folder contains <code>mai2.ini</code> (for JPN and EXPORT data) or <code>maimaiDX.ini</code> (for CN data).</p>
+<p>If this configuration file is missing, create one using the contents below. Then, rename it according to the region of your data.</p>
 <div class="language-ini highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="k">[AM]</span>
 </span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="na">Target</span><span class="o">=</span><span class="s">0</span>
 </span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="na">IgnoreError</span><span class="o">=</span><span class="s">1</span>
@@ -7069,10 +7092,6 @@ checks on game startup:</p>
 </span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="k">[Patches]</span>
 </span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="na">EnablePatchLog</span><span class="o">=</span><span class="s">1</span>
 </span></code></pre></div>
-<div class="admonition tip">
-<p class="admonition-title">If the assembly supports it, <code>App/Package/dpPatchLog.log</code> lists supported patches after the first run. Otherwise see <a href="#custom-mods">Custom Mods</a></p>
-</div>
-</div>
 </div>
 <hr />
 <h3 id="installing-segatools">Installing Segatools</h3>
