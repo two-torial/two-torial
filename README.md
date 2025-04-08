@@ -8,12 +8,9 @@ TWO-TORIAL, a compendium of information and guides about arcade games. It also s
 
 https://two-torial.xyz/
 
-
-
 ## About
 
 This repository houses a guide dedicated to assisting individuals in configuring and navigating the setup process for various arcade games within this specific gaming genre. It covers essential aspects of installation, configuration, and troubleshooting, aiming to streamline the experience for users.
-
 
 ## Contributing
 
@@ -38,7 +35,6 @@ The live preview will update in real time as changes are found in your files.
 ## License
 
 TWO-TORIAL is licensed under the Apache License 2.0. You can find the full text of the license in the [LICENSE](LICENSE) file.
-
 
 ## Additional Notes
 
