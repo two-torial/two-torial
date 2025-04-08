@@ -68,12 +68,15 @@ nav:
         - "Usaneko":
           - "Game Setup": "games/bemani/popn/usaneko/setup.md"
           - "Troubleshooting": "games/bemani/popn/usaneko/troubleshooting.md"
-        - "Peace":
+        - "peace":
           - "Game Setup": "games/bemani/popn/peace/setup.md"
           - "Troubleshooting": "games/bemani/popn/peace/troubleshooting.md"
-        - "HELLO!":
-          - "Game Setup": "games/bemani/popn/hello/setup.md"
-          - "Troubleshooting": "games/bemani/popn/hello/troubleshooting.md"
+        - "Kaimei Riddles":
+          - "Game Setup": "games/bemani/popn/kaimei_riddles/setup.md"
+          - "Troubleshooting": "games/bemani/popn/kaimei_riddles/troubleshooting.md"
+        - "UniLab":
+          - "Game Setup": "games/bemani/popn/unilab/setup.md"
+          - "Troubleshooting": "games/bemani/popn/unilab/troubleshooting.md"
       - "Dance Dance Revolution":
         - "A20":
           - "Game Setup": "games/bemani/ddr/a20/setup.md"
@@ -213,6 +216,7 @@ not_in_nav: |
   games/bemani/iidx/common
   games/bemani/sdvx/common
   games/bemani/ddr/common
+  games/bemani/popn/common
   games/sega/chunithm/common
   games/sega/maimaidx/common
   games/sega/ongeki/common
