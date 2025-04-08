@@ -186,6 +186,19 @@
 	This is covered in the [Asphyxia CORE](/extras/asphyxia.md) page.
 
 ---
+### First launch
+
+!!! danger "If you have any issues running the game, refer to the [Troubleshooting](troubleshooting.md) page."
+
+!!! tip ""
+
+	If you've followed all instructions correctly, you're now finally ready to launch the game!
+
+	**First plug your controller if you have one** and run `spice.exe`, press `Yes` when it asks for elevated privileges.
+
+	The game will go through a series of checks, let it run, if you've done everything properly they'll pass.
+
+---
 ### Troubleshooting
 
 !!! warning "Have any other issue?"
