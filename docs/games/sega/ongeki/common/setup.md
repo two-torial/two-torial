@@ -103,7 +103,7 @@
     O.N.G.E.K.I. executables are protected and will not run on a regular computer.
 
     Obtain unprotected (also called "unpacked" or "decrypted" by the community)
-    copies of the following files and associated configuration file:
+    copies of the following files and the associated configuration file:
 
     - `amdaemon.exe`
     - `mu3.exe`
