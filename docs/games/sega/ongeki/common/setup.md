@@ -103,7 +103,7 @@
     O.N.G.E.K.I. executables are protected and will not run on a regular computer.
 
     Obtain unprotected (also called "unpacked" or "decrypted" by the community)
-    copies of the following files:
+    copies of the following files and the associated configuration file:
 
     - `amdaemon.exe`
     - `mu3.exe`
@@ -111,6 +111,7 @@
     - `mu3_Data\Managed\AMDaemon.NET.dll`
     - `mu3_Data\Managed\Assembly-CSharp-firstpass.dll`
     - `mu3_Data\Managed\Assembly-CSharp.dll`
+    - `mu3.ini`
 
     Copy the files and folders into the `App/Package` folder of your game data. Agree to overwrite
     when asked.
@@ -118,6 +119,30 @@
     !!! Warning "Assembly-CSharp Note"
 
         `Assembly-CSharp.dll` **must** match your game version.
+
+#### mu3.ini
+
+!!! tip ""
+    Ensure that the `App\package` folder contains `mu3.ini`.
+
+    If this configuration file is missing, create one using the contents below.
+
+    ```ini
+    [AM]
+    IgnoreError=1
+    OptionDev=0
+    DummyAime=0
+    DummyCredit=1
+    DummyJVS=0
+
+    [Sound]
+    WasapiExclusive=0
+    ```
+
+    !!! danger "Warning"
+        If you are following the folder structure of this guide, you must ensure that `OptionDev` is set to `0`
+        in your `mu3.ini`, or else your Option data will not load.
+
 
 ---
 

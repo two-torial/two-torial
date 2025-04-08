@@ -87,27 +87,30 @@
         `Assembly-CSharp.dll` **must** match your game version. All others can be
         reused from other game versions.
 
-        `Assembly-CSharp.dll` **must** also contain `mai2.ini` or `maimaiDX.ini`. These configuration
-        files are specific to the unprotected `Assembly-CSharp.dll`. If your package does not
-        contain a configuration file, please create one with the following to bypass hardware
-        checks on game startup:
+    !!! tip "If the assembly supports it, `App/Package/dpPatchLog.log` lists supported patches after the first run. Otherwise see [Custom Mods](#custom-mods)"
 
-        ```ini
-        [AM]
-        Target=0
-        IgnoreError=1
-        DummyTouchPanel=1
-        DummyLED=1
-        DummyCodeCamera=1
-        DummyPhotoCamera=1
+#### mai2.ini / maimaiDX.ini
 
-        [Sound]
-        Sound8Ch=0
+!!! tip ""
+    Ensure that the `App/Package` folder contains `mai2.ini` (for JPN and EXPORT data) or `maimaiDX.ini` (for CN data).
 
-        [Patches]
-        EnablePatchLog=1
-        ```
-        !!! tip "If the assembly supports it, `App/Package/dpPatchLog.log` lists supported patches after the first run. Otherwise see [Custom Mods](#custom-mods)"
+    If this configuration file is missing, create one using the contents below. Then, rename it according to the region of your data.
+
+    ```ini
+    [AM]
+    Target=0
+    IgnoreError=1
+    DummyTouchPanel=1
+    DummyLED=1
+    DummyCodeCamera=1
+    DummyPhotoCamera=1
+
+    [Sound]
+    Sound8Ch=0
+
+    [Patches]
+    EnablePatchLog=1
+    ```
 
 ---
 

@@ -38,6 +38,7 @@
 ---
 
 ### My game is stuck on a black screen at launch!
+
 !!! tip ""
 
     This could also be due to **many** things, the most common of which are:
@@ -54,9 +55,11 @@
 ---
 
 ### My game is stuck on a blue and black screen!
-You need to run the data using unprotected/unpacked files. Please refer to the setup guide to find which ones you need and obtain them.
 
-If you belive you've already done this. You might be missing a try installing the latest [vcredist](https://github.com/abbodi1406/vcredist/releases)
+!!! tip ""
+    You need to run the data using unprotected/unpacked files. Please refer to the setup guide to find which ones you need and obtain them.
+
+    If you believe you've already done this. You might be missing a try installing the latest [vcredist](https://github.com/abbodi1406/vcredist/releases)
 
 ---
 
