@@ -11,6 +11,7 @@ https://two-torial.xyz/
 
 
 ## About
+
 This repository houses a guide dedicated to assisting individuals in configuring and navigating the setup process for various arcade games within this specific gaming genre. It covers essential aspects of installation, configuration, and troubleshooting, aiming to streamline the experience for users.
 
 
