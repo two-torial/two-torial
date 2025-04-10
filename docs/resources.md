@@ -54,6 +54,7 @@
 
 !!! tip ""
 
+	- [sdvx.org](https://www.sdvx.org/) - The go to guide for mechanics and skill related things
 	- [SDVX Index](https://sdvxindex.com/) - SDVX chart viewer and reference
 	- [sdvx.in](https://sdvx.in/) - worse alternative to SDVX Index (but can be used for Chunithm and Ongeki too)
 	- [SDVX Progress Chart](https://docs.google.com/spreadsheets/d/1cFltguBvPplBem-x1STHnG3k4TZzFfyNEZ-RwsQszoo/edit#gid=0) - Functions as a generalized tier list
