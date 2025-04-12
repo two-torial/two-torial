@@ -39,3 +39,14 @@
 
     - Extract [BepInEx.MonoMod.Loader](https://github.com/BepInEx/BepInEx.MonoMod.Loader/releases/latest) into `App\package`.
     - Place patches in `BepInEx\monomod`.
+
+### Available mods
+
+!!! tip ""
+    
+    - [mu3-mods](https://gitea.tendokyu.moe/akanyan/mu3-mods/wiki) open source BepInEx mods for O.N.G.E.K.I., includes many fixes and QOL changes that can be added selectively. 
+    - [AquaMai](https://github.com/MewoLab/AquaMai) open source MelonLoader mod for maimai, includes fixes, QOL, and cheats that can be configured from a toml or [gui](https://github.com/MewoLab/MaiChartManager).
+    - [worldlinkd](https://github.com/MewoLab/worldlinkd) open source MelonLoader mod for maimai, which adds cross-network online c2c similar to online matching in CHUNITHM.
+
+!!! warning "AquaMai & worldlinkd"
+    These mods may not work with the MelonLoader compatiblity layer for BepInEx, and as such it's recommended to follow their respective guides.

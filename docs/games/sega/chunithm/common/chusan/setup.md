@@ -67,24 +67,6 @@
     <img width="500" src="/img/sega/chunithm/common/setup/2_chunithmoption.png">
 
 !!! warning "If you plan to connect to a network (Hosted or Local), the `A001` option folder for your specific game version is required. This option contains a special Event file that lets the game connect."
-
-#### Installing ICFs
-
-!!! tip ""
-
-    Install Configuration Files (ICFs) tell the game what version it is.
-    **Without this your game cannot go online!**
-
-    If your `amfs` folder already has a file named `ICF1`, skip this step.
-
-    Otherwise, obtain copies of `ICF1` for your game version and place it in
-    the `amfs` folder. If it is named something else, rename it to exactly
-    `ICF1` **without any file extensions.**
-
-!!! info "Showing file extensions"
-
-    By default, file extensions on Windows are hidden. Enable them by navigating to
-    the `View` tab in File Explorer and select `File name extensions`.
     
 
 #### Installing unprotected executables
@@ -98,6 +80,24 @@
 
     Copy `chusanApp.exe` and `amdaemon.exe` to the `bin` folder of your game data. Agree
     to overwrite when asked.
+
+#### Installing ICFs
+
+!!! tip ""
+
+    Install Configuration Files (ICFs) tell the game what version it is.
+    **Without this your game cannot go online!**
+
+    **If your unprotected executables came with an `amfs` folder, and already has a file named `ICF1` in it, skip this step.**
+
+    Otherwise, obtain copies of `ICF1` for your game version and place it in
+    the `amfs` folder. If it is named something else, rename it to exactly
+    `ICF1` **without any file extensions.**
+
+!!! info "Showing file extensions"
+
+    By default, file extensions on Windows are hidden. Enable them by navigating to
+    the `View` tab in File Explorer and select `File name extensions`.
 
 ---
 
@@ -191,11 +191,7 @@
 
     - A cleaner and easier to read segatools.ini, making spotting issues simpler.
 
-#### `[system] (formerly [gpio])`
-
-!!! warning
-
-    As of 2024-08-20, the [gpio] section in segatools has been renamed to [system].
+#### `[system]`
 
 !!! tip ""
 
@@ -294,16 +290,7 @@
 
 !!! tip ""
 
-    If you have an Intel 10th Gen CPU or newer, right click `App\bin\start.bat`, select `Edit`, and add the
-    highlighted line to the top of the file.
-
-    ```batch hl_lines="2"
-    @echo off
-    set OPENSSL_ia32cap=:~0x20000000
-
-    pushd %~dp0
-    ...
-    ```
+    If you have an Intel 10th Gen CPU or newer, you need to [patch amdaemon](https://patcher.two-torial.xyz/amdaemon) and enable `OpenSSL SHA crash bug fix`.
 
 ---
 

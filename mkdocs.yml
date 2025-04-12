@@ -165,6 +165,10 @@ nav:
           - "Game Setup": "games/sega/maimaidx/buddies/setup.md"
           - "Controllers": "games/sega/maimaidx/buddies/controllers.md"
           - "Troubleshooting": "games/sega/maimaidx/buddies/troubleshooting.md"
+        - "BUDDiES PLUS":
+          - "Game Setup": "games/sega/maimaidx/buddiesplus/setup.md"
+          - "Controllers": "games/sega/maimaidx/buddiesplus/controllers.md"
+          - "Troubleshooting": "games/sega/maimaidx/buddiesplus/troubleshooting.md"
         - "PRiSM":
           - "Game Setup": "games/sega/maimaidx/prism/setup.md"
           - "Controllers": "games/sega/maimaidx/prism/controllers.md"

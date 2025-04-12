@@ -245,22 +245,42 @@
 
 !!! tip ""
 
+    - Install the [custom IO4 firmware](https://gitea.tendokyu.moe/tasoller/host-aprom/releases) to your controller.
+    - Follow the `segatools.ini` config on the [gitea page](https://gitea.tendokyu.moe/tasoller/host-aprom).
+    - Connect the controller to your computer, and then start the game.
+
+??? tip "Legacy"
+
+    - Backup TASOLLER setup if IO4 cfw is not working.
     - Install the [custom Host and LED firmware](https://pixeldrain.com/u/DajSPEoa) to your controller.
     Instructions on how to do so is provided in the linked archive.
-    - Pick one of these two TASOLLER IO DLLs to download and extract to your `App\bin` folder.
-    They should be functionally the same, but if one doesn't work, you can try the other:
-        - [chuniio-tasoller](https://gitea.tendokyu.moe/Scribbler/chuniio-tasoller/releases) (download `lib.zip`)
+    - Download TASOLLER IO DLLs and extract to your `App\bin` folder.
         - [chuniio-rs](https://gitea.tendokyu.moe/beerpsi/chuniio-rs/releases) (download `chusan.zip`)
     - Edit your `App\bin\segatools.ini` to reference the extracted DLLs:
 
     ```ini
     [chuniio]
-    path32=chuniio_tasoller.dll;(1)!
-    path64=chuniio_tasoller_x64.dll;(2)!
+    path32=chuniio_tasoller_v2_x86.dll
+    path64=chuniio_tasoller_v2_x64.dll
     ```
-    
-    1. Or `chuniio_tasoller_v2_chusan.dll` if you downloaded `chuniio-rs`.
-    2. Or `chuniio_tasoller_v2_amdaemon.dll` if you downloaded `chuniio-rs`.
+
+    - Connect the controller to your computer, and then start the game.
+
+### TASOLLER PLUS
+
+!!! tip ""
+
+    - Switch your TASOLLER PLUS to WINUSB mode. You can do so in TASOLLER Options
+    found on the djdao [support page](https://www.dj-dao.com/en/support/22.html).
+    - Download TASOLLER PLUS IO DLLs and extract to your `App\bin` folder.
+        - [chuniio-rs](https://gitea.tendokyu.moe/beerpsi/chuniio-rs/releases) (download `chusan.zip`)
+    - Edit your `App\bin\segatools.ini` to reference the extracted DLLs:
+
+    ```ini
+    [chuniio]
+    path32=chuniio_tasoller_plus_x86.dll
+    path64=chuniio_tasoller_plus_x64.dll
+    ```
 
     - Connect the controller to your computer, and then start the game.
 
@@ -334,6 +354,22 @@
     ```
 
     - Then start the game.
+
+??? tip "Legacy"
+
+    - Backup Laverita 3 setup if IO4 cfw is not working.
+    - Switch your Laverita to HID mode. You can do so in ConfigApp
+    - Download Laverita IO DLLs and extract to your `App\bin` folder.
+        - [chuniio-rs](https://gitea.tendokyu.moe/beerpsi/chuniio-rs/releases) (download `chusan.zip`)
+    - Edit your `App\bin\segatools.ini` to reference the extracted DLLs:
+
+    ```ini
+    [chuniio]
+    path32=chuniio_laverita_v3_x86.dll
+    path64=chuniio_laverita_v3_x64.dll
+    ```
+
+    - Connect the controller to your computer, and then start the game.
 
 ### Arcade hardware and other controllers
 
