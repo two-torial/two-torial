@@ -4934,6 +4934,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#tasoller-plus" class="md-nav__link">
+    <span class="md-ellipsis">
+      TASOLLER PLUS
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#yubideck" class="md-nav__link">
     <span class="md-ellipsis">
       YubiDeck
@@ -5345,7 +5354,7 @@
   
   
   <span class="md-ellipsis">
-    PRiSM
+    BUDDiES PLUS
     
   </span>
   
@@ -5355,6 +5364,121 @@
         
         <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_2_2_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_2_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            BUDDiES PLUS
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../maimaidx/buddiesplus/setup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Game Setup
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../maimaidx/buddiesplus/controllers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Controllers
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../maimaidx/buddiesplus/troubleshooting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Troubleshooting
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_2_3" id="__nav_2_2_2_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    PRiSM
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_2_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_2_3">
             <span class="md-nav__icon md-icon"></span>
             PRiSM
           </label>
@@ -5452,10 +5576,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_2_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_2_4" >
         
           
-          <label class="md-nav__link" for="__nav_2_2_2_3" id="__nav_2_2_2_3_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2_2_2_4" id="__nav_2_2_2_4_label" tabindex="0">
             
   
   
@@ -5468,8 +5592,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_2_2_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_2_2_2_3">
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_2_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_2_4">
             <span class="md-nav__icon md-icon"></span>
             PRiSM PLUS
           </label>
@@ -6776,6 +6900,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#tasoller-plus" class="md-nav__link">
+    <span class="md-ellipsis">
+      TASOLLER PLUS
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#yubideck" class="md-nav__link">
     <span class="md-ellipsis">
       YubiDeck
@@ -7040,29 +7173,49 @@ firmware by following the instructions on <a href="https://www.dj-dao.com/en/sup
 </div>
 <div class="admonition tip">
 <ul>
+<li>Install the <a href="https://gitea.tendokyu.moe/tasoller/host-aprom/releases">custom IO4 firmware</a> to your controller.</li>
+<li>Follow the <code>segatools.ini</code> config on the <a href="https://gitea.tendokyu.moe/tasoller/host-aprom">gitea page</a>.</li>
+<li>Connect the controller to your computer, and then start the game.</li>
+</ul>
+</div>
+<details class="tip">
+<summary>Legacy</summary>
+<ul>
+<li>Backup TASOLLER setup if IO4 cfw is not working.</li>
 <li>Install the <a href="https://pixeldrain.com/u/DajSPEoa">custom Host and LED firmware</a> to your controller.
 Instructions on how to do so is provided in the linked archive.</li>
-<li>Pick one of these two TASOLLER IO DLLs to download and extract to your <code>App\bin</code> folder.
-They should be functionally the same, but if one doesn't work, you can try the other:<ul>
-<li><a href="https://gitea.tendokyu.moe/Scribbler/chuniio-tasoller/releases">chuniio-tasoller</a> (download <code>lib.zip</code>)</li>
+<li>Download TASOLLER IO DLLs and extract to your <code>App\bin</code> folder.<ul>
 <li><a href="https://gitea.tendokyu.moe/beerpsi/chuniio-rs/releases">chuniio-rs</a> (download <code>chusan.zip</code>)</li>
 </ul>
 </li>
 <li>Edit your <code>App\bin\segatools.ini</code> to reference the extracted DLLs:</li>
 </ul>
 <div class="language-ini highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="k">[chuniio]</span>
-</span><span id="__span-10-2"><a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a><span class="na">path32</span><span class="o">=</span><span class="s">chuniio_tasoller.dll</span><span class="c1">;(1)!</span>
-</span><span id="__span-10-3"><a id="__codelineno-10-3" name="__codelineno-10-3" href="#__codelineno-10-3"></a><span class="na">path64</span><span class="o">=</span><span class="s">chuniio_tasoller_x64.dll</span><span class="c1">;(2)!</span>
+</span><span id="__span-10-2"><a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a><span class="na">path32</span><span class="o">=</span><span class="s">chuniio_tasoller_v2_x86.dll</span>
+</span><span id="__span-10-3"><a id="__codelineno-10-3" name="__codelineno-10-3" href="#__codelineno-10-3"></a><span class="na">path64</span><span class="o">=</span><span class="s">chuniio_tasoller_v2_x64.dll</span>
 </span></code></pre></div>
-<ol>
-<li>Or <code>chuniio_tasoller_v2_chusan.dll</code> if you downloaded <code>chuniio-rs</code>.</li>
-<li>
-<p>Or <code>chuniio_tasoller_v2_amdaemon.dll</code> if you downloaded <code>chuniio-rs</code>.</p>
+<ul>
+<li>Connect the controller to your computer, and then start the game.</li>
+</ul>
+</details>
+<h3 id="tasoller-plus">TASOLLER PLUS</h3>
+<div class="admonition tip">
+<ul>
+<li>Switch your TASOLLER PLUS to WINUSB mode. You can do so in TASOLLER Options
+found on the djdao <a href="https://www.dj-dao.com/en/support/22.html">support page</a>.</li>
+<li>Download TASOLLER PLUS IO DLLs and extract to your <code>App\bin</code> folder.<ul>
+<li><a href="https://gitea.tendokyu.moe/beerpsi/chuniio-rs/releases">chuniio-rs</a> (download <code>chusan.zip</code>)</li>
+</ul>
 </li>
-<li>
-<p>Connect the controller to your computer, and then start the game.</p>
-</li>
-</ol>
+<li>Edit your <code>App\bin\segatools.ini</code> to reference the extracted DLLs:</li>
+</ul>
+<div class="language-ini highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a><span class="k">[chuniio]</span>
+</span><span id="__span-11-2"><a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a><span class="na">path32</span><span class="o">=</span><span class="s">chuniio_tasoller_plus_x86.dll</span>
+</span><span id="__span-11-3"><a id="__codelineno-11-3" name="__codelineno-11-3" href="#__codelineno-11-3"></a><span class="na">path64</span><span class="o">=</span><span class="s">chuniio_tasoller_plus_x64.dll</span>
+</span></code></pre></div>
+<ul>
+<li>Connect the controller to your computer, and then start the game.</li>
+</ul>
 </div>
 <h3 id="yubideck">YubiDeck</h3>
 <div class="admonition tip">
@@ -7073,16 +7226,16 @@ in the <a href="https://drive.google.com/file/d/11KVlKbg3zGCRwI7R-30t2IJc6OQwDEg
 and extract it to your <code>App\bin</code> folder.</li>
 <li>Edit your <code>App\bin\segatools.ini</code> to reference the extracted DLLs:</li>
 </ul>
-<div class="language-ini highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a><span class="k">[chuniio]</span>
-</span><span id="__span-11-2"><a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a><span class="na">path32</span><span class="o">=</span><span class="s">chuniio_yubideck_chusan.dll</span>
-</span><span id="__span-11-3"><a id="__codelineno-11-3" name="__codelineno-11-3" href="#__codelineno-11-3"></a><span class="na">path64</span><span class="o">=</span><span class="s">chuniio_yubideck_amdaemon.dll</span>
+<div class="language-ini highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a><span class="k">[chuniio]</span>
+</span><span id="__span-12-2"><a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a><span class="na">path32</span><span class="o">=</span><span class="s">chuniio_yubideck_chusan.dll</span>
+</span><span id="__span-12-3"><a id="__codelineno-12-3" name="__codelineno-12-3" href="#__codelineno-12-3"></a><span class="na">path64</span><span class="o">=</span><span class="s">chuniio_yubideck_amdaemon.dll</span>
 </span></code></pre></div>
 <ul>
 <li>Optionally, reference the included AimeIO DLL to use the controller's
 built-in card reader:</li>
 </ul>
-<div class="language-ini highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a><span class="k">[aimeio]</span>
-</span><span id="__span-12-2"><a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a><span class="na">path</span><span class="o">=</span><span class="s">aimeio_yubideck.dll</span>
+<div class="language-ini highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a><span class="k">[aimeio]</span>
+</span><span id="__span-13-2"><a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a><span class="na">path</span><span class="o">=</span><span class="s">aimeio_yubideck.dll</span>
 </span></code></pre></div>
 <ul>
 <li>Connect the controller to your computer, and then start the game.</li>
@@ -7102,36 +7255,55 @@ Device manager by looking for <code>USB Serial Device</code> you may need to unp
 <li>Restart to ensure changes took effect and saved</li>
 <li>Edit your <code>App\bin\segatools.ini</code> to disable io emulation and set led:</li>
 </ul>
-<div class="language-ini highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a><span class="k">[led]</span>
-</span><span id="__span-13-2"><a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a><span class="c1">; Output billboard LED strip data to a named pipe called &quot;\\.\pipe\chuni_led&quot;</span>
-</span><span id="__span-13-3"><a id="__codelineno-13-3" name="__codelineno-13-3" href="#__codelineno-13-3"></a><span class="na">cabLedOutputPipe</span><span class="o">=</span><span class="s">0</span>
-</span><span id="__span-13-4"><a id="__codelineno-13-4" name="__codelineno-13-4" href="#__codelineno-13-4"></a><span class="c1">; Output billboard LED strip data to serial</span>
-</span><span id="__span-13-5"><a id="__codelineno-13-5" name="__codelineno-13-5" href="#__codelineno-13-5"></a><span class="na">cabLedOutputSerial</span><span class="o">=</span><span class="s">1</span>
-</span><span id="__span-13-6"><a id="__codelineno-13-6" name="__codelineno-13-6" href="#__codelineno-13-6"></a>
-</span><span id="__span-13-7"><a id="__codelineno-13-7" name="__codelineno-13-7" href="#__codelineno-13-7"></a><span class="c1">; Output slider LED data to the named pipe</span>
-</span><span id="__span-13-8"><a id="__codelineno-13-8" name="__codelineno-13-8" href="#__codelineno-13-8"></a><span class="na">controllerLedOutputPipe</span><span class="o">=</span><span class="s">0</span>
-</span><span id="__span-13-9"><a id="__codelineno-13-9" name="__codelineno-13-9" href="#__codelineno-13-9"></a><span class="c1">; Output slider LED data to the serial port</span>
-</span><span id="__span-13-10"><a id="__codelineno-13-10" name="__codelineno-13-10" href="#__codelineno-13-10"></a><span class="na">controllerLedOutputSerial</span><span class="o">=</span><span class="s">1</span>
-</span><span id="__span-13-11"><a id="__codelineno-13-11" name="__codelineno-13-11" href="#__codelineno-13-11"></a><span class="c1">; Use the OpeNITHM protocol for serial LED output</span>
-</span><span id="__span-13-12"><a id="__codelineno-13-12" name="__codelineno-13-12" href="#__codelineno-13-12"></a><span class="na">controllerLedOutputOpeNITHM</span><span class="o">=</span><span class="s">0</span>
-</span><span id="__span-13-13"><a id="__codelineno-13-13" name="__codelineno-13-13" href="#__codelineno-13-13"></a>
-</span><span id="__span-13-14"><a id="__codelineno-13-14" name="__codelineno-13-14" href="#__codelineno-13-14"></a><span class="c1">; Serial port to send data to if using serial output. Default is COM5.</span>
-</span><span id="__span-13-15"><a id="__codelineno-13-15" name="__codelineno-13-15" href="#__codelineno-13-15"></a><span class="na">serialPort</span><span class="o">=</span><span class="s">COM1</span>
-</span><span id="__span-13-16"><a id="__codelineno-13-16" name="__codelineno-13-16" href="#__codelineno-13-16"></a><span class="c1">; Baud rate for serial data (set to 115200 if using OpeNITHM)</span>
-</span><span id="__span-13-17"><a id="__codelineno-13-17" name="__codelineno-13-17" href="#__codelineno-13-17"></a><span class="na">serialBaud</span><span class="o">=</span><span class="s">9600</span>
-</span><span id="__span-13-18"><a id="__codelineno-13-18" name="__codelineno-13-18" href="#__codelineno-13-18"></a>
-</span><span id="__span-13-19"><a id="__codelineno-13-19" name="__codelineno-13-19" href="#__codelineno-13-19"></a><span class="k">[slider]</span>
-</span><span id="__span-13-20"><a id="__codelineno-13-20" name="__codelineno-13-20" href="#__codelineno-13-20"></a><span class="c1">; Enable slider emulation. If you have real AC slider, set this to 0.</span>
-</span><span id="__span-13-21"><a id="__codelineno-13-21" name="__codelineno-13-21" href="#__codelineno-13-21"></a><span class="c1">; Slider serial port must be COM1.</span>
-</span><span id="__span-13-22"><a id="__codelineno-13-22" name="__codelineno-13-22" href="#__codelineno-13-22"></a><span class="na">enable</span><span class="o">=</span><span class="s">0</span>
-</span><span id="__span-13-23"><a id="__codelineno-13-23" name="__codelineno-13-23" href="#__codelineno-13-23"></a>
-</span><span id="__span-13-24"><a id="__codelineno-13-24" name="__codelineno-13-24" href="#__codelineno-13-24"></a><span class="k">[io4]</span>
-</span><span id="__span-13-25"><a id="__codelineno-13-25" name="__codelineno-13-25" href="#__codelineno-13-25"></a><span class="na">enable</span><span class="o">=</span><span class="s">0</span>
+<div class="language-ini highlight"><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a><span class="k">[led]</span>
+</span><span id="__span-14-2"><a id="__codelineno-14-2" name="__codelineno-14-2" href="#__codelineno-14-2"></a><span class="c1">; Output billboard LED strip data to a named pipe called &quot;\\.\pipe\chuni_led&quot;</span>
+</span><span id="__span-14-3"><a id="__codelineno-14-3" name="__codelineno-14-3" href="#__codelineno-14-3"></a><span class="na">cabLedOutputPipe</span><span class="o">=</span><span class="s">0</span>
+</span><span id="__span-14-4"><a id="__codelineno-14-4" name="__codelineno-14-4" href="#__codelineno-14-4"></a><span class="c1">; Output billboard LED strip data to serial</span>
+</span><span id="__span-14-5"><a id="__codelineno-14-5" name="__codelineno-14-5" href="#__codelineno-14-5"></a><span class="na">cabLedOutputSerial</span><span class="o">=</span><span class="s">1</span>
+</span><span id="__span-14-6"><a id="__codelineno-14-6" name="__codelineno-14-6" href="#__codelineno-14-6"></a>
+</span><span id="__span-14-7"><a id="__codelineno-14-7" name="__codelineno-14-7" href="#__codelineno-14-7"></a><span class="c1">; Output slider LED data to the named pipe</span>
+</span><span id="__span-14-8"><a id="__codelineno-14-8" name="__codelineno-14-8" href="#__codelineno-14-8"></a><span class="na">controllerLedOutputPipe</span><span class="o">=</span><span class="s">0</span>
+</span><span id="__span-14-9"><a id="__codelineno-14-9" name="__codelineno-14-9" href="#__codelineno-14-9"></a><span class="c1">; Output slider LED data to the serial port</span>
+</span><span id="__span-14-10"><a id="__codelineno-14-10" name="__codelineno-14-10" href="#__codelineno-14-10"></a><span class="na">controllerLedOutputSerial</span><span class="o">=</span><span class="s">1</span>
+</span><span id="__span-14-11"><a id="__codelineno-14-11" name="__codelineno-14-11" href="#__codelineno-14-11"></a><span class="c1">; Use the OpeNITHM protocol for serial LED output</span>
+</span><span id="__span-14-12"><a id="__codelineno-14-12" name="__codelineno-14-12" href="#__codelineno-14-12"></a><span class="na">controllerLedOutputOpeNITHM</span><span class="o">=</span><span class="s">0</span>
+</span><span id="__span-14-13"><a id="__codelineno-14-13" name="__codelineno-14-13" href="#__codelineno-14-13"></a>
+</span><span id="__span-14-14"><a id="__codelineno-14-14" name="__codelineno-14-14" href="#__codelineno-14-14"></a><span class="c1">; Serial port to send data to if using serial output. Default is COM5.</span>
+</span><span id="__span-14-15"><a id="__codelineno-14-15" name="__codelineno-14-15" href="#__codelineno-14-15"></a><span class="na">serialPort</span><span class="o">=</span><span class="s">COM1</span>
+</span><span id="__span-14-16"><a id="__codelineno-14-16" name="__codelineno-14-16" href="#__codelineno-14-16"></a><span class="c1">; Baud rate for serial data (set to 115200 if using OpeNITHM)</span>
+</span><span id="__span-14-17"><a id="__codelineno-14-17" name="__codelineno-14-17" href="#__codelineno-14-17"></a><span class="na">serialBaud</span><span class="o">=</span><span class="s">9600</span>
+</span><span id="__span-14-18"><a id="__codelineno-14-18" name="__codelineno-14-18" href="#__codelineno-14-18"></a>
+</span><span id="__span-14-19"><a id="__codelineno-14-19" name="__codelineno-14-19" href="#__codelineno-14-19"></a><span class="k">[slider]</span>
+</span><span id="__span-14-20"><a id="__codelineno-14-20" name="__codelineno-14-20" href="#__codelineno-14-20"></a><span class="c1">; Enable slider emulation. If you have real AC slider, set this to 0.</span>
+</span><span id="__span-14-21"><a id="__codelineno-14-21" name="__codelineno-14-21" href="#__codelineno-14-21"></a><span class="c1">; Slider serial port must be COM1.</span>
+</span><span id="__span-14-22"><a id="__codelineno-14-22" name="__codelineno-14-22" href="#__codelineno-14-22"></a><span class="na">enable</span><span class="o">=</span><span class="s">0</span>
+</span><span id="__span-14-23"><a id="__codelineno-14-23" name="__codelineno-14-23" href="#__codelineno-14-23"></a>
+</span><span id="__span-14-24"><a id="__codelineno-14-24" name="__codelineno-14-24" href="#__codelineno-14-24"></a><span class="k">[io4]</span>
+</span><span id="__span-14-25"><a id="__codelineno-14-25" name="__codelineno-14-25" href="#__codelineno-14-25"></a><span class="na">enable</span><span class="o">=</span><span class="s">0</span>
 </span></code></pre></div>
 <ul>
 <li>Then start the game.</li>
 </ul>
 </div>
+<details class="tip">
+<summary>Legacy</summary>
+<ul>
+<li>Backup Laverita 3 setup if IO4 cfw is not working.</li>
+<li>Switch your Laverita to HID mode. You can do so in ConfigApp</li>
+<li>Download Laverita IO DLLs and extract to your <code>App\bin</code> folder.<ul>
+<li><a href="https://gitea.tendokyu.moe/beerpsi/chuniio-rs/releases">chuniio-rs</a> (download <code>chusan.zip</code>)</li>
+</ul>
+</li>
+<li>Edit your <code>App\bin\segatools.ini</code> to reference the extracted DLLs:</li>
+</ul>
+<div class="language-ini highlight"><pre><span></span><code><span id="__span-15-1"><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a><span class="k">[chuniio]</span>
+</span><span id="__span-15-2"><a id="__codelineno-15-2" name="__codelineno-15-2" href="#__codelineno-15-2"></a><span class="na">path32</span><span class="o">=</span><span class="s">chuniio_laverita_v3_x86.dll</span>
+</span><span id="__span-15-3"><a id="__codelineno-15-3" name="__codelineno-15-3" href="#__codelineno-15-3"></a><span class="na">path64</span><span class="o">=</span><span class="s">chuniio_laverita_v3_x64.dll</span>
+</span></code></pre></div>
+<ul>
+<li>Connect the controller to your computer, and then start the game.</li>
+</ul>
+</details>
 <h3 id="arcade-hardware-and-other-controllers">Arcade hardware and other controllers</h3>
 <div class="admonition tip">
 <p>If you're interested in using a cabinet slider and air sensors, or possibly even
