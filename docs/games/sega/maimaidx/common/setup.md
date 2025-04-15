@@ -44,25 +44,34 @@
     **remove them. This also means your data was tampered with and we strongly recommend
     getting new data from somewhere else.**
 
-#### Installing ICFs
+#### Updating the base game
 
 !!! tip ""
 
-    Install Configuration Files (ICFs) tell the game what version it is.
-    **Without this your game cannot go online!**
+    Extract your patch's files to your existing data in a way that matches its
+    file structure. Agree to overwrite files if necessary.
 
-    If your `amfs` folder already has files`ICF1` and `ICF2`, skip this step.
+#### Installing option data
 
-    Otherwise, obtain copies of `ICF1` for your game version and place it in
-    the `amfs` folder. If it is named something else, rename it to exactly
-    `ICF1` **without any file extensions.** `ICF2` is a copy of `ICF1`.
+!!! tip ""
 
-??? info "Showing File Extensions"
+    maimai DX content updates are distributed through option folders instead of patching
+    the base game.
 
-    By default, file extensions on Windows are hidden. Enable them by navigating to
-    the `View` tab in File Explorer and select `File name extensions`.
+    Options are named with a letter followed by three numbers.
 
-#### Installing Unprotected Executables
+    For JPN(SDEZ) data, each new release of maimai DX increments the first letter of the Option (ie. BUDDiES is `H???` and BUDDiES+ is `I???`).
+
+    For EXP(SDGA) data, Options will always begin with the letter `A` (i.e `A???`)
+
+    Extract any options you've downloaded into the `Option` folder. You should end up with
+    a file structure as follows. **Do not be worried if you have fewer or more option folders.**
+
+    <img width="500" src="/img/sega/maimaidx/common/setup/options.png">
+
+    !!! warning "Do not mix option data between versions"
+
+#### Installing unprotected executables
 
 !!! tip ""
 
@@ -74,10 +83,10 @@
     - amdaemon.exe
     - Sinmai.exe
     - Sinmai_Data/Plugins/amdaemon_api.dll
-    - Sinmai_Data/Plugins/Cake.dll
+    - Sinmai_Data/Plugins/Cake.dll (JPN/SDEZ only)
     - Sinmai_Data/Managed/AMDaemon.NET.dll
     - Sinmai_Data/Managed/Assembly-CSharp.dll
-    - mai2.ini or maimaiDX.ini
+    - mai2.ini
 
     Copy the files and folders into the `App/Package` folder of your game data. Agree to overwrite
     when asked.
@@ -87,16 +96,35 @@
         `Assembly-CSharp.dll` **must** match your game version. All others can be
         reused from other game versions.
 
-    !!! tip "If the assembly supports it, `App/Package/dpPatchLog.log` lists supported patches after the first run. Otherwise see [Custom Mods](#custom-mods)"
-
-#### mai2.ini / maimaiDX.ini
+#### Installing ICFs
 
 !!! tip ""
-    Ensure that the `App/Package` folder contains `mai2.ini` (for JPN and EXPORT data) or `maimaiDX.ini` (for CN data).
 
-    If this configuration file is missing, create one using the contents below. Then, rename it according to the region of your data.
+    Install Configuration Files (ICFs) tell the game what version it is.
+    **Without this your game cannot go online!**
+
+    **If your unprotected executables came with an `amfs` folder, and already has a file named `ICF1` in it, skip this step.**
+
+    Otherwise, obtain copies of `ICF1` for your game version and place it in
+    the `amfs` folder. If it is named something else, rename it to exactly
+    `ICF1` **without any file extensions.**
+
+!!! info "Showing file extensions"
+
+    By default, file extensions on Windows are hidden. Enable them by navigating to
+    the `View` tab in File Explorer and select `File name extensions`.
+
+#### mai2.ini
+
+!!! tip ""
+    Ensure that the `App\Package` folder contains `mai2.ini`.
+
+    If this configuration file is missing, create one using the contents below.
 
     ```ini
+    [Debug]
+    Debug=1
+    
     [AM]
     Target=0
     IgnoreError=1
@@ -104,22 +132,19 @@
     DummyLED=1
     DummyCodeCamera=1
     DummyPhotoCamera=1
-
+    
     [Sound]
     Sound8Ch=0
-
-    [Patches]
-    EnablePatchLog=1
     ```
 
 ---
 
-### Installing Segatools
+### Installing segatools
 
 !!! tip ""
 
-    - Head over to [segatools releases](https://gitea.tendokyu.moe/Dniel97/segatools/releases/latest)
-    and download the latest `segatools.zip`. **Do not download the source code.**
+    - Head over to [segatools releases](https://gitea.tendokyu.moe/TeamTofuShop/segatools/releases/tag/2024-03-13)
+    and download the `segatools.zip` from `2024-03-13`. **Do not download the source code or latest release.**
     - Extracting the archive should give you a few more zip files. Find `mai2.zip`
     and extract it to the `App/Package` folder in your game data.
 
@@ -127,14 +152,18 @@
 
     <img width="500" src="/img/sega/maimaidx/common/setup/segatools.png">
 
+!!! warning
+
+    The latest release of segatools currently has issues with maimai, and for the time being an older version of segatools is preferred.
+
 ---
 
-### Configuring Segatools
+### Configuring segatools
 
 !!! tip ""
 
     Since there is no graphical configuration tool for segatools, you will have to edit the
-    configuration file by hand. It is found in `App/Package/segatools.ini`.
+    configuration file by hand. It is found in `App\package\segatools.ini`.
 
     It is recommended that you follow along using a text editor with syntax highlighting such as [Notepad++](https://notepad-plus-plus.org/).
 
@@ -144,12 +173,12 @@
 !!! warning
 
     If a key already exists in the section, delete everything after `=` and replace it with your
-    setting. Do not add another key. Example:
+    setting. Do not add another key.
 
     ```ini
-    [system]
-    dipsw2=1
-    dipsw2=1 ; WRONG!
+    [gpio]
+    dipsw1=1
+    dipsw1=1 ; WRONG!
     ```
 
 #### `[vfs]`
@@ -162,25 +191,82 @@
     ```ini
     [vfs]
     amfs=../../amfs
-    option=../../option
-    appdata=../../appdata
+    option=../../Option
+    appdata=../../AppData
     ```
 
-#### `[dns]`
+??? tip "AquaMai"
+
+    It's strongly recommended to use MelonLoader mods to improve QOL.                                                                             
+    You can find info about the available mods for maimai here [AquaMai](https://github.com/MewoLab/AquaMai).                                                                         
+    For general modding check [Unity modding](/extras/unity.md) page.                                                                                                                  
+
+---
+
+### Setting launch options
 
 !!! tip ""
+    Right click `App\package\start.bat`, select `Edit`. Locate the line that launches `sinmai` and edit it according to your preferences:
 
-    Game will not pass checks unless you modify the dns:
+    ```bat hl_lines="6"
+    @echo off
+    
+    pushd %~dp0
+    
+    start "AM Daemon" /min inject -d -k mai2hook.dll amdaemon.exe -f -c config_common.json config_server.json config_client.json
+    inject -d -k mai2hook.dll sinmai -screen-fullscreen 0 -popupwindow -screen-width 2160 -screen-height 1920  -silent-crashes
+    
+    taskkill /f /im amdaemon.exe > nul 2>&1
+    
+    echo.
+    echo Game processes have terminated
+    pause
+    ```
+
+??? tip "Launch options"
+    * `-screen-fullscreen 0`: windowed
+    * `-screen-fullscreen 0 -popupwindow`: borderless windowed
+    * `-screen-fullscreen 1`: exclusive fullscreen
+    * `-screen-width <W> -screen-height <H>`: resolution
+    * `-monitor <N>`: the monitor to run the game on
+    ??? info "Getting the monitor index"
+        Navigate to Windows display settings. Each monitor should be assigned a number.
+        The monitor index is that number. For example, monitor 2 means `-monitor 2`.
+---
+
+### Connecting to a network
+
+!!! danger "Please choose one of the two solutions, not both!"
+
+??? tip "Remote (Online Network)"
+
+    Head to the `[dns]` section inside `segatools.ini`. Set `default` to the address
+    provided by your network. **Do not add `http://` or `https://` to the address!**
 
     ```ini
     [dns]
-    default=YOUR_IPv4_ADDRESS
+    default=network.example
     ```
 
-    ??? tip "Finding Your IPv4 Address"
+    Then, head to the `[keychip]` section and add & set `id` to the keychip ID provided by your network:
 
-        Open a command promt. Type `ipconfig` and look for the IPv4 Address.
-        Place those digits here otherwise you will get stuck on the DNS(LAN) check.
+    ```ini
+    [keychip]
+    subnet=192.168.172.0
+    id=A69E-XXXXXXXXXXX
+    ```
+
+    Finally, you need a card number. Create a file named `aime.txt` inside `App\package\DEVICE` and type in
+    your 20-digit access code if you already have one, or make one up if you don't. If you're making one
+    up, the access code **MUST NOT** start with a 3.
+
+    <img src="/img/sega/ongeki/common/setup/4_access_code.png">
+
+??? warning "Local (ARTEMiS/AquaDX)"
+
+    Both of these options require non-trivial setup. Refer to the official guides for [ARTEMiS](https://gitea.tendokyu.moe/Hay1tsme/artemis/src/branch/develop/docs/INSTALL_WINDOWS.md)
+    and [AquaDX](https://github.com/hykilpikonna/AquaDX?tab=readme-ov-file#usage-v1-developmental-preview)
+    to set up a local server.
 
 ---
 
@@ -212,127 +298,48 @@
 
 !!! tip ""
 
-    If you have an Intel 10th Gen CPU or newer, right click `App/Package/start.bat`, select `Edit`, and add the
-    highlighted line to the top of the file.
-
-    ```batch hl_lines="2"
-    @echo off
-    set OPENSSL_ia32cap=:~0x20000000
-
-    pushd %~dp0
-    ...
-    ```
+    If you have an Intel 10th Gen CPU or newer, you need to [patch amdaemon](https://patcher.two-torial.xyz/amdaemon) and enable `OpenSSL SHA crash bug fix`.
 
 ---
 
-### Test Launch
+### First launch
 
 !!! danger "If you have any issues running the game, refer to the [Troubleshooting](troubleshooting.md) page."
-
-!!! warning "Please Disconnect any Hardware including Controllers or Card Readers at this time."
 
 !!! tip
 
     Without an English patch, the service menu will be in Japanese. If you don't know Japanese, [Google Lens](https://lens.google/)
     is a handy tool for navigating this menu.
 
-#### Game Settings
+#### GAME ASSIGNMENTS
 
 !!! tip ""
 
-    If you've followed all instructions correctly, you are ready to launch the game!
+    If you've followed all instructions correctly, you're now finally ready to launch the game!
 
-    Start the game by running `App/Package/start.bat`. You should see a terminal pop-up with the following:
+    Start the game by running `App\package\start.bat`. Let the game load until you reach a screen with the message below.
 
-    <img src="/img/sega/maimaidx/common/setup/cmd.png">
-
-    Another window titled `Sinmai` is the actual game. It should pause on `Search for Distribution Servers`:
-
-    <img src="/img/sega/maimaidx/common/setup/distribution_servers_check.png">
+<img src="/img/sega/maimaidx/common/setup/distribution_servers_check.png">
 
 !!! tip ""
 
-    Use the following keyboard controls `F1` = `Test/Enter` and `c` = `down` to do the following:
+    Press your `Test` button (default `F1`) to enter the service menu. Use the `Service` button
+    (default `F2`) to navigate the menu, and `Test` button to select an option.
 
-    - Press `F1` to enter the service menu
-    - Press `c` a few times to navigate to `Game Settings` or `ゲーム設定` as shown below:
+    Navigate to **ゲーム設定** (`GAME ASSIGNMENTS`, the 7th option).
 
-    <img src="/img/sega/maimaidx/common/setup/service_menu.png">
-
-    - Press `F1` to enter the menu. Press `c` to navigate to the top option and toggle to `OFF` using `F1`. You should see the following:
-
-    <img src="/img/sega/maimaidx/common/setup/service_game_settings.png">
-
-    - Press `ESC` to exit. Close all associated windows including `CMD`, `AMDaemon`, and `Sinmai`. Relaunch with `start.bat` and the game should boot into guest mode.
-
----
-
-### Connecting to a Network
-
-!!! danger "Please choose one of the two solutions, not both!"
-
-??? tip "Remote (Online Network)"
-
-    Head to the `[dns]` section inside `segatools.ini`. Set `default` to the address
-    provided by your network. **Do not add `http://` or `https://` to the address!**
-
-    ```ini
-    [dns]
-    default=network.example
-    ```
-
-    Then, head to the `[keychip]` section and add & set `id` to the keychip ID provided by your network:
-
-    ```ini
-    [keychip]
-    subnet=192.168.172.0
-    id=A69E-XXXXXXXXXXX
-    ```
-
-    Finally, you need a card number. Create a file named `aime.txt` inside `App/Package/DEVICE` and type in
-    your 20-digit access code if you already have one, or make one up if you don't. If you're making one
-    up, the access code **MUST NOT** start with a 3.
-
-    <img src="/img/sega/maimaidx/common/setup/access_code.png">
-
-??? tip "Local (ARTEMiS/AquaDX)"
-
-    Both of these options require non-trivial setup. Refer to the official guides for [ARTEMiS](https://gitea.tendokyu.moe/Hay1tsme/artemis/src/branch/develop/docs/INSTALL_WINDOWS.md)
-    and [AquaDX](https://github.com/hykilpikonna/AquaDX?tab=readme-ov-file#usage-v1-developmental-preview)
-    to set up a local server.
-
----
-
-### Further Configuration
-
-#### Updating the Base Game
+<img src="/img/sega/maimaidx/common/setup/service_menu.png">
 
 !!! tip ""
 
-    Extract your patch's files to your existing data in a way that matches its
-    file structure. Agree to overwrite files if necessary.
+    Select **店内マッチングの設定** (`IN-STORE MATCHING SETUP`, the first option)
+    and toggle this setting to **OFF**.
 
-    !!! Warning "Only update if an unencrypted `Assembly-CSharp.dll` is available"
-
-#### Installing Option Data
+<img src="/img/sega/maimaidx/common/setup/service_game_settings.png">
 
 !!! tip ""
 
-    maimai DX content updates are distributed through option folders instead of patching
-    the base game.
-
-    Options are named with a letter followed by three numbers.
-
-    For JPN data, each new release of maimai DX increments the first letter of the Option (ie. BUDDiES is `H???` and BUDDiES+ is `I???`).
-
-    For EXPORT data, Options will always begin with the letter `A` (i.e `A???`)
-
-    Extract any options you've downloaded into the `Option` folder. You should end up with
-    a file structure as follows. **Do not be worried if you have fewer or more option folders.**
-
-    <img width="500" src="/img/sega/maimaidx/common/setup/options.png">
-
-    !!! warning "Do not mix option data between versions"
+    Select **終了** (`EXIT`, the last option) to exit to the main service menu.
 
 ---
 

@@ -69,33 +69,6 @@
 
     <img width="500" src="/img/sega/ongeki/common/setup/2_ongekioption.png">
 
-
-#### Installing ICFs
-
-!!! tip ""
-
-    Install Configuration Files (ICFs) tell the game what version it is.
-    **Without this your game cannot go online!**
-
-    If your `amfs` folder already has a file named `ICF1`, skip this step.
-
-    In some cases, your data may have a folder containing ICFs in `App\package\amfs`.
-    If so, move all contents inside to the `amfs` folder where `App` and `AppData`,
-    delete the `App\package\amfs` folder, and skip this step.
-
-    Otherwise, obtain copies of `ICF1` for your game version and place it in
-    the `amfs` folder. If it is named something else, rename it to exactly
-    `ICF1` **without any file extensions.**
-
-
-
-
-!!! info "Showing file extensions"
-
-    By default, file extensions on Windows are hidden. Enable them by navigating to
-    the `View` tab in File Explorer and select `File name extensions`.
-
-
 #### Installing unprotected executables
 
 !!! tip ""
@@ -108,6 +81,9 @@
     - `amdaemon.exe`
     - `mu3.exe`
     - `mu3_Data\Plugins\amdaemon_api.dll`
+    - `mu3_Data\Plugins\chiffre.dll`
+    - `mu3_Data\Plugins\libhttp.dll`
+    - `mu3_Data\Plugins\QR_Image.dll`
     - `mu3_Data\Managed\AMDaemon.NET.dll`
     - `mu3_Data\Managed\Assembly-CSharp-firstpass.dll`
     - `mu3_Data\Managed\Assembly-CSharp.dll`
@@ -119,6 +95,24 @@
     !!! Warning "Assembly-CSharp Note"
 
         `Assembly-CSharp.dll` **must** match your game version.
+
+#### Installing ICFs
+
+!!! tip ""
+
+    Install Configuration Files (ICFs) tell the game what version it is.
+    **Without this your game cannot go online!**
+
+    **If your unprotected executables came with an `amfs` folder, and already has a file named `ICF1` in it, skip this step.**
+
+    Otherwise, obtain copies of `ICF1` for your game version and place it in
+    the `amfs` folder. If it is named something else, rename it to exactly
+    `ICF1` **without any file extensions.**
+
+!!! info "Showing file extensions"
+
+    By default, file extensions on Windows are hidden. Enable them by navigating to
+    the `View` tab in File Explorer and select `File name extensions`.
 
 #### mu3.ini
 
@@ -198,6 +192,12 @@
     appdata=../../AppData
     ```
 
+??? tip "mu3-mods"
+
+    It's strongly recommended to use BepInEx mods to improve QOL.                                                                             
+    You can find info about the available mods for O.N.G.E.K.I. here [mu3-mods](https://gitea.tendokyu.moe/akanyan/mu3-mods/wiki).                                                                         
+    For general modding check [Unity modding](/extras/unity.md) page.                                                                                                                  
+
 ---
 
 ### Setting launch options
@@ -251,7 +251,7 @@
 
     ```ini
     [keychip]
-    subnet=192.168.139.0
+    subnet=192.168.162.0
     id=A69E-XXXXXXXXXXX
     ```
 
@@ -295,16 +295,7 @@
 
 !!! tip ""
 
-    If you have an Intel 10th Gen CPU or newer, right click `App\package\start.bat`, select `Edit`, and add the
-    highlighted line to the top of the file.
-
-    ```batch hl_lines="2"
-    @echo off
-    set OPENSSL_ia32cap=:~0x20000000
-
-    pushd %~dp0
-    ...
-    ```
+    If you have an Intel 10th Gen CPU or newer, you need to [patch amdaemon](https://patcher.two-torial.xyz/amdaemon) and enable `OpenSSL SHA crash bug fix`.
 
 ---
 
