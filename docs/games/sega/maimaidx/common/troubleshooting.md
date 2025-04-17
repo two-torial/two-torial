@@ -28,7 +28,7 @@
     :sub
     set OPENSSL_ia32cap=:~0x20000000
     pushd %~dp0
-    start /b "AM Daemon" /min inject -d -k mu3hook.dll amdaemon.exe -f -c config_common.json config_server.json
+    start /b "AM Daemon" /min inject -d -k mai2hook.dll amdaemon.exe -f -c config_common.json config_server.json
     ping 127.0.0.1 -n 31 > nul && taskkill /F /im amdaemon.exe
     ```
 
