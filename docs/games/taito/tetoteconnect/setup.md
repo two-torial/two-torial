@@ -96,7 +96,7 @@
     
     ```ini
     powershell.exe -ExecutionPolicy Bypass -File "windows-display-orientation-script.ps1" 0 90
-    game.exe
+    Vision.exe
     powershell.exe -ExecutionPolicy Bypass -File "windows-display-orientation-script.ps1" 0 0
     ```
 
@@ -104,7 +104,7 @@
 
     ```ini
     powershell.exe -ExecutionPolicy Bypass -File "windows-display-orientation-script.ps1" 0 270
-    game.exe
+    Vision.exe
     powershell.exe -ExecutionPolicy Bypass -File "windows-display-orientation-script.ps1" 0 0
     ```
 
@@ -116,7 +116,7 @@
 
     If you've followed all instructions correctly, you're ready to launch the game.
 
-    Start the game by running `game.exe`, or `start.bat` if you followed [the automatic monitor rotation part](#monitor-orientation).
+    Start the game by running `Vision.exe`, or `start.bat` if you followed [the automatic monitor rotation part](#monitor-orientation).
 
 !!! tip ""
 
