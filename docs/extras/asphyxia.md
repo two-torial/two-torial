@@ -56,17 +56,21 @@
 
 !!! tip ""
 
-	On the ```WebUI```, click on ```SDVX``` on the left-hand bar and click on ```Import Assets```. In here, paste the path of your ```contents``` folder.
+	On the ```WebUI```, click on ```SDVX``` on the left-hand bar and on the right side under ```Plugin Settings```, you should see an option named ```Exceed Gear Data Directory```. In here, paste the path of your ```contents``` folder and press enter. ^^In my case^^, it looks like this:
 	
-!!! tip ""
-
-	^^In my case^^, it's ```D:\BEMANI\SDVX\guide\KFC-2021083100\contents```. Make sure you're using the correct path as it won't work otherwise. When you've done that, click on ```Submit```. After a few seconds, a pop-up should appear saying ```Imported successfully!```
+<img src="/img/extras/asphyxia/5.png">
 
 !!! tip ""
 
-	Go to ```SDVX``` on the left-hand bar, then ```Profiles``` and click on the green ```Detail``` button on your preferred profile. Click on ```Setting``` on the top bar and try changing some customization settings at the bottom. If they are working, head over to [Changing Service URL.](#changing-service-url) If they appear broken, completely close Asphyxia and continue reading.
+	Next, click on ```Update Webui Assets``` on the left-hand bar. Make sure you're using the correct path as it won't work otherwise. When you've done that, click on ```Update``` and confirm that you've updated the datacode in your ```ea3-config.xml``` file. After a few seconds, the text console should say ```Done``` and say ```Successfully extracted textures``` if you input your path correctly.
 
-	Head to the ```contents``` folder of your game again. If you have inserted the correct path when Importing and everything worked without any errors, you will have a folder called ```webui```. Copy this folder and paste it into ```plugins\sdvx@asphyxia```. Overwrite any files if prompted to. Now close then re-run ```asphyxia-core-x64.exe``` and everything should function as intended.
+<img src="/img/extras/asphyxia/6.png">
+
+!!! tip ""
+
+	Next, launch the game and card in. Go through the process of creating a profile, then close the game. After that, go to ```SDVX``` on the left-hand bar, then ```Profiles``` and click on the green ```Detail``` button on your preferred profile. Click on ```Setting``` on the top bar and try changing some customization settings at the bottom. If they are working, you're done and everything should function as intended if you set everything correctly.
+
+	If they appear broken, completely close Asphyxia and head to the ```contents``` folder of your game again. If you have inserted the correct path when Importing and everything worked without any errors, you will have a folder called ```webui```. Copy this folder and paste it into ```plugins\sdvx@asphyxia```. Overwrite any files if prompted to. Now close then re-run ```asphyxia-core-x64.exe``` and everything should function as intended.
 
 ### Setting up IIDX
 
