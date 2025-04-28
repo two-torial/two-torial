@@ -28,7 +28,9 @@
 
 !!! tip ""
 
-    - Download [BepInEx](https://github.com/BepInEx/BepInEx/releases/download/v5.4.23.2/BepInEx_win_x64_5.4.23.2.zip)
+    - Download the most recent [BepInEx 5 release](https://github.com/Redcrafter/tetoco/releases) (`BepInEx_win_x64_5.x.y.z.zip`).
+
+    !!! warning "We need BepInEx 5 since as of writing, BepInEx 6 does not support the required plugin."
 
     - Extract the archive to the root folder of your game data.
 
