@@ -1,9 +1,10 @@
 # Contributing to two-torial
 
 1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/LeBranch`)
-3. Commit your Changes (`git commit -m 'Added le feature`)
-4. Push to the Branch (`git push origin feature/LeBranch`)
+2. Clone your own project's branch (`git clone https://github.com/yourname/two-torial.git --branch branchname`)
+2. Create your Feature Branch (`git checkout -b branchname`)
+3. Commit your Changes (`git commit -m 'Added X and Y'`)
+4. Push to the Branch (`git push origin branchname`)
 5. Open a Pull Request
 
 For quick local iteration, you can setup your own [mkdocs](https://www.mkdocs.org/user-guide/installation/) environment:
