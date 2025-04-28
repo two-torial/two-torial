@@ -24,42 +24,6 @@
 	If extra files are present next to your folders, such as executables, scripts, etc.. **remove them**.  
 	**This also means your data was tampered with and we strongly recommend getting new data from somewhere else.**
 
-!!! info "If you don't need to update your data, you can skip over to the [Installing Spice2x](#installing-spice2x) section."
-
----
-### Updating data
-
-??? danger "Please make sure you're using the right update for your current data."
-
-	Patches re-uploaded by the community tend to be named `LDJ-DATECODE-to-DATECODE`.  
-
-	For example `LDJ-2022120800-to-2023090500`.
-
-	- `2022120800` being your current data's version.
-	- `2023090500` being the version you would arrive at.
-
-!!! tip ""
-
-	- Extract your patch's files to your existing data in a way that matches its file structure. Agree to overwrite files if necessary.
-	- Open `prop\ea3-config.xml` in a text editor and find the following lines near the top.
-
-	```xml
-		<soft>
-			<model __type="str">LDJ</model>
-			<dest __type="str">J</dest>
-			<spec __type="str">A</spec>
-			<rev __type="str">A</rev>
-			<ext __type="str">2017082800</ext>
-    	</soft>
-	```
-
-	On the line with `<ext __type="str">` the datecode needs to match your new version.
-
-	- If that's already the case then great! Don't touch anything.
-	- If it instead corresponds to our pre-patch datecode, replace it with the new one.
-
-	Now save the file.
-
 ---
 ### Installing Spice2x
 
@@ -74,7 +38,7 @@
   
 	<img src="/img/bemani/iidx/24_sinobuz/spice2xdata.png">
 
-
+---
 ### Configuring Spice2x
 
 !!! info "Open `spicecfg.exe`, each following sub-section corresponds to a tab at the top."
