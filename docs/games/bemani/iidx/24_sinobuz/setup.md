@@ -136,7 +136,6 @@
 
 	| Category 		| Option 				| Parameter 		| Setting |
 	|---------------|-----------------------|-------------------|---------|
-	| Game Options	| IIDX Disable Cameras 	| -iidxdisablecams 	| ON	  |
 	| Network		| EA Service URL		| -url				| Covered in [Connecting to a network](#connecting-to-a-network) |
 
 !!! tip "Highly Recommended for NVIDIA users ONLY"
