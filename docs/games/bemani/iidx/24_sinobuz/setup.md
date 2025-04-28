@@ -103,22 +103,9 @@
 
 #### Patches
 
-!!! info "As of writing, web patching is recommended for IIDX 24 SINOBUZ as opposed to spice2x patching."
+!!! info "Go through the [Spice2x Patching](/extras/patchsp2x.md) page to import patches."
 
-	Spice2x patching is fairly new and the game's latest releases are prioritized for conversion.
-
-	For now use [Mon's BemaniPatcher](https://mon.im/bemanipatcher/iidx30resident.html), more info can be found in the [web patching](/extras/patchweb.md) page.
-
-!!! danger "As a general rule of thumb, if you're not sure what a patch does or you're not absolutely certain you need it, leave it alone, regardless of recommendations below."
-
-??? tip "General patches"
-
-	| Patch 										| Recommendation 	| Description |
-	|-----------------------------------------------|----------------	|-------------|
-	| Timer Freeze					| Either		 	| Freezes the timer in all non-premium environments. |
-	| Premium Free Timer Freeze						| Either		 	| Freezes the timer in Premium Free mode. |
-	| Cursor Lock									| Either			| In song select, always returns to the previously selected song. |
-	| CS-style Song Start Delay						| Either			| At the start of a song, holding Start will pause it until you release it. |
+!!! danger "To prevent issues, avoid patching things you don't need or understand."
 
 #### API
 
@@ -202,10 +189,6 @@
 	- Pick the `24 bit, 44100 Hz (CD Quality)` option and click `Apply` then `OK`.
 
 	<img src="/img/common/audio_24_441.png">
-
-#### Standard / Lightning / Language settings
-
-!!! info "Read through the [Extra Information](extras.md) page and edit your `prop\ea3-config.xml` file if necessary."
 
 ---
 ### First launch
