@@ -197,6 +197,9 @@ nav:
       - "Taiko no Tatsujin: Nijiiro":
         - "Game Setup": "games/namco/taikonijiiro/setup.md"
         - "Troubleshooting": "games/namco/taikonijiiro/troubleshooting.md"
+    - TAITO:
+      - "Tetote X Connect":
+        - "Game Setup": "games/taito/tetoteconnect/setup.md"
   - Error Codes:
     - BEMANI: "errorcodes/bemani.md"
     - SEGA: "errorcodes/sega.md"
