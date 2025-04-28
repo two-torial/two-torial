@@ -14,7 +14,7 @@
 
     - Right click the folder containing your data, then click on `Properties`.
     - In the `General` tab go down to `Attributes`, untick `Read-only` and click `Apply`.
-    - A popup will appear, select `Apply changes to this folder, subfolder and files`
+    - A popup will appear, select `Apply changes to this folder, subfolders and files`
     and press `OK`.
     - Finally, click `OK` again to exit out of properties.
 
@@ -57,7 +57,7 @@
 
 ---
 
-### Pre-launch requirement
+### Pre-launch requirements
 
 !!! info "These steps are required, otherwise your game won't run."
 
@@ -71,9 +71,9 @@
 #### Monitor orientation
 
 
-!!! info "With tetoco installed, the game won't rotate automatically to portrait mode when starting it."
+!!! info "With tetoco installed, the game won't automatically rotate to portrait mode when starting it."
 
-    The game can be played on landscape mode but a lot of the play area will be lost, it's best to 
+    The game can be played in landscape mode but a lot of the play area will be lost, it's best to 
     set your monitor to portrait mode before launching the game.
 
 ??? tip "Manually rotating"
@@ -130,13 +130,13 @@
 
 ### Connecting to a network
 
-!!! info "By default, tetoco will use its own local network and save data will be stored locally."
+!!! info "By default, tetoco uses its own local network and saves data locally."
 
     Please follow this step only if you have a network to connect to.
 
 ??? tip "Remote (Online Network)"
 
-    Open the automatically created config file `BepInEx\config\tetoco.cfg`.
+    Open the automatically created configuration file `BepInEx\config\tetoco.cfg`.
 
     Set `UseLocalServer` to **false**.
 
