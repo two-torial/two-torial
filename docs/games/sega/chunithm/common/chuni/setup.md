@@ -76,9 +76,9 @@
     CHUNITHM executables are protected and will not run on a regular computer.
 
     Obtain unprotected (also called "unpacked" or "decrypted" by the community)
-    copies of `chusanApp.exe` and `aimeReaderHost.exe` for your game version.
+    copies of `chuniApp.exe` and `aimeReaderHost.exe` for your game version.
 
-    Copy `chusanApp.exe` and `aimeReaderHost.exe` to the `bin` folder of your game data. Agree
+    Copy `chuniApp.exe` and `aimeReaderHost.exe` to the `bin` folder of your game data. Agree
     to overwrite when asked.
 
 #### Installing ICFs
