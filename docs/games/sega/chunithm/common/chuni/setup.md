@@ -32,7 +32,7 @@
 
     The `App` folder should have a file structure as follows.
 
-    <img width="500" src="/img/sega/chunithm/common/chusan/1_chunithmapp.png">
+    <img width="500" src="/img/sega/chunithm/common/chuni/1_chunithmapp.png">
 
 ??? warning "If your data doesn't look like this"
 
@@ -76,9 +76,9 @@
     CHUNITHM executables are protected and will not run on a regular computer.
 
     Obtain unprotected (also called "unpacked" or "decrypted" by the community)
-    copies of `chusanApp.exe` and `amdaemon.exe` for your game version.
+    copies of `chusanApp.exe` and `aimeReaderHost.exe` for your game version.
 
-    Copy `chusanApp.exe` and `amdaemon.exe` to the `bin` folder of your game data. Agree
+    Copy `chusanApp.exe` and `aimeReaderHost.exe` to the `bin` folder of your game data. Agree
     to overwrite when asked.
 
 #### Installing ICFs
@@ -113,13 +113,12 @@
 
 | Patch                        | Recommendation | Description |
 |------------------------------|----------------|-------------|
-| Force shared audio mode      | Either         | Force the game to use shared mode audio output, letting you listen to other audio sources while the game is running **at the cost of audio latency.**
+| Disable shop close lockout   | Either         | Disables the shop lockout from 12 to 8PM JST. |
+| Force shared audio mode      | Either         | Force the game to use shared mode audio output, letting you listen to other audio sources while the game is running **at the cost of audio latency.** |
 | Force 2 channel audio output | Either         | Try enabling this patch if you don't get audio output at all. |
 | Disable song select timer    | Either         | Disables the song select timer. |
 | No encryption                | ON             | Disable encrypting network requests. **Required if you plan to run a local server.** |
 | No TLS                       | ON             | Disable checking if the server is `HTTPS` or not. **Required if you plan to run a local server.** |
-| Bypass 1080p monitor check   | Either         | Disable checking if the monitor is 1080p when enabling 120FPS. Enable if you cannot set your monitor to 1080p. |
-| Bypass 120Hz monitor check   | Either         | Disable checking if the monitor is **exactly 120Hz** when enabling 120FPS. Enable if you cannot set your monitor to 120Hz. |
 
 ---
 
@@ -134,7 +133,7 @@
 
     You should now have a few more files inside the folder, as highlighted:
 
-    <img width="500" src="/img/sega/chunithm/common/chusan/3_segatools_installed.png">
+    <img width="500" src="/img/sega/chunithm/common/chuni/3_segatools_installed.png">
 
 ---
 
@@ -156,9 +155,9 @@
     setting. Do not add another key.
 
     ```ini
-    [system]
-    dipsw2=1
-    dipsw2=1 ; WRONG!
+    [dns]
+    default=network.example
+    default=network.example ; WRONG!
     ```
 
 #### `[vfs]`
@@ -190,26 +189,6 @@
     - Being able to move your game folder without redefining the locations of your VFS folders.
 
     - A cleaner and easier to read segatools.ini, making spotting issues simpler.
-
-#### `[system]`
-
-!!! tip ""
-
-    - If you have a 120Hz monitor, set `dipsw2` and `dipsw3` to 0:
-
-    ```ini
-    [system]
-    dipsw2=0
-    dipsw3=0
-    ```
-
-    - If you have a 60Hz monitor, set `dipsw2` and `dipsw3` to 1:
-
-    ```ini
-    [system]
-    dipsw2=1
-    dipsw3=1
-    ```
 
 #### `[gfx]`
 
@@ -286,8 +265,6 @@
 
     <img src="/img/common/audio_16_48.png">
 
-#### Fixing OpenSSL on Intel 10th Gen and newer CPUs
-
 !!! tip ""
 
     If you have an Intel 10th Gen CPU or newer, you need to [patch amdaemon](https://patcher.two-torial.xyz/amdaemon) and enable `OpenSSL SHA crash bug fix`.
@@ -311,7 +288,7 @@
 
     Start the game by running `App\bin\start.bat`. Let the game load until it reaches the screen below.
 
-<img src="/img/sega/chunithm/common/chusan/servicemenu/0_asettings.png">
+<img src="/img/sega/chunithm/common/chuni/servicemenu/0_asettings.png">
 
 !!! tip ""
 
@@ -320,33 +297,48 @@
 
     Navigate to **ゲーム設定** (`GAME ASSIGNMENTS`, the 4th option).
 
-<img src="/img/sega/chunithm/common/chusan/servicemenu/1_gamesettings.png">
+<img src="/img/sega/chunithm/common/chuni/servicemenu/1_gamesettings.png">
 
 !!! tip ""
 
-    Select **グループ内基準機設定** (`SET STANDARD IN GROUP`, the second option)
-    and toggle this setting to **基準機** (`STANDARD`).
+    Select **配信サーバー設定** (`DISTRIBUTION SEVER SETTING`, the second option)
+    and toggle this setting to **サーバー** (`SERVER`).
 
-<img src="/img/sega/chunithm/common/chusan/servicemenu/2_reference.png">
+    Select **筐体グループ設定** (`CABINET GROUP SETTINGS`, the second option)
+    and toggle this setting to **OFF**.
+
+<img src="/img/sega/chunithm/common/chuni/servicemenu/2_reference.png">
 
 !!! tip ""
 
     Select **終了** (`EXIT`, the last option) to exit to the main service menu.
 
+    Select **はい** (`YES`) and select **閉じる**
+
+<img src="/img/sega/chunithm/common/chuni/servicemenu/3_referenceconfirm.png">
+
+<img src="/img/sega/chunithm/common/chuni/servicemenu/4_referenceconfirm.png">
+
+!!! tip ""
+
+    The game will now close.
+
 #### CLOSE SETTING
 
 !!! tip ""
 
+    Open the game back up and enter the service menu.
+
     Navigate to **閉店設定** (`CLOSE SETTING`, the 10th option).
 
-<img src="/img/sega/chunithm/common/chusan/servicemenu/3_closingsetting.png">
+<img src="/img/sega/chunithm/common/chuni/servicemenu/5_closingsetting.png">
 
 !!! tip ""
 
     Navigate to **時** (`HOUR`, the 2nd option) and use the `Service` button
     to toggle the setting until it says **全時刻** (`ALL TIME`).
 
-<img src="/img/sega/chunithm/common/chusan/servicemenu/4_alltime.png">
+<img src="/img/sega/chunithm/common/chuni/servicemenu/6_alltime.png">
 
 !!! tip ""
 
@@ -359,13 +351,15 @@
 
     If you're stuck at the `Waiting for Distribution Server` screen below, close the game and relaunch.
 
-<img src="/img/sega/chunithm/common/chusan/servicemenu/5_distserver.png">
+<img src="/img/sega/chunithm/common/chuni/servicemenu/7_distserver.png">
 
 !!! tip ""
 
     You're all done! The game should load up properly now.
 
     You can add coins using the `Coin` key (default `F3`) and card in by holding the `Enter` key.
+
+---
 
 ### Further configuration
 
