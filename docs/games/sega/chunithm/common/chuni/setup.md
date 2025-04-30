@@ -16,12 +16,11 @@
     📂bin
 	📂data
 	📂firm
-	📂license
+	📂startup
     📄firewall.cfg
     📄game.bat
-    ▶️pwGetHwinfo.ini
-    📄pxGetHwInfo.ini
-    📄system_config.json
+    ▶️oxGetHwInfo.ini
+    📄oxGetHwInfo.ini
     ```
 
 --8<-- "docs/snippets/sega/common/data_bad.md"
@@ -48,13 +47,12 @@
 
 | Patch                        | Recommendation | Description |
 |------------------------------|----------------|-------------|
-| Force shared audio mode      | Either         | Force the game to use shared mode audio output, letting you listen to other audio sources while the game is running **at the cost of audio latency.**
+| Disable shop close lockout   | Either         | Disables the shop lockout from 12 to 8PM JST. |
+| Force shared audio mode      | Either         | Force the game to use shared mode audio output, letting you listen to other audio sources while the game is running **at the cost of audio latency.** |
 | Force 2 channel audio output | Either         | Try enabling this patch if you don't get audio output at all. |
 | Disable song select timer    | Either         | Disables the song select timer. |
 | No encryption                | ON             | Disable encrypting network requests. **Required if you plan to run a local server.** |
 | No TLS                       | ON             | Disable checking if the server is `HTTPS` or not. **Required if you plan to run a local server.** |
-| Bypass 1080p monitor check   | Either         | Disable checking if the monitor is 1080p when enabling 120FPS. Enable if you cannot set your monitor to 1080p. |
-| Bypass 120 Hz monitor check   | Either         | Disable checking if the monitor is **exactly 120 Hz** when enabling 120FPS. Enable if you cannot set your monitor to 120 Hz. |
 
 ## Installing segatools
 
@@ -62,12 +60,12 @@
 
     - Head over to [segatools releases](https://gitea.tendokyu.moe/Dniel97/segatools/releases)
     and download `segatools.zip`. **Do not download the source code.**
-    - Extracting the archive should give you a few more zip files. Find **`chusan.zip`**
+    - Extracting the archive should give you a few more zip files. Find **`chuni.zip`**
     and extract it to the `App\bin` folder in your game data.
 
     You should now have a few more files inside the folder, as highlighted:
 
-    <img width="500" src="/img/sega/chunithm/common/setup/chusan/1_segatools_installed.webp">
+    <img width="500" src="/img/sega/chunithm/common/setup/chuni/1_segatools_installed.webp">
 
 ## Configuring segatools
 
@@ -76,26 +74,6 @@
 === "[vfs]"
 
 --8<-- "docs/snippets/sega/common/segatools_vfs.md"
-
-=== "[system]"
-
-    !!! tip ""
-
-        - If you have a 120 Hz monitor, set `dipsw2` and `dipsw3` to 0:
-
-        ```ini
-        [system]
-        dipsw2=0
-        dipsw3=0
-        ```
-
-        - If you have a 60 Hz monitor, set `dipsw2` and `dipsw3` to 1:
-
-        ```ini
-        [system]
-        dipsw2=1
-        dipsw3=1
-        ```
 
 === "[gfx]"
 
@@ -107,7 +85,7 @@
 
 --8<-- "docs/snippets/sega/common/online_network.md"
 
---8<-- "docs/snippets/sega/common/local_network.md"
+--8<-- "docs/snippets/sega/chunithm/only_artemis.md"
 
 ## Installing VCRedist & DirectX
 
@@ -116,10 +94,6 @@
 ## Audio properties
 
 --8<-- "docs/snippets/common/audio_properties.md"
-
-## Fixing OpenSSL on Intel 10th Gen and newer CPUs
-
---8<-- "docs/snippets/sega/common/openssl.md"
 
 ## Before playing
 
@@ -135,38 +109,50 @@
 
     Start the game by running `App\bin\start.bat`. Let the game load until it reaches the screen below.
 
-    <img src="/img/sega/chunithm/common/setup/chusan/servicemenu/0_asettings.webp">
+    <img src="/img/sega/chunithm/common/setup/chuni/servicemenu/0_asettings.webp">
 
     Press your `Test` button (default `F1`) to enter the service menu. Use the `Service` button
     (default `F2`) to navigate the menu, and `Test` button to select an option.
 
     Navigate to **ゲーム設定** (`GAME ASSIGNMENTS`, the fourth option).
 
-    <img src="/img/sega/chunithm/common/setup/chusan/servicemenu/1_gamesettings.webp">
+    <img src="/img/sega/chunithm/common/setup/chuni/servicemenu/1_gamesettings.webp">
 
-    Select **グループ内基準機設定** (`SET STANDARD IN GROUP`, the second option)
-    and toggle this setting to **基準機** (`STANDARD`).
+    Select **配信サーバー設定** (`DISTRIBUTION SEVER SETTING`, the first option)
+    and toggle this setting to **サーバー** (`SERVER`).
 
-    <img src="/img/sega/chunithm/common/setup/chusan/servicemenu/2_reference.webp">
+    Select **筐体グループ設定** (`CABINET GROUP SETTINGS`, the second option)
+    and toggle this setting to **OFF**.
+
+    <img src="/img/sega/chunithm/common/setup/chuni/servicemenu/2_reference.webp">
 
     Select **終了** (`EXIT`, the last option) to exit to the main service menu.
 
+    Select **はい** (`YES`) and select **閉じる**
+
+    <img src="/img/sega/chunithm/common/setup/chuni/servicemenu/3_referenceconfirm.webp">
+
+    <img src="/img/sega/chunithm/common/setup/chuni/servicemenu/4_referenceconfirm.webp">
+
+    After this, your game will close. Open it back up, and enter the service menu again.
+
     Navigate to **閉店設定** (`CLOSE SETTING`, the tenth option).
 
-    <img src="/img/sega/chunithm/common/setup/chusan/servicemenu/3_closingsetting.webp">
+    <img src="/img/sega/chunithm/common/setup/chuni/servicemenu/5_closingsetting.webp">
 
     Navigate to **時** (`HOUR`, the second option) and use the `Service` button
     to toggle the setting until it says **全時刻** (`ALL TIME`).
 
-    <img src="/img/sega/chunithm/common/setup/chusan/servicemenu/4_alltime.webp">
+    <img src="/img/sega/chunithm/common/setup/chuni/servicemenu/6_alltime.webp">
 
     Select **終了** (`EXIT`, the last option) to exit to the main service menu, then select **終了**
     (also the last option) in the main menu to exit the service menu.
+
 !!! tip ""
 
     If you're stuck at the `Waiting for Distribution Server` screen below, close the game and relaunch.
 
-    <img src="/img/sega/chunithm/common/setup/chusan/servicemenu/5_distserver.webp">
+    <img src="/img/sega/chunithm/common/setup/chuni/servicemenu/7_distserver.webp">
 
 --8<-- "docs/snippets/sega/common/finish.md"
 
