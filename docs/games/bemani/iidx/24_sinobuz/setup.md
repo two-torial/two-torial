@@ -205,7 +205,7 @@
 
 	If it's your first time running the game, you'll immediately be greeted with this screen.
 
-<img src="/img/bemani/iidx/common/firstlaunch/1.png">
+<img src="/img/bemani/iidx/common/oldhd/firstlaunch/1.png">
 
 #### CLOCK ERROR
 
@@ -215,13 +215,13 @@
 
 	Next, you'll get another error.
 
-<img src="/img/bemani/iidx/common/firstlaunch/2.png">
+<img src="/img/bemani/iidx/common/oldhd/firstlaunch/2.png">
 
 !!! tip ""
 
 	Let the game run for a bit until the monitor check is complete and you should be taken to the service menu.
 
-<img src="/img/bemani/iidx/common/firstlaunch/3.png">
+<img src="/img/bemani/iidx/common/oldhd/firstlaunch/3.png">
 
 !!! tip ""
 
@@ -232,14 +232,14 @@
   
 	Start by going up to `CLOCK`.
 
-<img src="/img/bemani/iidx/common/firstlaunch/4.png">
+<img src="/img/bemani/iidx/common/oldhd/firstlaunch/4.png">
 
 !!! tip ""
 
 	Here, simply select `SAVE AND EXIT` and the clock will be set.
 
 	You'll be back in the service menu.
-#### GAME OPTIONS
+#### DEFINITION TYPE
 
 !!! tip ""
 
@@ -251,11 +251,13 @@
 
 	`HD*` adds `+1.0` offset in-game, while `HD` doesn't.
 
-<img src="/img/bemani/iidx/common/firstlaunch/gameoptions/1.png">
+<img src="/img/bemani/iidx/common/oldhd/firstlaunch/5.png">
 
 !!! tip ""
 
 	Once done selecting, select `YES` then `SAVE AND EXIT`.
+
+<img src="/img/bemani/iidx/common/oldhd/firstlaunch/6.png">
 
 #### NETWORK OPTIONS
 
@@ -263,8 +265,8 @@
 
 	Go to `NETWORK OPTIONS` then `SHOP NAME SETTING`.
 
-<img src="/img/bemani/iidx/common/firstlaunch/5.png">
-<img src="/img/bemani/iidx/common/firstlaunch/6.png">
+<img src="/img/bemani/iidx/common/oldhd/firstlaunch/7.png">
+<img src="/img/bemani/iidx/common/oldhd/firstlaunch/8.png">
 
 !!! tip ""
 
@@ -273,9 +275,8 @@
 	- Name your shop to whatever you'd like. Instructions on how to navigate are at the bottom of the screen.
 	- Go to `EXIT` then `SAVE AND EXIT`.
 
-
-<img src="/img/bemani/iidx/common/firstlaunch/7.png">
-<img src="/img/bemani/iidx/common/firstlaunch/3.png">
+<img src="/img/bemani/iidx/common/oldhd/firstlaunch/9.png">
+<img src="/img/bemani/iidx/common/oldhd/firstlaunch/10.png">
 
 !!! tip ""
 
@@ -285,8 +286,6 @@
 
 ---
 ### Carding in
-
-!!! info "Before carding in, you have the option of changing the game's language by pressing your `EFFECT` key."
 
 !!! tip ""
 	To card into the game:

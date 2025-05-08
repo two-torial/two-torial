@@ -3,12 +3,6 @@
 
 !!! danger "Please make sure you downloaded your data from an appropriate source.<br>This guide is unable to troubleshoot any problems related to bad or poorly managed data."
 
-### Changing the game's language
-
-!!! tip ""
-
-    This is done in-game before card-in by pressing your `EFFECT` key.
-
 ---
 ### More about ea3-config.xml
 
