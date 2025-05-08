@@ -53,11 +53,7 @@
 
 	- **Maintenance**: `Service, Test`
 	- **P1 Game buttons**: `1 to 7, Start, EFFECT, VEFX` 
-	- **P1 Keypad**: `Keypad Insert Card` 
-
-	**Only if** you're using LDJ:
-
-	- **P1 Keypad**: `1 to 9`
+	- **P1 Keypad**: `1 to 9, Keypad Insert Card` 
 
 	**Only if** you're playing using a keyboard:
 
