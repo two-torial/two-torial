@@ -1,53 +1,38 @@
 # beatmania IIDX 24 SINOBUZ
 <img class="header-logo" src="/img/bemani/iidx/24_sinobuz/logo.png">
 
-### Hardware Specs
+!!! danger "Please make sure you downloaded your data from an appropriate source.<br>This guide is unable to troubleshoot any problems related to bad or poorly managed data."
 
-!!! danger "Warning:"
-	The specs may not be correct. If something isn't correct or it's fine, [let me know](https://github.com/two-torial/two-torial/issues/1).
-
-!!! tip ""
-	Bemani PC (ADE-704A)
-
-	Konami (2012-2017)
-
-	This board has a E4690 Radeon MXM card.
-
-	CPU: Intel Celeron B810
-
-	GPU: AMD Radeon E4690
-	
-	NIC: Realtek RTL8168/8111
-	
-	Chipset: Intel HM65
-
-	RAM: 4 GB
-
-	OS: Windows XP Embedded with Service Pack 2
-	
-### My Game Is Running Slow/Lagging
+---
+### I'm having performance issues!
 
 !!! tip ""
-	Make sure you at least meet the above hardware requirements, try to eliminate any unnecessary background processes during play as well.
 
-### My Game Is Running Crazy Fast!
+    If you're having performance issues of some kind, spice2x's [PC optimization](https://github.com/spice2x/spice2x.github.io/wiki/PC-optimization) guide is worth looking at.
 
-!!! tip ""
-	The most common reason for this is the game is running over its required 60hz, the game is hardcoded to run at 60hz and this cannot be changed. To solve this, set your monitor's refresh rate to 60hz. You can always check on the game's monitor check if the game is fluctuating around 59.94hz, the NTSC standard. If it's not around there and your monitor is indeed set to 60hz, consider trying a different panel or forcing vsync on in your GPU's graphics settings.
-
-### Occasional Game Stutters During Play
+---
+### My game is running slow/fast, After finishing a song the game gets stuck loading!
 
 !!! tip ""
-	Sometimes you might have occasional stutters during play, while solutions can vary wildly from general performance issues to bad hard drives, try adding SpiceTools `-realtime` parameter to your .bat file.
 
-### HD and HD*
+	The most common reason for this is the game is running over its required refresh rate.  
+	To solve this, make sure v-sync isn't disabled in your graphics card's settings.
+
+	For NVIDIA users, enable  `NVIDIA profile optimization (-nvprofile)` in the `Options` tab. 
+
+---
+### How do I set my offset?
 
 !!! tip ""
-	This version of IIDX has two HD mode options, `HD` and `HD*` neither is inherently better than the other, the only difference is HD* is an additional + 1.0 offset in-game, the official reasoning is to account for a different set of monitors on arcade cabs. In beatmania IIDX 26 ROOTAGE this option is removed entirely and only HD is present.
 
-### Which Offset Is Which?
+	Play through a chart you're comfortable with.
+
+	If you're getting too many `Fast`, increase your offset `(+)`.   
+	If you're getting too many `Slow`, decrease your offset `(-)`.
+
+---
+### My inputs aren't working / I can't get past error messages!
 
 !!! tip ""
-	If you're getting too many fasts, increase your offset (+). If you're getting too many slows, decrease your offset (-).
 
-
+	If **none** of your inputs are working, try updating [spice2x](https://spice2x.github.io/), you can also try using the beta versions if the stable releases don't work for you.
