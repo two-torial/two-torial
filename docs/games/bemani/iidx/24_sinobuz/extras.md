@@ -27,13 +27,6 @@
     <model __type="str">LDJ</model>
     ```
 
-	The following line determines the game's region.
-	^^**You should never change this**^^. As you can change the language in-game.
-
-	```xml
-	<dest __type="str">J</dest>
-	```
-
     ^^**You should never change this**^^. It should always say `A` for SINOBUZ.
 
     ```xml
