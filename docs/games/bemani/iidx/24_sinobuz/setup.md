@@ -25,11 +25,11 @@
 	**This also means your data was tampered with and we strongly recommend getting new data from somewhere else.**
 
 ---
-### Installing Spice2x
+### Installing spice2x
 
 !!! info ""
 
-	If you already have Spice2x installed, make sure it is up to date!
+	If you already have spice2x installed, make sure it is up to date!
 
 !!! tip ""
 
@@ -39,7 +39,7 @@
 	<img src="/img/bemani/iidx/24_sinobuz/spice2xdata.png">
 
 ---
-### Configuring Spice2x
+### Configuring spice2x
 
 !!! info "Open `spicecfg.exe`, each following sub-section corresponds to a tab at the top."
 
@@ -99,7 +99,7 @@
 
 #### Patches
 
-!!! info "Go through the [Spice2x Patching](/extras/patchsp2x.md) page to import patches."
+!!! info "Go through the [spice2x Patching](/extras/patchsp2x.md) page to import patches."
 
 !!! danger "To prevent issues, avoid patching things you don't need or understand."
 

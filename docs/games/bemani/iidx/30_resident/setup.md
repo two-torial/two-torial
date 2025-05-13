@@ -45,7 +45,7 @@
 	If extra files are present next to your folders, such as executables, scripts, etc.. **remove them**.  
 	**This also means your data was tampered with and we strongly recommend getting new data from somewhere else.**
 
-!!! info "If you don't need to update your data, you can skip over to the [Installing Spice2x](#installing-spice2x) section."
+!!! info "If you don't need to update your data, you can skip over to the [Installing spice2x](#installing-spice2x) section."
 
 ---
 ### Updating data
@@ -82,11 +82,11 @@
 	Now save the file.
 
 ---
-### Installing Spice2x
+### Installing spice2x
 
 !!! info ""
 
-	If you already have Spice2x installed, make sure it is up to date!
+	If you already have spice2x installed, make sure it is up to date!
 
 !!! tip ""
 
@@ -95,7 +95,7 @@
   
 	<img src="/img/bemani/iidx/common/setup/spice2x64data.png">
 
-### Configuring Spice2x
+### Configuring spice2x
 
 !!! info "Open `spicecfg.exe`, each following sub-section corresponds to a tab at the top."
 
@@ -159,11 +159,7 @@
 
 #### Patches
 
-!!! info "As of writing, web patching is recommended for IIDX 30 Resident as opposed to spice2x patching."
-
-	Spice2x patching is fairly new and the game's latest releases are prioritized for conversion.
-
-	For now use [Mon's BemaniPatcher](https://mon.im/bemanipatcher/iidx30resident.html), more info can be found in the [web patching](/extras/patchweb.md) page.
+!!! info "Go through the [spice2x Patching](/extras/patchsp2x.md) page to import patches."
 
 !!! danger "As a general rule of thumb, if you're not sure what a patch does or you're not absolutely certain you need it, leave it alone, regardless of recommendations below."
 

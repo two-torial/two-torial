@@ -31,7 +31,7 @@
 	If extra files are present next to your folders, such as executables, scripts, etc.. **remove them**.  
 	**This also means your data was tampered with and we strongly recommend getting new data from somewhere else.**
 
-!!! info "If you don't need to update your data, you can skip over to the [Installing Spice2x](#installing-spice2x) section."
+!!! info "If you don't need to update your data, you can skip over to the [Installing spice2x](#installing-spice2x) section."
 
 ---
 ### Updating data
@@ -66,11 +66,11 @@
 	- If it instead corresponds to your pre-patch datecode, replace it with the new one and save the file.
 
 ---
-### Installing Spice2x
+### Installing spice2x
 
 !!! info ""
 
-	If you already have Spice2x installed, make sure it is up to date!
+	If you already have spice2x installed, make sure it is up to date!
 
 !!! tip ""
 
@@ -80,7 +80,7 @@
 	<img src="/img/bemani/popn/common/setup/spice2x32data.png">
 
 
-### Configuring Spice2x
+### Configuring spice2x
 
 !!! info "Open `spicecfg.exe`, each following sub-section corresponds to a tab at the top."
 
@@ -124,7 +124,7 @@
 
 #### Patches
 
-!!! info "Go through the [Spice2x Patching](/extras/patchsp2x.md) page to import patches."
+!!! info "Go through the [spice2x Patching](/extras/patchsp2x.md) page to import patches."
 
 !!! danger "To prevent issues, avoid patching things you don't need or understand."
 

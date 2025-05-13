@@ -205,7 +205,7 @@ nav:
     - BEMANI: "errorcodes/bemani.md"
     - SEGA: "errorcodes/sega.md"
   - Game Patching:
-    - "Using Spice2x": "extras/patchsp2x.md"
+    - "Using spice2x": "extras/patchsp2x.md"
     - "Using Web": "extras/patchweb.md"
     - "Manually": "extras/hexguide.md"
   - Extras:

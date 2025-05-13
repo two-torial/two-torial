@@ -2,11 +2,11 @@
 
 !!! info "Known web patchers: [Resources](/resources.md#web-patchers)"
 
-!!! warning "For BEMANI games consider [Spice2x Patching](patchsp2x.md)"
+!!! warning "For BEMANI games consider [spice2x Patching](patchsp2x.md)"
 
 	**This patching method is outdated for BEMANI games.**
 
-	However spice2x patching is still very new and might not support your game yet, in this case follow this guide.
+	However if your game isn't supported, follow this guide.
 
 !!! danger "Before proceeding"
 
