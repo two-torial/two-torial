@@ -45,7 +45,6 @@
 	- [CPI](https://cpi.makecir.com/) - (JP) Clear Power Indicator for SP☆12, also proposes recommendations based on your plays
 	- [sp12](https://sp12.iidx.app/) - IIDX SP☆12 reference site/difficulty tier list
 	- [beatmania.app](https://beatmania.app/!/) - IIDX INFINITAS difficulty tier list
-	- [Statistik](http://statistik.benhgreen.com/) - IIDX difficulty tier list
 	- [atwiki](https://w.atwiki.jp/bemani2sp/sp/) - IIDX wiki in JP (includes tier lists)
 	- [textage.cc](https://textage.cc/score/) - Chart viewing resource
 	- [DJ DAO IIDX troubleshooting guide](https://github.com/minsang-github/rhythmgame-docs/wiki/DJ-DAO-IIDX-controller-troubleshooting) - Step-by-step guide for FPS, FP7, PEE, RES, RED controllers.
