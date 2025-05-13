@@ -1,4 +1,4 @@
-# Spice2x DLL Patching
+# spice2x DLL Patching
 
 !!! info "TWO-TORIAL Patcher"
 

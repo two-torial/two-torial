@@ -1,11 +1,11 @@
 # Other Resources
 
 ---
-### Spice2x Patchers
-!!! tip "See [Spice2x Patching](./extras/patchsp2x.md)."
+### spice2x Patchers
+!!! tip "See [spice2x Patching](./extras/patchsp2x.md)."
 
 	- **TWO-TORIAL** - `https://sp2x.two-torial.xyz/` - **Our [open-source](https://github.com/two-torial/sp2xpatcher) patcher for spice2x compatible games.**
-	- **DJTrackers** - `https://djtrackers.com/bemanipatcher/2x` - **Recommended for anything we don't yet support.**
+	- **DJTrackers** - `https://djtrackers.com/bemanipatcher/2x` - **Alternative patcher for anything we don't support.**
 
 ---
 ### Web Patchers
@@ -20,7 +20,7 @@
 
 !!! tip ""
 
-	- [Spice2x Wiki](https://github.com/spice2x/spice2x.github.io/wiki) - The best resource for spice2x
+	- [spice2x Wiki](https://github.com/spice2x/spice2x.github.io/wiki) - The best resource for spice2x
 	- [Bemaniwiki](https://bemaniwiki.com/) - A bemani wiki written in japanese
 	- [wikiwiki](https://wikiwiki.jp/) - A japanese game wiki, good for comparing against SilentBlue
 	- [Namuwiki](https://namu.wiki/) - A korean wiki for bemani and more 

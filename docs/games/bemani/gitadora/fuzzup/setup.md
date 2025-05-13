@@ -4,11 +4,11 @@
 !!! danger "Please make sure you downloaded your data from an appropriate source.<br>This guide is unable to troubleshoot any problems related to bad or poorly managed data."
 
 ---
-### Installing Spice2x
+### Installing spice2x
 
 !!! info ""
 
-	If you already have Spice2x installed, make sure it is up to date!
+	If you already have spice2x installed, make sure it is up to date!
 
 !!! tip ""
 
@@ -43,7 +43,7 @@
 
 #### Patches
 
-!!! info "Go through the [Spice2x Patching](/extras/patchsp2x.md) page to import patches."
+!!! info "Go through the [spice2x Patching](/extras/patchsp2x.md) page to import patches."
 
 !!! danger "To prevent issues, avoid patching things you don't need or understand."
 
