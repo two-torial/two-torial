@@ -1,10 +1,10 @@
 # Other Resources
 
 ---
-### Spice2x Patchers
-!!! tip "See [Spice2x Patching](./extras/patchsp2x.md)."
+### spice2x Patchers
+!!! tip "See [spice2x Patching](./extras/patchsp2x.md)."
 
-	- **TWO-TORIAL** - `https://sp2x.two-torial.xyz/` - **Our [open-source](https://github.com/two-torial/sp2xpatcher) patcher for Spice2x compatible games.**
+	- **TWO-TORIAL** - `https://sp2x.two-torial.xyz/` - **Our [open-source](https://github.com/two-torial/sp2xpatcher) patcher for spice2x compatible games.**
 	- **DJTrackers** - `https://djtrackers.com/bemanipatcher/2x` - **Recommended for anything we don't yet support. Our IIDX patches are based off of theirs for the most part.**
 
 ---
@@ -12,7 +12,7 @@
 
 !!! tip "See [Web Patching](./extras/patchweb.md)."
 
-	- [TWO-TORIAL](https://patcher.two-torial.xyz/) - **Our [open-source](https://github.com/two-torial/webpatcher) web patcher** *(based on mon's)* **for games incompatible with Spice2x.** Also integrates Scribbler's patches for chunithm.
+	- [TWO-TORIAL](https://patcher.two-torial.xyz/) - **Our [open-source](https://github.com/two-torial/webpatcher) web patcher** *(based on mon's)* **for games incompatible with spice2x.** Also integrates Scribbler's patches for chunithm.
 	- [mon's](https://mon.im/bemanipatcher/) - The longest lasting web patcher, supports a variety of **n-1 and older** games.
 	- [Scribbler's Chuni Only Patcher](https://scrib-bler.github.io/patcher/) - Has every version of **Chunithm** available.
 
@@ -21,7 +21,7 @@
 
 !!! tip ""
 
-	- [Spice2x Wiki](https://github.com/spice2x/spice2x.github.io/wiki) - The best resource for Spice2x
+	- [spice2x Wiki](https://github.com/spice2x/spice2x.github.io/wiki) - The best resource for spice2x
 	- [Bemaniwiki](https://bemaniwiki.com/) - A bemani wiki written in japanese
 	- [wikiwiki](https://wikiwiki.jp/) - A japanese game wiki, good for comparing against SilentBlue
 	- [Namuwiki](https://namu.wiki/) - A korean wiki for bemani and more 

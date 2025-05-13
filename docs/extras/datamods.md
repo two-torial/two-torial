@@ -110,4 +110,4 @@
 
 	You also need to patch your game's DLL with the `Omnimix` patch.
 	
-	For more information on how to patch your game, head over to the [Spice2x Patching](/extras/patchsp2x.md) page!
+	For more information on how to patch your game, head over to the [spice2x Patching](/extras/patchsp2x.md) page!
