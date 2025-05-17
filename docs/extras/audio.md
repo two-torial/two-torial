@@ -19,89 +19,108 @@
 
 ### TL;DR
 
-| 	 	                 | DirectSound 		  | WASAPI Shared      | WASAPI Exclusive  | ASIO                          |
+| Mode                   | DirectSound        | WASAPI Shared      | WASAPI Exclusive  | ASIO                          |
 | ---------------------- | :----------------: | :----------------: | :---------------: | :--------------------------:  |
 | Latency                | Highest            | Medium             | Low               | Lowest when setup correctly   |
-| Compatibility          | Highest 			  | High               | High              | Low                           |
-| Multiple audio streams | :material-check:	  | :material-check:   | :material-close:  | with extra steps 			   |
+| Compatibility          | Highest            | High               | High              | Low                           |
+| Multiple audio streams | :material-check:   | :material-check:   | :material-close:  | with extra steps              |
 | Audio capture          | :material-check:   | :material-check:   | :material-close:  | with extra steps              |
+| Recommended for        | Legacy games       | Most users         | Low latency needs | Lower latency needs           |
 
 ### DirectSound
 
 !!! tip ""
 
-	Very similar to WASAPI Shared, with higher latency and compatibility. Typically used by older games.
+    The legacy Windows audio system, still used by older games.
 
-	✔️ **Pros**:
+    ✔️ **Pros**:
 
-	  - Multiple audio sources can be sent to one audio device.
-	  - Audio can be captured using OBS or Discord for example.
-	  - Very high compatibility.
+      - Extremely high compatibility, especially with older games
+      - Multiple audio sources can play simultaneously
+      - Easy audio capture with OBS, Discord etc.
+      - Simple to set up and use
 
-	❌ **Cons**:
+    ❌ **Cons**:
 
-	  - Higher latency than WASAPI Shared.
-	  - Mostly used by older games.
+      - Highest latency of all modes
+      - Being phased out in favor of WASAPI
+      - Limited audio quality compared to modern modes
 
 ### WASAPI Shared
 
 !!! tip ""
 
-	This is the standard for Windows. Allows **all** applications to have **partial** control of your audio device.
+    The modern Windows standard audio mode. Recommended for most users.
 
-	✔️ **Pros**:
+    ✔️ **Pros**:
 
-	  - Multiple audio sources can be sent to one audio device.
-	  - Audio can be captured using OBS or Discord for example.
-	  - Greater compatibility as this is the Windows standard.
+      - Works with most modern games and applications
+      - Multiple audio sources can play simultaneously
+      - Easy audio capture with OBS, Discord etc.
+      - Good balance of latency and compatibility
 
-	❌ **Cons**:
+    ❌ **Cons**:
 
-	  - Higher latency than WASAPI Exclusive.
-	  - Not all games support Shared audio. Some WASAPI Exclusive games can be configured or patched to work, some can't.
+      - Higher latency than Exclusive mode
+      - Some games may require patches/configuration for Shared mode
 
-	This is the **recommended mode to use for most games**, unless its latency is not acceptable to you.
-	
-	**Note**: there are ways to lower latency slightly, for example with spice2x's `-lowlatencysharedaudio` setting.
+    💡 **Pro tip**: Use spice2x's `-lowlatencysharedaudio` setting to reduce latency.
 
 ### WASAPI Exclusive
 
-??? warning "Your audio device must support this and be configured to allow being taken over by applications."
+??? warning "Hardware compatibility notice"
 
-	<img src="/img/common/audio_exclusive.png">
+    Your audio device must explicitly support exclusive mode. Check your audio settings:
+
+    <img src="/img/common/audio_exclusive.png">
 
 !!! tip ""
 
-	Allows **one** application to have **exclusive** control of your audio device.
+    Gives one application complete control over the audio device.
 
-	✔️ **Pros**:
+    ✔️ **Pros**:
 
-	  - Lower latency than WASAPI Shared.
+      - Significantly lower latency than Shared mode
+      - More consistent audio processing than Shared mode
+      - Better for rhythm games if you don't mind the cons
 
-	❌ **Cons**:
+    ❌ **Cons**:
 
-	  - Can't hear applications other than the one who took ownership of your audio device.
-	  - Can't capture audio using OBS or Discord.
+      - Only one application can output audio at a time
+      - No audio capture without special hardware/software
+      - Can cause system-wide audio interruptions
 
 ### ASIO
 
+!!! warning "Hardware requirements"
+
+    For optimal results, use a dedicated ASIO-compatible audio interface. Software solutions like [ASIO4ALL](https://asio4all.org/) or [FlexASIO](https://github.com/dechamps/FlexASIO) exist but have limitations:
+
+    - Add processing overhead
+    - May not improve latency over WASAPI Exclusive
+    - Best used when:
+        - Games are incompatible with your audio device
+        - ASIO is the only supported mode
+        - You need specific ASIO features
+
 !!! tip ""
 
-	ASIO is a driver designed for audio interfaces, typically used by musicians and audio professionals.
+    Professional audio standard designed for audio interfaces and music production.
 
-	It skips Windows audio overhead by letting applications communicate with compatible audio interfaces directly.
+    ✔️ **Pros**:
 
-	✔️ **Pros**:
+      - Lowest possible latency when properly configured
+      - Direct hardware control
+      - Precise buffer size adjustment
+      - Professional-grade audio quality
+      - Bypass Windows audio stack
+	  - Capture is possible when routed through VoiceMeeter at the cost of very little added latency
 
-	  - Gives you direct control over buffer size.
-	  - *Can* (but won't always) allow for lower latency than WASAPI exclusive.
+    ❌ **Cons**:
 
-	❌ **Cons**:
-
-	  - Requires an ASIO compatible audio interface.
-	  - Requires extra setup for most games.
-	  - Most interfaces won't allow Shared audio playback, meaning the ASIO driver can only be used by one application at a time.
-	  - Can't capture audio using OBS or Discord by default, workarounds exist at the cost of slightly higher latency.
-	  - Gets unstable as you lower the buffer size to achieve lower latency, **your results will greatly vary depending on how powerful and optimized your system is**.
-
-	**Note**: Yes, ASIO can be used without specialized hardware, using software like ASIO4ALL and FlexASIO. However the extra setup and resulting latency are typically not worth the hassle. Seriously consider using WASAPI instead.
+      - Requires specialized hardware for best results
+      - Complex setup process
+      - Usually limited to one application at a time
+      - No direct audio capture support
+      - System performance heavily impacts stability
+      - May require significant tweaking
