@@ -209,15 +209,14 @@ nav:
     - "Using Web": "extras/patchweb.md"
     - "Manually": "extras/hexguide.md"
   - Extras:
-    - "Data Mods & Omnimix": "extras/datamods.md"
-    - "Asphyxia Core": "extras/asphyxia.md"
-    - "WASAPI & ASIO": "extras/audio.md"
-    - "Exclusive Audio Workarounds": "extras/streamaudio.md"
-    - "Common ASCs & Vendors": "extras/ascs.md"
     - "Arcade Parts": "extras/parts.md"
-    - "Touch Monitors & Polling Rates": "extras/pollingrates.md"
+    - "Asphyxia": "extras/asphyxia.md"
+    - "Audio": "extras/audio.md"
+    - "Common ASCs & Vendors": "extras/ascs.md"
+    - "Data Mods & Omnimix": "extras/datamods.md"
     - "SoftEther VPN for Cab-to-Cab": "extras/softether.md"
-    - "Modding Unity-based games": "extras/unity.md"
+    - "Touch Monitors & Polling Rates": "extras/pollingrates.md"
+    - "Unity Modding": "extras/unity.md"
   - Other Resources: resources.md
 
 not_in_nav: |
