@@ -124,7 +124,7 @@
 
     - Inside `config.toml`, set `wasapi_shared =` to `false`                             
 
-    To use ASIO in combination with ASIO:
+    To use ASIO:
 
     - Inside `config.toml`, set `wasapi_shared =` to `false` and set `asio =` to `true`.
     - Change `asio_driver =` to `asio_driver = "<Your ASIO Driver Name>"`
