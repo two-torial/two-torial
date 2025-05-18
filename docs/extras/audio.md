@@ -127,9 +127,11 @@
 
 ## ASIO Recording/Streaming
 
-!!! info "This guide assumes you have ASIO working with your game and want to record or stream gameplay with audio."
+!!! info "This guide assumes your game already uses ASIO and you want to record/stream with audio."
 
-!!! tip "Required Software"
+### Required software
+
+!!! tip ""
 
     ASIO bypasses the Windows audio system that recording/streaming applications use, so you'll need additional software to route the audio:
 
@@ -138,64 +140,85 @@
 
     Install both applications before continuing.
 
-!!! tip "Game Configuration"
+### Game configuration
+
+!!! tip ""
 
     Set your game's ASIO output device to `Voicemeeter Virtual ASIO`:
 
     - For spice2x games: Look for settings like `-iidxasio` or `-sdvxasio` at the top of spicecfg's `Options` tab
     - For other games: The location depends on your setup, but look for ASIO device selection
 
-??? tip "Voicemeeter Setup"
+### Voicemeeter configuration
 
-    Configure ASIO output:
+!!! tip ""
 
-    1. Click the `A1` button in the top right
-    2. Select `ASIO (Steinberg)` from the dropdown
-    3. Choose your ASIO device
+    First, configure recommended settings:
 
-    Configure audio routing:
-
-    1. Find the 4th column in the interface
-    2. Enable only `A1` and `B1` toggles
-
-    <img src="/img/extras/audio/voicemeeter_outputs.png">
-
-    Recommended settings (Menu > Options):
+    1. Click `Menu` in the top right
+    2. Enable settings shown below to ensure Voicemeeter:
+        - Starts with Windows
+        - Auto-recovers from audio issues
 
     <img src="/img/extras/audio/voicemeeter_menuopts.png">
 
-    These settings ensure Voicemeeter starts with Windows and auto-recovers from audio issues.
+    Next, set up ASIO output:
 
-??? tip "OBS Studio Setup"
+    1. Click the `A1` button in the top right
+    2. Select the `ASIO (Steinberg)` tab 
+    3. Choose your ASIO device
 
-    1. Complete the initial configuration wizard if this is a new installation
+    Finally, configure audio routing:
 
-    2. Add game audio:
-        - Add an Audio Input Capture source
+    1. Locate the 4th column in the interface
+    2. Enable only the `A1` and `B1` toggles as shown:
+
+    <img src="/img/extras/audio/voicemeeter_outputs.png">
+
+### OBS Studio Configuration
+
+!!! tip ""
+
+    1. Run OBS Studio's initial configuration wizard if you haven't already
+
+    2. Set up audio capture:
+        - In the Sources panel, click `+` and select `Audio Input Capture`
         <img src="/img/extras/audio/obs_inputcapture.png">
-        - Select `B1` as the device
+        - For the Device, select `VoiceMeeter Output (B1)`
         <img src="/img/extras/audio/obs_capturedevice.png">
 
-    3. Configure audio monitoring:
-        - Open Advanced Audio Properties (gear icon in audio mixer)
-        - Set Audio Input Capture to `Monitor and Output`
+    3. Enable audio monitoring:
+        - Click the gear icon in the Audio Mixer panel
+        - Find your Audio Input Capture source
+        - Change `Audio Monitoring` to `Monitor and Output`
         <img src="/img/extras/audio/obs_monitorandoutput.png">
 
-    4. Configure audio settings:
-        - Open Settings (`File` > `Settings`)
+    4. Configure OBS audio settings:
+        - Go to `File` > `Settings`
         <img src="/img/extras/audio/obs_settings.png">
         - In the `Audio` tab:
-            - Match sample rate with your game/ASIO settings
-            - Set monitoring device to any unused "Voicemeeter In" (1-5)
+            - Set `Sample Rate` to match your ASIO/game settings
+            - For `Monitoring Device`, select any unused input such as a `VoiceMeeter In`
         <img src="/img/extras/audio/obs_audiosettings.png">
-        - Click `Apply` then `OK`
+        - Save changes with `Apply` and `OK`
 
-    5. Add game video capture:
-        - Add either `Display Capture` or `Game Capture` source
-        - Configure OBS video/output settings as needed
+    5. Add video capture:
+        - In Sources, add either `Display Capture` or `Game Capture`
+        - Adjust OBS video and output settings as needed
 
-    **Now nearly everything should be ready to go!**
+### Using this setup
 
-    - For Discord: Right-click OBS preview > `Fullscreen Projector (Preview)` > Share the projector window in Discord
-    - For recording: Click `Start Recording`
-    - For streaming: Configure unlisted stream settings > Click `Start Streaming`
+!!! tip ""
+
+    First, ensure Voicemeeter and OBS Studio are running.
+
+    Next, configure your desired OBS output and video settings.
+
+    - For streaming and recording, now use OBS as normal.
+
+    - For Discord sharing:
+        - Right-click the OBS preview window
+        - Select `Fullscreen Projector (Preview)` 
+        - Choose which monitor to show the projector on
+        - Press Alt+Tab to switch away from the projector window
+        - In Discord, share the projector window
