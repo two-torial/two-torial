@@ -16,7 +16,7 @@
         <link rel="prev" href="../asphyxia/">
       
       
-        <link rel="next" href="../streamaudio/">
+        <link rel="next" href="../ascs/">
       
       
       <link rel="icon" href="../../img/favicon.ico">
@@ -24,7 +24,7 @@
     
     
       
-        <title>WASAPI & ASIO - two-torial.xyz</title>
+        <title>Audio - two-torial.xyz</title>
       
     
     
@@ -91,7 +91,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#what-is-wasapi-asio" class="md-skip">
+        <a href="#audio" class="md-skip">
           Skip to content
         </a>
       
@@ -126,7 +126,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              WASAPI & ASIO
+              Audio
             
           </span>
         </div>
@@ -6596,12 +6596,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../datamods/" class="md-nav__link">
+      <a href="../parts/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Data Mods & Omnimix
+    Arcade Parts
     
   </span>
   
@@ -6624,7 +6624,7 @@
   
   
   <span class="md-ellipsis">
-    Asphyxia Core
+    Asphyxia
     
   </span>
   
@@ -6656,7 +6656,7 @@
   
   
   <span class="md-ellipsis">
-    WASAPI & ASIO
+    Audio
     
   </span>
   
@@ -6669,7 +6669,7 @@
   
   
   <span class="md-ellipsis">
-    WASAPI & ASIO
+    Audio
     
   </span>
   
@@ -6692,6 +6692,34 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#audio-modes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Audio modes
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Audio modes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tldr" class="md-nav__link">
+    <span class="md-ellipsis">
+      TL;DR
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#directsound" class="md-nav__link">
+    <span class="md-ellipsis">
+      DirectSound
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#wasapi-shared" class="md-nav__link">
     <span class="md-ellipsis">
       WASAPI Shared
@@ -6699,8 +6727,8 @@
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#wasapi-exclusive" class="md-nav__link">
     <span class="md-ellipsis">
       WASAPI Exclusive
@@ -6708,8 +6736,8 @@
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#asio" class="md-nav__link">
     <span class="md-ellipsis">
       ASIO
@@ -6717,34 +6745,76 @@
   </a>
   
 </li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#asio-recordingstreaming" class="md-nav__link">
+    <span class="md-ellipsis">
+      ASIO Recording/Streaming
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="ASIO Recording/Streaming">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#required-software" class="md-nav__link">
+    <span class="md-ellipsis">
+      Required software
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#game-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Game configuration
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#voicemeeter-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Voicemeeter configuration
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#obs-studio-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      OBS Studio Configuration
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#using-this-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      Using this setup
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
       
     </ul>
   
 </nav>
       
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../streamaudio/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Exclusive Audio Workarounds
-    
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -6780,35 +6850,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../parts/" class="md-nav__link">
+      <a href="../datamods/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Arcade Parts
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../pollingrates/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Touch Monitors & Polling Rates
+    Data Mods & Omnimix
     
   </span>
   
@@ -6849,12 +6896,35 @@
   
   
     <li class="md-nav__item">
+      <a href="../pollingrates/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Touch Monitors & Polling Rates
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../unity/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Modding Unity-based games
+    Unity Modding
     
   </span>
   
@@ -6921,6 +6991,34 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#audio-modes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Audio modes
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Audio modes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tldr" class="md-nav__link">
+    <span class="md-ellipsis">
+      TL;DR
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#directsound" class="md-nav__link">
+    <span class="md-ellipsis">
+      DirectSound
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#wasapi-shared" class="md-nav__link">
     <span class="md-ellipsis">
       WASAPI Shared
@@ -6928,8 +7026,8 @@
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#wasapi-exclusive" class="md-nav__link">
     <span class="md-ellipsis">
       WASAPI Exclusive
@@ -6937,13 +7035,78 @@
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#asio" class="md-nav__link">
     <span class="md-ellipsis">
       ASIO
     </span>
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#asio-recordingstreaming" class="md-nav__link">
+    <span class="md-ellipsis">
+      ASIO Recording/Streaming
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="ASIO Recording/Streaming">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#required-software" class="md-nav__link">
+    <span class="md-ellipsis">
+      Required software
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#game-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Game configuration
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#voicemeeter-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Voicemeeter configuration
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#obs-studio-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      OBS Studio Configuration
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#using-this-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      Using this setup
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -6966,65 +7129,273 @@
   
 
 
-<h1 id="what-is-wasapi-asio">What is WASAPI &amp; ASIO?</h1>
-<div class="admonition tip">
-<p><code>WASAPI</code> and <code>ASIO</code> are audio systems that manage how your applications like games, music, and others interact with your audio hardware. Without these core systems you would <ins>not</ins> be able to hear anything. This is a basic explanation on what they are and will not go into detail on how they function. There are 3 types that I'll cover here with pros and cons for each one.</p>
-<p>I would <ins>personally</ins> recommend using <code>WASAPI Shared</code> as this has in most cases the highest chance of working and requires the least amount of work. You can enable it by using a patch.</p>
-<p>If you would like to use <code>WASAPI Exclusive</code>, you can read more about it <a href="../streamaudio/#workarounds-for-exclusive-audio">here.</a></p>
+<h1 id="audio">Audio</h1>
+<div class="admonition warning">
+<p class="admonition-title">Synopsis</p>
+<p>This guide explains the different audio modes commonly found in arcade games and their pros and cons, helping you choose the best option for your setup.</p>
 </div>
-<hr />
+<div class="admonition danger">
+<p class="admonition-title">Important notice</p>
+<p><strong>Recordings and streams must only be shared privately:</strong></p>
+<ul>
+<li>Through unlisted videos</li>
+<li>In private streams with friends</li>
+<li>Within trusted data communities</li>
+</ul>
+<p>Sharing content publicly puts you at serious risk of getting banned from arcade venues and communities. Please respect these guidelines.</p>
+</div>
+<h2 id="audio-modes">Audio modes</h2>
+<h3 id="tldr">TL;DR</h3>
+<table>
+<thead>
+<tr>
+<th>Mode</th>
+<th style="text-align: center;">DirectSound</th>
+<th style="text-align: center;">WASAPI Shared</th>
+<th style="text-align: center;">WASAPI Exclusive</th>
+<th style="text-align: center;">ASIO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Latency</td>
+<td style="text-align: center;">Highest</td>
+<td style="text-align: center;">Medium</td>
+<td style="text-align: center;">Low</td>
+<td style="text-align: center;">Lowest when setup correctly</td>
+</tr>
+<tr>
+<td>Compatibility</td>
+<td style="text-align: center;">Highest</td>
+<td style="text-align: center;">High</td>
+<td style="text-align: center;">High</td>
+<td style="text-align: center;">Low</td>
+</tr>
+<tr>
+<td>Multiple audio streams</td>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span></td>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span></td>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg></span></td>
+<td style="text-align: center;">with extra steps</td>
+</tr>
+<tr>
+<td>Audio capture</td>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span></td>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span></td>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg></span></td>
+<td style="text-align: center;">with extra steps</td>
+</tr>
+<tr>
+<td>Recommended for</td>
+<td style="text-align: center;">Legacy games</td>
+<td style="text-align: center;">Most users</td>
+<td style="text-align: center;">Low latency needs</td>
+<td style="text-align: center;">Lower latency needs</td>
+</tr>
+</tbody>
+</table>
+<h3 id="directsound">DirectSound</h3>
+<div class="admonition tip">
+<p>The legacy Windows audio system, still used by older games.</p>
+<p>✔️ <strong>Pros</strong>:</p>
+<ul>
+<li>Extremely high compatibility, especially with older games</li>
+<li>Multiple audio sources can play simultaneously</li>
+<li>Easy audio capture with OBS, Discord etc.</li>
+<li>Simple to set up and use</li>
+</ul>
+<p>❌ <strong>Cons</strong>:</p>
+<ul>
+<li>Highest latency of all modes</li>
+<li>Being phased out in favor of WASAPI</li>
+<li>Limited audio quality compared to modern modes</li>
+</ul>
+</div>
 <h3 id="wasapi-shared">WASAPI Shared</h3>
 <div class="admonition tip">
-<p><code>WASAPI Shared</code> mode is the standard mode that Windows uses. This allows you to hear multiple audio sources at once and allows programs to capture audio with programs like OBS and Discord. While this is nice for using windows and playing most games, this has a <em>negative side effect of increasing audio latency.</em></p>
-<p><strong>Pros:</strong></p>
+<p>The modern Windows standard audio mode. Recommended for most users.</p>
+<p>✔️ <strong>Pros</strong>:</p>
 <ul>
-<li>Multiple audio sources can be sent to one audio device.</li>
-<li>Can capture audio using OBS or Discord.</li>
-<li>Supports almost all audio hardware as this is the standard for Windows.</li>
-<li>Easy to set up.</li>
+<li>Works with most modern games and applications</li>
+<li>Multiple audio sources can play simultaneously</li>
+<li>Easy audio capture with OBS, Discord etc.</li>
+<li>Good balance of latency and compatibility</li>
 </ul>
-<p><strong>Cons:</strong></p>
+<p>❌ <strong>Cons</strong>:</p>
 <ul>
-<li>Higher Latency.</li>
-<li>Poor/Hard to configure for low latency.</li>
-<li>USB audio devices are not supported (DAC).</li>
+<li>Higher latency than Exclusive mode</li>
+<li>Some games may require patches/configuration for Shared mode</li>
 </ul>
+<p>💡 <strong>Pro tip</strong>: Use spice2x's <code>-lowlatencysharedaudio</code> setting to reduce latency.</p>
 </div>
-<hr />
 <h3 id="wasapi-exclusive">WASAPI Exclusive</h3>
+<details class="warning">
+<summary>Hardware compatibility notice</summary>
+<p>Your audio device must explicitly support exclusive mode. Check your audio settings:</p>
+<p><img src="/img/common/audio_exclusive.png"></p>
+</details>
 <div class="admonition tip">
-<p><code>WASAPI Exclusive</code> mode is a secondary mode which allows one program to take complete control over an audio device. This allows an application to do anything to your audio device including changing settings like change volume, sample rates, and buffer size. With this in mind, this also bypasses a lot of latency that is introduced with multiple applications playing their own audio. </p>
-<p>The main downside is that you can only hear <ins>one</ins> audio source (the program that has control). In this case for example, beatmaniaIIDX would take complete control and you would not be able to hear applications like Discord. You cannot capture audio while running this mode without special software.</p>
-<p><strong>Pros:</strong></p>
+<p>Gives one application complete control over the audio device.</p>
+<p>✔️ <strong>Pros</strong>:</p>
 <ul>
-<li>Low Latency (Real Time Latency)</li>
-<li>Supports almost all audio hardware as this is the standard for Windows.</li>
+<li>Significantly lower latency than Shared mode</li>
+<li>More consistent audio processing than Shared mode</li>
+<li>Better for rhythm games if you don't mind the cons</li>
 </ul>
-<p><strong>Cons:</strong></p>
+<p>❌ <strong>Cons</strong>:</p>
 <ul>
-<li>Application controls the hardware.</li>
-<li>Not easily configurable.</li>
-<li>Can not capture audio with OBS or Discord (Can be done, but requires a lot of configuration and can introduce latency. Switching to WASAPI Shared mode is recommended for this use case).</li>
-<li>USB audio devices are not supported (DAC).</li>
+<li>Only one application can output audio at a time</li>
+<li>No audio capture without special hardware/software</li>
+<li>Can cause system-wide audio interruptions</li>
 </ul>
 </div>
-<hr />
 <h3 id="asio">ASIO</h3>
-<div class="admonition tip">
-<p><code>ASIO</code> stands for Audio Stream Input/Output. This is an audio driver designed for Audio Interfaces on Windows that is very similar to WASAPI Exclusive.</p>
-<p>The biggest difference between ASIO and WASAPI Exclusive is software/hardware support and age. In order to use ASIO, <ins>both your hardware and the application you are using must support ASIO.</ins> For example, Sound Voltex supports ASIO natively but it does take a bit to set up compared to WASAPI Exclusive. ASIO also has higher configurability.</p>
-<p><strong>Pros:</strong></p>
+<div class="admonition warning">
+<p class="admonition-title">Hardware requirements</p>
+<p>For optimal results, use a dedicated ASIO-compatible audio interface. Software solutions like <a href="https://asio4all.org/">ASIO4ALL</a> or <a href="https://github.com/dechamps/FlexASIO">FlexASIO</a> exist but have limitations:</p>
 <ul>
-<li>Low Latency (Real Time Latency)</li>
-<li>Highly Configurable</li>
-<li>Industry standard for musicians means tons of support documentation.</li>
+<li>Added processing overhead</li>
+<li>May not improve latency over WASAPI Exclusive</li>
+<li>Mostly useful when:<ul>
+<li>Games are incompatible with your audio device</li>
+<li>ASIO is the only supported mode</li>
+<li>You need specific ASIO features</li>
 </ul>
-<p><strong>Cons:</strong></p>
+</li>
+</ul>
+</div>
+<div class="admonition tip">
+<p>Professional audio standard designed for audio interfaces and music production.</p>
+<p>✔️ <strong>Pros</strong>:</p>
 <ul>
-<li>Limited Hardware Support</li>
-<li>Application controls hardware.</li>
-<li>Can not capture audio with OBS or Discord (Can be done, but requires a lot of configuration and can introduce latency. Switching to WASAPI Shared mode is recommended for this use case).</li>
-<li>Requires a powerful CPU.</li>
+<li>Lowest possible latency when properly configured</li>
+<li>Direct hardware control</li>
+<li>Precise buffer size adjustment</li>
+<li>Professional-grade audio quality</li>
+<li>Bypass Windows audio stack</li>
+<li>Capture is possible when routed through Voicemeeter at the cost of very little added latency</li>
+</ul>
+<p>❌ <strong>Cons</strong>:</p>
+<ul>
+<li>Requires specialized hardware for best results</li>
+<li>Complex setup process</li>
+<li>Usually limited to one application at a time</li>
+<li>No direct audio capture support</li>
+<li>System performance heavily impacts stability</li>
+<li>May require significant tweaking</li>
+</ul>
+</div>
+<h2 id="asio-recordingstreaming">ASIO Recording/Streaming</h2>
+<div class="admonition info">
+<p class="admonition-title">This guide assumes your game already uses ASIO and you want to record/stream with audio.</p>
+</div>
+<h3 id="required-software">Required software</h3>
+<div class="admonition tip">
+<p>ASIO bypasses the Windows audio system that recording/streaming applications use, so you'll need additional software to route the audio:</p>
+<ul>
+<li><a href="https://vb-audio.com/Voicemeeter/banana.htm">Voicemeeter Banana</a> - For audio routing</li>
+<li><a href="https://obsproject.com/">OBS Studio</a> - For recording and streaming</li>
+</ul>
+<p>Install both applications before continuing.</p>
+</div>
+<h3 id="game-configuration">Game configuration</h3>
+<div class="admonition tip">
+<p>Set your game's ASIO output device to <code>Voicemeeter Virtual ASIO</code>:</p>
+<ul>
+<li>For spice2x games: Look for settings like <code>-iidxasio</code> or <code>-sdvxasio</code> at the top of spicecfg's <code>Options</code> tab</li>
+<li>For other games: The location depends on your setup, but look for ASIO device selection</li>
+</ul>
+</div>
+<h3 id="voicemeeter-configuration">Voicemeeter configuration</h3>
+<div class="admonition tip">
+<p>First, configure recommended settings:</p>
+<ol>
+<li>Click <code>Menu</code> in the top right</li>
+<li>Enable settings shown below to ensure Voicemeeter:<ul>
+<li>Starts with Windows</li>
+<li>Auto-recovers from audio issues</li>
+</ul>
+</li>
+</ol>
+<p><img src="/img/extras/audio/voicemeeter_menuopts.png"></p>
+<p>Next, set up ASIO output:</p>
+<ol>
+<li>Click the <code>A1</code> button in the top right</li>
+<li>Select the <code>ASIO (Steinberg)</code> tab </li>
+<li>Choose your ASIO device</li>
+</ol>
+<p>Finally, configure audio routing:</p>
+<ol>
+<li>Locate the 4th column in the interface</li>
+<li>Enable only the <code>A1</code> and <code>B1</code> toggles as shown:</li>
+</ol>
+<p><img src="/img/extras/audio/voicemeeter_outputs.png"></p>
+</div>
+<h3 id="obs-studio-configuration">OBS Studio Configuration</h3>
+<div class="admonition tip">
+<ol>
+<li>
+<p>Run OBS Studio's initial configuration wizard if you haven't already</p>
+</li>
+<li>
+<p>Set up audio capture:</p>
+<ul>
+<li>In the Sources panel, click <code>+</code> and select <code>Audio Input Capture</code>
+<img src="/img/extras/audio/obs_inputcapture.png"></li>
+<li>For the Device, select <code>VoiceMeeter Output (B1)</code>
+<img src="/img/extras/audio/obs_capturedevice.png"></li>
+</ul>
+</li>
+<li>
+<p>Enable audio monitoring:</p>
+<ul>
+<li>Click the gear icon in the Audio Mixer panel</li>
+<li>Find your Audio Input Capture source</li>
+<li>Change <code>Audio Monitoring</code> to <code>Monitor and Output</code>
+<img src="/img/extras/audio/obs_monitorandoutput.png"></li>
+</ul>
+</li>
+<li>
+<p>Configure OBS audio settings:</p>
+<ul>
+<li>Go to <code>File</code> &gt; <code>Settings</code>
+<img src="/img/extras/audio/obs_settings.png"></li>
+<li>In the <code>Audio</code> tab:<ul>
+<li>Set <code>Sample Rate</code> to match your ASIO/game settings</li>
+<li>For <code>Monitoring Device</code>, select any unused input such as a <code>VoiceMeeter In</code>
+<img src="/img/extras/audio/obs_audiosettings.png"></li>
+</ul>
+</li>
+<li>Save changes with <code>Apply</code> and <code>OK</code></li>
+</ul>
+</li>
+<li>
+<p>Add video capture:</p>
+<ul>
+<li>In Sources, add either <code>Display Capture</code> or <code>Game Capture</code></li>
+<li>Adjust OBS video and output settings as needed</li>
+</ul>
+</li>
+</ol>
+</div>
+<h3 id="using-this-setup">Using this setup</h3>
+<div class="admonition tip">
+<p>First, ensure Voicemeeter and OBS Studio are running.</p>
+<p>Next, configure your desired OBS output and video settings.</p>
+<ul>
+<li>
+<p>For streaming and recording, now use OBS as normal.</p>
+</li>
+<li>
+<p>For Discord sharing:</p>
+<ul>
+<li>Right-click the OBS preview window</li>
+<li>Select <code>Fullscreen Projector (Preview)</code> </li>
+<li>Choose which monitor to show the projector on</li>
+<li>Press Alt+Tab to switch away from the projector window</li>
+<li>In Discord, share the projector window</li>
+</ul>
+</li>
 </ul>
 </div>
 
@@ -7047,7 +7418,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="April 7, 2025 09:41:08">April 7, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="May 18, 2025 07:21:53">May 18, 2025</span>
   </span>
 
     
