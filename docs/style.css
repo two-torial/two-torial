@@ -7,3 +7,14 @@
     margin-right: auto;
     object-fit: contain;
 }
+
+.controller-flex {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 2em;
+}
+
+.controller-preview {
+    height: 300px !important;
+}
