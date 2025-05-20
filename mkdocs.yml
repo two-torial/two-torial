@@ -209,14 +209,12 @@ nav:
     - "Using Web": "extras/patchweb.md"
     - "Manually": "extras/hexguide.md"
   - Extras:
-    - "Arcade Parts": "extras/parts.md"
-    - "Asphyxia": "extras/asphyxia.md"
-    - "Audio": "extras/audio.md"
     - "Controllers": "extras/controllers.md"
-    - "Data Mods & Omnimix": "extras/datamods.md"
-    - "SoftEther VPN for Cab-to-Cab": "extras/softether.md"
-    - "Touch Monitors & Polling Rates": "extras/pollingrates.md"
+    - "Audio": "extras/audio.md"
+    - "Asphyxia": "extras/asphyxia.md"
+    - "Bemani Modding": "extras/datamods.md"
     - "Unity Modding": "extras/unity.md"
+    - "Cab-to-cab (SoftEther)": "extras/softether.md"
   - Other Resources: resources.md
 
 not_in_nav: |
