@@ -6,7 +6,7 @@
 
 	I'm not confident this will be all-encompassing of every part ever, but it will be sufficient for those purchasing arcade style controllers (ASCs) and those in need of maintenance for said controllers. I'm omitting things like 400g springs, or 10g microswitches because no one really uses these products for regular play, but they exist nonetheless!
 
-	One last thing, if there's for example, multiple model numbers of say, 25g microswitches, you can assume they have different internals and thus provide different feedback. I'm not aware of anyone qualified and experienced enough to give exact logistics on how these parts may feel different, so I've omitted any details and will simply specify what the most common [vendors](ascs.md#vendors) provide alongside these variants.
+	One last thing, if there's for example, multiple model numbers of say, 25g microswitches, you can assume they have different internals and thus provide different feedback. I'm not aware of anyone qualified and experienced enough to give exact logistics on how these parts may feel different, so I've omitted any details and will simply specify what the most common vendors provide alongside these variants.
 
 !!! danger "7/26/2020 IMPORTANT Notice:"
 

@@ -212,7 +212,7 @@ nav:
     - "Arcade Parts": "extras/parts.md"
     - "Asphyxia": "extras/asphyxia.md"
     - "Audio": "extras/audio.md"
-    - "Common ASCs & Vendors": "extras/ascs.md"
+    - "Controllers": "extras/controllers.md"
     - "Data Mods & Omnimix": "extras/datamods.md"
     - "SoftEther VPN for Cab-to-Cab": "extras/softether.md"
     - "Touch Monitors & Polling Rates": "extras/pollingrates.md"
