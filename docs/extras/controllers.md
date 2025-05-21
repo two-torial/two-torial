@@ -267,7 +267,7 @@
       <img class="controller-preview" src="/img/extras/controllers/taiko/gamo2_taikoller.png">
       <div>
 
-    [**Product page**](https://www.gamo2.com/en/index.php?dispatch=products.view&product_id=392){target="_blank"}  
+    [**Product page**](https://www.gamo2.com/en/index.php?dispatch=products.view&product_id=381){target="_blank"}  
     **Vendor**: [gamo2](https://www.gamo2.com/){target="_blank"}  
     **Price range**: $329 + Shipping/Taxes  
 
@@ -280,10 +280,25 @@
       <img class="controller-preview" src="/img/extras/controllers/taiko/yuancon_taikoforcelv6.png">
       <div>
 
-    [**Product page**](https://yuancon.store/controller/yuangeki){target="_blank"}  
+    [**Product page**](https://yuancon.store/controller/taiko){target="_blank"}  
     **Vendor**: [YuanCon](https://yuancon.store/){target="_blank"}  
     **Price**: $466 ~ $554 + Shipping/Taxes  
     **Note**: Make sure to pick the right configuration for the platform(s) you plan to play on.
 
       </div>
     </div>
+
+??? tip "ZhongTaiko"
+
+    <div class="controller-flex">
+      <img class="controller-preview" src="/img/extras/controllers/taiko/zhong_taiko.png">
+      <div>
+
+    [**Product page**](https://taiko.ac/products/zhongtaiko){target="_blank"}  
+    **Vendor**: [ZhongTaiko](https://taiko.ac/){target="_blank"}  
+    **Price**: $399 ~ $599 + Shipping/Taxes  
+    **Note**: Make sure to pick the right configuration for the platform(s) you plan to play on.
+
+      </div>
+    </div>
+
