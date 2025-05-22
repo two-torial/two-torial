@@ -209,12 +209,12 @@ nav:
     - "Using Web": "extras/patchweb.md"
     - "Manually": "extras/hexguide.md"
   - Extras:
-    - "Controllers": "extras/controllers.md"
-    - "Audio": "extras/audio.md"
     - "Asphyxia": "extras/asphyxia.md"
-    - "Bemani Modding": "extras/datamods.md"
-    - "Unity Modding": "extras/unity.md"
+    - "Audio": "extras/audio.md"
     - "Cab-to-cab (SoftEther)": "extras/softether.md"
+    - "Controllers": "extras/controllers.md"
+    - "Modding (Bemani)": "extras/datamods.md"
+    - "Modding (Unity)": "extras/unity.md"
   - Other Resources: resources.md
 
 not_in_nav: |
