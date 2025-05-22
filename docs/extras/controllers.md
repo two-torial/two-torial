@@ -91,7 +91,7 @@
     **Price range**: $138 ~ $283 + Shipping/Taxes  
     **Recommended setup**: $283 (Sanwa 20g, LHS1F 100g)
     
-    The SDVX LITE 3 is a more compact and affordable version of the SDVX12. Like its larger counterpart, it has limited customization options (see SDVX12 description above). Despite this, its lower price point makes it an excellent entry-level choice for players of all skill levels.
+    The SDVX LITE 3 is a more compact and affordable version of the SDVX12. By trimming its sides, it remains arcade-accurate without wasting space. Like its larger counterpart, it has limited customization options (see SDVX12 description above). Despite this, its lower price point makes it an excellent entry-level choice for players of all skill levels.
 
       </div>
     </div>
@@ -261,6 +261,42 @@
 
 ### Taiko no Tatsujin
 
+!!! info "Many of these controllers offer different configurations. Make sure to pick the correct one for the plaform(s) you plan to play on."
+
+#### Arcade-accurate
+
+??? tip "ZhongTaiko"
+
+    <div class="controller-flex">
+      <img class="controller-preview" src="/img/extras/controllers/taiko/zhong_taiko.png">
+      <div>
+
+    [**Product page**](https://taiko.ac/products/zhongtaiko){target="_blank"}  
+    **Vendor**: [ZhongTaiko](https://taiko.ac/){target="_blank"}  
+    **Price range**: $399 ~ $599 + Shipping/Taxes  
+    **Note**: Make sure to pick the right configuration for the platform(s) you plan to play on.
+
+    ZhongTaiko offers the highest quality full-size Taiko controllers on the market. Their Pro version perfectly replicates the feel of arcade Nijiiro cabinets, while their more affordable Standard version still outperforms a lot of contenders in build quality and responsiveness.
+
+      </div>
+    </div>
+
+
+??? tip "TDC17"
+
+    <div class="controller-flex">
+      <img class="controller-preview" src="/img/extras/controllers/taiko/rythmagica_tdc17.png">
+      <div>
+
+    [**Product page**](https://s.rythmagica.net/products/tdc17-arcade-size-taiko-drum-controller-for-switch-pc-xbox-ps4-more){target="_blank"}  
+    **Vendor**: [rythmagica](https://s.rythmagica.net/){target="_blank"}  
+    **Price range**: $261.95 ~ $307.95 + Shipping/Taxes  
+
+    The TDC17 is a solid arcade-style Taiko controller offering good build quality and responsiveness at a competitive price point. While it does not quite matching ZhongTaiko's quality, it provides a solid and authentic arcade experience for players seeking a high-end option at a great price point.
+
+      </div>
+    </div>
+
 ??? tip "TAIKOLLER"
 
     <div class="controller-flex">
@@ -269,7 +305,9 @@
 
     [**Product page**](https://www.gamo2.com/en/index.php?dispatch=products.view&product_id=381){target="_blank"}  
     **Vendor**: [gamo2](https://www.gamo2.com/){target="_blank"}  
-    **Price range**: $329 + Shipping/Taxes  
+    **Price**: $329 + Shipping/Taxes  
+
+    The TAIKOLLER is gamo2's arcade-style Taiko controller. It is very similar to YuanCon's TAIKO FORCE LV6, while being cheaper for customers outside of China.
 
       </div>
     </div>
@@ -282,23 +320,73 @@
 
     [**Product page**](https://yuancon.store/controller/taiko){target="_blank"}  
     **Vendor**: [YuanCon](https://yuancon.store/){target="_blank"}  
-    **Price**: $466 ~ $554 + Shipping/Taxes  
-    **Note**: Make sure to pick the right configuration for the platform(s) you plan to play on.
+    **Price range**: $466 ~ $554 + Shipping/Taxes  
+    
+    The TAIKO FORCE LV6 is YuanCon's arcade-style Taiko controller. It is very similar to gamo2's TAIKOLLER. While the official store price is higher, it can be purchased at a significant discount through TaoBao (Chinese marketplace), though international buyers will need to use a proxy service.
 
       </div>
     </div>
 
-??? tip "ZhongTaiko"
+#### Tatacons (much smaller than arcade but plenty capable)
+
+??? tip "TDC10 Pro"
 
     <div class="controller-flex">
-      <img class="controller-preview" src="/img/extras/controllers/taiko/zhong_taiko.png">
+      <img class="controller-preview" src="/img/extras/controllers/taiko/rythmagica_tdc10pro.png">
       <div>
 
-    [**Product page**](https://taiko.ac/products/zhongtaiko){target="_blank"}  
-    **Vendor**: [ZhongTaiko](https://taiko.ac/){target="_blank"}  
-    **Price**: $399 ~ $599 + Shipping/Taxes  
-    **Note**: Make sure to pick the right configuration for the platform(s) you plan to play on.
+    [**Product page**](https://s.rythmagica.net/products/pro-taiko-drum-controller){target="_blank"}  
+    **Vendor**: [rythmagica](https://s.rythmagica.net/){target="_blank"}  
+    **Price**: $139.95 + Shipping/Taxes  
+
+    The TDC10 Pro is a smaller, more affordable version of the TDC17. It stands out as the highest quality Tatacon controller currently available, delivering excellent build quality and responsiveness at a competitive price point. For players seeking a compact but premium Taiko controller, this is THE choice.
 
       </div>
     </div>
 
+??? tip "HORI Official Tatacons"
+
+    <div class="controller-flex">
+      <img class="controller-preview" src="/img/extras/controllers/taiko/hori_tatacon.png">
+      <div>
+
+    [**Catalog**](https://www.amazon.com/stores/page/C794C4D7-A76B-43B5-B6A8-3F34E1697D97/search?ingress=0&visitId=3c7c1ee1-ac90-448d-97b2-68e8024797e0&terms=taiko){target="_blank"}  
+    **Vendor**: HORI  
+    **Price range**: $68 ~ 157 + Shipping/Taxes  
+
+    HORI Tatacons are officially licensed controllers available for multiple platforms. While they are widely accessible, most models suffer from hit registration issues that require modifications to fix. Given these reliability concerns, we strongly recommend the TDC10 Pro as a better alternative.
+
+      </div>
+    </div>
+
+??? tip "IINE Tatacon"
+
+    <div class="controller-flex">
+      <img class="controller-preview" src="/img/extras/controllers/taiko/iine_tatacon.png">
+      <div>
+
+    [**Product page**](https://iine.store/collections/controller/products/switch-controller){target="_blank"}  
+    **Vendor**: [IINE](https://iine.store/){target="_blank"}  
+    **Price**: $55.95 + Shipping/Taxes  
+
+    IINE's Tatacon is a budget alternative to HORI's official controllers. While more affordable, it shares similar hit registration problems that require modifications to resolve. For a reliable, high-quality experience, we recommend investing in the TDC10 Pro instead.
+
+      </div>
+    </div>
+
+#### In-betweens (not quite AC-size, not quite Tatacon)
+
+??? tip "IINE Taiko Pro Max"
+
+    <div class="controller-flex">
+      <img class="controller-preview" src="/img/extras/controllers/taiko/iine_taikopromax.png">
+      <div>
+
+    [**Product page**](https://iine.store/collections/controller/products/iine-professional-taiko-drum-pro-max?Color=Taiko+Drum+Pro+Max){target="_blank"}  
+    **Vendor**: [IINE](https://iine.store/){target="_blank"}  
+    **Price**: $180.95 + Shipping/Taxes  
+    
+    IINE's Taiko Pro Max comes in at an odd spot between arcade-accurate controllers and Tatacons. It feels really cheap but might do the trick if the size and price point sound good to you.
+
+      </div>
+    </div>
