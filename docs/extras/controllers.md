@@ -114,7 +114,7 @@
       </div>
     </div>
 
-??? tip "YuanCon's Pop'n Music"
+??? tip "YuanCon's Pop'n Controller"
 
     <div class="controller-flex">
       <img class="controller-preview" src="/img/extras/controllers/popn/yuancon_popn.png">
