@@ -274,7 +274,6 @@
     [**Product page**](https://taiko.ac/products/zhongtaiko){target="_blank"}  
     **Vendor**: [ZhongTaiko](https://taiko.ac/){target="_blank"}  
     **Price range**: $399 ~ $599 + Shipping/Taxes  
-    **Note**: Make sure to pick the right configuration for the platform(s) you plan to play on.
 
     ZhongTaiko offers the highest quality full-size Taiko controllers on the market. Their Pro version perfectly replicates the feel of arcade Nijiiro cabinets, while their more affordable Standard version still outperforms a lot of contenders in build quality and responsiveness.
 
