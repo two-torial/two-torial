@@ -114,7 +114,7 @@
 
     - Head over to [segatools releases](https://gitea.tendokyu.moe/Dniel97/segatools/releases)
     and download `segatools.zip`. **Do not download the source code.**
-    - Extracting the archive should give you a few more zip files. Find **`chusan.zip`**
+    - Extracting the archive should give you a few more zip files. Find **`chuni.zip`**
     and extract it to the `App\bin` folder in your game data.
 
     You should now have a few more files inside the folder, as highlighted:
