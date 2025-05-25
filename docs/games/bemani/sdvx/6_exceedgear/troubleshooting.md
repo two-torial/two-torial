@@ -15,10 +15,10 @@
 
 !!! tip ""
 
-    The most common reason for this is the game is running over its required refresh rate.  
-    To solve this, make sure v-sync isn't disabled in your graphics card's settings.
+	The most common reason for this is the game is running over its required refresh rate.  
+	To solve this, make sure v-sync isn't disabled in your graphics card's settings.
 
-    For NVIDIA users, enable  `NVIDIA profile optimization (-nvprofile)` in the `Options` tab. 
+	For NVIDIA users, enable  `NVIDIA profile optimization (-nvprofile)` in the `Options` tab. 
 
 ---
 ### My game is crashing shortly after launching!
@@ -27,61 +27,61 @@
 
 !!! tip ""
 
-    Check your `log.txt` for the following message:
-    <br>
-    `W:BM2D: CreateLayer() 指定したレイヤーは存在しません touch_effect`
+	Check your `log.txt` for the following message:
+	<br>
+	`W:BM2D: CreateLayer() 指定したレイヤーは存在しません touch_effect`
 
-    It means someone gave you a bad update data.
+	It means someone gave you a bad update data.
 
-    1. Check your `contents` directory and `modules` directory. You should only have DLLs in one of them. If you it in both, delete the DLLs in `contents` directory and keep the DLLs in `modules`.
+	1. Check your `contents` directory and `modules` directory. You should only have DLLs in one of them. If you it in both, delete the DLLs in `contents` directory and keep the DLLs in `modules`.
 
-    2. Check your `modules` directory. `afp-core.dll` must be `1015KB` and `afp-utils.dll` must be `179KB`. If they are not, then you missed an update. Find and redownload `2024110500` update and onwards. Make sure you properly copy *all* DLLs to the `modules` directory in each update. Do not ask where to obain the update in the Discord server.
+	2. Check your `modules` directory. `afp-core.dll` must be `1015KB` and `afp-utils.dll` must be `179KB`. If they are not, then you missed an update. Find and redownload `2024110500` update and onwards. Make sure you properly copy *all* DLLs to the `modules` directory in each update. Do not ask where to obain the update in the Discord server.
 ---
 ### How do I set my offset?
 
 !!! tip ""
 
-    Play through a chart you're comfortable with.
+	Play through a chart you're comfortable with.
 
-    If you're getting too many `Late`, decrease your offset `(-)`.  
-    If you're getting too many `Early`, increase your offset `(+)`.  
+	If you're getting too many `Late`, decrease your offset `(-)`.  
+	If you're getting too many `Early`, increase your offset `(+)`.  
 
-    Sound Voltex Exceed Gear has two types of offset adjustments, visual and audio based, so be sure to fiddle with both to find desirable settings.
+	Sound Voltex Exceed Gear has two types of offset adjustments, visual and audio based, so be sure to fiddle with both to find desirable settings.
 
 ---
 ### How do I run the game windowed borderless?
 
 !!! tip ""
 
-    Some players utilize windowed mode and use 3rd party software called [Borderless Gaming](https://github.com/Codeusa/Borderless-Gaming/releases) in order to achieve this, follow the program's instructions accordingly.
+	Some players utilize windowed mode and use 3rd party software called [Borderless Gaming](https://github.com/Codeusa/Borderless-Gaming/releases) in order to achieve this, follow the program's instructions accordingly.
 
 ---
 ### Where are all the navigators?
 
 !!! tip ""
 
-    Many navigators are locked behind network requirements and they will not show unless connected to a network that has written support for the events they're typically locked behind.
+	Many navigators are locked behind network requirements and they will not show unless connected to a network that has written support for the events they're typically locked behind.
 
 ---
 ### My game audio is super quiet!
 
 !!! tip ""
 
-    Press your `Test` key to enter its menu, go to `SOUND OPTIONS` and change the volume from `20` to `30`.
+	Press your `Test` key to enter its menu, go to `SOUND OPTIONS` and change the volume from `20` to `30`.
 
 ---
 ### When I run the game all other audio is gone!
 
 !!! tip ""
 
-    Sound Voltex Exceed Gear uses [WASAPI exclusive mode](https://docs.microsoft.com/en-us/windows/win32/coreaudio/exclusive-mode-streams) for audio to get better audio latency.  
-    Unlike former versions of the games which used [DirectSound](https://en.wikipedia.org/wiki/DirectSound).   
-    
-    You can use the `Shared Mode WASAPI` patch to deal with some hardware issues, it can also be used to hear audio outside the game at the cost of audio latency.  
+	Sound Voltex Exceed Gear uses [WASAPI exclusive mode](https://docs.microsoft.com/en-us/windows/win32/coreaudio/exclusive-mode-streams) for audio to get better audio latency.  
+	Unlike former versions of the games which used [DirectSound](https://en.wikipedia.org/wiki/DirectSound).   
+	
+	You can use the `Shared Mode WASAPI` patch to deal with some hardware issues, it can also be used to hear audio outside the game at the cost of audio latency.  
 
 ---
 ### I'm not getting any audio / My game crashes due to audio
 
 !!! tip ""
 
-    Many setups have found some difficulty with audio due to various equipment being used. Consider using the `Shared Mode WASAPI` patch.
+	Many setups have found some difficulty with audio due to various equipment being used. Consider using the `Shared Mode WASAPI` patch.
