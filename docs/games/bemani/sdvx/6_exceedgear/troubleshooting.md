@@ -31,9 +31,9 @@
 	<br>
 	`W:BM2D: CreateLayer() 指定したレイヤーは存在しません touch_effect`
 
-	It means someone gave you a bad update data.
+	It means someone gave you bad update data.
 
-	1. Check your `contents` directory and `modules` directory. You should only have DLLs in one of them. If you it in both, delete the DLLs in `contents` directory and keep the DLLs in `modules`.
+	1. Check your `contents` directory and `modules` directory. You should only have DLLs in one of them. If you have it in both, delete the DLLs in `contents` directory and keep the DLLs in `modules`.
 
 	2. Check your `modules` directory. `afp-core.dll` must be `1015KB` and `afp-utils.dll` must be `179KB`. If they are not, then you missed an update. Find and redownload `2024110500` update and onwards. Make sure you properly copy *all* DLLs to the `modules` directory in each update. Do not ask where to obain the update in the Discord server.
 ---
