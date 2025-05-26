@@ -69,6 +69,8 @@
 !!! warning "If you plan to connect to a network (Hosted or Local), the `A001` option folder for your specific game version is required. This option contains a special Event file that lets the game connect."
 
 
+#### Installing ICFs
+
 !!! tip ""
 
     Install Configuration Files (ICFs) tell the game what version it is.
@@ -103,8 +105,6 @@
 | Force shared audio mode      | Either         | Force the game to use shared mode audio output, letting you listen to other audio sources while the game is running **at the cost of audio latency.** |
 | Force 2 channel audio output | Either         | Try enabling this patch if you don't get audio output at all. |
 | Disable song select timer    | Either         | Disables the song select timer. |
-| No encryption                | ON             | Disable encrypting network requests. **Required if you plan to run a local server.** |
-| No TLS                       | ON             | Disable checking if the server is `HTTPS` or not. **Required if you plan to run a local server.** |
 
 ---
 
@@ -219,11 +219,9 @@
 
     <img src="/img/sega/chunithm/common/setup/4_access_code.png">
 
-??? warning "Local (ARTEMiS/AquaDX)"
+??? warning "Local (ARTEMiS)"
 
-    Both of these options require non-trivial setup. Refer to the official guides for [ARTEMiS](https://gitea.tendokyu.moe/Hay1tsme/artemis/src/branch/develop/docs/INSTALL_WINDOWS.md)
-    and [AquaDX](https://github.com/hykilpikonna/AquaDX?tab=readme-ov-file#usage-v1-developmental-preview)
-    to set up a local server.
+    Refer to the official [ARTEMiS](https://gitea.tendokyu.moe/Hay1tsme/artemis/src/branch/develop/docs/INSTALL_WINDOWS.md) guide to set up a local server.
 
 ---
 
@@ -250,10 +248,6 @@
     - Pick either `16 bit, 48000Hz (DVD Quality)` or `24 bit, 48000Hz (Studio Quality)`, click `Apply`, then `OK`.
 
     <img src="/img/common/audio_16_48.png">
-
-!!! tip ""
-
-    If you have an Intel 10th Gen CPU or newer, you need to [patch amdaemon](https://patcher.two-torial.xyz/amdaemon) and enable `OpenSSL SHA crash bug fix`.
 
 ---
 
@@ -287,7 +281,7 @@
 
 !!! tip ""
 
-    Select **配信サーバー設定** (`DISTRIBUTION SEVER SETTING`, the second option)
+    Select **配信サーバー設定** (`DISTRIBUTION SEVER SETTING`, the first option)
     and toggle this setting to **サーバー** (`SERVER`).
 
     Select **筐体グループ設定** (`CABINET GROUP SETTINGS`, the second option)
