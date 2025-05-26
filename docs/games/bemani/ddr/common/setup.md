@@ -78,11 +78,11 @@
 	- If it instead corresponds to your pre-patch datecode, replace it with the new one and save the file.
 
 ---
-### Installing Spice2x
+### Installing spice2x
 
 !!! info ""
 
-	If you already have Spice2x installed, make sure it is up to date!
+	If you already have spice2x installed, make sure it is up to date!
 
 ??? tip "For MDX-001 (32 bits)"
 
@@ -98,7 +98,7 @@
   
 	<img src="/img/bemani/ddr/common/setup/spice2x64data.png">
 
-### Configuring Spice2x
+### Configuring spice2x
 
 !!! info "Open `spicecfg.exe`, each following sub-section corresponds to a tab at the top."
 
@@ -143,7 +143,7 @@
 
 #### Patches
 
-!!! info "Go through the [Spice2x Patching](/extras/patchsp2x.md) page to import patches."
+!!! info "Go through the [spice2x Patching](/extras/patchsp2x.md) page to import patches."
 
 !!! danger "To prevent issues, avoid patching things you don't need or understand."
 

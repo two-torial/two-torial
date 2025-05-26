@@ -11,7 +11,7 @@
 	In the test menu, navigate to `CLOCK`, and set it to match your computer's time.
 
 ---
-### My game is running slow/lagging
+### The game is running slow/lagging
 
 !!! tip ""
 
@@ -26,7 +26,18 @@
 	Make sure you didn't enable `-smartea` in spicecfg's options.
 
 ---
-###  Where are the option for Dancers/Shading/Measure lines/Fast-Slow/Layering?
+### After choosing a song, the game freezes on the loading screen
+
+!!! tip ""
+
+	**This is likely a network issue.**
+	
+	If you're using a local network, make sure it's set up properly.
+	
+	If you're using a remote network, it's possible that the song or your game version isn't supported yet.
+
+---
+### Where are the option for Dancers/Shading/Measure lines/Fast-Slow/Layering?
 
 !!! tip ""
 

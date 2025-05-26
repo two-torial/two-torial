@@ -67,8 +67,6 @@
 
 	As for the touch stuff, by default SpiceTools should detect your mouse just fine, you can use the `-s` parameter to have your cursor show at all times above the game window. For touchscreen monitors, it's a bit tricky to write something encompassing them all. Many should be detected automatically, however some may require adding the `-wintouch` parameter for support.
 
-	You can check out some documented touchscreen monitors [here.](/extras/pollingrates.md)
-
 	With that, you're all done! The final step you'll have to do with your chosen tools is simply setting up your desired keybinds! Once you've done that, Boot the game with your `gamestart.bat` and the game should load and be ready to be enjoyed! Have fun!
 
 !!! warning "Have any other errors?"

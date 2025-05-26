@@ -124,10 +124,10 @@
 
     - Inside `config.toml`, set `wasapi_shared =` to `false`                             
 
-    To use ASIO in combination with FlexASIO:
+    To use ASIO:
 
     - Inside `config.toml`, set `wasapi_shared =` to `false` and set `asio =` to `true`.
-    - Change `asio_driver =` to `asio_driver = "FlexASIO"`
+    - Change `asio_driver =` to `asio_driver = "<Your ASIO Driver Name>"`
 
-    To change FlexASIO settings refer to [this](/extras/streamaudio.md#option-4-flexasio).
+    For more information refer to the general [Audio](/extras/audio.md) guide.
 

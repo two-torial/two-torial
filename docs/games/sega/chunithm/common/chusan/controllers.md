@@ -357,7 +357,7 @@
 
 ??? tip "Legacy"
 
-    - Backup Laverita 3 setup if IO4 cfw is not working.
+    - Backup Laverita 3 setup if IO4 mode is not working.
     - Switch your Laverita to HID mode. You can do so in ConfigApp
     - Download Laverita IO DLLs and extract to your `App\bin` folder.
         - [chuniio-rs](https://gitea.tendokyu.moe/beerpsi/chuniio-rs/releases) (download `chusan.zip`)

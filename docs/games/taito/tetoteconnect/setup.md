@@ -28,7 +28,7 @@
 
 !!! tip ""
 
-    - Download the most recent [BepInEx 5 release](https://github.com/Redcrafter/tetoco/releases) (`BepInEx_win_x64_5.x.y.z.zip`).
+    - Download the most recent [BepInEx 5 release](https://github.com/BepInEx/BepInEx/releases) (`BepInEx_win_x64_5.x.y.z.zip`).
 
     !!! warning "We need BepInEx 5 since as of writing, BepInEx 6 does not support the required plugin."
 

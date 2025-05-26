@@ -30,6 +30,7 @@ nav:
           - "Troubleshooting": "games/bemani/iidx/14_gold/troubleshooting.md"
         - "24 SINOBUZ":
           - "Game Setup": "games/bemani/iidx/24_sinobuz/setup.md"
+          - "Extra Information": "games/bemani/iidx/24_sinobuz/extras.md"
           - "Troubleshooting": "games/bemani/iidx/24_sinobuz/troubleshooting.md"
         - "25 CANNON BALLERS":
           - "Game Setup": "games/bemani/iidx/25_cannonballers/setup.md"
@@ -247,9 +248,6 @@ nav:
           - "Controllers": "games/sega/ongeki/refresh/controllers.md"
           - "Troubleshooting": "games/sega/ongeki/refresh/troubleshooting.md"
       - "WACCA":
-        - "Lily R":
-          - "Game Setup": "games/sega/wacca/lilyr/setup.md"
-          - "Controllers": "games/sega/wacca/lilyr/controllers.md"
         - "Reverse":
           - "Game Setup": "games/sega/wacca/reverse/setup.md"
           - "Controllers": "games/sega/wacca/reverse/controllers.md"
@@ -264,19 +262,16 @@ nav:
     - BEMANI: "errorcodes/bemani.md"
     - SEGA: "errorcodes/sega.md"
   - Game Patching:
-    - "Using Spice2x": "extras/patchsp2x.md"
+    - "Using spice2x": "extras/patchsp2x.md"
     - "Using Web": "extras/patchweb.md"
     - "Manually": "extras/hexguide.md"
   - Extras:
-    - "Data Mods & Omnimix": "extras/datamods.md"
-    - "Asphyxia Core": "extras/asphyxia.md"
-    - "WASAPI & ASIO": "extras/audio.md"
-    - "Exclusive Audio Workarounds": "extras/streamaudio.md"
-    - "Common ASCs & Vendors": "extras/ascs.md"
-    - "Arcade Parts": "extras/parts.md"
-    - "Touch Monitors & Polling Rates": "extras/pollingrates.md"
-    - "SoftEther VPN for Cab-to-Cab": "extras/softether.md"
-    - "Modding Unity-based games": "extras/unity.md"
+    - "Asphyxia": "extras/asphyxia.md"
+    - "Audio": "extras/audio.md"
+    - "Cab-to-cab (SoftEther)": "extras/softether.md"
+    - "Controllers": "extras/controllers.md"
+    - "Modding (Bemani)": "extras/datamods.md"
+    - "Modding (Unity)": "extras/unity.md"
   - Other Resources: resources.md
 
 not_in_nav: |
@@ -287,7 +282,6 @@ not_in_nav: |
   games/sega/chunithm/common
   games/sega/maimaidx/common
   games/sega/ongeki/common
-  games/sega/wacca/common
 
 validation:
   links:
