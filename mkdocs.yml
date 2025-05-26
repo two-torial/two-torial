@@ -188,9 +188,6 @@ nav:
           - "Controllers": "games/sega/ongeki/refresh/controllers.md"
           - "Troubleshooting": "games/sega/ongeki/refresh/troubleshooting.md"
       - "WACCA":
-        - "Lily R":
-          - "Game Setup": "games/sega/wacca/lilyr/setup.md"
-          - "Controllers": "games/sega/wacca/lilyr/controllers.md"
         - "Reverse":
           - "Game Setup": "games/sega/wacca/reverse/setup.md"
           - "Controllers": "games/sega/wacca/reverse/controllers.md"
@@ -225,7 +222,6 @@ not_in_nav: |
   games/sega/chunithm/common
   games/sega/maimaidx/common
   games/sega/ongeki/common
-  games/sega/wacca/common
 
 validation:
   links:
