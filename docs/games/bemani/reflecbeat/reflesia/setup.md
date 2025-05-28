@@ -1,17 +1,11 @@
-# REFLEC BEAT: The Reflesia of Eternity
 <img class="header-logo" src="/img/bemani/reflecbeat/reflesia/logo.png">
+# Game Setup
 
-!!! danger "Warning"
+--8<-- "docs/snippets/common/old_guide.md"
 
-	Please make sure your data is from an appropriate source and unmodified before proceeding, this guide is unable to troubleshoot any problems related to bad or poorly managed data.
+--8<-- "docs/snippets/common/data_warning.md"
 
-	If you obtained data from a torrent file, make sure you're not seeding the data before proceeding as well.
-
-	One other thing, make sure your game folder isn't set to `Read Only` and that you don't have horribly wonky security permissions in Windows.
-
-	Lastly, for demonstrative purposes, this guide uses SpiceTools, you should consult appropriate documentation and requirements of your desired tools as the setup process is likely to be extremely similar.
-
-### Getting Started
+## Getting Started
 
 !!! tip ""
 
@@ -20,7 +14,7 @@
 <img src="/img/bemani/reflecbeat/reflesia/data.png">
 
 
-### Configuring Your Tools
+## Configuring Your Tools
 
 !!! tip ""
 
@@ -30,7 +24,7 @@
 
 	The overall structure of your .bat file will differ from the guide, namely the initialization of SpiceTools won't be present and potential parameters may differ. As stated above, make sure to check the documentation of your tools to ensure you're using the correct parameters for your needs.
 
-### Configuring for a Local Network
+## Configuring for a Local Network
 
 !!! tip ""
 
@@ -41,7 +35,7 @@
 	- `-ea` enables an integrated e-amusement server within SpiceTools.
 	- `-w` will boot the game in windowed mode which will ease our initial setup and testing later, make sure to remove `-w` to run the game fullscreen once you're done setting up!
 
-### Configuring for an Online Network
+## Configuring for an Online Network
 
 !!! tip ""
 
@@ -57,7 +51,7 @@
 
 	One final note, since you're playing on a network, you will have one additional step of setting up your card file within your chosen tools, make sure to check your server's information on how to setup a card file.
 
-### Final Steps and Setting up the Game
+## Final Steps and Setting up the Game
 
 !!! tip ""
 
@@ -69,6 +63,8 @@
 
 	With that, you're all done! The final step you'll have to do with your chosen tools is simply setting up your desired keybinds! Once you've done that, Boot the game with your `gamestart.bat` and the game should load and be ready to be enjoyed! Have fun!
 
+## Troubleshooting
+
 !!! warning "Have any other errors?"
 
-	Check out the [Troubleshooting](troubleshooting.md) section and [Error Code](/errorcodes/bemani.md) section to resolve any issues not seen in this guide to greater depth.
+	Check out the [Troubleshooting](troubleshooting.md) and [Error Code](/errorcodes/bemani.md) sections to resolve any issues not seen in this guide.

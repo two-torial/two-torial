@@ -1,4 +1,4 @@
-# Website DLL Patching
+# Game Patching (web)
 
 !!! info "Known web patchers: [Resources](/resources.md#web-patchers)"
 
@@ -15,7 +15,6 @@
 	If you've already patched your game through other methods *([spice2x patching](patchsp2x.md) or [hex editing](hexguide.md))*,  
 	**Please replace your game's DLL or EXE with the original**.
 
----
 ### Getting started
 
 !!! tip ""

@@ -1,7 +1,11 @@
-# GITADORA EXCHAIN
 <img class="header-logo" src="/img/bemani/gitadora/exchain/logo.png">
+# Troubleshooting
 
-### Hardware Specs
+--8<-- "docs/snippets/common/old_guide.md"
+
+--8<-- "docs/snippets/common/data_warning.md"
+
+## Hardware Specs
 
 !!! tip ""
 	Bemani PC Type 4

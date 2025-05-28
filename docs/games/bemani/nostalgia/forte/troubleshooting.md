@@ -1,7 +1,11 @@
-# NOSTALGIA FORTE
 <img class="header-logo" src="/img/bemani/nostalgia/forte/logo.png">
+# Troubleshooting
 
-### Hardware Specs
+--8<-- "docs/snippets/common/old_guide.md"
+
+--8<-- "docs/snippets/common/data_warning.md"
+
+## Hardware Specs
 
 !!! tip ""
 	Bemani PC Type 6 (ADE-704A)
@@ -38,5 +42,3 @@
 
 !!! tip ""
 	This problem is somewhat irregular, but sometimes Nostalgia has issues booting with multiple monitors present, particularly when trying to boot the game windowed. Make sure you're running the latest SpiceTools which has attempted to resolve all instances of this issue.
-
-

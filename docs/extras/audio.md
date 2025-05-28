@@ -1,6 +1,4 @@
-# Audio
-
-!!! warning "Synopsis"
+!!! info "Synopsis"
 
     This guide explains the different audio modes commonly found in arcade games and their pros and cons, helping you choose the best option for your setup.
 

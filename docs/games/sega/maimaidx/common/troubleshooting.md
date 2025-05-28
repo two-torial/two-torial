@@ -1,6 +1,4 @@
-!!! danger "Please make sure you downloaded your data from an appropriate source.<br>This guide is unable to troubleshoot any problems related to bad or poorly managed data."
-
----
+--8<-- "docs/snippets/common/data_warning.md"
 
 ### My game crashes on launch/stuck on "Starting System Process"
 
@@ -35,8 +33,6 @@
     Double-click it to run. The script should run for 30 seconds, and you will get a file
     named `amdaemontest.txt` in `App\bin`, which you can send to help people troubleshoot your issue.
 
----
-
 ### My game is stuck on a black screen at launch!
 
 !!! tip ""
@@ -52,16 +48,12 @@
 
     - You need to app the OpenSSL fix on Intel Core 10th Gen CPUs and newer.
 
----
-
 ### My game is stuck on a blue and black screen!
 
 !!! tip ""
     You need to run the data using unprotected/unpacked files. Please refer to the setup guide to find which ones you need and obtain them.
 
     If you believe you've already done this. You might be missing a try installing the latest [vcredist](https://github.com/abbodi1406/vcredist/releases)
-
----
 
 ### My game is running too slow/fast or the notes are out of sync!
 

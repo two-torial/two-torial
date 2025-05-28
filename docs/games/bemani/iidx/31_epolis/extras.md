@@ -1,10 +1,9 @@
-# beatmania IIDX 31 EPOLIS
 <img class="header-logo" src="/img/bemani/iidx/31_epolis/logo.png">
+# Extra Information
 
-!!! danger "Please make sure you downloaded your data from an appropriate source.<br>This guide is unable to troubleshoot any problems related to bad or poorly managed data."
+--8<-- "docs/snippets/common/data_warning.md"
 
----
-### Standard & Lightning modes
+## Standard & Lightning modes
 
 !!! warning "Lightning mode requires a 120hz capable monitor."
 
@@ -33,15 +32,13 @@
     - ^^`E`^^ for Standard (LDJ-012, LDJ, 60hz)
     - ^^`D`^^ for Lightning (LDJ-010, TDJ, 120hz)
     
----
-### Changing the game's language
+## Changing the game's language
 
 !!! tip ""
 
     This is done in-game before card-in by pressing your `EFFECT` key.
 
----
-### More about ea3-config.xml
+## More about ea3-config.xml
 
 !!! tip ""
 

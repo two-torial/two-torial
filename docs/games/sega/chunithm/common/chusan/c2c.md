@@ -1,3 +1,5 @@
+--8<-- "docs/snippets/common/data_warning.md"
+
 !!! danger "You are most likely to have success with Multiplayer when all users are using the SAME data and options, from the same sources. Verify that each person can run the game normally before attempting to network them together."
 
 !!! tip ""
@@ -5,7 +7,6 @@
 	- Chunithm expects the cabinets to be using specific IP addresses, 192.168.139.**11/12/13/14**
 	- To achieve this over the internet, we can use SoftEther VPN. Refer to the [Setting Up SoftEther VPN Guide](/extras/softether.md) for more information.
 
----
 ### Configuring segatools.ini & Game Assignments
 
 !!! tip "segatools.ini"
@@ -41,7 +42,6 @@
 
 	Exit the Service Menu and load into Attract Mode. If the game passes the Group Check then chances are you're good to go! You can now login to a credit and open a cab-to-cab link request to check if the connection is working properly!
 	
----
 ### How to Link?
 
 !!! Info "If you're new to Chunithm and have never tried link-play before and you have no idea how, keep reading."

@@ -1,14 +1,11 @@
-# NOSTALGIA OP.2
 <img class="header-logo" src="/img/bemani/nostalgia/op2/logo.png">
+# Game Setup
 
-!!! danger "Warning:"
-	Please make sure your data is from an appropriate source and unmodified before proceeding, this guide is unable to troubleshoot any problems related to bad or poorly managed data.
+--8<-- "docs/snippets/common/old_guide.md"
 
-	If you obtained data from a torrent file, make sure you're not seeding the data before proceeding as well.
+--8<-- "docs/snippets/common/data_warning.md"
 
-	Lastly, for demonstrative purposes, this guide uses SpiceTools, you should consult appropriate documentation and requirements of your desired tools as the setup process is likely to be extremely similar.
-
-### Getting Started
+## Getting Started
 
 !!! tip ""
 	Before we even touch the game, let's fiddle with our audio settings to minimize any potential audio issues on startup. In Windows, go to `Playback Devices` and then right click on your default device and go to `Properties`. From there, hit the `Advanced` tab and set your `Default Format` to `44100 Hz` and check both of the options inside `Exclusive Mode` as pictured.
@@ -22,7 +19,7 @@
 
 <img src="/img/bemani/nostalgia/common/8.png">
 
-### Configuring Your Tools
+## Configuring Your Tools
 
 !!! tip ""
 	Now that you have your files ready, open up your `.bat` file in your desired text editor (we're using [Notepad++](https://notepad-plus-plus.org/)) and edit it with your desired parameters, for the purpose of this guide we will demonstrate ONLY a local network configuration with SpiceTools. Why only local? Because none of the most typical places currently support Nostalgia. Regardless, please keep in mind you can add whatever additional parameters you desire.
@@ -30,7 +27,7 @@
 !!! warning "If you're not using SpiceTools:"
 	The overall structure of your .bat file will differ from the guide, namely the initialization of SpiceTools won't be present and potential parameters may differ. As stated above, make sure to check the documentation of your tools to ensure you're using the correct parameters for your needs.
 
-### Configuring for a Local Network
+## Configuring for a Local Network
 
 !!! tip ""
 	For our local network configuration example, on a single line in the `.bat` file we're going to type `spice64.exe -ea -w` and save the file. 
@@ -40,7 +37,7 @@
 	- `-ea` enables an integrated e-amusement server within SpiceTools.
 	- `-w` will boot the game in windowed mode which will ease our initial setup and testing later, make sure to remove `-w` to run the game fullscreen once you're done setting up!
 
-### Configuring for an Online Network
+## Configuring for an Online Network
 
 !!! tip ""
 	For our online network example we're simply doing the above but with different parameters! On our single line, we're going to type `spice64.exe -p XXXXXXXXXXXXXXXXXXXX -url http://yoururlhere.com/ -w` and save the file. 
@@ -51,7 +48,7 @@
 	- `-url` allows you to specify a custom service URL to connect with, simply replace `http://yoururlhere.com/` with your chosen network's URL.
 	- `-w` will boot the game in windowed mode which will ease our initial setup and testing later, make sure to remove `-w` to run the game fullscreen once you're done setting up!
 
-### Final Steps and Setting up the Game
+## Final Steps and Setting up the Game
 
 !!! tip ""
 	The last steps you'll have to do with your chosen tools is simply setting up your desired keybinds! Make sure you setup the `Test` keybind as it will be critical for setting up the game. Once you've done that, launch your game for the first time by double clicking the `.bat` you setup and the game should load.

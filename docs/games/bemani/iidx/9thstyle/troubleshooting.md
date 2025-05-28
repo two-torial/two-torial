@@ -1,12 +1,15 @@
-# beatmania IIDX 9th style
 <img class="header-logo" src="/img/bemani/iidx/9thstyle/logo.png">
+# Troubleshooting
+
+--8<-- "docs/snippets/common/old_guide.md"
+
+--8<-- "docs/snippets/common/data_warning.md"
 
 ### My Game Is Running Crazy Fast!
 
 !!! tip ""
 	The most common reason for this is the game is running over its required 59.95hz, the game is hardcoded to run at 59.95hz and this cannot be changed. To solve this, check [Game resolution and locking FPS](setup.md#game-resolution-and-locking-fps) again.
 
----
 ### I'm getting "NETWORK WARNING" instead of "NETWORK OK"
 
 !!! tip ""
@@ -17,7 +20,6 @@
 	- Invalid eamuse url or port specified
 	- Game is not run using the Administrator account 
 
----
 ### My background videos aren't working!
 
 !!! tip ""
@@ -39,7 +41,6 @@
 
 !!! danger "You **can not** move or delete :material-file:`CLVSD.ax` **at all**, otherwise it will revert the changes and you have to install it again."
 
----
 ### My game crashes immediately!
 
 !!! warning "This can have multiple reasons. These fixes shouldn't be needed for 9th style since we're addressing them in the guide. We'll add them anyway just in case."

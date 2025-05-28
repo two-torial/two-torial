@@ -1,10 +1,6 @@
-!!! danger "Warning"
+--8<-- "docs/snippets/common/data_warning.md"
 
-	Please make sure you downloaded your data from an appropriate source.
-	This guide is unable to troubleshoot any problems related to bad or poorly managed data.
-
----
-### Preparing data
+## Preparing data
 
 !!! tip ""
 
@@ -33,8 +29,7 @@
 
 !!! info "If you don't need to update your data, you can skip over to the [Installing spice2x](#installing-spice2x) section."
 
----
-### Updating data
+## Updating data
 
 ??? danger "Please make sure you're using the right update for your current data."
 
@@ -65,8 +60,7 @@
 	- If that's already the case then great! Don't touch anything.
 	- If it instead corresponds to your pre-patch datecode, replace it with the new one and save the file.
 
----
-### Installing spice2x
+## Installing spice2x
 
 !!! info ""
 
@@ -79,12 +73,11 @@
   
 	<img src="/img/bemani/popn/common/setup/spice2x32data.png">
 
-
-### Configuring spice2x
+## Configuring spice2x
 
 !!! info "Open `spicecfg.exe`, each following sub-section corresponds to a tab at the top."
 
-#### Buttons
+### Buttons
 
 !!! tip ""
 
@@ -96,7 +89,7 @@
 	- **Game buttons**: `1 to 9`
 	- **P1 Keypad**: `1 to 9, Keypad Insert Card`
 
-#### Overlay
+### Overlay
 
 !!! tip ""
 
@@ -104,7 +97,7 @@
 
 	Click on `Bind` then press the key you want associated with the action.
 
-#### Lights (controller/cab only)
+### Lights (controller/cab only)
 
 !!! tip ""
 
@@ -118,23 +111,23 @@
 	- Click `Close`.
 	- Repeat for your other lights.
 
-#### Cards
+### Cards
 
 !!! info "Covered in the [Connecting to a network](#connecting-to-a-network) section."
 
-#### Patches
+### Patches
 
 !!! info "Go through the [spice2x Patching](/extras/patchsp2x.md) page to import patches."
 
 !!! danger "To prevent issues, avoid patching things you don't need or understand."
 
-#### API
+### API
 
 !!! warning "Leave everything at default unless you know what you're doing."
 
-#### Options
+### Options
 
-!!! info "If you don't know what an option does, hover over the question mark at the very left."
+!!! info "If you don't know what an option does, hover over the its name with your mouse."
 
 	<img src="/img/common/spice2x_option_hover.png">
 
@@ -153,11 +146,10 @@
 	| Graphics (common)	| NVIDIA profile optimization	 	| -nvprofile 	| ON	  |
 
 
-#### Advanced & Development
+### Advanced & Development
 
 !!! warning "Leave everything at default unless you know what you're doing."
 
----
 ### Connecting to a network
 
 !!! danger "Please choose one of the two solutions, not both!"
@@ -185,7 +177,6 @@
 
 	This is covered in the [Asphyxia CORE](/extras/asphyxia.md) page.
 
----
 ### First launch
 
 !!! danger "If you have any issues running the game, refer to the [Troubleshooting](troubleshooting.md) page."
@@ -198,7 +189,6 @@
 
 	The game will go through a series of checks, let it run, if you've done everything properly they'll pass.
 
----
 ### Troubleshooting
 
 !!! warning "Have any other issue?"

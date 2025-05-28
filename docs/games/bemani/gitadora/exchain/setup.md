@@ -1,5 +1,9 @@
-# GITADORA EXCHAIN
 <img class="header-logo" src="/img/bemani/gitadora/exchain/logo.png">
+# Game Setup
+
+--8<-- "docs/snippets/common/old_guide.md"
+
+--8<-- "docs/snippets/common/data_warning.md"
 
 !!! danger "Warning:"
 	Please make sure your data is from an appropriate source and unmodified before proceeding, this guide is unable to troubleshoot any problems related to bad or poorly managed data.

@@ -1,10 +1,7 @@
-# Controllers
+!!! info "Synopsis"
 
-!!! warning "Synopsis"
-
-    This guide provides an overview of popular arcade-style rhythm game controllers currently available to buy.
-
-    Controllers are organized by game and ranked based on their popularity within the rhythm game community.
+    This guide provides an overview of popular arcade-style rhythm game controllers currently available to buy.  
+    Controllers are ranked based on their popularity within the rhythm game community.
 
 ## BEMANI
 

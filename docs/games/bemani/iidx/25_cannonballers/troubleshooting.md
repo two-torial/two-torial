@@ -1,7 +1,11 @@
-# beatmania IIDX 25 CANNON BALLERS
 <img class="header-logo" src="/img/bemani/iidx/25_cannonballers/logo.png">
+# Troubleshooting
 
-### Hardware Specs
+--8<-- "docs/snippets/common/old_guide.md"
+
+--8<-- "docs/snippets/common/data_warning.md"
+
+## Hardware Specs
 
 !!! tip ""
 	Bemani PC (ADE-6291)
@@ -64,5 +68,3 @@
 
 !!! tip ""
 	Several external DACs have issues with [WASAPI exclusive mode](https://docs.microsoft.com/en-us/windows/win32/coreaudio/exclusive-mode-streams) and are unable to be used entirely, it's likely you'll be forced to use your motherboard's sound chip, or find a compatible DAC.
-
-

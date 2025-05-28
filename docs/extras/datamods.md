@@ -1,56 +1,53 @@
-# Data Mods and Omnimix
+!!! info "Synopsis"
 
-!!! info "This guide will cover how to mod your BEMANI game's data folder in a non-destructive way.<br>No files will be removed or overwritten."
+	This guide will cover how to mod your BEMANI game's data folder in a non-destructive way.  
+	No files will be removed or overwritten.
 
----
-### Pre-requisites
+## Pre-requisites
 
 !!! tip ""
 
-	- A fully working and unmodified game.
-	- The data to mod your game with.
+	- A fully working and unmodified game
+	- The data to mod your game with
 
 !!! danger "ATTENTION"
 
-	- Please make sure the mod you're installing is **compatible with YOUR specific game and game version**.
-	- If connecting to an **online network**, make sure they **explicitly allow** the mod you're about to install.
-	- TWO-TORIAL will **NOT** provide support with issues caused by mods besides **Omnimix** for beatmania IIDX.
+	- Please make sure the mod you're installing is **compatible with YOUR specific game and game version**
+	- If connecting to an **online network**, make sure they **explicitly allow** the mod you're about to install
+	- TWO-TORIAL will **NOT** provide support with issues caused by mods besides **Omnimix** for beatmania IIDX
 
----
-### Preparing data_mods
+## Preparing data_mods
 
 !!! tip ""
 
 	Let's place your mod files in the right folder.
 
-	- Create a `data_mods` folder next to the others in your game files.
+	- Create a `data_mods` folder next to the others in your game files
 
 	<img src="/img/extras/datamods/1.png">
 
 	Depending on how your mod is packaged, you may or may not need to create another folder to contain it.  
 	Inside that folder, the structure should follow the one in `data/`.
 
-	- Place your files inside that `data_mods/mod_folder/`.
+	- Place your files inside that `data_mods/mod_folder/`
 
 	If you're confused, the following may help you understand what this means.
 
 	```
-	├─ data/
-	├─── graphic/
-	├─── info/
-	├─── movie/
-	├─── sound/
-	├─── etc...
-	├─ data_mods/  
-	├─── mod_folder/
-	├───── graphic/ <- files that mod the /data/graphic/ folder go here
-	├───── info/ <- files that mod the /data/info/ folder go here
-	├───── movie/ <- files that mod the /data/movie/ folder go here
-	├───── sound/ <- files that mod the /data/sound/ folder go here
-	├───── etc...
-	├─ dev/ 
-	├─ modules/  
-	├─ prop/  
+	📂data
+    ┣━📂graphic
+	┣━📂info
+	┣━📂movie
+	┗━📂sound
+	📂data_mods 
+    ┗━📂mod_folder
+	   ┣━📂graphic <--- Files that modify data/graphic go here
+	   ┣━📂info <--- Files that modify data/info go here
+	   ┣━📂movie <--- Files that modify data/movie go here
+	   ┗━📂sound <--- Files that modify data/sound go here
+	📂dev
+	📂modules
+	📂prop
 	```
 
 !!! info "Example: Omnimix for beatmania IIDX 31 EPOLIS"
@@ -61,43 +58,42 @@
 	**Directory**: `contents/data_mods/omnimix_31`
 	<img src="/img/extras/datamods/3.png">
 
----
-### Loading data_mods
+## Loading data_mods
 
-#### Installing ifs_layeredfs
+### Installing ifs_layeredfs
 
 !!! tip ""
 
 	We now need a way for our game to load our mods.
 
-	- Download the most recent release of [ifs_layeredfs](https://github.com/mon/ifs_layeredfs/releases/).
+	- Download the most recent release of [ifs_layeredfs](https://github.com/mon/ifs_layeredfs/releases/)
 
 	<img src="/img/extras/datamods/4.png">
 
-	- Open the archive.
+	- Open the archive
 
 	<img src="/img/extras/datamods/5.png">
 
 	What we're interested in are the `64bit` and `32bit` folders:
 	
-	- Your game is 32bit *(spice.exe to launch)*: go in the `32bit` folder.
-	- Your game is 64bit *(spice64.exe to launch)*: go in the `64bit` folder.
+	- Your game is 32bit *(spice.exe to launch)*: go in the `32bit` folder
+	- Your game is 64bit *(spice64.exe to launch)*: go in the `64bit` folder
 
 	<img src="/img/extras/datamods/6.png">
 
-	- Copy the `ifs_hook.dll` file to your game's `modules` folder.
+	- Copy the `ifs_hook.dll` file to your game's `modules` folder
 
 	<img src="/img/extras/datamods/7.png">
 
-#### Loading ifs_layeredfs
+### Loading ifs_layeredfs
 
 !!! tip ""
 
 	All that should be left to do is tell spice2x to load `ifs_hook.dll`.
 
-	- Open your game's `spicecfg.exe`.
-	- Head to the `options` tab.
-	- Find the `Inject DLL Hooks` option under `Common` and type in `ifs_hook.dll` then press Enter.
+	- Open your game's `spicecfg.exe`
+	- Head to the `options` tab
+	- Find the `Inject DLL Hooks` option under `Common` and type in `ifs_hook.dll` then press Enter
 
 	Note: If you have other DLL hooks, simply add more by having a space in between them..  
 	Example: `ifs_hook.dll somehook.dll`

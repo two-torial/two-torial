@@ -1,8 +1,9 @@
----
-description: A compendium of information and guides about arcade games. By the community, for the community.
----
-
-#
+<style>
+  .md-typeset h1,
+  .md-content__button {
+    display: none;
+  }
+</style>
 
 <img class="header-logo" src="/img/two-torial/banner.png">
 
@@ -13,9 +14,9 @@ By the community, for the community.
 [Join our Discord server! :fontawesome-brands-discord:](https://discord.gg/cZRUmEPK78){ .md-button }
 </figure>
 
-!!! tip ""
+<hr>
 
-    *Troubleshooting forums are available on our Discord server if you need direct help!*
+!!! info "Troubleshooting forums are available in our Discord server if you need direct help!"
 
 !!! warning "This site is by no means all-encompassing"
 
@@ -23,8 +24,8 @@ By the community, for the community.
 
     But we're only humans, we make mistakes, and therefore:
 
-    - Please **use a certain degree of caution** while manipulating your game files and **make backups**.
-    - Don't tamper with things if you don't know what you're doing.
+    - Please **use a certain degree of caution** while manipulating your game files and **make backups**
+    - Don't tamper with things if you don't know what you're doing
 
     If you can do that, these guides will probably be of use to you.  
     If not, **don't tell us we didn't warn you!**
@@ -33,11 +34,11 @@ By the community, for the community.
 
     On the left side is a navigation bar containing every guide:
 
-    - **Games** category for game-specific guides on how to setup data, troubleshoot issues, etc..
-    - **Error Codes** for a listing of known errors and what to do about them.
-    - **Game Patching** category for ways to patch/modify your game.
-    - **Extras** for anything that doesn't fit in the above categories.
-    - **Other Resources** for links to useful sites such as patchers, external guides, etc..
+    - **Games** category for game-specific guides on how to setup data, troubleshoot issues, etc.
+    - **Error Codes** for a listing of known errors and what to do about them
+    - **Game Patching** category for ways to patch/modify your game
+    - **Extras** for anything that doesn't fit in the above categories
+    - **Other Resources** for links to useful sites such as patchers, external guides, etc.
 
 !!! info "Do you want to help us out?"
 

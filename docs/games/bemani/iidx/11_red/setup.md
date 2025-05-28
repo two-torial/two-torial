@@ -1,9 +1,11 @@
-# beatmania IIDX 11 IIDX RED
 <img class="header-logo" src="/img/bemani/iidx/11_red/logo.png">
+# Game Setup
 
-!!! danger "Please make sure you downloaded your data from an appropriate source.<br>This guide is unable to troubleshoot any problems related to bad or poorly managed data."
+--8<-- "docs/snippets/common/old_guide.md"
 
-### Preparing data
+--8<-- "docs/snippets/common/data_warning.md"
+
+## Preparing data
 
 !!! tip ""
 
@@ -14,8 +16,7 @@
 	- A popup will appear, select `Apply changes to this folder, subfolder and files` and press `OK`.
 	- Finally, click `OK` again to exit out of properties.
 
----
-### Installing Bemanitools
+## Installing Bemanitools
 
 !!! tip ""
 	
@@ -29,7 +30,7 @@
 
 <img src="/img/bemani/iidx/11_red/setup/1.png">
 
-#### Using iidxhook-11.conf & RtEffect.dll
+### Using iidxhook-11.conf & RtEffect.dll
 
 !!! tip ""
 
@@ -49,12 +50,11 @@
   
   	This will eliminate any immediate crashes relating to needing specific old hardware.
 
----
-### Configuring Bemanitools
+## Configuring Bemanitools
 
 !!! info "To configure your keybinds, open your :material-file:`config.bat` file."
 
-#### Buttons
+### Buttons
 
 !!! tip ""
 
@@ -70,7 +70,7 @@
 
 	- **Turntable**: `TT+, TT-` **and optionally** `TT+/-` which alternates between `TT+` and `TT-` on each press.
 
-#### Analogs (controller/cab only)
+### Analogs (controller/cab only)
 
 !!! tip ""
 
@@ -82,7 +82,7 @@
 	- Turn your turntable ensuring that the preview turns along with it.
 	- Click `OK`, leaving the rest of the settings alone.
 
-#### Lights (controller/cab only)
+### Lights (controller/cab only)
 
 !!! tip ""
 
@@ -94,7 +94,7 @@
 	- In `Game Light`, select the corresponding button that will be used for that light.
 	- Repeat for your other lights.
 
-#### Configuring Bemanitools for a network
+### Configuring Bemanitools for a network
 
 !!! tip "Head over to the `Network` tab."
 
@@ -111,8 +111,7 @@
 
 <img src="/img/bemani/iidx/11_red/setup/2.png">
 
----
-### Connecting to a network
+## Connecting to a network
 
 !!! tip ""
 	
@@ -135,8 +134,7 @@
 	eamuse.eamid=XXXXXXXXXXXXXXXXXXXX
 	```
 
----
-### Game resolution and locking FPS
+## Game resolution and locking FPS
 
 !!! tip ""
 	We'd like to mention that there are two options when it comes to how the game renders. You can choose between `Linear` and `Point`.
@@ -202,12 +200,11 @@
 	gfx.scale_back_buffer_filter=point
 	```
 
----
-### First launch
+## First launch
 
 !!! danger "If you have any issues running the game, refer to the [Troubleshooting](troubleshooting.md) page."
 
-#### BACKUP DATA
+### BACKUP DATA
 
 !!! tip ""
 
@@ -224,7 +221,7 @@
 !!! tip ""
 	Press your `Start` key to confirm to get to the next error message.
 
-#### CLOCK ERROR
+### CLOCK ERROR
 
 <img src="/img/bemani/iidx/11_red/firstlaunch/3.png">
 
@@ -243,7 +240,7 @@
 
 <img src="/img/bemani/iidx/11_red/firstlaunch/5.png">
 
-#### Enabling e-AMUSEMENT for Online Play
+### Enabling e-AMUSEMENT for Online Play
 
 !!! tip ""
 	From the service menu, go to `NETWORK OPTIONS` then `e-AMUSEMENT SETTINGS`.
@@ -281,8 +278,7 @@
 	
 <img src="/img/bemani/iidx/11_red/firstlaunch/12.png">
 	
----	
-### Final Notes
+## Final Notes
 
 !!! success "You're all done! Make sure to insert two credits by pressing your `SERVICE` key. Have fun!"
 

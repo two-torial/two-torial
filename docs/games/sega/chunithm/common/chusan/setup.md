@@ -1,11 +1,9 @@
-!!! danger "Please make sure you downloaded your data from an appropriate source.<br>This guide is unable to troubleshoot any problems related to bad or poorly managed data."
+--8<-- "docs/snippets/common/data_warning.md"
 
 !!! danger "If you're coming from a previous version of CHUNITHM"
 
     You'll want to create a new folder for the game and start from scratch.
     CHUNITHM **DOES NOT** like being extracted over old data!
-
----
 
 ### Preparing data
 
@@ -99,8 +97,6 @@
     By default, file extensions on Windows are hidden. Enable them by navigating to
     the `View` tab in File Explorer and select `File name extensions`.
 
----
-
 ### Patching the game
 
 !!! info "Go through the [Web Patching](/extras/patchweb.md) guide to learn how to use a web patcher."
@@ -121,8 +117,6 @@
 | Bypass 1080p monitor check   | Either         | Disable checking if the monitor is 1080p when enabling 120FPS. Enable if you cannot set your monitor to 1080p. |
 | Bypass 120Hz monitor check   | Either         | Disable checking if the monitor is **exactly 120Hz** when enabling 120FPS. Enable if you cannot set your monitor to 120Hz. |
 
----
-
 ### Installing segatools
 
 !!! tip ""
@@ -135,8 +129,6 @@
     You should now have a few more files inside the folder, as highlighted:
 
     <img width="500" src="/img/sega/chunithm/common/setup/3_segatools_installed.png">
-
----
 
 ### Configuring segatools
 
@@ -224,8 +216,6 @@
     Navigate to Windows display settings. Each monitor should be assigned a number.
     The monitor index is that number minus one. For example, monitor 2 means monitor index 1.
 
----
-
 ### Connecting to a network
 
 !!! danger "Please choose one of the two solutions, not both!"
@@ -260,8 +250,6 @@
     and [AquaDX](https://github.com/hykilpikonna/AquaDX?tab=readme-ov-file#usage-v1-developmental-preview)
     to set up a local server.
 
----
-
 ### Pre-launch requirements
 
 !!! info "These steps are required, otherwise your game won't run."
@@ -291,8 +279,6 @@
 !!! tip ""
 
     If you have an Intel 10th Gen CPU or newer, you need to [patch amdaemon](https://patcher.two-torial.xyz/amdaemon) and enable `OpenSSL SHA crash bug fix`.
-
----
 
 ### First launch
 

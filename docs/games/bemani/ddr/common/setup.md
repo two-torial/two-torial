@@ -1,9 +1,5 @@
-!!! danger "Warning"
+--8<-- "docs/snippets/common/data_warning.md"
 
-	Please make sure you downloaded your data from an appropriate source.
-	This guide is unable to troubleshoot any problems related to bad or poorly managed data.
-
----
 ### About data
 
 !!! info "The full game should be around 20-25gb in size."
@@ -19,7 +15,6 @@
 
 	The gold cab version contains more features, such as exclusive songs or the "GOLDEN LEAGUE" mode.
 
----
 ### Preparing data
 
 !!! tip ""
@@ -45,7 +40,6 @@
 	If extra files are present next to your folders, such as executables, scripts, etc.. **remove them**.  
 	**This also means your data was tampered with and we strongly recommend getting new data from somewhere else.**
 
----
 ### Updating data
 
 ??? danger "Please make sure you're using the right update for your current data."
@@ -77,7 +71,6 @@
 	- If that's already the case then great! Don't touch anything.
 	- If it instead corresponds to your pre-patch datecode, replace it with the new one and save the file.
 
----
 ### Installing spice2x
 
 !!! info ""
@@ -153,7 +146,7 @@
 
 #### Options
 
-!!! info "If you don't know what an option does, hover over the question mark at the very left."
+!!! info "If you don't know what an option does, hover over the its name with your mouse."
 
 	<img src="/img/common/spice2x_option_hover.png">
 
@@ -176,7 +169,6 @@
 
 !!! warning "Leave everything at default unless you know what you're doing."
 
----
 ### Connecting to a network
 
 !!! danger "Please choose one of the two solutions, not both!"
@@ -204,7 +196,6 @@
 
 	This is covered in the [Asphyxia CORE](/extras/asphyxia.md) page.
 
----
 ### Pre-launch requirements
 
 !!! info "These steps are required, otherwise your game won't run."
@@ -222,7 +213,6 @@
 
 	- Download and install the [K-lite Codec Pack](https://codecguide.com/download_kl.htm) (the Standard version is enough)
 
----
 ### Troubleshooting
 
 !!! warning "Have any other issue?"

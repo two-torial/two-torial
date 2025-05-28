@@ -1,18 +1,11 @@
-# beatmania IIDX 27 Heroic Verse
 <img class="header-logo" src="/img/bemani/iidx/27_heroicverse/logo.png">
+# Game Setup
 
-!!! note "Author Note:"
-	Lightning mode specifics: they are found [here](lightning.md)
+--8<-- "docs/snippets/common/old_guide.md"
 
-!!! danger "Warning:"
-	Please make sure your data is from an appropriate source and unmodified before proceeding, this guide is unable to troubleshoot any problems related to bad or poorly managed data.
+--8<-- "docs/snippets/common/data_warning.md"
 
-	If you obtained data from a torrent file, make sure you're not seeding the data before proceeding as well.
-
-	Lastly, for demonstrative purposes, this guide uses SpiceTools, you should consult appropriate documentation and requirements of your desired tools as the setup process is likely to be extremely similar.
-
-
-### Getting Started
+## Getting Started
 
 !!! tip ""
 	Before we even touch the game, let's fiddle with our audio settings to minimize any potential crashing on startup. In Windows, go to `Playback Devices` and then right click on your default device and go to `Properties`. From there, hit the `Advanced` tab and set your `Default Format` to `44100 Hz` and check both of the options inside `Exclusive Mode` as pictured.
@@ -26,7 +19,7 @@
 
 <img src="/img/bemani/iidx/27_heroicverse/1.png">
 
-### Configuring Your Tools
+## Configuring Your Tools
 
 !!! tip ""
 	Now that you have your files ready, open up `spicecfg.exe` and head to the `Options` where we'll set our desired parameters. For the purpose of this guide, we will demonstrate both a local network configuration and an online example below with SpiceTools, skip to whichever you're in need of accordingly and please keep in mind you can add whatever additional parameters you desire.
@@ -34,7 +27,7 @@
 !!! warning "If you're not using SpiceTools:"
 	You will have to likely generate a .bat file given your existing tool's documentation. As stated above, make sure to check the documentation of your tools to ensure you're using the correct parameters for your needs and to consult appropriate support if you're unsure how to do this.
 
-### Configuring for a Local Network
+## Configuring for a Local Network
 
 !!! tip ""
 	For our local network configuration example, inside `Options` tab we're going to click on the following: `E-Amusement Emulation: -ea` and `Windowed Mode: -w` to enable them.
@@ -48,7 +41,7 @@
 
 <img src="/img/bemani/iidx/27_heroicverse/cfg_ea.png">
 
-### Configuring for an Online Network
+## Configuring for an Online Network
 
 !!! tip ""
 	For our online network example we're simply doing the above but with different parameters! On the `Service URL: -url` parameter, we're going to input our chosen network URL like so: `http://yoururlhere.com/`
@@ -70,7 +63,7 @@
 !!! tip ""
 	One final note, since you're playing on a network, you will have one additional step of setting up your card file within your chosen tools, make sure to check your server's information on how to setup a card file.
 
-### Final Steps and Setting up the Game
+## Final Steps and Setting up the Game
 
 !!! tip ""
 	The last steps you'll have to do with your chosen tools is simply setting up your desired keybinds inside the `Buttons` and `Analogs` tabs! Make sure you setup the `Test` keybind as it will be critical for setting up the game. 
@@ -133,4 +126,4 @@
 !!! warning "Have any other errors?"
 	Check out the [Troubleshooting](troubleshooting.md) section and [Error Code](/errorcodes/bemani.md) section to resolve any issues not seen in this guide to greater depth.
 
-	Lightning Mode specifics can be found: [here](lightning.md#lightning-specific-troubleshooting)
+	Lightning Mode specifics can be found in the [Extra Information](extras.md#lightning-specific-troubleshooting)

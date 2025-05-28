@@ -1,11 +1,9 @@
-!!! danger "Please make sure you downloaded your data from an appropriate source.<br>This guide is unable to troubleshoot any problems related to bad or poorly managed data."
+--8<-- "docs/snippets/common/data_warning.md"
 
 !!! danger "If you're coming from a previous version of maimai DX"
 
     Create a new folder for the game and start from scratch.
     maimai DX **DOES NOT** like being extracted over old data!
-
----
 
 ### Preparing data
 
@@ -137,8 +135,6 @@
     Sound8Ch=0
     ```
 
----
-
 ### Installing segatools
 
 !!! tip ""
@@ -155,8 +151,6 @@
 !!! warning
 
     The latest release of segatools currently has issues with maimai, and for the time being an older version of segatools is preferred.
-
----
 
 ### Configuring segatools
 
@@ -201,8 +195,6 @@
     You can find info about the available mods for maimai here [AquaMai](https://github.com/MewoLab/AquaMai).                                                                         
     For general modding check [Unity modding](/extras/unity.md) page.                                                                                                                  
 
----
-
 ### Setting launch options
 
 !!! tip ""
@@ -232,8 +224,6 @@
     ??? info "Getting the monitor index"
         Navigate to Windows display settings. Each monitor should be assigned a number.
         The monitor index is that number. For example, monitor 2 means `-monitor 2`.
----
-
 ### Connecting to a network
 
 !!! danger "Please choose one of the two solutions, not both!"
@@ -268,8 +258,6 @@
     and [AquaDX](https://github.com/hykilpikonna/AquaDX?tab=readme-ov-file#usage-v1-developmental-preview)
     to set up a local server.
 
----
-
 ### Pre-launch requirements
 
 !!! info "These steps are required, otherwise your game won't run."
@@ -299,8 +287,6 @@
 !!! tip ""
 
     If you have an Intel 10th Gen CPU or newer, you need to [patch amdaemon](https://patcher.two-torial.xyz/amdaemon) and enable `OpenSSL SHA crash bug fix`.
-
----
 
 ### First launch
 
@@ -340,8 +326,6 @@
 !!! tip ""
 
     Select **終了** (`EXIT`, the last option) to exit to the main service menu.
-
----
 
 ### Custom Mods
 

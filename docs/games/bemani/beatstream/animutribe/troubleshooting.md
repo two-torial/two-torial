@@ -1,5 +1,9 @@
-# BeatStream アニムトライヴ
 <img class="header-logo" src="/img/bemani/beatstream/animutribe/logo.png">
+# Troubleshooting
+
+--8<-- "docs/snippets/common/old_guide.md"
+
+--8<-- "docs/snippets/common/data_warning.md"
 
 ### Hardware Specs
 

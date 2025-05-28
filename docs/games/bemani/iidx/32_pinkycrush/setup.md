@@ -1,7 +1,7 @@
-# beatmania IIDX 32 Pinky Crush
 <img class="header-logo" src="/img/bemani/iidx/32_pinkycrush/logo.png">
+# Game Setup
 
-!!! danger "Please make sure you downloaded your data from an appropriate source.<br>This guide is unable to troubleshoot any problems related to bad or poorly managed data."
+--8<-- "docs/snippets/common/data_warning.md"
 
 !!! danger "Reasonably modern CPU required"
 
@@ -11,7 +11,6 @@
 
 	A known workaround is renaming/deleting the `movies` folder to prevent the game from loading them altogether. 
 
----
 ### About data
 
 !!! info "The full game should be around 100gb while updates are only around 2-5gb in size."
@@ -38,7 +37,6 @@
 
 	You'll want to [update your data](#updating-data) **from** `LDJ-003` **to** `LDJ-010` **or** `LDJ-012` **FIRST** then follow this guide as normal.  
 
----
 ### Preparing data
 
 !!! tip ""
@@ -66,7 +64,6 @@
 
 !!! info "If you don't need to update your data, you can skip over to the [Installing spice2x](#installing-spice2x) section."
 
----
 ### Updating data
 
 ??? danger "Please make sure you're using the right update for your current data."
@@ -112,7 +109,6 @@
 
 	Now save the file.
 
----
 ### Installing spice2x
 
 !!! info ""
@@ -206,7 +202,7 @@
 
 #### Options
 
-!!! info "If you don't know what an option does, hover over the question mark at the very left."
+!!! info "If you don't know what an option does, hover over the its name with your mouse."
 
 	<img src="/img/common/spice2x_option_hover.png">
 
@@ -243,7 +239,6 @@
 
 !!! warning "Leave everything at default unless you know what you're doing."
 
----
 ### Connecting to a network
 
 !!! danger "Please choose one of the two solutions, not both!"
@@ -271,7 +266,6 @@
 
 	This is covered in the [Asphyxia CORE](/extras/asphyxia.md) page.
 
----
 ### Pre-launch requirements
 
 !!! info "These steps are required, otherwise your game won't run."
@@ -301,7 +295,6 @@
 
 !!! info "Read through the [Extra Information](extras.md) page and edit your `prop\ea3-config.xml` file if necessary."
 
----
 ### First launch
 
 !!! danger "If you have any issues running the game, refer to the [Troubleshooting](troubleshooting.md) page."
@@ -377,7 +370,6 @@
 	
 	You're all done! The game should load up properly now.
 
----
 ### Carding in
 
 !!! info "Before carding in, you have the option of changing the game's language by pressing your `EFFECT` key."
@@ -398,7 +390,6 @@
 	- Enter your code by clicking on the subscreen's keypad.
 	- If your code is accepted, you may now close the overlay.
 
----
 ### Troubleshooting
 
 !!! warning "Have any other issue?"

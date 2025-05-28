@@ -1,11 +1,9 @@
-!!! danger "Please make sure you downloaded your data from an appropriate source.<br>This guide is unable to troubleshoot any problems related to bad or poorly managed data."
+--8<-- "docs/snippets/common/data_warning.md"
 
 !!! danger "If you're coming from a previous version of O.N.G.E.K.I."
 
     You'll want to create a new folder for the game and start from scratch.
     O.N.G.E.K.I. **DOES NOT** like being extracted over old data!
-
----
 
 ### Preparing data
 
@@ -138,8 +136,6 @@
         in your `mu3.ini`, or else your Option data will not load.
 
 
----
-
 ### Installing segatools
 
 !!! tip ""
@@ -152,8 +148,6 @@
     You should now have a few more files inside the folder, as highlighted:
 
     <img width="500" src="/img/sega/ongeki/common/setup/3_ongeki_segatools_installed.png">
-
----
 
 ### Configuring segatools
 
@@ -198,8 +192,6 @@
     You can find info about the available mods for O.N.G.E.K.I. here [mu3-mods](https://gitea.tendokyu.moe/akanyan/mu3-mods/wiki).                                                                         
     For general modding check [Unity modding](/extras/unity.md) page.                                                                                                                  
 
----
-
 ### Setting launch options
 
 !!! tip ""
@@ -231,7 +223,6 @@
     ??? info "Getting the monitor index"
         Navigate to Windows display settings. Each monitor should be assigned a number.
         The monitor index is that number. For example, monitor 2 means `-monitor 2`.
----
 
 ### Connecting to a network
 
@@ -267,8 +258,6 @@
     and [AquaDX](https://github.com/hykilpikonna/AquaDX?tab=readme-ov-file#usage-v1-developmental-preview)
     to set up a local server.
 
----
-
 ### Pre-launch requirements
 
 !!! info "These steps are required, otherwise your game won't run."
@@ -296,8 +285,6 @@
 !!! tip ""
 
     If you have an Intel 10th Gen CPU or newer, you need to [patch amdaemon](https://patcher.two-torial.xyz/amdaemon) and enable `OpenSSL SHA crash bug fix`.
-
----
 
 ### First launch
 
@@ -363,8 +350,6 @@
     You're all done! The game should load up properly now.
 
     You can add coins using the `Coin` key (default `F3`) and card in by holding the `Enter` key.
-
----
 
 ### Custom Mods
 

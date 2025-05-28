@@ -1,9 +1,4 @@
-!!! danger "Warning"
-
-	Please make sure you downloaded your data from an appropriate source.
-	This guide is unable to troubleshoot any problems related to bad or poorly managed data.
-
----
+--8<-- "docs/snippets/common/data_warning.md"
 
 ### My game crashes on launch
 

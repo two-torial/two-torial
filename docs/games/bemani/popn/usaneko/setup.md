@@ -1,4 +1,4 @@
-# Game Setup (pop'n music Usaneko)
 <img class="header-logo" src="/img/bemani/popn/usaneko/logo.png">
+# Game Setup
 
 --8<-- "docs/games/bemani/popn/common/setup.md"

@@ -1,12 +1,11 @@
-# Manual DLL Hex Editing
+# Game Patching (hex editing)
 
 !!! danger "Before proceeding"
 
 	**This guide should ONLY be used as a last resort if all other methods fail.**  
 	**It has a high chance of breaking your game, make backups.**
 
----
-### Preamble
+## Preamble
 
 !!! tip ""
 
@@ -18,8 +17,7 @@
 	- A clean copy of your desired BEMANI game.
 	- A backup of your original `.dll` before editing.
 
----
-### Getting Started
+## Getting Started
 
 !!! tip ""
 

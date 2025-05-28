@@ -1,4 +1,6 @@
-# Setting Up SoftEther VPN for Cabinet-to-Cabinet Play
+# SoftEther VPN for Cabinet-to-Cabinet Play
+
+--8<-- "docs/snippets/common/old_guide.md"
 
 ### What is SoftEther VPN?
 
@@ -6,7 +8,6 @@
 
 	SoftEther VPN is a free tool we use to create Virtual Hubs and connect multiple machines to the same virtual network, allowing the ability to perform Cabinet-to-Cabinet link even when the machines are on physically different networks.
 
----
 ### Configuring SoftEther Server
 
 !!! danger "This part of the guide is for hosting a hub! If you only wish to connect to a hub, refer to [Connecting to a SoftEther Hub](#connecting-to-a-softether-hub)."
@@ -59,7 +60,6 @@
 
 <img src="/img/extras/softether/managehub.png">
 
----
 #### Adding Users to your Virtual Hub
 
 !!! tip ""
@@ -90,7 +90,6 @@
 <img src="/img/extras/softether/usercreated.png">
 <img src="/img/extras/softether/usercreated2.png">
 
----
 #### Configuring SecureNAT
 
 !!! tip ""
@@ -110,7 +109,6 @@
 
 <img src="/img/extras/softether/configsecurenat.png">
 
----
 #### Setting a Dynamic DNS for your SoftEther Server
 
 !!! info "You can set a custom DDNS Hostname for your SoftEther Server to allow people to remember your Server Hostname more easily. You can also just leave the hostname as default if you wish."
@@ -140,7 +138,6 @@
 	
 	The server setup is done! User(s) should be able to connect to your hub now.
 
----
 ### Connecting to a SoftEther Hub
 
 #### Setting up the VPN Client
@@ -175,7 +172,6 @@
 
 <img src="/img/extras/softether/createadapter3.png">
 
----
 #### Connecting to a Virtual Hub
 
 !!! tip ""
@@ -223,7 +219,6 @@
 
 <img src="/img/extras/softether/connected.png">
 
----
 ### Tips
 
 !!! tip ""

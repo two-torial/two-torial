@@ -1,9 +1,10 @@
-# GITADORA FUZZ-UP
 <img class="header-logo" src="/img/bemani/gitadora/fuzzup/logo.png">
+# Game Setup
 
-!!! danger "Please make sure you downloaded your data from an appropriate source.<br>This guide is unable to troubleshoot any problems related to bad or poorly managed data."
+--8<-- "docs/snippets/common/old_guide.md"
 
----
+--8<-- "docs/snippets/common/data_warning.md"
+
 ### Installing spice2x
 
 !!! info ""
@@ -17,7 +18,6 @@
   
 	<img src="/img/bemani/gitadora/fuzzup/spice.png">
 
----
 ### General Configuration
 
 !!! info ""
@@ -64,7 +64,6 @@
 	|-------------------|-----------------------------------|---------------|---------|
 	| Graphics (Common)	| NVIDIA profile optimization	    	| -nvprofile   	| ON	    |
 
----
 ### GuitarFreaks Configuration
 
 !!! info ""
@@ -108,7 +107,6 @@
 	| Paths					| Path to ea3-config.xml 	    | -e 	        | `prop/ea3-config2.xml`	 |
 	| Paths	    	| Path to avs-config.xml 				|	-v		      | `prop/avs-config-jb.xml` |
 
----
 ### DrumMania Configuration
 
 !!! info ""
@@ -137,7 +135,6 @@
 	| Paths					| Path to ea3-config.xml 	| -e 	     		| `prop/ea3-config.xml`	   |
 	| Paths	    		| Path to avs-config.xml  | -v					| `prop/avs-config-ja.xml` |
 
----
 ### Connecting to a Network
 
 !!! danger "Please choose one of the two solutions, not both!"
@@ -165,7 +162,6 @@
 
 	This is covered in the [Asphyxia CORE](/extras/asphyxia.md) page.
 
----
 ### Pre-launch Requirements
 
 !!! info "These steps are required, otherwise your game won't run."
@@ -193,7 +189,6 @@
 
 	<img src="/img/common/audio_24_441.png">
 
----
 ### First Launch
 
 !!! danger "If you have any issues running the game at this point, refer to the [Troubleshooting](troubleshooting.md) page."
@@ -242,7 +237,6 @@
 
 	You're all done! From the test menu, select `GAME MODE` and the game should boot up!
 
----
 ### Carding In
 
 !!! tip "" 
@@ -252,7 +246,6 @@
 	- Press your `Keypad Insert Card` button.
 	- Enter your code using your keypad binds.
 
----
 ### Troubleshooting
 
 !!! warning "Have any other issue?"

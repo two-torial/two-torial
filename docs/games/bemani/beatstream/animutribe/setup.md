@@ -1,12 +1,9 @@
-# BeatStream アニムトライヴ
 <img class="header-logo" src="/img/bemani/beatstream/animutribe/logo.png">
+# Game Setup
 
-!!! danger "Warning:"
-	Please make sure your data is from an appropriate source and unmodified before proceeding, this guide is unable to troubleshoot any problems related to bad or poorly managed data.
+--8<-- "docs/snippets/common/old_guide.md"
 
-	If you obtained data from a torrent file, make sure you're not seeding the data before proceeding as well.
-
-	Lastly, for demonstrative purposes, this guide uses SpiceTools, you should consult appropriate documentation and requirements of your desired tools as the setup process is likely to be extremely similar.
+--8<-- "docs/snippets/common/data_warning.md"
 
 ### Getting Started
 

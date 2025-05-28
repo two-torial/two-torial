@@ -1,4 +1,4 @@
-# spice2x DLL Patching
+# Game Patching (spice2x)
 
 !!! info "TWO-TORIAL Patcher"
 
@@ -22,8 +22,7 @@
 	If you've already patched your game through other methods *([web patching](patchweb.md) or [hex editing](hexguide.md))*,  
 	**Please replace your game's DLL with the original**.
 
----
-### Getting Started
+## Getting Started
 
 !!! tip ""
 
@@ -56,7 +55,7 @@
 
 <img src="/img/extras/patchsp2x/3.png">
 
-#### Picking Patches
+### Picking Patches
 
 !!! danger "Important"
 
@@ -76,7 +75,7 @@
 
 	For game-specific instructions, refer to their respective dedicated pages.
 
-#### Auto apply / Overwrite game files
+### Auto apply / Overwrite game files
 
 !!! tip "Auto apply (recommended)"
 

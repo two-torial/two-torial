@@ -1,7 +1,7 @@
-# Taiko no Tatsujin Nijiiro Troubleshooting
 <img class="header-logo" src="/img/namco/taikonijiiro/logo.png">
+# Troubleshooting
 
-!!! danger "Please make sure you downloaded your data from an appropriate source.<br>This guide is unable to troubleshoot any problems related to bad or poorly managed data."
+--8<-- "docs/snippets/common/data_warning.md"
 
 ### Changing the Language
 
@@ -20,15 +20,11 @@
 
 <img src="/img/namco/taikonijiiro/troubleshooting/lang.png">
 
----
-
 ### My game is frozen/black screen
 
 !!! tip ""
 
     You can fix this by running the game as admin. You can also try updating windows and gpu drivers.
-
----
 
 ### My game takes a long time to boot
 
@@ -53,7 +49,6 @@
 
 <img src="/img/namco/taikonijiiro/troubleshooting/defender.png">
 
----
 ### My game is running crazy fast/slow
 
 !!! tip ""
@@ -67,7 +62,6 @@
     ??? tip "If you have a display that is less than 120hz"                                                   
         - In `config.toml` set `vsync =` to `false` and `windowed =` to `true`.                                                                        
 
----
 ### My game is not connected to a network but I set one up
 
 !!! tip "Disable shop close time or you won't always be able to connect to the network"
@@ -78,7 +72,6 @@
 
     If you are still unable to connect that means you have incorrectly configured your `config.toml` or your server.
 
----
 ### My game is still too big/small after setting the resolution in `config.toml`
 
 !!! tip ""
@@ -91,7 +84,6 @@
 
     <img src="/img/namco/taikonijiiro/troubleshooting/scale.png">
 
----
 ### My controller is dropping inputs / I can't hit good drumrolls
 
 !!! tip ""
@@ -100,7 +92,6 @@
 
     In `config.toml` increase `wait_period =` by 1, then test it in-game and repeat until it feels correct.
 
----
 ### Best settings for Nvidia GPUs
 
 !!! tip ""
@@ -113,7 +104,6 @@
     - Power management mode `Prefer maximum performance`                                         
     - Vertical sync `Fast`                                                  
 
----
 ### Audio
 
 !!! tip ""
@@ -130,4 +120,3 @@
     - Change `asio_driver =` to `asio_driver = "<Your ASIO Driver Name>"`
 
     For more information refer to the general [Audio](/extras/audio.md) guide.
-
