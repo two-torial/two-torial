@@ -1,5 +1,3 @@
-	!!! tip "Highly Recommended for NVIDIA users ONLY"
+	!!! tip "NVIDIA GPU users ONLY"
 
-		| Category 			| Option 							| Parameter 	| Setting |
-		|-------------------|-----------------------------------|---------------| 		  |
-		| Graphics (common)	| NVIDIA profile optimization	 	| -nvprofile 	| ON	  |
+		Enable `NVIDIA profile optimization (-nvprofile)` to let spice2x create an optimized profile for your game.

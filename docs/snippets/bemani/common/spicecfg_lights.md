@@ -1,8 +1,8 @@
+	!!! info "This tab allows you to configure controller lights to sync with the game"
+
+		Not all controllers support this, but it does not affect gameplay and is completely optional.
+	
 	!!! tip ""
-
-		Your controller might support having its lights controlled by the game through spice2x.
-
-		If it does, here's how you may link different actions to your lights:
 
 		- Click `Bind`
 		- In `Device`, pick your controller

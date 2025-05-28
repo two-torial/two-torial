@@ -87,7 +87,7 @@
 
 === "API"
 
---8<-- "docs/snippets/bemani/common/spicecfg_api.md"
+--8<-- "docs/snippets/bemani/common/spicecfg_nochange.md"
 
 === "Options"
 
@@ -97,11 +97,11 @@
 
 === "Advanced"
 
---8<-- "docs/snippets/bemani/common/spicecfg_advanced.md"
+--8<-- "docs/snippets/bemani/common/spicecfg_nochange.md"
 
 === "Development"
 
---8<-- "docs/snippets/bemani/common/spicecfg_development.md"
+--8<-- "docs/snippets/bemani/common/spicecfg_nochange.md"
 
 ## Configuring Audio
 
@@ -146,7 +146,9 @@
 
 	If you're seeing this screen, it means you need to calibrate your knobs.
 
-	Press your `Test` key. Here is how you navigate this menu:
+	Press your `Test` key to go to the service menu.
+	
+	Instructions on how to navigate the menu are shown at the bottom of the screen:
 
 	- Press `BT-A` to go up
 	- Press `BT-B` to go down
@@ -181,8 +183,8 @@
 
 	Select `GAME MODE` and press `Start`.
 	
-	You're all done! The game should load up properly now and you may card in.
+!!! success "You're all done! The game should load up properly now"
 
-# Help
+## Help
 
 --8<-- "docs/snippets/common/help.md"

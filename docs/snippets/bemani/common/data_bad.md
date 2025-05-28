@@ -1,4 +1,4 @@
-??? warning "If your data does not look like this"
+!!! danger "If your data does not look like this"
 
 	If you have `.dll` files next to your `data`, `prop`, etc.. folders:
 

@@ -1,1 +1,0 @@
-	!!! warning "Leave everything at default unless you know what you're doing."

@@ -8,7 +8,6 @@
 
 		- Click `Bind`
 		- In `Device`, pick your controller
-		- In `Control`, pick `X` for `VOL-L` or `Y` for `VOL-R`
-		- Turn your knob ensuring that the Preview knob turns along with it
+		- In `Control`, pick the control that updates the preview when turning the corresponding knob
 		- Click `Close`, leaving the rest of the settings alone
 		- Repeat for your other knob
