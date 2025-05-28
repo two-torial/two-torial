@@ -37,7 +37,7 @@
 	IIDX updates have `LDJ` and one or two datecodes in their archive names.
 
 	**Single datecode:** Contains one update (e.g., `LDJ_2025011400.7z`)  
-	**Two datecodes:** Updates from the older to newer version (e.g., `KFC-LDJ_2024121000-LDJ_2025011400.rar`)
+	**Two datecodes:** Updates from the older to newer version (e.g., `LDJ_2024121000-2025011400.rar`)
 
 	In the two-datecode example:
 
