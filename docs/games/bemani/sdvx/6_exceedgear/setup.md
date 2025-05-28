@@ -36,6 +36,7 @@
 	**Two datecodes:** Updates from the older to newer version (e.g., `KFC-2024121000-2025012100.rar`)
 
 	In the two-datecode example:
+ 
 	- `2024121000` is the older date, the game version required to apply this update
 	- `2025012100` is the newer date, and is the version you'll arrive at after applying the update
 
