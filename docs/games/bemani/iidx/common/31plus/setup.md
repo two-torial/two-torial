@@ -34,13 +34,15 @@
 
 	IIDX updates have `LDJ` and one or two datecodes in their archive names.
 
-	**Single datecode:** Contains one update (e.g., `LDJ_2025011400.7z`)  
-	**Two datecodes:** Updates from the older to newer version (e.g., `LDJ_2024121000-2025011400.rar`)
+	**Single datecode:** Contains one update (e.g., `LDJ_NewDateCode.7z`)  
+	**Two datecodes:** Updates from the older to newer version (e.g., `LDJ_OldDateCode-NewDateCode.rar`)
+
+	A date code should look something like this: `YYYYMMDDXX`
 
 	In the two-datecode example:
 
-	- `2024121000` is the older date, the game version required to apply this update
-	- `2025011400` is the newer date, and is the version you'll arrive at after applying the update
+	- `OldDateCode` is the older date, the game version required to apply this update
+	- `NewDateCode` is the newer date, and is the version you'll arrive at after applying the update
 
 --8<-- "docs/snippets/bemani/common/data_update.md"
 
