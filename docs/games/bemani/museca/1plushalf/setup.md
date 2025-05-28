@@ -127,10 +127,6 @@
 
 --8<-- "docs/snippets/bemani/common/setup_network.md"
 
-## Configuring your game
-
-!!! info "Read through the [Extra Information](extras.md) page"
-
 ## Monitor Orientation
 
 --8<-- "docs/snippets/bemani/common/display_portraitfirst.md"
