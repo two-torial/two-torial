@@ -153,6 +153,10 @@
 
 !!! success "You're all done! The game should load up properly now"
 
+## Data Mods
+
+!!! info "As MÚSECA is no longer updated officially, mods such as [MÚSECA+](https://museca.plus/) have been made to add more content to the game and translate it to English."
+
 ## Help
 
 --8<-- "docs/snippets/common/help.md"
