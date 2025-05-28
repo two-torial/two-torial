@@ -73,7 +73,7 @@
 
 	- Double-check that you followed all steps in the [setup guide](setup.md) correctly
 	- Your PC hardware might be insufficient to keep a steady 120 FPS, you can try to either:
-		- [Patch](/extras/patchsp2x.md) the game with `Valkyrie Mode 60Hz` to stick in Valkyrie mode but run at 60 FPS
+		- [Patch](/extras/patchsp2x.md) the game with `Valkyrie Mode 60 Hz` to stick in Valkyrie mode but run at 60 FPS
 		- [Switch to Nemsys mode](extras.md#nemsys-and-valkyrie-modes)
 	- Your data may be corrupt in one way or another, you could try starting from scratch using trusted data sources.
 

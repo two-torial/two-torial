@@ -17,7 +17,7 @@
 
 	The most common reason for this is the game is running over its required refresh rate.
 	
-	To solve this, ensure the monitor running GITADORA FUZZ-UP is set to 60Hz. This is a requirement for the game to run at the correct speed. The game is hardcoded to run at 60Hz and there is no way to change this.
+	To solve this, ensure the monitor running GITADORA FUZZ-UP is set to 60 Hz. This is a requirement for the game to run at the correct speed. The game is hardcoded to run at 60 Hz and there is no way to change this.
 	
 	In addition, make sure v-sync isn't disabled in your graphics card's settings.
 	

@@ -62,7 +62,7 @@
 	- `res =` change to your display's resolution.
 	- `windowed =` set to `true` if you want to run the game in windowed.
 	- `cursor =` mostly visual. change if you want to.
-    - `vsync =` set to `true` if your display is set to 120hz.                                        
+    - `vsync =` set to `true` if your display is set to 120 Hz.                                        
 	- `fpslimit =` do not change unless you know what you are doing.
 	- `model_res_rate =` do not change unless you know what you are doing.
 

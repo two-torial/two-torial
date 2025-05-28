@@ -1,8 +1,8 @@
 # Extra Information
 
-## Standard & Lightning modes
+## Standard and Lightning modes
 
-!!! warning "Lightning mode requires a 120hz capable monitor."
+!!! warning "Lightning mode requires a 120 Hz capable monitor."
 
 !!! tip ""
 
@@ -26,8 +26,8 @@
 	<spec __type="str">E</spec>
     ```
 
-    - ^^`E`^^ for Standard (LDJ-012, LDJ, 60hz)
-    - ^^`D`^^ for Lightning (LDJ-010, TDJ, 120hz)
+    - ^^`E`^^ for Standard (LDJ-012, LDJ, 60 Hz)
+    - ^^`D`^^ for Lightning (LDJ-010, TDJ, 120 Hz)
     
 ## Changing the game's language
 

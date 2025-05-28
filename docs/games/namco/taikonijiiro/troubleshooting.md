@@ -55,11 +55,11 @@
 
     The game needs to be ran at 120 FPS or things will break.
     
-    ??? tip "If you have a display that supports 120hz or higher"                           
-        - Set your display to 120hz. You may need to make a custom resolution.                                                                              
+    ??? tip "If you have a display that supports 120 Hz or higher"                           
+        - Set your display to 120 Hz. You may need to make a custom resolution.                                                                              
         - In `config.toml` set `vsync =` to `true`.  
      
-    ??? tip "If you have a display that is less than 120hz"                                                   
+    ??? tip "If you have a display that is less than 120 Hz"                                                   
         - In `config.toml` set `vsync =` to `false` and `windowed =` to `true`.                                                                        
 
 ### My game is not connected to a network but I set one up

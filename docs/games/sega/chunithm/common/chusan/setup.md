@@ -117,7 +117,7 @@
 | No encryption                | ON             | Disable encrypting network requests. **Required if you plan to run a local server.** |
 | No TLS                       | ON             | Disable checking if the server is `HTTPS` or not. **Required if you plan to run a local server.** |
 | Bypass 1080p monitor check   | Either         | Disable checking if the monitor is 1080p when enabling 120FPS. Enable if you cannot set your monitor to 1080p. |
-| Bypass 120Hz monitor check   | Either         | Disable checking if the monitor is **exactly 120Hz** when enabling 120FPS. Enable if you cannot set your monitor to 120Hz. |
+| Bypass 120 Hz monitor check   | Either         | Disable checking if the monitor is **exactly 120 Hz** when enabling 120FPS. Enable if you cannot set your monitor to 120 Hz. |
 
 ## Installing segatools
 
@@ -189,7 +189,7 @@
 
 !!! tip ""
 
-    - If you have a 120Hz monitor, set `dipsw2` and `dipsw3` to 0:
+    - If you have a 120 Hz monitor, set `dipsw2` and `dipsw3` to 0:
 
     ```ini
     [system]
@@ -197,7 +197,7 @@
     dipsw3=0
     ```
 
-    - If you have a 60Hz monitor, set `dipsw2` and `dipsw3` to 1:
+    - If you have a 60 Hz monitor, set `dipsw2` and `dipsw3` to 1:
 
     ```ini
     [system]

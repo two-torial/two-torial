@@ -11,9 +11,9 @@
     - `amdaemon` crashing in the background. Make sure that the `config_*.json` files
     have valid syntax, your ICF files are correct, and the OpenSSL fix is applied on Intel Core 10th Gen CPUs and newer.
     - Using the incorrect dipswitch settings for your refresh rate (e.g. `dipsw3=0` on
-    a 60Hz screen). Refer to the game setup guide to fix it.
-    - Enabling 120FPS on a monitor that is not **exactly 120Hz** or **exactly 1080p**.
-    If you cannot set your monitor's refresh rate to 120Hz, apply the "Bypass 120Hz
+    a 60 Hz screen). Refer to the game setup guide to fix it.
+    - Enabling 120FPS on a monitor that is not **exactly 120 Hz** or **exactly 1080p**.
+    If you cannot set your monitor's refresh rate to 120 Hz, apply the "Bypass 120 Hz
     monitor check"/"Bypass 1080p monitor check" on a CHUNITHM web patcher (see [Resources](/resources.md#web-patchers)).
     
 ??? info "Capturing logs from `amdaemon` for troubleshooting"
@@ -61,7 +61,7 @@
     
     - Make sure V-Sync isn't disabled in your graphics settings (called "Vertical sync"
     in NVIDIA Control Panel and "Wait for Vertical Refresh" in AMD Control Panel.)
-    - Make sure your monitor's refresh rate is set to 60Hz or 120Hz.
+    - Make sure your monitor's refresh rate is set to 60 Hz or 120 Hz.
 
     It could also be that your computer's performance isn't good enough to keep
     a steady framerate.

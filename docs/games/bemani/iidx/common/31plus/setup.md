@@ -2,13 +2,11 @@
 
 --8<-- "docs/snippets/common/data_warning.md"
 
-!!! danger "AVX2 capable CPU required"
+--8<-- "docs/snippets/common/cpu_avx2.md"
 
-	This game requires your CPU to be compatible with AVX2 instructions.
+## Standard and Lightning modes
 
-	If your CPU is too old, the game will crash with an `EXCEPTION_ILLEGAL_INSTRUCTION` error.
-
-	A known workaround is renaming/deleting the `movies` folder to prevent the game from loading them altogether. 
+--8<-- "docs/snippets/iidx/ldj_vs_tdj.md"
 
 ## Preparing data
 

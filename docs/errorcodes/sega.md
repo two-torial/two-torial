@@ -238,7 +238,7 @@
 
 !!! tip "Monitor Not Supported 120fps"
 
-    This error occurs if your monitor is not set to `1920x1080@120Hz` at 32-bit color mode.  
+    This error occurs if your monitor is not set to `1920x1080@120 Hz` at 32-bit color mode.  
     Adjust display settings and try again.
 
 ### 3401

@@ -5,7 +5,7 @@
 
 ## Nemsys and Valkyrie modes
 
-!!! warning "Valkyrie mode requires a 120hz capable monitor, or to have patched your `.dll` with `Valkyrie Mode 60hz`."
+!!! warning "Valkyrie mode requires a 120 Hz capable monitor, or to have patched your `.dll` with `Valkyrie Mode 60 Hz`."
 
 !!! tip ""
 

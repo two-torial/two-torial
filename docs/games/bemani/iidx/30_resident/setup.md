@@ -15,8 +15,8 @@
 
 	Two versions of the game exist:
 	
-	- **TDJ** expects a `120hz` compatible monitor for its main screen, and a second `60hz` touchscreen compatible monitor called a subscreen. The second monitor isn't mandatory, we can get around that using spice2x.
-	- **LDJ** expects `60hz` monitor for its main screen, and no subscreen.
+	- **TDJ** expects a `120 Hz` compatible monitor for its main screen, and a second `60 Hz` touchscreen compatible monitor called a subscreen. The second monitor isn't mandatory, we can get around that using spice2x.
+	- **LDJ** expects `60 Hz` monitor for its main screen, and no subscreen.
 
 	We'll be using the terms **TDJ** for **Lightning**, and **LDJ** for **Standard** throughout the guide.
 
@@ -197,7 +197,7 @@
 	|---------------|-----------------------|-------------------|---------|
 	| Game Options	| IIDX TDJ Mode		 	| -iidxtdj		 	| ON	  |
 
-	**If you only have a single 120hz monitor**, and not another 60hz touchscreen:
+	**If you only have a single 120 Hz monitor**, and not another 60 Hz touchscreen:
 
 	| Category 		| Option 				| Parameter 						| Setting |
 	|---------------|-----------------------|-----------------------------------|---------|
