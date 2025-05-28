@@ -183,15 +183,6 @@
 	
 	You're all done! The game should load up properly now and you may card in.
 
-## Troubleshooting
+# Help
 
-!!! warning "Need help?"
-
-	These guides might help:
-
-	- [Extra Information](extras.md)
-	- [Troubleshooting](troubleshooting.md)  
-	- [Error Codes](/errorcodes/bemani.md)
-
-	Still stuck? Join our Discord community to ask for help!  
-	You can find the invite link on our [homepage](/index.md).
+--8<-- "docs/snippets/common/help.md"
