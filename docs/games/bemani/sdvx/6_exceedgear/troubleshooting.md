@@ -1,4 +1,4 @@
-<img class="header-logo" src="/img/bemani/sdvx/6_exceedgear/logo.png">
+<img class="header-logo" src="/img/bemani/sdvx/6_exceedgear/logo.webp">
 # Troubleshooting
 
 --8<-- "docs/snippets/common/data_warning.md"

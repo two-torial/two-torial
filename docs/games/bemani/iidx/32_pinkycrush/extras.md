@@ -1,4 +1,4 @@
-<img class="header-logo" src="/img/bemani/iidx/32_pinkycrush/logo.png">
+<img class="header-logo" src="/img/bemani/iidx/32_pinkycrush/logo.webp">
 # Extra Information
 
 ## Standard & Lightning modes

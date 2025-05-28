@@ -1,4 +1,4 @@
-<img class="header-logo" src="/img/bemani/nostalgia/op2/logo.png">
+<img class="header-logo" src="/img/bemani/nostalgia/op2/logo.webp">
 # Troubleshooting
 
 --8<-- "docs/snippets/common/old_guide.md"

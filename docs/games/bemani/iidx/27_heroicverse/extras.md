@@ -1,4 +1,4 @@
-<img class="header-logo" src="/img/bemani/iidx/27_heroicverse/logo.png">
+<img class="header-logo" src="/img/bemani/iidx/27_heroicverse/logo.webp">
 # Extra Information
 
 --8<-- "docs/snippets/common/old_guide.md"

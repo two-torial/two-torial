@@ -1,4 +1,4 @@
-<img class="header-logo" src="/img/bemani/iidx/9thstyle/logo.png">
+<img class="header-logo" src="/img/bemani/iidx/9thstyle/logo.webp">
 # Game Setup
 
 --8<-- "docs/snippets/common/old_guide.md"
@@ -28,7 +28,7 @@
 
 	Pictured below is what your folder should look like. We've removed any files not necessary for **9th style**.
 
-<img src="/img/bemani/iidx/9thstyle/setup/1.png">
+<img src="/img/bemani/iidx/9thstyle/setup/1.webp">
 
 ### Using iidxhook-09.conf
 
@@ -103,7 +103,7 @@
 	
 !!! info "If you don't have a numpad, make sure to tick `Use top keyboard row for PIN pad input`. This will also change the `Card In` button to `Backspace`."
 	
-<img src="/img/bemani/iidx/9thstyle/setup/2.png">
+<img src="/img/bemani/iidx/9thstyle/setup/2.webp">
 
 ## Connecting to a network
 
@@ -136,10 +136,10 @@
 	Below is an example of how both look like.
 
 	??? info "Linear"
-		<img src="/img/bemani/iidx/9thstyle/9th_linear.png">
+		<img src="/img/bemani/iidx/9thstyle/9th_linear.webp">
 
 	??? info "Point"
-		<img src="/img/bemani/iidx/9thstyle/9th_point.png">
+		<img src="/img/bemani/iidx/9thstyle/9th_point.webp">
 		
 	It comes down to your own prefrence what you decide on, `Linear` is less sharp but doesn't have pixel perfect edges. `Point` is sharp and is pixel perfect.
 
@@ -208,14 +208,14 @@
 
 	If it's your first time running the game, you'll immediately be greeted with this screen.
 
-<img src="/img/bemani/iidx/9thstyle/firstlaunch/1.png">
+<img src="/img/bemani/iidx/9thstyle/firstlaunch/1.webp">
 
-<img src="/img/bemani/iidx/9thstyle/firstlaunch/2.png">
+<img src="/img/bemani/iidx/9thstyle/firstlaunch/2.webp">
 
 !!! tip ""
 	The game will automatically bring you into it's service menu.
 	
-<img src="/img/bemani/iidx/9thstyle/firstlaunch/3.png">
+<img src="/img/bemani/iidx/9thstyle/firstlaunch/3.webp">
 
 !!! tip ""
 	Instructions on how to navigate the menu are shown at the bottom of the screen.
@@ -225,7 +225,7 @@
 	
 	Navigate to `CLOCK SETUP`. You do not need to manually change it. Navigate to `SAVE AND EXIT`.
 
-<img src="/img/bemani/iidx/9thstyle/firstlaunch/4.png">
+<img src="/img/bemani/iidx/9thstyle/firstlaunch/4.webp">
 
 !!! info "If you'd like to play offline, you can head straight to [Final Notes](#final-notes)"
 
@@ -234,21 +234,21 @@
 !!! tip ""
 	From the service menu, go to `e-AMUSEMENT OPTIONS` then `e-AMUSEMENT SETTINGS`.
 	
-<img src="/img/bemani/iidx/9thstyle/firstlaunch/5.png">
+<img src="/img/bemani/iidx/9thstyle/firstlaunch/5.webp">
 
-<img src="/img/bemani/iidx/9thstyle/firstlaunch/6.png">
+<img src="/img/bemani/iidx/9thstyle/firstlaunch/6.webp">
 
 !!! tip ""
 	It'll bring you to this screen, change it so that `e-AMUSEMENT` switches to `ON` and it will look like this:
 	
-<img src="/img/bemani/iidx/9thstyle/firstlaunch/7.png">
+<img src="/img/bemani/iidx/9thstyle/firstlaunch/7.webp">
 
-<img src="/img/bemani/iidx/9thstyle/firstlaunch/8.png">
+<img src="/img/bemani/iidx/9thstyle/firstlaunch/8.webp">
 
 !!! tip ""
 	We will need to set a `SHOP NAME SETTING` and change our `PREFECTURE` otherwise the game will throw errors at us.
 	
-<img src="/img/bemani/iidx/9thstyle/firstlaunch/9.png">
+<img src="/img/bemani/iidx/9thstyle/firstlaunch/9.webp">
 
 !!! tip ""
 
@@ -256,7 +256,7 @@
 	- Navigate to `EXIT` and select it.
 	- Change your prefecture once or how many times you'd like, it doesn't matter as long as it's not the default one.
 	
-<img src="/img/bemani/iidx/9thstyle/firstlaunch/10.png">
+<img src="/img/bemani/iidx/9thstyle/firstlaunch/10.webp">
 
 !!! tip ""
 	Select `SAVE AND EXIT`. The game will now give you a message, which translated means: 
@@ -265,7 +265,7 @@
 	
 	So, close the game and open it again.
 	
-<img src="/img/bemani/iidx/9thstyle/firstlaunch/11.png">
+<img src="/img/bemani/iidx/9thstyle/firstlaunch/11.webp">
 
 ## Final Notes
 

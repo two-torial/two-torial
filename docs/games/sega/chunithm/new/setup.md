@@ -1,4 +1,4 @@
-<img class="header-logo" src="/img/sega/chunithm/new/logo.png">
+<img class="header-logo" src="/img/sega/chunithm/new/logo.webp">
 # Game Setup
 
 --8<-- "docs/games/sega/chunithm/common/chusan/setup.md"

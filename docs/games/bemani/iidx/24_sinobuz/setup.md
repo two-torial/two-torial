@@ -1,4 +1,4 @@
-<img class="header-logo" src="/img/bemani/iidx/24_sinobuz/logo.png">
+<img class="header-logo" src="/img/bemani/iidx/24_sinobuz/logo.webp">
 # Game Setup
 
 --8<-- "docs/snippets/common/old_guide.md"
@@ -18,7 +18,7 @@
 
 	You should end up with a file structure with a few folders only, as follows.
 
-<img src="/img/bemani/iidx/24_sinobuz/data.png">
+<img src="/img/bemani/iidx/24_sinobuz/data.webp">
 
 ??? warning "If your data doesn't look like this"
 
@@ -36,7 +36,7 @@
 	- Head over to [spice2x.github.io](https://spice2x.github.io) and download the latest release.
 	- Extract the `spice.exe` and `spicecfg.exe` files from the archive to your game's directory.
   
-	<img src="/img/bemani/iidx/24_sinobuz/spice2xdata.png">
+	<img src="/img/bemani/iidx/24_sinobuz/spice2xdata.webp">
 
 ## Configuring spice2x
 
@@ -110,7 +110,7 @@
 
 !!! info "If you don't know what an option does, hover over the its name with your mouse."
 
-	<img src="/img/common/spice2x_option_hover.png">
+	<img src="/img/common/spice2x_option_hover.webp">
 
 !!! danger "Be very careful changing options you don't understand as it may cause issues."
 
@@ -144,7 +144,7 @@
 	- `EA Service URL` to the URL provided by your network.
 	- `PCBID` to the PCBID provided by your network.
 	
-	<img src="/img/common/spice2x_network.png">
+	<img src="/img/common/spice2x_network.webp">
 
 	Next you need a card number.  
 	If you don't already have one, generate one in the `Cards` tab.  
@@ -152,7 +152,7 @@
 
 	Once that's done, head to the `Cards` tab, for `Player 1` click `Open...` and point to your text file.
 
-	<img src="/img/common/spice2x_cards.png">
+	<img src="/img/common/spice2x_cards.webp">
 
 ??? tip "Local e-amuse Emulator (Asphyxia)"
 
@@ -181,7 +181,7 @@
 	- Open the `Default Format` dropdown.
 	- Pick the `24 bit, 44100 Hz (CD Quality)` option and click `Apply` then `OK`.
 
-	<img src="/img/common/audio_24_441.png">
+	<img src="/img/common/audio_24_441.webp">
 
 ## First launch
 
@@ -197,7 +197,7 @@
 
 	If it's your first time running the game, you'll immediately be greeted with this screen.
 
-<img src="/img/bemani/iidx/common/oldhd/firstlaunch/1.png">
+<img src="/img/bemani/iidx/common/oldhd/firstlaunch/1.webp">
 
 ### CLOCK ERROR
 
@@ -207,13 +207,13 @@
 
 	Next, you'll get another error.
 
-<img src="/img/bemani/iidx/common/oldhd/firstlaunch/2.png">
+<img src="/img/bemani/iidx/common/oldhd/firstlaunch/2.webp">
 
 !!! tip ""
 
 	Let the game run for a bit until the monitor check is complete and you should be taken to the service menu.
 
-<img src="/img/bemani/iidx/common/oldhd/firstlaunch/3.png">
+<img src="/img/bemani/iidx/common/oldhd/firstlaunch/3.webp">
 
 !!! tip ""
 
@@ -224,7 +224,7 @@
   
 	Start by going up to `CLOCK`.
 
-<img src="/img/bemani/iidx/common/oldhd/firstlaunch/4.png">
+<img src="/img/bemani/iidx/common/oldhd/firstlaunch/4.webp">
 
 !!! tip ""
 
@@ -244,13 +244,13 @@
 
 	`HD*` adds `+1.0` offset in-game, while `HD` doesn't.
 
-<img src="/img/bemani/iidx/common/oldhd/firstlaunch/5.png">
+<img src="/img/bemani/iidx/common/oldhd/firstlaunch/5.webp">
 
 !!! tip ""
 
 	Once done selecting, select `YES` then `SAVE AND EXIT`.
 
-<img src="/img/bemani/iidx/common/oldhd/firstlaunch/6.png">
+<img src="/img/bemani/iidx/common/oldhd/firstlaunch/6.webp">
 
 ### NETWORK OPTIONS
 
@@ -258,8 +258,8 @@
 
 	Go to `NETWORK OPTIONS` then `SHOP NAME SETTING`.
 
-<img src="/img/bemani/iidx/common/oldhd/firstlaunch/7.png">
-<img src="/img/bemani/iidx/common/oldhd/firstlaunch/8.png">
+<img src="/img/bemani/iidx/common/oldhd/firstlaunch/7.webp">
+<img src="/img/bemani/iidx/common/oldhd/firstlaunch/8.webp">
 
 !!! tip ""
 
@@ -268,8 +268,8 @@
 	- Name your shop to whatever you'd like. Instructions on how to navigate are at the bottom of the screen.
 	- Go to `EXIT` then `SAVE AND EXIT`.
 
-<img src="/img/bemani/iidx/common/oldhd/firstlaunch/9.png">
-<img src="/img/bemani/iidx/common/oldhd/firstlaunch/10.png">
+<img src="/img/bemani/iidx/common/oldhd/firstlaunch/9.webp">
+<img src="/img/bemani/iidx/common/oldhd/firstlaunch/10.webp">
 
 !!! tip ""
 

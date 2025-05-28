@@ -1,4 +1,4 @@
-<img class="header-logo" src="/img/namco/taikonijiiro/logo.png">
+<img class="header-logo" src="/img/namco/taikonijiiro/logo.webp">
 # Troubleshooting
 
 --8<-- "docs/snippets/common/data_warning.md"
@@ -18,7 +18,7 @@
      
     Using ++f1++, the `arrow keys` and ++enter++, navigate to `OTHERS` -> `LANGUAGE`
 
-<img src="/img/namco/taikonijiiro/troubleshooting/lang.png">
+<img src="/img/namco/taikonijiiro/troubleshooting/lang.webp">
 
 ### My game is frozen/black screen
 
@@ -47,7 +47,7 @@
     - Scroll down to `Exclusions` and click on `Add or remove exclusions`.  
     - Click the `Add an exclusion` button, select the `folder` option, navigate to the root of your game installation and click `Select Folder`.
 
-<img src="/img/namco/taikonijiiro/troubleshooting/defender.png">
+<img src="/img/namco/taikonijiiro/troubleshooting/defender.webp">
 
 ### My game is running crazy fast/slow
 
@@ -68,7 +68,7 @@
 
     Using ++f1++ `arrow keys` and ++enter++ navigate to `GAME OPTIONS` -> `CLOCK/CLOSE TIME SETTING` -> `SCHEDULE TYPE`.
 
-    <img src="/img/namco/taikonijiiro/troubleshooting/close.png">
+    <img src="/img/namco/taikonijiiro/troubleshooting/close.webp">
 
     If you are still unable to connect that means you have incorrectly configured your `config.toml` or your server.
 
@@ -82,7 +82,7 @@
 
     You can set your scale to `100%` right above where it says your resolution.
 
-    <img src="/img/namco/taikonijiiro/troubleshooting/scale.png">
+    <img src="/img/namco/taikonijiiro/troubleshooting/scale.webp">
 
 ### My controller is dropping inputs / I can't hit good drumrolls
 

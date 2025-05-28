@@ -70,7 +70,7 @@
 
     Your audio device must explicitly support exclusive mode. Check your audio settings:
 
-    <img src="/img/common/audio_exclusive.png">
+    <img src="/img/common/audio_exclusive.webp">
 
 !!! tip ""
 
@@ -158,7 +158,7 @@
         - Starts with Windows
         - Auto-recovers from audio issues
 
-    <img src="/img/extras/audio/voicemeeter_menuopts.png">
+    <img src="/img/extras/audio/voicemeeter_menuopts.webp">
 
     Next, set up ASIO output:
 
@@ -171,7 +171,7 @@
     1. Locate the 4th column in the interface
     2. Enable only the `A1` and `B1` toggles as shown:
 
-    <img src="/img/extras/audio/voicemeeter_outputs.png">
+    <img src="/img/extras/audio/voicemeeter_outputs.webp">
 
 ### OBS Studio Configuration
 
@@ -181,23 +181,23 @@
 
     2. Set up audio capture:
         - In the Sources panel, click `+` and select `Audio Input Capture`
-        <img src="/img/extras/audio/obs_inputcapture.png">
+        <img src="/img/extras/audio/obs_inputcapture.webp">
         - For the Device, select `VoiceMeeter Output (B1)`
-        <img src="/img/extras/audio/obs_capturedevice.png">
+        <img src="/img/extras/audio/obs_capturedevice.webp">
 
     3. Enable audio monitoring:
         - Click the gear icon in the Audio Mixer panel
         - Find your Audio Input Capture source
         - Change `Audio Monitoring` to `Monitor and Output`
-        <img src="/img/extras/audio/obs_monitorandoutput.png">
+        <img src="/img/extras/audio/obs_monitorandoutput.webp">
 
     4. Configure OBS audio settings:
         - Go to `File` > `Settings`
-        <img src="/img/extras/audio/obs_settings.png">
+        <img src="/img/extras/audio/obs_settings.webp">
         - In the `Audio` tab:
             - Set `Sample Rate` to match your ASIO/game settings
             - For `Monitoring Device`, select any unused input such as a `VoiceMeeter In`
-        <img src="/img/extras/audio/obs_audiosettings.png">
+        <img src="/img/extras/audio/obs_audiosettings.webp">
         - Save changes with `Apply` and `OK`
 
     5. Add video capture:

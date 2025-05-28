@@ -1,4 +1,4 @@
-<img class="header-logo" src="/img/taito/tetoteconnect/logo.png">
+<img class="header-logo" src="/img/taito/tetoteconnect/logo.webp">
 # Game Setup
 
 --8<-- "docs/snippets/common/data_warning.md"
@@ -18,7 +18,7 @@
 
     You should end up with a file structure as follows.
 
-    <img width="500" src="/img/taito/tetoteconnect/setup/0_data.png">
+    <img width="500" src="/img/taito/tetoteconnect/setup/0_data.webp">
 
 ## Installing BepInEx
 
@@ -32,7 +32,7 @@
 
     You should now have a few more files, as highlighted:
 
-    <img src="/img/taito/tetoteconnect/setup/1_databepinex.png">
+    <img src="/img/taito/tetoteconnect/setup/1_databepinex.webp">
 
 ## Installing tetoco
 
@@ -75,7 +75,7 @@
 	- Click `Display Options`.
 	- Look for `Display orientation` and set it to `Portrait` or `Portrait (flipped)`.
  
-	<img src="/img/common/orientation_portrait.png">
+	<img src="/img/common/orientation_portrait.webp">
 
 	- Rotate your monitor vertically.
 

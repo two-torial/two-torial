@@ -1,4 +1,4 @@
-<img class="header-logo" src="/img/bemani/iidx/31_epolis/logo.png">
+<img class="header-logo" src="/img/bemani/iidx/31_epolis/logo.webp">
 # Extra Information
 
 --8<-- "docs/snippets/common/data_warning.md"

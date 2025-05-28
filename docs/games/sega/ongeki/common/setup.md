@@ -22,15 +22,15 @@
 
 	You should end up with a file structure as follows.
 
-    <img width="500" src="/img/sega/ongeki/common/setup/0_ongekidata.png">
+    <img width="500" src="/img/sega/ongeki/common/setup/0_ongekidata.webp">
 
     Create another empty folder named `AppData` next to them. It should now look like below.
 
-    <img width="500" src="/img/sega/ongeki/common/setup/0_ongekidata_withappdata.png">
+    <img width="500" src="/img/sega/ongeki/common/setup/0_ongekidata_withappdata.webp">
 
     The `App` folder should have a file structure as follows.
 
-    <img width="500" src="/img/sega/ongeki/common/setup/1_ongekiapp.png">
+    <img width="500" src="/img/sega/ongeki/common/setup/1_ongekiapp.webp">
 
 ??? warning "If your data doesn't look like this"
 
@@ -65,7 +65,7 @@
     In some cases, your data may have options in `App\package\option`. If so, move
     all contents inside to the `Option` folder where `App` and `AppData` are and delete the `App\package\option` folder.
 
-    <img width="500" src="/img/sega/ongeki/common/setup/2_ongekioption.png">
+    <img width="500" src="/img/sega/ongeki/common/setup/2_ongekioption.webp">
 
 #### Installing unprotected executables
 
@@ -147,7 +147,7 @@
 
     You should now have a few more files inside the folder, as highlighted:
 
-    <img width="500" src="/img/sega/ongeki/common/setup/3_ongeki_segatools_installed.png">
+    <img width="500" src="/img/sega/ongeki/common/setup/3_ongeki_segatools_installed.webp">
 
 ### Configuring segatools
 
@@ -250,7 +250,7 @@
     your 20-digit access code if you already have one, or make one up if you don't. If you're making one
     up, the access code **MUST NOT** start with a 3.
 
-    <img src="/img/sega/ongeki/common/setup/4_access_code.png">
+    <img src="/img/sega/ongeki/common/setup/4_access_code.webp">
 
 ??? warning "Local (ARTEMiS/AquaDX)"
 
@@ -303,7 +303,7 @@
 
     Start the game by running `App\package\start.bat`. Let the game load until you reach a screen with the message below.
 
-<img src="/img/sega/ongeki/common/setup/4_ongeki_groupcheck.png">
+<img src="/img/sega/ongeki/common/setup/4_ongeki_groupcheck.webp">
 
 !!! tip ""
 
@@ -312,14 +312,14 @@
 
     Navigate to **ゲーム設定** (`GAME ASSIGNMENTS`, the 6th option).
 
-<img src="/img/sega/ongeki/common/setup/servicemenu/1_gamesettings.png">
+<img src="/img/sega/ongeki/common/setup/servicemenu/1_gamesettings.webp">
 
 !!! tip ""
 
     Select **グループ内基準機の設定** (`SET STANDARD IN GROUP`, the second option)
     and toggle this setting to **基準機** (`STANDARD`).
 
-<img src="/img/sega/ongeki/common/setup/servicemenu/2_reference.png">
+<img src="/img/sega/ongeki/common/setup/servicemenu/2_reference.webp">
 
 !!! tip ""
 
@@ -331,14 +331,14 @@
 
     Navigate to **閉店設定** (`CLOSE SETTING`, the 10th option).
 
-<img src="/img/sega/ongeki/common/setup/servicemenu/3_closesetting.png">
+<img src="/img/sega/ongeki/common/setup/servicemenu/3_closesetting.webp">
 
 !!! tip ""
 
     Navigate to **時** (`HOUR`, the 2nd option) and use the `Service` button
     to toggle the setting until it says **全時刻** (`ALL TIME`).
 
-<img src="/img/sega/ongeki/common/setup/servicemenu/4_alltime.png">
+<img src="/img/sega/ongeki/common/setup/servicemenu/4_alltime.webp">
 
 !!! tip ""
 

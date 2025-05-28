@@ -1,4 +1,4 @@
-<img class="header-logo" src="/img/bemani/beatstream/animutribe/logo.png">
+<img class="header-logo" src="/img/bemani/beatstream/animutribe/logo.webp">
 # Game Setup
 
 --8<-- "docs/snippets/common/old_guide.md"
@@ -10,7 +10,7 @@
 !!! tip ""
 	Before we even touch the game, let's fiddle with our audio settings to minimize any potential audio issues on startup. In Windows, go to `Playback Devices` and then right click on your default device and go to `Properties`. From there, hit the `Advanced` tab and set your `Default Format` to `44100 Hz` and check both of the options inside `Exclusive Mode` as pictured.
 
-<img src="/img/common/audio_24_441.png">
+<img src="/img/common/audio_24_441.webp">
 
 !!! tip ""
 
@@ -18,7 +18,7 @@
 
 	After downloading your data, the first thing to do is make sure your files aren't set to READ ONLY, make sure to uncheck it from the main folder in the Windows Properties tab if so. Then, put your desired 64-bit tools inside the game's `contents` folder, and to create a `.bat` file. Pictured below is what your folder should look like, feel free to name your `.bat` file whatever you desire, for the sake of convenience we've named ours `gamestart.bat`.
 
-<img src="/img/bemani/beatstream/animutribe/1.png">
+<img src="/img/bemani/beatstream/animutribe/1.webp">
 
 ### Configuring Your Tools
 

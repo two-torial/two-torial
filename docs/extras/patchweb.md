@@ -26,15 +26,15 @@
 
 	Go to your chosen patcher's website, you'll get something similar to this:
 
-<img src="/img/extras/patchweb/1.png">
+<img src="/img/extras/patchweb/1.webp">
 
 !!! tip ""
 
 	Click on any game you'd like the patches for. In this case, we'll use CHUNITHM VERSE.
 
-<img src="/img/extras/patchweb/2.png">
+<img src="/img/extras/patchweb/2.webp">
 
-<img src="/img/extras/patchweb/3.png">
+<img src="/img/extras/patchweb/3.webp">
 
 !!! tip ""
 
@@ -50,7 +50,7 @@
 
 	**Please keep in mind that some patchers may not support the most recent versions of your game right away.**
 
-<img src="/img/extras/patchweb/4.png">
+<img src="/img/extras/patchweb/4.webp">
 
 !!! tip ""
 
@@ -59,13 +59,13 @@
 	If you're unsure on what to do, refer to your specific game's guide as it might have more information there.  
 	Otherwise feel free to join our Discord server, the link is at the top of the [home page](/index.md), and ask the community!
 
-<img src="/img/extras/patchweb/5.png">
+<img src="/img/extras/patchweb/5.webp">
 
 !!! tip ""
 
 	When you're done selecting patches, click on `Save Patched File` and your new file will start downloading.
 
-<img src="/img/extras/patchweb/6.png">
+<img src="/img/extras/patchweb/6.webp">
 
 !!! danger "Backup your original `.dll` or `.exe` file first!"
 

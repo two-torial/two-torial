@@ -1,4 +1,4 @@
-<img class="header-logo" src="/img/bemani/museca/1plushalf/logo.png">
+<img class="header-logo" src="/img/bemani/museca/1plushalf/logo.webp">
 # Troubleshooting
 
 --8<-- "docs/snippets/common/old_guide.md"

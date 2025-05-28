@@ -1,4 +1,4 @@
-<img class="header-logo" src="/img/bemani/ddr/world/logo.png">
+<img class="header-logo" src="/img/bemani/ddr/world/logo.webp">
 # Game Setup
 
 --8<-- "docs/games/bemani/ddr/common/setup.md"

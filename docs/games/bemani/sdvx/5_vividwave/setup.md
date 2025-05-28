@@ -1,4 +1,4 @@
-<img class="header-logo" src="/img/bemani/sdvx/5_vividwave/logo.png">
+<img class="header-logo" src="/img/bemani/sdvx/5_vividwave/logo.webp">
 # Game Setup
 
 --8<-- "docs/snippets/common/old_guide.md"
@@ -11,13 +11,13 @@
 
 	Before we even touch the game, let's fiddle with our audio settings to minimize any potential crashing on startup. In Windows, go to `Playback Devices` and then right click on your default device and go to `Properties`. From there, hit the `Advanced` tab and set your `Default Format` to `44100 Hz` and check both of the options inside `Exclusive Mode` as pictured.
 
-<img src="/img/common/audio_24_441.png">
+<img src="/img/common/audio_24_441.webp">
 
 !!! tip ""
 
     After downloading your data, the first thing to do is make sure your files aren't set to READ ONLY, make sure to uncheck it from the main folder in the Windows Properties tab if so. Then, put your desired 64-bit tools inside the game's `contents` folder, and to create a `.bat` file. Pictured below is what your folder should look like, feel free to name your `.bat` file anything you desire, for the sake of convenience we've named ours `gamestart.bat`.
 
-<img src="/img/bemani/sdvx/5_vividwave/setup/1.png">
+<img src="/img/bemani/sdvx/5_vividwave/setup/1.webp">
 
 !!! tip ""
 	Why does this look different than the usual? This installation includes a `modules` folder that Spice automatically detects, keeping things clean and simple. If your version of the game doesn't have this, it probably has the `contents` folder populated with many different dll files such as the main `soundvoltex.dll`. You should still place your tools here if so!

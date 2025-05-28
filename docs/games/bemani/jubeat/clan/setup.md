@@ -1,4 +1,4 @@
-<img class="header-logo" src="/img/bemani/jubeat/clan/logo.png">
+<img class="header-logo" src="/img/bemani/jubeat/clan/logo.webp">
 # Game Setup
 
 --8<-- "docs/snippets/common/old_guide.md"
@@ -10,7 +10,7 @@
 !!! tip ""
 	After downloading your data, the first thing to do is make sure your files aren't set to READ ONLY, make sure to uncheck it from the main folder in the Windows Properties tab if so. Then, put your desired 32-bit tools inside the game's main folder and to create a `.bat` file. Pictured below is what your folder should look like, feel free to name your `.bat` file whatever you desire, for the sake of convenience we've named ours `gamestart.bat`. 
 
-<img src="/img/bemani/jubeat/clan/1.png">
+<img src="/img/bemani/jubeat/clan/1.webp">
 
 ## Configuring Your Tools
 
@@ -31,7 +31,7 @@
 
 	Pictured below, the contents of our `gamestart.bat` file in Notepad++.
 
-<img src="/img/bemani/jubeat/clan/2.png">
+<img src="/img/bemani/jubeat/clan/2.webp">
 
 ## Configuring for an Online Network
 
@@ -45,7 +45,7 @@
 
 	Pictured below, the contents of our `gamestart.bat` file in Notepad++.
 
-<img src="/img/bemani/jubeat/clan/3.png">
+<img src="/img/bemani/jubeat/clan/3.webp">
 
 !!! tip ""
 	One final note, since you're playing on a network, you will have one additional step of setting up your card file within your chosen tools, make sure to check your server's information on how to setup a card file.
@@ -57,22 +57,22 @@
 
 	If it's your first time running the game, you'll immediately be greeted with this screen (cropped to save your sanity with scrolling repeatedly on the page), oh no!
 
-<img src="/img/bemani/jubeat/clan/5.png">
+<img src="/img/bemani/jubeat/clan/5.webp">
 
 !!! tip ""
 	This is okay, you can use your mouse or touchscreen to simply hit `TEST` to initialize the backup data, the game will prompt you to reboot, but let's save ourselves some time and instead go into the `GAME OPTIONS` menu instead, as shown below. If you rebooted, you will see a message telling you to set the "Shop Settings" which is what we're going to now do, as shown below.
 
-<img src="/img/bemani/jubeat/clan/7.png">
+<img src="/img/bemani/jubeat/clan/7.webp">
 
 !!! tip ""
 	Enter the `GAME OPTIONS` menu and proceed to the `SHOP SETTINGS` menu.
 
-<img src="/img/bemani/jubeat/clan/8.png">
+<img src="/img/bemani/jubeat/clan/8.webp">
 
 !!! tip ""
 	From here, we will need to set the `SHOP NAME SETTINGS`. This is a simple process, simply navigate using the controls in the menu to set any name you desire! For the purpose of the guide, we named it `Guide` but highly encourage fun and/or lazy names. Lastly, if you're not connected to an online network, you'll need to set the `SHOP AREA` as well, navigate to any option you prefer, they're all predefined so you can't get creative here, pictured below is what we set ours to.
 
-<img src="/img/bemani/jubeat/clan/9.png">
+<img src="/img/bemani/jubeat/clan/9.webp">
 
 !!! tip ""
 	With that, you're all done! Simply exit the service menu or reboot then enjoy the game, have fun!

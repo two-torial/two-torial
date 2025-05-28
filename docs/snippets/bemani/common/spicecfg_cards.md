@@ -6,4 +6,4 @@
 
         - Open `spicecfg.exe` and 
 
-        <img src="/img/common/spice2x_cards.png">
+        <img src="/img/common/spice2x_cards.webp">

@@ -25,7 +25,7 @@
 	
 	It's time to open our hex editor. If you're using HxD, you'll be greeted with the screen below.
 
-<img src="/img/extras/hexguide/1.png">
+<img src="/img/extras/hexguide/1.webp">
 
 !!! tip ""
 
@@ -35,7 +35,7 @@
 	
 	Pictured below, we've opened up `bm2dx.dll` inside HxD.
 
-<img src="/img/extras/hexguide/2.png">
+<img src="/img/extras/hexguide/2.webp">
 
 !!! danger "Attention"
 
@@ -56,7 +56,7 @@
 	
 	From here, we'll input the offset `B60B2` in the `Offset` section as shown below, and hit `OK`.
 
-<img src="/img/extras/hexguide/3.png">
+<img src="/img/extras/hexguide/3.webp">
 
 !!! tip ""
 
@@ -66,7 +66,7 @@
 	
 	**If there's a mismatch, it's likely the offset you've put in was wrong, so be sure to double check!**
 
-<img src="/img/extras/hexguide/4.png">
+<img src="/img/extras/hexguide/4.webp">
 
 !!! tip ""
 
@@ -76,7 +76,7 @@
 	
 	It should now look as shown below.
 
-<img src="/img/extras/hexguide/5.png">
+<img src="/img/extras/hexguide/5.webp">
 
 !!! tip ""
 

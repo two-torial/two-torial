@@ -1,4 +1,4 @@
-<img class="header-logo" src="/img/sega/wacca/reverse/logo.png">
+<img class="header-logo" src="/img/sega/wacca/reverse/logo.webp">
 # Controllers
 
 !!! tip ""

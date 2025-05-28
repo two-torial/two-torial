@@ -1,4 +1,4 @@
-<img class="header-logo" src="/img/bemani/gitadora/fuzzup/logo.png">
+<img class="header-logo" src="/img/bemani/gitadora/fuzzup/logo.webp">
 # Game Setup
 
 --8<-- "docs/snippets/common/old_guide.md"
@@ -16,7 +16,7 @@
 	- Head over to [spice2x.github.io](https://spice2x.github.io) and download the latest release.
 	- Extract the `spice64.exe` and `spicecfg.exe` files from the archive to your game's directory.
   
-	<img src="/img/bemani/gitadora/fuzzup/spice.png">
+	<img src="/img/bemani/gitadora/fuzzup/spice.webp">
 
 ### General Configuration
 
@@ -148,7 +148,7 @@
 	- `EA Service URL` to the URL provided by your network.
 	- `PCBID` to the PCBID provided by your network.
 	
-	<img src="/img/common/spice2x_network.png">
+	<img src="/img/common/spice2x_network.webp">
 
 	Next you need a card number.  
 	If you don't already have one, generate one in the `Cards` tab.  
@@ -156,7 +156,7 @@
 
 	Once that's done, head to the `Cards` tab, for `Player 1` click `Open...` and point to your text file.
 
-	<img src="/img/common/spice2x_cards.png">
+	<img src="/img/common/spice2x_cards.webp">
 
 ??? tip "Local e-amuse Emulator (Asphyxia)"
 
@@ -187,7 +187,7 @@
 	- Open the `Default Format` dropdown.
 	- Pick the `24 bit, 44100 Hz (Studio Quality)` option and click `Apply` then `OK`.
 
-	<img src="/img/common/audio_24_441.png">
+	<img src="/img/common/audio_24_441.webp">
 
 ### First Launch
 
@@ -201,37 +201,37 @@
 
 	Upon launching your game, you will be greeted with this `BACKUP DATA ERROR` screen.
 
-<img src="/img/bemani/gitadora/matixx/4.png">
+<img src="/img/bemani/gitadora/matixx/4.webp">
 
 !!! tip ""
 
 	This is normal, simply hit your `Test` keybind to enter test mode.
 
-<img src="/img/bemani/gitadora/matixx/5.png">
+<img src="/img/bemani/gitadora/matixx/5.webp">
 
 !!! tip ""
 
 	From here, we will need to set a shop name to play, so select the `GAME OPTIONS` option.
 
-<img src="/img/bemani/gitadora/matixx/6.png">
+<img src="/img/bemani/gitadora/matixx/6.webp">
 
 !!! tip "" 
 
 	Then, select `SHOP SETTINGS`.
 
-<img src="/img/bemani/gitadora/matixx/7.png">
+<img src="/img/bemani/gitadora/matixx/7.webp">
 
 !!! tip "" 
 
 	Once inside, select `SHOP NAME SETTINGS` and name your shop whatever you desire! Once that's done, go down to `PREFECTURE` and set it to whatever you desire as well. Finally, go to `SAVE AND EXIT` to get back to the test menu.
 
-<img src="/img/bemani/gitadora/matixx/8.png">
+<img src="/img/bemani/gitadora/matixx/8.webp">
 
 !!! tip ""
 
 	The last menu we'll go inside from the test menu is the clock menu. Go inside `CLOCK` and simply set the clock by hitting `SAVE AND EXIT` as pictured below.
 
-<img src="/img/bemani/gitadora/matixx/9.png">
+<img src="/img/bemani/gitadora/matixx/9.webp">
 
 !!! tip ""
 

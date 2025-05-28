@@ -1,4 +1,4 @@
-<img class="header-logo" src="/img/namco/taikonijiiro/logo.png">
+<img class="header-logo" src="/img/namco/taikonijiiro/logo.webp">
 # Game Setup
 
 --8<-- "docs/snippets/common/data_warning.md"
@@ -9,7 +9,7 @@
 
 	Taiko is generally distributed as a single folder. For Nijiiro, this will be `SBWY 39.06`. The game folder should contain an `AMCUS`, `Data` and `Executable` folder.
 
-<img src="/img/namco/taikonijiiro/setup/1.png">
+<img src="/img/namco/taikonijiiro/setup/1.webp">
 
 !!! danger "Nijiiro is a rolling release so please verify your game version by opening `AMCUS\AMConfig.ini` and verifying that it says `cacfg-game_ver=39.06`"
 
@@ -25,7 +25,7 @@
 
 	- Copy the files from `TaikoArcadeLoader.zip` to your `Executable/Release` folder. When asked, choose to replace the existing files with the newly copied files.  
 
-	<img src="/img/namco/taikonijiiro/setup/2.png">
+	<img src="/img/namco/taikonijiiro/setup/2.webp">
 
 ## Configuring TaikoArcadeLoader
 
@@ -178,7 +178,7 @@
 
 	If you would like to adjust patch settings enter the test menu by pressing ++f1++ on the Attract screen then using the `arrow keys` and ++enter++, navigate to `MOD MANAGER`.
 
-	<img src="/img/namco/taikonijiiro/setup/mod.png">
+	<img src="/img/namco/taikonijiiro/setup/mod.webp">
 
 !!! tip ""
 	

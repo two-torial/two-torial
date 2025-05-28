@@ -1,4 +1,4 @@
-<img class="header-logo" src="/img/bemani/sdvx/6_exceedgear/logo.png">
+<img class="header-logo" src="/img/bemani/sdvx/6_exceedgear/logo.webp">
 # Game Setup
 
 --8<-- "docs/snippets/common/data_warning.md"
@@ -142,7 +142,7 @@
 
 	The game will go through a series of checks, let it run, if you've done everything properly they'll pass.
 
-	<img src="/img/bemani/sdvx/6_exceedgear/calibration/1.png">
+	<img src="/img/bemani/sdvx/6_exceedgear/calibration/1.webp">
 
 	If you're seeing this screen, it means you need to calibrate your knobs.
 
@@ -154,12 +154,12 @@
   
 	Select `I/O CHECK` and press `Start`.
 
-	<img src="/img/bemani/sdvx/6_exceedgear/calibration/2.png">
+	<img src="/img/bemani/sdvx/6_exceedgear/calibration/2.webp">
 
 	Select `CALIBRATION SETTINGS` and press `Start`.
 
-	<img src="/img/bemani/sdvx/6_exceedgear/calibration/3.png">
-	<img src="/img/bemani/sdvx/6_exceedgear/calibration/4.png">
+	<img src="/img/bemani/sdvx/6_exceedgear/calibration/3.webp">
+	<img src="/img/bemani/sdvx/6_exceedgear/calibration/4.webp">
 
 	Select `CALIBRATION` and press `Start`.
 
@@ -173,11 +173,11 @@
     - **Slowly turn** your **RIGHT knob counterclockwise** (`VOL-R Left`) until the line says `COUNT = OK` then press `Start`.
 	- **Slowly turn** your **RIGHT knob clockwise** (`VOL-R Right`) until the line says `COUNT = OK` then press `Start`.
 	
-	<img src="/img/bemani/sdvx/6_exceedgear/calibration/5.png">
+	<img src="/img/bemani/sdvx/6_exceedgear/calibration/5.webp">
 
 	Select `SAVE AND EXIT` and press `Start`.
 
-	<img src="/img/bemani/sdvx/6_exceedgear/calibration/6.png">
+	<img src="/img/bemani/sdvx/6_exceedgear/calibration/6.webp">
 
 	Select `GAME MODE` and press `Start`.
 	

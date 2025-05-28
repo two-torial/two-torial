@@ -5,7 +5,7 @@
   }
 </style>
 
-<img class="header-logo" src="/img/two-torial/banner.png">
+<img class="header-logo" src="/img/two-torial/banner.webp">
 
 <figure markdown>
 A compendium of information and guides about arcade games.  

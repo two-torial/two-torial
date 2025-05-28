@@ -1,4 +1,4 @@
-<img class="header-logo" src="/img/bemani/gitadora/exchain/logo.png">
+<img class="header-logo" src="/img/bemani/gitadora/exchain/logo.webp">
 # Troubleshooting
 
 --8<-- "docs/snippets/common/old_guide.md"

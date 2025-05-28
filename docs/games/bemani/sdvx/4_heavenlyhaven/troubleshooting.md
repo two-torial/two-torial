@@ -1,4 +1,4 @@
-<img class="header-logo" src="/img/bemani/sdvx/4_heavenlyhaven/logo.png">
+<img class="header-logo" src="/img/bemani/sdvx/4_heavenlyhaven/logo.webp">
 # Troubleshooting
 
 --8<-- "docs/snippets/common/old_guide.md"

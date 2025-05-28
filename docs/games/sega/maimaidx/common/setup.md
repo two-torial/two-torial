@@ -21,15 +21,15 @@
 
     You should end up with a file structure as follows.
 
-    <img width="500" src="/img/sega/maimaidx/common/setup/rootdir.png">
+    <img width="500" src="/img/sega/maimaidx/common/setup/rootdir.webp">
 
     Create two new empty folders named `appdata` and `amfs` (and the folder `option` if not present) next to them as shown below:
 
-    <img width="500" src="/img/sega/maimaidx/common/setup/rootdir2.png">
+    <img width="500" src="/img/sega/maimaidx/common/setup/rootdir2.webp">
 
     The `App` folder should have a file structure as follows.
 
-    <img width="500" src="/img/sega/maimaidx/common/setup/appdir.png">
+    <img width="500" src="/img/sega/maimaidx/common/setup/appdir.webp">
 
 ??? warning "If your data doesn't look like this"
 
@@ -65,7 +65,7 @@
     Extract any options you've downloaded into the `Option` folder. You should end up with
     a file structure as follows. **Do not be worried if you have fewer or more option folders.**
 
-    <img width="500" src="/img/sega/maimaidx/common/setup/options.png">
+    <img width="500" src="/img/sega/maimaidx/common/setup/options.webp">
 
     !!! warning "Do not mix option data between versions"
 
@@ -146,7 +146,7 @@
 
     You should now have a few more files inside the `App/Package` folder, as highlighted:
 
-    <img width="500" src="/img/sega/maimaidx/common/setup/segatools.png">
+    <img width="500" src="/img/sega/maimaidx/common/setup/segatools.webp">
 
 !!! warning
 
@@ -250,7 +250,7 @@
     your 20-digit access code if you already have one, or make one up if you don't. If you're making one
     up, the access code **MUST NOT** start with a 3.
 
-    <img src="/img/sega/ongeki/common/setup/4_access_code.png">
+    <img src="/img/sega/ongeki/common/setup/4_access_code.webp">
 
 ??? warning "Local (ARTEMiS/AquaDX)"
 
@@ -280,7 +280,7 @@
 	- Open the `Default Format` dropdown.
     - Pick either `16 bit, 48000Hz (DVD Quality)` or `24 bit, 48000Hz (Studio Quality)`, click `Apply`, then `OK`.
 
-    <img src="/img/common/audio_16_48.png">
+    <img src="/img/common/audio_16_48.webp">
 
 #### Fixing OpenSSL on Intel 10th Gen and newer CPUs
 
@@ -305,7 +305,7 @@
 
     Start the game by running `App\package\start.bat`. Let the game load until you reach a screen with the message below.
 
-<img src="/img/sega/maimaidx/common/setup/distribution_servers_check.png">
+<img src="/img/sega/maimaidx/common/setup/distribution_servers_check.webp">
 
 !!! tip ""
 
@@ -314,14 +314,14 @@
 
     Navigate to **ゲーム設定** (`GAME ASSIGNMENTS`, the 7th option).
 
-<img src="/img/sega/maimaidx/common/setup/service_menu.png">
+<img src="/img/sega/maimaidx/common/setup/service_menu.webp">
 
 !!! tip ""
 
     Select **店内マッチングの設定** (`IN-STORE MATCHING SETUP`, the first option)
     and toggle this setting to **OFF**.
 
-<img src="/img/sega/maimaidx/common/setup/service_game_settings.png">
+<img src="/img/sega/maimaidx/common/setup/service_game_settings.webp">
 
 !!! tip ""
 

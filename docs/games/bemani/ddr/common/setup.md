@@ -28,7 +28,7 @@
 
 	You should end up with a file structure with a few folders only, as follows.
 
-<img src="/img/bemani/ddr/common/setup/data.png">
+<img src="/img/bemani/ddr/common/setup/data.webp">
 
 ??? warning "If your data doesn't look like this"
 
@@ -82,14 +82,14 @@
 	- Head over to [spice2x.github.io](https://spice2x.github.io) and download the latest release.
 	- Extract the `spice.exe` and `spicecfg.exe` files from the archive to your game's directory.
   
-	<img src="/img/bemani/ddr/common/setup/spice2x32data.png">
+	<img src="/img/bemani/ddr/common/setup/spice2x32data.webp">
 
 ??? tip "For MDX-003 (64 bits)"
 
 	- Head over to [spice2x.github.io](https://spice2x.github.io) and download the latest release.
 	- Extract the `spice64.exe` and `spicecfg.exe` files from the archive to your game's directory.
   
-	<img src="/img/bemani/ddr/common/setup/spice2x64data.png">
+	<img src="/img/bemani/ddr/common/setup/spice2x64data.webp">
 
 ### Configuring spice2x
 
@@ -148,7 +148,7 @@
 
 !!! info "If you don't know what an option does, hover over the its name with your mouse."
 
-	<img src="/img/common/spice2x_option_hover.png">
+	<img src="/img/common/spice2x_option_hover.webp">
 
 !!! danger "Be very careful changing options you don't understand as it may cause issues."
 
@@ -182,7 +182,7 @@
 	- `EA Service URL` to the URL provided by your network.
 	- `PCBID` to the PCBID provided by your network.
 	
-	<img src="/img/common/spice2x_network.png">
+	<img src="/img/common/spice2x_network.webp">
 
 	Next you need a card number.  
 	If you don't already have one, generate one in the `Cards` tab.  
@@ -190,7 +190,7 @@
 
 	Once that's done, head to the `Cards` tab, for `Player 1` click `Open...` and point to your text file.
 
-	<img src="/img/common/spice2x_cards.png">
+	<img src="/img/common/spice2x_cards.webp">
 
 ??? tip "Local e-amuse Emulator (Asphyxia)"
 

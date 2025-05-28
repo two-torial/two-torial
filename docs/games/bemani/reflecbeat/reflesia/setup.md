@@ -1,4 +1,4 @@
-<img class="header-logo" src="/img/bemani/reflecbeat/reflesia/logo.png">
+<img class="header-logo" src="/img/bemani/reflecbeat/reflesia/logo.webp">
 # Game Setup
 
 --8<-- "docs/snippets/common/old_guide.md"
@@ -11,7 +11,7 @@
 
     This game still uses DirectSound so we can skip audio related setup needed for other games. After downloading your data, the first thing to do is put your desired 32-bit tools inside the game's `contents` folder, and to create a `.bat` file. Pictured below is what your folder should look like, feel free to name your `.bat` file anything you desire, for the sake of convenience we've named ours `gamestart.bat`.
 
-<img src="/img/bemani/reflecbeat/reflesia/data.png">
+<img src="/img/bemani/reflecbeat/reflesia/data.webp">
 
 
 ## Configuring Your Tools

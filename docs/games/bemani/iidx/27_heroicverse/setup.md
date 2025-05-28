@@ -1,4 +1,4 @@
-<img class="header-logo" src="/img/bemani/iidx/27_heroicverse/logo.png">
+<img class="header-logo" src="/img/bemani/iidx/27_heroicverse/logo.webp">
 # Game Setup
 
 --8<-- "docs/snippets/common/old_guide.md"
@@ -10,14 +10,14 @@
 !!! tip ""
 	Before we even touch the game, let's fiddle with our audio settings to minimize any potential crashing on startup. In Windows, go to `Playback Devices` and then right click on your default device and go to `Properties`. From there, hit the `Advanced` tab and set your `Default Format` to `44100 Hz` and check both of the options inside `Exclusive Mode` as pictured.
 
-<img src="/img/common/audio_24_441.png">
+<img src="/img/common/audio_24_441.webp">
 
 !!! tip ""
 	Once that's done, it's time to work on setting up your data.
 
 	After downloading your data, the first thing to do is make sure your files aren't set to READ ONLY, make sure to uncheck it from the main folder in the Windows Properties tab if so. Then, put your desired **64-bit** tools inside the game's `contents` folder, Pictured below is what your folder should look like. 
 
-<img src="/img/bemani/iidx/27_heroicverse/1.png">
+<img src="/img/bemani/iidx/27_heroicverse/1.webp">
 
 ## Configuring Your Tools
 
@@ -39,7 +39,7 @@
 
 	Pictured below, the selected options inside the `Options` tab in `spicecfg.exe`.
 
-<img src="/img/bemani/iidx/27_heroicverse/cfg_ea.png">
+<img src="/img/bemani/iidx/27_heroicverse/cfg_ea.webp">
 
 ## Configuring for an Online Network
 
@@ -58,7 +58,7 @@
 
 	Pictured below, the selected options inside the `Options` tab in `spicecfg.exe`.
 
-<img src="/img/bemani/iidx/27_heroicverse/cfg_on.png">
+<img src="/img/bemani/iidx/27_heroicverse/cfg_on.webp">
 
 !!! tip ""
 	One final note, since you're playing on a network, you will have one additional step of setting up your card file within your chosen tools, make sure to check your server's information on how to setup a card file.
@@ -74,51 +74,51 @@
 
 	If it's your first time running the game, you'll immediately be greeted with this screen, oh no!
 
-<img src="/img/bemani/iidx/25_cannonballers/4.png">
+<img src="/img/bemani/iidx/25_cannonballers/4.webp">
 
 !!! tip ""
 	Ignore this message, simply hit your `Test` keybind and continue onto this.
 
-<img src="/img/bemani/iidx/25_cannonballers/5.png">
+<img src="/img/bemani/iidx/25_cannonballers/5.webp">
 
 !!! tip ""
 	Hit the `Test` keybinding to initialize the backup data, a message will pop up stating it's been initialized.
 
-<img src="/img/bemani/iidx/25_cannonballers/6.png">
+<img src="/img/bemani/iidx/25_cannonballers/6.webp">
 
 !!! tip ""
 	You'll also run into this error message as well, let's work on eliminating these messages. Let the game run for a bit until the monitor check is complete and you should be taken to the service menu pictured below.
 
-<img src="/img/bemani/iidx/25_cannonballers/7.png">
+<img src="/img/bemani/iidx/25_cannonballers/7.webp">
 
 !!! tip ""
 	Start by navigating up to `CLOCK` and entering that menu.
 
-<img src="/img/bemani/iidx/25_cannonballers/8.png">
+<img src="/img/bemani/iidx/25_cannonballers/8.webp">
 
 !!! tip ""
 	Simply hit save and exit and leave, the clock will be saved. Then, back in the service menu, go up to `GAME OPTIONS`
 
-<img src="/img/bemani/iidx/25_cannonballers/9.png">
+<img src="/img/bemani/iidx/25_cannonballers/9.webp">
 
 !!! tip ""
 	Once inside that menu, navigate your way up to `DEFINITION TYPE` and choose either `SD` or `HD` depending on your preferences.
 
-<img src="/img/bemani/iidx/26_rootage/1.png">
+<img src="/img/bemani/iidx/26_rootage/1.webp">
 
 !!! tip ""
 	The game will then count down asking you to confirm the selection before reverting, just hit `YES` assuming it loaded just fine on your computer. Then, exit out of that menu and head to `NETWORK OPTIONS` from back inside the service menu.
 
 	If it doesn't transition to HD, after you've saved, you can simply reboot the game and all should be well.
 
-<img src="/img/bemani/iidx/25_cannonballers/11.png">
+<img src="/img/bemani/iidx/25_cannonballers/11.webp">
 
 !!! tip ""
 	The final thing we need to set is here inside `NETWORK OPTIONS`, we will need to set a shop name to play, so select the `SHOP NAME SETTING` option. Once inside, name your shop whatever you desire! For the purpose of the guide, we named it `Guide` but highly encourage fun and/or lazy names. Once that's done go to `EXIT` and then `SAVE AND EXIT` inside of `NETWORK OPTIONS` once you've chosen your desired name, as pictured below.
 
-<img src="/img/bemani/iidx/25_cannonballers/12.png">
+<img src="/img/bemani/iidx/25_cannonballers/12.webp">
 
-<img src="/img/bemani/iidx/25_cannonballers/13.png">
+<img src="/img/bemani/iidx/25_cannonballers/13.webp">
 
 !!! tip ""
 	You're all done! From the service menu select `GAME MODE` and the game should load ready to be played! Have fun!

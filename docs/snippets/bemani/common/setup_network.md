@@ -14,7 +14,7 @@
 	- `EA Service URL (-url)`
 	- `PCBID (-p)`
 
-	<img src="/img/common/spice2x_network.png">
+	<img src="/img/common/spice2x_network.webp">
 
 ??? tip "Option 2: Local e-amuse Emulator (Asphyxia)"
 

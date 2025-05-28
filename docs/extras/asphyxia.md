@@ -14,13 +14,13 @@
 
 	First, grab the latest release [here.](https://github.com/asphyxia-core/asphyxia-core.github.io/releases) In ^^almost^^ all cases, you will use the `asphyxia-core-win-x64.zip`. Next, open the `.zip` file and extract the `plugins` folder and `asphyxia-core-x64.exe` into the `contents` folder of your desired game. We will use SDVX EG for this example.
 
-<img src="/img/extras/asphyxia/1.png">
+<img src="/img/extras/asphyxia/1.webp">
 
 !!! tip ""
 
 	Your `contents` folder should look like this then:
 
-<img src="/img/extras/asphyxia/2.png">
+<img src="/img/extras/asphyxia/2.webp">
 
 !!! tip ""
 
@@ -44,13 +44,13 @@
 
 	Run `spicecfg.exe`, head over to the `Options` tab and look for `EA Service URL`. In there, you need to input what is displayed on the Asphyxia WebUI on the `Dashboard` at the right side.
 
-<img src="/img/extras/asphyxia/3.png">
+<img src="/img/extras/asphyxia/3.webp">
 
 !!! tip ""
 
 	Here it's `localhost:8083`.
 
-<img src="/img/extras/asphyxia/4.png">
+<img src="/img/extras/asphyxia/4.webp">
 	
 ## Setting up SDVX
 
@@ -58,13 +58,13 @@
 
 	On the `WebUI`, click on `SDVX` on the left-hand bar and on the right side under `Plugin Settings`, you should see an option named `Exceed Gear Data Directory`. In here, paste the path of your `contents` folder and press enter. ^^In my case^^, it looks like this:
 	
-<img src="/img/extras/asphyxia/5.png">
+<img src="/img/extras/asphyxia/5.webp">
 
 !!! tip ""
 
 	Next, click on `Update Webui Assets` on the left-hand bar. Make sure you're using the correct path as it won't work otherwise. When you've done that, click on `Update` and confirm that you've updated the datacode in your `ea3-config.xml` file. After a few seconds, the text console should say `Done` and say `Successfully extracted textures` if you input your path correctly.
 
-<img src="/img/extras/asphyxia/6.png">
+<img src="/img/extras/asphyxia/6.webp">
 
 !!! tip ""
 
