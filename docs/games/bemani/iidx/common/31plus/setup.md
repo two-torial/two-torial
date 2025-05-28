@@ -1,4 +1,3 @@
-<img class="header-logo" src="/img/bemani/iidx/32_pinkycrush/logo.webp">
 # Game Setup
 
 --8<-- "docs/snippets/common/data_warning.md"
@@ -41,6 +40,7 @@
 	**Two datecodes:** Updates from the older to newer version (e.g., `KFC-LDJ_2024121000-LDJ_2025011400.rar`)
 
 	In the two-datecode example:
+
 	- `2024121000` is the older date, the game version required to apply this update
 	- `2025011400` is the newer date, and is the version you'll arrive at after applying the update
 
@@ -206,6 +206,6 @@
 	- Enter your code by clicking on the subscreen's keypad.
 	- If your code is accepted, you may now close the overlay.
 
-# Help
+## Help
 
 --8<-- "docs/snippets/common/help.md"
