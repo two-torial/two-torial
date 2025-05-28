@@ -151,8 +151,6 @@
 
 	- Download and install the [K-lite Codec Pack](https://codecguide.com/download_kl.htm) (the Standard version is enough)
 
-## Troubleshooting
+## Help
 
-!!! warning "Have any other issue?"
-
-	Check out the [Troubleshooting](troubleshooting.md) and [Error Codes](/errorcodes/bemani.md) pages.
+--8<-- "docs/snippets/common/help.md"
