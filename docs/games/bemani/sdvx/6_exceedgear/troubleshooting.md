@@ -3,13 +3,13 @@
 
 --8<-- "docs/snippets/common/data_warning.md"
 
-!!! info "For any issues not covered here, spice2x's [Known issues](https://github.com/spice2x/spice2x.github.io/wiki/Known-issues) page might prove useful."
+!!! info "For any issues not covered here, spice2x's [Known issues](https://github.com/spice2x/spice2x.github.io/wiki/Known-issues) page might prove useful"
 
 ## Technical problems
 
 ### Crashes
 
-!!! info "Riva Tuner Statistics Server (RTSS) and MSI Afterburner are known to cause odd crashes.<br>If you have them installed, close them both before starting any arcade game."
+!!! info "Riva Tuner Statistics Server (RTSS) and MSI Afterburner are known to cause odd crashes.<br>If you have them installed, close them both before starting any arcade game"
 
 ??? tip "`W:BM2D: CreateLayer() 指定したレイヤーは存在しません` then `EXCEPTION_ACCESS_VIOLATION` in logs"
 
@@ -56,7 +56,7 @@
 
 !!! info "Check out spice2x's [PC optimization](https://github.com/spice2x/spice2x.github.io/wiki/PC-optimization) guide"
 
-??? tip "Game is running too slow/fast."
+??? tip "Game is running too slow/fast"
 
 	Your game is likely running at an incorrect framerate. The expected framerates are:
 	- Nemsys mode: 60 FPS
@@ -81,7 +81,7 @@
 
 !!! info "Check out our [Audio](/extras/audio.md) guide to understand audio modes better"
 
-!!! info "Ensure your default audio device's sample rate is set properly."
+!!! info "Ensure your default audio device's sample rate is set properly"
 
 	- **44100 Hz** sample rate for **WASAPI Exclusive** and **ASIO**
 	- **48000 Hz** if your game is patched with `Shared Mode WASAPI`

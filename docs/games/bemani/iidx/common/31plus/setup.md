@@ -63,9 +63,7 @@
 
 ## Configuring spice2x
 
-!!! info "Following tabs correspond to the ones found in `spicecfg`"
-
-!!! danger "Avoid changing or patching anything you don't need or understand unless explicitly told to"
+--8<-- "docs/snippets/bemani/common/spicecfg_preamble.md"
 
 === "Buttons"
 

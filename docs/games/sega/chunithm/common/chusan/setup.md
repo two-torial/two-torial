@@ -45,14 +45,14 @@
     **remove them. This also means your data was tampered with and we strongly recommend
     getting new data from somewhere else.**
 
-### Updating the base game
+## Updating the base game
 
 !!! tip ""
 
     Extract your patch's files to your existing data in a way that matches its
     file structure. Agree to overwrite files if necessary.
 
-### Installing option data
+## Installing option data
 
 !!! tip ""
 
@@ -69,7 +69,7 @@
 !!! warning "If you plan to connect to a network (Hosted or Local), the `A001` option folder for your specific game version is required. This option contains a special Event file that lets the game connect."
     
 
-### Installing unprotected executables
+## Installing unprotected executables
 
 !!! tip ""
 
@@ -81,7 +81,7 @@
     Copy `chusanApp.exe` and `amdaemon.exe` to the `bin` folder of your game data. Agree
     to overwrite when asked.
 
-### Installing ICFs
+## Installing ICFs
 
 !!! tip ""
 
