@@ -65,8 +65,12 @@
 
 === "Buttons"
 
+--8<-- "docs/snippets/bemani/common/spicecfg_buttons.md"
+
 --8<-- "docs/snippets/bemani/iidx/spicecfg_buttons.md"
   
+--8<-- "docs/snippets/bemani/common/spicecfg_buttons_additionalinfo.md"
+
 === "Analogs"
 
 --8<-- "docs/snippets/bemani/iidx/spicecfg_analogs.md"
