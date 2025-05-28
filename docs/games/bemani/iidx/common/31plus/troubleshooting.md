@@ -9,7 +9,7 @@
 
     This could be due to **many** things.
 
-	Start by checking the audio section in the [setup guide](setup.md#audio).
+	Start by checking the audio section from the setup guide.
 
 	beatmania IIDX 31 and above require an AVX2 capable CPU.  
 	If your CPU is too old, the game will crash with an `EXCEPTION_ILLEGAL_INSTRUCTION` error.  
@@ -80,4 +80,4 @@
 
 !!! tip ""
 
-	When using this patch, you must set your audio device's sample rate to 48000 Hz. See [audio](setup.md#audio) for more details.
+	When using this patch, you must set your audio device's sample rate to 48000 Hz.
