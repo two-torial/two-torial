@@ -35,4 +35,4 @@
 
 !!! tip ""
 
-	These options are locked behind network requirements and will not be displayed unless you are connected to a network that has written support for these options. Patches are available to mitigate this (see [Patches](setup.md#patches)).
+	These options are locked behind network requirements and will not be displayed unless you are connected to a network that has written support for these options. Patches are available to mitigate this, see our [spice2x Patching guide](/extras/patchsp2x.md).
