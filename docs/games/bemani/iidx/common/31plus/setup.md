@@ -6,7 +6,7 @@
 
 ## Standard and Lightning modes
 
---8<-- "docs/snippets/iidx/ldj_vs_tdj.md"
+--8<-- "docs/snippets/bemani/iidx/ldj_vs_tdj.md"
 
 ## Preparing data
 
