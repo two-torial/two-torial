@@ -1,10 +1,9 @@
-# SOUND VOLTEX EXCEED GEAR
 <img class="header-logo" src="/img/bemani/sdvx/6_exceedgear/logo.png">
+# Extra Information
 
-!!! danger "Please make sure you downloaded your data from an appropriate source.<br>This guide is unable to troubleshoot any problems related to bad or poorly managed data."
+--8<-- "docs/snippets/common/data_warning.md"
 
----
-### Nemsys & Valkyrie modes
+## Nemsys and Valkyrie modes
 
 !!! warning "Valkyrie mode requires a 120hz capable monitor, or to have patched your `.dll` with `Valkyrie Mode 60hz`."
 
@@ -35,8 +34,7 @@
     - ^^`F`^^ for Nemsys  
     - ^^`G`^^ for Valkyrie
     
----
-### Changing the game's language
+## Changing the game's language
 
 !!! tip ""
 
@@ -68,8 +66,7 @@
     - ^^`U`^^ for America (English + some censoring in recent versions)  
     - ^^`Y`^^ for Indonesia
 
----
-### More about ea3-config.xml
+## More about ea3-config.xml
 
 !!! tip ""
 
