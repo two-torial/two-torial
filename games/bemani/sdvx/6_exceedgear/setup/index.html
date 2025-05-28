@@ -7021,23 +7021,23 @@ If your data is significantly smaller, you likely have an update archive instead
 <div class="admonition danger">
 <p class="admonition-title">Make sure you're using the right update for your current game version</p>
 <p>SDVX updates have <code>KFC</code> and one or two datecodes in their archive names.</p>
-<p><strong>Single datecode:</strong> Contains one update (e.g., <code>KFC_2025021200.7z</code>)<br />
-<strong>Two datecodes:</strong> Updates from the older to newer version (e.g., <code>KFC-2024121000-2025012100.rar</code>)</p>
+<p><strong>Single datecode:</strong> Contains one update (e.g., <code>KFC_NewDateCode.7z</code>)<br />
+<strong>Two datecodes:</strong> Updates from the older to newer version (e.g., <code>KFC-OldDateCode-NewDateCode.rar</code>)</p>
 <p>In the two-datecode example:</p>
 <ul>
-<li><code>2024121000</code> is the older date, the game version required to apply this update</li>
-<li><code>2025012100</code> is the newer date, and is the version you'll arrive at after applying the update</li>
+<li><code>OldDateCode</code> is the older date, the game version required to apply this update</li>
+<li><code>NewDateCode</code> is the newer date, and is the version you'll arrive at after applying the update</li>
 </ul>
 </div>
 <div class="admonition tip">
 <ul>
 <li>Extract the update to your game directory, ensure directories align and overwrite files when prompted</li>
 <li>Open <code>prop\ea3-config.xml</code> and find the <code>&lt;ext&gt;</code> line:
-<div class="language-xml highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="nt">&lt;ext</span><span class="w"> </span><span class="na">__type=</span><span class="s">&quot;str&quot;</span><span class="nt">&gt;</span>2025021200<span class="nt">&lt;/ext&gt;</span>
+<div class="language-xml highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="nt">&lt;ext</span><span class="w"> </span><span class="na">__type=</span><span class="s">&quot;str&quot;</span><span class="nt">&gt;</span>NewDateCode<span class="nt">&lt;/ext&gt;</span>
 </span></code></pre></div></li>
 <li>Update the datecode to match your new game version and save</li>
 <li>If <code>prop\bootstrap.xml</code> exists, also update its <code>&lt;release_code&gt;</code> line:
-<div class="language-xml highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="nt">&lt;release_code&gt;</span>2025021200<span class="nt">&lt;/release_code&gt;</span>
+<div class="language-xml highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="nt">&lt;release_code&gt;</span>NewDateCode<span class="nt">&lt;/release_code&gt;</span>
 </span></code></pre></div></li>
 </ul>
 </div>
@@ -7381,7 +7381,7 @@ Click on the Discord logo at the bottom right of the page.</p>
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="May 28, 2025 19:49:52 UTC">May 28, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="May 28, 2025 21:04:02 UTC">May 28, 2025</span>
   </span>
 
     

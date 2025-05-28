@@ -20,7 +20,7 @@
     
     
       
-        <title>Data update - two-torial.xyz</title>
+        <title>Spicecfg buttons - two-torial.xyz</title>
       
     
     
@@ -117,7 +117,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Data update
+              Spicecfg buttons
             
           </span>
         </div>
@@ -6688,20 +6688,32 @@
   
 
 
-  <h1>Data update</h1>
+  <h1>Spicecfg buttons</h1>
 
-<div class="admonition tip">
-<ul>
-<li>Extract the update to your game directory, ensure directories align and overwrite files when prompted</li>
-<li>Open <code>prop\ea3-config.xml</code> and find the <code>&lt;ext&gt;</code> line:
-<div class="language-xml highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nt">&lt;ext</span><span class="w"> </span><span class="na">__type=</span><span class="s">&quot;str&quot;</span><span class="nt">&gt;</span>NewDateCode<span class="nt">&lt;/ext&gt;</span>
-</span></code></pre></div></li>
-<li>Update the datecode to match your new game version and save</li>
-<li>If <code>prop\bootstrap.xml</code> exists, also update its <code>&lt;release_code&gt;</code> line:
-<div class="language-xml highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="nt">&lt;release_code&gt;</span>NewDateCode<span class="nt">&lt;/release_code&gt;</span>
-</span></code></pre></div></li>
-</ul>
-</div>
+<div class="language-text highlight"><pre><span></span><code>!!! info &quot;This tab is used to bind your keyboard and controller buttons&quot;
+
+!!! info &quot;Bind vs Naive&quot;
+
+    **Bind** - Use for controllers and hardware devices. **More responsive** and detects any HID device.  
+    **Naive** - Use for device agnostic keyboard binds. **Less responsive** but works with simulated keystrokes.
+
+!!! tip &quot;Binding your buttons&quot;
+
+    Click on `Bind` then press the key you want associated with the action.
+
+    With your controller and/or keyboard plugged in, configure your keys for P1 and/or P2:
+
+    - **Maintenance**: `Service, Test`
+    - **Game buttons**: `Up, Down, Left, Right`
+    - **Menu buttons**: ` Start, Up, Down, Left, Right`
+    - **Keypad**: `Keypad Insert Card`, `1 to 9`
+
+!!! info &quot;Additional info&quot;
+
+    - Use page navigation at the bottom to bind multiple buttons to the same input
+    - Check **Bind Many** to bind multiple controls in sequence
+    - Click **Edit** after binding for advanced options (invert, MIDI sensitivity, etc.)
+</code></pre></div>
 
 
 

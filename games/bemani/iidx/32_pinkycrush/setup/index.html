@@ -7060,23 +7060,24 @@ If your data is significantly smaller, you likely have an update archive instead
 <div class="admonition danger">
 <p class="admonition-title">Make sure you're using the right update for your current game version</p>
 <p>IIDX updates have <code>LDJ</code> and one or two datecodes in their archive names.</p>
-<p><strong>Single datecode:</strong> Contains one update (e.g., <code>LDJ_2025011400.7z</code>)<br />
-<strong>Two datecodes:</strong> Updates from the older to newer version (e.g., <code>LDJ_2024121000-2025011400.rar</code>)</p>
+<p><strong>Single datecode:</strong> Contains one update (e.g., <code>LDJ_NewDateCode.7z</code>)<br />
+<strong>Two datecodes:</strong> Updates from the older to newer version (e.g., <code>LDJ_OldDateCode-NewDateCode.rar</code>)</p>
+<p>A date code should look something like this: <code>YYYYMMDDXX</code></p>
 <p>In the two-datecode example:</p>
 <ul>
-<li><code>2024121000</code> is the older date, the game version required to apply this update</li>
-<li><code>2025011400</code> is the newer date, and is the version you'll arrive at after applying the update</li>
+<li><code>OldDateCode</code> is the older date, the game version required to apply this update</li>
+<li><code>NewDateCode</code> is the newer date, and is the version you'll arrive at after applying the update</li>
 </ul>
 </div>
 <div class="admonition tip">
 <ul>
 <li>Extract the update to your game directory, ensure directories align and overwrite files when prompted</li>
 <li>Open <code>prop\ea3-config.xml</code> and find the <code>&lt;ext&gt;</code> line:
-<div class="language-xml highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="nt">&lt;ext</span><span class="w"> </span><span class="na">__type=</span><span class="s">&quot;str&quot;</span><span class="nt">&gt;</span>2025021200<span class="nt">&lt;/ext&gt;</span>
+<div class="language-xml highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="nt">&lt;ext</span><span class="w"> </span><span class="na">__type=</span><span class="s">&quot;str&quot;</span><span class="nt">&gt;</span>NewDateCode<span class="nt">&lt;/ext&gt;</span>
 </span></code></pre></div></li>
 <li>Update the datecode to match your new game version and save</li>
 <li>If <code>prop\bootstrap.xml</code> exists, also update its <code>&lt;release_code&gt;</code> line:
-<div class="language-xml highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="nt">&lt;release_code&gt;</span>2025021200<span class="nt">&lt;/release_code&gt;</span>
+<div class="language-xml highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="nt">&lt;release_code&gt;</span>NewDateCode<span class="nt">&lt;/release_code&gt;</span>
 </span></code></pre></div></li>
 </ul>
 </div>
