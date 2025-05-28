@@ -1,10 +1,10 @@
-!!! danger "Warning"
+# Game Setup
 
-	Please make sure you downloaded your data from an appropriate source.
-	This guide is unable to troubleshoot any problems related to bad or poorly managed data.
+--8<-- "docs/snippets/common/old_guide.md"
 
----
-### Preparing data
+--8<-- "docs/snippets/common/data_warning.md"
+
+## Preparing data
 
 !!! tip ""
 
@@ -17,7 +17,7 @@
 
 	You should end up with a file structure with a few folders only, as follows.
 
-<img src="/img/bemani/popn/common/setup/data.png">
+<img src="/img/bemani/popn/common/setup/data.webp">
 
 ??? warning "If your data doesn't look like this"
 
@@ -33,8 +33,7 @@
 
 !!! info "If you don't need to update your data, you can skip over to the [Installing spice2x](#installing-spice2x) section."
 
----
-### Updating data
+## Updating data
 
 ??? danger "Please make sure you're using the right update for your current data."
 
@@ -65,8 +64,7 @@
 	- If that's already the case then great! Don't touch anything.
 	- If it instead corresponds to your pre-patch datecode, replace it with the new one and save the file.
 
----
-### Installing spice2x
+## Installing spice2x
 
 !!! info ""
 
@@ -77,14 +75,13 @@
 	- Head over to [spice2x.github.io](https://spice2x.github.io) and download the latest release.
 	- Extract the `spice.exe` and `spicecfg.exe` files from the archive to your game's directory.
   
-	<img src="/img/bemani/popn/common/setup/spice2x32data.png">
+	<img src="/img/bemani/popn/common/setup/spice2x32data.webp">
 
-
-### Configuring spice2x
+## Configuring spice2x
 
 !!! info "Open `spicecfg.exe`, each following sub-section corresponds to a tab at the top."
 
-#### Buttons
+### Buttons
 
 !!! tip ""
 
@@ -96,7 +93,7 @@
 	- **Game buttons**: `1 to 9`
 	- **P1 Keypad**: `1 to 9, Keypad Insert Card`
 
-#### Overlay
+### Overlay
 
 !!! tip ""
 
@@ -104,7 +101,7 @@
 
 	Click on `Bind` then press the key you want associated with the action.
 
-#### Lights (controller/cab only)
+### Lights (controller/cab only)
 
 !!! tip ""
 
@@ -118,25 +115,25 @@
 	- Click `Close`.
 	- Repeat for your other lights.
 
-#### Cards
+### Cards
 
 !!! info "Covered in the [Connecting to a network](#connecting-to-a-network) section."
 
-#### Patches
+### Patches
 
 !!! info "Go through the [spice2x Patching](/extras/patchsp2x.md) page to import patches."
 
 !!! danger "To prevent issues, avoid patching things you don't need or understand."
 
-#### API
+### API
 
 !!! warning "Leave everything at default unless you know what you're doing."
 
-#### Options
+### Options
 
-!!! info "If you don't know what an option does, hover over the question mark at the very left."
+!!! info "If you don't know what an option does, hover over the its name with your mouse."
 
-	<img src="/img/common/spice2x_option_hover.png">
+	<img src="/img/common/spice2x_option_hover.webp">
 
 !!! danger "Be very careful changing options you don't understand as it may cause issues."
 
@@ -153,12 +150,11 @@
 	| Graphics (common)	| NVIDIA profile optimization	 	| -nvprofile 	| ON	  |
 
 
-#### Advanced & Development
+## Advanced & Development
 
 !!! warning "Leave everything at default unless you know what you're doing."
 
----
-### Connecting to a network
+## Connecting to a network
 
 !!! danger "Please choose one of the two solutions, not both!"
 
@@ -171,7 +167,7 @@
 	- `EA Service URL` to the URL provided by your network.
 	- `PCBID` to the PCBID provided by your network.
 	
-	<img src="/img/common/spice2x_network.png">
+	<img src="/img/common/spice2x_network.webp">
 
 	Next you need a card number.  
 	If you don't already have one, generate one in the `Cards` tab.  
@@ -179,14 +175,13 @@
 
 	Once that's done, head to the `Cards` tab, for `Player 1` click `Open...` and point to your text file.
 
-	<img src="/img/common/spice2x_cards.png">
+	<img src="/img/common/spice2x_cards.webp">
 
 ??? tip "Local e-amuse Emulator (Asphyxia)"
 
 	This is covered in the [Asphyxia CORE](/extras/asphyxia.md) page.
 
----
-### First launch
+## First launch
 
 !!! danger "If you have any issues running the game, refer to the [Troubleshooting](troubleshooting.md) page."
 
@@ -198,8 +193,7 @@
 
 	The game will go through a series of checks, let it run, if you've done everything properly they'll pass.
 
----
-### Troubleshooting
+## Troubleshooting
 
 !!! warning "Have any other issue?"
 

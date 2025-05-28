@@ -1,6 +1,6 @@
-!!! danger "Please make sure you downloaded your data from an appropriate source.<br>This guide is unable to troubleshoot any problems related to bad or poorly managed data."
+# Troubleshooting
 
----
+--8<-- "docs/snippets/common/data_warning.md"
 
 ### My game crashes on launch/stuck on "Starting System Process"
 
@@ -35,8 +35,6 @@
     Double-click it to run. The script should run for 30 seconds, and you will get a file
     named `amdaemontest.txt` in `App\bin`, which you can send to help people troubleshoot your issue.
 
----
-
 ### My game is stuck on a black screen at launch!
 !!! tip ""
 
@@ -47,8 +45,6 @@
         This is likely to be `Assembly-CSharp.dll`, `Assembly-CSharp-firstpass.dll`, and/or `AMDaemon.NET.dll`.
         You can try replacing the DLLs or re-downloading data from elsewhere.
     - An ill-formed keychip is defined in `segatools.ini`
-
----
 
 ### My game is running too slow/fast or the notes are out of sync!
 
@@ -63,8 +59,6 @@
     It could also be that your computer's performance isn't good enough to keep
     a steady framerate.
 
----
-
 ### My lever controls aren't working!
 !!! tip ""
 
@@ -75,13 +69,9 @@
 
     Then save by selecting **終了** (`EXIT`) and then **保存する** (`SAVE`).
 
----
-
 ### My game is stuttering
 
 !!! tip ""
 
     For NVIDIA users, create an override for `mu3.exe` in NVIDIA Control Panel
     and change "Power management mode" to "**Prefer maximum performance**".
-
----

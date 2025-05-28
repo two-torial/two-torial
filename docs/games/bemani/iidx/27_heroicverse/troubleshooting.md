@@ -1,10 +1,11 @@
-# beatmania IIDX 27 Heroic Verse
-<img class="header-logo" src="/img/bemani/iidx/27_heroicverse/logo.png">
+<img class="header-logo" src="/img/bemani/iidx/27_heroicverse/logo.webp">
+# Troubleshooting
 
-!!! note "Author Note:"
-	For lightning specific issues, see [lightning cab notes](lightning.md#lightning-specific-troubleshooting)
+--8<-- "docs/snippets/common/old_guide.md"
 
-### Hardware Specs
+--8<-- "docs/snippets/common/data_warning.md"
+
+## Hardware Specs
 
 !!! tip ""
 
@@ -34,7 +35,7 @@
 ### My Game Is Running Crazy Fast!
 
 !!! tip ""
-	The most common reason for this is the game is running over its required 60hz or 120hz framerate, depending on if you're in LDJ or TDJ mode. The game is hardcoded to run at these specific framerates and this cannot be changed. To solve this, set your monitor's refresh rate to match if you're in LDJ 60hz or TDJ 120hz mode. You can always check on the game's monitor check if the game is fluctuating around 59.94hz, the NTSC standard or around 120.00hz. If it's not around there and your monitor is indeed set correctly for the given mode, consider trying a different panel or forcing vsync on in your GPU's graphics settings.
+	The most common reason for this is the game is running over its required 60 Hz or 120 Hz framerate, depending on if you're in LDJ or TDJ mode. The game is hardcoded to run at these specific framerates and this cannot be changed. To solve this, set your monitor's refresh rate to match if you're in LDJ 60 Hz or TDJ 120 Hz mode. You can always check on the game's monitor check if the game is fluctuating around 59.94hz, the NTSC standard or around 120.00hz. If it's not around there and your monitor is indeed set correctly for the given mode, consider trying a different panel or forcing vsync on in your GPU's graphics settings.
 
 ### Occasional Game Stutters During Play
 
@@ -60,5 +61,3 @@
 
 !!! tip ""
 	Several external DACs have issues with [WASAPI exclusive mode](https://docs.microsoft.com/en-us/windows/win32/coreaudio/exclusive-mode-streams) and are unable to be used entirely, it's likely you'll be forced to use your motherboard's sound chip, or find a compatible DAC.
-
-

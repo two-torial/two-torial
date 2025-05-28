@@ -1,10 +1,7 @@
-# Controllers
+!!! info "Synopsis"
 
-!!! warning "Synopsis"
-
-    This guide provides an overview of popular arcade-style rhythm game controllers currently available to buy.
-
-    Controllers are organized by game and ranked based on their popularity within the rhythm game community.
+    This guide provides an overview of popular arcade-style rhythm game controllers currently available to buy.  
+    Controllers are ranked based on their popularity within the rhythm game community.
 
 ## BEMANI
 
@@ -15,7 +12,7 @@
 ??? tip "PHOENIXWAN+ LMT"
 
     <div class="controller-flex">
-      <img class="controller-preview" src="/img/extras/controllers/iidx/gamo2_pwan.png">
+      <img class="controller-preview" src="/img/extras/controllers/iidx/gamo2_pwan.webp">
       <div>
 
     [**Product page**](https://www.gamo2.com/en/index.php?dispatch=products.view&product_id=386){target="_blank"}  
@@ -31,7 +28,7 @@
 ??? tip "DX6TH"
 
     <div class="controller-flex">
-      <img class="controller-preview" src="/img/extras/controllers/iidx/yuancon_dx6th.png">
+      <img class="controller-preview" src="/img/extras/controllers/iidx/yuancon_dx6th.webp">
       <div>
 
     [**Product page**](https://yuancon.store/controller/IIDX){target="_blank"}  
@@ -51,7 +48,7 @@
 ??? tip "FAUCETWO+"
 
     <div class="controller-flex">
-      <img class="controller-preview" src="/img/extras/controllers/sdvx/gamo2_faucetwo.png">
+      <img class="controller-preview" src="/img/extras/controllers/sdvx/gamo2_faucetwo.webp">
       <div>
 
     **Products**: [VW Skin](https://www.gamo2.com/en/index.php?dispatch=products.view&product_id=393){target="_blank"} - [EG Skin](https://www.gamo2.com/en/index.php?dispatch=products.view&product_id=394){target="_blank"}  
@@ -67,7 +64,7 @@
 ??? tip "SDVX12"
 
     <div class="controller-flex">
-      <img class="controller-preview" src="/img/extras/controllers/sdvx/yuancon_sdvx12.png">
+      <img class="controller-preview" src="/img/extras/controllers/sdvx/yuancon_sdvx12.webp">
       <div>
 
     **Products**: [Black](https://yuancon.store/controller/controller){target="_blank"} - [White](https://yuancon.store/controller/sdvx%20controller){target="_blank"} - [Black&Blue](https://yuancon.store/controller/sdvxblack){target="_blank"} - [White&Purple](https://yuancon.store/controller/sdvxwhite){target="_blank"} - [Pink&Gold](https://yuancon.store/controller/sdvx){target="_blank"} - [Pink](https://yuancon.store/controller/sdvx%20controllers){target="_blank"} - [Gold](https://yuancon.store/controller/sdvxgold){target="_blank"}  
@@ -83,7 +80,7 @@
 ??? tip "SDVX LITE 3"
 
     <div class="controller-flex">
-      <img class="controller-preview" src="/img/extras/controllers/sdvx/yuancon_sdvxlite3.png">
+      <img class="controller-preview" src="/img/extras/controllers/sdvx/yuancon_sdvxlite3.webp">
       <div>
 
     [**Product page**](https://yuancon.store/controller/sdvxlite){target="_blank"}  
@@ -101,7 +98,7 @@
 ??? tip "POPOLLER"
 
     <div class="controller-flex">
-      <img class="controller-preview" src="/img/extras/controllers/popn/gamo2_popoller.png">
+      <img class="controller-preview" src="/img/extras/controllers/popn/gamo2_popoller.webp">
       <div>
 
     [**Product page**](https://www.gamo2.com/en/index.php?dispatch=products.view&product_id=379){target="_blank"}  
@@ -117,7 +114,7 @@
 ??? tip "YuanCon's Pop'n Controller"
 
     <div class="controller-flex">
-      <img class="controller-preview" src="/img/extras/controllers/popn/yuancon_popn.png">
+      <img class="controller-preview" src="/img/extras/controllers/popn/yuancon_popn.webp">
       <div>
 
     [**Product page**](https://yuancon.store/controller/popn){target="_blank"}  
@@ -132,7 +129,7 @@
 ??? tip "L-TEK / iamats"
 
     <div class="controller-flex">
-      <img class="controller-preview" src="/img/extras/controllers/ddr/l-tek.png">
+      <img class="controller-preview" src="/img/extras/controllers/ddr/l-tek.webp">
       <div>
 
     [**Catalog**](https://www.iamats.com/product-category/all/?per_page=6&layout=grid&orderby=date){target="_blank"}  
@@ -146,7 +143,7 @@
 ??? tip "YuanCon Pad Single/Double"
 
     <div class="controller-flex">
-      <img class="controller-preview" src="/img/extras/controllers/ddr/yuancon_pad.png">
+      <img class="controller-preview" src="/img/extras/controllers/ddr/yuancon_pad.webp">
       <div>
 
     **Products**: [Single](https://yuancon.store/controller/yuanpads){target="_blank"} - [Double](https://yuancon.store/controller/yuanconpaddp){target="_blank"}  
@@ -163,7 +160,7 @@
 ??? tip "NOSTROLLER"
 
     <div class="controller-flex">
-      <img class="controller-preview" src="/img/extras/controllers/nost/gamo2_nostroller.png">
+      <img class="controller-preview" src="/img/extras/controllers/nost/gamo2_nostroller.webp">
       <div>
 
     [**Product page**](https://www.gamo2.com/en/index.php?dispatch=products.view&product_id=372){target="_blank"}  
@@ -182,7 +179,7 @@
 ??? tip "TASOLLER+"
 
     <div class="controller-flex">
-      <img class="controller-preview" src="/img/extras/controllers/chuni/gamo2_tasollerplus.png">
+      <img class="controller-preview" src="/img/extras/controllers/chuni/gamo2_tasollerplus.webp">
       <div>
 
     [**Product page**](https://www.gamo2.com/en/index.php?dispatch=products.view&product_id=407){target="_blank"}  
@@ -197,7 +194,7 @@
 ??? tip "Laverita 3"
 
     <div class="controller-flex">
-      <img class="controller-preview" src="/img/extras/controllers/chuni/yuancon_laverita.png">
+      <img class="controller-preview" src="/img/extras/controllers/chuni/yuancon_laverita.webp">
       <div>
 
     **Products**: [Without stand](https://yuancon.store/controller/laverita-3){target="_blank"} - [With stand](https://yuancon.store/controller/laverita-3-s){target="_blank"}  
@@ -215,7 +212,7 @@
 ??? tip "ADX"
 
     <div class="controller-flex">
-      <img class="controller-preview" src="/img/extras/controllers/maimai/yuancon_adx.png">
+      <img class="controller-preview" src="/img/extras/controllers/maimai/yuancon_adx.webp">
       <div>
 
     [**Product page**](https://yuancon.store/controller/adx){target="_blank"}  
@@ -230,7 +227,7 @@
 ??? tip "ONTROLLER"
 
     <div class="controller-flex">
-      <img class="controller-preview" src="/img/extras/controllers/ongeki/gamo2_ontroller.png">
+      <img class="controller-preview" src="/img/extras/controllers/ongeki/gamo2_ontroller.webp">
       <div>
 
     [**Product page**](https://www.gamo2.com/en/index.php?dispatch=products.view&product_id=392){target="_blank"}  
@@ -245,7 +242,7 @@
 ??? tip "YUANGEKI"
 
     <div class="controller-flex">
-      <img class="controller-preview" src="/img/extras/controllers/ongeki/yuancon_yuangeki.png">
+      <img class="controller-preview" src="/img/extras/controllers/ongeki/yuancon_yuangeki.webp">
       <div>
 
     [**Product page**](https://yuancon.store/controller/yuangeki){target="_blank"}  
@@ -268,7 +265,7 @@
 ??? tip "ZhongTaiko"
 
     <div class="controller-flex">
-      <img class="controller-preview" src="/img/extras/controllers/taiko/zhong_taiko.png">
+      <img class="controller-preview" src="/img/extras/controllers/taiko/zhong_taiko.webp">
       <div>
 
     [**Product page**](https://taiko.ac/products/zhongtaiko){target="_blank"}  
@@ -284,7 +281,7 @@
 ??? tip "TDC17"
 
     <div class="controller-flex">
-      <img class="controller-preview" src="/img/extras/controllers/taiko/rythmagica_tdc17.png">
+      <img class="controller-preview" src="/img/extras/controllers/taiko/rythmagica_tdc17.webp">
       <div>
 
     [**Product page**](https://s.rythmagica.net/products/tdc17-arcade-size-taiko-drum-controller-for-switch-pc-xbox-ps4-more){target="_blank"}  
@@ -299,7 +296,7 @@
 ??? tip "TAIKOLLER"
 
     <div class="controller-flex">
-      <img class="controller-preview" src="/img/extras/controllers/taiko/gamo2_taikoller.png">
+      <img class="controller-preview" src="/img/extras/controllers/taiko/gamo2_taikoller.webp">
       <div>
 
     [**Product page**](https://www.gamo2.com/en/index.php?dispatch=products.view&product_id=381){target="_blank"}  
@@ -314,7 +311,7 @@
 ??? tip "TAIKO FORCE LV6"
 
     <div class="controller-flex">
-      <img class="controller-preview" src="/img/extras/controllers/taiko/yuancon_taikoforcelv6.png">
+      <img class="controller-preview" src="/img/extras/controllers/taiko/yuancon_taikoforcelv6.webp">
       <div>
 
     [**Product page**](https://yuancon.store/controller/taiko){target="_blank"}  
@@ -331,7 +328,7 @@
 ??? tip "TDC10 Pro"
 
     <div class="controller-flex">
-      <img class="controller-preview" src="/img/extras/controllers/taiko/rythmagica_tdc10pro.png">
+      <img class="controller-preview" src="/img/extras/controllers/taiko/rythmagica_tdc10pro.webp">
       <div>
 
     [**Product page**](https://s.rythmagica.net/products/pro-taiko-drum-controller){target="_blank"}  
@@ -346,7 +343,7 @@
 ??? tip "HORI Official Tatacons"
 
     <div class="controller-flex">
-      <img class="controller-preview" src="/img/extras/controllers/taiko/hori_tatacon.png">
+      <img class="controller-preview" src="/img/extras/controllers/taiko/hori_tatacon.webp">
       <div>
 
     [**Catalog**](https://www.amazon.com/stores/page/C794C4D7-A76B-43B5-B6A8-3F34E1697D97/search?ingress=0&visitId=3c7c1ee1-ac90-448d-97b2-68e8024797e0&terms=taiko){target="_blank"}  
@@ -361,7 +358,7 @@
 ??? tip "IINE Tatacon"
 
     <div class="controller-flex">
-      <img class="controller-preview" src="/img/extras/controllers/taiko/iine_tatacon.png">
+      <img class="controller-preview" src="/img/extras/controllers/taiko/iine_tatacon.webp">
       <div>
 
     [**Product page**](https://iine.store/collections/controller/products/switch-controller){target="_blank"}  
@@ -378,7 +375,7 @@
 ??? tip "IINE Taiko Pro Max"
 
     <div class="controller-flex">
-      <img class="controller-preview" src="/img/extras/controllers/taiko/iine_taikopromax.png">
+      <img class="controller-preview" src="/img/extras/controllers/taiko/iine_taikopromax.webp">
       <div>
 
     [**Product page**](https://iine.store/collections/controller/products/iine-professional-taiko-drum-pro-max?Color=Taiko+Drum+Pro+Max){target="_blank"}  

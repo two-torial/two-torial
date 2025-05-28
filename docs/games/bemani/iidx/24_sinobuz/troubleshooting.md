@@ -1,16 +1,16 @@
-# beatmania IIDX 24 SINOBUZ
-<img class="header-logo" src="/img/bemani/iidx/24_sinobuz/logo.png">
+<img class="header-logo" src="/img/bemani/iidx/24_sinobuz/logo.webp">
+# Troubleshooting
 
-!!! danger "Please make sure you downloaded your data from an appropriate source.<br>This guide is unable to troubleshoot any problems related to bad or poorly managed data."
+--8<-- "docs/snippets/common/old_guide.md"
 
----
+--8<-- "docs/snippets/common/data_warning.md"
+
 ### I'm having performance issues!
 
 !!! tip ""
 
     If you're having performance issues of some kind, spice2x's [PC optimization](https://github.com/spice2x/spice2x.github.io/wiki/PC-optimization) guide is worth looking at.
 
----
 ### My game is running slow/fast, After finishing a song the game gets stuck loading!
 
 !!! tip ""
@@ -20,7 +20,6 @@
 
 	For NVIDIA users, enable  `NVIDIA profile optimization (-nvprofile)` in the `Options` tab. 
 
----
 ### How do I set my offset?
 
 !!! tip ""
@@ -30,7 +29,6 @@
 	If you're getting too many `Fast`, increase your offset `(+)`.   
 	If you're getting too many `Slow`, decrease your offset `(-)`.
 
----
 ### My inputs aren't working / I can't get past error messages!
 
 !!! tip ""

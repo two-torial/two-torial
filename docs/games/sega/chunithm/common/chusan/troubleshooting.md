@@ -1,6 +1,6 @@
-!!! danger "Please make sure you downloaded your data from an appropriate source.<br>This guide is unable to troubleshoot any problems related to bad or poorly managed data."
+# Troubleshooting
 
----
+--8<-- "docs/snippets/common/data_warning.md"
 
 ### My game crashes on launch!
 
@@ -11,9 +11,9 @@
     - `amdaemon` crashing in the background. Make sure that the `config_*.json` files
     have valid syntax, your ICF files are correct, and the OpenSSL fix is applied on Intel Core 10th Gen CPUs and newer.
     - Using the incorrect dipswitch settings for your refresh rate (e.g. `dipsw3=0` on
-    a 60Hz screen). Refer to the game setup guide to fix it.
-    - Enabling 120FPS on a monitor that is not **exactly 120Hz** or **exactly 1080p**.
-    If you cannot set your monitor's refresh rate to 120Hz, apply the "Bypass 120Hz
+    a 60 Hz screen). Refer to the game setup guide to fix it.
+    - Enabling 120FPS on a monitor that is not **exactly 120 Hz** or **exactly 1080p**.
+    If you cannot set your monitor's refresh rate to 120 Hz, apply the "Bypass 120 Hz
     monitor check"/"Bypass 1080p monitor check" on a CHUNITHM web patcher (see [Resources](/resources.md#web-patchers)).
     
 ??? info "Capturing logs from `amdaemon` for troubleshooting"
@@ -40,8 +40,6 @@
     Double-click it to run. The script should run for 30 seconds, and you will get a file
     named `amdaemontest.txt` in `App\bin`, which you can send to help people troubleshoot your issue.
 
----
-
 ### My game takes a long time to boot!
 
 !!! tip ""
@@ -55,8 +53,6 @@
     Doing this will prevent Windows Defender from scanning your game folder for viruses.
     Only do this if you trust the source of the data.
 
----
-
 ### My game is running too slow/fast
 
 !!! tip ""
@@ -65,12 +61,10 @@
     
     - Make sure V-Sync isn't disabled in your graphics settings (called "Vertical sync"
     in NVIDIA Control Panel and "Wait for Vertical Refresh" in AMD Control Panel.)
-    - Make sure your monitor's refresh rate is set to 60Hz or 120Hz.
+    - Make sure your monitor's refresh rate is set to 60 Hz or 120 Hz.
 
     It could also be that your computer's performance isn't good enough to keep
     a steady framerate.
-
----
 
 ### My game is stuttering
 
@@ -78,8 +72,6 @@
 
     For NVIDIA users, create an override for `chusanApp.exe` in NVIDIA Control Panel
     and change "Power management mode" to "**Prefer maximum performance**".
-
----
 
 ### My game crashes when I tab out of fullscreen!
 
@@ -105,8 +97,6 @@
     `Test` key even if the game is minimised. If you were in the middle of a credit,
     **your scores will be lost.**
 
----
-
 ### When I run the game all other audio is gone!
 
 !!! tip ""
@@ -116,8 +106,6 @@
 
     You can apply the "Shared Audio" patch on a CHUNITHM web patcher (see [Resources](/resources.md#web-patchers))
     to hear audio outside of the game at the cost of audio latency.
-
----
 
 ### Cabinet-to-Cabinet(c2c) Fixes
 

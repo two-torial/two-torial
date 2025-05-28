@@ -1,10 +1,11 @@
-# GITADORA FUZZ-UP
-<img class="header-logo" src="/img/bemani/gitadora/fuzzup/logo.png">
+<img class="header-logo" src="/img/bemani/gitadora/fuzzup/logo.webp">
+# Game Setup
 
-!!! danger "Please make sure you downloaded your data from an appropriate source.<br>This guide is unable to troubleshoot any problems related to bad or poorly managed data."
+--8<-- "docs/snippets/common/old_guide.md"
 
----
-### Installing spice2x
+--8<-- "docs/snippets/common/data_warning.md"
+
+## Installing spice2x
 
 !!! info ""
 
@@ -15,10 +16,9 @@
 	- Head over to [spice2x.github.io](https://spice2x.github.io) and download the latest release.
 	- Extract the `spice64.exe` and `spicecfg.exe` files from the archive to your game's directory.
   
-	<img src="/img/bemani/gitadora/fuzzup/spice.png">
+	<img src="/img/bemani/gitadora/fuzzup/spice.webp">
 
----
-### General Configuration
+## General Configuration
 
 !!! info ""
 
@@ -26,7 +26,7 @@
 
 !!! info "Open `spicecfg.exe`, each following sub-section corresponds to a tab at the top."
 
-#### Buttons
+### Buttons
 
 !!! tip ""
 
@@ -37,17 +37,17 @@
 	- **Maintenance:** `Test`
 	- **P1 Keypad**: `Keypad 0 to 9, Keypad Insert Card`
 
-#### Cards
+### Cards
 
 !!! info "Covered in the [Connecting to a Network](#connecting-to-a-network) section."
 
-#### Patches
+### Patches
 
 !!! info "Go through the [spice2x Patching](/extras/patchsp2x.md) page to import patches."
 
 !!! danger "To prevent issues, avoid patching things you don't need or understand."
 
-#### Options
+### Options
 
 !!! danger "Be very careful changing options you don't understand as it may cause issues."
 
@@ -64,8 +64,7 @@
 	|-------------------|-----------------------------------|---------------|---------|
 	| Graphics (Common)	| NVIDIA profile optimization	    	| -nvprofile   	| ON	    |
 
----
-### GuitarFreaks Configuration
+## GuitarFreaks Configuration
 
 !!! info ""
 
@@ -84,7 +83,7 @@
 	- **Guitar P1 IO Panel:** `Guitar P1 Start, Up, Down, Left, Right, Help`
 	- **Guitar P1 Controls:** `Guitar P1 Pick Up, Pick Down, R, G, B, Y, P`
 
-#### Analogs
+### Analogs
 
 !!! tip ""
 
@@ -97,7 +96,7 @@
 	- Move your guitar and ensure the Preview visualizer shows movement.
 	- Repeat for other applicable axes your guitar has.
 
-#### Advanced
+### Advanced
 
 !!! warning "Not setting these values will cause the game to not boot into either mode."
 
@@ -108,14 +107,13 @@
 	| Paths					| Path to ea3-config.xml 	    | -e 	        | `prop/ea3-config2.xml`	 |
 	| Paths	    	| Path to avs-config.xml 				|	-v		      | `prop/avs-config-jb.xml` |
 
----
-### DrumMania Configuration
+## DrumMania Configuration
 
 !!! info ""
 
 	This section will cover the configuration specific to the **Drums** mode.<br>If you are wanting to configure guitar, refer to the [GuitarFreaks Configuration](#guitarfreaks-configuration) section.
 
-#### Buttons
+### Buttons
 
 !!! tip ""
 
@@ -126,7 +124,7 @@
 	- **Drum IO Panel:** `Drum Start, Up, Down, Left, Right, Help`
 	- **Drum Controls:** `Drum Hi-Hat, Snare, Hi-Tom, Low-Tom, Right Cymbal, Bass Pedal, Left Cytmbal, Left Pedal, Floor Tom`
 
-#### Advanced
+### Advanced
 
 !!! warning "Not setting these values will cause the game to not boot into either mode."
 
@@ -137,8 +135,7 @@
 	| Paths					| Path to ea3-config.xml 	| -e 	     		| `prop/ea3-config.xml`	   |
 	| Paths	    		| Path to avs-config.xml  | -v					| `prop/avs-config-ja.xml` |
 
----
-### Connecting to a Network
+## Connecting to a Network
 
 !!! danger "Please choose one of the two solutions, not both!"
 
@@ -151,7 +148,7 @@
 	- `EA Service URL` to the URL provided by your network.
 	- `PCBID` to the PCBID provided by your network.
 	
-	<img src="/img/common/spice2x_network.png">
+	<img src="/img/common/spice2x_network.webp">
 
 	Next you need a card number.  
 	If you don't already have one, generate one in the `Cards` tab.  
@@ -159,25 +156,24 @@
 
 	Once that's done, head to the `Cards` tab, for `Player 1` click `Open...` and point to your text file.
 
-	<img src="/img/common/spice2x_cards.png">
+	<img src="/img/common/spice2x_cards.webp">
 
 ??? tip "Local e-amuse Emulator (Asphyxia)"
 
 	This is covered in the [Asphyxia CORE](/extras/asphyxia.md) page.
 
----
-### Pre-launch Requirements
+## Pre-launch Requirements
 
 !!! info "These steps are required, otherwise your game won't run."
 
-#### VCRedist & DirectX
+### VCRedist & DirectX
 
 !!! tip ""	
 
 	- Download and install the latest [VCRedist](https://github.com/abbodi1406/vcredist/releases/latest) (`VisualCppRedist_AIO_x86_x64.exe`)
 	- Download and install the [DirectX End-User Runtimes](https://www.microsoft.com/en-us/download/details.aspx?id=8109)
 
-#### Audio
+### Audio
 
 !!! info "GITADORA FUZZ-UP currently only supports WASAPI exclusive mode."
 
@@ -191,10 +187,9 @@
 	- Open the `Default Format` dropdown.
 	- Pick the `24 bit, 44100 Hz (Studio Quality)` option and click `Apply` then `OK`.
 
-	<img src="/img/common/audio_24_441.png">
+	<img src="/img/common/audio_24_441.webp">
 
----
-### First Launch
+## First Launch
 
 !!! danger "If you have any issues running the game at this point, refer to the [Troubleshooting](troubleshooting.md) page."
 
@@ -206,44 +201,43 @@
 
 	Upon launching your game, you will be greeted with this `BACKUP DATA ERROR` screen.
 
-<img src="/img/bemani/gitadora/matixx/4.png">
+<img src="/img/bemani/gitadora/matixx/4.webp">
 
 !!! tip ""
 
 	This is normal, simply hit your `Test` keybind to enter test mode.
 
-<img src="/img/bemani/gitadora/matixx/5.png">
+<img src="/img/bemani/gitadora/matixx/5.webp">
 
 !!! tip ""
 
 	From here, we will need to set a shop name to play, so select the `GAME OPTIONS` option.
 
-<img src="/img/bemani/gitadora/matixx/6.png">
+<img src="/img/bemani/gitadora/matixx/6.webp">
 
 !!! tip "" 
 
 	Then, select `SHOP SETTINGS`.
 
-<img src="/img/bemani/gitadora/matixx/7.png">
+<img src="/img/bemani/gitadora/matixx/7.webp">
 
 !!! tip "" 
 
 	Once inside, select `SHOP NAME SETTINGS` and name your shop whatever you desire! Once that's done, go down to `PREFECTURE` and set it to whatever you desire as well. Finally, go to `SAVE AND EXIT` to get back to the test menu.
 
-<img src="/img/bemani/gitadora/matixx/8.png">
+<img src="/img/bemani/gitadora/matixx/8.webp">
 
 !!! tip ""
 
 	The last menu we'll go inside from the test menu is the clock menu. Go inside `CLOCK` and simply set the clock by hitting `SAVE AND EXIT` as pictured below.
 
-<img src="/img/bemani/gitadora/matixx/9.png">
+<img src="/img/bemani/gitadora/matixx/9.webp">
 
 !!! tip ""
 
 	You're all done! From the test menu, select `GAME MODE` and the game should boot up!
 
----
-### Carding In
+## Carding In
 
 !!! tip "" 
 
@@ -252,8 +246,7 @@
 	- Press your `Keypad Insert Card` button.
 	- Enter your code using your keypad binds.
 
----
-### Troubleshooting
+## Troubleshooting
 
 !!! warning "Have any other issue?"
 

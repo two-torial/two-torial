@@ -1,4 +1,2 @@
-# Troubleshooting (DDR A20)
-<img class="header-logo" src="/img/bemani/ddr/a20/logo.png">
-
+<img class="header-logo" src="/img/bemani/ddr/a20/logo.webp">
 --8<-- "docs/games/bemani/ddr/common/troubleshooting.md"

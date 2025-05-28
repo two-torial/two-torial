@@ -1,0 +1,1 @@
+	!!! info "Go through the [spice2x Patching](/extras/patchsp2x.md) to import and pick patches"

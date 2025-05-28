@@ -1,13 +1,13 @@
-!!! danger "Please make sure you downloaded your data from an appropriate source.<br>This guide is unable to troubleshoot any problems related to bad or poorly managed data."
+# Game Setup
+
+--8<-- "docs/snippets/common/data_warning.md"
 
 !!! danger "If you're coming from a previous version of CHUNITHM"
 
     You'll want to create a new folder for the game and start from scratch.
     CHUNITHM **DOES NOT** like being extracted over old data!
 
----
-
-### Preparing data
+## Preparing data
 
 !!! danger "There are currently issues with running game data in the `E:\` or `Y:\` drive.<br>Please extract the data into other drives."
 
@@ -24,15 +24,15 @@
 
 	You should end up with a file structure as follows.
 
-    <img width="500" src="/img/sega/chunithm/common/setup/0_chunithmdata.png">
+    <img width="500" src="/img/sega/chunithm/common/setup/0_chunithmdata.webp">
 
     Create another empty folder named `AppData` next to them. It should now look like below.
 
-    <img width="500" src="/img/sega/chunithm/common/setup/0_chunithmdata_withappdata.png"> 
+    <img width="500" src="/img/sega/chunithm/common/setup/0_chunithmdata_withappdata.webp"> 
 
     The `App` folder should have a file structure as follows.
 
-    <img width="500" src="/img/sega/chunithm/common/setup/1_chunithmapp.png">
+    <img width="500" src="/img/sega/chunithm/common/setup/1_chunithmapp.webp">
 
 ??? warning "If your data doesn't look like this"
 
@@ -45,14 +45,14 @@
     **remove them. This also means your data was tampered with and we strongly recommend
     getting new data from somewhere else.**
 
-#### Updating the base game
+## Updating the base game
 
 !!! tip ""
 
     Extract your patch's files to your existing data in a way that matches its
     file structure. Agree to overwrite files if necessary.
 
-#### Installing option data
+## Installing option data
 
 !!! tip ""
 
@@ -64,12 +64,12 @@
     Extract any options you've downloaded into the `Option` folder. You should end up with
     a file structure as follows. **Do not be worried if you have fewer or more option folders.**
 
-    <img width="500" src="/img/sega/chunithm/common/setup/2_chunithmoption.png">
+    <img width="500" src="/img/sega/chunithm/common/setup/2_chunithmoption.webp">
 
 !!! warning "If you plan to connect to a network (Hosted or Local), the `A001` option folder for your specific game version is required. This option contains a special Event file that lets the game connect."
     
 
-#### Installing unprotected executables
+## Installing unprotected executables
 
 !!! tip ""
 
@@ -81,7 +81,7 @@
     Copy `chusanApp.exe` and `amdaemon.exe` to the `bin` folder of your game data. Agree
     to overwrite when asked.
 
-#### Installing ICFs
+## Installing ICFs
 
 !!! tip ""
 
@@ -99,9 +99,7 @@
     By default, file extensions on Windows are hidden. Enable them by navigating to
     the `View` tab in File Explorer and select `File name extensions`.
 
----
-
-### Patching the game
+## Patching the game
 
 !!! info "Go through the [Web Patching](/extras/patchweb.md) guide to learn how to use a web patcher."
 
@@ -119,11 +117,9 @@
 | No encryption                | ON             | Disable encrypting network requests. **Required if you plan to run a local server.** |
 | No TLS                       | ON             | Disable checking if the server is `HTTPS` or not. **Required if you plan to run a local server.** |
 | Bypass 1080p monitor check   | Either         | Disable checking if the monitor is 1080p when enabling 120FPS. Enable if you cannot set your monitor to 1080p. |
-| Bypass 120Hz monitor check   | Either         | Disable checking if the monitor is **exactly 120Hz** when enabling 120FPS. Enable if you cannot set your monitor to 120Hz. |
+| Bypass 120 Hz monitor check   | Either         | Disable checking if the monitor is **exactly 120 Hz** when enabling 120FPS. Enable if you cannot set your monitor to 120 Hz. |
 
----
-
-### Installing segatools
+## Installing segatools
 
 !!! tip ""
 
@@ -134,11 +130,9 @@
 
     You should now have a few more files inside the folder, as highlighted:
 
-    <img width="500" src="/img/sega/chunithm/common/setup/3_segatools_installed.png">
+    <img width="500" src="/img/sega/chunithm/common/setup/3_segatools_installed.webp">
 
----
-
-### Configuring segatools
+## Configuring segatools
 
 !!! tip ""
 
@@ -161,7 +155,7 @@
     dipsw2=1 ; WRONG!
     ```
 
-#### `[vfs]`
+### `[vfs]`
 
 !!! tip ""
 
@@ -191,11 +185,11 @@
 
     - A cleaner and easier to read segatools.ini, making spotting issues simpler.
 
-#### `[system]`
+### `[system]`
 
 !!! tip ""
 
-    - If you have a 120Hz monitor, set `dipsw2` and `dipsw3` to 0:
+    - If you have a 120 Hz monitor, set `dipsw2` and `dipsw3` to 0:
 
     ```ini
     [system]
@@ -203,7 +197,7 @@
     dipsw3=0
     ```
 
-    - If you have a 60Hz monitor, set `dipsw2` and `dipsw3` to 1:
+    - If you have a 60 Hz monitor, set `dipsw2` and `dipsw3` to 1:
 
     ```ini
     [system]
@@ -211,7 +205,7 @@
     dipsw3=1
     ```
 
-#### `[gfx]`
+### `[gfx]`
 
 !!! tip ""
 
@@ -224,9 +218,7 @@
     Navigate to Windows display settings. Each monitor should be assigned a number.
     The monitor index is that number minus one. For example, monitor 2 means monitor index 1.
 
----
-
-### Connecting to a network
+## Connecting to a network
 
 !!! danger "Please choose one of the two solutions, not both!"
 
@@ -252,7 +244,7 @@
     your 20-digit access code if you already have one, or make one up if you don't. If you're making one
     up, the access code **MUST NOT** start with a 3.
 
-    <img src="/img/sega/chunithm/common/setup/4_access_code.png">
+    <img src="/img/sega/chunithm/common/setup/4_access_code.webp">
 
 ??? warning "Local (ARTEMiS/AquaDX)"
 
@@ -260,20 +252,18 @@
     and [AquaDX](https://github.com/hykilpikonna/AquaDX?tab=readme-ov-file#usage-v1-developmental-preview)
     to set up a local server.
 
----
-
-### Pre-launch requirements
+## Pre-launch requirements
 
 !!! info "These steps are required, otherwise your game won't run."
 
-#### VCRedist & DirectX
+### VCRedist & DirectX
 
 !!! tip ""	
 
 	- Download and install the latest [VCRedist](https://github.com/abbodi1406/vcredist/releases/latest) (`VisualCppRedist_AIO_x86_x64.exe`)
 	- Download and install the [DirectX End-User Runtimes](https://www.microsoft.com/en-us/download/details.aspx?id=8109)
 
-#### Audio
+### Audio
 
 !!! tip ""
 
@@ -284,17 +274,15 @@
 	- Open the `Default Format` dropdown.
     - Pick either `16 bit, 48000Hz (DVD Quality)` or `24 bit, 48000Hz (Studio Quality)`, click `Apply`, then `OK`.
 
-    <img src="/img/common/audio_16_48.png">
+    <img src="/img/common/audio_16_48.webp">
 
-#### Fixing OpenSSL on Intel 10th Gen and newer CPUs
+### Fixing OpenSSL on Intel 10th Gen and newer CPUs
 
 !!! tip ""
 
     If you have an Intel 10th Gen CPU or newer, you need to [patch amdaemon](https://patcher.two-torial.xyz/amdaemon) and enable `OpenSSL SHA crash bug fix`.
 
----
-
-### First launch
+## First launch
 
 !!! danger "If you have any issues running the game, refer to the [Troubleshooting](./troubleshooting.md) page."
 
@@ -303,7 +291,7 @@
     Without an English patch, the service menu will be in Japanese. If you don't know Japanese, [Google Lens](https://lens.google/)
     is a handy tool for navigating this menu.
 
-#### GAME ASSIGNMENTS
+### GAME ASSIGNMENTS
 
 !!! tip ""
 
@@ -311,7 +299,7 @@
 
     Start the game by running `App\bin\start.bat`. Let the game load until it reaches the screen below.
 
-<img src="/img/sega/chunithm/common/setup/servicemenu/0_asettings.png">
+<img src="/img/sega/chunithm/common/setup/servicemenu/0_asettings.webp">
 
 !!! tip ""
 
@@ -320,46 +308,46 @@
 
     Navigate to **ゲーム設定** (`GAME ASSIGNMENTS`, the 4th option).
 
-<img src="/img/sega/chunithm/common/setup/servicemenu/1_gamesettings.png">
+<img src="/img/sega/chunithm/common/setup/servicemenu/1_gamesettings.webp">
 
 !!! tip ""
 
     Select **グループ内基準機設定** (`SET STANDARD IN GROUP`, the second option)
     and toggle this setting to **基準機** (`STANDARD`).
 
-<img src="/img/sega/chunithm/common/setup/servicemenu/2_reference.png">
+<img src="/img/sega/chunithm/common/setup/servicemenu/2_reference.webp">
 
 !!! tip ""
 
     Select **終了** (`EXIT`, the last option) to exit to the main service menu.
 
-#### CLOSE SETTING
+### CLOSE SETTING
 
 !!! tip ""
 
     Navigate to **閉店設定** (`CLOSE SETTING`, the 10th option).
 
-<img src="/img/sega/chunithm/common/setup/servicemenu/3_closingsetting.png">
+<img src="/img/sega/chunithm/common/setup/servicemenu/3_closingsetting.webp">
 
 !!! tip ""
 
     Navigate to **時** (`HOUR`, the 2nd option) and use the `Service` button
     to toggle the setting until it says **全時刻** (`ALL TIME`).
 
-<img src="/img/sega/chunithm/common/setup/servicemenu/4_alltime.png">
+<img src="/img/sega/chunithm/common/setup/servicemenu/4_alltime.webp">
 
 !!! tip ""
 
     Select **終了** (`EXIT`, the last option) to exit to the main service menu, then select **終了**
     (also the last option) in the main menu to exit the service menu.
 
-#### Waiting for Distribution Server
+### Waiting for Distribution Server
 
 !!! tip ""
 
     If you're stuck at the `Waiting for Distribution Server` screen below, close the game and relaunch.
 
-<img src="/img/sega/chunithm/common/setup/servicemenu/5_distserver.png">
+<img src="/img/sega/chunithm/common/setup/servicemenu/5_distserver.webp">
 
 !!! tip ""
 
@@ -367,7 +355,7 @@
 
     You can add coins using the `Coin` key (default `F3`) and card in by holding the `Enter` key.
 
-### Further configuration
+## Further configuration
 
 !!! info "Input methods and controllers are covered in the [Controllers](./controllers.md) page."
 

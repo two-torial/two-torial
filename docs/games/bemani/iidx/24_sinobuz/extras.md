@@ -1,10 +1,11 @@
-# beatmania IIDX 24 SINOBUZ
-<img class="header-logo" src="/img/bemani/iidx/24_sinobuz/logo.png">
+<img class="header-logo" src="/img/bemani/iidx/24_sinobuz/logo.webp">
+# Extra Information
 
-!!! danger "Please make sure you downloaded your data from an appropriate source.<br>This guide is unable to troubleshoot any problems related to bad or poorly managed data."
+--8<-- "docs/snippets/common/old_guide.md"
 
----
-### More about ea3-config.xml
+--8<-- "docs/snippets/common/data_warning.md"
+
+## More about ea3-config.xml
 
 !!! tip ""
 

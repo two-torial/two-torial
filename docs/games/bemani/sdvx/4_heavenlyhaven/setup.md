@@ -1,13 +1,9 @@
-# SOUND VOLTEX IV HEAVENLY HAVEN
-<img class="header-logo" src="/img/bemani/sdvx/4_heavenlyhaven/logo.png">
+<img class="header-logo" src="/img/bemani/sdvx/4_heavenlyhaven/logo.webp">
+# Game Setup
 
-!!! danger "Warning"
+--8<-- "docs/snippets/common/old_guide.md"
 
-	Please make sure your data is from an appropriate source and unmodified before proceeding, this guide is unable to troubleshoot any problems related to bad or poorly managed data.
-
-	If you obtained data from a torrent file, make sure you're not seeding the data before proceeding as well.
-
-	Lastly, for demonstrative purposes, this guide uses SpiceTools, you should consult appropriate documentation and requirements of your desired tools as the setup process is likely to be extremely similar.
+--8<-- "docs/snippets/common/data_warning.md"
 
 ### Getting Started
 
@@ -15,7 +11,7 @@
 
     This game still uses DirectSound so we can skip audio related setup needed for other games. After downloading your data, the first thing to do is make sure your files aren't set to READ ONLY, make sure to uncheck it from the main folder in the Windows Properties tab if so. Then, put your desired 32-bit tools inside the game's `contents` folder, and to create a `.bat` file. Pictured below is what your folder should look like, feel free to name your `.bat` file anything you desire, for the sake of convenience we've named ours `gamestart.bat`.
 
-<img src="/img/bemani/sdvx/4_heavenlyhaven/setup/1.png">
+<img src="/img/bemani/sdvx/4_heavenlyhaven/setup/1.webp">
 
 
 ### Configuring Your Tools
@@ -41,7 +37,7 @@
 
 	Pictured below, the contents of our `gamestart.bat` file in Notepad++.
 
-<img src="/img/bemani/sdvx/4_heavenlyhaven/setup/2.png">
+<img src="/img/bemani/sdvx/4_heavenlyhaven/setup/2.webp">
 
 ### Configuring for an Online Network
 
@@ -57,7 +53,7 @@
 
 	Pictured below, the contents of our `gamestart.bat` file in Notepad++.
 
-<img src="/img/bemani/sdvx/4_heavenlyhaven/setup/3.png">
+<img src="/img/bemani/sdvx/4_heavenlyhaven/setup/3.webp">
 
 !!! tip ""
 

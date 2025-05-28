@@ -1,11 +1,9 @@
-# Game Setup (WACCA Reverse)
-<img class="header-logo" src="/img/sega/wacca/reverse/logo.png">
+<img class="header-logo" src="/img/sega/wacca/reverse/logo.webp">
+# Game Setup
 
-!!! danger "Please make sure you downloaded your data from an appropriate source.<br>This guide is unable to troubleshoot any problems related to bad or poorly managed data."
+--8<-- "docs/snippets/common/data_warning.md"
 
----
-
-### Preparing data
+## Preparing data
 
 !!! danger "There are currently issues with running game data in the `E:\` or `Y:\` drive.<br>Please extract the data into other drives."
 
@@ -22,11 +20,11 @@
 
     You should end up with a file structure as follows.
 
-    <img width="500" src="/img/sega/wacca/reverse/setup/0_waccadata.png">
+    <img width="500" src="/img/sega/wacca/reverse/setup/0_waccadata.webp">
     
     The `App` folder should have a file structure as follows.
 
-    <img width="500" src="/img/sega/wacca/reverse/setup/1_waccaapp.png">
+    <img width="500" src="/img/sega/wacca/reverse/setup/1_waccaapp.webp">
 
 ??? warning "If your data doesn't look like this"
 
@@ -39,7 +37,7 @@
     **remove them. This also means your data was tampered with and we strongly recommend
     getting new data from somewhere else.**
 
-#### Updating the base game
+### Updating the base game
 
 !!! tip ""
 
@@ -48,7 +46,7 @@
     For example, if you have `3.00.00`; install `3.01.00`, then `3.02.00`, etc.
 
 
-#### Installing ICFs
+### Installing ICFs
 
 !!! tip ""
 
@@ -71,15 +69,11 @@
     By default, file extensions on Windows are hidden. Enable them by navigating to
     the `View` tab in File Explorer and select `File name extensions`.
 
----
-
-### Patching the game
+## Patching the game
 
 !!! info "Go through the [Web Patching](/extras/patchweb.md) guide to learn how to use a web patcher."
 
----
-
-### Installing segatools
+## Installing segatools
 
 !!! tip ""
 
@@ -90,11 +84,9 @@
 
     You should now have a few more files inside the folder, as highlighted:
 
-    <img width="500" src="/img/sega/wacca/reverse/setup/2_wacca_segatools_installed.png">
+    <img width="500" src="/img/sega/wacca/reverse/setup/2_wacca_segatools_installed.webp">
 
----
-
-### Configuring segatools
+## Configuring segatools
 
 !!! tip ""
 
@@ -117,7 +109,7 @@
     dipsw1=1 ; WRONG!
     ```
 
-#### `[vfs]`
+### `[vfs]`
 
 !!! tip ""
 
@@ -146,9 +138,7 @@
 
     - A cleaner and easier to read segatools.ini, making spotting issues simpler.
 
----
-
-### Connecting to a network
+## Connecting to a network
 
 !!! danger "Please choose one of the two solutions, not both!"
 
@@ -176,7 +166,7 @@
     your 20-digit access code if you already have one, or make one up if you don't. If you're making one
     up, the access code **MUST NOT** start with a 3.
 
-    <img src="/img/sega/wacca/reverse/setup/3_access_code.png">
+    <img src="/img/sega/wacca/reverse/setup/3_access_code.webp">
 
 ??? warning "Local (ARTEMiS/AquaDX)"
 
@@ -184,13 +174,11 @@
     and [AquaDX](https://github.com/hykilpikonna/AquaDX?tab=readme-ov-file#usage-v1-developmental-preview)
     to set up a local server.
 
----
-
-### Pre-launch requirement
+## Pre-launch requirement
 
 !!! info "This step is required, otherwise your game won't run."
 
-#### Install FTDI LEDs driver
+### Install FTDI LEDs driver
 
 !!! tip ""
 
@@ -198,16 +186,14 @@
     and extract them to a folder of your choice, then copy `CDM-v2.12.36.4-WHQL-Certified/amd64/ftd2xx64.dll` to 
     `/App/WindowsNoEditor/Mercury/Binaries/Win64` and then rename the file to `ftd2xx.dll`.
 
-#### VCRedist & DirectX
+### VCRedist & DirectX
 
 !!! tip ""
 
     - Download and install the latest [VCRedist](https://github.com/abbodi1406/vcredist/releases/latest) (`VisualCppRedist_AIO_x86_x64.exe`)
     - Download and install the [DirectX End-User Runtimes](https://www.microsoft.com/en-us/download/details.aspx?id=8109)
 
----
-
-### First launch
+## First launch
 
 !!! tip ""
 
@@ -217,7 +203,7 @@
 
     Start the game by running `App\bin\start.bat`.
 
-#### CLOSE SETTING
+### CLOSE SETTING
 
 !!! tip ""
 
@@ -229,20 +215,20 @@
 
     Navigate to **SYSTEM SETTING**.
 
-<img src="/img/sega/wacca/reverse/setup/servicemenu/4_systemsetting.png">
+<img src="/img/sega/wacca/reverse/setup/servicemenu/4_systemsetting.webp">
 
 !!! tip ""
 
     Navigate to **CLOSING TIME SETTINGS**.
 
-<img src="/img/sega/wacca/reverse/setup/servicemenu/5_closingtime.png">
+<img src="/img/sega/wacca/reverse/setup/servicemenu/5_closingtime.webp">
 
 !!! tip ""
 
     Navigate to **ALL DAYS OF THE WEEK** and use the `Service` button
     to toggle the setting until it says **OFF**.
 
-<img src="/img/sega/wacca/reverse/setup/servicemenu/6_closingtimesetting.png">
+<img src="/img/sega/wacca/reverse/setup/servicemenu/6_closingtimesetting.webp">
 
 !!! tip ""
 
@@ -257,9 +243,7 @@
 
     You can add coins using the `Coin` key (default `F3`) and card in by holding the `Enter` key.
 
----
-
-### Controllers and Troubleshooting
+## Controllers and Troubleshooting
 
 !!! info "Input methods and controllers are covered on the [Controllers](./controllers.md) page."
 

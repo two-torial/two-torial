@@ -1,9 +1,7 @@
-# Controllers (WACCA Reverse)
-<img class="header-logo" src="/img/sega/wacca/reverse/logo.png">
+<img class="header-logo" src="/img/sega/wacca/reverse/logo.webp">
+# Controllers
 
-!!! danger "Please make sure you downloaded your data from an appropriate source.<br>This guide is unable to troubleshoot any problems related to bad or poorly managed data."
-
----
+--8<-- "docs/snippets/common/data_warning.md"
 
 !!! tip ""
 
@@ -32,9 +30,7 @@
 
     1. Note that there is no leading semicolon.
 
----
-
-### Touch screen / Mobile device
+## Touch screen / Mobile device
 
 !!! tip ""
 
@@ -47,7 +43,7 @@
 
     [Toucca](https://github.com/BlueGlassBlock/toucca/?tab=readme-ov-file#setup)
 
-### WACVR
+## WACVR
 
 !!! tip ""
 
@@ -75,7 +71,7 @@
     If you're experiencing a warped screen in WACVR, make sure your monitor is set to portrait mode and 
     check the `Full display capture` box in WACVR.
 
-### Arcade hardware and other controllers
+## Arcade hardware and other controllers
 
 !!! tip ""
 

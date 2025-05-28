@@ -1,11 +1,9 @@
-# Game Setup (Tetote X Connect)
-<img class="header-logo" src="/img/taito/tetoteconnect/logo.png">
+<img class="header-logo" src="/img/taito/tetoteconnect/logo.webp">
+# Game Setup
 
-!!! danger "Please make sure you downloaded your data from an appropriate source.<br>This guide is unable to troubleshoot any problems related to bad or poorly managed data."
+--8<-- "docs/snippets/common/data_warning.md"
 
----
-
-### Preparing data
+## Preparing data
 
 !!! tip ""
 
@@ -20,11 +18,9 @@
 
     You should end up with a file structure as follows.
 
-    <img width="500" src="/img/taito/tetoteconnect/setup/0_data.png">
+    <img width="500" src="/img/taito/tetoteconnect/setup/0_data.webp">
 
----
-
-### Installing BepInEx
+## Installing BepInEx
 
 !!! tip ""
 
@@ -36,11 +32,9 @@
 
     You should now have a few more files, as highlighted:
 
-    <img src="/img/taito/tetoteconnect/setup/1_databepinex.png">
+    <img src="/img/taito/tetoteconnect/setup/1_databepinex.webp">
 
----
-
-### Installing tetoco
+## Installing tetoco
 
 !!! tip ""
 
@@ -57,21 +51,18 @@
       ┗⚙️tetoco.dll
     ```
 
----
-
 ### Pre-launch requirements
 
 !!! info "These steps are required, otherwise your game won't run."
 
-#### VCRedist & DirectX
+### VCRedist & DirectX
 
 !!! tip ""
 
     - Download and install the latest [VCRedist](https://github.com/abbodi1406/vcredist/releases/latest) (`VisualCppRedist_AIO_x86_x64.exe`)
     - Download and install the [DirectX End-User Runtimes](https://www.microsoft.com/en-us/download/details.aspx?id=8109)
 
-#### Monitor orientation
-
+### Monitor orientation
 
 !!! info "With tetoco installed, the game won't automatically rotate to portrait mode when starting it."
 
@@ -84,7 +75,7 @@
 	- Click `Display Options`.
 	- Look for `Display orientation` and set it to `Portrait` or `Portrait (flipped)`.
  
-	<img src="/img/common/orientation_portrait.png">
+	<img src="/img/common/orientation_portrait.webp">
 
 	- Rotate your monitor vertically.
 
@@ -110,9 +101,7 @@
     powershell.exe -ExecutionPolicy Bypass -File "windows-display-orientation-script.ps1" 0 0
     ```
 
----
-
-### First launch
+## First launch
 
 !!! tip ""
 
@@ -128,9 +117,7 @@
 
     The `T` key can be pressed to access the service menu.
 
----
-
-### Connecting to a network
+## Connecting to a network
 
 !!! info "By default, tetoco uses its own local network and saves data locally."
 

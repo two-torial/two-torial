@@ -1,7 +1,11 @@
-# SDVX IV Troubleshooting
-<img class="header-logo" src="/img/bemani/sdvx/4_heavenlyhaven/logo.png">
+<img class="header-logo" src="/img/bemani/sdvx/4_heavenlyhaven/logo.webp">
+# Troubleshooting
 
-### Hardware Specs
+--8<-- "docs/snippets/common/old_guide.md"
+
+--8<-- "docs/snippets/common/data_warning.md"
+
+## Hardware Specs
 
 !!! tip ""
 	Bemani PC Type 4
@@ -22,7 +26,7 @@
 ### My Game Is Running Crazy Fast/After Finishing a Song Loading Is Stuck
 
 !!! tip ""
-	The most common reason for this is the game is running over its required 60hz, the game is hardcoded to run at 60hz and this cannot be changed. To solve this, set your monitor's refresh rate to 60hz. You can always check on the game's monitor check if the game is fluctuating around 59.94hz, the NTSC standard. If it's not around there and your monitor is indeed set to 60hz, consider trying a different panel or forcing vsync on in your GPU's graphics settings.
+	The most common reason for this is the game is running over its required 60 Hz, the game is hardcoded to run at 60 Hz and this cannot be changed. To solve this, set your monitor's refresh rate to 60 Hz. You can always check on the game's monitor check if the game is fluctuating around 59.94hz, the NTSC standard. If it's not around there and your monitor is indeed set to 60 Hz, consider trying a different panel or forcing vsync on in your GPU's graphics settings.
 
 ### Which Offset Is Which?
 

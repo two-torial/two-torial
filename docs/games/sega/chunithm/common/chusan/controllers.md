@@ -1,6 +1,6 @@
-!!! danger "Please make sure you downloaded your data from an appropriate source.<br>This guide is unable to troubleshoot any problems related to bad or poorly managed data."
+# Controllers
 
----
+--8<-- "docs/snippets/common/data_warning.md"
 
 !!! tip ""
 
@@ -46,8 +46,6 @@
 
     1. Note that there is no leading semicolon.
 
----
-
 ### Keyboard
 
 !!! tip ""
@@ -59,8 +57,6 @@
 
     If you wish to change the default keybinds, an explanation on how to set these is included
     above the `[io3]` section in your `segatools.ini`.
-
----
 
 ### Brokenithm
 
@@ -107,7 +103,7 @@
     Open **Settings** -> **Network and Internet** and select **Properties**. Scroll down to
     the bottom and check the address under the **IPv4 address** field:
 
-    <img src="/img/sega/chunithm/common/controllers/0_ipaddress.png">
+    <img src="/img/sega/chunithm/common/controllers/0_ipaddress.webp">
 
     That is your computer's IP address.
 

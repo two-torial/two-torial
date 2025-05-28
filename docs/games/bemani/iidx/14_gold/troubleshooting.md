@@ -1,5 +1,9 @@
-# beatmania IIDX 14 GOLD
-<img class="header-logo" src="/img/bemani/iidx/14_gold/logo.png">
+<img class="header-logo" src="/img/bemani/iidx/14_gold/logo.webp">
+# Troubleshooting
+
+--8<-- "docs/snippets/common/old_guide.md"
+
+--8<-- "docs/snippets/common/data_warning.md"
 
 ### My Game Is Running Crazy Fast!
 

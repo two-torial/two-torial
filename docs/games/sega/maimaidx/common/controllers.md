@@ -1,6 +1,6 @@
-!!! danger "Please make sure you downloaded your data from an appropriate source.<br>This guide is unable to troubleshoot any problems related to bad or poorly managed data."
+# Controllers
 
----
+--8<-- "docs/snippets/common/data_warning.md"
 
 !!! tip ""
 
@@ -41,8 +41,6 @@
     above the `[io4]` section in your `segatools.ini`.
 
     Touch input should automatically work after connecting a touch-screen display
-
----
 
 ### ADX Controller
 

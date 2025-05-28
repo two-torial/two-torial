@@ -1,13 +1,13 @@
-!!! danger "Please make sure you downloaded your data from an appropriate source.<br>This guide is unable to troubleshoot any problems related to bad or poorly managed data."
+# Game Setup
+
+--8<-- "docs/snippets/common/data_warning.md"
 
 !!! danger "If you're coming from a previous version of maimai DX"
 
     Create a new folder for the game and start from scratch.
     maimai DX **DOES NOT** like being extracted over old data!
 
----
-
-### Preparing data
+## Preparing data
 
 !!! danger "There are currently issues with running game data in the `E:\` or `Y:\` drive.<br>Please extract the data into other drives."
 
@@ -23,15 +23,15 @@
 
     You should end up with a file structure as follows.
 
-    <img width="500" src="/img/sega/maimaidx/common/setup/rootdir.png">
+    <img width="500" src="/img/sega/maimaidx/common/setup/rootdir.webp">
 
     Create two new empty folders named `appdata` and `amfs` (and the folder `option` if not present) next to them as shown below:
 
-    <img width="500" src="/img/sega/maimaidx/common/setup/rootdir2.png">
+    <img width="500" src="/img/sega/maimaidx/common/setup/rootdir2.webp">
 
     The `App` folder should have a file structure as follows.
 
-    <img width="500" src="/img/sega/maimaidx/common/setup/appdir.png">
+    <img width="500" src="/img/sega/maimaidx/common/setup/appdir.webp">
 
 ??? warning "If your data doesn't look like this"
 
@@ -44,14 +44,14 @@
     **remove them. This also means your data was tampered with and we strongly recommend
     getting new data from somewhere else.**
 
-#### Updating the base game
+## Updating the base game
 
 !!! tip ""
 
     Extract your patch's files to your existing data in a way that matches its
     file structure. Agree to overwrite files if necessary.
 
-#### Installing option data
+## Installing option data
 
 !!! tip ""
 
@@ -67,11 +67,11 @@
     Extract any options you've downloaded into the `Option` folder. You should end up with
     a file structure as follows. **Do not be worried if you have fewer or more option folders.**
 
-    <img width="500" src="/img/sega/maimaidx/common/setup/options.png">
+    <img width="500" src="/img/sega/maimaidx/common/setup/options.webp">
 
     !!! warning "Do not mix option data between versions"
 
-#### Installing unprotected executables
+### Installing unprotected executables
 
 !!! tip ""
 
@@ -96,7 +96,7 @@
         `Assembly-CSharp.dll` **must** match your game version. All others can be
         reused from other game versions.
 
-#### Installing ICFs
+### Installing ICFs
 
 !!! tip ""
 
@@ -114,7 +114,7 @@
     By default, file extensions on Windows are hidden. Enable them by navigating to
     the `View` tab in File Explorer and select `File name extensions`.
 
-#### mai2.ini
+### mai2.ini
 
 !!! tip ""
     Ensure that the `App\Package` folder contains `mai2.ini`.
@@ -137,9 +137,7 @@
     Sound8Ch=0
     ```
 
----
-
-### Installing segatools
+## Installing segatools
 
 !!! tip ""
 
@@ -150,15 +148,13 @@
 
     You should now have a few more files inside the `App/Package` folder, as highlighted:
 
-    <img width="500" src="/img/sega/maimaidx/common/setup/segatools.png">
+    <img width="500" src="/img/sega/maimaidx/common/setup/segatools.webp">
 
 !!! warning
 
     The latest release of segatools currently has issues with maimai, and for the time being an older version of segatools is preferred.
 
----
-
-### Configuring segatools
+## Configuring segatools
 
 !!! tip ""
 
@@ -181,7 +177,7 @@
     dipsw1=1 ; WRONG!
     ```
 
-#### `[vfs]`
+### `[vfs]`
 
 !!! tip ""
 
@@ -201,9 +197,7 @@
     You can find info about the available mods for maimai here [AquaMai](https://github.com/MewoLab/AquaMai).                                                                         
     For general modding check [Unity modding](/extras/unity.md) page.                                                                                                                  
 
----
-
-### Setting launch options
+## Setting launch options
 
 !!! tip ""
     Right click `App\package\start.bat`, select `Edit`. Locate the line that launches `sinmai` and edit it according to your preferences:
@@ -232,9 +226,8 @@
     ??? info "Getting the monitor index"
         Navigate to Windows display settings. Each monitor should be assigned a number.
         The monitor index is that number. For example, monitor 2 means `-monitor 2`.
----
 
-### Connecting to a network
+## Connecting to a network
 
 !!! danger "Please choose one of the two solutions, not both!"
 
@@ -260,7 +253,7 @@
     your 20-digit access code if you already have one, or make one up if you don't. If you're making one
     up, the access code **MUST NOT** start with a 3.
 
-    <img src="/img/sega/ongeki/common/setup/4_access_code.png">
+    <img src="/img/sega/ongeki/common/setup/4_access_code.webp">
 
 ??? warning "Local (ARTEMiS/AquaDX)"
 
@@ -268,20 +261,18 @@
     and [AquaDX](https://github.com/hykilpikonna/AquaDX?tab=readme-ov-file#usage-v1-developmental-preview)
     to set up a local server.
 
----
-
-### Pre-launch requirements
+## Pre-launch requirements
 
 !!! info "These steps are required, otherwise your game won't run."
 
-#### VCRedist & DirectX
+### VCRedist & DirectX
 
 !!! tip ""
 
 	- Download and install the latest [VCRedist](https://github.com/abbodi1406/vcredist/releases/latest) (`VisualCppRedist_AIO_x86_x64.exe`)
 	- Download and install the [DirectX End-User Runtimes](https://www.microsoft.com/en-us/download/details.aspx?id=8109)
 
-#### Audio
+### Audio
 
 !!! tip ""
 
@@ -292,17 +283,15 @@
 	- Open the `Default Format` dropdown.
     - Pick either `16 bit, 48000Hz (DVD Quality)` or `24 bit, 48000Hz (Studio Quality)`, click `Apply`, then `OK`.
 
-    <img src="/img/common/audio_16_48.png">
+    <img src="/img/common/audio_16_48.webp">
 
-#### Fixing OpenSSL on Intel 10th Gen and newer CPUs
+### Fixing OpenSSL on Intel 10th Gen and newer CPUs
 
 !!! tip ""
 
     If you have an Intel 10th Gen CPU or newer, you need to [patch amdaemon](https://patcher.two-torial.xyz/amdaemon) and enable `OpenSSL SHA crash bug fix`.
 
----
-
-### First launch
+## First launch
 
 !!! danger "If you have any issues running the game, refer to the [Troubleshooting](troubleshooting.md) page."
 
@@ -311,7 +300,7 @@
     Without an English patch, the service menu will be in Japanese. If you don't know Japanese, [Google Lens](https://lens.google/)
     is a handy tool for navigating this menu.
 
-#### GAME ASSIGNMENTS
+### GAME ASSIGNMENTS
 
 !!! tip ""
 
@@ -319,7 +308,7 @@
 
     Start the game by running `App\package\start.bat`. Let the game load until you reach a screen with the message below.
 
-<img src="/img/sega/maimaidx/common/setup/distribution_servers_check.png">
+<img src="/img/sega/maimaidx/common/setup/distribution_servers_check.webp">
 
 !!! tip ""
 
@@ -328,26 +317,24 @@
 
     Navigate to **ゲーム設定** (`GAME ASSIGNMENTS`, the 7th option).
 
-<img src="/img/sega/maimaidx/common/setup/service_menu.png">
+<img src="/img/sega/maimaidx/common/setup/service_menu.webp">
 
 !!! tip ""
 
     Select **店内マッチングの設定** (`IN-STORE MATCHING SETUP`, the first option)
     and toggle this setting to **OFF**.
 
-<img src="/img/sega/maimaidx/common/setup/service_game_settings.png">
+<img src="/img/sega/maimaidx/common/setup/service_game_settings.webp">
 
 !!! tip ""
 
     Select **終了** (`EXIT`, the last option) to exit to the main service menu.
 
----
-
-### Custom Mods
+## Custom Mods
 
 !!! info "Mods are covered on the [Unity modding](/extras/unity.md) page."
 
-### Controllers and Troubleshooting
+## Controllers and Troubleshooting
 
 !!! info "Input methods and controllers are covered in the [Controllers](controllers.md) page."
 

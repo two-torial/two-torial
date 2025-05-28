@@ -1,10 +1,11 @@
-# beatmania IIDX 24 SINOBUZ
-<img class="header-logo" src="/img/bemani/iidx/24_sinobuz/logo.png">
+<img class="header-logo" src="/img/bemani/iidx/24_sinobuz/logo.webp">
+# Game Setup
 
-!!! danger "Please make sure you downloaded your data from an appropriate source.<br>This guide is unable to troubleshoot any problems related to bad or poorly managed data."
+--8<-- "docs/snippets/common/old_guide.md"
 
----
-### Preparing data
+--8<-- "docs/snippets/common/data_warning.md"
+
+## Preparing data
 
 !!! tip ""
 
@@ -17,15 +18,14 @@
 
 	You should end up with a file structure with a few folders only, as follows.
 
-<img src="/img/bemani/iidx/24_sinobuz/data.png">
+<img src="/img/bemani/iidx/24_sinobuz/data.webp">
 
 ??? warning "If your data doesn't look like this"
 
 	If extra files are present next to your folders, such as executables, scripts, etc.. **remove them**.  
 	**This also means your data was tampered with and we strongly recommend getting new data from somewhere else.**
 
----
-### Installing spice2x
+## Installing spice2x
 
 !!! info ""
 
@@ -36,10 +36,9 @@
 	- Head over to [spice2x.github.io](https://spice2x.github.io) and download the latest release.
 	- Extract the `spice.exe` and `spicecfg.exe` files from the archive to your game's directory.
   
-	<img src="/img/bemani/iidx/24_sinobuz/spice2xdata.png">
+	<img src="/img/bemani/iidx/24_sinobuz/spice2xdata.webp">
 
----
-### Configuring spice2x
+## Configuring spice2x
 
 !!! info "Open `spicecfg.exe`, each following sub-section corresponds to a tab at the top."
 
@@ -59,7 +58,7 @@
 
 	- **Turntable**: `TT+, TT-` **and optionally** `TT+/-` which alternates between `TT+` and `TT-` on each press.
   
-#### Analogs (controller/cab only)
+### Analogs (controller/cab only)
 
 !!! tip ""
 
@@ -71,7 +70,7 @@
 	- Turn your turntable ensuring that the Preview turns along with it.
 	- Click `Close`, leaving the rest of the settings alone.
 
-#### Overlay
+### Overlay
 
 !!! tip ""
 
@@ -79,7 +78,7 @@
 
 	Click on `Bind` then press the key you want associated with the action.
 
-#### Lights (controller/cab only)
+### Lights (controller/cab only)
 
 !!! tip ""
 
@@ -93,25 +92,25 @@
 	- Click `Close`.
 	- Repeat for your other lights.
 
-#### Cards
+### Cards
 
 !!! info "Covered in the [Connecting to a network](#connecting-to-a-network) section."
 
-#### Patches
+### Patches
 
 !!! info "Go through the [spice2x Patching](/extras/patchsp2x.md) page to import patches."
 
 !!! danger "To prevent issues, avoid patching things you don't need or understand."
 
-#### API
+### API
 
 !!! warning "Leave everything at default unless you know what you're doing."
 
-#### Options
+### Options
 
-!!! info "If you don't know what an option does, hover over the question mark at the very left."
+!!! info "If you don't know what an option does, hover over the its name with your mouse."
 
-	<img src="/img/common/spice2x_option_hover.png">
+	<img src="/img/common/spice2x_option_hover.webp">
 
 !!! danger "Be very careful changing options you don't understand as it may cause issues."
 
@@ -128,12 +127,11 @@
 	| Graphics (common)	| NVIDIA profile optimization	 	| -nvprofile 	| ON	  |
 
 
-#### Advanced & Development
+### Advanced & Development
 
 !!! warning "Leave everything at default unless you know what you're doing."
 
----
-### Connecting to a network
+## Connecting to a network
 
 !!! danger "Please choose one of the two solutions, not both!"
 
@@ -146,7 +144,7 @@
 	- `EA Service URL` to the URL provided by your network.
 	- `PCBID` to the PCBID provided by your network.
 	
-	<img src="/img/common/spice2x_network.png">
+	<img src="/img/common/spice2x_network.webp">
 
 	Next you need a card number.  
 	If you don't already have one, generate one in the `Cards` tab.  
@@ -154,25 +152,24 @@
 
 	Once that's done, head to the `Cards` tab, for `Player 1` click `Open...` and point to your text file.
 
-	<img src="/img/common/spice2x_cards.png">
+	<img src="/img/common/spice2x_cards.webp">
 
 ??? tip "Local e-amuse Emulator (Asphyxia)"
 
 	This is covered in the [Asphyxia CORE](/extras/asphyxia.md) page.
 
----
-### Pre-launch requirements
+## Pre-launch requirements
 
 !!! info "These steps are required, otherwise your game won't run."
 
-#### VCRedist & DirectX
+### VCRedist & DirectX
 
 !!! tip ""	
 
 	- Download and install the latest [VCRedist](https://github.com/abbodi1406/vcredist/releases/latest) (`VisualCppRedist_AIO_x86_x64.exe`)
 	- Download and install the [DirectX End-User Runtimes](https://www.microsoft.com/en-us/download/details.aspx?id=8109)
 
-#### Audio
+### Audio
 
 !!! tip ""
 
@@ -184,14 +181,13 @@
 	- Open the `Default Format` dropdown.
 	- Pick the `24 bit, 44100 Hz (CD Quality)` option and click `Apply` then `OK`.
 
-	<img src="/img/common/audio_24_441.png">
+	<img src="/img/common/audio_24_441.webp">
 
----
-### First launch
+## First launch
 
 !!! danger "If you have any issues running the game, refer to the [Troubleshooting](troubleshooting.md) page."
 
-#### BACKUP DATA
+### BACKUP DATA
 
 !!! tip ""
 
@@ -201,9 +197,9 @@
 
 	If it's your first time running the game, you'll immediately be greeted with this screen.
 
-<img src="/img/bemani/iidx/common/oldhd/firstlaunch/1.png">
+<img src="/img/bemani/iidx/common/oldhd/firstlaunch/1.webp">
 
-#### CLOCK ERROR
+### CLOCK ERROR
 
 !!! tip "" 
 
@@ -211,13 +207,13 @@
 
 	Next, you'll get another error.
 
-<img src="/img/bemani/iidx/common/oldhd/firstlaunch/2.png">
+<img src="/img/bemani/iidx/common/oldhd/firstlaunch/2.webp">
 
 !!! tip ""
 
 	Let the game run for a bit until the monitor check is complete and you should be taken to the service menu.
 
-<img src="/img/bemani/iidx/common/oldhd/firstlaunch/3.png">
+<img src="/img/bemani/iidx/common/oldhd/firstlaunch/3.webp">
 
 !!! tip ""
 
@@ -228,14 +224,15 @@
   
 	Start by going up to `CLOCK`.
 
-<img src="/img/bemani/iidx/common/oldhd/firstlaunch/4.png">
+<img src="/img/bemani/iidx/common/oldhd/firstlaunch/4.webp">
 
 !!! tip ""
 
 	Here, simply select `SAVE AND EXIT` and the clock will be set.
 
 	You'll be back in the service menu.
-#### DEFINITION TYPE
+
+### DEFINITION TYPE
 
 !!! tip ""
 
@@ -247,22 +244,22 @@
 
 	`HD*` adds `+1.0` offset in-game, while `HD` doesn't.
 
-<img src="/img/bemani/iidx/common/oldhd/firstlaunch/5.png">
+<img src="/img/bemani/iidx/common/oldhd/firstlaunch/5.webp">
 
 !!! tip ""
 
 	Once done selecting, select `YES` then `SAVE AND EXIT`.
 
-<img src="/img/bemani/iidx/common/oldhd/firstlaunch/6.png">
+<img src="/img/bemani/iidx/common/oldhd/firstlaunch/6.webp">
 
-#### NETWORK OPTIONS
+### NETWORK OPTIONS
 
 !!! tip ""
 
 	Go to `NETWORK OPTIONS` then `SHOP NAME SETTING`.
 
-<img src="/img/bemani/iidx/common/oldhd/firstlaunch/7.png">
-<img src="/img/bemani/iidx/common/oldhd/firstlaunch/8.png">
+<img src="/img/bemani/iidx/common/oldhd/firstlaunch/7.webp">
+<img src="/img/bemani/iidx/common/oldhd/firstlaunch/8.webp">
 
 !!! tip ""
 
@@ -271,8 +268,8 @@
 	- Name your shop to whatever you'd like. Instructions on how to navigate are at the bottom of the screen.
 	- Go to `EXIT` then `SAVE AND EXIT`.
 
-<img src="/img/bemani/iidx/common/oldhd/firstlaunch/9.png">
-<img src="/img/bemani/iidx/common/oldhd/firstlaunch/10.png">
+<img src="/img/bemani/iidx/common/oldhd/firstlaunch/9.webp">
+<img src="/img/bemani/iidx/common/oldhd/firstlaunch/10.webp">
 
 !!! tip ""
 
@@ -280,8 +277,7 @@
 	
 	You're all done! The game should load up properly now.
 
----
-### Carding in
+## Carding in
 
 !!! tip ""
 	To card into the game:
@@ -289,8 +285,7 @@
 	1. Press your `Keypad Insert Card` button.
 	2. Enter your code using your keypad binds.
 
----
-### Troubleshooting
+## Troubleshooting
 
 !!! warning "Have any other issue?"
 

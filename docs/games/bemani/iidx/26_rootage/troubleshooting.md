@@ -1,7 +1,11 @@
-# beatmania IIDX 26 Rootage
-<img class="header-logo" src="/img/bemani/iidx/26_rootage/logo.png">
+<img class="header-logo" src="/img/bemani/iidx/26_rootage/logo.webp">
+# Troubleshooting
 
-### Hardware Specs
+--8<-- "docs/snippets/common/old_guide.md"
+
+--8<-- "docs/snippets/common/data_warning.md"
+
+## Hardware Specs
 
 !!! tip ""
 	Bemani PC (ADE-6291)
@@ -26,7 +30,7 @@
 ### My Game Is Running Crazy Fast!
 
 !!! tip ""
-	The most common reason for this is the game is running over its required 60hz, the game is hardcoded to run at 60hz and this cannot be changed. To solve this, set your monitor's refresh rate to 60hz. You can always check on the game's monitor check if the game is fluctuating around 59.94hz, the NTSC standard. If it's not around there and your monitor is indeed set to 60hz, consider trying a different panel or forcing vsync on in your GPU's graphics settings.
+	The most common reason for this is the game is running over its required 60 Hz, the game is hardcoded to run at 60 Hz and this cannot be changed. To solve this, set your monitor's refresh rate to 60 Hz. You can always check on the game's monitor check if the game is fluctuating around 59.94hz, the NTSC standard. If it's not around there and your monitor is indeed set to 60 Hz, consider trying a different panel or forcing vsync on in your GPU's graphics settings.
 
 ### Camera Device Error Message
 
@@ -64,5 +68,3 @@
 
 !!! tip ""
 	Several external DACs have issues with [WASAPI exclusive mode](https://docs.microsoft.com/en-us/windows/win32/coreaudio/exclusive-mode-streams) and are unable to be used entirely, it's likely you'll be forced to use your motherboard's sound chip, or find a compatible DAC.
-
-

@@ -1,23 +1,21 @@
-# Taiko no Tatsujin Nijiiro
-<img class="header-logo" src="/img/namco/taikonijiiro/logo.png">
+<img class="header-logo" src="/img/namco/taikonijiiro/logo.webp">
+# Game Setup
 
-!!! danger "Please make sure you downloaded your data from an appropriate source.<br>This guide is unable to troubleshoot any problems related to bad or poorly managed data."
+--8<-- "docs/snippets/common/data_warning.md"
 
----
-### Preparing data
+## Preparing data
 
 !!! tip ""
 
 	Taiko is generally distributed as a single folder. For Nijiiro, this will be `SBWY 39.06`. The game folder should contain an `AMCUS`, `Data` and `Executable` folder.
 
-<img src="/img/namco/taikonijiiro/setup/1.png">
+<img src="/img/namco/taikonijiiro/setup/1.webp">
 
 !!! danger "Nijiiro is a rolling release so please verify your game version by opening `AMCUS\AMConfig.ini` and verifying that it says `cacfg-game_ver=39.06`"
 
 !!! info "NAMCO data is also distributed as `.VHDX` and `.VHD` files. These files are useful for archival purposes, but are not required to run the game. Always download the unpacked data for home use."
 
----
-### Installing TaikoArcadeLoader (TAL)
+## Installing TaikoArcadeLoader (TAL)
 
 !!! tip "TaikoArcadeLoader:"
 
@@ -27,9 +25,9 @@
 
 	- Copy the files from `TaikoArcadeLoader.zip` to your `Executable/Release` folder. When asked, choose to replace the existing files with the newly copied files.  
 
-	<img src="/img/namco/taikonijiiro/setup/2.png">
+	<img src="/img/namco/taikonijiiro/setup/2.webp">
 
-### Configuring TaikoArcadeLoader
+## Configuring TaikoArcadeLoader
 
 !!! tip ""
 
@@ -64,7 +62,7 @@
 	- `res =` change to your display's resolution.
 	- `windowed =` set to `true` if you want to run the game in windowed.
 	- `cursor =` mostly visual. change if you want to.
-    - `vsync =` set to `true` if your display is set to 120hz.                                        
+    - `vsync =` set to `true` if your display is set to 120 Hz.                                        
 	- `fpslimit =` do not change unless you know what you are doing.
 	- `model_res_rate =` do not change unless you know what you are doing.
 
@@ -89,7 +87,7 @@
 	jp_layout = false
 	```
 
-### Configuring Inputs
+## Configuring Inputs
 
 !!! tip ""
 
@@ -137,8 +135,7 @@
 
 !!! note "If you don't have a physical card reader, you can skip over to the [Networks](#networks) section"
 
----
-### Networks
+## Networks
 
 !!! danger "Please choose one of the two solutions, not both!"
 
@@ -160,8 +157,7 @@
 
 	- [TLS](https://github.com/asesidaa/TaikoLocalServer/tree/Refactor) - A network service emulator for Nijiiro. Setup can be complex as you are required to build TLS from source using [VisualStudio](https://visualstudio.microsoft.com/) and `.sln` files.
 
----
-### Pre-launch requirements
+## Pre-launch requirements
 
 !!! info "These steps are required, otherwise your game won't run."
 
@@ -172,8 +168,7 @@
 	- Download and install the latest [VCRedist](https://github.com/abbodi1406/vcredist/releases/latest) (`VisualCppRedist_AIO_x86_x64.exe`)
 	- Download and install the [DirectX End-User Runtimes](https://www.microsoft.com/en-us/download/details.aspx?id=8109)
 
----
-### First Launch
+## First Launch
 
 !!! tip ""
 
@@ -183,14 +178,13 @@
 
 	If you would like to adjust patch settings enter the test menu by pressing ++f1++ on the Attract screen then using the `arrow keys` and ++enter++, navigate to `MOD MANAGER`.
 
-	<img src="/img/namco/taikonijiiro/setup/mod.png">
+	<img src="/img/namco/taikonijiiro/setup/mod.webp">
 
 !!! tip ""
 	
 	You're all done! The game should load up properly now.
 
----
-### Troubleshooting
+## Troubleshooting
 
 !!! warning "Have any other issue?"
 

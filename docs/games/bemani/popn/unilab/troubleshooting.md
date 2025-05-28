@@ -1,4 +1,2 @@
-# Troubleshooting (pop'n music UniLab)
-<img class="header-logo" src="/img/bemani/popn/unilab/logo.png">
-
+<img class="header-logo" src="/img/bemani/popn/unilab/logo.webp">
 --8<-- "docs/games/bemani/popn/common/troubleshooting.md"

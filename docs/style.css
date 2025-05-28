@@ -1,18 +1,114 @@
-.header-logo {
-    height: 150px !important;
-    width: auto;
-    max-width: 100%;
+/* ==========================================================================
+   Global styles
+   ========================================================================== */
+
+/* Headings
+   ========================================================================== */
+
+h1 {
+    text-align: center;
+    margin-block-end: 1em;
+}
+
+h1::after {
+    content: '';
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    inline-size: 60%;
+    block-size: 2px;
+    margin-block: 0.5em;
+    margin-inline: auto;
+    background: linear-gradient(90deg, 
+        transparent,
+        var(--md-primary-fg-color),
+        transparent
+    );
+}
+
+h2 {
+    font-weight: bold;
+    margin-block-start: 2em;
+}
+
+h2::after {
+    content: '';
+    display: block;
+    inline-size: 100%;
+    block-size: 1px;
+    margin-block: 0.25em;
+    margin-inline: auto;
+    background: linear-gradient(90deg,
+        color-mix(in srgb, var(--md-typeset-color) 65%, white),
+        transparent
+    );
+}
+
+/* Horizontal rule
+   ========================================================================== */
+
+hr {
+    inline-size: 60%;
+    block-size: 2px;
+    margin-block: 0.5em !important;
+    margin-inline: auto !important;
+    background: linear-gradient(90deg,
+        transparent,
+        var(--md-primary-fg-color), 
+        transparent
+    );
+    border: 0;
+}
+
+/* Header logo
+   ========================================================================== */
+
+.header-logo {
+    display: block;
+    max-height: 150px;
+    max-width: min(60%, 500px);
+    width: auto;
+    height: auto;
+    margin-inline: auto;
     object-fit: contain;
 }
+
+@media (max-width: 768px) {
+    .header-logo {
+        max-width: min(80%, 400px);
+        max-height: 120px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-logo {
+        max-width: 90%;
+        max-height: 100px;
+    }
+}
+
+/* ==========================================================================
+   MkDocs styles
+   ========================================================================== */
+
+.md-typeset .tabbed-labels--linked > label > a {
+    padding: .78125em 0.5em .625em;
+}
+
+/* ==========================================================================
+   Page specific styles
+   ========================================================================== */
+
+/* Controllers page
+   ========================================================================== */
 
 .controller-flex {
     display: flex;
     align-items: center;
-    gap: 24px;
-    margin-bottom: 2em;
+    gap: 1.5rem;
+    margin-block-end: 2em;
+}
+
+.controller-preview {
+    block-size: 300px;
 }
 
 @media (orientation: portrait) {
@@ -22,12 +118,8 @@
     }
     
     .controller-preview {
-        width: 100%;
+        inline-size: 100%;
         object-fit: contain;
-        margin: 0 auto;
+        margin-inline: auto;
     }
-}
-
-.controller-preview {
-    height: 300px !important;
 }
