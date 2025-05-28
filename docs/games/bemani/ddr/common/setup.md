@@ -4,9 +4,7 @@
 
 ## About data
 
-!!! info "The full game should be around 20-25gb in size."
-
-!!! info ""
+!!! note ""
 
 	Please keep the following in mind as you're going through this guide.  
 
@@ -19,197 +17,135 @@
 
 ## Preparing data
 
-!!! tip ""
+--8<-- "docs/snippets/common/data_readonly.md"
 
-	After downloading and extracting your data, we need to make sure your files aren't set to `Read-only`.
+	The **complete game data** should be approximately **20 GB or larger**.  
+	If your data is significantly smaller, you likely have an update archive instead of the full game data.
 
-	- Right click the folder containing your data, then click on `Properties`.
-	- In the `General` tab go down to `Attributes`, untick `Read-only` and click `Apply`.
-	- A popup will appear, select `Apply changes to this folder, subfolder and files` and press `OK`.
-	- Finally, click `OK` again to exit out of properties.
+	Here's what the expected data structure should look like: 
 
-	You should end up with a file structure with a few folders only, as follows.
+	```
+	📂arkdata
+	📂com
+	📂data
+	📂modules
+	📂prop
+	```
 
-<img src="/img/bemani/ddr/common/setup/data.webp">
+--8<-- "docs/snippets/bemani/common/data_bad.md"
 
-??? warning "If your data doesn't look like this"
-
-	If you're missing the `modules` folder and instead have bunch of `.dll` files next to your folders:  
-
-	- Create a `modules` folder.
-	- Move all `.dll` files inside of it so you end up with a structure as shown above.
-
-	If extra files are present next to your folders, such as executables, scripts, etc.. **remove them**.  
-	**This also means your data was tampered with and we strongly recommend getting new data from somewhere else.**
+!!! info "If your data is already up-to-date, you can skip ahead to the [Installing spice2x](#installing-spice2x) section"
 
 ## Updating data
 
-??? danger "Please make sure you're using the right update for your current data."
+!!! danger "Please make sure you're using the right update for your current data."
 
-	DDR Patches re-uploaded by the community tend to be appropriately named `MDX-DATECODE-to-DATECODE`.
+	DDR updates have `MDX` and one or two datecodes in their archive names.
 
-	For example `MDX-2024091000-to-2024101500`.
+	**Single datecode:** Contains one update (e.g., `MDX_NewDateCode.7z`)  
+	**Two datecodes:** Updates from the older to newer version (e.g., `MDX_OldDateCode-NewDateCode.rar`)
 
-	- `2024091000` being your current data's version.
-	- `2024101500` being the one you would arrive at.
+	A date code should look something like this: `YYYYMMDDXX`
 
-!!! tip ""
+	In the two-datecode example:
 
-	- Extract your patch's files to your existing data in a way that matches its file structure. Agree to overwrite files if necessary.
-	- Open `prop\ea3-config.xml` in a text editor and find the following lines near the top.
+	- `OldDateCode` is the older date, the game version required to apply this update
+	- `NewDateCode` is the newer date, and is the version you'll arrive at after applying the update
 
-	```xml
-		<soft>
-			<model __type="str">MDX</model>
-			<dest __type="str">J</dest>
-			<spec __type="str">A</spec>
-			<rev __type="str">A</rev>
-			<ext __type="str">2024101500</ext>
-		</soft>
-	```
-
-	On the line with `<ext __type="str">` the datecode needs to match your new version.
-
-	- If that's already the case then great! Don't touch anything.
-	- If it instead corresponds to your pre-patch datecode, replace it with the new one and save the file.
+--8<-- "docs/snippets/bemani/common/data_update.md"
 
 ## Installing spice2x
 
-!!! info ""
-
-	If you already have spice2x installed, make sure it is up to date!
+!!! info "If you already have spice2x installed, ensure you're using the latest version"
 
 ??? tip "For MDX-001 (32 bits)"
 
-	- Head over to [spice2x.github.io](https://spice2x.github.io) and download the latest release.
-	- Extract the `spice.exe` and `spicecfg.exe` files from the archive to your game's directory.
+	- Visit [spice2x.github.io](https://spice2x.github.io) to download the latest release
+	- Extract both `spice.exe` and `spicecfg.exe` from the archive into your game's directory
   
-	<img src="/img/bemani/ddr/common/setup/spice2x32data.webp">
+	```
+	📂arkdata
+	📂com
+	📂data
+	📂modules
+	📂prop
+	🌶️spice.exe <---
+	🌶️spicecfg.exe <---
+	```
 
 ??? tip "For MDX-003 (64 bits)"
 
-	- Head over to [spice2x.github.io](https://spice2x.github.io) and download the latest release.
-	- Extract the `spice64.exe` and `spicecfg.exe` files from the archive to your game's directory.
+	- Visit [spice2x.github.io](https://spice2x.github.io) to download the latest release
+	- Extract both `spice64.exe` and `spicecfg.exe` from the archive into your game's directory
   
-	<img src="/img/bemani/ddr/common/setup/spice2x64data.webp">
+	```
+	📂arkdata
+	📂com
+	📂data
+	📂modules
+	📂prop
+	🌶️spice64.exe <---
+	🌶️spicecfg.exe <---
+	```
 
 ## Configuring spice2x
 
-!!! info "Open `spicecfg.exe`, each following sub-section corresponds to a tab at the top."
+--8<-- "docs/snippets/bemani/common/spicecfg_preamble.md"
 
-### Buttons
+=== "Buttons"
 
-!!! tip ""
+--8<-- "docs/snippets/bemani/ddr/spicecfg_buttons.md"
+  
+=== "Analogs"
 
-	Click on `Bind` then press the key you want associated with the action.
+--8<-- "docs/snippets/bemani/common/spicecfg_nochange.md"
 
-	With your controller and/or keyboard plugged in, configure your keys for:  
+=== "Overlay"
 
-	- **Maintenance**: `Service, Test`
-	- **P1 Panel buttons**: `Up, Down, Left, Right` 
-	- **P1 Menu buttons**: ` Start, Up, Down, Left, Right`
-	- **P1 Keypad**: `1 to 9, Keypad Insert Card`
+--8<-- "docs/snippets/bemani/common/spicecfg_overlay.md"
 
-### Overlay
+=== "Lights"
 
-!!! tip ""
+--8<-- "docs/snippets/bemani/common/spicecfg_lights.md"
 
-	Modifying buttons in this section is not required but you are free to change what you want.
+=== "Cards"
 
-	Click on `Bind` then press the key you want associated with the action.
+--8<-- "docs/snippets/bemani/common/spicecfg_cards.md"
 
-### Lights (controller/cab only)
+=== "Patches"
 
-!!! tip ""
+--8<-- "docs/snippets/bemani/common/spicecfg_patches.md"
 
-	Your controller might support having its lights controlled by the game through spice2x.
+=== "API"
 
-	If it does, here's how you may link different actions to your lights:
+--8<-- "docs/snippets/bemani/common/spicecfg_nochange.md"
 
-	- Click `Bind`.
-	- In `Device`, pick your controller.
-	- In `Light Control`, select the corresponding light.
-	- Click `Close`.
-	- Repeat for your other lights.
+=== "Options"
 
-### Cards
+--8<-- "docs/snippets/bemani/common/spicecfg_options_nvprofile.md"
 
-!!! info "Covered in the [Connecting to a network](#connecting-to-a-network) section."
+=== "Advanced"
 
-### Patches
+--8<-- "docs/snippets/bemani/common/spicecfg_nochange.md"
 
-!!! info "Go through the [spice2x Patching](/extras/patchsp2x.md) page to import patches."
+=== "Development"
 
-!!! danger "To prevent issues, avoid patching things you don't need or understand."
-
-### API
-
-!!! warning "Leave everything at default unless you know what you're doing."
-
-### Options
-
-!!! info "If you don't know what an option does, hover over the its name with your mouse."
-
-	<img src="/img/common/spice2x_option_hover.webp">
-
-!!! danger "Be very careful changing options you don't understand as it may cause issues."
-
-!!! tip "Required"
-
-	| Category 		| Option 				| Parameter 		| Setting |
-	|---------------|-----------------------|-------------------|---------|
-	| Network		| EA Service URL		| -url				| Covered in [Connecting to a network](#connecting-to-a-network) |
-
-!!! tip "Highly Recommended for NVIDIA users ONLY"
-
-	| Category 			| Option 							| Parameter 	| Setting |
-	|-------------------|-----------------------------------|---------------| 		  |
-	| Graphics (common)	| NVIDIA profile optimization	 	| -nvprofile 	| ON	  |
-
-
-### Advanced & Development
-
-!!! warning "Leave everything at default unless you know what you're doing."
+--8<-- "docs/snippets/bemani/common/spicecfg_nochange.md"
 
 ## Connecting to a network
 
-!!! danger "Please choose one of the two solutions, not both!"
+--8<-- "docs/snippets/bemani/common/setup_network.md"
 
-??? tip "Remote (Online Network)"
 
-	Open `spicecfg.exe` and head to the `Options` tab.
-  
-	In the `Network` category, set the following settings: 
-	
-	- `EA Service URL` to the URL provided by your network.
-	- `PCBID` to the PCBID provided by your network.
-	
-	<img src="/img/common/spice2x_network.webp">
+## Installing VCRedist & DirectX
 
-	Next you need a card number.  
-	If you don't already have one, generate one in the `Cards` tab.  
-	To keep your card number safe, create a new `.txt` file with ONLY it inside.
+--8<-- "docs/snippets/common/setup_vcredist_directx.md"
 
-	Once that's done, head to the `Cards` tab, for `Player 1` click `Open...` and point to your text file.
+## Before playing
 
-	<img src="/img/common/spice2x_cards.webp">
+--8<-- "docs/snippets/common/before_playing.md"
 
-??? tip "Local e-amuse Emulator (Asphyxia)"
-
-	This is covered in the [Asphyxia CORE](/extras/asphyxia.md) page.
-
-## Pre-launch requirements
-
-!!! info "These steps are required, otherwise your game won't run."
-
-### VCRedist & DirectX
-
-!!! tip ""	
-
-	- Download and install the latest [VCRedist](https://github.com/abbodi1406/vcredist/releases/latest) (`VisualCppRedist_AIO_x86_x64.exe`)
-	- Download and install the [DirectX End-User Runtimes](https://www.microsoft.com/en-us/download/details.aspx?id=8109)
-
-### K-lite Codec Pack
+## K-lite Codec Pack
 
 !!! tip ""	
 
