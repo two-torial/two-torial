@@ -32,13 +32,13 @@
 
 	SDVX updates have `KFC` and one or two datecodes in their archive names.
 
-	**Single datecode:** Contains one update (e.g., `KFC_2025021200.7z`)  
-	**Two datecodes:** Updates from the older to newer version (e.g., `KFC-2024121000-2025012100.rar`)
+	**Single datecode:** Contains one update (e.g., `KFC_NewDateCode.7z`)  
+	**Two datecodes:** Updates from the older to newer version (e.g., `KFC-OldDateCode-NewDateCode.rar`)
 
 	In the two-datecode example:
  
-	- `2024121000` is the older date, the game version required to apply this update
-	- `2025012100` is the newer date, and is the version you'll arrive at after applying the update
+	- `OldDateCode` is the older date, the game version required to apply this update
+	- `NewDateCode` is the newer date, and is the version you'll arrive at after applying the update
 
 --8<-- "docs/snippets/bemani/common/data_update.md"
 
