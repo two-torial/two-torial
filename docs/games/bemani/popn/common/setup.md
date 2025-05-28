@@ -1,3 +1,7 @@
+# Game Setup
+
+--8<-- "docs/snippets/common/old_guide.md"
+
 --8<-- "docs/snippets/common/data_warning.md"
 
 ## Preparing data
@@ -146,11 +150,11 @@
 	| Graphics (common)	| NVIDIA profile optimization	 	| -nvprofile 	| ON	  |
 
 
-### Advanced & Development
+## Advanced & Development
 
 !!! warning "Leave everything at default unless you know what you're doing."
 
-### Connecting to a network
+## Connecting to a network
 
 !!! danger "Please choose one of the two solutions, not both!"
 
@@ -177,7 +181,7 @@
 
 	This is covered in the [Asphyxia CORE](/extras/asphyxia.md) page.
 
-### First launch
+## First launch
 
 !!! danger "If you have any issues running the game, refer to the [Troubleshooting](troubleshooting.md) page."
 
@@ -189,7 +193,7 @@
 
 	The game will go through a series of checks, let it run, if you've done everything properly they'll pass.
 
-### Troubleshooting
+## Troubleshooting
 
 !!! warning "Have any other issue?"
 

@@ -1,3 +1,5 @@
+# Controllers
+
 --8<-- "docs/snippets/common/data_warning.md"
 
 !!! tip ""
@@ -27,7 +29,7 @@
 
     1. Note that there is no leading semicolon.
 
-### Keyboard and Mouse
+## Keyboard and Mouse
 
 !!! tip ""
 
@@ -48,7 +50,8 @@
     If you wish to change the default keybinds, an explanation on how to set these is included
     above the `[io4]` section in your `segatools.ini`.
 
-### XInput Controller
+## XInput Controller
+
 !!! tip ""
 
     XInput controllers are supported by segatools. To enable XInput, ensure that the `mouse` option
@@ -63,7 +66,7 @@
     If you wish to change the default keybinds, an explanation on how to set these is included
     above the `[io4]` section in your `segatools.ini`.
 
-### Mageki
+## Mageki
 
 !!! tip ""
 
@@ -94,7 +97,7 @@
 
     If IOConfig still fails to launch, try using the [SelfContained version of ongeki-io](https://github.com/Sanheiii/ongeki-io/releases)
 
-### ONTROLLER
+## ONTROLLER
 
 !!! tip ""
 
@@ -108,7 +111,7 @@
     path=mu3io.dll
     ```
 
-### Arcade hardware and other controllers
+## Arcade hardware and other controllers
 
 !!! tip ""
 

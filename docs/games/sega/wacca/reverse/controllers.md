@@ -1,6 +1,8 @@
 <img class="header-logo" src="/img/sega/wacca/reverse/logo.webp">
 # Controllers
 
+--8<-- "docs/snippets/common/data_warning.md"
+
 !!! tip ""
 
     segatools, by default, only accepts keyboard input and XInput Controllers. 

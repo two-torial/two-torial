@@ -1,3 +1,5 @@
+# Game Setup
+
 --8<-- "docs/snippets/common/data_warning.md"
 
 !!! danger "If you're coming from a previous version of CHUNITHM"
@@ -5,7 +7,7 @@
     You'll want to create a new folder for the game and start from scratch.
     CHUNITHM **DOES NOT** like being extracted over old data!
 
-### Preparing data
+## Preparing data
 
 !!! danger "There are currently issues with running game data in the `E:\` or `Y:\` drive.<br>Please extract the data into other drives."
 
@@ -43,14 +45,14 @@
     **remove them. This also means your data was tampered with and we strongly recommend
     getting new data from somewhere else.**
 
-#### Updating the base game
+### Updating the base game
 
 !!! tip ""
 
     Extract your patch's files to your existing data in a way that matches its
     file structure. Agree to overwrite files if necessary.
 
-#### Installing option data
+### Installing option data
 
 !!! tip ""
 
@@ -67,7 +69,7 @@
 !!! warning "If you plan to connect to a network (Hosted or Local), the `A001` option folder for your specific game version is required. This option contains a special Event file that lets the game connect."
     
 
-#### Installing unprotected executables
+### Installing unprotected executables
 
 !!! tip ""
 
@@ -79,7 +81,7 @@
     Copy `chusanApp.exe` and `amdaemon.exe` to the `bin` folder of your game data. Agree
     to overwrite when asked.
 
-#### Installing ICFs
+### Installing ICFs
 
 !!! tip ""
 
@@ -97,7 +99,7 @@
     By default, file extensions on Windows are hidden. Enable them by navigating to
     the `View` tab in File Explorer and select `File name extensions`.
 
-### Patching the game
+## Patching the game
 
 !!! info "Go through the [Web Patching](/extras/patchweb.md) guide to learn how to use a web patcher."
 
@@ -117,7 +119,7 @@
 | Bypass 1080p monitor check   | Either         | Disable checking if the monitor is 1080p when enabling 120FPS. Enable if you cannot set your monitor to 1080p. |
 | Bypass 120Hz monitor check   | Either         | Disable checking if the monitor is **exactly 120Hz** when enabling 120FPS. Enable if you cannot set your monitor to 120Hz. |
 
-### Installing segatools
+## Installing segatools
 
 !!! tip ""
 
@@ -130,7 +132,7 @@
 
     <img width="500" src="/img/sega/chunithm/common/setup/3_segatools_installed.webp">
 
-### Configuring segatools
+## Configuring segatools
 
 !!! tip ""
 
@@ -153,7 +155,7 @@
     dipsw2=1 ; WRONG!
     ```
 
-#### `[vfs]`
+### `[vfs]`
 
 !!! tip ""
 
@@ -183,7 +185,7 @@
 
     - A cleaner and easier to read segatools.ini, making spotting issues simpler.
 
-#### `[system]`
+### `[system]`
 
 !!! tip ""
 
@@ -203,7 +205,7 @@
     dipsw3=1
     ```
 
-#### `[gfx]`
+### `[gfx]`
 
 !!! tip ""
 
@@ -216,7 +218,7 @@
     Navigate to Windows display settings. Each monitor should be assigned a number.
     The monitor index is that number minus one. For example, monitor 2 means monitor index 1.
 
-### Connecting to a network
+## Connecting to a network
 
 !!! danger "Please choose one of the two solutions, not both!"
 
@@ -250,18 +252,18 @@
     and [AquaDX](https://github.com/hykilpikonna/AquaDX?tab=readme-ov-file#usage-v1-developmental-preview)
     to set up a local server.
 
-### Pre-launch requirements
+## Pre-launch requirements
 
 !!! info "These steps are required, otherwise your game won't run."
 
-#### VCRedist & DirectX
+### VCRedist & DirectX
 
 !!! tip ""	
 
 	- Download and install the latest [VCRedist](https://github.com/abbodi1406/vcredist/releases/latest) (`VisualCppRedist_AIO_x86_x64.exe`)
 	- Download and install the [DirectX End-User Runtimes](https://www.microsoft.com/en-us/download/details.aspx?id=8109)
 
-#### Audio
+### Audio
 
 !!! tip ""
 
@@ -274,13 +276,13 @@
 
     <img src="/img/common/audio_16_48.webp">
 
-#### Fixing OpenSSL on Intel 10th Gen and newer CPUs
+### Fixing OpenSSL on Intel 10th Gen and newer CPUs
 
 !!! tip ""
 
     If you have an Intel 10th Gen CPU or newer, you need to [patch amdaemon](https://patcher.two-torial.xyz/amdaemon) and enable `OpenSSL SHA crash bug fix`.
 
-### First launch
+## First launch
 
 !!! danger "If you have any issues running the game, refer to the [Troubleshooting](./troubleshooting.md) page."
 
@@ -289,7 +291,7 @@
     Without an English patch, the service menu will be in Japanese. If you don't know Japanese, [Google Lens](https://lens.google/)
     is a handy tool for navigating this menu.
 
-#### GAME ASSIGNMENTS
+### GAME ASSIGNMENTS
 
 !!! tip ""
 
@@ -319,7 +321,7 @@
 
     Select **終了** (`EXIT`, the last option) to exit to the main service menu.
 
-#### CLOSE SETTING
+### CLOSE SETTING
 
 !!! tip ""
 
@@ -339,7 +341,7 @@
     Select **終了** (`EXIT`, the last option) to exit to the main service menu, then select **終了**
     (also the last option) in the main menu to exit the service menu.
 
-#### Waiting for Distribution Server
+### Waiting for Distribution Server
 
 !!! tip ""
 
@@ -353,7 +355,7 @@
 
     You can add coins using the `Coin` key (default `F3`) and card in by holding the `Enter` key.
 
-### Further configuration
+## Further configuration
 
 !!! info "Input methods and controllers are covered in the [Controllers](./controllers.md) page."
 

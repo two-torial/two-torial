@@ -1,3 +1,5 @@
+# Controllers
+
 --8<-- "docs/snippets/common/data_warning.md"
 
 !!! tip ""

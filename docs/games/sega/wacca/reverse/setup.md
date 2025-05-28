@@ -1,5 +1,5 @@
-# Game Setup (WACCA Reverse)
 <img class="header-logo" src="/img/sega/wacca/reverse/logo.webp">
+# Game Setup
 
 --8<-- "docs/snippets/common/data_warning.md"
 

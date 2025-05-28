@@ -1,3 +1,5 @@
+# Troubleshooting
+
 --8<-- "docs/snippets/common/data_warning.md"
 
 ### Clock error

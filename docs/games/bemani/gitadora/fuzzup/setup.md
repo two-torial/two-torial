@@ -5,7 +5,7 @@
 
 --8<-- "docs/snippets/common/data_warning.md"
 
-### Installing spice2x
+## Installing spice2x
 
 !!! info ""
 
@@ -18,7 +18,7 @@
   
 	<img src="/img/bemani/gitadora/fuzzup/spice.webp">
 
-### General Configuration
+## General Configuration
 
 !!! info ""
 
@@ -26,7 +26,7 @@
 
 !!! info "Open `spicecfg.exe`, each following sub-section corresponds to a tab at the top."
 
-#### Buttons
+### Buttons
 
 !!! tip ""
 
@@ -37,17 +37,17 @@
 	- **Maintenance:** `Test`
 	- **P1 Keypad**: `Keypad 0 to 9, Keypad Insert Card`
 
-#### Cards
+### Cards
 
 !!! info "Covered in the [Connecting to a Network](#connecting-to-a-network) section."
 
-#### Patches
+### Patches
 
 !!! info "Go through the [spice2x Patching](/extras/patchsp2x.md) page to import patches."
 
 !!! danger "To prevent issues, avoid patching things you don't need or understand."
 
-#### Options
+### Options
 
 !!! danger "Be very careful changing options you don't understand as it may cause issues."
 
@@ -64,7 +64,7 @@
 	|-------------------|-----------------------------------|---------------|---------|
 	| Graphics (Common)	| NVIDIA profile optimization	    	| -nvprofile   	| ON	    |
 
-### GuitarFreaks Configuration
+## GuitarFreaks Configuration
 
 !!! info ""
 
@@ -83,7 +83,7 @@
 	- **Guitar P1 IO Panel:** `Guitar P1 Start, Up, Down, Left, Right, Help`
 	- **Guitar P1 Controls:** `Guitar P1 Pick Up, Pick Down, R, G, B, Y, P`
 
-#### Analogs
+### Analogs
 
 !!! tip ""
 
@@ -96,7 +96,7 @@
 	- Move your guitar and ensure the Preview visualizer shows movement.
 	- Repeat for other applicable axes your guitar has.
 
-#### Advanced
+### Advanced
 
 !!! warning "Not setting these values will cause the game to not boot into either mode."
 
@@ -107,13 +107,13 @@
 	| Paths					| Path to ea3-config.xml 	    | -e 	        | `prop/ea3-config2.xml`	 |
 	| Paths	    	| Path to avs-config.xml 				|	-v		      | `prop/avs-config-jb.xml` |
 
-### DrumMania Configuration
+## DrumMania Configuration
 
 !!! info ""
 
 	This section will cover the configuration specific to the **Drums** mode.<br>If you are wanting to configure guitar, refer to the [GuitarFreaks Configuration](#guitarfreaks-configuration) section.
 
-#### Buttons
+### Buttons
 
 !!! tip ""
 
@@ -124,7 +124,7 @@
 	- **Drum IO Panel:** `Drum Start, Up, Down, Left, Right, Help`
 	- **Drum Controls:** `Drum Hi-Hat, Snare, Hi-Tom, Low-Tom, Right Cymbal, Bass Pedal, Left Cytmbal, Left Pedal, Floor Tom`
 
-#### Advanced
+### Advanced
 
 !!! warning "Not setting these values will cause the game to not boot into either mode."
 
@@ -135,7 +135,7 @@
 	| Paths					| Path to ea3-config.xml 	| -e 	     		| `prop/ea3-config.xml`	   |
 	| Paths	    		| Path to avs-config.xml  | -v					| `prop/avs-config-ja.xml` |
 
-### Connecting to a Network
+## Connecting to a Network
 
 !!! danger "Please choose one of the two solutions, not both!"
 
@@ -162,18 +162,18 @@
 
 	This is covered in the [Asphyxia CORE](/extras/asphyxia.md) page.
 
-### Pre-launch Requirements
+## Pre-launch Requirements
 
 !!! info "These steps are required, otherwise your game won't run."
 
-#### VCRedist & DirectX
+### VCRedist & DirectX
 
 !!! tip ""	
 
 	- Download and install the latest [VCRedist](https://github.com/abbodi1406/vcredist/releases/latest) (`VisualCppRedist_AIO_x86_x64.exe`)
 	- Download and install the [DirectX End-User Runtimes](https://www.microsoft.com/en-us/download/details.aspx?id=8109)
 
-#### Audio
+### Audio
 
 !!! info "GITADORA FUZZ-UP currently only supports WASAPI exclusive mode."
 
@@ -189,7 +189,7 @@
 
 	<img src="/img/common/audio_24_441.webp">
 
-### First Launch
+## First Launch
 
 !!! danger "If you have any issues running the game at this point, refer to the [Troubleshooting](troubleshooting.md) page."
 
@@ -237,7 +237,7 @@
 
 	You're all done! From the test menu, select `GAME MODE` and the game should boot up!
 
-### Carding In
+## Carding In
 
 !!! tip "" 
 
@@ -246,7 +246,7 @@
 	- Press your `Keypad Insert Card` button.
 	- Enter your code using your keypad binds.
 
-### Troubleshooting
+## Troubleshooting
 
 !!! warning "Have any other issue?"
 
