@@ -1,6 +1,6 @@
-!!! danger "Please make sure you downloaded your data from an appropriate source.<br>This guide is unable to troubleshoot any problems related to bad or poorly managed data."
+# Controllers
 
----
+--8<-- "docs/snippets/common/data_warning.md"
 
 !!! tip ""
 
@@ -28,8 +28,6 @@
 
     1. Note that there is no leading semicolon.
 
----
-
 ### Keyboard
 
 !!! tip ""
@@ -42,7 +40,6 @@
     If you wish to change the default keybinds, an explanation on how to set these is included
     above the `[io3]` section in your `segatools.ini`.
 
----
 ### TASOLLER
 
 !!! tip ""

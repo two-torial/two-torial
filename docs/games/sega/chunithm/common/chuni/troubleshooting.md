@@ -1,6 +1,6 @@
-!!! danger "Please make sure you downloaded your data from an appropriate source.<br>This guide is unable to troubleshoot any problems related to bad or poorly managed data."
+# Troubleshooting
 
----
+--8<-- "docs/snippets/common/data_warning.md"
 
 ### My game takes a long time to boot!
 
@@ -15,8 +15,6 @@
     Doing this will prevent Windows Defender from scanning your game folder for viruses.
     Only do this if you trust the source of the data.
 
----
-
 ### My game is running too slow/fast
 
 !!! tip ""
@@ -30,16 +28,12 @@
     It could also be that your computer's performance isn't good enough to keep
     a steady framerate.
 
----
-
 ### My game is stuttering
 
 !!! tip ""
 
     For NVIDIA users, create an override for `chuniApp.exe` in NVIDIA Control Panel
     and change "Power management mode" to "**Prefer maximum performance**".
-
----
 
 ### My game crashes when I tab out of fullscreen!
 
@@ -65,8 +59,6 @@
     `Test` key even if the game is minimised. If you were in the middle of a credit,
     **your scores will be lost.**
 
----
-
 ### When I run the game all other audio is gone!
 
 !!! tip ""
@@ -76,8 +68,6 @@
 
     You can apply the "Shared Audio" patch on a CHUNITHM web patcher (see [Resources](/resources.md#web-patchers))
     to hear audio outside of the game at the cost of audio latency.
-
----
 
 ### Cabinet-to-Cabinet(c2c) Fixes
 

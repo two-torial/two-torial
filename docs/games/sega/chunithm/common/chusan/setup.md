@@ -67,7 +67,24 @@
 
     You should now have a few more files inside the folder, as highlighted:
 
-    <img width="500" src="/img/sega/chunithm/common/setup/chusan/1_segatools_installed.webp">
+    ```
+    📂aime_firm
+    📂am_resources
+    📂DEVICE <---
+    📂tfps-res-pro
+    [...]
+    📄chusanhook_x64.dll <---
+    📄chusanhook_x86.dll <---
+    [...]
+    📄config_hook.json <---
+    [...]
+    ▶️inject_x64.exe <---
+    ▶️inject_x86.exe <---
+    [...]
+    📄segatools.ini <---
+    ▶️start.bat <---
+    [...]
+    ```
 
 ## Configuring segatools
 
