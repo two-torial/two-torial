@@ -94,7 +94,11 @@
 
 === "Buttons"
 
+--8<-- "docs/snippets/bemani/common/spicecfg_buttons.md"
+
 --8<-- "docs/snippets/bemani/ddr/spicecfg_buttons.md"
+
+--8<-- "docs/snippets/bemani/common/spicecfg_buttons_additionalinfo.md"
   
 === "Analogs"
 
