@@ -145,11 +145,11 @@
 
 	The game will go through a series of checks, let it run, if you've done everything properly they'll pass.
 
-	<img class="header-logo" src="/img/bemani/museca/backupdata.webp">
+	<img src="/img/bemani/museca/backupdata.webp">
 
 	If you're seeing this screen, it means you need to press the `Test` button to initialize the game's backup data.
 
-	Once the game shows ```BACKUP DATA: INITIALIZED```, restart the game.
+	Once the game shows `BACKUP DATA: INITIALIZED`, restart the game.
 
 !!! success "You're all done! The game should load up properly now"
 
