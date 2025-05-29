@@ -1,6 +1,6 @@
     !!! tip "Binding your buttons" 
 
-        Click on `Bind` then press the key you want associated with the action.
+        Click on `Bind` or `Naive` then press the key you want associated with the action.
 
         With your controller and/or keyboard plugged in, configure your keys for:  
 

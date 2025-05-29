@@ -2,4 +2,4 @@
 
 	!!! tip "Binding extra buttons here is optional, defaults are fine"
 
-		Click on `Bind` then press the key you want associated with the action.
+		Click on `Bind` or `Naive` then press the key you want associated with the action.

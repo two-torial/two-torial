@@ -45,7 +45,7 @@
 
     !!! tip "Binding your buttons" 
 
-        Click on `Bind` then press the key you want associated with the action.
+        Click on `Bind` or `Naive` then press the key you want associated with the action.
 
         With your controller and/or keyboard plugged in, configure your keys for:  
 
@@ -111,17 +111,7 @@
 
 ## Configuring Audio
 
-!!! info "First, check out our general [Audio](/extras/audio.md) guide to understand audio modes better, at least the TL;DR. Keep in mind that MÚSECA only supports WASAPI Exclusive, which some devices do not support."
-
-!!! tip ""
-
-	- Open `spicecfg.exe`
-	- At the very top, click on `Shortcuts` then `Audio Playback Devices`
-	- In the popup window, right click on your default audio device, and click on `Properties`
-	- Go to the `Advanced` tab
-	- Check both boxes under `Exclusive Mode`
-	- Open the `Default Format` dropdown
-	- Pick the `16 bit, 44100 Hz (CD Quality)` option, click `Apply` then `OK`
+--8<-- "docs/snippets/bemani/common/setup_audio_wasapiexcl_only.md"
 
 ## Connecting to a network
 
@@ -153,9 +143,9 @@
 
 !!! success "You're all done! The game should load up properly now"
 
-## Data Mods
+## MÚSECA PLUS
 
-!!! info "As MÚSECA is no longer updated officially, mods such as [MÚSECA PLUS](https://museca.plus/) have been made to add more content to the game and translate it to English."
+!!! info "Since MÚSECA is no longer receiving official updates, community mods like [MÚSECA PLUS](https://museca.plus/) exist to enhance the game with additional content and English translations."
 
 ## Help
 
