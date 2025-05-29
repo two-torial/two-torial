@@ -35,7 +35,8 @@
 ### Occasional Game Stutters During Play
 
 !!! tip ""
-	Sometimes you might have occasional stutters during play, while solutions can vary wildly from general performance issues to bad hard drives, try adding SpiceTools `-realtime` parameter to your .bat file.
+	Sometimes you might have occasional stutters during play, while solutions can vary wildly from general performance issues to bad hard drives
+	Try enabling the `processpriority` option in spicetools, and set it to `realtime`.
 
 ### Which Offset Is Which?
 
