@@ -133,6 +133,18 @@
 
 === "[vfs]"
 
+    !!! tip ""
+
+        If you've been matching the file structure as described in the [Preparing data](#preparing-data)
+        section, you can fill in this section with the values below:
+
+        ```ini
+        [vfs]
+        amfs=../../amfs
+        option=../../Option
+        appdata=../../AppData
+        ```
+
 --8<-- "docs/snippets/sega/common/segatools_vfs.md"
 
 ??? tip "mu3-mods"

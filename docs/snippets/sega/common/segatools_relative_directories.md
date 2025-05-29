@@ -1,15 +1,3 @@
-    !!! tip ""
-
-        If you've been matching the file structure as described in the [Preparing data](#preparing-data)
-        section, you can fill in this section with the values below:
-
-        ```ini
-        [vfs]
-        amfs=../../amfs
-        option=../../Option
-        appdata=../../AppData
-        ```
-
     ??? info "Relative Directories"
 
         The `../` in the above example represents the parent directory in a relative path. It is used to navigate up one level in the directory hierarchy.

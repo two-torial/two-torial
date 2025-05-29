@@ -17,7 +17,7 @@
 	📂package
     📄firewall.cfg
     📄game.bat
-    ▶️pwGetHwinfo.ini
+    ▶️pwGetHwinfo.exe
     📄pxGetHwInfo.ini
     📄system_config.json
     ```
@@ -131,11 +131,28 @@
 
 ## Configuring segatools
 
+!!! tip ""
+
+    Since there is no graphical configuration tool for segatools, you will have to edit the
+    configuration file by hand. It is found in `App\Package\segatools.ini`.
+
 --8<-- "docs/snippets/sega/common/segatools_stubs.md"
 
 === "[vfs]"
 
---8<-- "docs/snippets/sega/common/segatools_vfs.md"
+    !!! tip ""
+
+        If you've been matching the file structure as described in the [Preparing data](#preparing-data)
+        section, you can fill in this section with the values below:
+
+        ```ini
+        [vfs]
+        amfs=../../amfs
+        option=../../Option
+        appdata=../../AppData
+        ```
+
+--8<-- "docs/snippets/sega/common/segatools_relative_directories.md"
 
 ??? tip "AquaMai"
 
@@ -146,7 +163,7 @@
 ## Setting launch options
 
 !!! tip ""
-    Right click `App\package\start.bat`, select `Edit`. Locate the line that launches `sinmai` and edit it according to your preferences:
+    Right click `App\Package\start.bat`, select `Edit`. Locate the line that launches `sinmai` and edit it according to your preferences:
 
     ```bat hl_lines="6"
     @echo off
