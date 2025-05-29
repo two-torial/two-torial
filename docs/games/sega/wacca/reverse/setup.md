@@ -60,9 +60,17 @@
     - Extracting the archive should give you a few more zip files. Find **`mercury.zip`**
     and extract it to the `App\bin` folder in your game data.
 
-    You should now have a few more files inside the folder, as highlighted:
+    You should now have a few more files inside the folder, as shown:
 
-    <img width="500" src="/img/sega/wacca/reverse/setup/1_wacca_segatools_installed.webp">
+    ```
+    📂DEVICE
+    [...]
+    ▶️inject.exe
+    📄mercuryhook.dll
+    📄segatools.ini
+    ▶️start.bat
+    [...]
+    ```
 
 ## Configuring segatools
 

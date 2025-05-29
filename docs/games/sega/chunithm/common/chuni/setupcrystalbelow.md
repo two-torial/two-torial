@@ -57,9 +57,19 @@
     - Extracting the archive should give you a few more zip files. Find **`chuni.zip`**
     and extract it to the `App\bin` folder in your game data.
 
-    You should now have a few more files inside the folder, as highlighted:
+    You should now have a few more files inside the folder, as shown:
 
-    <img width="500" src="/img/sega/chunithm/common/setup/chuni/1_segatools_installed.webp">
+    ```
+    📂DEVICE
+    [...]
+    📄chunihook.dll
+    [...]
+    ▶️inject.exe
+    [...]
+    📄segatools.ini
+    ▶️start.bat
+    [...]
+    ```
 
 ## Configuring segatools
 

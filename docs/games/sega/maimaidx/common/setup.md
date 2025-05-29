@@ -121,9 +121,17 @@
     - Extracting the archive should give you a few more zip files. Find `mai2.zip`
     and extract it to the `App/Package` folder in your game data.
 
-    You should now have a few more files inside the `App/Package` folder, as highlighted:
+    You should now have a few more files inside the folder, as shown:
 
-    <img width="500" src="/img/sega/maimaidx/common/setup/segatools.webp">
+    ```
+    📂DEVICE
+    [...]
+    ▶️inject.exe
+    📄mai2hook.dll
+    📄segatools.ini
+    ▶️start.bat
+    [...]
+    ```
 
 !!! warning
 

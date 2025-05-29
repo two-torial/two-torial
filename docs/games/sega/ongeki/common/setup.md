@@ -123,9 +123,18 @@
     - Extracting the archive should give you a few more zip files. Find **`mu3.zip`**
     and extract it to the `App\package` folder in your game data.
 
-    You should now have a few more files inside the folder, as highlighted:
+    You should now have a few more files inside the folder, as shown:
 
-    <img width="500" src="/img/sega/ongeki/common/setup/1_ongeki_segatools_installed.webp">
+    ```
+    📂DEVICE
+    [...]
+    ▶️inject.exe
+    [...]
+    📄mu3hook.dll
+    📄segatools.ini
+    ▶️start.bat
+    [...]
+    ```
 
 ## Configuring segatools
 

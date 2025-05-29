@@ -65,24 +65,21 @@
     - Extracting the archive should give you a few more zip files. Find **`chusan.zip`**
     and extract it to the `App\bin` folder in your game data.
 
-    You should now have a few more files inside the folder, as highlighted:
+    You should now have a few more files inside the folder, as shown:
 
     ```
-    📂aime_firm
-    📂am_resources
-    📂DEVICE <---
-    📂tfps-res-pro
+    📂DEVICE
     [...]
-    📄chusanhook_x64.dll <---
-    📄chusanhook_x86.dll <---
+    📄chusanhook_x64.dll
+    📄chusanhook_x86.dll
     [...]
-    📄config_hook.json <---
+    📄config_hook.json
     [...]
-    ▶️inject_x64.exe <---
-    ▶️inject_x86.exe <---
+    ▶️inject_x64.exe
+    ▶️inject_x86.exe
     [...]
-    📄segatools.ini <---
-    ▶️start.bat <---
+    📄segatools.ini
+    ▶️start.bat
     [...]
     ```
 
