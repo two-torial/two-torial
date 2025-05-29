@@ -2,7 +2,7 @@
 
 --8<-- "docs/snippets/common/data_warning.md"
 
---8<-- "docs/snippets/common/old_data.md"
+--8<-- "docs/snippets/sega/common/old_data.md"
 
 ## Preparing data
 
