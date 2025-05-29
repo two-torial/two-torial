@@ -1,4 +1,4 @@
-# Game Setup (PLUS)
-<img class="header-logo" src="/img/sega/chunithm/plus/logo.png">
+
+<img class="header-logo" src="/img/sega/chunithm/plus/logo.webp">
 
 --8<-- "docs/games/sega/chunithm/common/chuni/setupcrystalbelow.md"
