@@ -20,7 +20,7 @@
 
 	For instructions on setting up Asphyxia, please refer to our [Asphyxia setup guide](/extras/asphyxia.md).
 
-	After Asphyxia is setup with the proper SDVX plugin:
+	After Asphyxia is setup with the proper plugin for your game:
 
 	- Open `spicecfg.exe` and head to the `Options` tab
 	- Under the `Network` category, set your `EA Service URL (-url)` to point to your asphyxia server, typically `localhost:8083`

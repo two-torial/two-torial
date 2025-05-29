@@ -1,67 +1,152 @@
-<img class="header-logo" src="/img/bemani/museca/1plushalf/logo.webp">
+<img class="header-logo" src="/img/bemani/museca/logo.webp">
 # Game Setup
-
---8<-- "docs/snippets/common/old_guide.md"
 
 --8<-- "docs/snippets/common/data_warning.md"
 
-## Getting Started
+## Preparing data
 
-!!! tip ""
-	Before we even touch the game, let's fiddle with our audio settings to minimize any potential audio issues on startup. In Windows, go to `Playback Devices` and then right click on your default device and go to `Properties`. From there, hit the `Advanced` tab and set your `Default Format` to `44100 Hz` and check both of the options inside `Exclusive Mode` as pictured.
+--8<-- "docs/snippets/common/data_readonly.md"
 
-<img src="/img/common/audio_24_441.webp">
-
-!!! tip ""
-	Once that's done, it's time to work on setting up your data.
+	The **complete game data** should be approximately **2.7 GB**.
 	
-	After downloading your data, the first thing to do is make sure your files aren't set to READ ONLY, make sure to uncheck it from the main folder in the Windows Properties tab if so. Then, put your desired 64-bit tools inside the game's `contents` folder, and to create a `.bat` file. Pictured below is what your folder should look like, feel free to name your `.bat` file whatever you desire, for the sake of convenience we've named ours `gamestart.bat`.
+	Here's what the expected data structure should look like: 
 
-<img src="/img/bemani/museca/1plushalf/1.webp">
+	```
+	📂data
+	📂dev
+	📂modules
+	📂prop
+	```
 
-## Configuring Your Tools
+--8<-- "docs/snippets/bemani/common/data_bad.md"
+
+## Installing spice2x
+
+--8<-- "docs/snippets/bemani/common/spice2x64_install.md"
+
+	```
+	📂data
+	📂dev
+	📂modules
+	📂prop
+	🌶️spice64.exe <---
+	🌶️spicecfg.exe <---
+	```
+
+--8<-- "docs/snippets/bemani/common/spice2x64_stubs.md"
+
+## Configuring spice2x
+
+--8<-- "docs/snippets/bemani/common/spicecfg_preamble.md"
+
+=== "Buttons"
+
+--8<-- "docs/snippets/bemani/common/spicecfg_buttons.md"
+
+    !!! tip "Binding your buttons" 
+
+        Click on `Bind` or `Naive` then press the key you want associated with the action.
+
+        With your controller and/or keyboard plugged in, configure your keys for:  
+
+        - **Maintenance:** `Service, Test, Start`
+        - **Game buttons:** `Disk# Press (1 to 5), Foot Pedal`
+        - **P1 Keypad**: `Keypad 0 to 9, Keypad Insert Card` 
+
+        **Only if** you play with a keyboard:
+
+        - **Disks:** `Disk#- (1 to 5), Disk#+ (1 to 5)` (`Disk#-` is counter-clockwise, while `Disk#+` is clockwise.)
+  
+--8<-- "docs/snippets/bemani/common/spicecfg_buttons_additionalinfo.md"
+  
+=== "Analogs"
+
+	!!! info "This tab is used to bind analog controls like the disks"
+
+	!!! warning "Ignore this tab if you play with a keyboard"
+
+	!!! tip "Bind your controller's disks"
+
+		With a controller, instead of binding your disks in the `Buttons` tab, you need to:
+
+		- Click `Bind`
+		- In `Device`, pick your controller
+		- In `Control`, pick the control that updates the preview when turning the corresponding disk
+		- Click `Close`, leaving the rest of the settings alone
+		- Repeat for your other disks
+
+=== "Overlay"
+
+--8<-- "docs/snippets/bemani/common/spicecfg_overlay.md"
+
+=== "Lights"
+
+--8<-- "docs/snippets/bemani/common/spicecfg_lights.md"
+
+=== "Cards"
+
+--8<-- "docs/snippets/bemani/common/spicecfg_cards.md"
+
+=== "Patches"
+
+--8<-- "docs/snippets/bemani/common/spicecfg_patches.md"
+
+=== "API"
+
+--8<-- "docs/snippets/bemani/common/spicecfg_nochange.md"
+
+=== "Options"
+
+--8<-- "docs/snippets/bemani/common/spicecfg_options.md"
+
+--8<-- "docs/snippets/bemani/common/spicecfg_options_nvprofile.md"
+
+=== "Advanced"
+
+--8<-- "docs/snippets/bemani/common/spicecfg_nochange.md"
+
+=== "Development"
+
+--8<-- "docs/snippets/bemani/common/spicecfg_nochange.md"
+
+## Configuring Audio
+
+--8<-- "docs/snippets/bemani/common/setup_audio_wasapiexcl_only.md"
+
+## Connecting to a network
+
+--8<-- "docs/snippets/bemani/common/setup_network.md"
+
+## Monitor Orientation
+
+--8<-- "docs/snippets/bemani/common/display_portraitfirst.md"
+
+## Installing VCRedist & DirectX
+
+--8<-- "docs/snippets/common/setup_vcredist_directx.md"
+
+## First launch
 
 !!! tip ""
-	Now that you have your files ready, open up your `.bat` file in your desired text editor (we're using [Notepad++](https://notepad-plus-plus.org/)) and edit it with your desired parameters, for the purpose of this guide we will demonstrate both a local network configuration and an online example below with SpiceTools, skip to whichever you're in need of accordingly and please keep in mind you can add whatever additional parameters you desire.
 
-!!! warning "If you're not using SpiceTools:"
-	The overall structure of your .bat file will differ from the guide, namely the initialization of SpiceTools won't be present and potential parameters may differ. As stated above, make sure to check the documentation of your tools to ensure you're using the correct parameters for your needs.
+	If you've followed all instructions correctly, you're finally ready to launch the game!
 
-## Configuring for a Local Network
+	Run `spice64.exe`, press `Yes` when it asks for elevated privileges.
 
-!!! tip ""
-	For our local network configuration example, on a single line in the `.bat` file we're going to type `spice64.exe -ea -w` and save the file. 
+	The game will go through a series of checks, let it run, if you've done everything properly they'll pass.
 
-	What do these different parameters do?
+	<img src="/img/bemani/museca/backupdata.webp">
 
-	- `-ea` enables an integrated e-amusement server within SpiceTools.
-	- `-w` will boot the game in windowed mode which will ease our initial setup and testing later, make sure to remove `-w` to run the game fullscreen once you're done setting up!
+	If you're seeing this screen, it means you need to press the `Test` button to initialize the game's backup data.
 
-## Configuring for an Online Network
+	Once the game shows `BACKUP DATA: INITIALIZED`, restart the game.
 
-!!! tip ""
-	For our online network example we're simply doing the above but with different parameters! On our single line, we're going to type `spice64.exe -p XXXXXXXXXXXXXXXXXXXX -url http://yoururlhere.com/ -w` and save the file. 
+!!! success "You're all done! The game should load up properly now"
 
-	What do these different parameters do? 
+## MÚSECA PLUS
 
-	- `-p` takes your PCBID on your network of choice, simply replace `XXXXXXXXXXXXXXXXXXXX` with your PCBID.
-	- `-url` allows you to specify a custom service URL to connect with, simply replace `http://yoururlhere.com/` with your chosen network's URL.
-	- `-w` will boot the game in windowed mode which will ease our initial setup and testing later, make sure to remove `-w` to run the game fullscreen once you're done setting up!
+!!! info "Since MÚSECA is no longer receiving official updates, community mods like [MÚSECA PLUS](https://museca.plus/) exist to enhance the game with additional content and English translations."
 
-!!! tip ""
-	One final note, since you're playing on a network, you will have one additional step of setting up your card file within your chosen tools, make sure to check your server's information on how to setup a card file.
+## Help
 
-## Final Steps and Setting up the Game
-
-!!! tip ""
-	It's important to note before booting the game that Museca uses portrait mode and attempting to boot the game fullscreen in most landscape environments will result in a crash. To alleviate this, we must set our *main* monitor to portrait mode and be ready to rotate it! To do so, right click on your desktop and go into `Display Settings`, then simply set the orientation to `Portrait`.
-
-	In the event that you do not have the means to run the game in portrait mode and cannot rotate your monitor, it is recommended you boot the game in windowed mode. In SpiceTools, simply add the windowed mode parameter, this parameter is `-w` and can be placed right after any other desired parameters chosen in our `gamestart.bat`
-
-	The last steps you'll have to do with your chosen tools is simply setting up your desired keybinds! Make sure you setup the `Test` keybind as it will be critical for setting up the game. Once you've done that, launch your game for the first time by double clicking the `.bat` you setup and the game should load and be ready to be enjoyed! Have fun!
-
-# Troubleshooting
-
-!!! warning "Have any other errors?"
-
-	Check out the [Troubleshooting](troubleshooting.md) and [Error Code](/errorcodes/bemani.md) sections to resolve any issues not seen in this guide to greater depth.
+--8<-- "docs/snippets/common/help.md"

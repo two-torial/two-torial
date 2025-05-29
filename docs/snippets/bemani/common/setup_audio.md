@@ -1,4 +1,4 @@
-!!! info "First, check out our general [Audio](/extras/audio.md) guide to understand audio modes better, at least the TL;DR"
+!!! info "Check out our general [Audio](/extras/audio.md) guide to understand audio modes better, at least the TL;DR"
 
 !!! tip ""
 
