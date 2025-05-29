@@ -192,7 +192,7 @@
 
 ## Connecting to a network
 
-!!! danger "Pick one or the other, not both!!"
+!!! danger "Pick one or the other, not both!"
 
 --8<-- "docs/snippets/sega/common/online_network.md"
 
