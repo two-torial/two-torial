@@ -41,7 +41,7 @@
     After downloading option files, extract them into your game's `Option` folder.
 
     ```
-    📂amf
+    📂amfs
     📂App
     📂AppData
     📂Option

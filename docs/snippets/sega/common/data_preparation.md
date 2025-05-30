@@ -9,7 +9,7 @@
     Create another empty folder named `AppData` next to them:
 
     ```
-	📂amf
+	📂amfs
 	📂App
 	📂AppData
 	📂Option
