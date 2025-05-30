@@ -48,7 +48,7 @@
     ┣━📂A001
     ┣━📂A002
     ┣━📂A012
-    ┗━ etc..
+    ┗━ etc.
     ```
 
 !!! info "Option numbers don't always follow a sequential pattern<br>It's common to see the numbers jump, for example `A001` then `A012`"

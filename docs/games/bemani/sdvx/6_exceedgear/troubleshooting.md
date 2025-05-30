@@ -22,7 +22,7 @@
     
     Then there's a **problem with your game data**.
 
-    - Make sure there are no DLL files next to the main game directories (`data`, `prop`, etc..)  
+    - Make sure there are no DLL files next to the main game directories (`data`, `prop`, etc.)  
     If there are, **move them all** under the `modules` directory 
 
     For game version `2024-11-05` and newer, check the following files in your `modules` directory:

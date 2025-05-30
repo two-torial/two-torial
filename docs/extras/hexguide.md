@@ -31,7 +31,7 @@
 
     Open your game's `.dll` file in the hex editor.
     
-    For the grand majority of hex edits, this is the main game file, such as `bm2dx.dll`, `soundvoltex.dll`, etc..
+    For the grand majority of hex edits, this is the main game file, such as `bm2dx.dll`, `soundvoltex.dll`, etc.
     
     Pictured below, we've opened up `bm2dx.dll` inside HxD.
 
