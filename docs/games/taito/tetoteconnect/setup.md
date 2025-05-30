@@ -7,12 +7,12 @@
 
 --8<-- "docs/snippets/common/data_readonly.md"
 
-	The **complete game data** should be approximately **5 GB or larger**.
+    The **complete game data** should be approximately **5 GB or larger**.
 
-	Here's what the expected data structure should look like: 
+    Here's what the expected data structure should look like: 
 
-	```
-	📂[SYSTEM]
+    ```
+    📂[SYSTEM]
     📂MonoBleedingEdge
     📂System Volume Information
     📂Vision_Data
@@ -24,7 +24,7 @@
     ⚙️UnityPlayer.dll
     ▶️Vision.exe
     ⚙️WinPixEventRuntime.dll
-	```
+    ```
 
 ## Installing BepInEx
 
@@ -76,9 +76,9 @@
 ??? tip "Manually rotating"
 
     - Right click on your Desktop
-	- Select `Display settings`
-	- Look for `Display orientation` and set it to `Portrait` or `Portrait (flipped)`
-	- Rotate your monitor 90°
+    - Select `Display settings`
+    - Look for `Display orientation` and set it to `Portrait` or `Portrait (flipped)`
+    - Rotate your monitor 90°
 
 ??? tip "Automatically rotating"
 
