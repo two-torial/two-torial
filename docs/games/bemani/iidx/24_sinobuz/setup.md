@@ -22,7 +22,7 @@
 
 ??? warning "If your data doesn't look like this"
 
-    If extra files are present next to your folders, such as executables, scripts, etc.. **remove them**.  
+    If extra files are present next to your folders, such as executables, scripts, etc. **remove them**.  
     **This also means your data was tampered with and we strongly recommend getting new data from somewhere else.**
 
 ## Installing spice2x

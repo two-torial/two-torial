@@ -66,7 +66,7 @@
     ┣━ 📂 plugins
     ┃  ┣━ 📂 sdvx@asphyxia
     ┃  ┣━ 📂 iidx@asphyxia
-    ┃  ┣━ 📂 etc..
+    ┃  ┣━ 📂 etc.
     ┃  ┣━ 📄 asphyxia-core.d.ts
     ┃  ┣━ 📄 package.json
     ┃  ┗━ 📄 tsconfig.json
@@ -101,7 +101,7 @@
 
         - In the WebUI, select `SDVX` in the left sidebar
         - Under `Plugin Settings`, find `Exceed Gear Data Directory`
-        - Enter the full path to your game's data folder (the folder containing `data`, `modules`, `prop`, etc..)
+        - Enter the full path to your game's data folder (the folder containing `data`, `modules`, `prop`, etc.)
         - (Optional) Toggle all four `Unlock` switches to unlock all game content by default
         - Click `Apply` to save your changes
         - Close Asphyxia by selecting `Process` > `Shutdown CORE` in the top-right corner of the WebUI
