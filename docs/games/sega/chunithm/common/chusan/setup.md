@@ -36,7 +36,7 @@
     
 ## Installing unprotected executables
 
---8<-- "docs/snippets/sega/chunithm/unprotected_exes.md"
+--8<-- "docs/snippets/sega/chunithm/unprotected_exes_chusan.md"
 
 ## Installing ICFs
 
