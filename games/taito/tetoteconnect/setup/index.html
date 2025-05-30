@@ -2099,7 +2099,7 @@
   
   
   <span class="md-ellipsis">
-    Pop'n Music
+    pop'n music
     
   </span>
   
@@ -2110,7 +2110,7 @@
         <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_1_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_1_3">
             <span class="md-nav__icon md-icon"></span>
-            Pop'n Music
+            pop'n music
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -7949,38 +7949,23 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Installing tetoco">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#pre-launch-requirements" class="md-nav__link">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installing-vcredist-directx" class="md-nav__link">
     <span class="md-ellipsis">
-      Pre-launch requirements
+      Installing VCRedist &amp; DirectX
     </span>
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#vcredist-directx" class="md-nav__link">
-    <span class="md-ellipsis">
-      VCRedist &amp; DirectX
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#monitor-orientation" class="md-nav__link">
     <span class="md-ellipsis">
       Monitor orientation
     </span>
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -8495,38 +8480,23 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Installing tetoco">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#pre-launch-requirements" class="md-nav__link">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installing-vcredist-directx" class="md-nav__link">
     <span class="md-ellipsis">
-      Pre-launch requirements
+      Installing VCRedist &amp; DirectX
     </span>
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#vcredist-directx" class="md-nav__link">
-    <span class="md-ellipsis">
-      VCRedist &amp; DirectX
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#monitor-orientation" class="md-nav__link">
     <span class="md-ellipsis">
       Monitor orientation
     </span>
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -8576,92 +8546,99 @@
 </div>
 <h2 id="preparing-data">Preparing data</h2>
 <div class="admonition tip">
-<p>After downloading and extracting your data, we need to make sure your files
-aren't set to <code>Read-only</code>.</p>
+<p>Ensure your game files are not marked as read-only:</p>
 <ul>
-<li>Right click the folder containing your data, then click on <code>Properties</code>.</li>
-<li>In the <code>General</code> tab go down to <code>Attributes</code>, untick <code>Read-only</code> and click <code>Apply</code>.</li>
-<li>A popup will appear, select <code>Apply changes to this folder, subfolders and files</code>
-and press <code>OK</code>.</li>
-<li>Finally, click <code>OK</code> again to exit out of properties.</li>
+<li>Right click the directory containing your files</li>
+<li>Click on <code>Properties</code></li>
+<li>Under the <code>General</code> tab, find <code>Attributes</code> and uncheck <code>Read-only</code></li>
+<li>Click <code>Apply</code></li>
+<li>When prompted, select <code>Apply changes to this folder, subfolders and files</code></li>
+<li>Click <code>OK</code> to confirm, then <code>OK</code> again to close Properties</li>
 </ul>
-<p>You should end up with a file structure as follows:</p>
-<p><img width="500" src="/img/taito/tetoteconnect/setup/0_data.webp"></p>
+<p>The <strong>complete game data</strong> should be approximately <strong>5 GB or larger</strong>.</p>
+<p>Here's what the expected data structure should look like: </p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>📂[SYSTEM]
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>📂MonoBleedingEdge
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>📂System Volume Information
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>📂Vision_Data
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>▶️game.exe
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>📄game.inf
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>▶️RunVisionProd.bat
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>▶️Setting.bat
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>▶️UnityCrashHandler64.exe
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>⚙️UnityPlayer.dll
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>▶️Vision.exe
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>⚙️WinPixEventRuntime.dll
+</span></code></pre></div>
 </div>
 <h2 id="installing-bepinex">Installing BepInEx</h2>
 <div class="admonition tip">
 <ul>
-<li>Download the most recent <a href="https://github.com/BepInEx/BepInEx/releases">BepInEx 5 release</a> (<code>BepInEx_win_x64_5.x.y.z.zip</code>).</li>
+<li>Download the most recent <a href="https://github.com/BepInEx/BepInEx/releases">BepInEx 5 release</a> (<code>BepInEx_win_x64_5.x.y.z.zip</code>)</li>
 </ul>
 <div class="admonition warning">
 <p class="admonition-title">We need BepInEx 5 since as of writing, BepInEx 6 does not support the required plugin.</p>
 </div>
 <ul>
-<li>Extract the archive to the root folder of your game data.</li>
+<li>Extract the archive to the root folder of your game data</li>
 </ul>
-<p>You should now have a few more files, as highlighted:</p>
-<p><img src="/img/taito/tetoteconnect/setup/1_databepinex.webp"></p>
+<p>You should now have these files added to your directory:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>📂BepInEx
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>📄.doorstop_version
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>📄changelog.txt
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>📝doorstop_config.ini
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>⚙️winhttp.dll
+</span></code></pre></div>
 </div>
 <h2 id="installing-tetoco">Installing tetoco</h2>
 <div class="admonition tip">
 <ul>
-<li>
-<p>Head over to <a href="https://github.com/Redcrafter/tetoco/releases">tetoco releases</a>
-and download the latest <code>tetoco.dll</code>. <strong>Do not download the source code.</strong></p>
-</li>
-<li>
-<p>Create a folder called <code>plugins</code> in the <code>BepInEx</code> folder, and move the dll file to that newly created folder.</p>
-</li>
+<li>Head over to <a href="https://github.com/Redcrafter/tetoco/releases">tetoco releases</a></li>
+<li>Download <code>tetoco.dll</code></li>
+<li>Create a folder called <code>plugins</code> in the <code>BepInEx</code> folder</li>
+<li>Move the dll file to that newly created folder</li>
 </ul>
 <p>You should end up with a file structure as follows:</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>📂BepInEx
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>┗ 📂plugins
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>  ┗⚙️tetoco.dll
+<div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>📂BepInEx
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>┗ 📂plugins
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>  ┗⚙️tetoco.dll
 </span></code></pre></div>
 </div>
-<h3 id="pre-launch-requirements">Pre-launch requirements</h3>
-<div class="admonition info">
-<p class="admonition-title">These steps are required, otherwise your game won't run.</p>
-</div>
-<h3 id="vcredist-directx">VCRedist &amp; DirectX</h3>
+<h2 id="installing-vcredist-directx">Installing VCRedist &amp; DirectX</h2>
 <div class="admonition tip">
+<p>Download and install:</p>
 <ul>
-<li>Download and install the latest <a href="https://github.com/abbodi1406/vcredist/releases/latest">VCRedist</a> (<code>VisualCppRedist_AIO_x86_x64.exe</code>)</li>
-<li>Download and install the <a href="https://www.microsoft.com/en-us/download/details.aspx?id=8109">DirectX End-User Runtimes</a></li>
+<li><a href="https://github.com/abbodi1406/vcredist/releases/latest">VCRedist All-in-one</a> (<code>VisualCppRedist_AIO_x86_x64.exe</code>)  </li>
+<li><a href="https://www.microsoft.com/en-us/download/details.aspx?id=8109">DirectX End-User Runtimes</a></li>
 </ul>
 </div>
-<h3 id="monitor-orientation">Monitor orientation</h3>
+<h2 id="monitor-orientation">Monitor orientation</h2>
 <div class="admonition info">
-<p class="admonition-title">With tetoco installed, the game won't automatically rotate to portrait mode when starting it.</p>
-<p>The game can be played in landscape mode but a lot of the play area will be lost, it's best to 
-set your monitor to portrait mode before launching the game.</p>
+<p class="admonition-title">With tetoco installed, the game won't automatically rotate to portrait mode when starting it</p>
+<p>The game can be played in landscape mode but a lot of the play area will be lost, it's best to set your monitor to portrait mode before launching the game.</p>
 </div>
 <details class="tip">
 <summary>Manually rotating</summary>
 <ul>
-<li>Right click on your desktop.</li>
-<li>Click <code>Display Options</code>.</li>
-<li>Look for <code>Display orientation</code> and set it to <code>Portrait</code> or <code>Portrait (flipped)</code>.</li>
-</ul>
-<p><img src="/img/common/orientation_portrait.webp"></p>
-<ul>
-<li>Rotate your monitor vertically.</li>
+<li>Right click on your Desktop</li>
+<li>Select <code>Display settings</code></li>
+<li>Look for <code>Display orientation</code> and set it to <code>Portrait</code> or <code>Portrait (flipped)</code></li>
+<li>Rotate your monitor 90°</li>
 </ul>
 </details>
 <details class="tip">
 <summary>Automatically rotating</summary>
 <p>Right click on <a href="https://raw.githubusercontent.com/gmiwoj/Windows-Display-Orientation-Script/main/windows-display-orientation-script.ps1">this link</a>
 then <code>Save Link As</code> and place the <code>windows-display-orientation-script.ps1</code> file in your game's directory.</p>
-<p>Create a new <code>start.bat</code> file, and set its content to this, it will set your monitor as <strong>Portrait (flipped)</strong>,
-and automatically rotate it back once you close the game.</p>
-<div class="language-ini highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="na">powershell.exe -ExecutionPolicy Bypass -File &quot;windows-display-orientation-script.ps1&quot; 0 90</span>
-</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="na">Vision.exe</span>
-</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="na">powershell.exe -ExecutionPolicy Bypass -File &quot;windows-display-orientation-script.ps1&quot; 0 0</span>
+<p>Create a new <code>start.bat</code> file, and set its content to this, it will set your monitor as <strong>Portrait (flipped)</strong>, and automatically rotate it back once you close the game.</p>
+<div class="language-ini highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="na">powershell.exe -ExecutionPolicy Bypass -File &quot;windows-display-orientation-script.ps1&quot; 0 90</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="na">Vision.exe</span>
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="na">powershell.exe -ExecutionPolicy Bypass -File &quot;windows-display-orientation-script.ps1&quot; 0 0</span>
 </span></code></pre></div>
 <p>Alternatively, you can set it to <strong>Portrait</strong> <em>(not flipped)</em> by changing <code>90</code> to <code>270</code>.</p>
-<div class="language-ini highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="na">powershell.exe -ExecutionPolicy Bypass -File &quot;windows-display-orientation-script.ps1&quot; 0 270</span>
-</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="na">Vision.exe</span>
-</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="na">powershell.exe -ExecutionPolicy Bypass -File &quot;windows-display-orientation-script.ps1&quot; 0 0</span>
+<div class="language-ini highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="na">powershell.exe -ExecutionPolicy Bypass -File &quot;windows-display-orientation-script.ps1&quot; 0 270</span>
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="na">Vision.exe</span>
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="na">powershell.exe -ExecutionPolicy Bypass -File &quot;windows-display-orientation-script.ps1&quot; 0 0</span>
 </span></code></pre></div>
 </details>
 <h2 id="first-launch">First launch</h2>
@@ -8676,15 +8653,17 @@ and automatically rotate it back once you close the game.</p>
 </div>
 <h2 id="connecting-to-a-network">Connecting to a network</h2>
 <div class="admonition info">
-<p class="admonition-title">By default, tetoco uses its own local network and saves data locally.</p>
+<p class="admonition-title">By default, tetoco uses its own local network and saves data locally</p>
 <p>Please follow this step only if you have a network to connect to.</p>
 </div>
 <details class="tip">
 <summary>Remote (Online Network)</summary>
-<p>Open the automatically created configuration file <code>BepInEx\config\tetoco.cfg</code>.</p>
-<p>Set <code>UseLocalServer</code> to <strong>false</strong>.</p>
-<p>Then, set <code>RemoteServer</code> to the address provided by your network.</p>
-<p>Finally, set the <code>CardId</code> provided by your network.</p>
+<ul>
+<li>Open the automatically created configuration file <code>BepInEx\config\tetoco.cfg</code></li>
+<li>Set <code>UseLocalServer</code> to <strong>false</strong></li>
+<li>Then, set <code>RemoteServer</code> to the address provided by your network</li>
+<li>Finally, set the <code>CardId</code> provided by your network</li>
+</ul>
 </details>
 
 
@@ -8706,7 +8685,7 @@ and automatically rotate it back once you close the game.</p>
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="May 30, 2025 06:59:49 UTC">May 30, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="May 30, 2025 10:04:28 UTC">May 30, 2025</span>
   </span>
 
     
