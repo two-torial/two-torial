@@ -9,19 +9,19 @@
 
 !!! tip ""
 
-	To make use of the Valkyrie Mode (Subscreen, 120FPS, S-CRITICAL..) you need to go to the `contents\prop` folder and edit the `ea3-config.xml` file.
+    To make use of the Valkyrie Mode (Subscreen, 120FPS, S-CRITICAL..) you need to go to the `contents\prop` folder and edit the `ea3-config.xml` file.
 
     We're interested in these lines:
 
-	```xml
-		<soft>
-			<model __type="str">KFC</model>
-			<dest __type="str">J</dest>
-			<spec __type="str">G</spec>
-			<rev __type="str">A</rev>
-			<ext __type="str">2024052100</ext>
-		</soft>
-	```
+    ```xml
+        <soft>
+            <model __type="str">KFC</model>
+            <dest __type="str">J</dest>
+            <spec __type="str">G</spec>
+            <rev __type="str">A</rev>
+            <ext __type="str">2024052100</ext>
+        </soft>
+    ```
 
     This is the line that determines if the game will run in Nemsys (60 FPS) or Valkyrie (120 FPS) mode.
 
@@ -42,15 +42,15 @@
 
     We're interested in these lines:
 
-	```xml
-		<soft>
-			<model __type="str">KFC</model>
-			<dest __type="str">J</dest>
-			<spec __type="str">G</spec>
-			<rev __type="str">A</rev>
-			<ext __type="str">2024052100</ext>
-		</soft>
-	```
+    ```xml
+        <soft>
+            <model __type="str">KFC</model>
+            <dest __type="str">J</dest>
+            <spec __type="str">G</spec>
+            <rev __type="str">A</rev>
+            <ext __type="str">2024052100</ext>
+        </soft>
+    ```
 
     This is the line that determines which region, and therefore which language the game will use.
 

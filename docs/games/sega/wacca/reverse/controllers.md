@@ -39,7 +39,7 @@
 
 !!! info "Installation instructions"
 
-	[Any2WACCAi](https://gitea.tendokyu.moe/Dniel97/SEGAguide/wiki/SDFE#any2waccai-installation)
+    [Any2WACCAi](https://gitea.tendokyu.moe/Dniel97/SEGAguide/wiki/SDFE#any2waccai-installation)
 
     [Toucca](https://github.com/BlueGlassBlock/toucca/?tab=readme-ov-file#setup)
 

@@ -6,31 +6,31 @@
 
 !!! note ""
 
-	Please keep the following in mind as you're going through this guide.  
+    Please keep the following in mind as you're going through this guide.  
 
-	DDR's codename is `MDX`. Starting with `DDR A20` this would be either:
+    DDR's codename is `MDX`. Starting with `DDR A20` this would be either:
 
-	- `MDX-001` *(Other cabs, 32 bits)*
-	- `MDX-003` *(Gold cab, 64 bits)*
+    - `MDX-001` *(Other cabs, 32 bits)*
+    - `MDX-003` *(Gold cab, 64 bits)*
 
-	The gold cab version contains more features, such as exclusive songs or the "GOLDEN LEAGUE" mode.
+    The gold cab version contains more features, such as exclusive songs or the "GOLDEN LEAGUE" mode.
 
 ## Preparing data
 
 --8<-- "docs/snippets/common/data_readonly.md"
 
-	The **complete game data** should be approximately **20 GB or larger**.  
-	If your data is significantly smaller, you likely have an update archive instead of the full game data.
+    The **complete game data** should be approximately **20 GB or larger**.  
+    If your data is significantly smaller, you likely have an update archive instead of the full game data.
 
-	Here's what the expected data structure should look like: 
+    Here's what the expected data structure should look like: 
 
-	```
-	📂arkdata
-	📂com
-	📂data
-	📂modules
-	📂prop
-	```
+    ```
+    📂arkdata
+    📂com
+    📂data
+    📂modules
+    📂prop
+    ```
 
 --8<-- "docs/snippets/bemani/common/data_bad.md"
 
@@ -40,17 +40,17 @@
 
 !!! danger "Please make sure you're using the right update for your current data."
 
-	DDR updates have `MDX` and one or two datecodes in their archive names.
+    DDR updates have `MDX` and one or two datecodes in their archive names.
 
-	**Single datecode:** Contains one update (e.g., `MDX_NewDateCode.7z`)  
-	**Two datecodes:** Updates from the older to newer version (e.g., `MDX_OldDateCode-NewDateCode.rar`)
+    **Single datecode:** Contains one update (e.g., `MDX_NewDateCode.7z`)  
+    **Two datecodes:** Updates from the older to newer version (e.g., `MDX_OldDateCode-NewDateCode.rar`)
 
-	A date code should look something like this: `YYYYMMDDXX`
+    A date code should look something like this: `YYYYMMDDXX`
 
-	In the two-datecode example:
+    In the two-datecode example:
 
-	- `OldDateCode` is the older date, the game version required to apply this update
-	- `NewDateCode` is the newer date, and is the version you'll arrive at after applying the update
+    - `OldDateCode` is the older date, the game version required to apply this update
+    - `NewDateCode` is the newer date, and is the version you'll arrive at after applying the update
 
 --8<-- "docs/snippets/bemani/common/data_update.md"
 
@@ -60,33 +60,33 @@
 
 ??? tip "For MDX-001 (32 bits)"
 
-	- Visit [spice2x.github.io](https://spice2x.github.io) to download the latest release
-	- Extract both `spice.exe` and `spicecfg.exe` from the archive into your game's directory
+    - Visit [spice2x.github.io](https://spice2x.github.io) to download the latest release
+    - Extract both `spice.exe` and `spicecfg.exe` from the archive into your game's directory
   
-	```
-	📂arkdata
-	📂com
-	📂data
-	📂modules
-	📂prop
-	🌶️spice.exe <---
-	🌶️spicecfg.exe <---
-	```
+    ```
+    📂arkdata
+    📂com
+    📂data
+    📂modules
+    📂prop
+    🌶️spice.exe <---
+    🌶️spicecfg.exe <---
+    ```
 
 ??? tip "For MDX-003 (64 bits)"
 
-	- Visit [spice2x.github.io](https://spice2x.github.io) to download the latest release
-	- Extract both `spice64.exe` and `spicecfg.exe` from the archive into your game's directory
+    - Visit [spice2x.github.io](https://spice2x.github.io) to download the latest release
+    - Extract both `spice64.exe` and `spicecfg.exe` from the archive into your game's directory
   
-	```
-	📂arkdata
-	📂com
-	📂data
-	📂modules
-	📂prop
-	🌶️spice64.exe <---
-	🌶️spicecfg.exe <---
-	```
+    ```
+    📂arkdata
+    📂com
+    📂data
+    📂modules
+    📂prop
+    🌶️spice64.exe <---
+    🌶️spicecfg.exe <---
+    ```
 
 ## Configuring spice2x
 
@@ -151,9 +151,9 @@
 
 ## K-lite Codec Pack
 
-!!! tip ""	
+!!! tip ""    
 
-	- Download and install the [K-lite Codec Pack](https://codecguide.com/download_kl.htm) (the Standard version is enough)
+    - Download and install the [K-lite Codec Pack](https://codecguide.com/download_kl.htm) (the Standard version is enough)
 
 ## Help
 

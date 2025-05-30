@@ -2,7 +2,7 @@
 
     This guide applies to games made in the Unity engine, such as maimai DX, O.N.G.E.K.I. and Card Maker.
 
-	**It is highly recommended to use an unpatched Assembly DLL as your base!**
+    **It is highly recommended to use an unpatched Assembly DLL as your base!**
 
 !!! info "Patches have historically been hardcoded into the unprotected `Assembly-CSharp.dll`"
 

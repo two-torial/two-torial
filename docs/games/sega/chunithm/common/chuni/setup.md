@@ -14,9 +14,9 @@
 
     ```
     📂bin
-	📂data
-	📂firm
-	📂startup
+    📂data
+    📂firm
+    📂startup
     📄firewall.cfg
     ▶️game.bat
     ▶️oxGetHwInfo.exe

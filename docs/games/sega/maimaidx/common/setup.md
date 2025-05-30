@@ -14,7 +14,7 @@
 
     ```
     📂license
-	📂package
+    📂package
     📄firewall.cfg
     ▶️game.bat
     ▶️pwGetHwinfo.exe

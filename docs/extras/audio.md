@@ -112,7 +112,7 @@
       - Precise buffer size adjustment
       - Professional-grade audio quality
       - Bypass Windows audio stack
-	  - Capture is possible when routed through Voicemeeter at the cost of very little added latency
+      - Capture is possible when routed through Voicemeeter at the cost of very little added latency
 
     ❌ **Cons**:
 

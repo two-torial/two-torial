@@ -14,9 +14,9 @@
 
     ```
     📂bin
-	📂data
-	📂firm
-	📂license
+    📂data
+    📂firm
+    📂license
     📄firewall.cfg
     ▶️game.bat
     ▶️pwGetHwinfo.exe

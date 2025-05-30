@@ -12,17 +12,17 @@
 
 --8<-- "docs/snippets/common/data_readonly.md"
 
-	The **complete game data** should be approximately **100 GB or larger**.  
-	If your data is significantly smaller, you likely have an update archive instead of the full game data.
+    The **complete game data** should be approximately **100 GB or larger**.  
+    If your data is significantly smaller, you likely have an update archive instead of the full game data.
 
-	Here's what the expected data structure should look like: 
+    Here's what the expected data structure should look like: 
 
-	```
-	📂data
-	📂dev
-	📂modules
-	📂prop
-	```
+    ```
+    📂data
+    📂dev
+    📂modules
+    📂prop
+    ```
 
 --8<-- "docs/snippets/bemani/common/data_bad.md"
 
@@ -32,17 +32,17 @@
 
 !!! danger "Make sure you're using the right update for your current game version"
 
-	IIDX updates have `LDJ` and one or two datecodes in their archive names.
+    IIDX updates have `LDJ` and one or two datecodes in their archive names.
 
-	**Single datecode:** Contains one update (e.g., `LDJ_NewDateCode.7z`)  
-	**Two datecodes:** Updates from the older to newer version (e.g., `LDJ_OldDateCode-NewDateCode.rar`)
+    **Single datecode:** Contains one update (e.g., `LDJ_NewDateCode.7z`)  
+    **Two datecodes:** Updates from the older to newer version (e.g., `LDJ_OldDateCode-NewDateCode.rar`)
 
-	A date code should look something like this: `YYYYMMDDXX`
+    A date code should look something like this: `YYYYMMDDXX`
 
-	In the two-datecode example:
+    In the two-datecode example:
 
-	- `OldDateCode` is the older date, the game version required to apply this update
-	- `NewDateCode` is the newer date, and is the version you'll arrive at after applying the update
+    - `OldDateCode` is the older date, the game version required to apply this update
+    - `NewDateCode` is the newer date, and is the version you'll arrive at after applying the update
 
 --8<-- "docs/snippets/bemani/common/data_update.md"
 
@@ -50,14 +50,14 @@
 
 --8<-- "docs/snippets/bemani/common/spice2x64_install.md"
 
-	```
-	📂data
-	📂dev
-	📂modules
-	📂prop
-	🌶️spice64.exe <---
-	🌶️spicecfg.exe <---
-	```
+    ```
+    📂data
+    📂dev
+    📂modules
+    📂prop
+    🌶️spice64.exe <---
+    🌶️spicecfg.exe <---
+    ```
 
 --8<-- "docs/snippets/bemani/common/spice2x64_stubs.md"
 
@@ -137,55 +137,55 @@
 
 !!! tip ""
 
-	If you've followed all instructions correctly, you're now finally ready to launch the game!
+    If you've followed all instructions correctly, you're now finally ready to launch the game!
 
-	**First plug your controller if you have one** and run `spice64.exe`, press `Yes` when it asks for elevated privileges.
+    **First plug your controller if you have one** and run `spice64.exe`, press `Yes` when it asks for elevated privileges.
 
-	If it's your first time running the game, you'll immediately be greeted with this screen.
+    If it's your first time running the game, you'll immediately be greeted with this screen.
 
-	<img src="/img/bemani/iidx/common/firstlaunch/1.webp">
+    <img src="/img/bemani/iidx/common/firstlaunch/1.webp">
 
-	Press your `Test` key to initialize the backup data, a message will pop up stating it's been initialized.
+    Press your `Test` key to initialize the backup data, a message will pop up stating it's been initialized.
 
-	Next, you'll get another error.
+    Next, you'll get another error.
 
-	<img src="/img/bemani/iidx/common/firstlaunch/2.webp">
+    <img src="/img/bemani/iidx/common/firstlaunch/2.webp">
 
-	Press your `Test` key again and let the game run for a bit until the monitor check is complete.
+    Press your `Test` key again and let the game run for a bit until the monitor check is complete.
 
-	You will now be taken to the service menu.
+    You will now be taken to the service menu.
 
-	<img src="/img/bemani/iidx/common/firstlaunch/3.webp">
+    <img src="/img/bemani/iidx/common/firstlaunch/3.webp">
 
-	Instructions on how to navigate the menu are shown at the bottom of the screen:
+    Instructions on how to navigate the menu are shown at the bottom of the screen:
 
-	- Press `1` and `2` to go up and down.
-	- Press `6` to select/execute.
+    - Press `1` and `2` to go up and down.
+    - Press `6` to select/execute.
   
-	Start by going up to `CLOCK`.
+    Start by going up to `CLOCK`.
 
-	<img src="/img/bemani/iidx/common/firstlaunch/4.webp">
+    <img src="/img/bemani/iidx/common/firstlaunch/4.webp">
 
-	Here, simply select `SAVE AND EXIT` and the clock will be set.
+    Here, simply select `SAVE AND EXIT` and the clock will be set.
 
-	You'll be back in the service menu.
+    You'll be back in the service menu.
 
-	Go to `NETWORK OPTIONS` then `SHOP NAME SETTING`.
+    Go to `NETWORK OPTIONS` then `SHOP NAME SETTING`.
 
-	<img src="/img/bemani/iidx/common/firstlaunch/5.webp">
-	<img src="/img/bemani/iidx/common/firstlaunch/6.webp">
+    <img src="/img/bemani/iidx/common/firstlaunch/5.webp">
+    <img src="/img/bemani/iidx/common/firstlaunch/6.webp">
 
-	You will need to set a shop name.
-	
-	- Name your shop to whatever you'd like. Again, navigation instructions are at the bottom of the screen.
-	- Go to `EXIT` then `SAVE AND EXIT`.
+    You will need to set a shop name.
+    
+    - Name your shop to whatever you'd like. Again, navigation instructions are at the bottom of the screen.
+    - Go to `EXIT` then `SAVE AND EXIT`.
 
-	<img src="/img/bemani/iidx/common/firstlaunch/7.webp">
+    <img src="/img/bemani/iidx/common/firstlaunch/7.webp">
 
-	Select `GAME MODE`.
+    Select `GAME MODE`.
 
-	<img src="/img/bemani/iidx/common/firstlaunch/3.webp">
-	
+    <img src="/img/bemani/iidx/common/firstlaunch/3.webp">
+    
 !!! success "You're all done! The game should load up properly now"
 
 ## Carding in
@@ -194,19 +194,19 @@
 
 ??? tip "For LDJ (Standard mode)"
 
-	LDJ should accept keypad number binds:
+    LDJ should accept keypad number binds:
 
-	- Press your `Keypad Insert Card` button.
-	- Enter your code using your keypad binds.
+    - Press your `Keypad Insert Card` button.
+    - Enter your code using your keypad binds.
 
 ??? tip "For TDJ (Lightning mode)"
 
-	TDJ will ignore keypad number binds, you need to:
+    TDJ will ignore keypad number binds, you need to:
 
-	- Press your `Keypad Insert Card` button.
-	- Press your `Toggle Sub Screen` overlay button *(PgUp by default)* to bring up the sub screen.
-	- Enter your code by clicking on the subscreen's keypad.
-	- If your code is accepted, you may now close the overlay.
+    - Press your `Keypad Insert Card` button.
+    - Press your `Toggle Sub Screen` overlay button *(PgUp by default)* to bring up the sub screen.
+    - Enter your code by clicking on the subscreen's keypad.
+    - If your code is accepted, you may now close the overlay.
 
 ## Help
 
