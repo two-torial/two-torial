@@ -1,3 +1,4 @@
+<img class="header-logo" src="/img/extras/asphyxia/logo.webp">
 # Asphyxia
 
 !!! danger "Existing save data"
