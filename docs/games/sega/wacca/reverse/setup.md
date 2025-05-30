@@ -3,23 +3,17 @@
 
 --8<-- "docs/snippets/common/data_warning.md"
 
---8<-- "docs/snippets/sega/common/old_data.md"
+--8<-- "docs/snippets/sega/common/data_old.md"
 
 ## Preparing data
 
---8<-- "docs/snippets/sega/common/drive_warning.md"
+--8<-- "docs/snippets/sega/common/data_driveletter.md"
 
 --8<-- "docs/snippets/common/data_readonly.md"
 
-    You should end up with a file structure as follows.
+--8<-- "docs/snippets/sega/common/data_preparation.md"
 
-    ```
-    📂amfs
-    📂App
-    📂AppData
-    ```
-
-    The `App` folder should have a file structure as follows.
+    The `App` folder should have a file structure as follows:
 
     ```
     📂bin
@@ -34,83 +28,66 @@
 
 --8<-- "docs/snippets/sega/common/data_bad.md"
 
-## Updating the base game
+## Updating data
 
-!!! tip ""
-
-    Extract all updates in order. Agree to overwrite files if necessary.
-
-    For example, if you have `3.00.00`; install `3.01.00`, then `3.02.00`, etc.
-
+--8<-- "docs/snippets/sega/common/data_updating.md"
 
 ## Installing ICFs
 
---8<-- "docs/snippets/sega/common/icfs.md"
+--8<-- "docs/snippets/sega/common/data_icfs.md"
 
 ## Patching the game
 
-!!! info "Go through the [Web Patching](/extras/patchweb.md) guide to learn how to use a web patcher."
+--8<-- "docs/snippets/sega/common/patching.md"
 
 ## Installing segatools
 
 !!! tip ""
 
-    - Head over to [segatools releases](https://gitea.tendokyu.moe/Dniel97/segatools/releases)
-    and download `segatools.zip`. **Do not download the source code.**
-    - Extracting the archive should give you a few more zip files. Find **`mercury.zip`**
-    and extract it to the `App\bin` folder in your game data.
+--8<-- "docs/snippets/sega/common/segatools_install.md"
+    - Find `mercury.zip` and extract it to your data's `App\bin` folder
 
-    You should now have a few more files inside the folder, as shown:
+    You should now have these files added to your `App\bin` directory:
 
     ```
     📂DEVICE
-    [...]
     ▶️inject.exe
     📄mercuryhook.dll
     📄segatools.ini
     ▶️start.bat
-    [...]
     ```
 
 ## Configuring segatools
 
-!!! tip ""
-
-    Since there is no graphical configuration tool for segatools, you will have to edit the
-    configuration file by hand. It is found in `App\bin\segatools.ini`.
-
---8<-- "docs/snippets/sega/common/segatools_stubs.md"
+--8<-- "docs/snippets/sega/common/segatools_preamble.md"
 
 === "[vfs]"
 
-    !!! tip ""
+--8<-- "docs/snippets/sega/common/segatools_relativepaths.md"
 
-        If you've been matching the file structure as described in the [Preparing data](#preparing-data)
-        section, you can fill in this section with the values below:
+--8<-- "docs/snippets/sega/common/segatools_vfs.md"
 
-        ```ini
-        [vfs]
-        amfs=../../amfs
-        appdata=../../AppData
-        ```
+## Configuring audio
 
-    --8<-- "docs/snippets/sega/common/segatools_relative_directories.md"
+--8<-- "docs/snippets/common/audio_48khz.md"
 
 ## Connecting to a network
 
-!!! danger "Pick one or the other, not both!"
+--8<-- "docs/snippets/sega/common/network_preamble.md"
 
---8<-- "docs/snippets/sega/common/online_network.md"
+--8<-- "docs/snippets/sega/common/network_remote.md"
 
---8<-- "docs/snippets/sega/common/local_network.md"
+--8<-- "docs/snippets/sega/common/network_local.md"
 
-## Install FTDI LEDs driver
+## Installing FTDI LEDs driver
 
 !!! tip ""
 
-    Download FTDI drivers from [here](https://ftdichip.com/wp-content/uploads/2023/09/CDM-v2.12.36.4-WHQL-Certified.zip)
-    and extract them to a folder of your choice, then copy `CDM-v2.12.36.4-WHQL-Certified/amd64/ftd2xx64.dll` to 
-    `/App/WindowsNoEditor/Mercury/Binaries/Win64` and then rename the file to `ftd2xx.dll`.
+    - Download the [FTDI drivers](https://ftdichip.com/wp-content/uploads/2023/09/CDM-v2.12.36.4-WHQL-Certified.zip)
+    - Extract them
+    - Copy `CDM-v2.12.36.4-WHQL-Certified/amd64/ftd2xx64.dll`  
+      to `/App/WindowsNoEditor/Mercury/Binaries/Win64/`
+    - Rename the file to `ftd2xx.dll`
 
 ## Installing VCRedist & DirectX
 
@@ -154,7 +131,7 @@
     Note that this will close your game and you will have to start it again
     with `start.bat`.
 
---8<-- "docs/snippets/sega/common/finish.md"
+--8<-- "docs/snippets/sega/common/success.md"
 
 ## Help
 

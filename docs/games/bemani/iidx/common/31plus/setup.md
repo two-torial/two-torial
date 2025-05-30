@@ -109,7 +109,7 @@
 
 --8<-- "docs/snippets/bemani/common/spicecfg_nochange.md"
 
-## Configuring Audio
+## Configuring audio
 
 --8<-- "docs/snippets/bemani/common/setup_audio.md"
 

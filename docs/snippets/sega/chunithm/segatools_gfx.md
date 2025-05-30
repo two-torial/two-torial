@@ -1,10 +1,10 @@
-    !!! tip ""
+    !!! tip "Display settings"
 
-        - Set `windowed` to `0` to run in fullscreen mode and `1` to run in windowed mode.
-        - If you have multiple monitors and you're running in fullscreen mode (`windowed=0`),
-        set `monitor` to the index of the monitor you want to run the game on.
+        - Use `windowed=0` for fullscreen mode or `windowed=1` for windowed mode
+        - For multi-monitor setups in fullscreen mode, specify your target display using the `monitor` index setting
 
-    ??? info "Getting the monitor index"
+    ??? info "Finding your monitor index"
 
-        Navigate to Windows display settings. Each monitor should be assigned a number.
-        The monitor index is that number minus one. For example, monitor 2 means monitor index 1.
+        Open Windows display settings to find your monitor numbers.  
+        Your monitor's index is one less than the displayed number.    
+        For example, if Windows shows "Display 2", use monitor index 1.

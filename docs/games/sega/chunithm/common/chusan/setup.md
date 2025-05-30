@@ -2,15 +2,15 @@
 
 --8<-- "docs/snippets/common/data_warning.md"
 
---8<-- "docs/snippets/sega/common/old_data.md"
+--8<-- "docs/snippets/sega/common/data_old.md"
 
 ## Preparing data
 
---8<-- "docs/snippets/sega/common/drive_warning.md"
+--8<-- "docs/snippets/sega/common/data_driveletter.md"
 
 --8<-- "docs/snippets/common/data_readonly.md"
 
---8<-- "docs/snippets/sega/common/preparing_data.md"
+--8<-- "docs/snippets/sega/common/data_preparation.md"
 
     ```
     📂bin
@@ -26,25 +26,25 @@
 
 --8<-- "docs/snippets/sega/common/data_bad.md"
 
-## Updating the base game
+## Updating data
 
---8<-- "docs/snippets/sega/common/updating.md"
+--8<-- "docs/snippets/sega/common/data_updating.md"
 
 ## Installing option data
 
---8<-- "docs/snippets/sega/chunithm/option_data.md"
+--8<-- "docs/snippets/sega/chunithm/data_options.md"
     
 ## Installing unprotected executables
 
---8<-- "docs/snippets/sega/chunithm/unprotected_executables.md"
+--8<-- "docs/snippets/sega/chunithm/unprotected_exes.md"
 
 ## Installing ICFs
 
---8<-- "docs/snippets/sega/common/icfs.md"
+--8<-- "docs/snippets/sega/common/data_icfs.md"
 
 ## Patching the game
 
---8<-- "docs/snippets/sega/chunithm/patching.md"
+--8<-- "docs/snippets/sega/common/patching.md"
 
 | Patch                        | Recommendation | Description |
 |------------------------------|----------------|-------------|
@@ -60,51 +60,29 @@
 
 !!! tip ""
 
-    - Head over to [segatools releases](https://gitea.tendokyu.moe/Dniel97/segatools/releases)
-    and download `segatools.zip`. **Do not download the source code.**
-    - Extracting the archive should give you a few more zip files. Find **`chusan.zip`**
-    and extract it to the `App\bin` folder in your game data.
+--8<-- "docs/snippets/sega/common/segatools_install.md"
+    - Find `chusan.zip` and extract it to your data's `App\bin` folder
 
-    You should now have a few more files inside the folder, as shown:
+    You should now have these files added to your `App\bin` directory:
 
     ```
     📂DEVICE
-    [...]
     📄chusanhook_x64.dll
     📄chusanhook_x86.dll
-    [...]
     📄config_hook.json
-    [...]
     ▶️inject_x64.exe
     ▶️inject_x86.exe
-    [...]
     📄segatools.ini
     ▶️start.bat
-    [...]
     ```
 
 ## Configuring segatools
 
-!!! tip ""
-
-    Since there is no graphical configuration tool for segatools, you will have to edit the
-    configuration file by hand. It is found in `App\bin\segatools.ini`.
-
---8<-- "docs/snippets/sega/common/segatools_stubs.md"
+--8<-- "docs/snippets/sega/common/segatools_preamble.md"
 
 === "[vfs]"
 
-    !!! tip ""
-
-        If you've been matching the file structure as described in the [Preparing data](#preparing-data)
-        section, you can fill in this section with the values below:
-
-        ```ini
-        [vfs]
-        amfs=../../amfs
-        option=../../Option
-        appdata=../../AppData
-        ```
+--8<-- "docs/snippets/sega/common/segatools_relativepaths.md"
 
 --8<-- "docs/snippets/sega/common/segatools_vfs.md"
 
@@ -132,25 +110,25 @@
 
 --8<-- "docs/snippets/sega/chunithm/segatools_gfx.md"
 
+## Configuring audio
+
+--8<-- "docs/snippets/common/audio_48khz.md"
+
 ## Connecting to a network
 
-!!! danger "Pick one or the other, not both!"
+--8<-- "docs/snippets/sega/common/network_preamble.md"
 
---8<-- "docs/snippets/sega/common/online_network.md"
+--8<-- "docs/snippets/sega/common/network_remote.md"
 
---8<-- "docs/snippets/sega/common/local_network.md"
+--8<-- "docs/snippets/sega/common/network_local.md"
 
 ## Installing VCRedist & DirectX
 
 --8<-- "docs/snippets/common/setup_vcredist_directx.md"
 
-## Audio properties
+## OpenSSL Fix (Intel 10th Gen+)
 
---8<-- "docs/snippets/common/audio_properties.md"
-
-## Fixing OpenSSL on Intel 10th Gen and newer CPUs
-
---8<-- "docs/snippets/sega/common/openssl.md"
+--8<-- "docs/snippets/sega/common/cpu_intel_openssl.md"
 
 ## Before playing
 
@@ -158,7 +136,7 @@
 
 ## First launch
 
---8<-- "docs/snippets/sega/common/first_launch_info.md"
+--8<-- "docs/snippets/sega/common/service_jp_googlelens.md"
 
 !!! tip ""
 
@@ -193,13 +171,12 @@
 
     Select **終了** (`EXIT`, the last option) to exit to the main service menu, then select **終了**
     (also the last option) in the main menu to exit the service menu.
-!!! tip ""
 
     If you're stuck at the `Waiting for Distribution Server` screen below, close the game and relaunch.
 
     <img src="/img/sega/chunithm/common/setup/chusan/servicemenu/5_distserver.webp">
 
---8<-- "docs/snippets/sega/common/finish.md"
+--8<-- "docs/snippets/sega/common/success.md"
 
 ## Help
 

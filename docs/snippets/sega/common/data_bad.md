@@ -2,8 +2,8 @@
 
     If your data looks like the third example:
 
-    - Create an `App` folder and move all files and folders from the image inside of it.
-    - Create empty folders named `amfs`, `Option` and `AppData` next to the `App` folder.
+    - Create an `App` folder and move all files and folders from the image inside of it
+    - Create empty folders named `amfs`, `Option` and `AppData` next to the `App` folder
 
     If extra directories or files are still present (executables, scripts, etc.), **remove them**.
 

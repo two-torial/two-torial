@@ -6,7 +6,7 @@
 	📂Option
 	```
 
-    Create another empty folder named `AppData` next to them. It should now look like below:
+    Create another empty folder named `AppData` next to them:
 
     ```
 	📂amf

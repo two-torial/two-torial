@@ -16,7 +16,7 @@
     and press `OK`.
     - Finally, click `OK` again to exit out of properties.
 
-    You should end up with a file structure as follows.
+    You should end up with a file structure as follows:
 
     <img width="500" src="/img/taito/tetoteconnect/setup/0_data.webp">
 
@@ -43,7 +43,7 @@
 
     - Create a folder called `plugins` in the `BepInEx` folder, and move the dll file to that newly created folder.
 
-    You should end up with a file structure as follows.
+    You should end up with a file structure as follows:
 
     ```
     📂BepInEx
