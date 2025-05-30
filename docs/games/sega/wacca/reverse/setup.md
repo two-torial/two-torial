@@ -13,8 +13,6 @@
 
 --8<-- "docs/snippets/sega/common/data_preparation.md"
 
-    The `App` folder should have a file structure as follows:
-
     ```
     📂bin
     📂pxbin
