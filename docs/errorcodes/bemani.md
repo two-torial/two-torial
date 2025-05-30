@@ -80,7 +80,7 @@
 
 	Caused by modified DLL files in Sound Voltex Booth. Keep files unmodified and reinstall from a trusted source if needed.
 
-## Pop'n Music
+## pop'n music
 
 ### 5-1509-0000
 
@@ -92,7 +92,7 @@
 
 !!! tip ""
 
-	Setup error in Pop'n Usaneko. Follow [Game Setup](/games/bemani/popn/usaneko/setup.md) and use proper `-url` and `-p` parameters in SpiceTools.
+	Setup error in pop'n Usaneko. Follow [Game Setup](/games/bemani/popn/usaneko/setup.md) and use proper `-url` and `-p` parameters in SpiceTools.
 
 ## Jubeat
 	
