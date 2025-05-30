@@ -44,6 +44,6 @@
     The following line determine what remote service URL `spice2x` is supposed to connect to.  
     There is ^^**no need to manually change this**^^ as `spice2x` will do it for us.
 
-	```xml
-	<services __type="str">http://localhost:8083</services>
+    ```xml
+    <services __type="str">http://localhost:8083</services>
     ```

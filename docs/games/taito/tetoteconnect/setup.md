@@ -5,43 +5,55 @@
 
 ## Preparing data
 
-!!! tip ""
+--8<-- "docs/snippets/common/data_readonly.md"
 
-    After downloading and extracting your data, we need to make sure your files
-    aren't set to `Read-only`.
+    The **complete game data** should be approximately **5 GB or larger**.
 
-    - Right click the folder containing your data, then click on `Properties`.
-    - In the `General` tab go down to `Attributes`, untick `Read-only` and click `Apply`.
-    - A popup will appear, select `Apply changes to this folder, subfolders and files`
-    and press `OK`.
-    - Finally, click `OK` again to exit out of properties.
+    Here's what the expected data structure should look like: 
 
-    You should end up with a file structure as follows:
-
-    <img width="500" src="/img/taito/tetoteconnect/setup/0_data.webp">
+    ```
+    📂[SYSTEM]
+    📂MonoBleedingEdge
+    📂System Volume Information
+    📂Vision_Data
+    ▶️game.exe
+    📄game.inf
+    ▶️RunVisionProd.bat
+    ▶️Setting.bat
+    ▶️UnityCrashHandler64.exe
+    ⚙️UnityPlayer.dll
+    ▶️Vision.exe
+    ⚙️WinPixEventRuntime.dll
+    ```
 
 ## Installing BepInEx
 
 !!! tip ""
 
-    - Download the most recent [BepInEx 5 release](https://github.com/BepInEx/BepInEx/releases) (`BepInEx_win_x64_5.x.y.z.zip`).
+    - Download the most recent [BepInEx 5 release](https://github.com/BepInEx/BepInEx/releases) (`BepInEx_win_x64_5.x.y.z.zip`)
 
     !!! warning "We need BepInEx 5 since as of writing, BepInEx 6 does not support the required plugin."
 
-    - Extract the archive to the root folder of your game data.
+    - Extract the archive to the root folder of your game data
 
-    You should now have a few more files, as highlighted:
+    You should now have these files added to your directory:
 
-    <img src="/img/taito/tetoteconnect/setup/1_databepinex.webp">
+    ```
+    📂BepInEx
+    📄.doorstop_version
+    📄changelog.txt
+    📝doorstop_config.ini
+    ⚙️winhttp.dll
+    ```
 
 ## Installing tetoco
 
 !!! tip ""
 
     - Head over to [tetoco releases](https://github.com/Redcrafter/tetoco/releases)
-    and download the latest `tetoco.dll`. **Do not download the source code.**
-
-    - Create a folder called `plugins` in the `BepInEx` folder, and move the dll file to that newly created folder.
+    - Download `tetoco.dll`
+    - Create a folder called `plugins` in the `BepInEx` folder
+    - Move the dll file to that newly created folder
 
     You should end up with a file structure as follows:
 
@@ -51,41 +63,29 @@
       ┗⚙️tetoco.dll
     ```
 
-### Pre-launch requirements
+## Installing VCRedist & DirectX
 
-!!! info "These steps are required, otherwise your game won't run."
+--8<-- "docs/snippets/common/setup_vcredist_directx.md"
 
-### VCRedist & DirectX
+## Monitor orientation
 
-!!! tip ""
+!!! info "With tetoco installed, the game won't automatically rotate to portrait mode when starting it"
 
-    - Download and install the latest [VCRedist](https://github.com/abbodi1406/vcredist/releases/latest) (`VisualCppRedist_AIO_x86_x64.exe`)
-    - Download and install the [DirectX End-User Runtimes](https://www.microsoft.com/en-us/download/details.aspx?id=8109)
-
-### Monitor orientation
-
-!!! info "With tetoco installed, the game won't automatically rotate to portrait mode when starting it."
-
-    The game can be played in landscape mode but a lot of the play area will be lost, it's best to 
-    set your monitor to portrait mode before launching the game.
+    The game can be played in landscape mode but a lot of the play area will be lost, it's best to set your monitor to portrait mode before launching the game.
 
 ??? tip "Manually rotating"
 
-    - Right click on your desktop.
-	- Click `Display Options`.
-	- Look for `Display orientation` and set it to `Portrait` or `Portrait (flipped)`.
- 
-	<img src="/img/common/orientation_portrait.webp">
-
-	- Rotate your monitor vertically.
+    - Right click on your Desktop
+    - Select `Display settings`
+    - Look for `Display orientation` and set it to `Portrait` or `Portrait (flipped)`
+    - Rotate your monitor 90°
 
 ??? tip "Automatically rotating"
 
     Right click on [this link](https://raw.githubusercontent.com/gmiwoj/Windows-Display-Orientation-Script/main/windows-display-orientation-script.ps1)
     then `Save Link As` and place the `windows-display-orientation-script.ps1` file in your game's directory.
 
-    Create a new `start.bat` file, and set its content to this, it will set your monitor as **Portrait (flipped)**,
-    and automatically rotate it back once you close the game.
+    Create a new `start.bat` file, and set its content to this, it will set your monitor as **Portrait (flipped)**, and automatically rotate it back once you close the game.
     
     ```ini
     powershell.exe -ExecutionPolicy Bypass -File "windows-display-orientation-script.ps1" 0 90
@@ -119,16 +119,13 @@
 
 ## Connecting to a network
 
-!!! info "By default, tetoco uses its own local network and saves data locally."
+!!! info "By default, tetoco uses its own local network and saves data locally"
 
     Please follow this step only if you have a network to connect to.
 
 ??? tip "Remote (Online Network)"
 
-    Open the automatically created configuration file `BepInEx\config\tetoco.cfg`.
-
-    Set `UseLocalServer` to **false**.
-
-    Then, set `RemoteServer` to the address provided by your network.
-    
-    Finally, set the `CardId` provided by your network.
+    - Open the automatically created configuration file `BepInEx\config\tetoco.cfg`
+    - Set `UseLocalServer` to **false**
+    - Then, set `RemoteServer` to the address provided by your network
+    - Finally, set the `CardId` provided by your network

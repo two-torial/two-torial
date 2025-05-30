@@ -1,6 +1,6 @@
-	!!! tip "Optional: Camera hook"
+    !!! tip "Optional: Camera hook"
 
-		With a webcam connected, you can:
+        With a webcam connected, you can:
         
         - Enable `IIDX Cam Hook (-iidxtdjcamhook)`
         - Make sure `IIDX Disable Cameras (-iidxdisablecams)` from the `Options` tab is disabled

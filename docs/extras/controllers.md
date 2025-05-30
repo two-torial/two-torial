@@ -93,7 +93,7 @@
       </div>
     </div>
 
-### Pop'n Music
+### pop'n music
 
 ??? tip "POPOLLER"
 

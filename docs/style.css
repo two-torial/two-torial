@@ -17,11 +17,10 @@ h1::after {
     block-size: 2px;
     margin-block: 0.5em;
     margin-inline: auto;
-    background: linear-gradient(90deg, 
-        transparent,
-        var(--md-primary-fg-color),
-        transparent
-    );
+    background: linear-gradient(90deg,
+            transparent,
+            var(--md-primary-fg-color),
+            transparent);
 }
 
 h2 {
@@ -37,9 +36,8 @@ h2::after {
     margin-block: 0.25em;
     margin-inline: auto;
     background: linear-gradient(90deg,
-        color-mix(in srgb, var(--md-typeset-color) 65%, white),
-        transparent
-    );
+            color-mix(in srgb, var(--md-typeset-color) 65%, white),
+            transparent);
 }
 
 /* Horizontal rule
@@ -51,10 +49,9 @@ hr {
     margin-block: 0.5em !important;
     margin-inline: auto !important;
     background: linear-gradient(90deg,
-        transparent,
-        var(--md-primary-fg-color), 
-        transparent
-    );
+            transparent,
+            var(--md-primary-fg-color),
+            transparent);
     border: 0;
 }
 
@@ -89,7 +86,7 @@ hr {
    MkDocs styles
    ========================================================================== */
 
-.md-typeset .tabbed-labels--linked > label > a {
+.md-typeset .tabbed-labels--linked>label>a {
     padding: .78125em 0.5em .625em;
 }
 
@@ -116,7 +113,7 @@ hr {
         flex-direction: column;
         align-items: flex-start;
     }
-    
+
     .controller-preview {
         inline-size: 100%;
         object-fit: contain;

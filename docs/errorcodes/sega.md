@@ -2,7 +2,7 @@
 
 !!! info "Synopsis"
 
-	This section contains various SEGA games error codes you might run across and potential steps to resolve them.
+    This section contains various SEGA games error codes you might run across and potential steps to resolve them.
 
 ## Universal
 
@@ -10,8 +10,8 @@
 
 !!! tip "Unexpected Error Occured"
 
-	Data is corrupt, incomplete, or incorrectly modified.  
-	Redownload data from trusted source.
+    Data is corrupt, incomplete, or incorrectly modified.  
+    Redownload data from trusted source.
 
 ### 0032
 

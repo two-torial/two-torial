@@ -11,24 +11,24 @@
 
 !!! tip ""
 
-	To make use of the Lightning Mode, which unlocks the subscreen and 120FPS, we need to go to the `contents\prop` folder and edit the `ea3-config.xml` file.
+    To make use of the Lightning Mode, which unlocks the subscreen and 120FPS, we need to go to the `contents\prop` folder and edit the `ea3-config.xml` file.
 
     We're interested in these lines:
 
-	```xml
-		<soft>
-			<model __type="str">LDJ</model>
-			<dest __type="str">J</dest>
-			<spec __type="str">A</spec>
-			<rev __type="str">A</rev>
-			<ext __type="str">2023090500</ext>
-		</soft>
-	```
+    ```xml
+        <soft>
+            <model __type="str">LDJ</model>
+            <dest __type="str">J</dest>
+            <spec __type="str">A</spec>
+            <rev __type="str">A</rev>
+            <ext __type="str">2023090500</ext>
+        </soft>
+    ```
 
     This is the line that determines if the game will run in Standard (60 FPS) or Lightning (120 FPS) mode.
 
     ```xml
-	<spec __type="str">A</spec>
+    <spec __type="str">A</spec>
     ```
 
     - ^^`A`^^ for Standard (LDJ-003, LDJ, 60 Hz)
@@ -63,12 +63,12 @@
     <model __type="str">LDJ</model>
     ```
 
-	The following line determines the game's region.
-	^^**You should never change this**^^. As you can change the language in-game.
+    The following line determines the game's region.
+    ^^**You should never change this**^^. As you can change the language in-game.
 
-	```xml
-	<dest __type="str">J</dest>
-	```
+    ```xml
+    <dest __type="str">J</dest>
+    ```
 
     ^^**You should never change this**^^. It should always say `A` for Resident.
 
@@ -86,6 +86,6 @@
     The following line determine what remote service URL `spice2x` is supposed to connect to.  
     There is ^^**no need to manually change this**^^ as `spice2x` will do it for us.
 
-	```xml
-	<services __type="str">http://localhost:8083</services>
+    ```xml
+    <services __type="str">http://localhost:8083</services>
     ```

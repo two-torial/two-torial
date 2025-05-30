@@ -22,7 +22,7 @@
     📄firewall.cfg
     ▶️game.bat
     ▶️pxGetHwinfo.exe
-    📄pxGetHwInfo.ini
+    📝pxGetHwInfo.ini
     📄system_config.json
     ```
 
@@ -52,8 +52,8 @@
     ```
     📂DEVICE
     ▶️inject.exe
-    📄mercuryhook.dll
-    📄segatools.ini
+    ⚙️mercuryhook.dll
+    📝segatools.ini
     ▶️start.bat
     ```
 

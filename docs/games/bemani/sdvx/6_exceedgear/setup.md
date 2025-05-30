@@ -7,18 +7,18 @@
 
 --8<-- "docs/snippets/common/data_readonly.md"
 
-	The **complete game data** should be approximately **20 GB or larger**.  
-	If your data is significantly smaller, you likely have an update archive instead of the full game data.
+    The **complete game data** should be approximately **20 GB or larger**.  
+    If your data is significantly smaller, you likely have an update archive instead of the full game data.
 
-	Here's what the expected data structure should look like: 
+    Here's what the expected data structure should look like: 
 
-	```
-	📂data
-	📂dev
-	📂ext
-	📂modules
-	📂prop
-	```
+    ```
+    📂data
+    📂dev
+    📂ext
+    📂modules
+    📂prop
+    ```
 
 --8<-- "docs/snippets/bemani/common/data_bad.md"
 
@@ -30,15 +30,15 @@
 
 !!! danger "Make sure you're using the right update for your current game version"
 
-	SDVX updates have `KFC` and one or two datecodes in their archive names.
+    SDVX updates have `KFC` and one or two datecodes in their archive names.
 
-	**Single datecode:** Contains one update (e.g., `KFC_NewDateCode.7z`)  
-	**Two datecodes:** Updates from the older to newer version (e.g., `KFC-OldDateCode-NewDateCode.rar`)
+    **Single datecode:** Contains one update (e.g., `KFC_NewDateCode.7z`)  
+    **Two datecodes:** Updates from the older to newer version (e.g., `KFC-OldDateCode-NewDateCode.rar`)
 
-	In the two-datecode example:
+    In the two-datecode example:
  
-	- `OldDateCode` is the older date, the game version required to apply this update
-	- `NewDateCode` is the newer date, and is the version you'll arrive at after applying the update
+    - `OldDateCode` is the older date, the game version required to apply this update
+    - `NewDateCode` is the newer date, and is the version you'll arrive at after applying the update
 
 --8<-- "docs/snippets/bemani/common/data_update.md"
 
@@ -46,15 +46,15 @@
 
 --8<-- "docs/snippets/bemani/common/spice2x64_install.md"
 
-	```
-	📂data
-	📂dev
-	📂ext
-	📂modules
-	📂prop
-	🌶️spice64.exe <---
-	🌶️spicecfg.exe <---
-	```
+    ```
+    📂data
+    📂dev
+    📂ext
+    📂modules
+    📂prop
+    🌶️spice64.exe <---
+    🌶️spicecfg.exe <---
+    ```
 
 --8<-- "docs/snippets/bemani/common/spice2x64_stubs.md"
 
@@ -136,53 +136,53 @@
 
 !!! tip ""
 
-	If you've followed all instructions correctly, you're finally ready to launch the game!
+    If you've followed all instructions correctly, you're finally ready to launch the game!
 
-	Run `spice64.exe`, press `Yes` when it asks for elevated privileges.
+    Run `spice64.exe`, press `Yes` when it asks for elevated privileges.
 
-	The game will go through a series of checks, let it run, if you've done everything properly they'll pass.
+    The game will go through a series of checks, let it run, if you've done everything properly they'll pass.
 
-	<img src="/img/bemani/sdvx/6_exceedgear/calibration/1.webp">
+    <img src="/img/bemani/sdvx/6_exceedgear/calibration/1.webp">
 
-	If you're seeing this screen, it means you need to calibrate your knobs.
+    If you're seeing this screen, it means you need to calibrate your knobs.
 
-	Press your `Test` key to go to the service menu.
-	
-	Instructions on how to navigate the menu are shown at the bottom of the screen:
+    Press your `Test` key to go to the service menu.
+    
+    Instructions on how to navigate the menu are shown at the bottom of the screen:
 
-	- Press `BT-A` to go up
-	- Press `BT-B` to go down
-	- Press `Start` to select
+    - Press `BT-A` to go up
+    - Press `BT-B` to go down
+    - Press `Start` to select
   
-	Select `I/O CHECK` and press `Start`.
+    Select `I/O CHECK` and press `Start`.
 
-	<img src="/img/bemani/sdvx/6_exceedgear/calibration/2.webp">
+    <img src="/img/bemani/sdvx/6_exceedgear/calibration/2.webp">
 
-	Select `CALIBRATION SETTINGS` and press `Start`.
+    Select `CALIBRATION SETTINGS` and press `Start`.
 
-	<img src="/img/bemani/sdvx/6_exceedgear/calibration/3.webp">
-	<img src="/img/bemani/sdvx/6_exceedgear/calibration/4.webp">
+    <img src="/img/bemani/sdvx/6_exceedgear/calibration/3.webp">
+    <img src="/img/bemani/sdvx/6_exceedgear/calibration/4.webp">
 
-	Select `CALIBRATION` and press `Start`.
+    Select `CALIBRATION` and press `Start`.
 
-	First, your left knob (`VOL-L` for keyboard players)
+    First, your left knob (`VOL-L` for keyboard players)
 
     - **Slowly turn** your **LEFT knob counterclockwise** (`VOL-L Left`) until the line says `COUNT = OK` then press `Start`.
-	- **Slowly turn** your **LEFT knob clockwise** (`VOL-L Right`) until the line says `COUNT = OK` then press `Start`.
+    - **Slowly turn** your **LEFT knob clockwise** (`VOL-L Right`) until the line says `COUNT = OK` then press `Start`.
 
-	Now same thing but for the right knob (`VOL-R` for keyboard players)
+    Now same thing but for the right knob (`VOL-R` for keyboard players)
 
     - **Slowly turn** your **RIGHT knob counterclockwise** (`VOL-R Left`) until the line says `COUNT = OK` then press `Start`.
-	- **Slowly turn** your **RIGHT knob clockwise** (`VOL-R Right`) until the line says `COUNT = OK` then press `Start`.
-	
-	<img src="/img/bemani/sdvx/6_exceedgear/calibration/5.webp">
+    - **Slowly turn** your **RIGHT knob clockwise** (`VOL-R Right`) until the line says `COUNT = OK` then press `Start`.
+    
+    <img src="/img/bemani/sdvx/6_exceedgear/calibration/5.webp">
 
-	Select `SAVE AND EXIT` and press `Start`.
+    Select `SAVE AND EXIT` and press `Start`.
 
-	<img src="/img/bemani/sdvx/6_exceedgear/calibration/6.webp">
+    <img src="/img/bemani/sdvx/6_exceedgear/calibration/6.webp">
 
-	Select `GAME MODE` and press `Start`.
-	
+    Select `GAME MODE` and press `Start`.
+    
 !!! success "You're all done! The game should load up properly now"
 
 ## Help

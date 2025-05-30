@@ -7,16 +7,16 @@
 
 --8<-- "docs/snippets/common/data_readonly.md"
 
-	The **complete game data** should be approximately **2.7 GB**.
-	
-	Here's what the expected data structure should look like: 
+    The **complete game data** should be approximately **2.7 GB**.
+    
+    Here's what the expected data structure should look like: 
 
-	```
-	📂data
-	📂dev
-	📂modules
-	📂prop
-	```
+    ```
+    📂data
+    📂dev
+    📂modules
+    📂prop
+    ```
 
 --8<-- "docs/snippets/bemani/common/data_bad.md"
 
@@ -24,14 +24,14 @@
 
 --8<-- "docs/snippets/bemani/common/spice2x64_install.md"
 
-	```
-	📂data
-	📂dev
-	📂modules
-	📂prop
-	🌶️spice64.exe <---
-	🌶️spicecfg.exe <---
-	```
+    ```
+    📂data
+    📂dev
+    📂modules
+    📂prop
+    🌶️spice64.exe <---
+    🌶️spicecfg.exe <---
+    ```
 
 --8<-- "docs/snippets/bemani/common/spice2x64_stubs.md"
 
@@ -61,19 +61,19 @@
   
 === "Analogs"
 
-	!!! info "This tab is used to bind analog controls like the disks"
+    !!! info "This tab is used to bind analog controls like the disks"
 
-	!!! warning "Ignore this tab if you play with a keyboard"
+    !!! warning "Ignore this tab if you play with a keyboard"
 
-	!!! tip "Bind your controller's disks"
+    !!! tip "Bind your controller's disks"
 
-		With a controller, instead of binding your disks in the `Buttons` tab, you need to:
+        With a controller, instead of binding your disks in the `Buttons` tab, you need to:
 
-		- Click `Bind`
-		- In `Device`, pick your controller
-		- In `Control`, pick the control that updates the preview when turning the corresponding disk
-		- Click `Close`, leaving the rest of the settings alone
-		- Repeat for your other disks
+        - Click `Bind`
+        - In `Device`, pick your controller
+        - In `Control`, pick the control that updates the preview when turning the corresponding disk
+        - Click `Close`, leaving the rest of the settings alone
+        - Repeat for your other disks
 
 === "Overlay"
 
@@ -129,17 +129,17 @@
 
 !!! tip ""
 
-	If you've followed all instructions correctly, you're finally ready to launch the game!
+    If you've followed all instructions correctly, you're finally ready to launch the game!
 
-	Run `spice64.exe`, press `Yes` when it asks for elevated privileges.
+    Run `spice64.exe`, press `Yes` when it asks for elevated privileges.
 
-	The game will go through a series of checks, let it run, if you've done everything properly they'll pass.
+    The game will go through a series of checks, let it run, if you've done everything properly they'll pass.
 
-	<img src="/img/bemani/museca/backupdata.webp">
+    <img src="/img/bemani/museca/backupdata.webp">
 
-	If you're seeing this screen, it means you need to press the `Test` button to initialize the game's backup data.
+    If you're seeing this screen, it means you need to press the `Test` button to initialize the game's backup data.
 
-	Once the game shows `BACKUP DATA: INITIALIZED`, restart the game.
+    Once the game shows `BACKUP DATA: INITIALIZED`, restart the game.
 
 !!! success "You're all done! The game should load up properly now"
 

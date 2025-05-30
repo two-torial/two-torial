@@ -78,7 +78,7 @@
 
 !!! warning "Configuring ongeki-io and MU3-input.dll"
 
-	When moving the zipped contents of `MU3Input`, move all folders **EXCEPT** the `segatools.ini` file into your `App\package` folder in a way that matches its file structure.
+    When moving the zipped contents of `MU3Input`, move all folders **EXCEPT** the `segatools.ini` file into your `App\package` folder in a way that matches its file structure.
     Modify the `[mu3io]` and `[aimeio]` sections of your existing `segatools.ini` file to look like the following:
 
     ```ini hl_lines="2 5"

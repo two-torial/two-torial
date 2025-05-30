@@ -7,4 +7,4 @@
 
     If extra directories or files are still present (executables, scripts, etc.), **remove them**.
 
-	**This also indicates tampered data, we strongly recommend obtaining clean data from elsewhere.**
+    **This also indicates tampered data, we strongly recommend obtaining clean data from elsewhere.**
