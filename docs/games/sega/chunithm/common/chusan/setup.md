@@ -18,9 +18,9 @@
 	📂firm
 	📂license
     📄firewall.cfg
-    📄game.bat
-    ▶️pwGetHwinfo.ini
-    📄pxGetHwInfo.ini
+    ▶️game.bat
+    ▶️pwGetHwinfo.exe
+    📝pxGetHwInfo.ini
     📄system_config.json
     ```
 
@@ -65,12 +65,12 @@
 
     ```
     📂DEVICE
-    📄chusanhook_x64.dll
-    📄chusanhook_x86.dll
+    ⚙️chusanhook_x64.dll
+    ⚙️chusanhook_x86.dll
     📄config_hook.json
     ▶️inject_x64.exe
     ▶️inject_x86.exe
-    📄segatools.ini
+    📝segatools.ini
     ▶️start.bat
     ```
 

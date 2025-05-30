@@ -16,9 +16,9 @@
     📂license
     📂package
     📄firewall.cfg
-    📄game.bat
+    ▶️game.bat
     ▶️pxGetHwinfo.exe
-    📄pxGetHwInfo.ini
+    📝pxGetHwInfo.ini
     ▶️RotateDisplay.exe
     📄system_config.json
     ```
@@ -62,19 +62,19 @@
     - Obtain unprotected (also called "unpacked" or "decrypted" by the community) copies of of the following folders and files:
 
     ```
-    📄amdaemon.exe
-    📄mu3.exe
+    ▶️amdaemon.exe
+    ▶️mu3.exe
     📂mu3_Data
     ┣━📂Plugins
-    ┃  ┣━📄amdaemon_api.dll
-    ┃  ┣━📄chiffre.dll
-    ┃  ┣━📄libhttp.dll
-    ┃  ┗━📄QR_Image.dll
+    ┃  ┣━⚙️amdaemon_api.dll
+    ┃  ┣━⚙️chiffre.dll
+    ┃  ┣━⚙️libhttp.dll
+    ┃  ┗━⚙️QR_Image.dll
     ┗━📂Managed
-       ┣━📄AMDaemon.NET.dll
-       ┣━📄Assembly-CSharp-firstpass.dll
-       ┗━📄Assembly-CSharp.dll
-    📄mu3.ini
+       ┣━⚙️AMDaemon.NET.dll
+       ┣━⚙️Assembly-CSharp-firstpass.dll
+       ┗━⚙️Assembly-CSharp.dll
+    📝mu3.ini
     ```
 
     - Copy all of the above to your data's `App/Package` folder
@@ -123,8 +123,8 @@
     ```
     📂DEVICE
     ▶️inject.exe
-    📄mu3hook.dll
-    📄segatools.ini
+    ⚙️mu3hook.dll
+    📝segatools.ini
     ▶️start.bat
     ```
 

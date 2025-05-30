@@ -7,7 +7,7 @@
         ```
         📂Game Folder
         ┣━📂App
-        ┃ ┗━📄segatools.ini
+        ┃ ┗━📝segatools.ini
         ┗━📂Option
         ```
 

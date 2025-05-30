@@ -16,9 +16,9 @@
     📂license
 	📂package
     📄firewall.cfg
-    📄game.bat
+    ▶️game.bat
     ▶️pwGetHwinfo.exe
-    📄pxGetHwInfo.ini
+    📝pxGetHwInfo.ini
     📄system_config.json
     ```
 --8<-- "docs/snippets/sega/common/data_bad.md"
@@ -63,16 +63,16 @@
     - Obtain unprotected (also called "unpacked" or "decrypted" by the community) copies of of the following folders and files:
 
     ```
-    📄amdaemon.exe
-    📄Sinmai.exe
+    ▶️amdaemon.exe
+    ▶️Sinmai.exe
     📂Sinmai_Data
     ┣━📂Plugins
-    ┃  ┣━📄amdaemon_api.dll
-    ┃  ┗━📄Cake.dll (JPN/SDEZ only)
+    ┃  ┣━⚙️amdaemon_api.dll
+    ┃  ┗━⚙️Cake.dll (JPN/SDEZ only)
     ┗━📂Managed
-       ┣━📄AMDaemon.NET.dll
-       ┗━📄Assembly-CSharp.dll
-    📄mai2.ini
+       ┣━⚙️AMDaemon.NET.dll
+       ┗━⚙️Assembly-CSharp.dll
+    📝mai2.ini
     ```
 
     - Copy all of the above to your data's `App/Package` folder
@@ -121,8 +121,8 @@
     ```
     📂DEVICE
     ▶️inject.exe
-    📄mai2hook.dll
-    📄segatools.ini
+    ⚙️mai2hook.dll
+    📝segatools.ini
     ▶️start.bat
     ```
 

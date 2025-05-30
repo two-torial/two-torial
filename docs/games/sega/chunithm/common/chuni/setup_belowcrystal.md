@@ -18,9 +18,9 @@
 	📂firm
 	📂startup
     📄firewall.cfg
-    📄game.bat
-    ▶️oxGetHwInfo.ini
-    📄oxGetHwInfo.ini
+    ▶️game.bat
+    ▶️oxGetHwInfo.exe
+    📝oxGetHwInfo.ini
     ```
 
 --8<-- "docs/snippets/sega/common/data_bad.md"
@@ -59,9 +59,9 @@
 
     ```
     📂DEVICE
-    📄chunihook.dll
+    ⚙️chunihook.dll
     ▶️inject.exe
-    📄segatools.ini
+    📝segatools.ini
     ▶️start.bat
     ```
 
