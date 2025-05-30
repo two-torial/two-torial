@@ -1,0 +1,1 @@
+!!! danger "Game data cannot run on `E:\` or `Y:\` drives, use a different drive letter"

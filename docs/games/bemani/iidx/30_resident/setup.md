@@ -31,7 +31,7 @@
 	- A popup will appear, select `Apply changes to this folder, subfolder and files` and press `OK`.
 	- Finally, click `OK` again to exit out of properties.
 
-	You should end up with a file structure with a few folders only, as follows.
+	You should end up with a file structure with a few folders only, as follows:
 
 <img src="/img/bemani/iidx/common/setup/data.webp">
 

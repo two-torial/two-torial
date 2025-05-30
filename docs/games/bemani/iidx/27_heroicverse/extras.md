@@ -55,7 +55,7 @@
 ## Audio Related Crash
 
 !!! tip ""
-	If you get a stack trace in your `log.txt` that looks like this...
+	If you get a stack trace in your `log.txt` that looks like this:..
 
 	`exception raised: EXCEPTION_ACCESS_VIOLATION`
 
