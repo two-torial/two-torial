@@ -57,7 +57,7 @@
 
 !!! tip ""
 
-    maimai DX executables are protected and will not run on a regular computer.
+    O.N.G.E.K.I. executables are protected and will not run on a regular computer.
 
     - Obtain unprotected (also called "unpacked" or "decrypted" by the community) copies of of the following folders and files:
 
