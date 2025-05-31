@@ -184,7 +184,7 @@
 
     Navigate to **ゲーム設定** (`GAME ASSIGNMENTS`, the 6th option).
 
-    <img src="/img/sega/ongeki/common/setup/servicemenu/1_gamesettings.webp">
+    <img class="portrait" src="/img/sega/ongeki/common/setup/servicemenu/1_gamesettings.webp">
 
 
     Select **グループ内基準機の設定** (`SET STANDARD IN GROUP`, the second option)
