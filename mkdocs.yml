@@ -269,6 +269,7 @@ nav:
     - "Asphyxia": "extras/asphyxia.md"
     - "Audio": "extras/audio.md"
     - "Cab-to-cab (SoftEther)": "extras/softether.md"
+    - "Cab-to-cab (ZeroTier)": "extras/zerotier.md"
     - "Controllers": "extras/controllers.md"
     - "Modding (Bemani)": "extras/datamods.md"
     - "Modding (Unity)": "extras/unity.md"
