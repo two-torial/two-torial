@@ -243,10 +243,12 @@ nav:
           - "Game Setup": "games/sega/ongeki/brightmemory/setup.md"
           - "Controllers": "games/sega/ongeki/brightmemory/controllers.md"
           - "Troubleshooting": "games/sega/ongeki/brightmemory/troubleshooting.md"
+          - "Cab-to-Cab": "games/sega/ongeki/brightmemory/c2c.md"
         - "Re:Fresh":
           - "Game Setup": "games/sega/ongeki/refresh/setup.md"
           - "Controllers": "games/sega/ongeki/refresh/controllers.md"
           - "Troubleshooting": "games/sega/ongeki/refresh/troubleshooting.md"
+          - "Cab-to-Cab": "games/sega/ongeki/refresh/c2c.md"
       - "WACCA":
         - "Reverse":
           - "Game Setup": "games/sega/wacca/reverse/setup.md"
