@@ -4653,9 +4653,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#configuring-segatoolsini-game-assignments" class="md-nav__link">
+  <a href="#initial-setup" class="md-nav__link">
     <span class="md-ellipsis">
-      Configuring segatools.ini &amp; Game Assignments
+      Initial setup
     </span>
   </a>
   
@@ -4664,16 +4664,16 @@
         <li class="md-nav__item">
   <a href="#how-to-link" class="md-nav__link">
     <span class="md-ellipsis">
-      How to Link?
+      How to link?
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#troubleshooting" class="md-nav__link">
+  <a href="#help" class="md-nav__link">
     <span class="md-ellipsis">
-      Troubleshooting
+      Help
     </span>
   </a>
   
@@ -7448,6 +7448,29 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ongeki/brightmemory/c2c/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cab-to-Cab
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -7553,6 +7576,29 @@
   
   <span class="md-ellipsis">
     Troubleshooting
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ongeki/refresh/c2c/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cab-to-Cab
     
   </span>
   
@@ -8281,12 +8327,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../extras/softether/" class="md-nav__link">
+      <a href="../../../../../extras/zerotier/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Cab-to-cab (SoftEther)
+    Cab-to-cab (ZeroTier)
     
   </span>
   
@@ -8422,9 +8468,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#configuring-segatoolsini-game-assignments" class="md-nav__link">
+  <a href="#initial-setup" class="md-nav__link">
     <span class="md-ellipsis">
-      Configuring segatools.ini &amp; Game Assignments
+      Initial setup
     </span>
   </a>
   
@@ -8433,16 +8479,16 @@
         <li class="md-nav__item">
   <a href="#how-to-link" class="md-nav__link">
     <span class="md-ellipsis">
-      How to Link?
+      How to link?
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#troubleshooting" class="md-nav__link">
+  <a href="#help" class="md-nav__link">
     <span class="md-ellipsis">
-      Troubleshooting
+      Help
     </span>
   </a>
   
@@ -8477,67 +8523,56 @@
 <div class="admonition danger">
 <p class="admonition-title">You are most likely to have success with Multiplayer when all users are using the SAME data and options, from the same sources. Verify that each person can run the game normally before attempting to network them together.</p>
 </div>
+<h2 id="initial-setup">Initial setup</h2>
 <div class="admonition tip">
-<ul>
-<li>Chunithm expects the cabinets to be using specific IP addresses, 192.168.139.<strong>11/12/13/14</strong></li>
-<li>To achieve this over the internet, we can use SoftEther VPN. Refer to the <a href="../../../../../extras/softether/">Setting Up SoftEther VPN Guide</a> for more information.</li>
-</ul>
-</div>
-<h3 id="configuring-segatoolsini-game-assignments">Configuring segatools.ini &amp; Game Assignments</h3>
-<div class="admonition tip">
-<p class="admonition-title">segatools.ini</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>[netnev]
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>enable=1
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>addrSuffix= last 2 digits of your SoftEther IP
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>[keychip]
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>enable=1
-</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>subnet=192.168.139.0
-</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>id=(Everyone needs a seperate keychip. If you play on a remote network, chances are you already have your own keychip. If not, you can use the example keychips below.)
-</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>;example keychips: A61E-01D02321145 ; A61E-01A30831145 ; A61E-01E38091145 ; A61E-01E46241145
-</span></code></pre></div>
+<p class="admonition-title">Network</p>
+<p>Every machine needs to be on the same LAN.<br />
+If you wish to achieve that over the internet, follow the <a href="../../../../../extras/zerotier/">ZeroTier setup guide</a>.</p>
 </div>
 <div class="admonition tip">
 <p class="admonition-title">GAME ASSIGNMENTS</p>
 <ul>
 <li>
-<p>After saving your segatools.ini, launch the game and go into the Service Menu &gt; and go to <code>GAME ASSIGNMENTS</code>.
+<p>Open the Service Menu and navigate to <code>GAME ASSIGNMENTS</code>
 <img src="/img/sega/chunithm/common/c2c/service.webp"></p>
 </li>
 <li>
-<p>Enable <code>CABINET-TO-CABINET PLAY</code>, and make sure all machine are on the same group (Group A for example).
+<p>Make sure all machines are on the same group (Group A for example)
 <img src="/img/sega/chunithm/common/c2c/group.webp"></p>
 </li>
 <li>
-<p>Set one machine to <code>STANDARD</code>, and all other machines to <code>FOLLOW THE STANDARD</code> .
+<p>Set one machine to <code>STANDARD</code>, and all other machines to <code>FOLLOW THE STANDARD</code>
 <img src="/img/sega/chunithm/common/c2c/standard.webp">
 <img src="/img/sega/chunithm/common/c2c/followstandard.webp"></p>
 </li>
 </ul>
-<p>Exit the Service Menu and load into Attract Mode. If the game passes the Group Check then chances are you're good to go! You can now login to a credit and open a cab-to-cab link request to check if the connection is working properly!</p>
+<p>Exit the Service Menu and load into Attract Mode. If the game passes the Group Check then chances are you're good to go! You can now login to a credit and open a cab-to-cab link request to check if the connection is working properly.</p>
 </div>
-<h3 id="how-to-link">How to Link?</h3>
+<h2 id="how-to-link">How to link?</h2>
 <div class="admonition info">
-<p class="admonition-title">If you're new to Chunithm and have never tried link-play before and you have no idea how, keep reading.</p>
+<p class="admonition-title">If you're new to CHUNITHM and have never tried link-play before and you have no idea how, keep reading</p>
 <ul>
 <li>
-<p>Login to a credit.</p>
+<p>Login to a credit</p>
 </li>
 <li>
-<p>If you're hosting a cab-to-cab session, choose a song first, then scroll to the far left and press Confirm. The cab-to-cab request is now open.
+<p>If you're hosting a cab-to-cab session, choose a song first, then scroll to the far left and press <code>Confirm</code><br />
+The cab-to-cab request is now open
 <img src="/img/sega/chunithm/common/c2c/host.webp"></p>
 </li>
 <li>
-<p>If you're connecting, navigate to the "Cabinet-to-Cabinet Play" tab and wait for other players to create a session.
+<p>If you're connecting, navigate to the <code>Cabinet-to-Cabinet Play</code> tab and wait for other players to create a session
 <img src="/img/sega/chunithm/common/c2c/client.webp"></p>
 </li>
 </ul>
 <p>If you are able to see each other's session, congrats! You can now enjoy some cab-to-cab chain action!</p>
 </div>
-<h3 id="troubleshooting">Troubleshooting</h3>
+<h2 id="help">Help</h2>
 <div class="admonition warning">
-<p class="admonition-title">Have any other issues?</p>
-<p>Check out the <a href="../troubleshooting/">Troubleshooting</a> and <a href="../../../../../errorcodes/sega/">Error Codes</a> pages.</p>
+<p class="admonition-title">Something's wrong?</p>
+<p>Make sure you've followed all steps correctly and also read other relevant guides.</p>
+<p>Still stuck? You can join our Discord community server for support!<br />
+Click on the Discord logo at the bottom right of the page.</p>
 </div>
 
 
