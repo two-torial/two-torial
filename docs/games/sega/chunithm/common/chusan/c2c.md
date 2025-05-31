@@ -4,31 +4,7 @@
 
 !!! danger "You are most likely to have success with Multiplayer when all users are using the SAME data and options, from the same sources. Verify that each person can run the game normally before attempting to network them together."
 
-!!! tip ""
-
-    - Chunithm expects the cabinets to be using specific IP addresses, 192.168.139.**11/12/13/14**
-    - To achieve this over the internet, we can use SoftEther VPN. Refer to the [Setting Up SoftEther VPN Guide](/extras/softether.md) for more information.
-
-### Configuring segatools.ini & Game Assignments
-
-!!! tip "segatools.ini"
-
-    ```
-    [netnev]
-    enable=1
-    addrSuffix= last 2 digits of your SoftEther IP
-
-    [keychip]
-    enable=1
-    subnet=192.168.139.0
-    id=(Everyone needs a seperate keychip. If you play on a remote network, chances are you already have your own keychip. If not, you can use the example keychips below.)
-    ;example keychips: A61E-01D02321145 ; A61E-01A30831145 ; A61E-01E38091145 ; A61E-01E46241145
-
-    [system]
-    dipsw1=1
-    ;This has changed since Luminous. Previously if you wish to perform cab-to-cab link, you need to set this to 1 on the Server machine, and 0 on all other client machines.
-    ;This change is no longer needed, just keep this set to 1 on all machines.
-    ```
+### Game Assignments
 
 !!! tip "GAME ASSIGNMENTS"
 
