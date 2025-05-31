@@ -39,9 +39,13 @@
 
 !!! info "Installation instructions"
 
-    [Any2WACCAi](https://gitea.tendokyu.moe/Dniel97/SEGAguide/wiki/SDFE#any2waccai-installation)
-
+    [Any2WACCAi](https://gitea.tendokyu.moe/Dniel97/SEGAguide/wiki/SDFE#any2waccai-installation)  
     [Toucca](https://github.com/BlueGlassBlock/toucca/?tab=readme-ov-file#setup)
+
+    !!! warning "com0com issues"
+
+        If you're getting errors such as `Could not find file 'COM5'`, and particularly if you're on Windows 11, com0com v3 may be causing issues.  
+        Install [com0com v2](https://sourceforge.net/projects/com0com/files/com0com/2.2.2.0/com0com-2.2.2.0-x64-fre-signed.zip/download) instead.
 
 ## WACVR
 
