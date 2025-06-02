@@ -42,7 +42,7 @@
     - Create a `modules` folder.
     - Move all `.dll` files inside of it so you end up with a structure as shown above.
 
-    If extra files are present next to your folders, such as executables, scripts, etc. **remove them**.  
+    If extra files are present next to your folders, such as executables, scripts, etc., **remove them**.  
     **This also means your data was tampered with and we strongly recommend getting new data from somewhere else.**
 
 !!! info "If you don't need to update your data, you can skip over to the [Installing spice2x](#installing-spice2x) section."
