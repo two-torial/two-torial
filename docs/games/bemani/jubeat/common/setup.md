@@ -53,13 +53,13 @@
 
 --8<-- "docs/snippets/bemani/common/spice2x32_install.md"
 
-    ```
+    ``` hl_lines="5-6"
     📂data
     📂modules
     📂prop
     ⚙️msvcr100.dll
-    🌶️spice.exe <---
-    🌶️spicecfg.exe <---
+    🌶️spice.exe
+    🌶️spicecfg.exe
     ```
 
 --8<-- "docs/snippets/bemani/common/spice2x32_stubs.md"

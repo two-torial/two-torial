@@ -63,14 +63,14 @@
     - Visit [spice2x.github.io](https://spice2x.github.io) to download the latest release
     - Extract both `spice.exe` and `spicecfg.exe` from the archive into your game's directory
   
-    ```
+    ``` hl_lines="6-7"
     📂arkdata
     📂com
     📂data
     📂modules
     📂prop
-    🌶️spice.exe <---
-    🌶️spicecfg.exe <---
+    🌶️spice.exe
+    🌶️spicecfg.exe
     ```
 
 ??? tip "For MDX-003 (64 bits)"
@@ -78,14 +78,14 @@
     - Visit [spice2x.github.io](https://spice2x.github.io) to download the latest release
     - Extract both `spice64.exe` and `spicecfg.exe` from the archive into your game's directory
   
-    ```
+    ``` hl_lines="6-7"
     📂arkdata
     📂com
     📂data
     📂modules
     📂prop
-    🌶️spice64.exe <---
-    🌶️spicecfg.exe <---
+    🌶️spice64.exe
+    🌶️spicecfg.exe
     ```
 
 ## Configuring spice2x
