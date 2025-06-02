@@ -50,13 +50,13 @@
 
 --8<-- "docs/snippets/bemani/common/spice2x64_install.md"
 
-    ```
+    ``` hl_lines="5-6"
     📂data
     📂dev
     📂modules
     📂prop
-    🌶️spice64.exe <---
-    🌶️spicecfg.exe <---
+    🌶️spice64.exe
+    🌶️spicecfg.exe
     ```
 
 --8<-- "docs/snippets/bemani/common/spice2x64_stubs.md"

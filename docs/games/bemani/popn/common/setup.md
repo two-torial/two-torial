@@ -44,13 +44,13 @@
 
 --8<-- "docs/snippets/bemani/common/spice2x32_install.md"
 
-    ```
+    ``` hl_lines="5-6"
     📂data
     📂dev
     📂modules
     📂prop
-    🌶️spice.exe <---
-    🌶️spicecfg.exe <---
+    🌶️spice.exe
+    🌶️spicecfg.exe
     ```
 
 ## Configuring spice2x

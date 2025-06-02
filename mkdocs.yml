@@ -91,10 +91,13 @@ nav:
         - "WORLD":
           - "Game Setup": "games/bemani/ddr/world/setup.md"
           - "Troubleshooting": "games/bemani/ddr/world/troubleshooting.md"
-      - "Jubeat":
-        - "Clan":
-          - "Game Setup": "games/bemani/jubeat/clan/setup.md"
-          - "Troubleshooting": "games/bemani/jubeat/clan/troubleshooting.md"
+      - "jubeat":
+        - "festo":
+          - "Game Setup": "games/bemani/jubeat/festo/setup.md"
+        - "Ave.":
+          - "Game Setup": "games/bemani/jubeat/avenue/setup.md"
+        - "beyond the Ave.":
+          - "Game Setup": "games/bemani/jubeat/beyondtheavenue/setup.md"
       - "GITADORA":
         - "Matixx":
           - "Game Setup": "games/bemani/gitadora/matixx/setup.md"
@@ -282,6 +285,7 @@ not_in_nav: |
   games/bemani/sdvx/common
   games/bemani/ddr/common
   games/bemani/popn/common
+  games/bemani/jubeat/common
   games/sega/chunithm/common
   games/sega/maimaidx/common
   games/sega/ongeki/common

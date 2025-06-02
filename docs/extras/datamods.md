@@ -33,7 +33,7 @@
 
     If you're confused, the following may help you understand what this means.
 
-    ```
+    ``` hl_lines="6-11"
     📂data
     ┣━📂graphic
     ┣━📂info
@@ -41,10 +41,10 @@
     ┗━📂sound
     📂data_mods 
     ┗━📂mod_folder
-       ┣━📂graphic <--- Files that modify data/graphic go here
-       ┣━📂info <--- Files that modify data/info go here
-       ┣━📂movie <--- Files that modify data/movie go here
-       ┗━📂sound <--- Files that modify data/sound go here
+       ┣━📂graphic - Files that modify data/graphic go here
+       ┣━📂info    - Files that modify data/info go here
+       ┣━📂movie   - Files that modify data/movie go here
+       ┗━📂sound   - Files that modify data/sound go here
     📂dev
     📂modules
     📂prop

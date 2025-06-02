@@ -94,7 +94,7 @@
 
     Setup error in pop'n Usaneko. Follow [Game Setup](/games/bemani/popn/usaneko/setup.md) and use proper `-url` and `-p` parameters in SpiceTools.
 
-## Jubeat
+## jubeat
     
 ### 5-2500-0000
 
