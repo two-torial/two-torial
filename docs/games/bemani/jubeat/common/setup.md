@@ -181,7 +181,7 @@
 
     Select `SAVE AND EXIT` then `EXIT`.
 
-    Finally, close the game and start it back.
+    Finally, restart the game.
     
 !!! success "You're all done! The game should load up properly now"
 
