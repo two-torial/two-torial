@@ -7,7 +7,7 @@
 
 ## Standard & Lightning modes
 
-!!! warning "Lightning mode requires a 120 Hz capable monitor."
+!!! warning "Lightning mode requires a 120 Hz capable monitor"
 
 !!! tip ""
 

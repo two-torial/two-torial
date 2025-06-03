@@ -45,11 +45,11 @@
     If extra files are present next to your folders, such as executables, scripts, etc., **remove them**.  
     **This also means your data was tampered with and we strongly recommend getting new data from somewhere else.**
 
-!!! info "If you don't need to update your data, you can skip over to the [Installing spice2x](#installing-spice2x) section."
+!!! info "If you don't need to update your data, you can skip over to the [Installing spice2x](#installing-spice2x) section"
 
 ## Updating data
 
-??? danger "Please make sure you're using the right update for your current data."
+??? danger "Please make sure you're using the right update for your current data"
 
     Patches re-uploaded by the community tend to be named `LDJ-DATECODE-to-DATECODE`.  
 
@@ -95,7 +95,7 @@
 
 ## Configuring spice2x
 
-!!! info "Open `spicecfg.exe`, each following sub-section corresponds to a tab at the top."
+!!! info "Open `spicecfg.exe`, each following sub-section corresponds to a tab at the top"
 
 ### Buttons
 
@@ -153,13 +153,13 @@
 
 ### Cards
 
-!!! info "Covered in the [Connecting to a network](#connecting-to-a-network) section."
+!!! info "Covered in the [Connecting to a network](#connecting-to-a-network) section"
 
 ### Patches
 
-!!! info "Go through the [spice2x Patching](/extras/patchsp2x.md) page to import patches."
+!!! info "Go through the [spice2x Patching](/extras/patchsp2x.md) page to import patches"
 
-!!! danger "As a general rule of thumb, if you're not sure what a patch does or you're not absolutely certain you need it, leave it alone, regardless of recommendations below."
+!!! danger "As a general rule of thumb, if you're not sure what a patch does or you're not absolutely certain you need it, leave it alone, regardless of recommendations below"
 
 ??? tip "General patches"
 
@@ -174,15 +174,15 @@
 
 ### API
 
-!!! warning "Leave everything at default unless you know what you're doing."
+!!! warning "Leave everything at default unless you know what you're doing"
 
 ### Options
 
-!!! info "If you don't know what an option does, hover over the its name with your mouse."
+!!! info "If you don't know what an option does, hover over the its name with your mouse"
 
     <img src="/img/common/spice2x_option_hover.webp">
 
-!!! danger "Be very careful changing options you don't understand as it may cause issues."
+!!! danger "Be very careful changing options you don't understand as it may cause issues"
 
 !!! tip "Required"
 
@@ -213,7 +213,7 @@
 
 ### Advanced & Development
 
-!!! warning "Leave everything at default unless you know what you're doing."
+!!! warning "Leave everything at default unless you know what you're doing"
 
 ## Connecting to a network
 
@@ -244,7 +244,7 @@
 
 ## Pre-launch requirements
 
-!!! info "These steps are required, otherwise your game won't run."
+!!! info "These steps are required, otherwise your game won't run"
 
 ### VCRedist & DirectX
 
@@ -269,11 +269,11 @@
 
 ### Standard / Lightning / Language settings
 
-!!! info "Read through the [Extra Information](extras.md) page and edit your `prop\ea3-config.xml` file if necessary."
+!!! info "Read through the [Extra Information](extras.md) page and edit your `prop\ea3-config.xml` file if necessary"
 
 ### First launch
 
-!!! danger "If you have any issues running the game, refer to the [Troubleshooting](troubleshooting.md) page."
+!!! danger "If you have any issues running the game, refer to the [Troubleshooting](troubleshooting.md) page"
 
 ### BACKUP DATA
 
@@ -348,7 +348,7 @@
 
 ## Carding in
 
-!!! info "Before carding in, you have the option of changing the game's language by pressing your `EFFECT` key."
+!!! info "Before carding in, you have the option of changing the game's language by pressing your `EFFECT` key"
 
 ??? tip "For LDJ (Standard)"
 

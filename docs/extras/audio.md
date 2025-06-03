@@ -125,7 +125,7 @@
 
 ## ASIO Recording/Streaming
 
-!!! info "This guide assumes your game already uses ASIO and you want to record/stream with audio."
+!!! info "This guide assumes your game already uses ASIO and you want to record/stream with audio"
 
 ### Required software
 

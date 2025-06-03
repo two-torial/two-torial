@@ -145,7 +145,7 @@
 
 ## MÚSECA PLUS
 
-!!! info "Since MÚSECA is no longer receiving official updates, community mods like [MÚSECA PLUS](https://museca.plus/) exist to enhance the game with additional content and English translations."
+!!! info "Since MÚSECA is no longer receiving official updates, community mods like [MÚSECA PLUS](https://museca.plus/) exist to enhance the game with additional content and English translations"
 
 ## Help
 

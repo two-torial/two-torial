@@ -39,11 +39,11 @@
 
     If an error occurs, you didn't run the command prompt as administrator or you messed up the location of the file.
 
-!!! danger "You **can not** move or delete :material-file:`CLVSD.ax` **at all**, otherwise it will revert the changes and you have to install it again."
+!!! danger "You **can not** move or delete :material-file:`CLVSD.ax` **at all**, otherwise it will revert the changes and you have to install it again"
 
 ### My game crashes immediately!
 
-!!! warning "This can have multiple reasons. This fix shouldn't be needed for GOLD since we're addressing them in the guide. We'll add it anyway just in case."
+!!! warning "This can have multiple reasons. This fix shouldn't be needed for GOLD since we're addressing them in the guide. We'll add it anyway just in case"
 
 #### Wrong data structure
 

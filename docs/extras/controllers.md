@@ -7,7 +7,7 @@
 
 ### beatmania IIDX
 
-!!! info "Lightning cabinets typically use Sanwa buttons, 50g springs, 50g microswitches."
+!!! info "Lightning cabinets typically use Sanwa buttons, 50g springs, 50g microswitches"
 
 ??? tip "PHOENIXWAN+ LMT"
 
@@ -43,7 +43,7 @@
 
 ### Sound Voltex
 
-!!! info "Valkyrie cabinets typically use Sanwa buttons, 20g springs, 100g microswitches."
+!!! info "Valkyrie cabinets typically use Sanwa buttons, 20g springs, 100g microswitches"
 
 ??? tip "FAUCETWO+"
 
@@ -258,7 +258,7 @@
 
 ### Taiko no Tatsujin
 
-!!! info "Many of these controllers offer different configurations. Make sure to pick the correct one for the plaform(s) you plan to play on."
+!!! info "Many of these controllers offer different configurations. Make sure to pick the correct one for the plaform(s) you plan to play on"
 
 #### Arcade-accurate
 

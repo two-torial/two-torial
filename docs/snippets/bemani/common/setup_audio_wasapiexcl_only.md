@@ -1,6 +1,6 @@
 !!! info "Check out our general [Audio](/extras/audio.md) guide to understand audio modes better, at least the TL;DR"
 
-!!! danger "This game only supports WASAPI Exclusive mode. Some audio devices may not support this."
+!!! danger "This game only supports WASAPI Exclusive mode. Some audio devices may not support this"
 
 !!! tip ""
 

@@ -64,7 +64,7 @@
 
 ## Configuring Bemanitools
 
-!!! info "To configure your keybinds, open your :material-file:`config.bat` file."
+!!! info "To configure your keybinds, open your :material-file:`config.bat` file"
 
 ### Buttons
 
@@ -108,7 +108,7 @@
 
 ### Configuring Bemanitools for a network
 
-!!! tip "Head over to the `Network` tab."
+!!! tip "Head over to the `Network` tab"
 
 !!! tip ""
     Now we will set up our PIN pad and card.
@@ -119,7 +119,7 @@
     - Grab your card, create a :material-file-document-edit:`.txt` and name it however you like. In this example it's called :material-file-document-edit:`card.txt`
     - Place the file in a location that is easily accessible and you won't forget. In this case it's in a seperate folder.
     
-!!! info "If you don't have a numpad, make sure to tick `Use top keyboard row for PIN pad input`. This will also change the `Card In` button to `Backspace`."
+!!! info "If you don't have a numpad, make sure to tick `Use top keyboard row for PIN pad input`. This will also change the `Card In` button to `Backspace`"
 
 <img src="/img/bemani/iidx/10thstyle/setup/2.webp">
 
@@ -211,7 +211,7 @@
 
 ## First launch
 
-!!! danger "If you have any issues running the game, refer to the [Troubleshooting](troubleshooting.md) page."
+!!! danger "If you have any issues running the game, refer to the [Troubleshooting](troubleshooting.md) page"
 
 ### BACKUP DATA
 
