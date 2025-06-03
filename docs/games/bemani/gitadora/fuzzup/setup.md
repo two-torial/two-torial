@@ -24,7 +24,7 @@
 
     Since GITADORA has a separate mode for both Guitar and Drums, the configuration will be split into three sections.<br>This section will cover the general configuration that is not specific to either mode.
 
-!!! info "Open `spicecfg.exe`, each following sub-section corresponds to a tab at the top."
+!!! info "Open `spicecfg.exe`, each following sub-section corresponds to a tab at the top"
 
 ### Buttons
 
@@ -39,17 +39,17 @@
 
 ### Cards
 
-!!! info "Covered in the [Connecting to a Network](#connecting-to-a-network) section."
+!!! info "Covered in the [Connecting to a Network](#connecting-to-a-network) section"
 
 ### Patches
 
-!!! info "Go through the [spice2x Patching](/extras/patchsp2x.md) page to import patches."
+!!! info "Go through the [spice2x Patching](/extras/patchsp2x.md) page to import patches"
 
-!!! danger "To prevent issues, avoid patching things you don't need or understand."
+!!! danger "To prevent issues, avoid patching things you don't need or understand"
 
 ### Options
 
-!!! danger "Be very careful changing options you don't understand as it may cause issues."
+!!! danger "Be very careful changing options you don't understand as it may cause issues"
 
 !!! tip "Required"
 
@@ -72,7 +72,7 @@
 
 #### Buttons
 
-!!! tip "Set up your guitar as right-handed. Lefty mode is software-based."
+!!! tip "Set up your guitar as right-handed. Lefty mode is software-based"
 
 !!! tip ""
 
@@ -98,7 +98,7 @@
 
 ### Advanced
 
-!!! warning "Not setting these values will cause the game to not boot into either mode."
+!!! warning "Not setting these values will cause the game to not boot into either mode"
 
 !!! tip "Required"
 
@@ -126,7 +126,7 @@
 
 ### Advanced
 
-!!! warning "Not setting these values will cause the game to not boot into either mode."
+!!! warning "Not setting these values will cause the game to not boot into either mode"
 
 !!! tip "Required"
 
@@ -164,7 +164,7 @@
 
 ## Pre-launch Requirements
 
-!!! info "These steps are required, otherwise your game won't run."
+!!! info "These steps are required, otherwise your game won't run"
 
 ### VCRedist & DirectX
 
@@ -175,7 +175,7 @@
 
 ### Audio
 
-!!! info "GITADORA FUZZ-UP currently only supports WASAPI exclusive mode."
+!!! info "GITADORA FUZZ-UP currently only supports WASAPI exclusive mode"
 
 !!! tip ""
 
@@ -191,7 +191,7 @@
 
 ## First Launch
 
-!!! danger "If you have any issues running the game at this point, refer to the [Troubleshooting](troubleshooting.md) page."
+!!! danger "If you have any issues running the game at this point, refer to the [Troubleshooting](troubleshooting.md) page"
 
 !!! tip ""
 

@@ -18,6 +18,7 @@
 !!! info "Check out spice2x's [PC optimization](https://github.com/spice2x/spice2x.github.io/wiki/PC-optimization) guide"
 
 ??? tip "Game is running too slow/fast"
+    
     Your game is likely running at an incorrect framerate. MÚSECA expects the game to run at 60 fps constantly.
     
     Try these steps to resolve framerate issues:
@@ -48,11 +49,11 @@
 
 ??? tip "I can't hear anything else than the game!"
 
-    Museca is a 64-bit game utilizing a feature in Windows called [WASAPI exclusive mode](https://docs.microsoft.com/en-us/windows/win32/coreaudio/exclusive-mode-streams) to obtain less audio latency. Unfortunately, this cannot be changed.
+    Museca only supports [WASAPI exclusive](https://docs.microsoft.com/en-us/windows/win32/coreaudio/exclusive-mode-streams) for its audio. This means the game takes exclusive control of your audio device while running, which cannot be changed.
 
-??? tip "I'm not getting any audio/My audio is completely wrecked and I'm using an external DAC!
+??? tip "I'm not getting any audio/My audio is completely wrecked and I'm using an external DAC!"
 
-    Several external DACs have issues with [WASAPI exclusive mode](https://docs.microsoft.com/en-us/windows/win32/coreaudio/exclusive-mode-streams) and are unable to be used entirely, it's likely you'll be forced to use your motherboard's sound chip, or find a compatible DAC.
+    Many external DACs do not work with [WASAPI exclusive mode](https://docs.microsoft.com/en-us/windows/win32/coreaudio/exclusive-mode-streams) and therefore won't function with Museca. Usually, you'll need to use your motherboard's onboard audio or a DAC confirmed to be compatible.
 
 ## FAQ
 

@@ -40,7 +40,7 @@
 
 ## Configuring spice2x
 
-!!! info "Open `spicecfg.exe`, each following sub-section corresponds to a tab at the top."
+!!! info "Open `spicecfg.exe`, each following sub-section corresponds to a tab at the top"
 
 #### Buttons
 
@@ -94,25 +94,25 @@
 
 ### Cards
 
-!!! info "Covered in the [Connecting to a network](#connecting-to-a-network) section."
+!!! info "Covered in the [Connecting to a network](#connecting-to-a-network) section"
 
 ### Patches
 
-!!! info "Go through the [spice2x Patching](/extras/patchsp2x.md) page to import patches."
+!!! info "Go through the [spice2x Patching](/extras/patchsp2x.md) page to import patches"
 
-!!! danger "To prevent issues, avoid patching things you don't need or understand."
+!!! danger "To prevent issues, avoid patching things you don't need or understand"
 
 ### API
 
-!!! warning "Leave everything at default unless you know what you're doing."
+!!! warning "Leave everything at default unless you know what you're doing"
 
 ### Options
 
-!!! info "If you don't know what an option does, hover over the its name with your mouse."
+!!! info "If you don't know what an option does, hover over the its name with your mouse"
 
     <img src="/img/common/spice2x_option_hover.webp">
 
-!!! danger "Be very careful changing options you don't understand as it may cause issues."
+!!! danger "Be very careful changing options you don't understand as it may cause issues"
 
 !!! tip "Required"
 
@@ -129,7 +129,7 @@
 
 ### Advanced & Development
 
-!!! warning "Leave everything at default unless you know what you're doing."
+!!! warning "Leave everything at default unless you know what you're doing"
 
 ## Connecting to a network
 
@@ -160,7 +160,7 @@
 
 ## Pre-launch requirements
 
-!!! info "These steps are required, otherwise your game won't run."
+!!! info "These steps are required, otherwise your game won't run"
 
 ### VCRedist & DirectX
 
@@ -185,7 +185,7 @@
 
 ## First launch
 
-!!! danger "If you have any issues running the game, refer to the [Troubleshooting](troubleshooting.md) page."
+!!! danger "If you have any issues running the game, refer to the [Troubleshooting](troubleshooting.md) page"
 
 ### BACKUP DATA
 

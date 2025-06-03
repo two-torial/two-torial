@@ -112,7 +112,7 @@
         - Launch `asphyxia-core-x64.exe` again
         - Click `Update Webui Assets` in the left sidebar
         - Click `Update` and confirm the datacode update in `ea3-config.xml`
-        - Wait for the console to show "Done." at the top
+        - Wait for the console to show "Done" at the top
 
     !!! warning "About expected errors"
 

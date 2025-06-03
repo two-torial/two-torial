@@ -2,7 +2,7 @@
 
 --8<-- "docs/snippets/common/data_warning.md"
 
-!!! danger "You are most likely to have success with Multiplayer when all users are using the SAME data and options, from the same sources. Verify that each person can run the game normally before attempting to network them together."
+!!! danger "You are most likely to have success with Multiplayer when all users are using the SAME data and options, from the same sources. Verify that each person can run the game normally before attempting to network them together"
 
 ## Initial setup
 

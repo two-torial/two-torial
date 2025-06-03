@@ -13,7 +13,7 @@
 
 !!! danger "Nijiiro is a rolling release so please verify your game version by opening `AMCUS\AMConfig.ini` and verifying that it says `cacfg-game_ver=39.06`"
 
-!!! info "NAMCO data is also distributed as `.VHDX` and `.VHD` files. These files are useful for archival purposes, but are not required to run the game. Always download the unpacked data for home use."
+!!! info "NAMCO data is also distributed as `.VHDX` and `.VHD` files. These files are useful for archival purposes, but are not required to run the game. Always download the unpacked data for home use"
 
 ## Installing TaikoArcadeLoader (TAL)
 
@@ -159,7 +159,7 @@
 
 ## Pre-launch requirements
 
-!!! info "These steps are required, otherwise your game won't run."
+!!! info "These steps are required, otherwise your game won't run"
 
 #### VCRedist & DirectX
 
