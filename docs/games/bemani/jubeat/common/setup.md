@@ -124,6 +124,19 @@
 
 --8<-- "docs/snippets/bemani/common/spicecfg_nochange.md"
 
+## Configuring audio
+
+!!! tip ""
+
+    - Open `spicecfg.exe`
+    - At the very top, click on `Shortcuts` then `Audio Playback Devices`
+    - In the popup window, right click on your default audio device, and click on `Properties`
+    - Go to the `Advanced` tab
+    - Open the `Default Format` dropdown
+    - Pick the `16 bit, 48000 Hz (DVD Quality)` option, click `Apply` then `OK`
+
+    Optionally: go to the `Options` tab in `spicecfg.exe`, and at the very bottom enable `Low Latency Shared Audio` to help mitigate audio latency.
+
 ## Connecting to a network
 
 --8<-- "docs/snippets/bemani/common/setup_network.md"
@@ -151,7 +164,9 @@
     Press your `Test` key to initialize the backup data, another message with the same error will pop up.  
     Press your `Test` key again to open the service menu.
 
-    Instructions on how to navigate the menu are shown on the screen.
+    You will be greeted by a warning asking you to reboot the game, you can safely ignore it for the moment.
+
+    *Instructions on how to navigate the menu are shown on the screen.*
   
     Go to `GAME OPTIONS`, then `SHOP SETTINGS`.
 
@@ -166,7 +181,7 @@
 
     Select `SAVE AND EXIT` then `EXIT`.
 
-    Finally, select `GAME MODE`.
+    Finally, close the game and start it back.
     
 !!! success "You're all done! The game should load up properly now"
 
