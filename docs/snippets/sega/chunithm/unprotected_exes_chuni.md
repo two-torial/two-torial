@@ -4,5 +4,5 @@
 
     Obtain unprotected (also called "unpacked" or "decrypted" by the community) copies of `chuniApp.exe` and `amdaemon.exe` for your game version.
 
-    - Copy `chuniApp.exe` and `amdaemon.exe` to data's `App\bin` folder
+    - Copy `chuniApp.exe` and `aimeReaderHost.exe` to data's `App\bin` folder
     - Agree to overwrite when asked
