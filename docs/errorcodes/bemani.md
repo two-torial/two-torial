@@ -72,7 +72,7 @@
 
 !!! tip "ACIO ERROR"
 
-    Caused by corrupt `libacio.dll`. Redownload from a trusted source. If error persists, redownload entire game data.
+    Caused by corrupt `libacio.dll`. Redownload from a trusted source. If the error persists, redownload entire game data.
 
 ### 5-2009-0000
 
@@ -109,6 +109,13 @@
 !!! tip ""
 
     These errors are typically caused by having multiple network adapters enabled, disable unused ones in Device Manager.
+
+### 5-1698-0000
+
+!!! tip "APPLICATION ERROR"
+
+    This error usually indicates a problem with your game DLLs. If the error persists, redownload entire game data. 
+    
 
 ### 5-2500-0001
 
