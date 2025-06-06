@@ -114,8 +114,7 @@
 
 !!! tip "APPLICATION ERROR"
 
-    This error usually indicates a problem with your game DLLs. If the error persists, redownload entire game data. 
-    
+    This error usually indicates a problem with your game DLLs. If the error persists, redownload entire game data.
 
 ### 5-2500-0001
 
