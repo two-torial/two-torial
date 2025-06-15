@@ -75,7 +75,7 @@
     📝mai2.ini
     ```
 
-    - Copy all of the above to your data's `App/Package` folder
+    - Copy all of the above to your data's `App\package` folder
     - Agree to overwrite when asked
 
 !!! warning "Assembly-CSharp Notes"
@@ -91,7 +91,7 @@
 
 !!! tip ""
 
-    Ensure that the `App\Package` folder contains `mai2.ini`.
+    Ensure that the `App\package` folder contains `mai2.ini`.
 
     If this configuration file is missing, create one using the contents below:
 
@@ -114,9 +114,9 @@
 ## Installing segatools
 
 --8<-- "docs/snippets/sega/common/segatools_install.md"
-    - Find `mai2.zip` and extract it to your data's `App\Package` folder
+    - Find `mai2.zip` and extract it to your data's `App\package` folder
 
-    You should now have these files added to your `App\Package` directory:
+    You should now have these files added to your `App\package` directory:
 
     ```
     📂DEVICE
@@ -130,7 +130,7 @@
 
 !!! tip ""
 
---8<-- "docs/snippets/sega/common/segatools_preamble.md"
+--8<-- "docs/snippets/sega/common/segatools_preamble_package.md"
 
 === "[vfs]"
 

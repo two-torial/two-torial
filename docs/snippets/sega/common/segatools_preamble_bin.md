@@ -10,6 +10,6 @@
 
     ```ini
     [system]
-    dipsw2=1
-    dipsw2=1 ; WRONG!
+    dipsw1=1
+    dipsw1=1 ; WRONG!
     ```
