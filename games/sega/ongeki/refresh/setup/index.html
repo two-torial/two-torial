@@ -8947,7 +8947,7 @@ Community-created options often use letters instead of numbers to differentiate 
 </span><span id="__span-4-13"><a id="__codelineno-4-13" name="__codelineno-4-13" href="#__codelineno-4-13"></a>📝mu3.ini
 </span></code></pre></div>
 <ul>
-<li>Copy all of the above to your data's <code>App/Package</code> folder</li>
+<li>Copy all of the above to your data's <code>App\package</code> folder</li>
 <li>Agree to overwrite when asked</li>
 </ul>
 </div>
@@ -8995,9 +8995,9 @@ the <code>View</code> tab in File Explorer and select <code>File name extensions
 <li>Head over to <a href="https://gitea.tendokyu.moe/TeamTofuShop/segatools/releases">segatools releases</a></li>
 <li>Download <code>segatools.zip</code></li>
 <li>Extract the archive</li>
-<li>Find <code>mu3.zip</code> and extract it to your data's <code>App\Package</code> folder</li>
+<li>Find <code>mu3.zip</code> and extract it to your data's <code>App\package</code> folder</li>
 </ul>
-<p>You should now have these files added to your <code>App\Package</code> directory:</p>
+<p>You should now have these files added to your <code>App\package</code> directory:</p>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>📂DEVICE
 </span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>▶️inject.exe
 </span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>⚙️mu3hook.dll
@@ -9007,13 +9007,13 @@ the <code>View</code> tab in File Explorer and select <code>File name extensions
 </div>
 <h2 id="configuring-segatools">Configuring segatools</h2>
 <div class="admonition info">
-<p>You'll need to manually edit <code>App\bin\segatools.ini</code> as segatools has no graphical configuration tool.</p>
+<p>You'll need to manually edit <code>App\package\segatools.ini</code> as segatools has no graphical configuration tool.</p>
 <p>We recommend using a text editor with syntax highlighting such as <a href="https://notepad-plus-plus.org/">Notepad++</a>.</p>
 <p>The following sections match those found in <code>segatools.ini</code> - skip any sections not listed below.</p>
 <p>If a key already exists in a section, simply change its value after <code>=</code>, do not add another key.</p>
 <div class="language-ini highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="k">[system]</span>
-</span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="na">dipsw2</span><span class="o">=</span><span class="s">1</span>
-</span><span id="__span-7-3"><a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a><span class="na">dipsw2</span><span class="o">=</span><span class="s">1</span><span class="w"> </span><span class="c1">; WRONG!</span>
+</span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="na">dipsw1</span><span class="o">=</span><span class="s">1</span>
+</span><span id="__span-7-3"><a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a><span class="na">dipsw1</span><span class="o">=</span><span class="s">1</span><span class="w"> </span><span class="c1">; WRONG!</span>
 </span></code></pre></div>
 </div>
 <div class="tabbed-set tabbed-alternate" data-tabs="1:1"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">[vfs]</label></div>
