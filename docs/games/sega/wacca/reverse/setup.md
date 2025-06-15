@@ -57,7 +57,7 @@
 
 ## Configuring segatools
 
---8<-- "docs/snippets/sega/common/segatools_preamble.md"
+--8<-- "docs/snippets/sega/common/segatools_preamble_bin.md"
 
 === "[vfs]"
 

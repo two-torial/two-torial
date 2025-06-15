@@ -77,7 +77,7 @@
     📝mu3.ini
     ```
 
-    - Copy all of the above to your data's `App/Package` folder
+    - Copy all of the above to your data's `App\package` folder
     - Agree to overwrite when asked
 
 !!! warning "Assembly-CSharp Notes"
@@ -116,9 +116,9 @@
 ## Installing segatools
 
 --8<-- "docs/snippets/sega/common/segatools_install.md"
-    - Find `mu3.zip` and extract it to your data's `App\Package` folder
+    - Find `mu3.zip` and extract it to your data's `App\package` folder
 
-    You should now have these files added to your `App\Package` directory:
+    You should now have these files added to your `App\package` directory:
 
     ```
     📂DEVICE
@@ -130,7 +130,7 @@
 
 ## Configuring segatools
 
---8<-- "docs/snippets/sega/common/segatools_preamble.md"
+--8<-- "docs/snippets/sega/common/segatools_preamble_package.md"
 
 === "[vfs]"
 
