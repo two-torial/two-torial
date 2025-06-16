@@ -128,8 +128,6 @@
 
 ## Configuring segatools
 
-!!! tip ""
-
 --8<-- "docs/snippets/sega/common/segatools_preamble_package.md"
 
 === "[vfs]"

@@ -46,8 +46,6 @@
 
 ## Installing segatools
 
-!!! tip ""
-
 --8<-- "docs/snippets/sega/common/segatools_install.md"
     - Find `mercury.zip` and extract it to your data's `App\bin` folder
 
