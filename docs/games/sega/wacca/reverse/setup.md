@@ -5,6 +5,12 @@
 
 --8<-- "docs/snippets/sega/common/data_old.md"
 
+!!! warning "Wireless Device"
+    
+    The Chinese SDJE Version requires a custom piece of hardware that will likely not work with known tools.
+
+    If you're having issues with a "Wireless Device" during boot or network testing, you likely need a different version of the game data.
+
 ## Preparing data
 
 --8<-- "docs/snippets/sega/common/data_driveletter.md"
