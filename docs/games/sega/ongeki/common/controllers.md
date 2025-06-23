@@ -115,7 +115,7 @@
 
 !!! tip ""
 
-    This controller does not support IO4 mode. Instead, refer to the [Keyboard and Mouse](#keyboard-and-mouse) option.
+    This controller does not support IO4 mode. Instead, refer to the [Keyboard and Mouse](#keyboard-and-mouse) section.
 
 ## Arcade hardware and other controllers
 
