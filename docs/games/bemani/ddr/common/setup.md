@@ -151,9 +151,9 @@
 
 ## Registering codecs
 
-!!! tip ""    
+!!! tip ""
 
-    - Follow the DDR section on the [spice2x wiki](https://github.com/spice2x/spice2x.github.io/wiki/DLL-Dependencies#ddr)
+    Follow the DDR section on the [spice2x wiki](https://github.com/spice2x/spice2x.github.io/wiki/DLL-Dependencies#ddr)
 
 ## Help
 
