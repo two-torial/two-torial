@@ -149,11 +149,11 @@
 
 --8<-- "docs/snippets/common/before_playing.md"
 
-## K-lite Codec Pack
+## Registering codecs
 
 !!! tip ""    
 
-    - Download and install the [K-lite Codec Pack](https://codecguide.com/download_kl.htm) (the Standard version is enough)
+    - Follow the DDR section on the [spice2x wiki](https://github.com/spice2x/spice2x.github.io/wiki/DLL-Dependencies#ddr)
 
 ## Help
 
