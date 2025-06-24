@@ -25,11 +25,7 @@
 
 !!! tip ""
 
-    **This is likely a network issue.**
-    
-    If you're using a local network, make sure it's set up properly.
-    
-    If you're using a remote network, it's possible that the song or your game version isn't supported yet.
+    There are two possible reasons for this. Either you may not have properly registered your codecs, or it's possible that your network doesn't support your game version.
 
 ### Where are the option for Dancers/Shading/Measure lines/Fast-Slow/Layering?
 
