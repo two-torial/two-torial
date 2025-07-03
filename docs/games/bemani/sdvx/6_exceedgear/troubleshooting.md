@@ -43,7 +43,7 @@
 
     - Search for `Superstep`
 
-    If you find a line with `Audio device is not available!!!`, it means the game refuses to boot due to a misconfigured or missing audio device."  
+    If you find a line with `Audio device is not available!!!`, it means the game refuses to boot due to a misconfigured or missing audio device.   
     Check the setup guide's [Configuring audio section](setup.md#configuring-audio) as well as our general [Audio guide](/extras/audio.md) to understand the issue better.
 
 ??? tip "I'm using a laptop with a hybrid internal+dedicated GPU setup"
