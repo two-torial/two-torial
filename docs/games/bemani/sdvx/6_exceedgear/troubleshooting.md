@@ -43,7 +43,7 @@
 
     - Search for `Superstep`
 
-    If you find a line with `Audio device is not available!!!`, it means the game hasn't found refuses to boot due to misconfigured audio.  
+    If you find a line with `Audio device is not available!!!`, it means the game refuses to boot due to a misconfigured or missing audio device.   
     Check the setup guide's [Configuring audio section](setup.md#configuring-audio) as well as our general [Audio guide](/extras/audio.md) to understand the issue better.
 
 ??? tip "I'm using a laptop with a hybrid internal+dedicated GPU setup"
@@ -59,6 +59,7 @@
 ??? tip "Game is running too slow/fast"
 
     Your game is likely running at an incorrect framerate. The expected framerates are:
+
     - Nemsys mode: 60 FPS
     - Valkyrie mode: 120 FPS
 
@@ -115,6 +116,15 @@
     - Bind and press your `Test` key to enter the Test menu
     - Go to `SOUND OPTIONS` and change the volume at will
     - `SAVE AND EXIT` > `GAME MODE` to return to the game
+
+### Subscreen
+
+!!! info "For more in-depth troubleshooting, refer to the spice2x [Subscreen troubleshooting](https://github.com/spice2x/spice2x.github.io/wiki/Configuring-touch-screens-as-subscreen#troubleshooting) page"
+
+??? tip "Touch input isn't being registered"
+
+    If you're using a physical touch screen, make sure to close **all** spice2x overlays, including the FPS counter.  
+    If you're using the virtual subscreen, ensure that the `-sdvxnativetouch` option is not enabled.
 
 ## FAQ
 
