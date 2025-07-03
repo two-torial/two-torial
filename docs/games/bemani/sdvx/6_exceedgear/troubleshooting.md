@@ -59,6 +59,7 @@
 ??? tip "Game is running too slow/fast"
 
     Your game is likely running at an incorrect framerate. The expected framerates are:
+
     - Nemsys mode: 60 FPS
     - Valkyrie mode: 120 FPS
 
