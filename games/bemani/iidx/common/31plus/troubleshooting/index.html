@@ -16,7 +16,7 @@
       
       
       <link rel="icon" href="../../../../../../img/favicon.ico">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
     
     
       
@@ -8502,92 +8502,53 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#my-game-crashes-on-launch" class="md-nav__link">
+  <a href="#technical-problems" class="md-nav__link">
     <span class="md-ellipsis">
-      My game crashes on launch!
+      Technical problems
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Technical problems">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#crashes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Crashes
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#my-game-is-running-too-slowfast-game-gets-stuck-monitor-error-at-boot-error-5-1503-0043" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#performance" class="md-nav__link">
     <span class="md-ellipsis">
-      My game is running too slow/fast / Game gets stuck / Monitor error at boot / Error 5-1503-0043
+      Performance
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#im-having-performance-issues-my-fps-fluctates" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#audio" class="md-nav__link">
     <span class="md-ellipsis">
-      I'm having performance issues / my FPS fluctates!
+      Audio
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#unable-to-login-eamuse-error-network-error" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#subscreen" class="md-nav__link">
     <span class="md-ellipsis">
-      Unable to login / Eamuse error / Network error
+      Subscreen
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#how-do-i-set-my-offset" class="md-nav__link">
-    <span class="md-ellipsis">
-      How do I set my offset?
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#my-inputs-arent-working-i-cant-get-past-error-messages" class="md-nav__link">
-    <span class="md-ellipsis">
-      My inputs aren't working / I can't get past error messages!
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#my-game-audio-is-super-quiet" class="md-nav__link">
-    <span class="md-ellipsis">
-      My game audio is super quiet!
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#when-i-run-the-game-all-other-audio-is-gone" class="md-nav__link">
-    <span class="md-ellipsis">
-      When I run the game all other audio is gone!
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#im-not-getting-any-audio-or-my-audio-is-completely-wrecked-and-im-using-an-external-dac" class="md-nav__link">
-    <span class="md-ellipsis">
-      I'm not getting any audio, or my audio is completely wrecked and I'm using an External Dac!
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#my-audio-is-sloweddistorted-and-im-using-the-shared-mode-wasapi-patch" class="md-nav__link">
-    <span class="md-ellipsis">
-      My audio is slowed/distorted and I'm using the Shared Mode WASAPI patch.
-    </span>
-  </a>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -8616,62 +8577,116 @@
 <p><strong>Corrupted or incomplete files will cause unpredictable issues we can't cover.</strong><br />
 <strong>TWO-TORIAL does not provide or distribute game data. Do not ask.</strong></p>
 </div>
-<h3 id="my-game-crashes-on-launch">My game crashes on launch!</h3>
-<div class="admonition tip">
-<p>This could be due to <strong>many</strong> things.</p>
-<p>Start by checking the audio section from the setup guide.</p>
-<p>beatmania IIDX 31 and above require an AVX2 capable CPU.<br />
-If your CPU is too old, the game will crash with an <code>EXCEPTION_ILLEGAL_INSTRUCTION</code> error.<br />
-A known workaround is renaming/deleting the <code>movies</code> folder to prevent the game from loading them altogether. </p>
+<div class="admonition info">
+<p class="admonition-title">For any issues not covered here, spice2x's <a href="https://github.com/spice2x/spice2x.github.io/wiki/Known-issues">Known issues</a> page might prove useful</p>
 </div>
-<h3 id="my-game-is-running-too-slowfast-game-gets-stuck-monitor-error-at-boot-error-5-1503-0043">My game is running too slow/fast / Game gets stuck / Monitor error at boot / Error 5-1503-0043</h3>
-<div class="admonition tip">
-<p>Potential causes:</p>
-<ol>
-<li>The game could be running over/under its required refresh rate (60 for LDJ, 120 for TDJ)<br />
-To solve this, make sure v-sync isn't disabled in your graphics card's settings.
-For NVIDIA users, enable <code>NVIDIA profile optimization (-nvprofile)</code> in the <code>Options</code> tab. </li>
-<li>It could be that your computer's performance isn't good enough to keep a steady framerate.</li>
-</ol>
+<h2 id="technical-problems">Technical problems</h2>
+<h3 id="crashes">Crashes</h3>
+<div class="admonition info">
+<p class="admonition-title">Riva Tuner Statistics Server (RTSS) and MSI Afterburner are known to cause odd crashes.<br>If you have them installed, close them both before starting any arcade game</p>
 </div>
-<h3 id="im-having-performance-issues-my-fps-fluctates">I'm having performance issues / my FPS fluctates!</h3>
-<div class="admonition tip">
-<p>If you're having performance issues of some kind, spice2x's <a href="https://github.com/spice2x/spice2x.github.io/wiki/PC-optimization">PC optimization</a> guide is worth looking at.
-If none of that works, your PC probably isn't good enough to run the game, sorry.</p>
+<details class="tip">
+<summary><code>W:SuperstepSound: Audio device is not available!!!</code> in logs</summary>
+<ul>
+<li>
+<p>Open <code>log.txt</code> using an editor that supports <code>SHIFT-JIS</code> encoding for Japanese text (like <a href="https://notepad-plus-plus.org/downloads/">Notepad++</a>)</p>
+</li>
+<li>
+<p>Search for <code>Superstep</code></p>
+</li>
+</ul>
+<p>If you find a line with <code>Audio device is not available!!!</code>, it means the game refuses to boot due to a misconfigured or missing audio device.<br />
+Check the setup guide's <strong>Configuring audio</strong> section as well as our general <a href="../../../../../../extras/audio/">Audio guide</a> to understand the issue better.</p>
+</details>
+<details class="tip">
+<summary><code>EXCEPTION_ACCESS_VIOLATION</code> in logs</summary>
+<ul>
+<li>
+<p>Open <code>log.txt</code> using an editor that supports <code>SHIFT-JIS</code> encoding for Japanese text (like <a href="https://notepad-plus-plus.org/downloads/">Notepad++</a>)</p>
+</li>
+<li>
+<p>Search for <code>EXCEPTION_ACCESS_VIOLATION</code></p>
+</li>
+</ul>
+<p>beatmania IIDX 31 and above require a CPU that is AVX2 capable. If you encounter this message, it may indicate that your CPU is too old and does not support AVX2.<br />
+A known workaround is renaming/deleting the <code>movies</code> folder to prevent the game from loading them altogether.</p>
+</details>
+<details class="tip">
+<summary>I'm using a laptop with a hybrid internal+dedicated GPU setup</summary>
+<p>Laptops often have odd issues running data. The game may open on the wrong monitor, run at the wrong resolution or framerate, or simply crashes.  </p>
+<p>There is currently no known fix for this, other than maybe playing in windowed mode, or using a desktop PC instead. </p>
+</details>
+<h3 id="performance">Performance</h3>
+<div class="admonition info">
+<p class="admonition-title">Check out spice2x's <a href="https://github.com/spice2x/spice2x.github.io/wiki/PC-optimization">PC optimization</a> guide</p>
 </div>
-<h3 id="unable-to-login-eamuse-error-network-error">Unable to login / Eamuse error / Network error</h3>
-<div class="admonition tip">
-<p>Get the proper Asphyxia plugin from our <a href="https://discord.gg/cZRUmEPK78">Discord server</a> in the #iidx channel &gt; Resources post.
-Make sure you didn't enable <code>-smartea</code> in spicecfg's options.</p>
+<details class="tip">
+<summary>Game is running too slow/fast / Monitor error 5-1503-0043</summary>
+<p>Your game is likely running at an incorrect framerate. The expected framerates are:</p>
+<ul>
+<li>Legacy cab mode: 60 FPS</li>
+<li>Lightning Model cab mode: 120 FPS</li>
+</ul>
+<p>Try these steps to resolve framerate issues:</p>
+<ul>
+<li>Make sure that your patch or DLL matches your cab mode</li>
+<li>Close any software that can affect framerates (like RTSS)</li>
+<li>Close unnecessary background programs</li>
+<li>Ensure V-SYNC is not forcefully disabled in your graphics card control panel</li>
+<li>For NVIDIA users: Enable <code>NVIDIA profile optimization (-nvprofile)</code> in spicecfg's <code>Options</code> tab</li>
+</ul>
+<p>If issues persist:</p>
+<ul>
+<li>Double-check that you followed all steps in the setup guide correctly</li>
+<li>Your PC hardware might be insufficient to keep a steady 120 FPS, you can try switching to Legacy cab mode</li>
+<li>Your data may be corrupt in one way or another, you could try starting from scratch using trusted data sources</li>
+</ul>
+</details>
+<h3 id="audio">Audio</h3>
+<div class="admonition info">
+<p class="admonition-title">Check out our <a href="../../../../../../extras/audio/">Audio</a> guide to understand audio modes better</p>
 </div>
-<h3 id="how-do-i-set-my-offset">How do I set my offset?</h3>
-<div class="admonition tip">
-<p>Play through a chart you're comfortable with.</p>
-<p>If you're getting too many <code>Fast</code>, increase your offset <code>(+)</code>. <br />
-If you're getting too many <code>Slow</code>, decrease your offset <code>(-)</code>.</p>
+<div class="admonition info">
+<p class="admonition-title">Ensure your default audio device's sample rate is set properly</p>
+<ul>
+<li><strong>44100 Hz</strong> sample rate for <strong>WASAPI Exclusive</strong> and <strong>ASIO</strong></li>
+<li><strong>48000 Hz</strong> if your game is patched with <code>Shared Mode WASAPI</code></li>
+</ul>
 </div>
-<h3 id="my-inputs-arent-working-i-cant-get-past-error-messages">My inputs aren't working / I can't get past error messages!</h3>
-<div class="admonition tip">
-<p>If <strong>none</strong> of your inputs are working, try updating <a href="https://spice2x.github.io/">spice2x</a>, you can also try using the beta versions if the stable releases don't work for you.</p>
-</div>
-<h3 id="my-game-audio-is-super-quiet">My game audio is super quiet!</h3>
-<div class="admonition tip">
+<details class="tip">
+<summary>I can't change my device's sample rate</summary>
+<p>If you're using gaming peripherals (Logitech/Razer/Steelseries) or external audio devices (audio interfaces/sound bars):</p>
+<ul>
+<li>Check if you can modify the sample rate in the device's software/control panel</li>
+<li>If not, try uninstalling the device's software. This may restore control over Windows audio settings</li>
+</ul>
+<p>If you still can't change the sample rate:</p>
+<ul>
+<li>Configure the game's audio mode to match your device's current sample rate instead</li>
+<li>Try using a different audio device</li>
+</ul>
+</details>
+<details class="tip">
+<summary>I can't hear anything else than the game</summary>
+<p>Your game's audio is setup to run in WASAPI Exclusive or ASIO modes.</p>
+<p>Check out our <a href="../../../../../../extras/audio/">Audio</a> guide to understand audio modes better.</p>
+<p>If you're using WASAPI Exclusive, you'll want to <a href="../../../../../../extras/patchsp2x/">patch the game</a> with <code>Shared Mode WASAPI</code> to hear other applications.</p>
+<p>If you're using ASIO, unless your audio interface mixes WASAPI and ASIO streams when outputting, you'll only be able to hear one application when ASIO is in use.<br />
+In this case, you'll need to route all audio through software such as <a href="https://vb-audio.com/Voicemeeter/banana.htm">Voicemeeter</a>, and have Voicemeeter output the mix to your ASIO device.</p>
+</details>
+<details class="tip">
+<summary>Game audio is too quiet</summary>
 <p>When using <code>TDJ mode</code> the audio is very quiet by default. To mitigate this, you can use the <code>Increase Game Volume</code> patch.</p>
+</details>
+<h3 id="subscreen">Subscreen</h3>
+<div class="admonition info">
+<p class="admonition-title">For more in-depth troubleshooting, refer to the spice2x <a href="https://github.com/spice2x/spice2x.github.io/wiki/Configuring-touch-screens-as-subscreen#troubleshooting">Subscreen troubleshooting</a> page</p>
 </div>
-<h3 id="when-i-run-the-game-all-other-audio-is-gone">When I run the game all other audio is gone!</h3>
-<div class="admonition tip">
-<p>IIDX uses <a href="https://docs.microsoft.com/en-us/windows/win32/coreaudio/exclusive-mode-streams">WASAPI exclusive mode</a> for audio to get better audio latency.<br />
-Unlike former versions of the games which used <a href="https://en.wikipedia.org/wiki/DirectSound">DirectSound</a>.   </p>
-<p>You can use the <code>Shared Mode WASAPI</code> patch to hear other apps while the game is running, at the cost of some audio latency.</p>
-</div>
-<h3 id="im-not-getting-any-audio-or-my-audio-is-completely-wrecked-and-im-using-an-external-dac">I'm not getting any audio, or my audio is completely wrecked and I'm using an External Dac!</h3>
-<div class="admonition tip">
-<p>Many setups have found some difficulty with audio due to various equipment being used. Consider using the <code>Shared Mode WASAPI</code> patch.</p>
-</div>
-<h3 id="my-audio-is-sloweddistorted-and-im-using-the-shared-mode-wasapi-patch">My audio is slowed/distorted and I'm using the <code>Shared Mode WASAPI</code> patch.</h3>
-<div class="admonition tip">
-<p>When using this patch, you must set your audio device's sample rate to 48000 Hz.</p>
-</div>
+<details class="tip">
+<summary>Touch input isn't being registered</summary>
+<p>If you're using a physical touch screen, make sure to close <strong>all</strong> spice2x overlays, including the FPS counter.<br />
+If you're using the virtual subscreen, ensure that the <code>-iidxnativetouch</code> option is not enabled.</p>
+</details>
 
 
 
@@ -8692,7 +8707,7 @@ Unlike former versions of the games which used <a href="https://en.wikipedia.org
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="May 30, 2025 10:20:03 UTC">May 30, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="July 3, 2025 17:22:09 UTC">July 3, 2025</span>
   </span>
 
     
@@ -8770,7 +8785,7 @@ Unlike former versions of the games which used <a href="https://en.wikipedia.org
       <script id="__config" type="application/json">{"base": "../../../../../..", "features": ["content.code.annotate"], "search": "../../../../../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../../../../../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      <script src="../../../../../../assets/javascripts/bundle.56ea9cef.min.js"></script>
       
     
   </body>
