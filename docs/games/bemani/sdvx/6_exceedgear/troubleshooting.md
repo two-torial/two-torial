@@ -117,6 +117,15 @@
     - Go to `SOUND OPTIONS` and change the volume at will
     - `SAVE AND EXIT` > `GAME MODE` to return to the game
 
+### Subscreen
+
+!!! info "For more in-depth troubleshooting, refer to the spice2x [Subscreen troubleshooting](https://github.com/spice2x/spice2x.github.io/wiki/Configuring-touch-screens-as-subscreen#troubleshooting) page"
+
+??? tip "Touch input isn't being registered"
+
+    If you're using a physical touch screen, make sure to close **all** spice2x overlays, including the FPS counter.  
+    If you're using the virtual subscreen, ensure that the `-sdvxnativetouch` option is not enabled.
+
 ## FAQ
 
 ??? tip "How to run the game in windowed borderless mode?"

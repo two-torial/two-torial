@@ -94,3 +94,12 @@
 ??? tip "Game audio is too quiet"
 
     When using `TDJ mode` the audio is very quiet by default. To mitigate this, you can use the `Increase Game Volume` patch.
+
+### Subscreen
+
+!!! info "For more in-depth troubleshooting, refer to the spice2x [Subscreen troubleshooting](https://github.com/spice2x/spice2x.github.io/wiki/Configuring-touch-screens-as-subscreen#troubleshooting) page"
+
+??? tip "Touch input isn't being registered"
+
+    If you're using a physical touch screen, make sure to close **all** spice2x overlays, including the FPS counter.  
+    If you're using the virtual subscreen, ensure that the `-iidxnativetouch` option is not enabled.
