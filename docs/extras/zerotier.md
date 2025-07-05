@@ -2,6 +2,10 @@
 
 # ZeroTier for Cabinet-to-Cabinet Play
 
+!!! danger "Warning for CHUNITHM"
+
+    CHUNITHM has stricter network requirements than other SEGA games and needs a specific subnet. In this guide, we will use the subnet `192.168.196.0` as an example. However, to run CHUNITHM, you must change it to the subnet `192.168.139.0`. If you don't, cabinets set to "FOLLOW THE STANDARD" will fail to connect. You will also need to adjust the `IPv4 Auto-Assign` setting of your Zerotier network accordingly by changing `196` to `139`.
+
 ## Installing
 
 !!! tip ""
@@ -43,19 +47,15 @@
     
     [keychip]
     subnet=192.168.196.0
+
+    [system]
+    dipsw1=1 ;Set this to 1 on the host machine and set this to 0 on all others
     ```
 
     !!! warning "Each person must have their own keychip"
 
         If you play on a remote network, you likely already have your own keychip.  
         If not, you can use these example keychips: `A61E-01D02321145` ; `A61E-01A30831145` ; `A61E-01E38091145` ; `A61E-01E46241145`
-
-    If you're running a CHUNITHM version prior to Luminous:
-
-    ```
-    [system]
-    dipsw1=1 ;Set this to 1 on the host machine and set this to 0 on all others
-    ```
 
     When starting your game, make sure to allow any Windows Firewall pop-ups (such as for `amdaemon.exe`, `mu3.exe`, `chusanApp.exe`...)
 
@@ -74,6 +74,8 @@
         - Right click on one of them, then click on `Properties`
         - Select `Allow the connection` then press `OK`
         - Repeat this for all game executables
+
+        Alternatively, you can disable your firewall for both *public* and *private networks*. Please note that this should only be a **temporary measure** for testing, as it poses a **^^security risk^^** to your computer.
 
 !!! tip "Configuration for spice2x"
 
@@ -121,7 +123,8 @@
 
     !!! tip "IPv4 Auto-Assign"
 
-        Head to the "Easy" tab, and choose `192.168.196.*`
+        Delete the already existing entry.  
+        Under "Add IPv4 Address Pools" set "Range Start" as `192.168.196.1` and "Range End" as `192.168.196.254` then press "Submit".
 
     !!! info ""
     
