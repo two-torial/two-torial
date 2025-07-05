@@ -8654,6 +8654,10 @@
 
 <p><img class="header-logo" src="/img/extras/zerotier/logo.webp"></p>
 <h1 id="zerotier-for-cabinet-to-cabinet-play">ZeroTier for Cabinet-to-Cabinet Play</h1>
+<div class="admonition danger">
+<p class="admonition-title">Warning for CHUNITHM</p>
+<p>CHUNITHM has stricter network requirements than other SEGA games and needs a specific subnet. In this guide, we will use the subnet <code>192.168.196.0</code> as an example. However, to run CHUNITHM, you must change it to the subnet <code>192.168.139.0</code>. If you don't, cabinets set to "FOLLOW THE STANDARD" will fail to connect. You will also need to adjust the <code>IPv4 Auto-Assign</code> setting of your Zerotier network accordingly by changing <code>196</code> to <code>139</code>.</p>
+</div>
 <h2 id="installing">Installing</h2>
 <div class="admonition tip">
 <p>Go to the <a href="https://www.zerotier.com/download/">ZeroTier download page</a>. Download and run the Windows installer.<br />
@@ -8688,16 +8692,15 @@ Your IP address will appear under <code>Ethernet adapter ZeroTier One [NETWORK I
 </span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>
 </span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>[keychip]
 </span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>subnet=192.168.196.0
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>[system]
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>dipsw1=1 ;Set this to 1 on the host machine and set this to 0 on all others
 </span></code></pre></div>
 <div class="admonition warning">
 <p class="admonition-title">Each person must have their own keychip</p>
 <p>If you play on a remote network, you likely already have your own keychip.<br />
 If not, you can use these example keychips: <code>A61E-01D02321145</code> ; <code>A61E-01A30831145</code> ; <code>A61E-01E38091145</code> ; <code>A61E-01E46241145</code></p>
 </div>
-<p>If you're running a CHUNITHM version prior to Luminous:</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>[system]
-</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>dipsw1=1 ;Set this to 1 on the host machine and set this to 0 on all others
-</span></code></pre></div>
 <p>When starting your game, make sure to allow any Windows Firewall pop-ups (such as for <code>amdaemon.exe</code>, <code>mu3.exe</code>, <code>chusanApp.exe</code>...)</p>
 <details class="info">
 <summary>If you didn't see a pop-up</summary>
@@ -8714,6 +8717,7 @@ Or, you denied access, and cab-to-cab isn't working. In that case follow these s
 <li>Select <code>Allow the connection</code> then press <code>OK</code></li>
 <li>Repeat this for all game executables</li>
 </ul>
+<p>Alternatively, you can disable your firewall for both <em>public</em> and <em>private networks</em>. Please note that this should only be a <strong>temporary measure</strong> for testing, as it poses a <strong><ins>security risk</ins></strong> to your computer.</p>
 </details>
 </div>
 <div class="admonition tip">
@@ -8766,7 +8770,8 @@ Under "Add Routes", set "Destination" as <code>192.168.196.0/24</code> then pres
 </div>
 <div class="admonition tip">
 <p class="admonition-title">IPv4 Auto-Assign</p>
-<p>Head to the "Easy" tab, and choose <code>192.168.196.*</code></p>
+<p>Delete the already existing entry.<br />
+Under "Add IPv4 Address Pools" set "Range Start" as <code>192.168.196.1</code> and "Range End" as <code>192.168.196.254</code> then press "Submit".</p>
 </div>
 <div class="admonition info">
 <p>You should end up with this:</p>
@@ -8795,7 +8800,7 @@ Under "Add Routes", set "Destination" as <code>192.168.196.0/24</code> then pres
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="May 31, 2025 10:18:59 UTC">May 31, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="July 5, 2025 20:05:20 UTC">July 5, 2025</span>
   </span>
 
     
