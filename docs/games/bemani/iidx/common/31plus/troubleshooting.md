@@ -19,11 +19,11 @@
     If you find a line with `Audio device is not available!!!`, it means the game refuses to boot due to a misconfigured or missing audio device.  
     Check the setup guide's **Configuring audio** section as well as our general [Audio guide](/extras/audio.md) to understand the issue better.
 
-??? tip "`EXCEPTION_ACCESS_VIOLATION` in logs"
+??? tip "`EXCEPTION_ILLEGAL_INSTRUCTION` in logs"
 
     - Open `log.txt` using an editor that supports `SHIFT-JIS` encoding for Japanese text (like [Notepad++](https://notepad-plus-plus.org/downloads/))
 
-    - Search for `EXCEPTION_ACCESS_VIOLATION`
+    - Search for `EXCEPTION_ILLEGAL_INSTRUCTION`
 
     beatmania IIDX 31 and above require a CPU that is AVX2 capable. If you encounter this message, it may indicate that your CPU is too old and does not support AVX2.  
     A known workaround is renaming/deleting the `movies` folder to prevent the game from loading them altogether.
