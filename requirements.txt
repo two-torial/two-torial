@@ -1,5 +1,4 @@
 mkdocs
 fontawesome-markdown
-mkdocs-bootswatch
 mkdocs-material
 mkdocs-git-revision-date-localized-plugin
