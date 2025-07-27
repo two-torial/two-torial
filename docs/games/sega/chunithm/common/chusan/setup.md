@@ -36,7 +36,14 @@
     
 ## Installing unprotected executables
 
---8<-- "docs/snippets/sega/chunithm/unprotected_exes_chusan.md"
+!!! tip ""
+
+    CHUNITHM executables are protected and will not run on a regular computer.
+
+    Obtain unprotected (also called "unpacked" or "decrypted" by the community) copies of `chusanApp.exe` and `amdaemon.exe` for your game version.
+
+    - Copy `chusanApp.exe` and `amdaemon.exe` to data's `App\bin` folder
+    - Agree to overwrite when asked
 
 ## Installing ICFs
 
@@ -71,7 +78,7 @@
     ▶️inject_x64.exe
     ▶️inject_x86.exe
     📝segatools.ini
-    ▶️start.bat
+    ▶️launch.bat
     ```
 
 ## Configuring segatools
@@ -140,7 +147,7 @@
 
     If you've followed all instructions correctly, you're now finally ready to launch the game!
 
-    Start the game by running `App\bin\start.bat`. Let the game load until it reaches the screen below.
+    Start the game by running `App\bin\launch.bat`. Let the game load until it reaches the screen below.
 
     <img src="/img/sega/chunithm/common/setup/chusan/servicemenu/0_asettings.webp">
 

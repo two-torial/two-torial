@@ -60,7 +60,7 @@
     ⚙️chunihook.dll
     ▶️inject.exe
     📝segatools.ini
-    ▶️start.bat
+    ▶️launch.bat
     ```
 
 ## Configuring audio
@@ -103,7 +103,7 @@
 
     If you've followed all instructions correctly, you're now finally ready to launch the game!
 
-    Start the game by running `App\bin\start.bat`. Let the game load until it reaches the screen below.
+    Start the game by running `App\bin\launch.bat`. Let the game load until it reaches the screen below.
 
     <img src="/img/sega/chunithm/common/setup/chuni/servicemenu/0_asettings.webp">
 

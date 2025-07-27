@@ -123,7 +123,7 @@
     ▶️inject.exe
     ⚙️mai2hook.dll
     📝segatools.ini
-    ▶️start.bat
+    ▶️launch.bat
     ```
 
 ## Configuring segatools
@@ -173,7 +173,7 @@
 
     If you've followed all instructions correctly, you're now finally ready to launch the game!
 
-    Start the game by running `App\package\start.bat`. Let the game load until you reach a screen with the message below.
+    Start the game by running `App\package\launch.bat`. Let the game load until you reach a screen with the message below.
 
     <img src="/img/sega/maimaidx/common/setup/distribution_servers_check.webp">
 
