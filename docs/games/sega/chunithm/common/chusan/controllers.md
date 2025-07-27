@@ -112,7 +112,7 @@
     **This will only work if you extracted `brokenithm_server.exe` to `App\bin\` as previously instructed.**
     
     You can edit the launch script to launch the Brokenithm server when starting the game.
-    Edit `App\bin\start.bat` to add a line above the existing commands:
+    Edit `App\bin\launch.bat` to add a line above the existing commands:
 
     ```batch hl_lines="5"
     @echo off
@@ -158,7 +158,7 @@
     - You can now start the game as normal.
 
     The next time you play the game, you only need to run the `adb reverse ...` command
-    again. To do this automatically when the game starts, add a line to the `start.bat`
+    again. To do this automatically when the game starts, add a line to the `launch.bat`
     script **before** the `brokenithm_server` line:
 
     ```batch hl_lines="5 6"
@@ -212,7 +212,7 @@
     **This will only work if you extracted the server to `App\bin\Brokenithm-Server` as previously instructed.**
     
     You can edit the launch script to launch the Brokenithm server when starting the game.
-    Edit `App\bin\start.bat` to add a line above the existing commands:
+    Edit `App\bin\launch.bat` to add a line above the existing commands:
 
     ```batch hl_lines="5"
     @echo off

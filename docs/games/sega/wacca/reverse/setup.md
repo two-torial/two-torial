@@ -56,7 +56,7 @@
     ▶️inject.exe
     ⚙️mercuryhook.dll
     📝segatools.ini
-    ▶️start.bat
+    ▶️launch.bat
     ```
 
 ## Configuring segatools
@@ -107,7 +107,7 @@
 
     Set your display orientation to portrait mode.
 
-    Start the game by running `App\bin\start.bat`.
+    Start the game by running `App\bin\launch.bat`.
 
     Press your `Test` button (default `F1`) to enter the service menu. Use the `Service` button
     (default `F2`) to navigate the menu, and `Test` button to select an option.
@@ -131,7 +131,7 @@
     Select **APPLY SETTINGS AND RE-BOOT** to save the settings.
 
     Note that this will close your game and you will have to start it again
-    with `start.bat`.
+    with `launch.bat`.
 
 --8<-- "docs/snippets/sega/common/success.md"
 

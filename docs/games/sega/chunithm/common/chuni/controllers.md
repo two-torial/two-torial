@@ -101,7 +101,7 @@
 
 ### Laverita 3
 
-??? tip ""
+!!! tip ""
 
     - Switch your Laverita to HID mode. You can do so in ConfigApp
     - Download Laverita IO DLLs and extract to your `App\bin` folder.

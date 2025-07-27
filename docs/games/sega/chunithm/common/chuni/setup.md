@@ -35,7 +35,14 @@
     
 ## Installing unprotected executables
 
---8<-- "docs/snippets/sega/chunithm/unprotected_exes_chuni.md"
+!!! tip ""
+
+    CHUNITHM executables are protected and will not run on a regular computer.
+
+    Obtain unprotected (also called "unpacked" or "decrypted" by the community) copies of `chuniApp.exe` and `aimeReaderHost.exe` for your game version.
+
+    - Copy `chuniApp.exe` and `aimeReaderHost.exe` to data's `App\bin` folder
+    - Agree to overwrite when asked
 
 ## Installing ICFs
 
@@ -66,7 +73,7 @@
     ⚙️chunihook.dll
     ▶️inject.exe
     📝segatools.ini
-    ▶️start.bat
+    ▶️launch.bat
     ```
 
 ## Configuring segatools
@@ -113,7 +120,7 @@
 
     If you've followed all instructions correctly, you're now finally ready to launch the game!
 
-    Start the game by running `App\bin\start.bat`. Let the game load until it reaches the screen below.
+    Start the game by running `App\bin\launch.bat`. Let the game load until it reaches the screen below.
 
     <img src="/img/sega/chunithm/common/setup/chuni/servicemenu/0_asettings.webp">
 

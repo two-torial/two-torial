@@ -47,7 +47,7 @@
     ```
 
     If your game files does not include `config_hook.json`, it is OK to create a new file.  
-    Then edit the launch script (usually `start.bat`) to tell the game about it:
+    Then edit the launch script (usually `launch.bat`) to tell the game about it:
     
     ```
     amdaemon.exe -f -c config_common.json config_server.json config_client.json {++config_hook.json++}
@@ -190,7 +190,7 @@
     ```
 
     If your game files does not include `config_hook.json`, it is OK to create a new file.  
-    Then edit the launch script (usually `start.bat`) to tell the game about it:
+    Then edit the launch script (usually `launch.bat`) to tell the game about it:
     
     ```
     amdaemon.exe -f -c config_common.json config_server.json config_client.json {++config_hook.json++}
