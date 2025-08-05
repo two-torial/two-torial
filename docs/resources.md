@@ -42,6 +42,7 @@
     - [beatmania.app](https://beatmania.app/!/) - IIDX INFINITAS difficulty tier list
     - [atwiki](https://w.atwiki.jp/bemani2sp/sp/) - IIDX wiki in JP (includes tier lists)
     - [textage.cc](https://textage.cc/score/) - Chart viewing resource
+    - [QPro Viewer by DJ HITOMI](https://qpro.inf.li/) - QPRO customization viewer
     - [DJ DAO IIDX troubleshooting guide](https://github.com/minsang-github/rhythmgame-docs/wiki/DJ-DAO-IIDX-controller-troubleshooting) - Step-by-step guide for FPS, FP7, PEE, RES, RED controllers
 
 ## SDVX
