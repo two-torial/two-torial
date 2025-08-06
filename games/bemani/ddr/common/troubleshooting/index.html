@@ -8502,45 +8502,42 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#clock-error" class="md-nav__link">
+  <a href="#technical-problems" class="md-nav__link">
     <span class="md-ellipsis">
-      Clock error
+      Technical problems
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Technical problems">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#crashes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Crashes
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#the-game-is-running-slowlagging" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#performance" class="md-nav__link">
     <span class="md-ellipsis">
-      The game is running slow/lagging
+      Performance
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#unable-to-login-eamuse-error-network-error" class="md-nav__link">
-    <span class="md-ellipsis">
-      Unable to login / Eamuse error / Network error
-    </span>
-  </a>
+        
+      </ul>
+    </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#after-choosing-a-song-the-game-freezes-on-the-loading-screen" class="md-nav__link">
+  <a href="#other" class="md-nav__link">
     <span class="md-ellipsis">
-      After choosing a song, the game freezes on the loading screen
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#where-are-the-option-for-dancersshadingmeasure-linesfast-slowlayering" class="md-nav__link">
-    <span class="md-ellipsis">
-      Where are the option for Dancers/Shading/Measure lines/Fast-Slow/Layering?
+      Other
     </span>
   </a>
   
@@ -8571,27 +8568,28 @@
 <p><strong>Corrupted or incomplete files will cause unpredictable issues we can't cover.</strong><br />
 <strong>TWO-TORIAL does not provide or distribute game data. Do not ask.</strong></p>
 </div>
-<h3 id="clock-error">Clock error</h3>
-<div class="admonition tip">
-<p>In the test menu, navigate to <code>CLOCK</code>, and set it to match your computer's time.</p>
+<div class="admonition info">
+<p class="admonition-title">For any issues not covered here, spice2x's <a href="https://github.com/spice2x/spice2x.github.io/wiki/Known-issues">Known issues</a> page might prove useful</p>
 </div>
-<h3 id="the-game-is-running-slowlagging">The game is running slow/lagging</h3>
-<div class="admonition tip">
-<p>Try to eliminate any unnecessary background processes during play.</p>
+<h2 id="technical-problems">Technical problems</h2>
+<h3 id="crashes">Crashes</h3>
+<details class="tip">
+<summary>Game crashes on startup or when starting a song / No background and no music video</summary>
+<p>This is likely caused by missing or incorrectly registered codecs. Make sure to follow the DDR section on the <a href="https://github.com/spice2x/spice2x.github.io/wiki/DLL-Dependencies#ddr">spice2x wiki</a>.</p>
+</details>
+<h3 id="performance">Performance</h3>
+<div class="admonition info">
+<p class="admonition-title">Check out spice2x's <a href="https://github.com/spice2x/spice2x.github.io/wiki/PC-optimization">PC optimization</a> guide</p>
 </div>
-<h3 id="unable-to-login-eamuse-error-network-error">Unable to login / Eamuse error / Network error</h3>
-<div class="admonition tip">
-<p>Get the proper Asphyxia plugin from our <a href="https://discord.gg/cZRUmEPK78">Discord server</a> in the #ddr channel &gt; Resources post.
-Make sure you didn't enable <code>-smartea</code> in spicecfg's options.</p>
-</div>
-<h3 id="after-choosing-a-song-the-game-freezes-on-the-loading-screen">After choosing a song, the game freezes on the loading screen</h3>
-<div class="admonition tip">
-<p>There are two possible reasons for this. Either you may not have properly registered your codecs, or it's possible that your network doesn't support your game version.</p>
-</div>
-<h3 id="where-are-the-option-for-dancersshadingmeasure-linesfast-slowlayering">Where are the option for Dancers/Shading/Measure lines/Fast-Slow/Layering?</h3>
-<div class="admonition tip">
+<details class="tip">
+<summary>Game is running too slow/fast</summary>
+<p>Try to eliminate any unnecessary background processes during play and ensure your screen's framerate is set to 60 FPS.</p>
+</details>
+<h2 id="other">Other</h2>
+<details class="tip">
+<summary>Where are the option for Dancers/Shading/Measure lines/Fast-Slow/Layering?</summary>
 <p>These options are locked behind network requirements and will not be displayed unless you are connected to a network that has written support for these options. Patches are available to mitigate this, see our <a href="../../../../../extras/patchsp2x/">spice2x Patching guide</a>.</p>
-</div>
+</details>
 
 
 
@@ -8612,7 +8610,7 @@ Make sure you didn't enable <code>-smartea</code> in spicecfg's options.</p>
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="June 24, 2025 10:06:51 UTC">June 24, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="August 6, 2025 09:02:17 UTC">August 6, 2025</span>
   </span>
 
     
