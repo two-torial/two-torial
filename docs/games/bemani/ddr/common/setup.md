@@ -140,20 +140,19 @@
 
 --8<-- "docs/snippets/bemani/common/setup_network.md"
 
-
 ## Installing VCRedist & DirectX
 
 --8<-- "docs/snippets/common/setup_vcredist_directx.md"
-
-## Before playing
-
---8<-- "docs/snippets/common/before_playing.md"
 
 ## Registering codecs
 
 !!! tip ""
 
     Follow the DDR section on the [spice2x wiki](https://github.com/spice2x/spice2x.github.io/wiki/DLL-Dependencies#ddr)
+
+## Before playing
+
+--8<-- "docs/snippets/common/before_playing.md"
 
 ## Help
 

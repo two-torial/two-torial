@@ -2,33 +2,26 @@
 
 --8<-- "docs/snippets/common/data_warning.md"
 
-### Clock error
+!!! info "For any issues not covered here, spice2x's [Known issues](https://github.com/spice2x/spice2x.github.io/wiki/Known-issues) page might prove useful"
 
-!!! tip ""
+## Technical problems
 
-    In the test menu, navigate to `CLOCK`, and set it to match your computer's time.
+### Crashes
 
-### The game is running slow/lagging
+??? tip "Game crashes on startup or when starting a song / No background and no music video"
 
-!!! tip ""
+    This is likely caused by missing or incorrectly registered codecs. Make sure to follow the DDR section on the [spice2x wiki](https://github.com/spice2x/spice2x.github.io/wiki/DLL-Dependencies#ddr).
 
-    Try to eliminate any unnecessary background processes during play.
+### Performance
 
-### Unable to login / Eamuse error / Network error
+!!! info "Check out spice2x's [PC optimization](https://github.com/spice2x/spice2x.github.io/wiki/PC-optimization) guide"
 
-!!! tip ""
+??? tip "Game is running too slow/fast"
 
-    Get the proper Asphyxia plugin from our [Discord server](https://discord.gg/cZRUmEPK78) in the #ddr channel > Resources post.
-    Make sure you didn't enable `-smartea` in spicecfg's options.
+    Try to eliminate any unnecessary background processes during play and ensure your screen's framerate is set to 60 FPS.
 
-### After choosing a song, the game freezes on the loading screen
+## Other
 
-!!! tip ""
-
-    There are two possible reasons for this. Either you may not have properly registered your codecs, or it's possible that your network doesn't support your game version.
-
-### Where are the option for Dancers/Shading/Measure lines/Fast-Slow/Layering?
-
-!!! tip ""
+??? tip "Where are the option for Dancers/Shading/Measure lines/Fast-Slow/Layering?"
 
     These options are locked behind network requirements and will not be displayed unless you are connected to a network that has written support for these options. Patches are available to mitigate this, see our [spice2x Patching guide](/extras/patchsp2x.md).
