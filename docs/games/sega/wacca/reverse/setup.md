@@ -95,6 +95,18 @@
 
 --8<-- "docs/snippets/common/setup_vcredist_directx.md"
 
+## OpenSSL Fix (Intel 10th Gen+)
+
+!!! tip ""
+
+    If you have an Intel 10th Gen CPU or newer, add this line below `@echo off` in your `launch.bat` file to apply the OpenSSL fix.
+
+    ``` batch title="launch.bat" hl_lines="2"
+    @echo off
+    set OPENSSL_ia32cap=:~0x20000000
+    [...]
+    ```
+
 ## Before playing
 
 --8<-- "docs/snippets/common/before_playing.md"
