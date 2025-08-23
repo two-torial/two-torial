@@ -127,6 +127,9 @@ nav:
         - "MÚSECA 1+1/2":
           - "Game Setup": "games/bemani/museca/1plushalf/setup.md"
           - "Troubleshooting": "games/bemani/museca/1plushalf/troubleshooting.md"
+      - "Mahjong Fight Girl":
+        - "Game Setup": "games/bemani/mfg/setup.md"
+        - "Troubleshooting": "games/bemani/mfg/troubleshooting.md"
     - SEGA:
       - "CHUNITHM":
         - "CHUNITHM":
