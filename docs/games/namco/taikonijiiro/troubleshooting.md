@@ -61,7 +61,7 @@
      
     ??? tip "If you have a display that is less than 120 Hz"                                                   
         - In `config.toml` set `vsync =` to `false` and `windowed =` to `true`.  
-        - Alternatively you can use (RTSS)[https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download/].                                                                         
+        - Alternatively you can use [RTSS](https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download/).                                                                         
 
 ### My game is not connected to a network but I set one up
 
