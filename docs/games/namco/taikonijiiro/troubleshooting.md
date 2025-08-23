@@ -56,11 +56,12 @@
     The game needs to be ran at 120 FPS or things will break.
     
     ??? tip "If you have a display that supports 120 Hz or higher"                           
-        - Set your display to 120 Hz. You may need to make a custom resolution.                                                                              
+        - Set your display to 120 Hz. You may need to make a [custom resolution](https://customresolutionutility.net/).                                                                              
         - In `config.toml` set `vsync =` to `true`.  
      
     ??? tip "If you have a display that is less than 120 Hz"                                                   
-        - In `config.toml` set `vsync =` to `false` and `windowed =` to `true`.                                                                        
+        - In `config.toml` set `vsync =` to `false` and `windowed =` to `true`.  
+        - Alternatively you can use (RTSS)[https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download/].                                                                         
 
 ### My game is not connected to a network but I set one up
 
