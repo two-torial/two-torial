@@ -8,128 +8,128 @@ repo_name: GitHub
 nav:
   - Home: index.md
   - Games:
-    - BEMANI:
+    - KONAMI:
       - "beatmania IIDX":
         - "9th style":
-          - "Game Setup": "games/bemani/iidx/9thstyle/setup.md"
-          - "Troubleshooting": "games/bemani/iidx/9thstyle/troubleshooting.md"
+          - "Game Setup": "games/konami/iidx/9thstyle/setup.md"
+          - "Troubleshooting": "games/konami/iidx/9thstyle/troubleshooting.md"
         - "10th style":
-          - "Game Setup": "games/bemani/iidx/10thstyle/setup.md"
-          - "Troubleshooting": "games/bemani/iidx/10thstyle/troubleshooting.md"
+          - "Game Setup": "games/konami/iidx/10thstyle/setup.md"
+          - "Troubleshooting": "games/konami/iidx/10thstyle/troubleshooting.md"
         - "11 RED":
-          - "Game Setup": "games/bemani/iidx/11_red/setup.md"
-          - "Troubleshooting": "games/bemani/iidx/11_red/troubleshooting.md"
+          - "Game Setup": "games/konami/iidx/11_red/setup.md"
+          - "Troubleshooting": "games/konami/iidx/11_red/troubleshooting.md"
         - "12 HAPPY SKY":
-          - "Game Setup": "games/bemani/iidx/12_happysky/setup.md"
-          - "Troubleshooting": "games/bemani/iidx/12_happysky/troubleshooting.md"
+          - "Game Setup": "games/konami/iidx/12_happysky/setup.md"
+          - "Troubleshooting": "games/konami/iidx/12_happysky/troubleshooting.md"
         - "13 DistorteD":
-          - "Game Setup": "games/bemani/iidx/13_distorted/setup.md"
-          - "Troubleshooting": "games/bemani/iidx/13_distorted/troubleshooting.md"
+          - "Game Setup": "games/konami/iidx/13_distorted/setup.md"
+          - "Troubleshooting": "games/konami/iidx/13_distorted/troubleshooting.md"
         - "14 GOLD":
-          - "Game Setup": "games/bemani/iidx/14_gold/setup.md"
-          - "Troubleshooting": "games/bemani/iidx/14_gold/troubleshooting.md"
+          - "Game Setup": "games/konami/iidx/14_gold/setup.md"
+          - "Troubleshooting": "games/konami/iidx/14_gold/troubleshooting.md"
         - "24 SINOBUZ":
-          - "Game Setup": "games/bemani/iidx/24_sinobuz/setup.md"
-          - "Extra Information": "games/bemani/iidx/24_sinobuz/extras.md"
-          - "Troubleshooting": "games/bemani/iidx/24_sinobuz/troubleshooting.md"
+          - "Game Setup": "games/konami/iidx/24_sinobuz/setup.md"
+          - "Extra Information": "games/konami/iidx/24_sinobuz/extras.md"
+          - "Troubleshooting": "games/konami/iidx/24_sinobuz/troubleshooting.md"
         - "25 CANNON BALLERS":
-          - "Game Setup": "games/bemani/iidx/25_cannonballers/setup.md"
-          - "Troubleshooting": "games/bemani/iidx/25_cannonballers/troubleshooting.md"
+          - "Game Setup": "games/konami/iidx/25_cannonballers/setup.md"
+          - "Troubleshooting": "games/konami/iidx/25_cannonballers/troubleshooting.md"
         - "26 Rootage":
-          - "Game Setup": "games/bemani/iidx/26_rootage/setup.md"
-          - "Troubleshooting": "games/bemani/iidx/26_rootage/troubleshooting.md"
+          - "Game Setup": "games/konami/iidx/26_rootage/setup.md"
+          - "Troubleshooting": "games/konami/iidx/26_rootage/troubleshooting.md"
         - "27 HEROIC VERSE":
-          - "Game Setup": "games/bemani/iidx/27_heroicverse/setup.md"
-          - "Extra Information": "games/bemani/iidx/27_heroicverse/extras.md"
-          - "Troubleshooting": "games/bemani/iidx/27_heroicverse/troubleshooting.md"
+          - "Game Setup": "games/konami/iidx/27_heroicverse/setup.md"
+          - "Extra Information": "games/konami/iidx/27_heroicverse/extras.md"
+          - "Troubleshooting": "games/konami/iidx/27_heroicverse/troubleshooting.md"
         - "30 RESIDENT":
-          - "Game Setup": "games/bemani/iidx/30_resident/setup.md"
-          - "Extra Information": "games/bemani/iidx/30_resident/extras.md"
-          - "Troubleshooting": "games/bemani/iidx/30_resident/troubleshooting.md"
+          - "Game Setup": "games/konami/iidx/30_resident/setup.md"
+          - "Extra Information": "games/konami/iidx/30_resident/extras.md"
+          - "Troubleshooting": "games/konami/iidx/30_resident/troubleshooting.md"
         - "31 EPOLIS":
-          - "Game Setup": "games/bemani/iidx/31_epolis/setup.md"
-          - "Extra Information": "games/bemani/iidx/31_epolis/extras.md"
-          - "Troubleshooting": "games/bemani/iidx/31_epolis/troubleshooting.md"
+          - "Game Setup": "games/konami/iidx/31_epolis/setup.md"
+          - "Extra Information": "games/konami/iidx/31_epolis/extras.md"
+          - "Troubleshooting": "games/konami/iidx/31_epolis/troubleshooting.md"
         - "32 Pinky Crush":
-          - "Game Setup": "games/bemani/iidx/32_pinkycrush/setup.md"
-          - "Extra Information": "games/bemani/iidx/32_pinkycrush/extras.md"
-          - "Troubleshooting": "games/bemani/iidx/32_pinkycrush/troubleshooting.md"
+          - "Game Setup": "games/konami/iidx/32_pinkycrush/setup.md"
+          - "Extra Information": "games/konami/iidx/32_pinkycrush/extras.md"
+          - "Troubleshooting": "games/konami/iidx/32_pinkycrush/troubleshooting.md"
       - "Sound Voltex":
         - "IV HEAVENLY HAVEN":
-          - "Game Setup": "games/bemani/sdvx/4_heavenlyhaven/setup.md"
-          - "Troubleshooting": "games/bemani/sdvx/4_heavenlyhaven/troubleshooting.md"
+          - "Game Setup": "games/konami/sdvx/4_heavenlyhaven/setup.md"
+          - "Troubleshooting": "games/konami/sdvx/4_heavenlyhaven/troubleshooting.md"
         - "V VIVID WAVE":
-          - "Game Setup": "games/bemani/sdvx/5_vividwave/setup.md"
-          - "Troubleshooting": "games/bemani/sdvx/5_vividwave/troubleshooting.md"
+          - "Game Setup": "games/konami/sdvx/5_vividwave/setup.md"
+          - "Troubleshooting": "games/konami/sdvx/5_vividwave/troubleshooting.md"
         - "VI EXCEED GEAR":
-          - "Game Setup": "games/bemani/sdvx/6_exceedgear/setup.md"
-          - "Extra Information": "games/bemani/sdvx/6_exceedgear/extras.md"
-          - "Troubleshooting": "games/bemani/sdvx/6_exceedgear/troubleshooting.md"
+          - "Game Setup": "games/konami/sdvx/6_exceedgear/setup.md"
+          - "Extra Information": "games/konami/sdvx/6_exceedgear/extras.md"
+          - "Troubleshooting": "games/konami/sdvx/6_exceedgear/troubleshooting.md"
       - "pop'n music":
         - "Usaneko":
-          - "Game Setup": "games/bemani/popn/usaneko/setup.md"
-          - "Troubleshooting": "games/bemani/popn/usaneko/troubleshooting.md"
+          - "Game Setup": "games/konami/popn/usaneko/setup.md"
+          - "Troubleshooting": "games/konami/popn/usaneko/troubleshooting.md"
         - "peace":
-          - "Game Setup": "games/bemani/popn/peace/setup.md"
-          - "Troubleshooting": "games/bemani/popn/peace/troubleshooting.md"
+          - "Game Setup": "games/konami/popn/peace/setup.md"
+          - "Troubleshooting": "games/konami/popn/peace/troubleshooting.md"
         - "Kaimei Riddles":
-          - "Game Setup": "games/bemani/popn/kaimei_riddles/setup.md"
-          - "Troubleshooting": "games/bemani/popn/kaimei_riddles/troubleshooting.md"
+          - "Game Setup": "games/konami/popn/kaimei_riddles/setup.md"
+          - "Troubleshooting": "games/konami/popn/kaimei_riddles/troubleshooting.md"
         - "UniLab":
-          - "Game Setup": "games/bemani/popn/unilab/setup.md"
-          - "Troubleshooting": "games/bemani/popn/unilab/troubleshooting.md"
+          - "Game Setup": "games/konami/popn/unilab/setup.md"
+          - "Troubleshooting": "games/konami/popn/unilab/troubleshooting.md"
       - "Dance Dance Revolution":
         - "A20":
-          - "Game Setup": "games/bemani/ddr/a20/setup.md"
-          - "Troubleshooting": "games/bemani/ddr/a20/troubleshooting.md"
+          - "Game Setup": "games/konami/ddr/a20/setup.md"
+          - "Troubleshooting": "games/konami/ddr/a20/troubleshooting.md"
         - "A20 PLUS":
-          - "Game Setup": "games/bemani/ddr/a20plus/setup.md"
-          - "Troubleshooting": "games/bemani/ddr/a20plus/troubleshooting.md"
+          - "Game Setup": "games/konami/ddr/a20plus/setup.md"
+          - "Troubleshooting": "games/konami/ddr/a20plus/troubleshooting.md"
         - "A3":
-          - "Game Setup": "games/bemani/ddr/a3/setup.md"
-          - "Troubleshooting": "games/bemani/ddr/a3/troubleshooting.md"
+          - "Game Setup": "games/konami/ddr/a3/setup.md"
+          - "Troubleshooting": "games/konami/ddr/a3/troubleshooting.md"
         - "WORLD":
-          - "Game Setup": "games/bemani/ddr/world/setup.md"
-          - "Troubleshooting": "games/bemani/ddr/world/troubleshooting.md"
+          - "Game Setup": "games/konami/ddr/world/setup.md"
+          - "Troubleshooting": "games/konami/ddr/world/troubleshooting.md"
       - "jubeat":
         - "festo":
-          - "Game Setup": "games/bemani/jubeat/festo/setup.md"
+          - "Game Setup": "games/konami/jubeat/festo/setup.md"
         - "Ave.":
-          - "Game Setup": "games/bemani/jubeat/avenue/setup.md"
+          - "Game Setup": "games/konami/jubeat/avenue/setup.md"
         - "beyond the Ave.":
-          - "Game Setup": "games/bemani/jubeat/beyondtheavenue/setup.md"
+          - "Game Setup": "games/konami/jubeat/beyondtheavenue/setup.md"
       - "GITADORA":
         - "Matixx":
-          - "Game Setup": "games/bemani/gitadora/matixx/setup.md"
-          - "Troubleshooting": "games/bemani/gitadora/matixx/troubleshooting.md"
+          - "Game Setup": "games/konami/gitadora/matixx/setup.md"
+          - "Troubleshooting": "games/konami/gitadora/matixx/troubleshooting.md"
         - "EXCHAIN":
-          - "Game Setup": "games/bemani/gitadora/exchain/setup.md"
-          - "Troubleshooting": "games/bemani/gitadora/exchain/troubleshooting.md"
+          - "Game Setup": "games/konami/gitadora/exchain/setup.md"
+          - "Troubleshooting": "games/konami/gitadora/exchain/troubleshooting.md"
         - "Fuzz-Up":
-          - "Game Setup": "games/bemani/gitadora/fuzzup/setup.md"
-          - "Troubleshooting": "games/bemani/gitadora/fuzzup/troubleshooting.md"
+          - "Game Setup": "games/konami/gitadora/fuzzup/setup.md"
+          - "Troubleshooting": "games/konami/gitadora/fuzzup/troubleshooting.md"
       - "Reflec Beat":
         - "悠久のリフレシア (Reflesia)":
-          - "Game Setup": "games/bemani/reflecbeat/reflesia/setup.md"
-          - "Troubleshooting": "games/bemani/reflecbeat/reflesia/troubleshooting.md"
+          - "Game Setup": "games/konami/reflecbeat/reflesia/setup.md"
+          - "Troubleshooting": "games/konami/reflecbeat/reflesia/troubleshooting.md"
       - "NOSTALGIA":
         - "FORTE":
-          - "Game Setup": "games/bemani/nostalgia/forte/setup.md"
-          - "Troubleshooting": "games/bemani/nostalgia/forte/troubleshooting.md"
+          - "Game Setup": "games/konami/nostalgia/forte/setup.md"
+          - "Troubleshooting": "games/konami/nostalgia/forte/troubleshooting.md"
         - "Op.2":
-          - "Game Setup": "games/bemani/nostalgia/op2/setup.md"
-          - "Troubleshooting": "games/bemani/nostalgia/op2/troubleshooting.md"
+          - "Game Setup": "games/konami/nostalgia/op2/setup.md"
+          - "Troubleshooting": "games/konami/nostalgia/op2/troubleshooting.md"
       - "BeatStream":
         - "アニムトライヴ (Animutribe)":
-          - "Game Setup": "games/bemani/beatstream/animutribe/setup.md"
-          - "Troubleshooting": "games/bemani/beatstream/animutribe/troubleshooting.md"
+          - "Game Setup": "games/konami/beatstream/animutribe/setup.md"
+          - "Troubleshooting": "games/konami/beatstream/animutribe/troubleshooting.md"
       - "MÚSECA":
         - "MÚSECA 1+1/2":
-          - "Game Setup": "games/bemani/museca/1plushalf/setup.md"
-          - "Troubleshooting": "games/bemani/museca/1plushalf/troubleshooting.md"
+          - "Game Setup": "games/konami/museca/1plushalf/setup.md"
+          - "Troubleshooting": "games/konami/museca/1plushalf/troubleshooting.md"
       - "Mahjong Fight Girl":
-        - "Game Setup": "games/bemani/mfg/setup.md"
-        - "Troubleshooting": "games/bemani/mfg/troubleshooting.md"
+        - "Game Setup": "games/konami/mfg/setup.md"
+        - "Troubleshooting": "games/konami/mfg/troubleshooting.md"
     - SEGA:
       - "CHUNITHM":
         - "CHUNITHM":
@@ -267,7 +267,7 @@ nav:
       - "Tetote X Connect":
         - "Game Setup": "games/taito/tetoteconnect/setup.md"
   - Error Codes:
-    - BEMANI: "errorcodes/bemani.md"
+    - KONAMI: "errorcodes/konami.md"
     - SEGA: "errorcodes/sega.md"
   - Game Patching:
     - "Using spice2x": "extras/patchsp2x.md"
@@ -278,17 +278,17 @@ nav:
     - "Audio": "extras/audio.md"
     - "Cab-to-Cab (ZeroTier)": "extras/zerotier.md"
     - "Controllers": "extras/controllers.md"
-    - "Modding (Bemani)": "extras/datamods.md"
+    - "Modding (Konami)": "extras/datamods.md"
     - "Modding (Unity)": "extras/unity.md"
   - Other Resources: resources.md
 
 not_in_nav: |
   snippets
-  games/bemani/iidx/common
-  games/bemani/sdvx/common
-  games/bemani/ddr/common
-  games/bemani/popn/common
-  games/bemani/jubeat/common
+  games/konami/iidx/common
+  games/konami/sdvx/common
+  games/konami/ddr/common
+  games/konami/popn/common
+  games/konami/jubeat/common
   games/sega/chunithm/common
   games/sega/maimaidx/common
   games/sega/ongeki/common
