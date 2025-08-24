@@ -45,13 +45,13 @@
 
 !!! tip "Binding your buttons" 
 
-        Click on `Bind` or `Naive` then press the key you want associated with the action.
+    Click on `Bind` or `Naive` then press the key you want associated with the action.
 
-        With your keyboard plugged in, configure your keys for P1 and/or P2:  
+    With your keyboard plugged in, configure your keys for P1 and/or P2:  
 
-        - **Maintenance**: `Service, Test`
+    - **Maintenance**: `Service, Test`
 
-        Mahjong Fight Girl is a touchscreen game, so it does not need any extra button configuration beyond the above.
+    Mahjong Fight Girl is a touchscreen game, so it does not need any extra button configuration beyond the above.
 
 --8<-- "docs/snippets/konami/common/spicecfg_buttons_additionalinfo.md"
   
