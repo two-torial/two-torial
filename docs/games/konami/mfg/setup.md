@@ -24,7 +24,7 @@
 
 --8<-- "docs/snippets/konami/common/spice2x64_install.md"
     
-    ``` hl_lines="6-7"
+    ``` hl_lines="5-6"
     📂prop
     📂modules
     📂game
