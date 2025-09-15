@@ -338,11 +338,9 @@ theme:
     - content.code.annotate
 
 markdown_extensions:
-  # Core Extensions
   - admonition
   - attr_list
   - md_in_html
-  # Code
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -350,15 +348,12 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
-  # Content
   - pymdownx.details
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator:
-        !!python/name:material.extensions.emoji.to_svg # Text Formatting
-
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.caret
   - pymdownx.critic
   - pymdownx.keys
