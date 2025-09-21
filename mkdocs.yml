@@ -54,6 +54,10 @@ nav:
                   - "Game Setup": "games/konami/iidx/32_pinkycrush/setup.md"
                   - "Extra Information": "games/konami/iidx/32_pinkycrush/extras.md"
                   - "Troubleshooting": "games/konami/iidx/32_pinkycrush/troubleshooting.md"
+              - "33 Sparkle Shower":
+                  - "Game Setup": "games/konami/iidx/33_sparkleshower/setup.md"
+                  - "Extra Information": "games/konami/iidx/33_sparkleshower/extras.md"
+                  - "Troubleshooting": "games/konami/iidx/33_sparkleshower/troubleshooting.md"
           - "Sound Voltex":
               - "IV HEAVENLY HAVEN":
                   - "Game Setup": "games/konami/sdvx/4_heavenlyhaven/setup.md"
