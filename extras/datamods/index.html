@@ -8813,44 +8813,38 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#preparing-data_mods" class="md-nav__link">
+  <a href="#installing-mod-files" class="md-nav__link">
     <span class="md-ellipsis">
-      Preparing data_mods
+      Installing mod files
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#loading-data_mods" class="md-nav__link">
+  <a href="#loading-mods-data-files-ifs_layeredfs" class="md-nav__link">
     <span class="md-ellipsis">
-      Loading data_mods
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Loading data_mods">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#installing-ifs_layeredfs" class="md-nav__link">
-    <span class="md-ellipsis">
-      Installing ifs_layeredfs
+      Loading mods data files (ifs_layeredfs)
     </span>
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#loading-ifs_layeredfs" class="md-nav__link">
+      
+        <li class="md-nav__item">
+  <a href="#installing-omnifix-for-iidx-omnimix-only" class="md-nav__link">
     <span class="md-ellipsis">
-      Loading ifs_layeredfs
+      Installing Omnifix (for IIDX Omnimix only)
     </span>
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
+      
+        <li class="md-nav__item">
+  <a href="#injecting-dll-hooks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Injecting DLL Hooks
+    </span>
+  </a>
   
 </li>
       
@@ -8949,44 +8943,38 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#preparing-data_mods" class="md-nav__link">
+  <a href="#installing-mod-files" class="md-nav__link">
     <span class="md-ellipsis">
-      Preparing data_mods
+      Installing mod files
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#loading-data_mods" class="md-nav__link">
+  <a href="#loading-mods-data-files-ifs_layeredfs" class="md-nav__link">
     <span class="md-ellipsis">
-      Loading data_mods
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Loading data_mods">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#installing-ifs_layeredfs" class="md-nav__link">
-    <span class="md-ellipsis">
-      Installing ifs_layeredfs
+      Loading mods data files (ifs_layeredfs)
     </span>
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#loading-ifs_layeredfs" class="md-nav__link">
+      
+        <li class="md-nav__item">
+  <a href="#installing-omnifix-for-iidx-omnimix-only" class="md-nav__link">
     <span class="md-ellipsis">
-      Loading ifs_layeredfs
+      Installing Omnifix (for IIDX Omnimix only)
     </span>
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
+      
+        <li class="md-nav__item">
+  <a href="#injecting-dll-hooks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Injecting DLL Hooks
+    </span>
+  </a>
   
 </li>
       
@@ -9013,7 +9001,7 @@
 
 <div class="admonition info">
 <p class="admonition-title">Synopsis</p>
-<p>This guide will cover how to mod your BEMANI game's data folder in a non-destructive way.<br />
+<p>This guide will cover how to mod your KONAMI game's data folder in a non-destructive way.<br />
 No files will be removed or overwritten.</p>
 </div>
 <h2 id="pre-requisites">Pre-requisites</h2>
@@ -9028,22 +9016,20 @@ No files will be removed or overwritten.</p>
 <ul>
 <li>Please make sure the mod you're installing is <strong>compatible with YOUR specific game and game version</strong></li>
 <li>If connecting to an <strong>online network</strong>, make sure they <strong>explicitly allow</strong> the mod you're about to install</li>
-<li>TWO-TORIAL will <strong>NOT</strong> provide support with issues caused by mods besides <strong>Omnimix</strong> for beatmania IIDX</li>
 </ul>
 </div>
-<h2 id="preparing-data_mods">Preparing data_mods</h2>
+<h2 id="installing-mod-files">Installing mod files</h2>
 <div class="admonition tip">
-<p>Let's place your mod files in the right folder.</p>
 <ul>
-<li>Create a <code>data_mods</code> folder next to the others in your game files</li>
+<li>Create a <code>data_mods</code> folder next to the others in your game files if it doesn't exist</li>
 </ul>
 <p><img src="/img/extras/datamods/1.webp"></p>
-<p>Depending on how your mod is packaged, you may or may not need to create another folder to contain it.<br />
-Inside that folder, the structure should follow the one in <code>data/</code>.</p>
 <ul>
-<li>Place your files inside that <code>data_mods/mod_folder/</code></li>
+<li>Place your mod files inside data_mods in a way that respects the following structure <br />
+<code>data_mods/mod_folder/&lt;data folders/&lt;data_files&gt;</code></li>
 </ul>
-<p>If you're confused, the following may help you understand what this means.</p>
+<p>You can think of the mod folder coming to overwrite your game's data folder at runtime.<br />
+If you're confused, the following may help you understand what we mean.</p>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>📂data
 </span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>┣━📂graphic
 </span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>┣━📂info
@@ -9067,10 +9053,10 @@ Inside that folder, the structure should follow the one in <code>data/</code>.</
 <p><strong>Directory</strong>: <code>contents/data_mods/omnimix_31</code>
 <img src="/img/extras/datamods/3.webp"></p>
 </div>
-<h2 id="loading-data_mods">Loading data_mods</h2>
-<h3 id="installing-ifs_layeredfs">Installing ifs_layeredfs</h3>
+<h2 id="loading-mods-data-files-ifs_layeredfs">Loading mods data files (ifs_layeredfs)</h2>
 <div class="admonition tip">
-<p>We now need a way for our game to load our mods.</p>
+<p>Overwriting game files with mods is heavily discouraged, as there is no clean way of undoing that.
+This is where ifs_layeredfs comes in, to load modded data files without permanently modifying your game data.</p>
 <ul>
 <li>Download the most recent release of <a href="https://github.com/mon/ifs_layeredfs/releases/">ifs_layeredfs</a></li>
 </ul>
@@ -9079,7 +9065,6 @@ Inside that folder, the structure should follow the one in <code>data/</code>.</
 <li>Open the archive</li>
 </ul>
 <p><img src="/img/extras/datamods/5.webp"></p>
-<p>What we're interested in are the <code>64bit</code> and <code>32bit</code> folders:</p>
 <ul>
 <li>Your game is 32bit <em>(spice.exe to launch)</em>: go in the <code>32bit</code> folder</li>
 <li>Your game is 64bit <em>(spice64.exe to launch)</em>: go in the <code>64bit</code> folder</li>
@@ -9089,24 +9074,37 @@ Inside that folder, the structure should follow the one in <code>data/</code>.</
 <li>Copy the <code>ifs_hook.dll</code> file to your game's <code>modules</code> folder</li>
 </ul>
 <p><img src="/img/extras/datamods/7.webp"></p>
+<p>Follow the <a href="#injecting-dll-hooks">Injecting DLL Hooks</a> section to load this DLL.</p>
 </div>
-<h3 id="loading-ifs_layeredfs">Loading ifs_layeredfs</h3>
+<h2 id="installing-omnifix-for-iidx-omnimix-only">Installing Omnifix (for IIDX Omnimix only)</h2>
+<div class="admonition info">
+<p class="admonition-title">Compatibility</p>
+<p><a href="https://github.com/aixxe/omnifix?tab=readme-ov-file#compatibility">Supported game versions</a><br />
+For unsupported game versions, you'll have to patch Omnimix with <a href="../patchsp2x/">spice2x</a> or <a href="../patchweb/">web</a> patching.</p>
+</div>
 <div class="admonition tip">
-<p>All that should be left to do is tell spice2x to load <code>ifs_hook.dll</code>.</p>
+<p>Omnimix files require modification of your game DLL which can't be handled by ifs_layeredfs.<br />
+This is where Omnifix comes in, as a commonly agreed upon way of loading Omnimix for beatmania IIDX. </p>
+<ul>
+<li>Download the latest release archive for <a href="https://github.com/aixxe/omnifix/releases/">omnifix</a> much like you did with ifs_layeredfs</li>
+<li>Extract the <code>omnifix.dll</code> file contained in the archive to your game's <code>modules</code> folder</li>
+</ul>
+<p>Follow the <a href="#injecting-dll-hooks">Injecting DLL Hooks</a> section to load this DLL.</p>
+<p>Note that Omnifix also offers optional <a href="https://github.com/aixxe/omnifix?tab=readme-ov-file#options">launch parameters</a> you may want to consider.</p>
+</div>
+<h2 id="injecting-dll-hooks">Injecting DLL Hooks</h2>
+<div class="admonition tip">
+<p>Adding DLL files to your modules folder won't necessarily make them load automatically.<br />
+You sometimes need to tell spice2x to load each file individually, like with the DLLs mentioned in this guide.</p>
 <ul>
 <li>Open your game's <code>spicecfg.exe</code></li>
 <li>Head to the <code>options</code> tab</li>
-<li>Find the <code>Inject DLL Hooks</code> option under <code>Common</code> and type in <code>ifs_hook.dll</code> then press Enter</li>
+<li>Find the <code>Inject DLL Hooks</code> option under <code>Common</code></li>
+<li>Add the name of the DLL file(s) you want to load inside the text box</li>
 </ul>
-<p>Note: If you have other DLL hooks, simply add more by having a space in between them..<br />
-Example: <code>ifs_hook.dll somehook.dll</code></p>
+<p>Example: <code>ifs_hook.dll omnifix.dll</code><br />
+Note: You may list one or multiple DLL files separated by a space.</p>
 <p><img src="/img/extras/datamods/8.webp"></p>
-<p>Assuming your <code>data_mods</code> folder has been made properly, that's it!</p>
-</div>
-<div class="admonition danger">
-<p class="admonition-title">Extra step for beatmania IIDX Omnimix</p>
-<p>You also need to patch your game's DLL with the <code>Omnimix</code> patch.</p>
-<p>For more information on how to patch your game, head over to the <a href="../patchsp2x/">spice2x Patching</a> page!</p>
 </div>
 
 
@@ -9128,7 +9126,7 @@ Example: <code>ifs_hook.dll somehook.dll</code></p>
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="June 2, 2025 19:43:46 UTC">June 2, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="September 24, 2025 12:38:22 UTC">September 24, 2025</span>
   </span>
 
     
