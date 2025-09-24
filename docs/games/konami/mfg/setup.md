@@ -33,8 +33,6 @@
     🌶️spicecfg.exe
     ```
 
---8<-- "docs/snippets/konami/common/spice2x64_stubs.md"
-
 ## Configuring spice2x
 
 --8<-- "docs/snippets/konami/common/spicecfg_preamble.md"
