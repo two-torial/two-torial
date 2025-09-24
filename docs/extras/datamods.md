@@ -112,6 +112,9 @@
     - Add the name of the DLL file(s) you want to load inside the text box
 
     Example: `ifs_hook.dll omnifix.dll`  
-    Note: You may list one or multiple DLL files separated by a space.
+    
+    You may list one or multiple DLL files separated by a space.  
+    The order does matter, as it dictates in which order the DLL files are loaded.  
+    **We recommend loading `ifs_hook.dll` before all else**.
 
     <img src="/img/extras/datamods/8.webp">
