@@ -1,11 +1,7 @@
 <img class="header-logo" src="/img/konami/iidx/30_resident/logo.webp">
 # Extra Information
 
---8<-- "docs/snippets/common/old_guide.md"
-
---8<-- "docs/snippets/common/data_warning.md"
-
-## Standard & Lightning modes
+## Standard and Lightning modes
 
 !!! warning "Lightning mode requires a 120 Hz capable monitor"
 
@@ -32,6 +28,7 @@
     ```
 
     - ^^`A`^^ for Standard (LDJ-003, LDJ, 60 Hz)
+    - ^^`E`^^ for Standard (LDJ-012, LDJ, 60 Hz)
     - ^^`D`^^ for Lightning (LDJ-010, TDJ, 120 Hz)
     
 ## Changing the game's language
@@ -80,7 +77,7 @@
     ^^**Always keep it up to date**^^ with your game's current version.
 
     ```xml
-    <ext __type="str">2024052100</ext>
+    <ext __type="str">2023090500</ext>
     ```
 
     The following line determine what remote service URL `spice2x` is supposed to connect to.  

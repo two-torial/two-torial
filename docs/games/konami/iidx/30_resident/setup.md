@@ -1,281 +1,157 @@
 <img class="header-logo" src="/img/konami/iidx/30_resident/logo.webp">
 # Game Setup
 
---8<-- "docs/snippets/common/old_guide.md"
-
 --8<-- "docs/snippets/common/data_warning.md"
 
-## About data
+## Standard and Lightning modes
 
-!!! info "Standard (LDJ) / Lightning (TDJ)"
+!!! note ""
 
-    Please keep the following in mind as you're going through this guide.  
+    Before proceeding with the setup, it's important to understand the two cabinet types for IIDX:
 
-    IIDX's codename is `LDJ`. For `IIDX 30 Resident` it typically is `LDJ-003`.
+    - **Lightning (TDJ/LDJ-010)**:  
 
-    Two versions of the game exist:
+        - Runs at 120 FPS
+        - Requires a 120 Hz main monitor
+        - Optional second touchscreen 60 Hz monitor called a subscreen
+
+    - **Standard/Legacy (LDJ/LDJ-003/LDJ-012)**:  
+
+        - Runs at 60 FPS
+        - Requires a 60 Hz main monitor
+        - No subscreen
+
+    The game data comes in three variants based on the `bm2dx.dll` file.  
+    You can patch an LDJ dll to run in TDJ mode, but this will disable video recording.  
     
-    - **TDJ** expects a `120 Hz` compatible monitor for its main screen, and a second `60 Hz` touchscreen compatible monitor called a subscreen. The second monitor isn't mandatory, we can get around that using spice2x.
-    - **LDJ** expects `60 Hz` monitor for its main screen, and no subscreen.
-
-    We'll be using the terms **TDJ** for **Lightning**, and **LDJ** for **Standard** throughout the guide.
+    For simplicity, we'll use "TDJ" for Lightning Mode and "LDJ" for Standard Mode throughout our guides.
 
 ## Preparing data
 
-!!! tip ""
+--8<-- "docs/snippets/common/data_readonly.md"
 
-    After downloading and extracting your data, we need to make sure your files aren't set to `Read-only`.
+    The **complete game data** should be approximately **95 GB or larger**.  
+    If your data is significantly smaller, you likely have an update archive instead of the full game data.
 
-    - Right click the folder containing your data, then click on `Properties`.
-    - In the `General` tab go down to `Attributes`, untick `Read-only` and click `Apply`.
-    - A popup will appear, select `Apply changes to this folder, subfolder and files` and press `OK`.
-    - Finally, click `OK` again to exit out of properties.
+    Here's what the expected data structure should look like: 
 
-    You should end up with a file structure with a few folders only, as follows:
+    ```
+    📂data
+    📂dev
+    📂modules
+    📂prop
+    ```
 
-<img src="/img/konami/iidx/common/setup/data.webp">
+--8<-- "docs/snippets/konami/common/data_bad.md"
 
-??? warning "If your data doesn't look like this"
-
-    If you're missing the `modules` folder and instead have bunch of `.dll` files next to your folders:  
-
-    - Create a `modules` folder.
-    - Move all `.dll` files inside of it so you end up with a structure as shown above.
-
-    If extra files are present next to your folders, such as executables, scripts, etc., **remove them**.  
-    **This also means your data was tampered with and we strongly recommend getting new data from somewhere else.**
-
-!!! info "If you don't need to update your data, you can skip over to the [Installing spice2x](#installing-spice2x) section"
+!!! info "If your data is already up-to-date, you can skip ahead to the [Installing spice2x](#installing-spice2x) section"
 
 ## Updating data
 
-??? danger "Please make sure you're using the right update for your current data"
+!!! danger "Make sure you're using the right update for your current game version"
 
-    Patches re-uploaded by the community tend to be named `LDJ-DATECODE-to-DATECODE`.  
+    IIDX updates have `LDJ` and one or two datecodes in their archive names.
 
-    For example `LDJ-2022120800-to-2023090500`.
+    **Single datecode:** Contains one update (e.g., `LDJ_NewDateCode.7z`)  
+    **Two datecodes:** Updates from the older to newer version (e.g., `LDJ_OldDateCode-NewDateCode.rar`)
 
-    - `2022120800` being your current data's version.
-    - `2023090500` being the version you would arrive at.
+    A date code should look something like this: `YYYYMMDDXX`
 
-!!! tip ""
+    In the two-datecode example:
 
-    - Extract your patch's files to your existing data in a way that matches its file structure. Agree to overwrite files if necessary.
-    - Open `prop\ea3-config.xml` in a text editor and find the following lines near the top.
+    - `OldDateCode` is the older date, the game version required to apply this update
+    - `NewDateCode` is the newer date, and is the version you'll arrive at after applying the update
 
-    ```xml
-        <soft>
-            <model __type="str">LDJ</model>
-            <dest __type="str">J</dest>
-            <spec __type="str">A</spec>
-            <rev __type="str">A</rev>
-            <ext __type="str">2023090500</ext>
-        </soft>
-    ```
-
-    On the line with `<ext __type="str">` the datecode needs to match your new version.
-
-    - If that's already the case then great! Don't touch anything.
-    - If it instead corresponds to our pre-patch datecode, replace it with the new one.
-
-    Now save the file.
+--8<-- "docs/snippets/konami/common/data_update.md"
 
 ## Installing spice2x
 
-!!! info ""
+--8<-- "docs/snippets/konami/common/spice2x64_install.md"
 
-    If you already have spice2x installed, make sure it is up to date!
+    ``` hl_lines="5-6"
+    📂data
+    📂dev
+    📂modules
+    📂prop
+    🌶️spice64.exe
+    🌶️spicecfg.exe
+    ```
 
-!!! tip ""
-
-    - Head over to [spice2x.github.io](https://spice2x.github.io) and download the latest release.
-    - Extract the `spice64.exe` and `spicecfg.exe` files from the archive to your game's directory.
-  
-    <img src="/img/konami/iidx/common/setup/spice2x64data.webp">
+--8<-- "docs/snippets/konami/common/spice2x64_stubs.md"
 
 ## Configuring spice2x
 
-!!! info "Open `spicecfg.exe`, each following sub-section corresponds to a tab at the top"
+--8<-- "docs/snippets/konami/common/spicecfg_preamble.md"
 
-### Buttons
+=== "Buttons"
 
-!!! tip ""
+--8<-- "docs/snippets/konami/common/spicecfg_buttons.md"
 
-    Click on `Bind` then press the key you want associated with the action.
-
-    With your controller and/or keyboard plugged in, configure your keys for:  
-
-    - **Maintenance**: `Service, Test`
-    - **P1 Game buttons**: `1 to 7, Start, EFFECT, VEFX` 
-    - **P1 Keypad**: `Keypad Insert Card` 
-
-    **Only if** you're using LDJ:
-
-    - **P1 Keypad**: `1 to 9`
-
-    **Only if** you're playing using a keyboard:
-
-    - **Turntable**: `TT+, TT-` **and optionally** `TT+/-` which alternates between `TT+` and `TT-` on each press.
+--8<-- "docs/snippets/konami/iidx/spicecfg_buttons.md"
   
-### Analogs (controller/cab only)
+--8<-- "docs/snippets/konami/common/spicecfg_buttons_additionalinfo.md"
 
-!!! tip ""
+=== "Analogs"
 
-    With a controller rather than binding buttons to `TT+` and `TT-`, you need to:
+--8<-- "docs/snippets/konami/iidx/spicecfg_analogs.md"
 
-    - For Turntable P1, click `Bind`.
-    - In `Device`, pick your controller.
-    - In `Control`, pick whichever one corresponds to the turntable.
-    - Turn your turntable ensuring that the Preview turns along with it.
-    - Click `Close`, leaving the rest of the settings alone.
+=== "Overlay"
 
-### Overlay
+--8<-- "docs/snippets/konami/common/spicecfg_overlay.md"
 
-!!! tip ""
+=== "Lights"
 
-    Modifying buttons in this section is not required but you are free to change what you want.
+--8<-- "docs/snippets/konami/common/spicecfg_lights.md"
 
-    Click on `Bind` then press the key you want associated with the action.
+=== "Cards"
 
-### Lights (controller/cab only)
+--8<-- "docs/snippets/konami/common/spicecfg_cards.md"
 
-!!! tip ""
+=== "Patches"
 
-    Your controller might support having its lights controlled by the game through spice2x.
+--8<-- "docs/snippets/konami/common/spicecfg_patches.md"
 
-    If it does, here's how you may link different actions to your lights:
+=== "API"
 
-    - Click `Bind`.
-    - In `Device`, pick your controller.
-    - In `Light Control`, select the corresponding light.
-    - Click `Close`.
-    - Repeat for your other lights.
+--8<-- "docs/snippets/konami/common/spicecfg_nochange.md"
 
-### Cards
+=== "Options"
 
-!!! info "Covered in the [Connecting to a network](#connecting-to-a-network) section"
+--8<-- "docs/snippets/konami/iidx/spicecfg_options_disablecams.md"
 
-### Patches
+--8<-- "docs/snippets/konami/common/spicecfg_options_nvprofile.md"
 
-!!! info "Go through the [spice2x Patching](/extras/patchsp2x.md) page to import patches"
+--8<-- "docs/snippets/konami/iidx/spicecfg_options_tdj.md"
 
-!!! danger "As a general rule of thumb, if you're not sure what a patch does or you're not absolutely certain you need it, leave it alone, regardless of recommendations below"
+=== "Advanced"
 
-??? tip "General patches"
+--8<-- "docs/snippets/konami/iidx/spicecfg_advanced_camhook.md"
 
-    | Patch                                         | Recommendation     | Description |
-    |-----------------------------------------------|----------------    |-------------|
-    | Standard/Menu Timer Freeze                    | Either             | Freezes the timer in all non-premium environments. |
-    | Premium Free Timer Freeze                        | Either             | Freezes the timer in Premium Free mode. |
-    | Cursor Lock                                    | Either            | In song select, always returns to the previously selected song. |
-    | CS-style Song Start Delay                        | Either            | At the start of a song, holding Start will pause it until you release it. |
-    | Increase Game Volume                            | Either            | Ignores in-game settings and keeps the volume at a maximum, helpful for `TDJ` which tends to be quiet. |
-    | Hide all bottom text                            | Either              | Hides text at the bottom of the screen such as `Credits` or `Paseli`. |
+=== "Development"
 
-### API
+--8<-- "docs/snippets/konami/common/spicecfg_nochange.md"
 
-!!! warning "Leave everything at default unless you know what you're doing"
+## Configuring audio
 
-### Options
-
-!!! info "If you don't know what an option does, hover over the its name with your mouse"
-
-    <img src="/img/common/spice2x_option_hover.webp">
-
-!!! danger "Be very careful changing options you don't understand as it may cause issues"
-
-!!! tip "Required"
-
-    | Category         | Option                 | Parameter         | Setting |
-    |---------------|-----------------------|-------------------|---------|
-    | Game Options    | IIDX Disable Cameras     | -iidxdisablecams     | ON      |
-    | Network        | EA Service URL        | -url                | Covered in [Connecting to a network](#connecting-to-a-network) |
-
-!!! warning "Required For TDJ" 
-
-    | Category         | Option                 | Parameter         | Setting |
-    |---------------|-----------------------|-------------------|---------|
-    | Game Options    | IIDX TDJ Mode             | -iidxtdj             | ON      |
-
-    **If you only have a single 120 Hz monitor**, and not another 60 Hz touchscreen:
-
-    | Category         | Option                 | Parameter                         | Setting |
-    |---------------|-----------------------|-----------------------------------|---------|
-    | Game Options    | IIDX TDJ Mode             | -graphics-force-single-adapter     | ON      |
-
-
-!!! tip "Highly Recommended for NVIDIA users ONLY"
-
-    | Category             | Option                             | Parameter     | Setting |
-    |-------------------|-----------------------------------|---------------|           |
-    | Graphics (common)    | NVIDIA profile optimization         | -nvprofile     | ON      |
-
-
-### Advanced & Development
-
-!!! warning "Leave everything at default unless you know what you're doing"
+--8<-- "docs/snippets/konami/common/setup_audio.md"
 
 ## Connecting to a network
 
-!!! danger "Please choose one of the two solutions, not both!"
+--8<-- "docs/snippets/konami/common/setup_network.md"
 
-??? tip "Remote (Online Network)"
+## Configuring your game
 
-    Open `spicecfg.exe` and head to the `Options` tab.
-  
-    In the `Network` category, set the following settings: 
-    
-    - `EA Service URL` to the URL provided by your network.
-    - `PCBID` to the PCBID provided by your network.
-    
-    <img src="/img/common/spice2x_network.webp">
+!!! info "Read through the [Extra Information](extras.md) page"
 
-    Next you need a card number.  
-    If you don't already have one, generate one in the `Cards` tab.  
-    To keep your card number safe, create a new `.txt` file with ONLY it inside.
+## Installing VCRedist & DirectX
 
-    Once that's done, head to the `Cards` tab, for `Player 1` click `Open...` and point to your text file.
+--8<-- "docs/snippets/common/setup_vcredist_directx.md"
 
-    <img src="/img/common/spice2x_cards.webp">
+## Before playing
 
-??? tip "Local e-amuse Emulator (Asphyxia)"
+--8<-- "docs/snippets/common/before_playing.md"
 
-    This is covered in the [Asphyxia CORE](/extras/asphyxia.md) page.
-
-## Pre-launch requirements
-
-!!! info "These steps are required, otherwise your game won't run"
-
-### VCRedist & DirectX
-
-!!! tip ""    
-
-    - Download and install the latest [VCRedist](https://github.com/abbodi1406/vcredist/releases/latest) (`VisualCppRedist_AIO_x86_x64.exe`)
-    - Download and install the [DirectX End-User Runtimes](https://www.microsoft.com/en-us/download/details.aspx?id=8109)
-
-### Audio
-
-!!! tip ""
-
-    - Open `spicecfg.exe`.
-    - At the very top, click on `Shortcuts` then `Audio Playback Devices`.
-    - In the popup window, right click on your default audio device, and click on `Properties`.
-    - Go to the `Advanced` tab.
-    - Check both boxes under `Exclusive Mode`.
-    - Open the `Default Format` dropdown.
-    - Pick the `24 bit, 44100 Hz (CD Quality)` option and click `Apply` then `OK`.
-
-    <img src="/img/common/audio_24_441.webp">
-
-### Standard / Lightning / Language settings
-
-!!! info "Read through the [Extra Information](extras.md) page and edit your `prop\ea3-config.xml` file if necessary"
-
-### First launch
-
-!!! danger "If you have any issues running the game, refer to the [Troubleshooting](troubleshooting.md) page"
-
-### BACKUP DATA
+## First launch
 
 !!! tip ""
 
@@ -285,79 +161,63 @@
 
     If it's your first time running the game, you'll immediately be greeted with this screen.
 
-<img src="/img/konami/iidx/common/firstlaunch/1.webp">
-
-### CLOCK ERROR
-
-!!! tip "" 
+    <img src="/img/konami/iidx/common/firstlaunch/1.webp">
 
     Press your `Test` key to initialize the backup data, a message will pop up stating it's been initialized.
 
     Next, you'll get another error.
 
-<img src="/img/konami/iidx/common/firstlaunch/2.webp">
+    <img src="/img/konami/iidx/common/firstlaunch/2.webp">
 
-!!! tip ""
+    Press your `Test` key again and let the game run for a bit until the monitor check is complete.
 
-    Let the game run for a bit until the monitor check is complete and you should be taken to the service menu.
+    You will now be taken to the service menu.
 
-<img src="/img/konami/iidx/common/firstlaunch/3.webp">
+    <img src="/img/konami/iidx/common/firstlaunch/3.webp">
 
-!!! tip ""
-
-    Instructions on how to navigate the menu are shown at the bottom of the screen.
+    Instructions on how to navigate the menu are shown at the bottom of the screen:
 
     - Press `1` and `2` to go up and down.
     - Press `6` to select/execute.
   
     Start by going up to `CLOCK`.
 
-<img src="/img/konami/iidx/common/firstlaunch/4.webp">
-
-!!! tip ""
+    <img src="/img/konami/iidx/common/firstlaunch/4.webp">
 
     Here, simply select `SAVE AND EXIT` and the clock will be set.
 
     You'll be back in the service menu.
 
-### NETWORK OPTIONS
-
-!!! tip ""
-
     Go to `NETWORK OPTIONS` then `SHOP NAME SETTING`.
 
-<img src="/img/konami/iidx/common/firstlaunch/5.webp">
-<img src="/img/konami/iidx/common/firstlaunch/6.webp">
+    <img src="/img/konami/iidx/common/firstlaunch/5.webp">
+    <img src="/img/konami/iidx/common/firstlaunch/6.webp">
 
-!!! tip ""
-
-    We will need to set a shop name.
+    You will need to set a shop name.
     
-    - Name your shop to whatever you'd like. Instructions on how to navigate are at the bottom of the screen.
+    - Name your shop to whatever you'd like. Again, navigation instructions are at the bottom of the screen.
     - Go to `EXIT` then `SAVE AND EXIT`.
 
-
-<img src="/img/konami/iidx/common/firstlaunch/7.webp">
-<img src="/img/konami/iidx/common/firstlaunch/3.webp">
-
-!!! tip ""
+    <img src="/img/konami/iidx/common/firstlaunch/7.webp">
 
     Select `GAME MODE`.
+
+    <img src="/img/konami/iidx/common/firstlaunch/3.webp">
     
-    You're all done! The game should load up properly now.
+!!! success "You're all done! The game should load up properly now"
 
 ## Carding in
 
-!!! info "Before carding in, you have the option of changing the game's language by pressing your `EFFECT` key"
+!!! info "Before carding in, you have the option to change the game's language by pressing your `EFFECT` key"
 
-??? tip "For LDJ (Standard)"
+??? tip "For LDJ (Standard mode)"
 
     LDJ should accept keypad number binds:
 
     - Press your `Keypad Insert Card` button.
     - Enter your code using your keypad binds.
 
-??? tip "For TDJ (Lightning)"
+??? tip "For TDJ (Lightning mode)"
 
     TDJ will ignore keypad number binds, you need to:
 
@@ -366,10 +226,6 @@
     - Enter your code by clicking on the subscreen's keypad.
     - If your code is accepted, you may now close the overlay.
 
-## Troubleshooting
+## Help
 
-!!! warning "Have any other issue?"
-
-    Check out the [Troubleshooting](troubleshooting.md) and [Error Codes](/errorcodes/konami.md) pages.
-
-    For any more game-specific information, check out [Extra Information](extras.md).
+--8<-- "docs/snippets/common/help.md"
