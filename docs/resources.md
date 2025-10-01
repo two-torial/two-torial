@@ -55,6 +55,7 @@
     - [SDVX Tier Lists](https://sdvx.maya2silence.com/) - SDVX difficulty tier lists
     - [sdvx.in](https://sdvx.in/) - Worse looking alternative to SDVX Index (but also has other games available at the top)
     - [SDVX Unlock Guide](https://docs.google.com/spreadsheets/d/1VBYWSUaKqHUOyfCtvkHFYBSnEPwxhTh8-m4UlU8zUL0/) - Translated guide for unlocks
+    - [SDVX Konasute on Steam Deck](https://sdvx.burrito.software/) - Guide to getting Konasute working on a Steam Deck
 
 ## GITADORA
 
