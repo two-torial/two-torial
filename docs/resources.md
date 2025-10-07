@@ -67,6 +67,7 @@
 ## CHUNITHM
 
 !!! tip ""
+
     - [sdvx.in](https://sdvx.in/chunithm.html) - Chart viewer for CHUNITHM
     - [CHUNITHM Humen](https://www.youtube.com/@chunithm_humen) - Screen captures of all CHUNITHM charts
     - Codex's [English Chunithm Guide](https://chunithm.org) -
@@ -75,12 +76,13 @@
 ## O.N.G.E.K.I
 
 !!! tip ""
-    - [sdvx.in](https://sdvx.in/ongeki.html) – Chart viewer for O.N.G.E.K.I  
-    - [O.N.G.E.K.I. Humen](https://www.youtube.com/@ongeki_humen) and [MLN Rev](https://www.youtube.com/@MLN_Rev) – Screen captures of all O.N.G.E.K.I. charts  
-    - Lilyshy's [English O.N.G.E.K.I. Guide](https://docs.google.com/document/d/1HKCW7DWjYRnVjCmPzrQwDKC0wKTi41X-Y-dP1-ygliU/view)  
-    – Handy O.N.G.E.K.I. resource for players of all skill levels
+
+    - [sdvx.in](https://sdvx.in/ongeki.html) - Chart viewer for O.N.G.E.K.I  
+    - [O.N.G.E.K.I. Humen](https://www.youtube.com/@ongeki_humen) and [MLN Rev](https://www.youtube.com/@MLN_Rev) - Screen captures of all O.N.G.E.K.I. charts  
+    - Lilyshy's [English O.N.G.E.K.I. Guide](https://docs.google.com/document/d/1HKCW7DWjYRnVjCmPzrQwDKC0wKTi41X-Y-dP1-ygliU/view) - Handy O.N.G.E.K.I. resource for players of all skill levels
 
 ## Polaris Chord
 
 !!! tip ""
     - [Polaris Touch](http://girlsband.party/polaris-touch.html) - Much like Brokenithm, but adapted for Polaris Chord
+    - [Polaris Touch Godot](https://github.com/GEEKiDoS/polaris-touch-godot) - Like Polaris Touch, but as a native Android app
