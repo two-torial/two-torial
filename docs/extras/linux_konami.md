@@ -9,7 +9,7 @@
 
     | Game | Version(s) | Caveats (if any) |
     |------|:----------:|:----------------:|
-    | Sound Voltex | `Exceed Gear` | |
+    | Sound Voltex | `Exceed Gear` | Subscreen clicks don't work |
     | DanceDanceRevolution | `World` | |
     | Mahjong Fight Girl | | |
 
