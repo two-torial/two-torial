@@ -340,6 +340,7 @@ theme:
         name: Switch to system preference
   features:
     - content.code.annotate
+    - content.code.copy
 
 markdown_extensions:
   - admonition
