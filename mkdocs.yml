@@ -289,6 +289,7 @@ nav:
       - "Controllers": "extras/controllers.md"
       - "Modding (Konami)": "extras/datamods.md"
       - "Modding (Unity)": "extras/unity.md"
+      - "Linux (Konami)": "extras/linux_konami.md"
   - Other Resources: resources.md
 
 not_in_nav: |
