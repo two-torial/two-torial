@@ -28,6 +28,10 @@ nav:
               - "14 GOLD":
                   - "Game Setup": "games/konami/iidx/14_gold/setup.md"
                   - "Troubleshooting": "games/konami/iidx/14_gold/troubleshooting.md"
+              - "16 EMPRESS":
+                  - "Game Setup": "games/konami/iidx/16_empress/setup.md"
+                  - "Extra Information": "games/konami/iidx/16_empress/extras.md"
+                  - "Troubleshooting": "games/konami/iidx/16_empress/troubleshooting.md"
               - "24 SINOBUZ":
                   - "Game Setup": "games/konami/iidx/24_sinobuz/setup.md"
                   - "Extra Information": "games/konami/iidx/24_sinobuz/extras.md"
