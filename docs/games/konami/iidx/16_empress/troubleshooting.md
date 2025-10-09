@@ -22,7 +22,7 @@
 ??? tip "Game is running too slow/fast"
 
     Your game is likely running at an incorrect framerate. The expected framerates is 59.95fps for S-VIDEO output mode, and 60.05fps for VGA output mode.
-    !!! tip "For more information regarding output modes, check out the [Extra Information](https://two-torial.xyz/games/konami/iidx/16_empress/extras/) page"
+    !!! tip "For more information regarding output modes, check out the [Extra Information](extras.md) page"
     Try these steps to resolve framerate issues:
 
     - Double-check that your selected output mode in the service menu matches the refresh rate in your `iidxhook-xx.conf` file.
