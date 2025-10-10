@@ -9214,7 +9214,8 @@ This guide will document the best currently known ways to get games working on L
 <ul>
 <li>A Linux system with:<ul>
 <li><code>pipewire</code> as an audio backend</li>
-<li><code>wine winetricks curl unzip</code> installed</li>
+<li><code>wine</code> with wow64 included (default on arch since June 2025) </li>
+<li><code>winetricks curl unzip</code> installed</li>
 <li><code>gstreamer gst-plugins-good gst-plugins-ugly gst-libav</code> for codecs (package names may vary)</li>
 </ul>
 </li>
@@ -9222,6 +9223,49 @@ This guide will document the best currently known ways to get games working on L
 <li>Your game's regular setup guide opened in another tab</li>
 </ul>
 </div>
+<details class="tip">
+<summary>Extra requirements for NixOS</summary>
+<p><code>spice2x</code> requires an optional wine feature which NixOS does not enable by default.
+Apart from that, a patch for <code>winetricks</code> is needed due to <a href="https://github.com/NixOS/nixpkgs/issues/338367">weirdness with winetricks on NixOS with WoW64 wine</a>.</p>
+<p>To fix this, copy this to your confiuration:
+<div class="language-nix highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>environment<span class="o">.</span><span class="ss">systemPackages</span> <span class="o">=</span> <span class="p">[</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>  <span class="p">(</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    pkgs<span class="o">.</span>wine-with-pcsclite<span class="o">.</span>override <span class="p">{</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>      <span class="ss">wineBuild</span> <span class="o">=</span> <span class="s2">&quot;wineWow64&quot;</span><span class="p">;</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>    <span class="p">}</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>  <span class="p">)</span>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="p">];</span>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>nixpkgs<span class="o">.</span><span class="ss">overlays</span> <span class="o">=</span> <span class="p">[</span>
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>  <span class="p">(</span>
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>    final<span class="p">:</span> prev<span class="p">:</span> <span class="p">{</span>
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>      <span class="ss">wine-with-pcsclite</span> <span class="o">=</span> prev<span class="o">.</span>wine<span class="o">.</span>overrideAttrs <span class="p">(</span>old<span class="p">:</span> <span class="p">{</span>
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>        <span class="ss">buildInputs</span> <span class="o">=</span> old<span class="o">.</span>buildInputs <span class="o">++</span> <span class="p">[</span>final<span class="o">.</span>pcsclite<span class="p">];</span>
+</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>        <span class="ss">configureFlags</span> <span class="o">=</span> old<span class="o">.</span>configureFlags <span class="o">++</span> <span class="p">[</span><span class="s2">&quot;--with-pcsclite&quot;</span><span class="p">];</span>
+</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>      <span class="p">});</span>
+</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>      <span class="ss">winetricks</span> <span class="o">=</span> prev<span class="o">.</span>winetricks<span class="o">.</span>overrideAttrs <span class="p">(</span>old<span class="p">:</span> <span class="p">{</span>
+</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>        <span class="ss">patches</span> <span class="o">=</span> <span class="p">[</span>
+</span><span id="__span-0-18"><a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a>          <span class="p">(</span>final<span class="o">.</span>fetchpatch <span class="p">{</span>
+</span><span id="__span-0-19"><a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a>            <span class="c1"># make WINE_BIN and WINESERVER_BIN overridable</span>
+</span><span id="__span-0-20"><a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a>            <span class="c1"># see https://github.com/NixOS/nixpkgs/issues/338367</span>
+</span><span id="__span-0-21"><a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a>            <span class="ss">url</span> <span class="o">=</span> <span class="s2">&quot;https://github.com/Winetricks/winetricks/commit/1d441b422d9a9cc8b0a53fa203557957ca1adc44.patch&quot;</span><span class="p">;</span>
+</span><span id="__span-0-22"><a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a>            <span class="ss">hash</span> <span class="o">=</span> <span class="s2">&quot;sha256-AYXV2qLHlxuyHC5VqUjDu4qi1TcAl2pMSAi8TEp8db4=&quot;</span><span class="p">;</span>
+</span><span id="__span-0-23"><a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a>          <span class="p">})</span>
+</span><span id="__span-0-24"><a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a>        <span class="p">];</span>
+</span><span id="__span-0-25"><a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a>        <span class="ss">postInstall</span> <span class="o">=</span>
+</span><span id="__span-0-26"><a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a>          old<span class="o">.</span>postInstall
+</span><span id="__span-0-27"><a id="__codelineno-0-27" name="__codelineno-0-27" href="#__codelineno-0-27"></a>          <span class="o">+</span> <span class="s s-Multiline">&#39;&#39;</span>
+</span><span id="__span-0-28"><a id="__codelineno-0-28" name="__codelineno-0-28" href="#__codelineno-0-28"></a><span class="s s-Multiline">            sed -i \</span>
+</span><span id="__span-0-29"><a id="__codelineno-0-29" name="__codelineno-0-29" href="#__codelineno-0-29"></a><span class="s s-Multiline">              -e &#39;2i : &quot;</span><span class="se">&#39;&#39;$</span><span class="s s-Multiline">{WINESERVER_BIN:=/run/current-system/sw/bin/wineserver}&quot;&#39; \</span>
+</span><span id="__span-0-30"><a id="__codelineno-0-30" name="__codelineno-0-30" href="#__codelineno-0-30"></a><span class="s s-Multiline">              -e &#39;2i : &quot;</span><span class="se">&#39;&#39;$</span><span class="s s-Multiline">{WINE_BIN:=/run/current-system/sw/bin/.wine}&quot;&#39; \</span>
+</span><span id="__span-0-31"><a id="__codelineno-0-31" name="__codelineno-0-31" href="#__codelineno-0-31"></a><span class="s s-Multiline">              &quot;$out/bin/winetricks&quot;</span>
+</span><span id="__span-0-32"><a id="__codelineno-0-32" name="__codelineno-0-32" href="#__codelineno-0-32"></a><span class="s s-Multiline">          &#39;&#39;</span><span class="p">;</span>
+</span><span id="__span-0-33"><a id="__codelineno-0-33" name="__codelineno-0-33" href="#__codelineno-0-33"></a>      <span class="p">});</span>
+</span><span id="__span-0-34"><a id="__codelineno-0-34" name="__codelineno-0-34" href="#__codelineno-0-34"></a>    <span class="p">}</span>
+</span><span id="__span-0-35"><a id="__codelineno-0-35" name="__codelineno-0-35" href="#__codelineno-0-35"></a>  <span class="p">)</span>
+</span><span id="__span-0-36"><a id="__codelineno-0-36" name="__codelineno-0-36" href="#__codelineno-0-36"></a><span class="p">];</span>
+</span></code></pre></div></p>
+</details>
 <h2 id="automated-setup-for-spice2x-compatible-games">Automated setup (for spice2x compatible games)</h2>
 <div class="admonition tip">
 <ul>
@@ -9263,13 +9307,13 @@ Instead we will later pass <code>-cfg</code> as a launch argument to the main sp
 <p>Run the following command to initialize a new wine prefix without being prompted for mono or gecko.</p>
 </li>
 </ul>
-<div class="language-sh highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nv">WINEARCH</span><span class="o">=</span>win64<span class="w"> </span><span class="nv">WINEPREFIX</span><span class="o">=</span>REPLACE_THIS_PATH/prefix<span class="w"> </span><span class="nv">WINEDLLOVERRIDES</span><span class="o">=</span><span class="s2">&quot;mscoree=d;mshtml=d&quot;</span><span class="w"> </span>wineboot<span class="w"> </span>--init
+<div class="language-sh highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="nv">WINEARCH</span><span class="o">=</span>win64<span class="w"> </span><span class="nv">WINEPREFIX</span><span class="o">=</span>REPLACE_THIS_PATH/prefix<span class="w"> </span><span class="nv">WINEDLLOVERRIDES</span><span class="o">=</span><span class="s2">&quot;mscoree=d;mshtml=d&quot;</span><span class="w"> </span>wineboot<span class="w"> </span>--init
 </span></code></pre></div>
 </div>
 <h4 id="common-dependencies">Common dependencies</h4>
 <div class="admonition tip">
 <p>Some dependencies are required across most games, install them to your prefix using winetricks as follows:</p>
-<div class="language-sh highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="nv">WINEARCH</span><span class="o">=</span>win64<span class="w"> </span><span class="nv">WINEPREFIX</span><span class="o">=</span>REPLACE_THIS_PATH/prefix<span class="w"> </span>winetricks<span class="w"> </span>-q<span class="w"> </span>dxvk<span class="w"> </span>d3dcompiler_42<span class="w"> </span>d3dcompiler_43<span class="w"> </span>d3dcompiler_46<span class="w"> </span>d3dcompiler_47
+<div class="language-sh highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="nv">WINEARCH</span><span class="o">=</span>win64<span class="w"> </span><span class="nv">WINEPREFIX</span><span class="o">=</span>REPLACE_THIS_PATH/prefix<span class="w"> </span>winetricks<span class="w"> </span>-q<span class="w"> </span>dxvk<span class="w"> </span>d3dcompiler_42<span class="w"> </span>d3dcompiler_43<span class="w"> </span>d3dcompiler_46<span class="w"> </span>d3dcompiler_47
 </span></code></pre></div>
 </div>
 <h4 id="game-specific-dependencies">Game-specific dependencies</h4>
@@ -9282,7 +9326,7 @@ Instead we will later pass <code>-cfg</code> as a launch argument to the main sp
 <div class="tabbed-block"></div>
 <div class="tabbed-block">
 <p>Install these to your prefix for background movies to play, otherwise the game will crash.</p>
-<div class="language-sh highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="nv">WINEARCH</span><span class="o">=</span>win64<span class="w"> </span><span class="nv">WINEPREFIX</span><span class="o">=</span>REPLACE_THIS_PATH/prefix<span class="w"> </span>winetricks<span class="w"> </span>-q<span class="w"> </span>quartz<span class="w"> </span>devenum<span class="w"> </span>amstream<span class="w"> </span>windowscodecs
+<div class="language-sh highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="nv">WINEARCH</span><span class="o">=</span>win64<span class="w"> </span><span class="nv">WINEPREFIX</span><span class="o">=</span>REPLACE_THIS_PATH/prefix<span class="w"> </span>winetricks<span class="w"> </span>-q<span class="w"> </span>quartz<span class="w"> </span>devenum<span class="w"> </span>amstream<span class="w"> </span>windowscodecs
 </span></code></pre></div>
 </div>
 </div>
@@ -9298,48 +9342,48 @@ You could try following the rest of the guide without this virtual sink first to
 <ul>
 <li>Create the <code>.config/pipewire/pipewire.conf.d</code> directory in your home directory if it doesn't already exist</li>
 </ul>
-<div class="language-sh highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>mkdir<span class="w"> </span>-p<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$HOME</span><span class="s2">/.config/pipewire/pipewire.conf.d&quot;</span>
+<div class="language-sh highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>mkdir<span class="w"> </span>-p<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$HOME</span><span class="s2">/.config/pipewire/pipewire.conf.d&quot;</span>
 </span></code></pre></div>
 <ul>
 <li>Create a <code>spice2x-sink.conf</code> file in that directory containing:</li>
 </ul>
-<div class="language-sh highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>context.modules<span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">[</span>
-</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="w">  </span><span class="o">{</span>
-</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="w">    </span><span class="nv">name</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>libpipewire-module-loopback
-</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="w">    </span><span class="nv">args</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">{</span>
-</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="w">      </span>audio.position<span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">[</span><span class="w"> </span>FL<span class="w"> </span>FR<span class="w"> </span><span class="o">]</span>
-</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a><span class="w">      </span>capture.props<span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">{</span>
-</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a><span class="w">        </span>media.class<span class="w"> </span><span class="o">=</span><span class="w"> </span>Audio/Sink
-</span><span id="__span-4-8"><a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a><span class="w">        </span>audio.format<span class="w"> </span><span class="o">=</span><span class="w"> </span>S16LE
-</span><span id="__span-4-9"><a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a><span class="w">        </span>audio.rate<span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">44100</span>
-</span><span id="__span-4-10"><a id="__codelineno-4-10" name="__codelineno-4-10" href="#__codelineno-4-10"></a><span class="w">        </span>audio.channels<span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">2</span>
-</span><span id="__span-4-11"><a id="__codelineno-4-11" name="__codelineno-4-11" href="#__codelineno-4-11"></a><span class="w">        </span>node.name<span class="w"> </span><span class="o">=</span><span class="w"> </span>spice2x41
-</span><span id="__span-4-12"><a id="__codelineno-4-12" name="__codelineno-4-12" href="#__codelineno-4-12"></a><span class="w">        </span>node.description<span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;spice2x @ 44100Hz&quot;</span>
-</span><span id="__span-4-13"><a id="__codelineno-4-13" name="__codelineno-4-13" href="#__codelineno-4-13"></a><span class="w">      </span><span class="o">}</span>
-</span><span id="__span-4-14"><a id="__codelineno-4-14" name="__codelineno-4-14" href="#__codelineno-4-14"></a><span class="w">      </span>playback.props<span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">{</span>
-</span><span id="__span-4-15"><a id="__codelineno-4-15" name="__codelineno-4-15" href="#__codelineno-4-15"></a><span class="w">        </span>node.passive<span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">true</span>
-</span><span id="__span-4-16"><a id="__codelineno-4-16" name="__codelineno-4-16" href="#__codelineno-4-16"></a><span class="w">        </span>node.name<span class="w"> </span><span class="o">=</span><span class="w"> </span>spice2x41.output
-</span><span id="__span-4-17"><a id="__codelineno-4-17" name="__codelineno-4-17" href="#__codelineno-4-17"></a><span class="w">        </span>node.description<span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;SPICE2X 44100Hz OUTPUT&quot;</span>
-</span><span id="__span-4-18"><a id="__codelineno-4-18" name="__codelineno-4-18" href="#__codelineno-4-18"></a><span class="w">        </span>target.object<span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;alsa_output.pci-0000_04_00.6.HiFi__hw_Generic_1__sink&quot;</span>
-</span><span id="__span-4-19"><a id="__codelineno-4-19" name="__codelineno-4-19" href="#__codelineno-4-19"></a><span class="w">        </span>audio.format<span class="w"> </span><span class="o">=</span><span class="w"> </span>S16LE
-</span><span id="__span-4-20"><a id="__codelineno-4-20" name="__codelineno-4-20" href="#__codelineno-4-20"></a><span class="w">      </span><span class="o">}</span>
-</span><span id="__span-4-21"><a id="__codelineno-4-21" name="__codelineno-4-21" href="#__codelineno-4-21"></a><span class="w">    </span><span class="o">}</span>
-</span><span id="__span-4-22"><a id="__codelineno-4-22" name="__codelineno-4-22" href="#__codelineno-4-22"></a><span class="w">  </span><span class="o">}</span>
-</span><span id="__span-4-23"><a id="__codelineno-4-23" name="__codelineno-4-23" href="#__codelineno-4-23"></a><span class="o">]</span>
+<div class="language-sh highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>context.modules<span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">[</span>
+</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="w">  </span><span class="o">{</span>
+</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="w">    </span><span class="nv">name</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>libpipewire-module-loopback
+</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a><span class="w">    </span><span class="nv">args</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">{</span>
+</span><span id="__span-5-5"><a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a><span class="w">      </span>audio.position<span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">[</span><span class="w"> </span>FL<span class="w"> </span>FR<span class="w"> </span><span class="o">]</span>
+</span><span id="__span-5-6"><a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a><span class="w">      </span>capture.props<span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">{</span>
+</span><span id="__span-5-7"><a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a><span class="w">        </span>media.class<span class="w"> </span><span class="o">=</span><span class="w"> </span>Audio/Sink
+</span><span id="__span-5-8"><a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a><span class="w">        </span>audio.format<span class="w"> </span><span class="o">=</span><span class="w"> </span>S16LE
+</span><span id="__span-5-9"><a id="__codelineno-5-9" name="__codelineno-5-9" href="#__codelineno-5-9"></a><span class="w">        </span>audio.rate<span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">44100</span>
+</span><span id="__span-5-10"><a id="__codelineno-5-10" name="__codelineno-5-10" href="#__codelineno-5-10"></a><span class="w">        </span>audio.channels<span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">2</span>
+</span><span id="__span-5-11"><a id="__codelineno-5-11" name="__codelineno-5-11" href="#__codelineno-5-11"></a><span class="w">        </span>node.name<span class="w"> </span><span class="o">=</span><span class="w"> </span>spice2x41
+</span><span id="__span-5-12"><a id="__codelineno-5-12" name="__codelineno-5-12" href="#__codelineno-5-12"></a><span class="w">        </span>node.description<span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;spice2x @ 44100Hz&quot;</span>
+</span><span id="__span-5-13"><a id="__codelineno-5-13" name="__codelineno-5-13" href="#__codelineno-5-13"></a><span class="w">      </span><span class="o">}</span>
+</span><span id="__span-5-14"><a id="__codelineno-5-14" name="__codelineno-5-14" href="#__codelineno-5-14"></a><span class="w">      </span>playback.props<span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">{</span>
+</span><span id="__span-5-15"><a id="__codelineno-5-15" name="__codelineno-5-15" href="#__codelineno-5-15"></a><span class="w">        </span>node.passive<span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">true</span>
+</span><span id="__span-5-16"><a id="__codelineno-5-16" name="__codelineno-5-16" href="#__codelineno-5-16"></a><span class="w">        </span>node.name<span class="w"> </span><span class="o">=</span><span class="w"> </span>spice2x41.output
+</span><span id="__span-5-17"><a id="__codelineno-5-17" name="__codelineno-5-17" href="#__codelineno-5-17"></a><span class="w">        </span>node.description<span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;SPICE2X 44100Hz OUTPUT&quot;</span>
+</span><span id="__span-5-18"><a id="__codelineno-5-18" name="__codelineno-5-18" href="#__codelineno-5-18"></a><span class="w">        </span>target.object<span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;alsa_output.pci-0000_04_00.6.HiFi__hw_Generic_1__sink&quot;</span>
+</span><span id="__span-5-19"><a id="__codelineno-5-19" name="__codelineno-5-19" href="#__codelineno-5-19"></a><span class="w">        </span>audio.format<span class="w"> </span><span class="o">=</span><span class="w"> </span>S16LE
+</span><span id="__span-5-20"><a id="__codelineno-5-20" name="__codelineno-5-20" href="#__codelineno-5-20"></a><span class="w">      </span><span class="o">}</span>
+</span><span id="__span-5-21"><a id="__codelineno-5-21" name="__codelineno-5-21" href="#__codelineno-5-21"></a><span class="w">    </span><span class="o">}</span>
+</span><span id="__span-5-22"><a id="__codelineno-5-22" name="__codelineno-5-22" href="#__codelineno-5-22"></a><span class="w">  </span><span class="o">}</span>
+</span><span id="__span-5-23"><a id="__codelineno-5-23" name="__codelineno-5-23" href="#__codelineno-5-23"></a><span class="o">]</span>
 </span></code></pre></div>
 <p>The <code>audio.rate</code> may need to be set to 48000 on a per game-basis, but for the games covered here, 44100 is fine.</p>
 <p>The <code>target.object</code> set above means audio will be routed the first audio device it finds.<br />
 If you have multiple audio devices available and want to make sure it outputs to a specific one, run:</p>
-<div class="language-sh highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>pw-cli<span class="w"> </span>list-objects<span class="w"> </span><span class="p">|</span><span class="w"> </span>awk<span class="w"> </span><span class="s1">&#39;/node.name/ {name=$0} /media.class/ &amp;&amp; /Audio\/Sink/ {gsub(/.*= &quot;|&quot;/,&quot;&quot;,name); print name}&#39;</span>
+<div class="language-sh highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>pw-cli<span class="w"> </span>list-objects<span class="w"> </span><span class="p">|</span><span class="w"> </span>awk<span class="w"> </span><span class="s1">&#39;/node.name/ {name=$0} /media.class/ &amp;&amp; /Audio\/Sink/ {gsub(/.*= &quot;|&quot;/,&quot;&quot;,name); print name}&#39;</span>
 </span></code></pre></div>
 <p>Replace the <code>target.object</code> device with the output line corresponding to your desired output device.<br />
 For example:</p>
-<div class="language-sh highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>target.object<span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;alsa_output.usb-Focusrite_Scarlett_Solo_4th_Gen_S1APY0Z3611B4E-00.HiFi__Line1__sink&quot;</span>
+<div class="language-sh highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>target.object<span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;alsa_output.usb-Focusrite_Scarlett_Solo_4th_Gen_S1APY0Z3611B4E-00.HiFi__Line1__sink&quot;</span>
 </span></code></pre></div>
 <ul>
 <li><strong>Finally</strong>, save and exit then restart pipewire. On systemd distros you may do it by running:</li>
 </ul>
-<div class="language-sh highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>systemctl<span class="w"> </span>--user<span class="w"> </span>restart<span class="w"> </span>pipewire.service<span class="w"> </span>pipewire-pulse.socket
+<div class="language-sh highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>systemctl<span class="w"> </span>--user<span class="w"> </span>restart<span class="w"> </span>pipewire.service<span class="w"> </span>pipewire-pulse.socket
 </span></code></pre></div>
 </div>
 <h3 id="optional-launcher-scripts">(optional) Launcher scripts</h3>
@@ -9353,25 +9397,25 @@ For example:</p>
 <ul>
 <li>Next to your contents directory, create a <code>launch.sh</code> file containing:</li>
 </ul>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="ch">#!/usr/bin/env bash</span>
-</span><span id="__span-8-2"><a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a><span class="c1"># Game Launcher</span>
-</span><span id="__span-8-3"><a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a>
-</span><span id="__span-8-4"><a id="__codelineno-8-4" name="__codelineno-8-4" href="#__codelineno-8-4"></a><span class="nv">SCRIPT_DIR</span><span class="o">=</span><span class="s2">&quot;</span><span class="k">$(</span><span class="nb">cd</span><span class="w"> </span><span class="s2">&quot;</span><span class="k">$(</span>dirname<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$0</span><span class="s2">&quot;</span><span class="k">)</span><span class="s2">&quot;</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nb">pwd</span><span class="k">)</span><span class="s2">&quot;</span>
-</span><span id="__span-8-5"><a id="__codelineno-8-5" name="__codelineno-8-5" href="#__codelineno-8-5"></a><span class="nb">export</span><span class="w"> </span><span class="nv">WINEARCH</span><span class="o">=</span>win64
-</span><span id="__span-8-6"><a id="__codelineno-8-6" name="__codelineno-8-6" href="#__codelineno-8-6"></a><span class="hll"><span class="nb">export</span><span class="w"> </span><span class="nv">WINEPREFIX</span><span class="o">=</span><span class="s2">&quot;REPLACE_THIS_PATH/prefix&quot;</span>
-</span></span><span id="__span-8-7"><a id="__codelineno-8-7" name="__codelineno-8-7" href="#__codelineno-8-7"></a>
-</span><span id="__span-8-8"><a id="__codelineno-8-8" name="__codelineno-8-8" href="#__codelineno-8-8"></a><span class="c1"># Default arguments</span>
-</span><span id="__span-8-9"><a id="__codelineno-8-9" name="__codelineno-8-9" href="#__codelineno-8-9"></a><span class="nv">ARGS</span><span class="o">=</span><span class="s2">&quot;&quot;</span>
-</span><span id="__span-8-10"><a id="__codelineno-8-10" name="__codelineno-8-10" href="#__codelineno-8-10"></a>
-</span><span id="__span-8-11"><a id="__codelineno-8-11" name="__codelineno-8-11" href="#__codelineno-8-11"></a><span class="c1"># Optional: Add arguments per line</span>
-</span><span id="__span-8-12"><a id="__codelineno-8-12" name="__codelineno-8-12" href="#__codelineno-8-12"></a><span class="c1"># ARGS=&quot;\$ARGS -url localhost:8083&quot;     # Network URL</span>
-</span><span id="__span-8-13"><a id="__codelineno-8-13" name="__codelineno-8-13" href="#__codelineno-8-13"></a><span class="c1"># ARGS=&quot;\$ARGS -p 01FXXXXXXXXXXXXXXXXX&quot; # PCBID</span>
-</span><span id="__span-8-14"><a id="__codelineno-8-14" name="__codelineno-8-14" href="#__codelineno-8-14"></a>
-</span><span id="__span-8-15"><a id="__codelineno-8-15" name="__codelineno-8-15" href="#__codelineno-8-15"></a><span class="c1"># Append args to this script</span>
-</span><span id="__span-8-16"><a id="__codelineno-8-16" name="__codelineno-8-16" href="#__codelineno-8-16"></a><span class="nv">ARGS</span><span class="o">=</span><span class="s2">&quot;\$ARGS \$*&quot;</span>
-</span><span id="__span-8-17"><a id="__codelineno-8-17" name="__codelineno-8-17" href="#__codelineno-8-17"></a>
-</span><span id="__span-8-18"><a id="__codelineno-8-18" name="__codelineno-8-18" href="#__codelineno-8-18"></a><span class="nb">cd</span><span class="w"> </span><span class="s2">&quot;\$SCRIPT_DIR/contents&quot;</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="nb">exit</span>
-</span><span id="__span-8-19"><a id="__codelineno-8-19" name="__codelineno-8-19" href="#__codelineno-8-19"></a><span class="hll">wine<span class="w"> </span><span class="s2">&quot;spice64.exe&quot;</span><span class="w"> </span><span class="se">\$</span>ARGS
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="ch">#!/usr/bin/env bash</span>
+</span><span id="__span-9-2"><a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a><span class="c1"># Game Launcher</span>
+</span><span id="__span-9-3"><a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a>
+</span><span id="__span-9-4"><a id="__codelineno-9-4" name="__codelineno-9-4" href="#__codelineno-9-4"></a><span class="nv">SCRIPT_DIR</span><span class="o">=</span><span class="s2">&quot;</span><span class="k">$(</span><span class="nb">cd</span><span class="w"> </span><span class="s2">&quot;</span><span class="k">$(</span>dirname<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$0</span><span class="s2">&quot;</span><span class="k">)</span><span class="s2">&quot;</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nb">pwd</span><span class="k">)</span><span class="s2">&quot;</span>
+</span><span id="__span-9-5"><a id="__codelineno-9-5" name="__codelineno-9-5" href="#__codelineno-9-5"></a><span class="nb">export</span><span class="w"> </span><span class="nv">WINEARCH</span><span class="o">=</span>win64
+</span><span id="__span-9-6"><a id="__codelineno-9-6" name="__codelineno-9-6" href="#__codelineno-9-6"></a><span class="hll"><span class="nb">export</span><span class="w"> </span><span class="nv">WINEPREFIX</span><span class="o">=</span><span class="s2">&quot;REPLACE_THIS_PATH/prefix&quot;</span>
+</span></span><span id="__span-9-7"><a id="__codelineno-9-7" name="__codelineno-9-7" href="#__codelineno-9-7"></a>
+</span><span id="__span-9-8"><a id="__codelineno-9-8" name="__codelineno-9-8" href="#__codelineno-9-8"></a><span class="c1"># Default arguments</span>
+</span><span id="__span-9-9"><a id="__codelineno-9-9" name="__codelineno-9-9" href="#__codelineno-9-9"></a><span class="nv">ARGS</span><span class="o">=</span><span class="s2">&quot;&quot;</span>
+</span><span id="__span-9-10"><a id="__codelineno-9-10" name="__codelineno-9-10" href="#__codelineno-9-10"></a>
+</span><span id="__span-9-11"><a id="__codelineno-9-11" name="__codelineno-9-11" href="#__codelineno-9-11"></a><span class="c1"># Optional: Add arguments per line</span>
+</span><span id="__span-9-12"><a id="__codelineno-9-12" name="__codelineno-9-12" href="#__codelineno-9-12"></a><span class="c1"># ARGS=&quot;\$ARGS -url localhost:8083&quot;     # Network URL</span>
+</span><span id="__span-9-13"><a id="__codelineno-9-13" name="__codelineno-9-13" href="#__codelineno-9-13"></a><span class="c1"># ARGS=&quot;\$ARGS -p 01FXXXXXXXXXXXXXXXXX&quot; # PCBID</span>
+</span><span id="__span-9-14"><a id="__codelineno-9-14" name="__codelineno-9-14" href="#__codelineno-9-14"></a>
+</span><span id="__span-9-15"><a id="__codelineno-9-15" name="__codelineno-9-15" href="#__codelineno-9-15"></a><span class="c1"># Append args to this script</span>
+</span><span id="__span-9-16"><a id="__codelineno-9-16" name="__codelineno-9-16" href="#__codelineno-9-16"></a><span class="nv">ARGS</span><span class="o">=</span><span class="s2">&quot;\$ARGS \$*&quot;</span>
+</span><span id="__span-9-17"><a id="__codelineno-9-17" name="__codelineno-9-17" href="#__codelineno-9-17"></a>
+</span><span id="__span-9-18"><a id="__codelineno-9-18" name="__codelineno-9-18" href="#__codelineno-9-18"></a><span class="nb">cd</span><span class="w"> </span><span class="s2">&quot;\$SCRIPT_DIR/contents&quot;</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="nb">exit</span>
+</span><span id="__span-9-19"><a id="__codelineno-9-19" name="__codelineno-9-19" href="#__codelineno-9-19"></a><span class="hll">wine<span class="w"> </span><span class="s2">&quot;spice64.exe&quot;</span><span class="w"> </span><span class="se">\$</span>ARGS
 </span></span></code></pre></div>
 <ul>
 <li>
@@ -9391,11 +9435,11 @@ For example:</p>
 <ul>
 <li>Next to your previous script, create a <code>config.sh</code> file containing:</li>
 </ul>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="ch">#!/usr/bin/env bash</span>
-</span><span id="__span-9-2"><a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a><span class="c1"># Config Launcher</span>
-</span><span id="__span-9-3"><a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a>
-</span><span id="__span-9-4"><a id="__codelineno-9-4" name="__codelineno-9-4" href="#__codelineno-9-4"></a><span class="nv">SCRIPT_DIR</span><span class="o">=</span><span class="s2">&quot;</span><span class="k">$(</span><span class="nb">cd</span><span class="w"> </span><span class="s2">&quot;</span><span class="k">$(</span>dirname<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$0</span><span class="s2">&quot;</span><span class="k">)</span><span class="s2">&quot;</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nb">pwd</span><span class="k">)</span><span class="s2">&quot;</span>
-</span><span id="__span-9-5"><a id="__codelineno-9-5" name="__codelineno-9-5" href="#__codelineno-9-5"></a><span class="s2">&quot;</span><span class="nv">$SCRIPT_DIR</span><span class="s2">/launch.sh&quot;</span><span class="w"> </span>-cfg
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="ch">#!/usr/bin/env bash</span>
+</span><span id="__span-10-2"><a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a><span class="c1"># Config Launcher</span>
+</span><span id="__span-10-3"><a id="__codelineno-10-3" name="__codelineno-10-3" href="#__codelineno-10-3"></a>
+</span><span id="__span-10-4"><a id="__codelineno-10-4" name="__codelineno-10-4" href="#__codelineno-10-4"></a><span class="nv">SCRIPT_DIR</span><span class="o">=</span><span class="s2">&quot;</span><span class="k">$(</span><span class="nb">cd</span><span class="w"> </span><span class="s2">&quot;</span><span class="k">$(</span>dirname<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$0</span><span class="s2">&quot;</span><span class="k">)</span><span class="s2">&quot;</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nb">pwd</span><span class="k">)</span><span class="s2">&quot;</span>
+</span><span id="__span-10-5"><a id="__codelineno-10-5" name="__codelineno-10-5" href="#__codelineno-10-5"></a><span class="s2">&quot;</span><span class="nv">$SCRIPT_DIR</span><span class="s2">/launch.sh&quot;</span><span class="w"> </span>-cfg
 </span></code></pre></div>
 <ul>
 <li>
@@ -9436,18 +9480,18 @@ If you don't know how patches work, follow instructions in our <a href="../patch
 <ul>
 <li>Create a <code>wine_desktop.reg</code> file containing:</li>
 </ul>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>Windows Registry Editor Version 5.00
-</span><span id="__span-10-2"><a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a>
-</span><span id="__span-10-3"><a id="__codelineno-10-3" name="__codelineno-10-3" href="#__codelineno-10-3"></a>[HKEY_CURRENT_USER\Software\Wine\Explorer]
-</span><span id="__span-10-4"><a id="__codelineno-10-4" name="__codelineno-10-4" href="#__codelineno-10-4"></a>&quot;Desktop&quot;=&quot;Default&quot;
-</span><span id="__span-10-5"><a id="__codelineno-10-5" name="__codelineno-10-5" href="#__codelineno-10-5"></a>
-</span><span id="__span-10-6"><a id="__codelineno-10-6" name="__codelineno-10-6" href="#__codelineno-10-6"></a>[HKEY_CURRENT_USER\Software\Wine\Explorer\Desktops]
-</span><span id="__span-10-7"><a id="__codelineno-10-7" name="__codelineno-10-7" href="#__codelineno-10-7"></a>&quot;Default&quot;=&quot;1080x1920&quot;
+<div class="language-text highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>Windows Registry Editor Version 5.00
+</span><span id="__span-11-2"><a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a>
+</span><span id="__span-11-3"><a id="__codelineno-11-3" name="__codelineno-11-3" href="#__codelineno-11-3"></a>[HKEY_CURRENT_USER\Software\Wine\Explorer]
+</span><span id="__span-11-4"><a id="__codelineno-11-4" name="__codelineno-11-4" href="#__codelineno-11-4"></a>&quot;Desktop&quot;=&quot;Default&quot;
+</span><span id="__span-11-5"><a id="__codelineno-11-5" name="__codelineno-11-5" href="#__codelineno-11-5"></a>
+</span><span id="__span-11-6"><a id="__codelineno-11-6" name="__codelineno-11-6" href="#__codelineno-11-6"></a>[HKEY_CURRENT_USER\Software\Wine\Explorer\Desktops]
+</span><span id="__span-11-7"><a id="__codelineno-11-7" name="__codelineno-11-7" href="#__codelineno-11-7"></a>&quot;Default&quot;=&quot;1080x1920&quot;
 </span></code></pre></div>
 <ul>
 <li>Fix the paths in the command below and run it. Then feel free to delete the <code>.reg</code> file:</li>
 </ul>
-<div class="language-sh highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a><span class="nv">WINEARCH</span><span class="o">=</span>win64<span class="w"> </span><span class="nv">WINEPREFIX</span><span class="o">=</span>REPLACE_THIS_PATH/prefix<span class="w"> </span>wine<span class="w"> </span>regedit<span class="w"> </span>REPLACE_THIS_PATH/wine_desktop.reg
+<div class="language-sh highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a><span class="nv">WINEARCH</span><span class="o">=</span>win64<span class="w"> </span><span class="nv">WINEPREFIX</span><span class="o">=</span>REPLACE_THIS_PATH/prefix<span class="w"> </span>wine<span class="w"> </span>regedit<span class="w"> </span>REPLACE_THIS_PATH/wine_desktop.reg
 </span></code></pre></div>
 </li>
 </ul>
@@ -9466,7 +9510,7 @@ If you don't know how patches work, follow instructions in our <a href="../patch
 <li>
 <p>Use the previously created <code>config.sh</code> instead of spicecfg, and <code>launch.sh</code> to start the game<br />
 <strong>OR</strong> If you opted not to create scripts, instead use this, fixing the paths and spice executable name:</p>
-<div class="language-sh highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a><span class="nb">cd</span><span class="w"> </span>REPLACE_THIS_PATH/contents<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nv">WINEARCH</span><span class="o">=</span>win64<span class="w"> </span><span class="nv">WINEPREFIX</span><span class="o">=</span>REPLACE_THIS_PATH/prefix<span class="w"> </span>wine<span class="w"> </span><span class="s2">&quot;spice64.exe&quot;</span><span class="w"> </span>-cfg
+<div class="language-sh highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a><span class="nb">cd</span><span class="w"> </span>REPLACE_THIS_PATH/contents<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nv">WINEARCH</span><span class="o">=</span>win64<span class="w"> </span><span class="nv">WINEPREFIX</span><span class="o">=</span>REPLACE_THIS_PATH/prefix<span class="w"> </span>wine<span class="w"> </span><span class="s2">&quot;spice64.exe&quot;</span><span class="w"> </span>-cfg
 </span></code></pre></div>
 <p>And use the same command without the <code>-cfg</code> argument to start the game.</p>
 </li>
@@ -9492,7 +9536,7 @@ If you don't know how patches work, follow instructions in our <a href="../patch
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="October 8, 2025 17:26:30 UTC">October 8, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="October 10, 2025 18:28:26 UTC">October 10, 2025</span>
   </span>
 
     
