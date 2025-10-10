@@ -22,10 +22,56 @@
 
     - A Linux system with:
         - `pipewire` as an audio backend
-        - `wine winetricks curl unzip` installed
+        - `wine` with wow64 included (default on arch since June 2025) 
+        - `winetricks curl unzip` installed
         - `gstreamer gst-plugins-good gst-plugins-ugly gst-libav` for codecs (package names may vary)
     - Compatible game data placed inside a `📂contents` directory
     - Your game's regular setup guide opened in another tab
+
+??? tip "Extra requirements for NixOS"
+
+    `spice2x` requires an optional wine feature which NixOS does not enable by default.
+    Apart from that, a patch for `winetricks` is needed due to [weirdness with winetricks on NixOS with WoW64 wine](https://github.com/NixOS/nixpkgs/issues/338367).
+
+    To fix this, copy this to your confiuration:
+    ```nix
+    environment.systemPackages = [
+      (
+        pkgs.wine-with-pcsclite.override {
+          wineBuild = "wineWow64";
+        }
+      )
+    ];
+
+    nixpkgs.overlays = [
+      (
+        final: prev: {
+          wine-with-pcsclite = prev.wine.overrideAttrs (old: {
+            buildInputs = old.buildInputs ++ [final.pcsclite];
+            configureFlags = old.configureFlags ++ ["--with-pcsclite"];
+          });
+          winetricks = prev.winetricks.overrideAttrs (old: {
+            patches = [
+              (final.fetchpatch {
+                # make WINE_BIN and WINESERVER_BIN overridable
+                # see https://github.com/NixOS/nixpkgs/issues/338367
+                url = "https://github.com/Winetricks/winetricks/commit/1d441b422d9a9cc8b0a53fa203557957ca1adc44.patch";
+                hash = "sha256-AYXV2qLHlxuyHC5VqUjDu4qi1TcAl2pMSAi8TEp8db4=";
+              })
+            ];
+            postInstall =
+              old.postInstall
+              + ''
+                sed -i \
+                  -e '2i : "''${WINESERVER_BIN:=/run/current-system/sw/bin/wineserver}"' \
+                  -e '2i : "''${WINE_BIN:=/run/current-system/sw/bin/.wine}"' \
+                  "$out/bin/winetricks"
+              '';
+          });
+        }
+      )
+    ];
+    ```
 
 ## Automated setup (for spice2x compatible games)
 
