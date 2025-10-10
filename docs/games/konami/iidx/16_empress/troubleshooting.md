@@ -3,7 +3,7 @@
 
 --8<-- "docs/snippets/common/data_warning.md"
 
-!!! warning "If you get any error codes that weren't listed in the guides here, check out [this](https://github.com/djhackersdev/bemanitools/blob/master/doc/game-error-codes.md) Bemanitools documentation page"
+!!! warning "If you get any error codes that weren't listed in the guides here, check out the [Bemanitools docs](https://github.com/djhackersdev/bemanitools/blob/master/doc/game-error-codes.md)"
 
 ## Technical problems
 
@@ -22,7 +22,7 @@
 ??? tip "Game is running too slow/fast"
 
     Your game is likely running at an incorrect framerate. The expected framerates is 59.95fps for S-VIDEO output mode, and 60.05fps for VGA output mode.
-    !!! tip "For more information regarding output modes, check out the [Extra Information](extras.md) page"
+    !!! info "For more information regarding output modes, check out the [Extra Information](extras.md) page"
     Try these steps to resolve framerate issues:
 
     - Double-check that your selected output mode in the service menu matches the refresh rate in your `iidxhook-xx.conf` file.
@@ -35,11 +35,11 @@
     - Double-check that you followed all steps in the setup guide correctly
     - Your data may be corrupt in one way or another, you could try starting from scratch using trusted data sources
 
-!!! info "For issues with desync and the such, check out Bemanitools' performance guide [here](https://github.com/djhackersdev/bemanitools/blob/master/doc/iidxhook/iidx-syncbook.md)"
+!!! info "For issues with desync, check out the [Bemanitools IIDX syncbook](https://github.com/djhackersdev/bemanitools/blob/master/doc/iidxhook/iidx-syncbook.md)"
 
 ### Other
 
 ??? tip "Background videos not working"
-    
-    The CLVSD codec is not installed. Install it by following the correct section in the setup guide.
+
+    The CLVSD codec is not registered. Follow the instructions in the [setup guide](setup.md#installing-bemanitools).
     

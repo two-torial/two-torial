@@ -4,6 +4,6 @@
 
     - Inside `bemanitools-supplement-vx.x.zip` locate `misc.zip`
 
-    - Inside `misc\d3d8to9\`, extract `d3d8.dll` into your revision folder.
+    - Inside `misc\d3d8to9\`, extract `d3d8.dll` to your revision directory
 
-    This enables us to use the graphic options inside `iidxhook-xx.conf` (xx being your game version number) which we will take advantage of.
+    This lets you configure graphics options inside `iidxhook-xx.conf` (xx being your game version number)

@@ -3,6 +3,7 @@
     !!! warning "If you haven't generated a card number before, you can grab one from [here](https://kawashi.ro/card)"
     
     !!! tip ""
+
         Now we will set up our PIN pad and card.
         
         - Click on `Keyboard device` for whichever player's card reader you want to use
@@ -12,4 +13,5 @@
         - Inside the file, paste in your card number. Example: `E0045812F8AFB2DE`
         - Point to the file you created by clicking `Browse...` and selecting it
         
-    !!! info "If you don't have a numpad, make sure to tick `Use top keyboard row for PIN pad input`. This will also change the `Card In` button to `Backspace`"
+    !!! info "If you don't have a numpad, tick `Use top keyboard row for PIN pad input`. This will also change the `Card In` button to `Backspace`"
+

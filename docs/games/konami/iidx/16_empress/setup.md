@@ -10,10 +10,10 @@
     The **complete game data** should be approximately **26 GB or larger**.  
     If your data is significantly smaller, you likely have an update archive instead of the full game data.
 
-    Here's what the expected data structure should look like: 
+    Here's what the expected data structure should look like:
 
     ```
-    📂yyyymmddrr (revision folder, y = year digit, m = month digit, d = day digit, r = revision digit)
+    📂yyyymmddrr (revision directory, y = year digit, m = month digit, d = day digit, r = revision digit)
     📂data
     📄sidcode.txt
     ```
@@ -22,20 +22,22 @@
 
 !!! tip ""
 
-    - Download the latest Bemanitools release zip [here](https://github.com/djhackersdev/bemanitools/releases/latest)
+    - Download the latest Bemanitools release [here](https://github.com/djhackersdev/bemanitools/releases/latest)
 
     - Inside `bemanitools-x.xx.zip` locate `iidx-14-to-17.zip`
 
-    - Extract all files from `iidx-14-to-17.zip` into your revision folder (yyyymmddrr)
-        - (Hint: you only need one of the `gamestart-**.bat` and `iidxhook-**.bat` files, specific to your game version number)
+    - Extract all files from `iidx-14-to-17.zip` to your revision directory (yyyymmddrr)
     
+!!! note "You may delete the `gamestart-[14,15,17].bat` and `iidxhook-[14,15,17].conf` files as you only need the ones for 16 (Empress)"
+
 --8<-- "docs/snippets/konami/iidx/btools_d3d8to9.md"
 
---8<-- "docs/snippets/konami/iidx/clvsd.md"
+--8<-- "docs/snippets/konami/iidx/btools_clvsd.md"
 
 !!! tip ""
 
-    - After all this, here's what the expected data structure should look like:
+    In the end, here's what the expected data structure should look like:
+
     ``` hl_lines="2 3 4 7 8 10 11 12 13 14 18 19"
     📄bm2dx.exe
     📄config.bat
@@ -77,29 +79,16 @@
 --8<-- "docs/snippets/konami/iidx/btools_analogs.md"
 
 === "Network"
-    
+
 --8<-- "docs/snippets/konami/common/btools_cards.md"
 
 ## Connecting to a network
 
 --8<-- "docs/snippets/konami/iidx/btools_connecting_network.md"
 
-## Game resolution and locking FPS
+## Configuring graphics
 
-!!! tip ""
-    We'd like to mention that there are two options when it comes to how the game renders. You can choose between `Linear` and `Point`.
-
-    Below is an example of how both look like.
-
-    ??? info "Linear"
-        <img src="/img/konami/iidx/14_gold/iidx14_linear.webp">
-
-    ??? info "Point"
-        <img src="/img/konami/iidx/14_gold/iidx14_point.webp">
-        
-    It comes down to your own prefrence what you decide on, `Linear` is less sharp but doesn't have pixel perfect edges. `Point` is sharp and is pixel perfect.
-
---8<-- "docs/snippets/konami/iidx/btools_resolution_fps.md"
+--8<-- "docs/snippets/konami/iidx/btools_graphics.md"
 
 ## Before playing
 
@@ -158,15 +147,21 @@
     Select `GAME OPTIONS`.
     
     <img src="/img/konami/iidx/16_empress/11.webp">
-    Here, you need to select a display type.
-    !!! tip "This setting affects timing offset in the song."
-    - For lower offset, select `TYPE B`. If your monitor has high latency, select `TYPE A`. If you're not sure what to pick, remember that you can always change this setting later depending on how the game feels
-    - Go to `SAVE AND EXIT`
 
-    Select `GAME MODE`.
-    
-!!! success "You're all done! The game should load up properly now. Make sure to insert credits by pressing your `SERVICE` key!"
+    Here, you want to select a display type.
+
+    !!! warning "This setting affects timing offset in the song."
+
+    - `TYPE B`: Lower latency
+    - `TYPE A`: If your monitor has high latency
+
+    We recommend starting with `TYPE B` and returning change this later if you encounter any issues.
+
+    - Go to `SAVE AND EXIT` then `GAME MODE`
+
+!!! success "You're all done! The game should load up properly now. Insert credits by pressing your `SERVICE` key!"
 
 ## Help
 
 --8<-- "docs/snippets/common/help.md"
+
