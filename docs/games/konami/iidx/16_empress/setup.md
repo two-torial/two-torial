@@ -155,7 +155,7 @@
     - `TYPE B`: Lower latency
     - `TYPE A`: If your monitor has high latency
 
-    We recommend starting with `TYPE B` and returning change this later if you encounter any issues.
+    We recommend starting with `TYPE B` and changing this later if you encounter any issues.
 
     - Go to `SAVE AND EXIT` then `GAME MODE`
 
