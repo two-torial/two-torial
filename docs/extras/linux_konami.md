@@ -22,7 +22,8 @@
 
     - A Linux system with:
         - `pipewire` as an audio backend
-        - `wine winetricks curl unzip` installed
+        - `wine` with wow64 included (default on arch since June 2025) 
+        - `winetricks curl unzip` installed
         - `gstreamer gst-plugins-good gst-plugins-ugly gst-libav` for codecs (package names may vary)
     - Compatible game data placed inside a `📂contents` directory
     - Your game's regular setup guide opened in another tab
