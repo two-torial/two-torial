@@ -1,25 +1,43 @@
-name: Build 
+name: Build
 on:
   push:
     branches:
-      - master 
+      - master
       - main
+
 permissions:
   contents: write
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
-      - name: Install pip dependencies
-        run: pip install --user -r requirements.txt
+          python-version: "3.x"
+
+      - name: Install uv
+        run: |
+          curl -LsSf https://astral.sh/uv/install.sh | sh
+          echo "$HOME/.cargo/bin" >> $GITHUB_PATH
+
+      - name: Cache uv environment
+        uses: actions/cache@v4
+        with:
+          path: .venv
+          key: ${{ runner.os }}-uv-${{ hashFiles('uv.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-uv-
+
+      - name: Install dependencies
+        run: uv sync --frozen
+
       - name: Build and deploy site
-        run: mkdocs gh-deploy --force
+        run: uv run mkdocs gh-deploy --force

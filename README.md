@@ -6,7 +6,7 @@
 
 TWO-TORIAL, a compendium of information and guides about arcade games. It also serves as a comprehensive resource, providing a structured approach to setting up arcade games from specific franchises. This guide aims to offer clear instructions, troubleshooting tips, and essential information for enthusiasts and newcomers alike.
 
-https://two-torial.xyz/
+<https://two-torial.xyz/>
 
 ## About
 
@@ -24,10 +24,10 @@ We welcome contributions to TWO-TORIAL. To contribute, follow these steps:
 
 For quick local iteration, you can setup your own [mkdocs](https://www.mkdocs.org/user-guide/installation/) environment:
 
-1. Install the latest [Python](https://www.python.org/) and [pip](https://pip.readthedocs.io/en/stable/installing/)
-2. Make sure pip is up-to-date by running `pip install --upgrade pip`
-3. Change directory to the root of your forked project and run `python -m pip install -r requirements.txt`
-4. From the same root directory run `python -m mkdocs serve`
+1. Install the latest [Python](https://www.python.org/) and [uv](https://docs.astral.sh/uv/#installation)
+2. Change directory to the root of your forked project and run `uv sync`
+3. From the same root directory run `uv run mkdocs serve`
+4. You can also add `--dirty` at the end of the above command to speed up live reloads, but rendering errors could occur
 
 You can now access your live preview at `http://127.0.0.1:8000/`  
 The live preview will update in real time as changes are found in your files.

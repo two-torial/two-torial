@@ -3,7 +3,7 @@
     This guide provides an overview of popular arcade-style rhythm game controllers currently available to buy.  
     Controllers are ranked based on their popularity within the rhythm game community.
 
-## BEMANI
+## KONAMI
 
 ### beatmania IIDX
 

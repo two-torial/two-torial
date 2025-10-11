@@ -1,6 +1,7 @@
 # Resources
 
 ## spice2x Patchers
+
 !!! tip "See [spice2x Patching](./extras/patchsp2x.md)"
 
     - **TWO-TORIAL** - `https://sp2x.two-torial.xyz/` - **Our [open-source](https://github.com/two-torial/sp2xpatcher) patcher for spice2x compatible games**
@@ -42,6 +43,7 @@
     - [beatmania.app](https://beatmania.app/!/) - IIDX INFINITAS difficulty tier list
     - [atwiki](https://w.atwiki.jp/bemani2sp/sp/) - IIDX wiki in JP (includes tier lists)
     - [textage.cc](https://textage.cc/score/) - Chart viewing resource
+    - [QPro Viewer by DJ HITOMI](https://qpro.inf.li/) - QPRO customization viewer
     - [DJ DAO IIDX troubleshooting guide](https://github.com/minsang-github/rhythmgame-docs/wiki/DJ-DAO-IIDX-controller-troubleshooting) - Step-by-step guide for FPS, FP7, PEE, RES, RED controllers
 
 ## SDVX
@@ -53,6 +55,7 @@
     - [SDVX Tier Lists](https://sdvx.maya2silence.com/) - SDVX difficulty tier lists
     - [sdvx.in](https://sdvx.in/) - Worse looking alternative to SDVX Index (but also has other games available at the top)
     - [SDVX Unlock Guide](https://docs.google.com/spreadsheets/d/1VBYWSUaKqHUOyfCtvkHFYBSnEPwxhTh8-m4UlU8zUL0/) - Translated guide for unlocks
+    - [SDVX Konasute on Steam Deck](https://sdvx.burrito.software/) - Guide to getting Konasute working on a Steam Deck
 
 ## GITADORA
 
@@ -64,15 +67,22 @@
 ## CHUNITHM
 
 !!! tip ""
+
     - [sdvx.in](https://sdvx.in/chunithm.html) - Chart viewer for CHUNITHM
     - [CHUNITHM Humen](https://www.youtube.com/@chunithm_humen) - Screen captures of all CHUNITHM charts
     - Codex's [English Chunithm Guide](https://chunithm.org) -
     Handy CHUNITHM resource for players of all skill levels
 
-## O.N.G.E.K.I.
+## O.N.G.E.K.I
 
 !!! tip ""
-    - [sdvx.in](https://sdvx.in/ongeki.html) – Chart viewer for O.N.G.E.K.I
-    - [O.N.G.E.K.I. Humen](https://www.youtube.com/@ongeki_humen) and [MLN Rev](https://www.youtube.com/@MLN_Rev) – Screen captures of all O.N.G.E.K.I. charts
-    - Lilyshy's [English O.N.G.E.K.I. Guide](https://docs.google.com/document/d/1HKCW7DWjYRnVjCmPzrQwDKC0wKTi41X-Y-dP1-ygliU/view) –
-    Handy O.N.G.E.K.I. resource for players of all skill levels
+
+    - [sdvx.in](https://sdvx.in/ongeki.html) - Chart viewer for O.N.G.E.K.I  
+    - [O.N.G.E.K.I. Humen](https://www.youtube.com/@ongeki_humen) and [MLN Rev](https://www.youtube.com/@MLN_Rev) - Screen captures of all O.N.G.E.K.I. charts  
+    - Lilyshy's [English O.N.G.E.K.I. Guide](https://docs.google.com/document/d/1HKCW7DWjYRnVjCmPzrQwDKC0wKTi41X-Y-dP1-ygliU/view) - Handy O.N.G.E.K.I. resource for players of all skill levels
+
+## Polaris Chord
+
+!!! tip ""
+    - [Polaris Touch](http://girlsband.party/polaris-touch.html) - Much like Brokenithm, but adapted for Polaris Chord
+    - [Polaris Touch Godot](https://github.com/GEEKiDoS/polaris-touch-godot) - Like Polaris Touch, but as a native Android app
