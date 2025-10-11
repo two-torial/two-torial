@@ -241,6 +241,10 @@ nav:
           - "Game Setup": "games/sega/maimaidx/prismplus/setup.md"
           - "Controllers": "games/sega/maimaidx/prismplus/controllers.md"
           - "Troubleshooting": "games/sega/maimaidx/prismplus/troubleshooting.md"
+        - "CiRCLE":
+          - "Game Setup": "games/sega/maimaidx/circle/setup.md"
+          - "Controllers": "games/sega/maimaidx/circle/controllers.md"
+          - "Troubleshooting": "games/sega/maimaidx/circle/troubleshooting.md"
       - "O.N.G.E.K.I.":
         - "bright MEMORY":
           - "Game Setup": "games/sega/ongeki/brightmemory/setup.md"
