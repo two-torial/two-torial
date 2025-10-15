@@ -235,14 +235,14 @@
     ARGS=""
 
     # Optional: Add arguments per line
-    # ARGS="\$ARGS -url localhost:8083"     # Network URL
-    # ARGS="\$ARGS -p 01FXXXXXXXXXXXXXXXXX" # PCBID
+    # ARGS="$ARGS -url localhost:8083"     # Network URL
+    # ARGS="$ARGS -p 01FXXXXXXXXXXXXXXXXX" # PCBID
 
     # Append args to this script
-    ARGS="\$ARGS \$*"
+    ARGS="$ARGS $*"
 
-    cd "\$SCRIPT_DIR/contents" || exit
-    wine "spice64.exe" \$ARGS
+    cd "$SCRIPT_DIR/contents" || exit
+    wine "spice64.exe" $ARGS
     ```
 
     - On the first highlighted line: make sure `WINEPREFIX` points to your game prefix created earlier
