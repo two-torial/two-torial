@@ -60,6 +60,12 @@
 
     Missing/non-functional camera devices. Either connect necessary cameras, use the `-iidxdisablecams` Option or patch the game to bypass this check. Can be temporarily bypassed with `Test` button.
 
+### 5-1503-0043
+
+!!! tip "MONITOR ERROR"
+
+    The game isn´t finding a valid monitor. Most likely culprit is your refresh rate being wrong.
+
 ### 5-1506-0001
 
 !!! tip "CLOCK ERROR"
