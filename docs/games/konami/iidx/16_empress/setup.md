@@ -152,8 +152,8 @@
 
     !!! warning "This setting affects timing offset in the song."
 
-    - `TYPE B`: Lower latency
-    - `TYPE A`: If your monitor has high latency
+    - `TYPE A`: No frame offset - Intended for CRT displays
+    - `TYPE B`: +1 frame offset - Intended for LCD displays
 
     We recommend starting with `TYPE B` and changing this later if you encounter any issues.
 
