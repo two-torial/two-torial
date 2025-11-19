@@ -55,7 +55,7 @@
 !!! tip ""
     You need to run the data using unprotected/unpacked files. Please refer to the setup guide to find which ones you need and obtain them.
 
-    If you believe you've already done this. You might be missing a try installing the latest [vcredist](https://github.com/abbodi1406/vcredist/releases)
+    If you believe you've already done this. You might be missing a try installing the latest [vcredist](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/)
 
 ### My game is running too slow/fast or the notes are out of sync!
 

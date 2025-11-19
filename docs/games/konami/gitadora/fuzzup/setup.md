@@ -170,7 +170,7 @@
 
 !!! tip ""    
 
-    - Download and install the latest [VCRedist](https://github.com/abbodi1406/vcredist/releases/latest) (`VisualCppRedist_AIO_x86_x64.exe`)
+    - Download and install the latest [VCRedist](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/)
     - Download and install the [DirectX End-User Runtimes](https://www.microsoft.com/en-us/download/details.aspx?id=8109)
 
 ### Audio
