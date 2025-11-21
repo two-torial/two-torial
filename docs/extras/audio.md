@@ -44,6 +44,8 @@
       - Being phased out in favor of WASAPI
       - Limited audio quality compared to modern modes
 
+    💡 **Pro tip**: Use spice2x's `-lowlatencysharedaudio` setting to reduce latency.
+
 ### WASAPI Shared
 
 !!! tip ""
@@ -220,3 +222,7 @@
         - Choose which monitor to show the projector on
         - Press Alt+Tab to switch away from the projector window
         - In Discord, share the projector window
+
+### Further reading
+
+* [spice2x wiki](https://github.com/spice2x/spice2x.github.io/wiki/Audio-modes-demystified)
