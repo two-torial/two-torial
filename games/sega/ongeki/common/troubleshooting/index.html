@@ -9174,7 +9174,7 @@
 <p>Could be due to <strong>many</strong> things, the most common of which are:</p>
 <ul>
 <li><code>amdaemon</code> crashing in the background. Make sure that the <code>config_*.json</code> files
-have valid syntax, your ICF files are correct, and the OpenSSL fix is applied on Intel Core 10th Gen CPUs and newer.</li>
+have valid syntax, your ICF files are correct.</li>
 </ul>
 </div>
 <details class="info">
@@ -9190,10 +9190,9 @@ have valid syntax, your ICF files are correct, and the OpenSSL fix is applied on
 </span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="k">exit</span> /b
 </span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>
 </span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="p">:</span><span class="nl">sub</span>
-</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="k">set</span> <span class="nv">OPENSSL_ia32cap</span><span class="p">=</span>:~0x20000000
-</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="k">pushd</span> <span class="nv">%~dp0</span>
-</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="k">start</span> /b <span class="s2">&quot;AM Daemon&quot;</span> /min inject -d -k mu3hook.dll amdaemon.exe -f -c config_common.json config_server.json
-</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>ping 127.0.0.1 -n 31 <span class="p">&gt;</span> nul <span class="p">&amp;&amp;</span> taskkill /F /im amdaemon.exe
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="k">pushd</span> <span class="nv">%~dp0</span>
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="k">start</span> /b <span class="s2">&quot;AM Daemon&quot;</span> /min inject -d -k mu3hook.dll amdaemon.exe -f -c config_common.json config_server.json
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>ping 127.0.0.1 -n 31 <span class="p">&gt;</span> nul <span class="p">&amp;&amp;</span> taskkill /F /im amdaemon.exe
 </span></code></pre></div>
 <p>Double-click it to run. The script should run for 30 seconds, and you will get a file
 named <code>amdaemontest.txt</code> in <code>App\bin</code>, which you can send to help people troubleshoot your issue.</p>
@@ -9255,7 +9254,7 @@ and change "Power management mode" to "<strong>Prefer maximum performance</stron
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="May 28, 2025 13:51:12 UTC">May 28, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="November 29, 2025 06:40:23 UTC">November 29, 2025</span>
   </span>
 
     

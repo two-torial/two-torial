@@ -9256,7 +9256,7 @@
 <p>Could be due to <strong>many</strong> things, the most common of which are:</p>
 <ul>
 <li><code>amdaemon</code> crashing in the background. Make sure that the <code>config_*.json</code> files
-have valid syntax, your ICF files are correct, and the OpenSSL fix is applied on Intel Core 10th Gen CPUs and newer.</li>
+have valid syntax, your ICF files are correct.</li>
 </ul>
 </div>
 <details class="info">
@@ -9272,10 +9272,9 @@ have valid syntax, your ICF files are correct, and the OpenSSL fix is applied on
 </span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="k">exit</span> /b
 </span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>
 </span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="p">:</span><span class="nl">sub</span>
-</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="k">set</span> <span class="nv">OPENSSL_ia32cap</span><span class="p">=</span>:~0x20000000
-</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="k">pushd</span> <span class="nv">%~dp0</span>
-</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="k">start</span> /b <span class="s2">&quot;AM Daemon&quot;</span> /min inject -d -k mai2hook.dll amdaemon.exe -f -c config_common.json config_server.json
-</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>ping 127.0.0.1 -n 31 <span class="p">&gt;</span> nul <span class="p">&amp;&amp;</span> taskkill /F /im amdaemon.exe
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="k">pushd</span> <span class="nv">%~dp0</span>
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="k">start</span> /b <span class="s2">&quot;AM Daemon&quot;</span> /min inject -d -k mai2hook.dll amdaemon.exe -f -c config_common.json config_server.json
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>ping 127.0.0.1 -n 31 <span class="p">&gt;</span> nul <span class="p">&amp;&amp;</span> taskkill /F /im amdaemon.exe
 </span></code></pre></div>
 <p>Double-click it to run. The script should run for 30 seconds, and you will get a file
 named <code>amdaemontest.txt</code> in <code>App\bin</code>, which you can send to help people troubleshoot your issue.</p>
@@ -9291,9 +9290,6 @@ You can try replacing the DLLs or re-downloading data from elsewhere.</p>
 </li>
 <li>
 <p>An ill-formed keychip is defined in <code>segatools.ini</code></p>
-</li>
-<li>
-<p>You need to app the OpenSSL fix on Intel Core 10th Gen CPUs and newer.</p>
 </li>
 </ul>
 </div>
