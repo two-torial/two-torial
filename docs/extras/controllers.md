@@ -209,15 +209,15 @@
 
 ### maimai
 
-??? tip "ADX"
+??? tip "NDX"
 
     <div class="controller-flex">
-      <img class="controller-preview" src="/img/extras/controllers/maimai/yuancon_adx.webp">
+      <img class="controller-preview" src="/img/extras/controllers/maimai/yuancon_ndx.webp">
       <div>
 
-    [**Product page**](https://yuancon.store/controller/adx){target="_blank"}  
+    [**Product page**](https://yuancon.store/controller/ndx){target="_blank"}  
     **Vendor**: [YuanCon](https://yuancon.store/){target="_blank"}  
-    **Price**: $1399 + High shipping/Taxes  
+    **Price**: $899 + High shipping/Taxes  
 
       </div>
     </div>
