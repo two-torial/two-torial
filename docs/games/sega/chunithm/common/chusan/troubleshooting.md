@@ -9,7 +9,7 @@
     Could be due to **many** things, the most common of which are:
     
     - `amdaemon` crashing in the background. Make sure that the `config_*.json` files
-    have valid syntax, your ICF files are correct, and the OpenSSL fix is applied on Intel Core 10th Gen CPUs and newer.
+    have valid syntax, your ICF files are correct.
     - Using the incorrect dipswitch settings for your refresh rate (e.g. `dipsw3=0` on
     a 60 Hz screen). Refer to the game setup guide to fix it.
     - Enabling 120FPS on a monitor that is not **exactly 120 Hz** or **exactly 1080p**.
@@ -31,7 +31,6 @@
     exit /b
 
     :sub
-    set OPENSSL_ia32cap=:~0x20000000
     pushd %~dp0
     start /b "AM Daemon" /min inject_x64 -d -k chusanhook_x64.dll amdaemon.exe -c config_common.json config_server.json config_client.json config_cvt.json config_sp.json config_hook.json
     ping 127.0.0.1 -n 31 > nul && taskkill /im amdaemon.exe

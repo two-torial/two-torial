@@ -131,10 +131,6 @@
 
 --8<-- "docs/snippets/common/setup_vcredist_directx.md"
 
-## OpenSSL Fix (Intel 10th Gen+)
-
---8<-- "docs/snippets/sega/common/cpu_intel_openssl.md"
-
 ## Before playing
 
 --8<-- "docs/snippets/common/before_playing.md"

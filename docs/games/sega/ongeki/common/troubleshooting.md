@@ -9,7 +9,7 @@
     Could be due to **many** things, the most common of which are:
 
     - `amdaemon` crashing in the background. Make sure that the `config_*.json` files
-    have valid syntax, your ICF files are correct, and the OpenSSL fix is applied on Intel Core 10th Gen CPUs and newer.
+    have valid syntax, your ICF files are correct.
 
 ??? info "Capturing logs from `amdaemon` for troubleshooting"
 
@@ -26,7 +26,6 @@
     exit /b
 
     :sub
-    set OPENSSL_ia32cap=:~0x20000000
     pushd %~dp0
     start /b "AM Daemon" /min inject -d -k mu3hook.dll amdaemon.exe -f -c config_common.json config_server.json
     ping 127.0.0.1 -n 31 > nul && taskkill /F /im amdaemon.exe
