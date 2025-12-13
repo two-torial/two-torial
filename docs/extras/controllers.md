@@ -111,19 +111,6 @@
       </div>
     </div>
 
-??? tip "YuanCon's Pop'n Controller"
-
-    <div class="controller-flex">
-      <img class="controller-preview" src="/img/extras/controllers/popn/yuancon_popn.webp">
-      <div>
-
-    [**Product page**](https://yuancon.store/controller/popn){target="_blank"}  
-    **Vendor**: [YuanCon](https://yuancon.store/){target="_blank"}  
-    **Price**: $149 + Shipping/Taxes
-
-      </div>
-    </div>
-
 ### Dance Dance Revolution
 
 ??? tip "L-TEK / iamats"
