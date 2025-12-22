@@ -240,6 +240,11 @@ nav:
                   - "Controllers": "games/sega/chunithm/x-verse/controllers.md"
                   - "Troubleshooting": "games/sega/chunithm/x-verse/troubleshooting.md"
                   - "Cab-to-Cab": "games/sega/chunithm/x-verse/c2c.md"
+              - "X-VERSE-X":
+                  - "Game Setup": "games/sega/chunithm/x-verse-x/setup.md"
+                  - "Controllers": "games/sega/chunithm/x-verse-x/controllers.md"
+                  - "Troubleshooting": "games/sega/chunithm/x-verse-x/troubleshooting.md"
+                  - "Cab-to-Cab": "games/sega/chunithm/x-verse-x/c2c.md"
           - "maimai DX":
               - "BUDDiES":
                   - "Game Setup": "games/sega/maimaidx/buddies/setup.md"
