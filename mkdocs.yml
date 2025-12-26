@@ -73,6 +73,10 @@ nav:
                   - "Game Setup": "games/konami/sdvx/6_exceedgear/setup.md"
                   - "Extra Information": "games/konami/sdvx/6_exceedgear/extras.md"
                   - "Troubleshooting": "games/konami/sdvx/6_exceedgear/troubleshooting.md"
+              - "VII NABLA":
+                  - "Game Setup": "games/konami/sdvx/7_nabla/setup.md"
+                  - "Extra Information": "games/konami/sdvx/7_nabla/extras.md"
+                  - "Troubleshooting": "games/konami/sdvx/7_nabla/troubleshooting.md"
           - "pop'n music":
               - "Usaneko":
                   - "Game Setup": "games/konami/popn/usaneko/setup.md"

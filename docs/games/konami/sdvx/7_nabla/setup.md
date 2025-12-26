@@ -1,4 +1,4 @@
-<img class="header-logo" src="/img/konami/sdvx/6_exceedgear/logo.webp">
+<img class="header-logo" src="/img/konami/sdvx/7_nabla/logo.webp">
 # Game Setup
 
 --8<-- "docs/snippets/common/data_warning.md"
@@ -26,7 +26,7 @@
 
 ## Updating data
 
-!!! info "For a comprehensive list of all game updates in chronological order, visit [BemaniWiki](https://bemaniwiki.com/?SOUND+VOLTEX+EXCEED+GEAR#sdvxegvernew)"
+!!! info "For a comprehensive list of all game updates in chronological order, visit [BemaniWiki](https://bemaniwiki.com/?SOUND+VOLTEX+%A2%E0#sdvxnblvernew)"
 
 !!! danger "Make sure you're using the right update for your current game version"
 
