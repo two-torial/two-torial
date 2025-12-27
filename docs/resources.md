@@ -4,7 +4,7 @@
 
 !!! tip "See [spice2x Patching](./extras/patchsp2x.md)"
 
-    - **TWO-TORIAL** - `https://sp2x.two-torial.xyz/` - **Our [open-source](https://github.com/two-torial/sp2xpatcher) patcher for spice2x compatible games**
+    - **TWO-TORIAL** - `https://sp2x.two-torial.xyz/` - **Our patcher for spice2x compatible games**
     - **DJTrackers** - `https://djtrackers.com/bemanipatcher/2x` - **Alternative patcher for anything we don't support**
 
 ## Web Patchers
